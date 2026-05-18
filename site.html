@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Analytics</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --primary:#1a2744; --accent:#c9a84c; --green:#16a34a; --red:#dc2626;
+  --bg:#f4f6fb; --surface:#fff; --border:rgba(0,0,0,0.07); --text:#0f172a;
+  --muted:#64748b; --stone:#94a3b8; --radius:10px; --shadow:0 1px 8px rgba(0,0,0,0.06);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:14px}
+a{color:inherit;text-decoration:none}
+.app{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+.sidebar{background:var(--primary);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sidebar-logo{padding:24px 20px 20px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.sidebar-logo span{font-family:'Playfair Display',serif;font-size:1.15rem;color:#fff;font-weight:700}
+.sidebar-logo small{display:block;font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
+.sidebar-section{padding:16px 12px 8px;font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,0.3)}
+.sidebar-link{display:flex;align-items:center;gap:10px;padding:9px 20px;color:rgba(255,255,255,0.6);font-size:13px;font-weight:500;border-radius:6px;margin:0 8px;transition:all .15s;cursor:pointer}
+.sidebar-link:hover,.sidebar-link.active{background:rgba(255,255,255,0.1);color:#fff}
+.sidebar-link .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.sidebar-footer{margin-top:auto;padding:16px 20px;border-top:1px solid rgba(255,255,255,0.08);font-size:11px;color:rgba(255,255,255,0.3)}
+.main{background:var(--bg);overflow-y:auto}
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 28px;height:60px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10}
+.topbar-left{display:flex;align-items:center;gap:12px}
+.back-btn{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.back-btn:hover{color:var(--primary)}
+.topbar-title{font-weight:600;font-size:15px}
+.topbar-right{display:flex;align-items:center;gap:12px}
+.date-badge{font-size:12px;color:var(--muted);background:var(--bg);padding:5px 12px;border-radius:20px;border:1px solid var(--border)}
+.content{padding:28px}
+.kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:22px}
+.kpi-card{background:var(--surface);border-radius:var(--radius);padding:18px;border:1px solid var(--border);box-shadow:var(--shadow)}
+.kpi-label{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.kpi-value{font-size:1.6rem;font-weight:700;color:var(--text);line-height:1;margin-bottom:6px}
+.kpi-sub{font-size:11px;color:var(--stone)}
+.card{background:var(--surface);border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow);overflow:hidden;margin-bottom:18px}
+.card-header{padding:14px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.card-title{font-size:13px;font-weight:600}
+.card-body{padding:20px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.data-table{width:100%;border-collapse:collapse;font-size:13px}
+.data-table th{text-align:left;font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:8px 12px;border-bottom:1px solid var(--border)}
+.data-table td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.data-table tr:last-child td{border-bottom:none}
+.data-table tr:hover td{background:var(--bg)}
+.video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.video-card{border:1px solid var(--border);border-radius:8px;overflow:hidden;background:var(--surface)}
+.video-thumb{aspect-ratio:16/9;background:#1a1a2e;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.video-thumb img{width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0}
+.video-thumb .play{width:36px;height:36px;background:rgba(255,255,255,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;position:relative;z-index:1}
+.video-thumb .format-badge{position:absolute;top:8px;right:8px;font-size:9px;font-weight:700;background:rgba(0,0,0,0.6);color:#fff;padding:2px 6px;border-radius:4px;z-index:1}
+.video-info{padding:10px 12px}
+.video-title{font-size:12px;font-weight:600;line-height:1.4;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.video-meta{font-size:11px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.video-views{font-size:11px;color:var(--stone);margin-top:4px}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--border);font-size:13px}
+.stat-row:last-child{border-bottom:none}
+.stat-val{font-weight:600}
+.stat-val.green{color:var(--green)}
+.stat-val.amber{color:#d97706}
+</style>
+</head>
+<body>
+<div class="app">
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <span>Portfolio HQ</span>
+      <small>Analytics Dashboard</small>
+    </div>
+    <div class="sidebar-section">Overview</div>
+    <a class="sidebar-link" href="index.html">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      Main Dashboard
+    </a>
+    <div class="sidebar-section">Sites</div>
+    <a class="sidebar-link" href="site.html?s=medicare-starter"><span class="dot" style="background:#f59e0b"></span>Medicare Starter</a>
+    <a class="sidebar-link" href="site.html?s=solar-planner-guide"><span class="dot" style="background:#22c55e"></span>Solar Planner</a>
+    <a class="sidebar-link" href="site.html?s=solar-home-planner"><span class="dot" style="background:#10b981"></span>Solar Home Planner</a>
+    <a class="sidebar-link" href="site.html?s=injury-victim-guide"><span class="dot" style="background:#ef4444"></span>Injury Victim Guide</a>
+    <a class="sidebar-link" href="site.html?s=home-insurance-guide"><span class="dot" style="background:#3b82f6"></span>Home Insurance Clear</a>
+    <a class="sidebar-link" href="site.html?s=mortgage-advisor-guide"><span class="dot" style="background:#8b5cf6"></span>Mortgage Advisor</a>
+    <a class="sidebar-link" href="site.html?s=therapy-finder-guide"><span class="dot" style="background:#ec4899"></span>Therapy Finder</a>
+    <a class="sidebar-link" href="site.html?s=pet-doctor-guide"><span class="dot" style="background:#f97316"></span>Pet Doctor Guide</a>
+    <a class="sidebar-link" href="site.html?s=small-biz-finance-guide"><span class="dot" style="background:#14b8a6"></span>Small Biz Finance</a>
+    <div class="sidebar-footer" id="sidebar-footer">Loading…</div>
+  </nav>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-left">
+        <a class="back-btn" href="index.html">← All Sites</a>
+        <span style="color:var(--border)">|</span>
+        <div class="topbar-title" id="page-title">Site Dashboard</div>
+      </div>
+      <div class="topbar-right">
+        <span class="date-badge" id="period-badge">Loading…</span>
+        <a id="visit-site-btn" href="#" target="_blank" style="font-size:12px;background:var(--primary);color:#fff;padding:7px 14px;border-radius:6px;font-weight:500">↗ Visit Site</a>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">AdSense Revenue</div>
+          <div class="kpi-value" id="kpi-revenue">—</div>
+          <div class="kpi-sub" id="kpi-revenue-sub">Loading…</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Page Views</div>
+          <div class="kpi-value" id="kpi-views">—</div>
+          <div class="kpi-sub">Cloudflare Analytics</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Unique Visitors</div>
+          <div class="kpi-value" id="kpi-visitors">—</div>
+          <div class="kpi-sub">MTD</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Articles</div>
+          <div class="kpi-value" id="kpi-articles">—</div>
+          <div class="kpi-sub">Published</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">YouTube Views</div>
+          <div class="kpi-value" id="kpi-yt-views">—</div>
+          <div class="kpi-sub" id="kpi-yt-sub">— videos live</div>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Daily Page Views — MTD</div></div>
+          <div class="card-body"><canvas id="viewsChart" height="120"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">AdSense Performance</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>Status</span><span class="stat-val amber" id="adsense-status">Under Review</span></div>
+            <div class="stat-row"><span>Est. RPM (niche)</span><span class="stat-val" id="adsense-rpm">—</span></div>
+            <div class="stat-row"><span>Impressions</span><span class="stat-val" id="adsense-impressions">—</span></div>
+            <div class="stat-row"><span>Clicks</span><span class="stat-val" id="adsense-clicks">—</span></div>
+            <div class="stat-row"><span>RPM (actual)</span><span class="stat-val" id="adsense-actual-rpm">—</span></div>
+            <div class="stat-row"><span>Revenue MTD</span><span class="stat-val green" id="adsense-revenue">$0.00</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Site Health</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>SSL Certificate</span><span class="stat-val green">✓ Active</span></div>
+            <div class="stat-row"><span>About Page</span><span class="stat-val green">✓ Live</span></div>
+            <div class="stat-row"><span>Contact Page</span><span class="stat-val green">✓ Live</span></div>
+            <div class="stat-row"><span>Privacy Policy</span><span class="stat-val green">✓ Live</span></div>
+            <div class="stat-row"><span>Sitemap</span><span class="stat-val green">✓ Submitted</span></div>
+            <div class="stat-row"><span>AdSense Auto Ads</span><span class="stat-val amber">Pending Review</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Traffic Summary</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>Total Requests</span><span class="stat-val" id="cf-requests">—</span></div>
+            <div class="stat-row"><span>Page Views</span><span class="stat-val" id="cf-pv">—</span></div>
+            <div class="stat-row"><span>Unique Visitors</span><span class="stat-val" id="cf-uniq">—</span></div>
+            <div class="stat-row"><span>Avg Views/Day</span><span class="stat-val" id="cf-avg-day">—</span></div>
+            <div class="stat-row"><span>Best Day</span><span class="stat-val" id="cf-best-day">—</span></div>
+            <div class="stat-row"><span>Data Source</span><span class="stat-val">Cloudflare Analytics</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Published Articles</div>
+          <span id="article-count-badge" style="font-size:11px;color:var(--muted)"></span>
+        </div>
+        <table class="data-table" id="articles-table">
+          <thead>
+            <tr><th>Title</th><th>Status</th><th>Est. Views</th><th>Est. Revenue</th><th>Link</th></tr>
+          </thead>
+          <tbody id="articles-tbody">
+            <tr><td colspan="5" style="text-align:center;color:var(--muted);padding:24px">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">YouTube Videos</div>
+          <a id="yt-channel-link" href="#" target="_blank" style="font-size:12px;color:var(--primary);font-weight:500">View Channel ↗</a>
+        </div>
+        <div class="card-body">
+          <div class="video-grid" id="video-grid">
+            <div style="grid-column:1/-1;text-align:center;color:var(--muted);padding:20px">Loading…</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+const CHANNELS = {
+  'medicare-starter':        'UCGJpvEi7Z9J5nJhHYjiWEjQ',
+  'solar-planner-guide':     'UCVEzRfjjefdi3iejwvU-_qw',
+  'solar-home-planner':      'UCfE4GThPeoaeQH87Nm0R5bQ',
+  'injury-victim-guide':     'UCKdob_ce3uUbrSwQjz7VHRA',
+  'home-insurance-guide':    'UCLRh0t2_23u2t7HuaUqatTg',
+  'mortgage-advisor-guide':  'UCNhJxb3kyipoKYjwehMRmfQ',
+  'therapy-finder-guide':    'UCcEFub-Jmq9qDo1rSyRzAnQ',
+  'pet-doctor-guide':        'UCIICdgx_JrbgZiO_nnCGRRw',
+  'small-biz-finance-guide': 'UCnQ7VLRjkv-kyL1YgvlQh0w',
+};
+
+const slug = new URLSearchParams(window.location.search).get('s') || 'medicare-starter';
+const channelId = CHANNELS[slug] || '';
+
+// Mark active sidebar link
+document.querySelectorAll('.sidebar-link').forEach(a => {
+  if (a.href && a.href.includes('s=' + slug)) a.classList.add('active');
+});
+
+function fmt(n) {
+  if (n === undefined || n === null || n === 0) return '—';
+  if (n >= 1000000) return (n/1000000).toFixed(1)+'M';
+  if (n >= 1000) return (n/1000).toFixed(1)+'k';
+  return n.toLocaleString();
+}
+
+let viewsChart = null;
+
+fetch('/stats.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const site = data.sites.find(s => s.slug === slug);
+    if (!site) {
+      document.getElementById('page-title').textContent = 'Site not found';
+      return;
+    }
+
+    // Header
+    document.getElementById('page-title').textContent = site.name;
+    document.getElementById('visit-site-btn').href = 'https://' + site.domain;
+    document.getElementById('yt-channel-link').href = channelId ? 'https://www.youtube.com/channel/' + channelId : '#';
+
+    const d = new Date(data.generated_at);
+    document.getElementById('period-badge').textContent =
+      new Date(data.period.start).toLocaleDateString('en-US',{month:'short',day:'numeric'}) + ' – ' +
+      new Date(data.period.end).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    document.getElementById('sidebar-footer').textContent = 'Last sync: ' + d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+
+    // KPI cards
+    const cf = site.cloudflare;
+    const ads = site.adsense;
+    document.getElementById('kpi-revenue').textContent = '$' + (ads.revenue||0).toFixed(2);
+    document.getElementById('kpi-revenue-sub').textContent = data.adsense_connected ? 'AdSense connected' : 'Pending approval';
+    document.getElementById('kpi-views').textContent = fmt(cf.page_views);
+    document.getElementById('kpi-visitors').textContent = fmt(cf.unique_visitors);
+    document.getElementById('kpi-articles').textContent = site.articles;
+    document.getElementById('kpi-yt-views').textContent = fmt(site.yt_total_views);
+    document.getElementById('kpi-yt-sub').textContent = site.videos.length + ' video' + (site.videos.length!==1?'s':'') + ' live';
+
+    // AdSense panel
+    if (ads.revenue > 0) {
+      document.getElementById('adsense-status').textContent = '✓ Live';
+      document.getElementById('adsense-status').className = 'stat-val green';
+    }
+    document.getElementById('adsense-rpm').textContent = '$' + site.rpm_est;
+    document.getElementById('adsense-impressions').textContent = ads.impressions ? ads.impressions.toLocaleString() : '—';
+    document.getElementById('adsense-clicks').textContent = ads.clicks ? ads.clicks.toLocaleString() : '—';
+    document.getElementById('adsense-actual-rpm').textContent = ads.rpm ? '$' + ads.rpm.toFixed(2) : '—';
+    document.getElementById('adsense-revenue').textContent = '$' + (ads.revenue||0).toFixed(2);
+
+    // Traffic summary
+    const daily = cf.daily || [];
+    const totalDays = daily.length || 1;
+    const avgDay = Math.round((cf.page_views||0) / totalDays);
+    let bestDay = daily.length ? daily.reduce((a,b) => b.pageViews>a.pageViews?b:a, daily[0]) : null;
+    document.getElementById('cf-requests').textContent = fmt(cf.visits);
+    document.getElementById('cf-pv').textContent = fmt(cf.page_views);
+    document.getElementById('cf-uniq').textContent = fmt(cf.unique_visitors);
+    document.getElementById('cf-avg-day').textContent = avgDay > 0 ? avgDay.toLocaleString() : '—';
+    document.getElementById('cf-best-day').textContent = bestDay && bestDay.pageViews > 0
+      ? new Date(bestDay.date).toLocaleDateString('en-US',{month:'short',day:'numeric'}) + ' (' + fmt(bestDay.pageViews) + ')'
+      : '—';
+
+    // Articles table
+    document.getElementById('article-count-badge').textContent = site.articles + ' articles';
+    if (site.article_titles && site.article_titles.length) {
+      document.getElementById('articles-tbody').innerHTML = site.article_titles.map(title => {
+        const urlSlug = title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+        return `<tr>
+          <td><span style="font-weight:500">${title}</span></td>
+          <td><span style="font-size:9px;font-weight:600;background:#dcfce7;color:#16a34a;padding:2px 7px;border-radius:8px">Live</span></td>
+          <td style="color:var(--stone)">—</td>
+          <td style="color:var(--stone)">—</td>
+          <td><a href="https://${site.domain}/${urlSlug}/" target="_blank" style="font-size:11px;color:var(--primary)">↗</a></td>
+        </tr>`;
+      }).join('');
+    } else {
+      document.getElementById('articles-tbody').innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:16px">No article data yet.</td></tr>';
+    }
+
+    // Video grid
+    if (site.videos && site.videos.length) {
+      document.getElementById('video-grid').innerHTML = site.videos.map(v => {
+        const thumbId = v.shorts_id || v.standard_id;
+        const shortViews = v.shorts_stats?.views || 0;
+        const stdViews   = v.standard_stats?.views || 0;
+        const totalViews = shortViews + stdViews;
+        const formatBadge = v.shorts_id && v.standard_id ? 'SHORTS + STD'
+          : v.shorts_id ? 'SHORTS' : 'STANDARD';
+        return `<div class="video-card">
+          <div class="video-thumb">
+            ${thumbId ? `<img src="https://img.youtube.com/vi/${thumbId}/mqdefault.jpg" alt="">` : ''}
+            <div class="play">▶</div>
+            <span class="format-badge">${formatBadge}</span>
+          </div>
+          <div class="video-info">
+            <div class="video-title">${v.title || 'Untitled'}</div>
+            <div class="video-meta">
+              ${v.shorts_id ? `<a href="https://www.youtube.com/shorts/${v.shorts_id}" target="_blank" style="color:var(--primary)">Shorts ↗</a>` : ''}
+              ${v.standard_id ? `<a href="https://www.youtube.com/watch?v=${v.standard_id}" target="_blank" style="color:var(--primary)">Standard ↗</a>` : ''}
+            </div>
+            ${totalViews > 0 ? `<div class="video-views">${totalViews.toLocaleString()} total views</div>` : ''}
+          </div>
+        </div>`;
+      }).join('');
+    } else {
+      document.getElementById('video-grid').innerHTML = '<div style="grid-column:1/-1;text-align:center;color:var(--muted);padding:20px">No video data yet.</div>';
+    }
+
+    // Daily views chart
+    const siteColor = site.color || '#3b82f6';
+    const chartLabels = daily.map(d => {
+      const dt = new Date(d.date);
+      return dt.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+    });
+    const chartData = daily.map(d => d.pageViews || 0);
+
+    if (viewsChart) viewsChart.destroy();
+    const ctx = document.getElementById('viewsChart').getContext('2d');
+    viewsChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: chartLabels.length ? chartLabels : ['No data'],
+        datasets: [{
+          label: 'Page Views',
+          data: chartData.length ? chartData : [0],
+          borderColor: siteColor,
+          backgroundColor: siteColor + '22',
+          fill: true, tension: 0.4, pointRadius: chartLabels.length > 15 ? 0 : 3,
+          pointHoverRadius: 4,
+        }],
+      },
+      options: {
+        responsive:true,
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:c=>' '+c.raw.toLocaleString()+' views'}},
+        },
+        scales:{
+          x:{grid:{display:false},ticks:{font:{size:10},maxTicksLimit:8}},
+          y:{ticks:{font:{size:10}},grid:{color:'#f1f5f9'},beginAtZero:true},
+        },
+      },
+    });
+  })
+  .catch(err => {
+    console.error('Failed to load stats.json:', err);
+    document.getElementById('page-title').textContent = slug;
+    document.getElementById('kpi-revenue').textContent = '—';
+    document.getElementById('articles-tbody').innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:16px">stats.json not available — run fetch pipeline first</td></tr>';
+    document.getElementById('video-grid').innerHTML = '<div style="grid-column:1/-1;text-align:center;color:var(--muted);padding:20px">stats.json not available</div>';
+    document.getElementById('sidebar-footer').textContent = 'Stats not generated yet';
+
+    // Placeholder chart
+    const ctx = document.getElementById('viewsChart').getContext('2d');
+    new Chart(ctx, {
+      type:'line',
+      data:{labels:['No data'],datasets:[{data:[0],borderColor:'#94a3b8',backgroundColor:'#94a3b822',fill:true}]},
+      options:{responsive:true,plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{beginAtZero:true}}},
+    });
+  });
+</script>
+</body>
+</html>

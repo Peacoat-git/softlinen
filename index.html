@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Analytics — Main Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --primary: #1a2744;
+  --accent:  #c9a84c;
+  --green:   #16a34a;
+  --red:     #dc2626;
+  --bg:      #f4f6fb;
+  --surface: #ffffff;
+  --border:  rgba(0,0,0,0.07);
+  --text:    #0f172a;
+  --muted:   #64748b;
+  --stone:   #94a3b8;
+  --radius:  10px;
+  --shadow:  0 1px 8px rgba(0,0,0,0.06);
+}
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--text); font-size:14px; }
+a { color:inherit; text-decoration:none; }
+.app { display:grid; grid-template-columns:220px 1fr; min-height:100vh; }
+.sidebar { background:var(--primary); display:flex; flex-direction:column; position:sticky; top:0; height:100vh; overflow-y:auto; }
+.sidebar-logo { padding:24px 20px 20px; border-bottom:1px solid rgba(255,255,255,0.08); }
+.sidebar-logo span { font-family:'Playfair Display',serif; font-size:1.15rem; color:#fff; font-weight:700; }
+.sidebar-logo small { display:block; font-size:10px; color:rgba(255,255,255,0.4); letter-spacing:.1em; text-transform:uppercase; margin-top:2px; }
+.sidebar-section { padding:16px 12px 8px; font-size:9px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,0.3); }
+.sidebar-link { display:flex; align-items:center; gap:10px; padding:9px 20px; color:rgba(255,255,255,0.6); font-size:13px; font-weight:500; border-radius:6px; margin:0 8px; transition:all .15s; }
+.sidebar-link:hover,.sidebar-link.active { background:rgba(255,255,255,0.1); color:#fff; }
+.sidebar-link .dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+.sidebar-footer { margin-top:auto; padding:16px 20px; border-top:1px solid rgba(255,255,255,0.08); font-size:11px; color:rgba(255,255,255,0.3); }
+.main { background:var(--bg); overflow-y:auto; }
+.topbar { background:var(--surface); border-bottom:1px solid var(--border); padding:0 28px; height:60px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:10; }
+.topbar-title { font-weight:600; font-size:15px; }
+.topbar-right { display:flex; align-items:center; gap:12px; }
+.date-badge { font-size:12px; color:var(--muted); background:var(--bg); padding:5px 12px; border-radius:20px; border:1px solid var(--border); }
+.refresh-btn { background:var(--primary); color:#fff; border:none; padding:7px 16px; border-radius:6px; font-size:12px; font-weight:500; cursor:pointer; }
+.content { padding:28px; }
+.kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px; }
+.kpi-card { background:var(--surface); border-radius:var(--radius); padding:20px; border:1px solid var(--border); box-shadow:var(--shadow); }
+.kpi-label { font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+.kpi-value { font-size:1.9rem; font-weight:700; color:var(--text); line-height:1; margin-bottom:8px; }
+.kpi-sub { font-size:11px; color:var(--stone); margin-top:2px; }
+.kpi-change { font-size:12px; font-weight:500; display:flex; align-items:center; gap:4px; }
+.kpi-change.up { color:var(--green); }
+.kpi-change.pending { color:var(--stone); }
+.charts-row { display:grid; grid-template-columns:2fr 1fr; gap:16px; margin-bottom:24px; }
+.card { background:var(--surface); border-radius:var(--radius); border:1px solid var(--border); box-shadow:var(--shadow); overflow:hidden; }
+.card-header { padding:16px 20px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; }
+.card-title { font-size:13px; font-weight:600; }
+.card-badge { font-size:10px; font-weight:600; background:#f0f4ff; color:#3b5bdb; padding:3px 8px; border-radius:10px; }
+.card-badge.green { background:#dcfce7; color:#16a34a; }
+.card-body { padding:20px; }
+canvas { width:100%!important; }
+.revenue-table { width:100%; border-collapse:collapse; font-size:13px; }
+.revenue-table th { text-align:left; font-size:10px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding:10px 12px; border-bottom:1px solid var(--border); }
+.revenue-table td { padding:12px; border-bottom:1px solid var(--border); vertical-align:middle; }
+.revenue-table tr:last-child td { border-bottom:none; }
+.revenue-table tr:hover td { background:var(--bg); }
+.site-name-cell { display:flex; align-items:center; gap:10px; }
+.site-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+.site-link { font-weight:500; color:var(--primary); }
+.site-link:hover { text-decoration:underline; }
+.badge-live { font-size:9px; font-weight:600; background:#dcfce7; color:#16a34a; padding:2px 7px; border-radius:8px; }
+.badge-pending { font-size:9px; font-weight:600; background:#fef9c3; color:#ca8a04; padding:2px 7px; border-radius:8px; }
+.num { font-variant-numeric:tabular-nums; }
+.num.green { color:var(--green); font-weight:600; }
+.bottom-row { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; }
+.stat-row { display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid var(--border); font-size:13px; }
+.stat-row:last-child { border-bottom:none; }
+.stat-val { font-weight:600; }
+.stat-val.green { color:var(--green); }
+.stat-val.amber { color:#d97706; }
+.source-item { display:flex; align-items:center; justify-content:space-between; padding:10px 0; border-bottom:1px solid var(--border); }
+.source-item:last-child { border-bottom:none; }
+.source-label { display:flex; align-items:center; gap:8px; font-size:13px; }
+.source-icon { width:28px; height:28px; border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:14px; }
+.source-value { font-weight:600; font-size:13px; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <span>Portfolio HQ</span>
+      <small>Analytics Dashboard</small>
+    </div>
+    <div class="sidebar-section">Overview</div>
+    <a class="sidebar-link active" href="index.html">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      Main Dashboard
+    </a>
+    <div class="sidebar-section">Sites</div>
+    <a class="sidebar-link" href="site.html?s=medicare-starter"><span class="dot" style="background:#f59e0b"></span>Medicare Starter</a>
+    <a class="sidebar-link" href="site.html?s=solar-planner-guide"><span class="dot" style="background:#22c55e"></span>Solar Planner</a>
+    <a class="sidebar-link" href="site.html?s=solar-home-planner"><span class="dot" style="background:#10b981"></span>Solar Home Planner</a>
+    <a class="sidebar-link" href="site.html?s=injury-victim-guide"><span class="dot" style="background:#ef4444"></span>Injury Victim Guide</a>
+    <a class="sidebar-link" href="site.html?s=home-insurance-guide"><span class="dot" style="background:#3b82f6"></span>Home Insurance Clear</a>
+    <a class="sidebar-link" href="site.html?s=mortgage-advisor-guide"><span class="dot" style="background:#8b5cf6"></span>Mortgage Advisor</a>
+    <a class="sidebar-link" href="site.html?s=therapy-finder-guide"><span class="dot" style="background:#ec4899"></span>Therapy Finder</a>
+    <a class="sidebar-link" href="site.html?s=pet-doctor-guide"><span class="dot" style="background:#f97316"></span>Pet Doctor Guide</a>
+    <a class="sidebar-link" href="site.html?s=small-biz-finance-guide"><span class="dot" style="background:#14b8a6"></span>Small Biz Finance</a>
+    <div class="sidebar-section">Data Sources</div>
+    <a class="sidebar-link" href="#" id="adsense-status-link">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      AdSense <span id="adsense-dot" style="margin-left:auto;font-size:9px;color:rgba(255,255,255,0.3)">●</span>
+    </a>
+    <a class="sidebar-link" href="#" id="yt-status-link">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+      YouTube <span id="yt-dot" style="margin-left:auto;font-size:9px;color:rgba(255,255,255,0.3)">●</span>
+    </a>
+    <a class="sidebar-link" href="#">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      Cloudflare ✓
+    </a>
+    <div class="sidebar-footer" id="sidebar-footer">Fetching data…</div>
+  </nav>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-title">Portfolio Overview</div>
+      <div class="topbar-right">
+        <span class="date-badge" id="period-badge">Loading…</span>
+        <button class="refresh-btn" onclick="loadStats()">↻ Refresh</button>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Total Revenue (MTD)</div>
+          <div class="kpi-value" id="kpi-revenue">—</div>
+          <div class="kpi-change pending" id="kpi-revenue-note">Loading…</div>
+          <div class="kpi-sub">AdSense + affiliate</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Page Views (MTD)</div>
+          <div class="kpi-value" id="kpi-views">—</div>
+          <div class="kpi-change pending">Cloudflare Analytics</div>
+          <div class="kpi-sub">Across all 9 sites</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">YouTube Views</div>
+          <div class="kpi-value" id="kpi-yt">—</div>
+          <div class="kpi-change pending" id="kpi-yt-note">— videos live</div>
+          <div class="kpi-sub">Shorts + Standard</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Articles Published</div>
+          <div class="kpi-value" id="kpi-articles">—</div>
+          <div class="kpi-change pending" id="kpi-articles-note">Across 9 sites</div>
+          <div class="kpi-sub">From GitHub repos</div>
+        </div>
+      </div>
+
+      <div class="charts-row">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Revenue by Type — Projected 2026</div>
+            <span class="card-badge">PROJECTED</span>
+          </div>
+          <div class="card-body"><canvas id="revenueChart" height="110"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Revenue Sources</div></div>
+          <div class="card-body">
+            <div class="source-item">
+              <div class="source-label"><div class="source-icon" style="background:#fff3e0">📊</div>Google AdSense</div>
+              <span class="source-value" id="src-adsense" style="color:var(--stone)">—</span>
+            </div>
+            <div class="source-item">
+              <div class="source-label"><div class="source-icon" style="background:#fff8e1">🛒</div>Amazon Associates</div>
+              <span class="source-value" style="color:var(--stone)">$0.00</span>
+            </div>
+            <div class="source-item">
+              <div class="source-label"><div class="source-icon" style="background:#fce4ec">🔗</div>Lead Gen / CPA</div>
+              <span class="source-value" style="color:var(--stone)">Not set up</span>
+            </div>
+            <div class="source-item">
+              <div class="source-label"><div class="source-icon" style="background:#e8f5e9">▶</div>YouTube AdSense</div>
+              <span class="source-value" style="color:var(--stone)">YPP pending</span>
+            </div>
+            <div class="source-item">
+              <div class="source-label"><div class="source-icon" style="background:#e3f2fd">📧</div>Email / Sponsorship</div>
+              <span class="source-value" style="color:var(--stone)">Not set up</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom:24px">
+        <div class="card-header">
+          <div class="card-title">Site Performance — All Properties</div>
+          <span class="card-badge green" id="table-badge">Loading…</span>
+        </div>
+        <table class="revenue-table">
+          <thead>
+            <tr>
+              <th>Site</th>
+              <th>Articles</th>
+              <th>Page Views</th>
+              <th>Visitors</th>
+              <th>Est. RPM</th>
+              <th>AdSense Rev</th>
+              <th>YT Views</th>
+              <th>Videos</th>
+            </tr>
+          </thead>
+          <tbody id="sites-tbody">
+            <tr><td colspan="8" style="text-align:center;color:var(--muted);padding:24px">Loading data from stats.json…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bottom-row">
+        <div class="card">
+          <div class="card-header"><div class="card-title">YouTube — All Channels</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>Total Videos</span><span class="stat-val" id="yt-total-videos">—</span></div>
+            <div class="stat-row"><span>Total Views</span><span class="stat-val" id="yt-total-views">—</span></div>
+            <div class="stat-row"><span>Top Site by Views</span><span class="stat-val" id="yt-top-site">—</span></div>
+            <div class="stat-row"><span>YPP Threshold</span><span class="stat-val amber">1k subs / 4k hrs</span></div>
+            <div class="stat-row"><span>Shorts live</span><span class="stat-val" id="yt-shorts">—</span></div>
+            <div class="stat-row"><span>Standard live</span><span class="stat-val" id="yt-standard">—</span></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header"><div class="card-title">Content Pipeline</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>Total Articles</span><span class="stat-val" id="pipe-articles">—</span></div>
+            <div class="stat-row"><span>Avg per Site</span><span class="stat-val" id="pipe-avg">—</span></div>
+            <div class="stat-row"><span>Videos / week</span><span class="stat-val">27 (3×/wk)</span></div>
+            <div class="stat-row"><span>Article cadence</span><span class="stat-val">2/day auto</span></div>
+            <div class="stat-row"><span>AdSense status</span><span class="stat-val amber" id="pipe-adsense">Under review</span></div>
+            <div class="stat-row"><span>YouTube API</span><span class="stat-val" id="pipe-yt">—</span></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header"><div class="card-title">Projected Monthly (est.)</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>10k views @ avg RPM</span><span class="stat-val">$80–120</span></div>
+            <div class="stat-row"><span>50k views @ avg RPM</span><span class="stat-val">$400–600</span></div>
+            <div class="stat-row"><span>100k views @ avg RPM</span><span class="stat-val">$800–1,200</span></div>
+            <div class="stat-row"><span>Legal/Insurance CPA</span><span class="stat-val">$200–800</span></div>
+            <div class="stat-row"><span>YouTube YPP (est.)</span><span class="stat-val">$50–200</span></div>
+            <div class="stat-row" style="border-top:2px solid var(--accent);margin-top:4px;padding-top:12px">
+              <span style="font-weight:600">100k views target</span>
+              <span class="stat-val green" style="font-size:15px">$1,250–2,000/mo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+const COLORS = {
+  'medicare-starter':'#f59e0b','solar-planner-guide':'#22c55e','solar-home-planner':'#10b981',
+  'injury-victim-guide':'#ef4444','home-insurance-guide':'#3b82f6','mortgage-advisor-guide':'#8b5cf6',
+  'therapy-finder-guide':'#ec4899','pet-doctor-guide':'#f97316','small-biz-finance-guide':'#14b8a6'
+};
+
+function fmt(n) {
+  if (n === undefined || n === null) return '—';
+  if (n >= 1000000) return (n/1000000).toFixed(1)+'M';
+  if (n >= 1000) return (n/1000).toFixed(1)+'k';
+  return n.toLocaleString();
+}
+
+let revenueChart = null;
+
+function loadStats() {
+  fetch('stats.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const t = data.totals;
+      const period = data.period;
+
+      // KPI cards
+      document.getElementById('kpi-revenue').textContent = '$' + (t.revenue||0).toFixed(2);
+      document.getElementById('kpi-revenue-note').textContent = data.adsense_connected ? 'AdSense connected' : '⏳ AdSense pending';
+      document.getElementById('kpi-views').textContent = fmt(t.page_views);
+      document.getElementById('kpi-yt').textContent = fmt(t.yt_views);
+      document.getElementById('kpi-yt-note').textContent = t.videos + ' videos live · ' + t.sites + ' channels';
+      document.getElementById('kpi-articles').textContent = t.articles;
+      document.getElementById('kpi-articles-note').textContent = t.sites + ' sites · ' + Math.round(t.articles/t.sites) + ' avg/site';
+
+      // Period badge
+      const d = new Date(data.generated_at);
+      document.getElementById('period-badge').textContent = d.toLocaleDateString('en-US',{month:'short',year:'numeric'}) + ' · MTD';
+
+      // Sidebar footer
+      document.getElementById('sidebar-footer').textContent = 'Last sync: ' + d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}) + ' · Auto-refresh daily';
+
+      // Source indicators
+      document.getElementById('adsense-dot').style.color = data.adsense_connected ? '#22c55e' : '#94a3b8';
+      document.getElementById('yt-dot').style.color = data.youtube_connected ? '#22c55e' : '#94a3b8';
+      document.getElementById('src-adsense').textContent = data.adsense_connected ? '$' + (t.revenue||0).toFixed(2) : 'Pending approval';
+
+      // Pipeline card
+      document.getElementById('pipe-articles').textContent = t.articles;
+      document.getElementById('pipe-avg').textContent = Math.round(t.articles / t.sites);
+      document.getElementById('pipe-adsense').textContent = data.adsense_connected ? 'Connected ✓' : 'Under review';
+      document.getElementById('pipe-yt').textContent = data.youtube_connected ? 'Connected ✓' : 'Pending';
+
+      // Table badge
+      document.getElementById('table-badge').textContent = 'LIVE DATA';
+
+      // YouTube stats
+      let shorts = 0, standard = 0, topSite = null, topViews = 0;
+      data.sites.forEach(s => {
+        s.videos.forEach(v => {
+          if (v.shorts_id) shorts++;
+          if (v.standard_id) standard++;
+        });
+        if (s.yt_total_views > topViews) { topViews = s.yt_total_views; topSite = s.name; }
+      });
+      document.getElementById('yt-total-videos').textContent = t.videos;
+      document.getElementById('yt-total-views').textContent = fmt(t.yt_views);
+      document.getElementById('yt-top-site').textContent = topSite || '—';
+      document.getElementById('yt-shorts').textContent = shorts;
+      document.getElementById('yt-standard').textContent = standard;
+
+      // Sites table
+      const tbody = document.getElementById('sites-tbody');
+      tbody.innerHTML = data.sites.map(s => {
+        const color = COLORS[s.slug] || '#94a3b8';
+        const hasRevenue = s.adsense.revenue > 0;
+        return `<tr>
+          <td><div class="site-name-cell"><div class="site-dot" style="background:${color}"></div>
+            <a class="site-link" href="site.html?s=${s.slug}">${s.name}</a></div></td>
+          <td class="num">${s.articles}</td>
+          <td class="num">${fmt(s.cloudflare.page_views)}</td>
+          <td class="num">${fmt(s.cloudflare.unique_visitors)}</td>
+          <td class="num">$${s.rpm_est}</td>
+          <td class="num ${hasRevenue?'green':''}">$${(s.adsense.revenue||0).toFixed(2)}</td>
+          <td class="num">${fmt(s.yt_total_views)}</td>
+          <td class="num">${s.videos.length}</td>
+        </tr>`;
+      }).join('');
+
+      // Revenue chart update
+      updateChart(data);
+    })
+    .catch(err => {
+      document.getElementById('sites-tbody').innerHTML = `<tr><td colspan="8" style="text-align:center;color:var(--muted);padding:24px">stats.json not yet available — run fetch_stats.py first</td></tr>`;
+      document.getElementById('sidebar-footer').textContent = 'Stats not yet generated';
+      console.error(err);
+    });
+}
+
+function updateChart(data) {
+  const ctx = document.getElementById('revenueChart').getContext('2d');
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const curMonth = new Date().getMonth(); // 0-based
+
+  // Actual AdSense revenue where available, projected after
+  const adsenseActual = data.totals.revenue || 0;
+  const adsenseData = months.map((_, i) => {
+    if (i < curMonth) return 0;
+    if (i === curMonth) return adsenseActual;
+    const mult = [1.5,2,3,4.5,6,8][i-curMonth] || 10;
+    return Math.round(adsenseActual * mult || (i - curMonth) * 80);
+  });
+
+  if (revenueChart) revenueChart.destroy();
+  revenueChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: months,
+      datasets: [
+        { label:'AdSense Display', data: adsenseData, backgroundColor:'#c9a84c', borderRadius:4 },
+        { label:'Affiliate / CPA',  data: months.map((_,i) => i < curMonth ? 0 : Math.max(0,(i-curMonth)*40)), backgroundColor:'#3b82f6', borderRadius:4 },
+        { label:'YouTube',          data: months.map((_,i) => i < curMonth ? 0 : Math.max(0,(i-curMonth)*10)), backgroundColor:'#ef4444', borderRadius:4 },
+      ],
+    },
+    options: {
+      responsive:true,
+      plugins: {
+        legend:{ position:'bottom', labels:{ font:{size:11}, padding:16 } },
+        tooltip:{ callbacks:{ label:c => ' $'+c.raw.toLocaleString() } },
+      },
+      scales: {
+        x:{ stacked:true, grid:{display:false}, ticks:{font:{size:11}} },
+        y:{ stacked:true, ticks:{callback:v=>'$'+v, font:{size:11}}, grid:{color:'#f1f5f9'} },
+      },
+    },
+  });
+}
+
+// Initial draw with placeholder chart (in case stats.json fails)
+const ctx0 = document.getElementById('revenueChart').getContext('2d');
+revenueChart = new Chart(ctx0, {
+  type:'bar',
+  data:{
+    labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    datasets:[
+      {label:'AdSense Display',data:[0,0,0,0,0,80,240,480,800,1100,1400,1800],backgroundColor:'#c9a84c',borderRadius:4},
+      {label:'Affiliate / CPA', data:[0,0,0,0,0,40,120,280,500,700,950,1200], backgroundColor:'#3b82f6',borderRadius:4},
+      {label:'YouTube',         data:[0,0,0,0,0,10,30,80,150,220,310,420],  backgroundColor:'#ef4444',borderRadius:4},
+    ],
+  },
+  options:{
+    responsive:true,
+    plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:16}},tooltip:{callbacks:{label:c=>' $'+c.raw.toLocaleString()}}},
+    scales:{x:{stacked:true,grid:{display:false},ticks:{font:{size:11}}},y:{stacked:true,ticks:{callback:v=>'$'+v,font:{size:11}},grid:{color:'#f1f5f9'}}},
+  },
+});
+
+loadStats();
+</script>
+</body>
+</html>
