@@ -1,16 +1,514 @@
 {
-  "generated_at": "2026-05-18T06:00:00+00:00",
-  "period": { "start": "2026-05-01", "end": "2026-05-18" },
+  "generated_at": "2026-05-18T21:34:38.242240+00:00",
+  "period": {
+    "start": "2026-05-01",
+    "end": "2026-05-18"
+  },
   "totals": {
-    "revenue": 0.00,
+    "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 0,
-    "videos": 0,
-    "yt_views": 0,
+    "articles": 63,
+    "videos": 9,
+    "yt_views": 1,
     "sites": 9
   },
   "adsense_connected": false,
-  "youtube_connected": false,
-  "sites": []
+  "youtube_connected": true,
+  "sites": [
+    {
+      "slug": "medicare-starter",
+      "domain": "medicarestarter.com",
+      "name": "Medicare Starter",
+      "color": "#f59e0b",
+      "niche": "Medicare & senior health",
+      "rpm_est": "12-18",
+      "articles": 11,
+      "article_titles": [
+        "How Does Medicare Work",
+        "Medicare And Employer Insurance",
+        "Medicare And Tricare",
+        "Medicare Eligibility Requirements",
+        "Medicare Part A Explained",
+        "Medicare Part B Explained",
+        "Medicare Part C Explained",
+        "Medicare Part D Explained",
+        "Medicare Vs Medicaid Difference",
+        "What Does Medicare Cover",
+        "When Does Medicare Start"
+      ],
+      "videos": [
+        {
+          "shorts_id": "wyBq2yHviJk",
+          "shorts_url": "https://www.youtube.com/shorts/wyBq2yHviJk",
+          "title": "What Medicare Actually Covers (Most Seniors Don't Know This)",
+          "article_slug": "what-does-medicare-cover",
+          "published_at": "2026-05-18T20:38:41.415618+00:00",
+          "standard_id": "3GQdDOB7Bgo",
+          "standard_url": "https://www.youtube.com/watch?v=3GQdDOB7Bgo",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "What Medicare Actually Covers (Most Seniors Don't Know This)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "What Medicare Actually Covers (Most Seniors Don't Know This)"
+          },
+          "total_views": 0
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "solar-planner-guide",
+      "domain": "solarplannerguide.com",
+      "name": "Solar Planner Guide",
+      "color": "#22c55e",
+      "niche": "Solar energy",
+      "rpm_est": "8-14",
+      "articles": 12,
+      "article_titles": [
+        "Average Cost Of Solar Installation By State",
+        "How Long To Pay Off Solar Panels",
+        "How Much Do Solar Panels Cost 2026",
+        "Net Metering Savings Explained",
+        "Solar Cost Vs Electricity Bill Savings",
+        "Solar Lease Vs Buy Cost Comparison",
+        "Solar Loan Vs Solar Lease Vs Ppa",
+        "Solar Panel Cost Per Watt 2026",
+        "Solar Panel Roi Calculation",
+        "Solar Panels Worth It Financially",
+        "Solar Payback Period Calculator",
+        "Solar Savings Calculator"
+      ],
+      "videos": [
+        {
+          "shorts_id": "NxKHRBaN1UE",
+          "shorts_url": "https://www.youtube.com/shorts/NxKHRBaN1UE",
+          "title": "Solar Payback Period: 3 Numbers That Change Everything",
+          "article_slug": "solar-payback-period-calculator",
+          "published_at": "2026-05-18T20:41:26.704767+00:00",
+          "standard_id": "8pn4LW9U9s8",
+          "standard_url": "https://www.youtube.com/watch?v=8pn4LW9U9s8",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Payback Period: 3 Numbers That Change Everything"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Payback Period: 3 Numbers That Change Everything"
+          },
+          "total_views": 0
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "solar-home-planner",
+      "domain": "solarhomeplanner.com",
+      "name": "Solar Home Planner",
+      "color": "#10b981",
+      "niche": "Solar energy",
+      "rpm_est": "8-14",
+      "articles": 7,
+      "article_titles": [
+        "Comparing Solar Bids What To Look For",
+        "How To Get Solar Quotes",
+        "My Solar Panels Stopped Working What To Do",
+        "Red Flags When Hiring Solar Installer",
+        "Solar For Two Story Home",
+        "Solar Installer Reviews What To Look For",
+        "Welcome To Solar Home Planner"
+      ],
+      "videos": [
+        {
+          "shorts_id": "8axa5wMGueQ",
+          "shorts_url": "https://www.youtube.com/shorts/8axa5wMGueQ",
+          "title": "5 Solar Mistakes That Cost Homeowners Thousands",
+          "article_slug": "welcome-to-solar-home-planner",
+          "published_at": "2026-05-18T20:44:38.013538+00:00",
+          "standard_id": "XMJD00N_aa4",
+          "standard_url": "https://www.youtube.com/watch?v=XMJD00N_aa4",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "5 Solar Mistakes That Cost Homeowners Thousands"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "5 Solar Mistakes That Cost Homeowners Thousands"
+          },
+          "total_views": 0
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "injury-victim-guide",
+      "domain": "injuryvictimguide.com",
+      "name": "Injury Victim Guide",
+      "color": "#ef4444",
+      "niche": "Personal injury law",
+      "rpm_est": "15-25",
+      "articles": 11,
+      "article_titles": [
+        "Do I Have A Personal Injury Case",
+        "Do You Have A Personal Injury Case",
+        "How Long Do Personal Injury Cases Take",
+        "How Personal Injury Settlements Work",
+        "How To Document Injuries After Accident",
+        "Personal Injury Claim Process Step By Step",
+        "Personal Injury Lawsuit Vs Settlement",
+        "Personal Injury Statute Of Limitations By State",
+        "What Damages Can I Recover In Personal Injury",
+        "What Is A Personal Injury Claim",
+        "What To Do Immediately After An Accident"
+      ],
+      "videos": [
+        {
+          "shorts_id": "_QjrNpuyu5g",
+          "shorts_url": "https://www.youtube.com/shorts/_QjrNpuyu5g",
+          "title": "What Is a Personal Injury Claim? 4 Things You Must Prove",
+          "article_slug": "what-is-a-personal-injury-claim",
+          "published_at": "2026-05-18T20:46:27.605260+00:00",
+          "standard_id": "6n2-A1AULWo",
+          "standard_url": "https://www.youtube.com/watch?v=6n2-A1AULWo",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "What Is a Personal Injury Claim? 4 Things You Must Prove"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "What Is a Personal Injury Claim? 4 Things You Must Prove"
+          },
+          "total_views": 0
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "home-insurance-guide",
+      "domain": "homeinsuranceclear.com",
+      "name": "Home Insurance Guide",
+      "color": "#3b82f6",
+      "niche": "Home insurance",
+      "rpm_est": "12-20",
+      "articles": 5,
+      "article_titles": [
+        "Cheap Homeowners Insurance",
+        "Home Insurance Quotes Comparison",
+        "How Much Does Homeowners Insurance Cost",
+        "How Much Home Insurance Do You Need",
+        "What Does Homeowners Insurance Cover"
+      ],
+      "videos": [
+        {
+          "shorts_id": "VJoBgGgaQyo",
+          "shorts_url": "https://www.youtube.com/shorts/VJoBgGgaQyo",
+          "title": "3 Homeowners Insurance Gaps That Will Shock You",
+          "article_slug": "what-does-homeowners-insurance-cover",
+          "published_at": "2026-05-18T20:48:37.791252+00:00",
+          "standard_id": "SNN3Kztfmac",
+          "standard_url": "https://www.youtube.com/watch?v=SNN3Kztfmac",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Will Shock You"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Will Shock You"
+          },
+          "total_views": 0
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "mortgage-advisor-guide",
+      "domain": "mortgageadvisorguide.com",
+      "name": "Mortgage Advisor Guide",
+      "color": "#8b5cf6",
+      "niche": "Mortgage & home finance",
+      "rpm_est": "10-18",
+      "articles": 5,
+      "article_titles": [
+        "30 Year Vs 15 Year Mortgage",
+        "Fixed Vs Adjustable Rate Mortgage",
+        "How To Get A Mortgage First Time Buyer",
+        "Mortgage Pre Approval Process",
+        "Mortgage Rates Today Explained"
+      ],
+      "videos": [
+        {
+          "shorts_id": "L1F1J01WGK4",
+          "shorts_url": "https://www.youtube.com/shorts/L1F1J01WGK4",
+          "title": "Why a Tiny Rate Change Cost This Borrower $30,000",
+          "article_slug": "mortgage-rates-today-explained",
+          "published_at": "2026-05-18T20:49:54.522883+00:00",
+          "standard_id": "kzhOAfPYVs0",
+          "standard_url": "https://www.youtube.com/watch?v=kzhOAfPYVs0",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why a Tiny Rate Change Cost This Borrower $30,000"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why a Tiny Rate Change Cost This Borrower $30,000"
+          },
+          "total_views": 0
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "therapy-finder-guide",
+      "domain": "therapyfinderguide.com",
+      "name": "Therapy Finder Guide",
+      "color": "#ec4899",
+      "niche": "Mental health & therapy",
+      "rpm_est": "8-14",
+      "articles": 4,
+      "article_titles": [
+        "Cognitive Behavioral Therapy Explained",
+        "How To Find A Therapist",
+        "How To Find The Right Therapist",
+        "What To Expect First Therapy Session"
+      ],
+      "videos": [
+        {
+          "shorts_id": "HVI71dzgOfw",
+          "shorts_url": "https://www.youtube.com/shorts/HVI71dzgOfw",
+          "title": "3 Things Nobody Tells You About Your First Therapy Session",
+          "article_slug": "what-to-expect-first-therapy-session",
+          "published_at": "2026-05-18T20:51:54.582746+00:00",
+          "standard_id": "_g4gs0nkvkI",
+          "standard_url": "https://www.youtube.com/watch?v=_g4gs0nkvkI",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things Nobody Tells You About Your First Therapy Session"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things Nobody Tells You About Your First Therapy Session"
+          },
+          "total_views": 0
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "pet-doctor-guide",
+      "domain": "petdoctorguide.com",
+      "name": "Pet Doctor Guide",
+      "color": "#f97316",
+      "niche": "Pet health & vet care",
+      "rpm_est": "6-12",
+      "articles": 3,
+      "article_titles": [
+        "Cat Annual Vet Visit What To Expect",
+        "How Often Should Dog Go To Vet",
+        "Your Dogs First Vet Visit Guide"
+      ],
+      "videos": [
+        {
+          "shorts_id": "g2bxbH1_ZI4",
+          "shorts_url": "https://www.youtube.com/shorts/g2bxbH1_ZI4",
+          "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-05-18T20:53:39.517214+00:00",
+          "standard_id": "GmcYaIoedfo",
+          "standard_url": "https://www.youtube.com/watch?v=GmcYaIoedfo",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "tjvTX1YKoDU",
+          "shorts_url": "https://www.youtube.com/shorts/tjvTX1YKoDU",
+          "title": "3 Things You MUST Do Before Your Dog's First Vet Visit",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-05-18T20:35:40.683615+00:00",
+          "standard_id": "d6snRLwLxf4",
+          "standard_url": "https://www.youtube.com/watch?v=d6snRLwLxf4",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Dog's First Vet Visit"
+          },
+          "standard_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Dog's First Vet Visit"
+          },
+          "total_views": 1
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 1
+    },
+    {
+      "slug": "small-biz-finance-guide",
+      "domain": "smallbizfinanceguide.com",
+      "name": "Small Biz Finance Guide",
+      "color": "#14b8a6",
+      "niche": "Small business finance",
+      "rpm_est": "8-15",
+      "articles": 5,
+      "article_titles": [
+        "Business Credit Score How To Build",
+        "Sba Loan Requirements Guide",
+        "Separate Business Personal Finances",
+        "Small Business Accounting Basics",
+        "Small Business Grants Available"
+      ],
+      "videos": [],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    }
+  ]
 }
