@@ -103,20 +103,36 @@ def fetch_cf_analytics(zone_id, start=MTD_START, end=TODAY_STR):
       }
     }
     """
-    r = requests.post(
-        "https://api.cloudflare.com/client/v4/graphql",
-        headers=CF_HEADERS,
-        json={"query": query, "variables": {"zoneTag": zone_id, "start": start, "end": end}},
-    )
-    if r.status_code != 200:
-        return {"page_views": 0, "visits": 0, "unique_visitors": 0, "daily": []}
-    data = r.json().get("data", {})
-    groups = (data.get("viewer", {}).get("zones", [{}])[0].get("httpRequests1dGroups", []))
-    total_pv  = sum(g["sum"]["pageViews"]   for g in groups)
-    total_vis = sum(g["sum"]["visits"]      for g in groups)
-    total_uniq = sum(g["uniq"]["uniques"]   for g in groups)
-    daily = [{"date": g["dimensions"]["date"], "pageViews": g["sum"]["pageViews"], "visits": g["sum"]["visits"]} for g in groups]
-    return {"page_views": total_pv, "visits": total_vis, "unique_visitors": total_uniq, "daily": daily}
+    _empty = {"page_views": 0, "visits": 0, "unique_visitors": 0, "daily": []}
+    try:
+        r = requests.post(
+            "https://api.cloudflare.com/client/v4/graphql",
+            headers=CF_HEADERS,
+            json={"query": query, "variables": {"zoneTag": zone_id, "start": start, "end": end}},
+            timeout=15,
+        )
+        if r.status_code != 200:
+            print(f"  [WARN] CF HTTP {r.status_code}: {r.text[:200]}")
+            return _empty
+        resp = r.json()
+        errors = resp.get("errors")
+        if errors:
+            print(f"  [WARN] CF GraphQL errors: {str(errors)[:300]}")
+        data = resp.get("data")
+        if not data:
+            return _empty
+        zones = data.get("viewer", {}).get("zones", [])
+        if not zones:
+            return _empty
+        groups = zones[0].get("httpRequests1dGroups", [])
+        total_pv   = sum(g["sum"]["pageViews"] for g in groups)
+        total_vis  = sum(g["sum"]["visits"]    for g in groups)
+        total_uniq = sum(g["uniq"]["uniques"]  for g in groups)
+        daily = [{"date": g["dimensions"]["date"], "pageViews": g["sum"]["pageViews"], "visits": g["sum"]["visits"]} for g in groups]
+        return {"page_views": total_pv, "visits": total_vis, "unique_visitors": total_uniq, "daily": daily}
+    except Exception as e:
+        print(f"  [WARN] CF analytics exception: {e}")
+        return _empty
 
 
 def fetch_yt_video_stats(video_ids, access_token):
@@ -291,10 +307,12 @@ def main():
         "sites": sites_data,
     }
 
-    # Write locally for testing
-    with open("dashboard/stats.json", "w") as f:
+    # Write stats.json (works both locally and in GitHub Actions runner)
+    import pathlib
+    out_path = pathlib.Path(__file__).parent / "stats.json"
+    with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
-    print(f"\n✓ stats.json written  |  Total views: {total_pv}  |  Articles: {total_articles}  |  Revenue: ${total_revenue:.2f}")
+    print(f"\n✓ stats.json written to {out_path}  |  Views: {total_pv}  |  Articles: {total_articles}  |  Revenue: ${total_revenue:.2f}")
     return output
 
 
