@@ -290,6 +290,47 @@ def main():
     total_yt_views = sum(s["yt_total_views"] for s in sites_data)
     total_videos = sum(len(s["videos"]) for s in sites_data)
 
+    # ── Shotstack credit tracker ───────────────────────────────────────────────
+    # No balance API exists — we track renders since the known baseline snapshot.
+    # Update SHOTSTACK_BASELINE_CREDITS + SHOTSTACK_BASELINE_DATE whenever you
+    # manually check the Shotstack dashboard and want to re-anchor the estimate.
+    SHOTSTACK_BASELINE_CREDITS = 150.41   # balance as of baseline date
+    SHOTSTACK_BASELINE_DATE    = "2026-05-19"
+    SHOTSTACK_RENEWAL_DATE     = "2026-06-18"
+    SHOTSTACK_COST_PER_RENDER  = 0.68    # ~0.65-0.72 for a 60s video
+
+    renders_since_baseline = 0
+    for s in sites_data:
+        for v in s["videos"]:
+            pub = (v.get("published_at") or "")[:10]
+            if pub >= SHOTSTACK_BASELINE_DATE:
+                # Count Shorts render (shorts_id or legacy video_id)
+                if v.get("shorts_id") or v.get("video_id"):
+                    renders_since_baseline += 1
+                # Count Standard render if present
+                if v.get("standard_id"):
+                    renders_since_baseline += 1
+
+    credits_used  = round(renders_since_baseline * SHOTSTACK_COST_PER_RENDER, 2)
+    est_remaining = round(max(0.0, SHOTSTACK_BASELINE_CREDITS - credits_used), 2)
+    renewal_date  = datetime.fromisoformat(SHOTSTACK_RENEWAL_DATE).date()
+    days_until_renewal = max(0, (renewal_date - TODAY).days)
+    pct_remaining = round(est_remaining / SHOTSTACK_BASELINE_CREDITS * 100, 1)
+
+    shotstack = {
+        "baseline_credits":       SHOTSTACK_BASELINE_CREDITS,
+        "baseline_date":          SHOTSTACK_BASELINE_DATE,
+        "renewal_date":           SHOTSTACK_RENEWAL_DATE,
+        "cost_per_render":        SHOTSTACK_COST_PER_RENDER,
+        "renders_since_baseline": renders_since_baseline,
+        "credits_used":           credits_used,
+        "est_remaining":          est_remaining,
+        "pct_remaining":          pct_remaining,
+        "days_until_renewal":     days_until_renewal,
+    }
+    print(f"  Shotstack: {renders_since_baseline} renders since baseline → "
+          f"{credits_used} cr used · {est_remaining} cr remaining ({pct_remaining}%) · renews in {days_until_renewal}d")
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "period": {"start": MTD_START, "end": TODAY_STR},
@@ -304,6 +345,7 @@ def main():
         },
         "adsense_connected": adsense_token is not None,
         "youtube_connected": yt_token is not None,
+        "shotstack":         shotstack,
         "sites": sites_data,
     }
 
