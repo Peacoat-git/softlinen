@@ -95,7 +95,7 @@ a{color:inherit;text-decoration:none}
   function gateUnlock() {
     const val = document.getElementById('gate-input').value;
     if (val === PASS) {
-      sessionStorage.setItem(KEY, '1');
+      localStorage.setItem(KEY, '1');
       document.getElementById('gate').style.display = 'none';
     } else {
       const err = document.getElementById('gate-err');
@@ -106,7 +106,7 @@ a{color:inherit;text-decoration:none}
     }
   }
   window.gateUnlock = gateUnlock;
-  if (sessionStorage.getItem(KEY) === '1') {
+  if (localStorage.getItem(KEY) === '1') {
     document.getElementById('gate').style.display = 'none';
   }
 })();
