@@ -183,7 +183,13 @@ a{color:inherit;text-decoration:none}
       <div class="two-col">
         <div class="card">
           <div class="card-header"><div class="card-title">Daily Page Views — MTD</div></div>
-          <div class="card-body"><canvas id="viewsChart" height="120"></canvas></div>
+          <div class="card-body" style="position:relative">
+            <div id="no-data-msg" style="display:none;position:absolute;inset:0;align-items:center;justify-content:center;flex-direction:column;gap:6px;color:#94a3b8;font-size:12px;pointer-events:none">
+              <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-6"/></svg>
+              No traffic data yet — check back once the site has visitors
+            </div>
+            <canvas id="viewsChart" height="120"></canvas>
+          </div>
         </div>
         <div class="card">
           <div class="card-header"><div class="card-title">AdSense Performance</div></div>
@@ -284,7 +290,7 @@ function fmt(n) {
 
 let viewsChart = null;
 
-fetch('/stats.json?v=' + Date.now())
+fetch('stats.json?v=' + Date.now())
   .then(r => r.json())
   .then(data => {
     const site = data.sites.find(s => s.slug === slug);
@@ -395,15 +401,17 @@ fetch('/stats.json?v=' + Date.now())
 
     if (viewsChart) viewsChart.destroy();
     const ctx = document.getElementById('viewsChart').getContext('2d');
+    const hasData = chartLabels.length > 0 && chartData.some(v => v > 0);
+    document.getElementById('no-data-msg').style.display = hasData ? 'none' : 'flex';
     viewsChart = new Chart(ctx, {
       type: 'line',
       data: {
-        labels: chartLabels.length ? chartLabels : ['No data'],
+        labels: hasData ? chartLabels : ['No traffic yet'],
         datasets: [{
           label: 'Page Views',
-          data: chartData.length ? chartData : [0],
-          borderColor: siteColor,
-          backgroundColor: siteColor + '22',
+          data: hasData ? chartData : [0],
+          borderColor: hasData ? siteColor : '#e2e8f0',
+          backgroundColor: hasData ? siteColor + '22' : '#f8fafc',
           fill: true, tension: 0.4, pointRadius: chartLabels.length > 15 ? 0 : 3,
           pointHoverRadius: 4,
         }],
