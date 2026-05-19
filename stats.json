@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-18T21:34:38.242240+00:00",
+  "generated_at": "2026-05-19T03:09:54.897102+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-18"
+    "end": "2026-05-19"
   },
   "totals": {
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 63,
-    "videos": 9,
-    "yt_views": 1,
+    "articles": 102,
+    "videos": 19,
+    "yt_views": 188,
     "sites": 9
   },
   "adsense_connected": false,
@@ -23,8 +23,9 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 11,
+      "articles": 15,
       "article_titles": [
+        "Best Medigap Plans 2026",
         "How Does Medicare Work",
         "Medicare And Employer Insurance",
         "Medicare And Tricare",
@@ -33,11 +34,58 @@
         "Medicare Part B Explained",
         "Medicare Part C Explained",
         "Medicare Part D Explained",
+        "Medicare Supplement Plan G Explained",
+        "Medicare Supplement Plan N Explained",
         "Medicare Vs Medicaid Difference",
+        "Plan G Vs Plan N Medicare Supplement",
         "What Does Medicare Cover",
         "When Does Medicare Start"
       ],
       "videos": [
+        {
+          "shorts_id": "WEJtfcbD-AE",
+          "shorts_url": "https://www.youtube.com/shorts/WEJtfcbD-AE",
+          "title": "3 Medicare Timing Facts That Could Save You Thousands",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-05-19T02:40:12.303985+00:00",
+          "standard_id": "seCEvF_qpA0",
+          "standard_url": "https://www.youtube.com/watch?v=seCEvF_qpA0",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Medicare Timing Facts That Could Save You Thousands"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Medicare Timing Facts That Could Save You Thousands"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "_yPO9n48_qw",
+          "shorts_url": "https://www.youtube.com/shorts/_yPO9n48_qw",
+          "title": "When Does Medicare Actually Start? 3 Facts That Matter",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-05-19T02:24:43.229310+00:00",
+          "standard_id": "dQfBJHFMShA",
+          "standard_url": "https://www.youtube.com/watch?v=dQfBJHFMShA",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "When Does Medicare Actually Start? 3 Facts That Matter"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "When Does Medicare Actually Start? 3 Facts That Matter"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "wyBq2yHviJk",
           "shorts_url": "https://www.youtube.com/shorts/wyBq2yHviJk",
@@ -99,6 +147,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "dENihidt5Gs",
+          "shorts_url": "https://www.youtube.com/shorts/dENihidt5Gs",
+          "standard_id": "HL4SvBPN_Eo",
+          "standard_url": "https://www.youtube.com/watch?v=HL4SvBPN_Eo",
+          "title": "Solar Calculators Are Lying to You - 3 Hidden Tricks",
+          "article_slug": "solar-savings-calculator",
+          "published_at": "2026-05-19T02:45:12.394301+00:00",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Are Lying to You - 3 Hidden Tricks"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Are Lying to You - 3 Hidden Tricks"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "NxKHRBaN1UE",
           "shorts_url": "https://www.youtube.com/shorts/NxKHRBaN1UE",
           "title": "Solar Payback Period: 3 Numbers That Change Everything",
@@ -154,15 +224,15 @@
       ],
       "videos": [
         {
-          "shorts_id": "8axa5wMGueQ",
-          "shorts_url": "https://www.youtube.com/shorts/8axa5wMGueQ",
+          "shorts_id": "Yz4VQP7_M84",
+          "shorts_url": "https://www.youtube.com/shorts/Yz4VQP7_M84",
           "title": "5 Solar Mistakes That Cost Homeowners Thousands",
           "article_slug": "welcome-to-solar-home-planner",
-          "published_at": "2026-05-18T20:44:38.013538+00:00",
-          "standard_id": "XMJD00N_aa4",
-          "standard_url": "https://www.youtube.com/watch?v=XMJD00N_aa4",
+          "published_at": "2026-05-19T02:32:26.428151+00:00",
+          "standard_id": "k3dzDzuLyeA",
+          "standard_url": "https://www.youtube.com/watch?v=k3dzDzuLyeA",
           "shorts_stats": {
-            "views": 0,
+            "views": 35,
             "likes": 0,
             "comments": 0,
             "title": "5 Solar Mistakes That Cost Homeowners Thousands"
@@ -173,7 +243,29 @@
             "comments": 0,
             "title": "5 Solar Mistakes That Cost Homeowners Thousands"
           },
-          "total_views": 0
+          "total_views": 35
+        },
+        {
+          "shorts_id": "8axa5wMGueQ",
+          "shorts_url": "https://www.youtube.com/shorts/8axa5wMGueQ",
+          "title": "5 Solar Mistakes That Cost Homeowners Thousands",
+          "article_slug": "welcome-to-solar-home-planner",
+          "published_at": "2026-05-18T20:44:38.013538+00:00",
+          "standard_id": "XMJD00N_aa4",
+          "standard_url": "https://www.youtube.com/watch?v=XMJD00N_aa4",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "5 Solar Mistakes That Cost Homeowners Thousands"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "5 Solar Mistakes That Cost Homeowners Thousands"
+          },
+          "total_views": 1
         }
       ],
       "cloudflare": {
@@ -188,7 +280,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 36
     },
     {
       "slug": "injury-victim-guide",
@@ -197,11 +289,14 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 11,
+      "articles": 16,
       "article_titles": [
+        "Average Personal Injury Settlement Amounts",
+        "Car Accident Settlement Amounts By Injury Type",
         "Do I Have A Personal Injury Case",
         "Do You Have A Personal Injury Case",
         "How Long Do Personal Injury Cases Take",
+        "How Much Is My Personal Injury Case Worth",
         "How Personal Injury Settlements Work",
         "How To Document Injuries After Accident",
         "Personal Injury Claim Process Step By Step",
@@ -209,9 +304,33 @@
         "Personal Injury Statute Of Limitations By State",
         "What Damages Can I Recover In Personal Injury",
         "What Is A Personal Injury Claim",
-        "What To Do Immediately After An Accident"
+        "What Is Pain And Suffering In Personal Injury",
+        "What To Do Immediately After An Accident",
+        "Whiplash Settlement Value 2026"
       ],
       "videos": [
+        {
+          "shorts_id": "9n-t0E0GmGA",
+          "shorts_url": "https://www.youtube.com/shorts/9n-t0E0GmGA",
+          "title": "3 Critical Mistakes People Make Right After a Car Accident",
+          "article_slug": "what-to-do-immediately-after-an-accident",
+          "published_at": "2026-05-19T02:34:26.036741+00:00",
+          "standard_id": "DAPa7SUn0r0",
+          "standard_url": "https://www.youtube.com/watch?v=DAPa7SUn0r0",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Critical Mistakes People Make Right After a Car Accident"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Critical Mistakes People Make Right After a Car Accident"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "_QjrNpuyu5g",
           "shorts_url": "https://www.youtube.com/shorts/_QjrNpuyu5g",
@@ -256,15 +375,42 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 5,
+      "articles": 10,
       "article_titles": [
+        "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
+        "Home Insurance Coverage Limits Guide",
+        "Home Insurance For First Time Buyers",
         "Home Insurance Quotes Comparison",
+        "Home Insurance Vs Renters Insurance",
+        "Homeowners Insurance Deductible Explained",
         "How Much Does Homeowners Insurance Cost",
         "How Much Home Insurance Do You Need",
         "What Does Homeowners Insurance Cover"
       ],
       "videos": [
+        {
+          "shorts_id": "Qoo2_spmmvg",
+          "shorts_url": "https://www.youtube.com/shorts/Qoo2_spmmvg",
+          "title": "3 Homeowners Insurance Gaps That Shock Most People",
+          "article_slug": "what-does-homeowners-insurance-cover",
+          "published_at": "2026-05-19T02:36:00.241267+00:00",
+          "standard_id": "OUx200Rpobc",
+          "standard_url": "https://www.youtube.com/watch?v=OUx200Rpobc",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Shock Most People"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Shock Most People"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "VJoBgGgaQyo",
           "shorts_url": "https://www.youtube.com/shorts/VJoBgGgaQyo",
@@ -274,7 +420,7 @@
           "standard_id": "SNN3Kztfmac",
           "standard_url": "https://www.youtube.com/watch?v=SNN3Kztfmac",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "3 Homeowners Insurance Gaps That Will Shock You"
@@ -285,7 +431,7 @@
             "comments": 0,
             "title": "3 Homeowners Insurance Gaps That Will Shock You"
           },
-          "total_views": 0
+          "total_views": 1
         }
       ],
       "cloudflare": {
@@ -300,7 +446,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -309,15 +455,42 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 5,
+      "articles": 10,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
+        "Conventional Loan Requirements",
+        "Fha Loan Requirements And Benefits",
         "Fixed Vs Adjustable Rate Mortgage",
+        "How Much House Can I Afford",
         "How To Get A Mortgage First Time Buyer",
         "Mortgage Pre Approval Process",
-        "Mortgage Rates Today Explained"
+        "Mortgage Qualification Requirements",
+        "Mortgage Rates Today Explained",
+        "Va Loan Benefits Explained"
       ],
       "videos": [
+        {
+          "shorts_id": "ZHC2o7VZMEU",
+          "shorts_url": "https://www.youtube.com/shorts/ZHC2o7VZMEU",
+          "title": "Veterans Are Losing $38K Because Nobody Told Them This",
+          "article_slug": "va-loan-benefits-explained",
+          "published_at": "2026-05-19T02:37:20.630419+00:00",
+          "standard_id": "cO1bWsCxgyo",
+          "standard_url": "https://www.youtube.com/watch?v=cO1bWsCxgyo",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans Are Losing $38K Because Nobody Told Them This"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans Are Losing $38K Because Nobody Told Them This"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "L1F1J01WGK4",
           "shorts_url": "https://www.youtube.com/shorts/L1F1J01WGK4",
@@ -362,14 +535,46 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 4,
+      "articles": 14,
       "article_titles": [
         "Cognitive Behavioral Therapy Explained",
+        "Couples Therapy How It Works",
+        "Dbt Therapy What Is It",
+        "Does Insurance Cover Therapy",
+        "Emdr Therapy Explained",
+        "Family Therapy Benefits",
+        "How Much Does Therapy Cost",
         "How To Find A Therapist",
         "How To Find The Right Therapist",
+        "Online Therapy Vs In Person",
+        "Therapy For Anxiety Treatment",
+        "Therapy For Depression",
+        "Types Of Therapy Explained",
         "What To Expect First Therapy Session"
       ],
       "videos": [
+        {
+          "shorts_id": "e1lvp0EBlOs",
+          "shorts_url": "https://www.youtube.com/shorts/e1lvp0EBlOs",
+          "title": "3 Things Nobody Tells You About Your First Therapy Session",
+          "article_slug": "what-to-expect-first-therapy-session",
+          "published_at": "2026-05-19T02:38:55.425214+00:00",
+          "standard_id": "uprmRg9ihz8",
+          "standard_url": "https://www.youtube.com/watch?v=uprmRg9ihz8",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things Nobody Tells You About Your First Therapy Session"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things Nobody Tells You About Your First Therapy Session"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "HVI71dzgOfw",
           "shorts_url": "https://www.youtube.com/shorts/HVI71dzgOfw",
@@ -379,89 +584,16 @@
           "standard_id": "_g4gs0nkvkI",
           "standard_url": "https://www.youtube.com/watch?v=_g4gs0nkvkI",
           "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things Nobody Tells You About Your First Therapy Session"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things Nobody Tells You About Your First Therapy Session"
-          },
-          "total_views": 0
-        }
-      ],
-      "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
-      },
-      "adsense": {
-        "revenue": 0,
-        "impressions": 0,
-        "clicks": 0,
-        "rpm": 0
-      },
-      "yt_total_views": 0
-    },
-    {
-      "slug": "pet-doctor-guide",
-      "domain": "petdoctorguide.com",
-      "name": "Pet Doctor Guide",
-      "color": "#f97316",
-      "niche": "Pet health & vet care",
-      "rpm_est": "6-12",
-      "articles": 3,
-      "article_titles": [
-        "Cat Annual Vet Visit What To Expect",
-        "How Often Should Dog Go To Vet",
-        "Your Dogs First Vet Visit Guide"
-      ],
-      "videos": [
-        {
-          "shorts_id": "g2bxbH1_ZI4",
-          "shorts_url": "https://www.youtube.com/shorts/g2bxbH1_ZI4",
-          "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit",
-          "article_slug": "your-dogs-first-vet-visit-guide",
-          "published_at": "2026-05-18T20:53:39.517214+00:00",
-          "standard_id": "GmcYaIoedfo",
-          "standard_url": "https://www.youtube.com/watch?v=GmcYaIoedfo",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit"
-          },
-          "total_views": 0
-        },
-        {
-          "shorts_id": "tjvTX1YKoDU",
-          "shorts_url": "https://www.youtube.com/shorts/tjvTX1YKoDU",
-          "title": "3 Things You MUST Do Before Your Dog's First Vet Visit",
-          "article_slug": "your-dogs-first-vet-visit-guide",
-          "published_at": "2026-05-18T20:35:40.683615+00:00",
-          "standard_id": "d6snRLwLxf4",
-          "standard_url": "https://www.youtube.com/watch?v=d6snRLwLxf4",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things You MUST Do Before Your Dog's First Vet Visit"
-          },
-          "standard_stats": {
             "views": 1,
             "likes": 0,
             "comments": 0,
-            "title": "3 Things You MUST Do Before Your Dog's First Vet Visit"
+            "title": "3 Things Nobody Tells You About Your First Therapy Session"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things Nobody Tells You About Your First Therapy Session"
           },
           "total_views": 1
         }
@@ -481,21 +613,149 @@
       "yt_total_views": 1
     },
     {
+      "slug": "pet-doctor-guide",
+      "domain": "petdoctorguide.com",
+      "name": "Pet Doctor Guide",
+      "color": "#f97316",
+      "niche": "Pet health & vet care",
+      "rpm_est": "6-12",
+      "articles": 8,
+      "article_titles": [
+        "Cat Annual Vet Visit What To Expect",
+        "Cat Vomiting When To Worry",
+        "Dog Limping Causes Treatment",
+        "Dog Not Eating What To Do",
+        "Dog Vaccinations Schedule Guide",
+        "How Often Should Dog Go To Vet",
+        "Pet Insurance Worth It",
+        "Your Dogs First Vet Visit Guide"
+      ],
+      "videos": [
+        {
+          "shorts_id": "LgizWxJ2-hY",
+          "shorts_url": "https://www.youtube.com/shorts/LgizWxJ2-hY",
+          "title": "3 Things You MUST Bring to Your Dog's First Vet Visit",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-05-19T02:41:07.974410+00:00",
+          "standard_id": "Orj0f861Iv0",
+          "standard_url": "https://www.youtube.com/watch?v=Orj0f861Iv0",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Bring to Your Dog's First Vet Visit"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Bring to Your Dog's First Vet Visit"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "g2bxbH1_ZI4",
+          "shorts_url": "https://www.youtube.com/shorts/g2bxbH1_ZI4",
+          "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-05-18T20:53:39.517214+00:00",
+          "standard_id": "GmcYaIoedfo",
+          "standard_url": "https://www.youtube.com/watch?v=GmcYaIoedfo",
+          "shorts_stats": {
+            "views": 2,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Puppy's First Vet Visit"
+          },
+          "total_views": 2
+        },
+        {
+          "shorts_id": "tjvTX1YKoDU",
+          "shorts_url": "https://www.youtube.com/shorts/tjvTX1YKoDU",
+          "title": "3 Things You MUST Do Before Your Dog's First Vet Visit",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-05-18T20:35:40.683615+00:00",
+          "standard_id": "d6snRLwLxf4",
+          "standard_url": "https://www.youtube.com/watch?v=d6snRLwLxf4",
+          "shorts_stats": {
+            "views": 147,
+            "likes": 1,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Dog's First Vet Visit"
+          },
+          "standard_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things You MUST Do Before Your Dog's First Vet Visit"
+          },
+          "total_views": 148
+        }
+      ],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 150
+    },
+    {
       "slug": "small-biz-finance-guide",
       "domain": "smallbizfinanceguide.com",
       "name": "Small Biz Finance Guide",
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 5,
+      "articles": 10,
       "article_titles": [
+        "Business Bank Account Requirements",
         "Business Credit Score How To Build",
+        "How To Get A Small Business Loan",
+        "How To Separate Business Personal Finances",
+        "Llc Vs Sole Proprietorship Taxes",
+        "Quarterly Estimated Taxes Small Business",
         "Sba Loan Requirements Guide",
         "Separate Business Personal Finances",
         "Small Business Accounting Basics",
         "Small Business Grants Available"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "shorts_id": "7SjyIXJ53dw",
+          "shorts_url": "https://www.youtube.com/shorts/7SjyIXJ53dw",
+          "title": "Free $25K for Your Business? 3 Grant Facts You Need",
+          "article_slug": "small-business-grants-available",
+          "published_at": "2026-05-19T02:43:11.386230+00:00",
+          "standard_id": "E-zSd1Z1D0Q",
+          "standard_url": "https://www.youtube.com/watch?v=E-zSd1Z1D0Q",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Free $25K for Your Business? 3 Grant Facts You Need"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Free $25K for Your Business? 3 Grant Facts You Need"
+          },
+          "total_views": 0
+        }
+      ],
       "cloudflare": {
         "page_views": 0,
         "visits": 0,
