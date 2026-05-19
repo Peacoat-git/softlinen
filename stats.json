@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T09:42:08.604773+00:00",
+  "generated_at": "2026-05-19T19:00:50.719131+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-19"
@@ -8,9 +8,9 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 102,
-    "videos": 8,
-    "yt_views": 7,
+    "articles": 112,
+    "videos": 22,
+    "yt_views": 12,
     "sites": 9
   },
   "adsense_connected": false,
@@ -23,7 +23,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 15,
+      "articles": 16,
       "article_titles": [
         "Best Medigap Plans 2026",
         "How Does Medicare Work",
@@ -37,11 +37,56 @@
         "Medicare Supplement Plan G Explained",
         "Medicare Supplement Plan N Explained",
         "Medicare Vs Medicaid Difference",
+        "Medigap Vs Medicare Advantage",
         "Plan G Vs Plan N Medicare Supplement",
         "What Does Medicare Cover",
         "When Does Medicare Start"
       ],
       "videos": [
+        {
+          "shorts_id": "8Joc5DNdSas",
+          "shorts_url": "https://www.youtube.com/shorts/8Joc5DNdSas",
+          "title": "Medicare Timing Mistake That Costs You FOREVER (Age 65 Alert)",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-05-19T15:21:56.068980+00:00",
+          "standard_id": "7uI4b3-q3jw",
+          "standard_url": "https://www.youtube.com/watch?v=7uI4b3-q3jw",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Timing Mistake That Costs You FOREVER (Age 65 Alert)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Timing Mistake That Costs You FOREVER (Age 65 Alert)"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "Mj7Z9RXTj24",
+          "shorts_url": "https://www.youtube.com/shorts/Mj7Z9RXTj24",
+          "title": "Medicare Start Date Mistakes That Cost You Forever (Age 65 Truth)",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-05-19T14:37:53.686285+00:00",
+          "standard_id": "7hPHBunGsa8",
+          "standard_url": "https://www.youtube.com/watch?v=7hPHBunGsa8",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Start Date Mistakes That Cost You Forever (Age 65 Truth)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Start Date Mistakes That Cost You Forever (Age 65 Truth)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "6DBVkc_n-Kg",
           "shorts_url": "https://www.youtube.com/shorts/6DBVkc_n-Kg",
@@ -103,6 +148,50 @@
       ],
       "videos": [
         {
+          "shorts_id": "wgAuE-vK_hQ",
+          "shorts_url": "https://www.youtube.com/shorts/wgAuE-vK_hQ",
+          "title": "Solar Calculators Lied to This Homeowner by $600/Year",
+          "article_slug": "solar-savings-calculator",
+          "published_at": "2026-05-19T15:27:05.094051+00:00",
+          "standard_id": "9NK9yIDaj08",
+          "standard_url": "https://www.youtube.com/watch?v=9NK9yIDaj08",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Lied to This Homeowner by $600/Year"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Lied to This Homeowner by $600/Year"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "_Ow6aYYFuSk",
+          "shorts_url": "https://www.youtube.com/shorts/_Ow6aYYFuSk",
+          "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)",
+          "article_slug": "solar-savings-calculator",
+          "published_at": "2026-05-19T14:43:40.509507+00:00",
+          "standard_id": "kv2zAfYOxPo",
+          "standard_url": "https://www.youtube.com/watch?v=kv2zAfYOxPo",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "cqi_MqRbkHE",
           "shorts_url": "https://www.youtube.com/shorts/cqi_MqRbkHE",
           "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use",
@@ -146,10 +235,12 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 7,
+      "articles": 9,
       "article_titles": [
         "Comparing Solar Bids What To Look For",
+        "How To Choose A Solar Company",
         "How To Get Solar Quotes",
+        "Is My Solar Installer Legit",
         "My Solar Panels Stopped Working What To Do",
         "Red Flags When Hiring Solar Installer",
         "Solar For Two Story Home",
@@ -157,6 +248,50 @@
         "Welcome To Solar Home Planner"
       ],
       "videos": [
+        {
+          "shorts_id": "zS9JVW74hHQ",
+          "shorts_url": "https://www.youtube.com/shorts/zS9JVW74hHQ",
+          "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)",
+          "article_slug": "welcome-to-solar-home-planner",
+          "published_at": "2026-05-19T15:33:45.135411+00:00",
+          "standard_id": "40KVpcXq1lI",
+          "standard_url": "https://www.youtube.com/watch?v=40KVpcXq1lI",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "HMQkCFdnGsY",
+          "shorts_url": "https://www.youtube.com/shorts/HMQkCFdnGsY",
+          "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)",
+          "article_slug": "welcome-to-solar-home-planner",
+          "published_at": "2026-05-19T14:48:58.637697+00:00",
+          "standard_id": "Xn5eKZPFaxQ",
+          "standard_url": "https://www.youtube.com/watch?v=Xn5eKZPFaxQ",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "4aG3FW9yE2E",
           "shorts_url": "https://www.youtube.com/shorts/4aG3FW9yE2E",
@@ -201,7 +336,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 16,
+      "articles": 17,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Car Accident Settlement Amounts By Injury Type",
@@ -214,6 +349,7 @@
         "Personal Injury Claim Process Step By Step",
         "Personal Injury Lawsuit Vs Settlement",
         "Personal Injury Statute Of Limitations By State",
+        "Soft Tissue Injury Settlement Amounts",
         "What Damages Can I Recover In Personal Injury",
         "What Is A Personal Injury Claim",
         "What Is Pain And Suffering In Personal Injury",
@@ -221,6 +357,50 @@
         "Whiplash Settlement Value 2026"
       ],
       "videos": [
+        {
+          "shorts_id": "FKqK8rFQZqc",
+          "shorts_url": "https://www.youtube.com/shorts/FKqK8rFQZqc",
+          "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)",
+          "article_slug": "whiplash-settlement-value-2026",
+          "published_at": "2026-05-19T15:38:11.466034+00:00",
+          "standard_id": "xr70gtVSmn0",
+          "standard_url": "https://www.youtube.com/watch?v=xr70gtVSmn0",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "hnRU0K4RpBU",
+          "shorts_url": "https://www.youtube.com/shorts/hnRU0K4RpBU",
+          "title": "Insurance AI Is Auto-Denying Whiplash Claims in 2026 (Former Adjuster Explains)",
+          "article_slug": "whiplash-settlement-value-2026",
+          "published_at": "2026-05-19T14:54:11.526659+00:00",
+          "standard_id": "9wb5OVP2KiU",
+          "standard_url": "https://www.youtube.com/watch?v=9wb5OVP2KiU",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "Insurance AI Is Auto-Denying Whiplash Claims in 2026 (Former Adjuster Explains)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Insurance AI Is Auto-Denying Whiplash Claims in 2026 (Former Adjuster Explains)"
+          },
+          "total_views": 1
+        },
         {
           "shorts_id": "7okFwCII21A",
           "shorts_url": "https://www.youtube.com/shorts/7okFwCII21A",
@@ -256,7 +436,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     },
     {
       "slug": "home-insurance-guide",
@@ -265,20 +445,66 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 10,
+      "articles": 12,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
         "Home Insurance Coverage Limits Guide",
+        "Home Insurance Dwelling Coverage",
         "Home Insurance For First Time Buyers",
         "Home Insurance Quotes Comparison",
         "Home Insurance Vs Renters Insurance",
         "Homeowners Insurance Deductible Explained",
         "How Much Does Homeowners Insurance Cost",
         "How Much Home Insurance Do You Need",
+        "How To Lower Homeowners Insurance Cost",
         "What Does Homeowners Insurance Cover"
       ],
       "videos": [
+        {
+          "shorts_id": "KedcbR9GbS4",
+          "shorts_url": "https://www.youtube.com/shorts/KedcbR9GbS4",
+          "title": "3 Homeowners Insurance Gaps That Cost You Thousands",
+          "article_slug": "what-does-homeowners-insurance-cover",
+          "published_at": "2026-05-19T15:43:34.753343+00:00",
+          "standard_id": "dckffxyS9GU",
+          "standard_url": "https://www.youtube.com/watch?v=dckffxyS9GU",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Cost You Thousands"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Cost You Thousands"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "HP4pVHG6jOI",
+          "shorts_url": "https://www.youtube.com/shorts/HP4pVHG6jOI",
+          "title": "3 Homeowners Insurance Gaps That Will Shock You",
+          "article_slug": "what-does-homeowners-insurance-cover",
+          "published_at": "2026-05-19T14:59:39.256289+00:00",
+          "standard_id": "szEBX_p9rxg",
+          "standard_url": "https://www.youtube.com/watch?v=szEBX_p9rxg",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Will Shock You"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Homeowners Insurance Gaps That Will Shock You"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "NxHZpS1jBdw",
           "shorts_url": "https://www.youtube.com/shorts/NxHZpS1jBdw",
@@ -323,7 +549,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 10,
+      "articles": 12,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Conventional Loan Requirements",
@@ -331,12 +557,36 @@
         "Fixed Vs Adjustable Rate Mortgage",
         "How Much House Can I Afford",
         "How To Get A Mortgage First Time Buyer",
+        "Mortgage Down Payment Options",
         "Mortgage Pre Approval Process",
         "Mortgage Qualification Requirements",
         "Mortgage Rates Today Explained",
+        "Usda Loan Eligibility Guide",
         "Va Loan Benefits Explained"
       ],
       "videos": [
+        {
+          "shorts_id": "tMa7b8eHQK8",
+          "shorts_url": "https://www.youtube.com/shorts/tMa7b8eHQK8",
+          "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase",
+          "article_slug": "va-loan-benefits-explained",
+          "published_at": "2026-05-19T15:45:28.279580+00:00",
+          "standard_id": "oA9wirOB6RA",
+          "standard_url": "https://www.youtube.com/watch?v=oA9wirOB6RA",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "QJ-afjnpoCc",
           "shorts_url": "https://www.youtube.com/shorts/QJ-afjnpoCc",
@@ -400,6 +650,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "jJh9fA3MF88",
+          "shorts_url": "https://www.youtube.com/shorts/jJh9fA3MF88",
+          "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)",
+          "article_slug": "what-to-expect-first-therapy-session",
+          "published_at": "2026-05-19T15:49:12.008725+00:00",
+          "standard_id": "L_2TqIVb_Aw",
+          "standard_url": "https://www.youtube.com/watch?v=L_2TqIVb_Aw",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "0rMyaqyipR0",
           "shorts_url": "https://www.youtube.com/shorts/0rMyaqyipR0",
           "title": "3 Things Nobody Tells You Before Your First Therapy Session",
@@ -443,9 +715,10 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 8,
+      "articles": 9,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
+        "Cat Hiding Behavior Explained",
         "Cat Vomiting When To Worry",
         "Dog Limping Causes Treatment",
         "Dog Not Eating What To Do",
@@ -456,6 +729,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "smBqOQlgT3M",
+          "shorts_url": "https://www.youtube.com/shorts/smBqOQlgT3M",
+          "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-05-19T15:55:45.863432+00:00",
+          "standard_id": "Gde3LJgCS-M",
+          "standard_url": "https://www.youtube.com/watch?v=Gde3LJgCS-M",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "d0E4Lv8yUtw",
           "shorts_url": "https://www.youtube.com/shorts/d0E4Lv8yUtw",
           "title": "3 Must-Know Tips Before Your Dog's First Vet Visit",
@@ -464,7 +759,7 @@
           "standard_id": "eiTfwCvfVUg",
           "standard_url": "https://www.youtube.com/watch?v=eiTfwCvfVUg",
           "shorts_stats": {
-            "views": 6,
+            "views": 9,
             "likes": 0,
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
@@ -475,7 +770,7 @@
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
           },
-          "total_views": 6
+          "total_views": 9
         }
       ],
       "cloudflare": {
@@ -490,7 +785,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 6
+      "yt_total_views": 9
     },
     {
       "slug": "small-biz-finance-guide",
@@ -499,12 +794,13 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 10,
+      "articles": 11,
       "article_titles": [
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "How To Get A Small Business Loan",
         "How To Separate Business Personal Finances",
+        "Invoicing Tips For Small Business",
         "Llc Vs Sole Proprietorship Taxes",
         "Quarterly Estimated Taxes Small Business",
         "Sba Loan Requirements Guide",
@@ -512,7 +808,30 @@
         "Small Business Accounting Basics",
         "Small Business Grants Available"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "shorts_id": "jxqxId01aMg",
+          "shorts_url": "https://www.youtube.com/shorts/jxqxId01aMg",
+          "title": "Free Business Money: 3 Grant Facts Most Owners Miss",
+          "article_slug": "small-business-grants-available",
+          "published_at": "2026-05-19T15:55:57.749795+00:00",
+          "standard_id": "n960IDUt20s",
+          "standard_url": "https://www.youtube.com/watch?v=n960IDUt20s",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "Free Business Money: 3 Grant Facts Most Owners Miss"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Free Business Money: 3 Grant Facts Most Owners Miss"
+          },
+          "total_views": 1
+        }
+      ],
       "cloudflare": {
         "page_views": 0,
         "visits": 0,
@@ -525,7 +844,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     }
   ]
 }
