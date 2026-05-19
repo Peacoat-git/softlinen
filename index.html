@@ -55,6 +55,7 @@ a { color:inherit; text-decoration:none; }
 .card-title { font-size:13px; font-weight:600; }
 .card-badge { font-size:10px; font-weight:600; background:#f0f4ff; color:#3b5bdb; padding:3px 8px; border-radius:10px; }
 .card-badge.green { background:#dcfce7; color:#16a34a; }
+.card-badge.red   { background:#fee2e2; color:#dc2626; }
 .card-body { padding:20px; }
 canvas { width:100%!important; }
 .revenue-table { width:100%; border-collapse:collapse; font-size:13px; }
@@ -70,7 +71,9 @@ canvas { width:100%!important; }
 .badge-pending { font-size:9px; font-weight:600; background:#fef9c3; color:#ca8a04; padding:2px 7px; border-radius:8px; }
 .num { font-variant-numeric:tabular-nums; }
 .num.green { color:var(--green); font-weight:600; }
-.bottom-row { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; }
+.bottom-row { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+.ss-bar-wrap { height:6px; background:#f1f5f9; border-radius:4px; overflow:hidden; margin:6px 0 4px; }
+#ss-bar { height:100%; border-radius:4px; background:var(--green); width:0%; transition:width .6s ease; }
 .stat-row { display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid var(--border); font-size:13px; }
 .stat-row:last-child { border-bottom:none; }
 .stat-val { font-weight:600; }
@@ -284,10 +287,34 @@ canvas { width:100%!important; }
           <div class="card-body">
             <div class="stat-row"><span>Total Articles</span><span class="stat-val" id="pipe-articles">—</span></div>
             <div class="stat-row"><span>Avg per Site</span><span class="stat-val" id="pipe-avg">—</span></div>
-            <div class="stat-row"><span>Videos / week</span><span class="stat-val">27 (3×/wk)</span></div>
+            <div class="stat-row"><span>Videos / week</span><span class="stat-val">18 (3×/wk)</span></div>
             <div class="stat-row"><span>Article cadence</span><span class="stat-val">2/day auto</span></div>
             <div class="stat-row"><span>AdSense status</span><span class="stat-val amber" id="pipe-adsense">Under review</span></div>
             <div class="stat-row"><span>YouTube API</span><span class="stat-val" id="pipe-yt">—</span></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Shotstack Credits</div>
+            <span class="card-badge" id="ss-badge">loading</span>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:2px">
+              <span style="font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)">Est. Remaining</span>
+              <span style="font-size:1.4rem;font-weight:700;color:var(--text)" id="ss-remaining">—</span>
+            </div>
+            <div class="ss-bar-wrap"><div id="ss-bar"></div></div>
+            <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--stone);margin-bottom:12px">
+              <span id="ss-used-label">0 cr used</span>
+              <span id="ss-total-label">of 150.41</span>
+            </div>
+            <div class="stat-row"><span>Renders this cycle</span><span class="stat-val" id="ss-renders">—</span></div>
+            <div class="stat-row"><span>Credits used</span><span class="stat-val" id="ss-used">—</span></div>
+            <div class="stat-row"><span>Renews</span><span class="stat-val" id="ss-renews">—</span></div>
+            <div class="stat-row" style="border-top:1px dashed var(--border);padding-top:10px;margin-top:4px">
+              <span style="font-size:10px;color:var(--stone)">Estimated — no balance API</span>
+            </div>
           </div>
         </div>
 
@@ -378,6 +405,26 @@ function loadStats() {
       document.getElementById('yt-top-site').textContent = topSite || '—';
       document.getElementById('yt-shorts').textContent = shorts;
       document.getElementById('yt-standard').textContent = standard;
+
+      // Shotstack credits
+      if (data.shotstack) {
+        const ss = data.shotstack;
+        const pct = ss.pct_remaining;
+        const barColor = pct > 50 ? 'var(--green)' : pct > 20 ? '#d97706' : 'var(--red)';
+        const badgeClass = pct > 50 ? '' : pct > 20 ? 'amber' : 'red';
+        document.getElementById('ss-remaining').textContent = ss.est_remaining.toFixed(1) + ' cr';
+        document.getElementById('ss-remaining').style.color = barColor;
+        document.getElementById('ss-bar').style.width = pct + '%';
+        document.getElementById('ss-bar').style.background = barColor;
+        document.getElementById('ss-used-label').textContent = ss.credits_used.toFixed(2) + ' cr used';
+        document.getElementById('ss-total-label').textContent = 'of ' + ss.baseline_credits;
+        document.getElementById('ss-renders').textContent = ss.renders_since_baseline;
+        document.getElementById('ss-used').textContent = ss.credits_used.toFixed(2) + ' cr';
+        document.getElementById('ss-renews').textContent = 'Jun 18 · ' + ss.days_until_renewal + 'd left';
+        const badge = document.getElementById('ss-badge');
+        badge.textContent = pct.toFixed(0) + '% left';
+        badge.className = 'card-badge' + (pct <= 20 ? ' red' : '');
+      }
 
       // Sites table
       const tbody = document.getElementById('sites-tbody');
