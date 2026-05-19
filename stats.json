@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T05:02:22.289139+00:00",
+  "generated_at": "2026-05-19T09:42:08.604773+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-19"
@@ -10,7 +10,7 @@
     "visits": 0,
     "articles": 102,
     "videos": 8,
-    "yt_views": 0,
+    "yt_views": 7,
     "sites": 9
   },
   "adsense_connected": false,
@@ -110,8 +110,18 @@
           "published_at": "2026-05-19T04:34:36.661399+00:00",
           "standard_id": "2k0lMK48Jd8",
           "standard_url": "https://www.youtube.com/watch?v=2k0lMK48Jd8",
-          "shorts_stats": {},
-          "standard_stats": {},
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
+          },
           "total_views": 0
         }
       ],
@@ -335,8 +345,18 @@
           "published_at": "2026-05-19T04:44:38.702701+00:00",
           "standard_id": "LPUYD-6fxG4",
           "standard_url": "https://www.youtube.com/watch?v=LPUYD-6fxG4",
-          "shorts_stats": {},
-          "standard_stats": {},
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Paying $38K You Don't Owe"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Paying $38K You Don't Owe"
+          },
           "total_views": 0
         }
       ],
@@ -387,9 +407,19 @@
           "published_at": "2026-05-19T04:51:38.415845+00:00",
           "standard_id": "0oNFibmafc0",
           "standard_url": "https://www.youtube.com/watch?v=0oNFibmafc0",
-          "shorts_stats": {},
-          "standard_stats": {},
-          "total_views": 0
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things Nobody Tells You Before Your First Therapy Session"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Things Nobody Tells You Before Your First Therapy Session"
+          },
+          "total_views": 1
         }
       ],
       "cloudflare": {
@@ -404,7 +434,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     },
     {
       "slug": "pet-doctor-guide",
@@ -433,9 +463,19 @@
           "published_at": "2026-05-19T04:54:06.762396+00:00",
           "standard_id": "eiTfwCvfVUg",
           "standard_url": "https://www.youtube.com/watch?v=eiTfwCvfVUg",
-          "shorts_stats": {},
-          "standard_stats": {},
-          "total_views": 0
+          "shorts_stats": {
+            "views": 6,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
+          },
+          "total_views": 6
         }
       ],
       "cloudflare": {
@@ -450,7 +490,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 6
     },
     {
       "slug": "small-biz-finance-guide",
