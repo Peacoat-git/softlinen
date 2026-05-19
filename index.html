@@ -116,7 +116,7 @@ canvas { width:100%!important; }
   function gateUnlock() {
     const val = document.getElementById('gate-input').value;
     if (val === PASS) {
-      sessionStorage.setItem(KEY, '1');
+      localStorage.setItem(KEY, '1');
       document.getElementById('gate').style.display = 'none';
     } else {
       const err = document.getElementById('gate-err');
@@ -127,7 +127,7 @@ canvas { width:100%!important; }
     }
   }
   window.gateUnlock = gateUnlock;
-  if (sessionStorage.getItem(KEY) === '1') {
+  if (localStorage.getItem(KEY) === '1') {
     document.getElementById('gate').style.display = 'none';
   }
 })();
