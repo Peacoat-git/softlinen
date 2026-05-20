@@ -181,6 +181,13 @@ canvas { width:100%!important; }
       </div>
     </div>
 
+    <!-- Health Alert Banner -->
+    <div id="health-banner" style="display:none;padding:10px 28px;font-size:13px;font-weight:500;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border)">
+      <span id="health-icon" style="font-size:16px"></span>
+      <span id="health-msg"></span>
+      <a id="health-link" href="https://github.com/peacoat-git/softlinen/issues?q=label%3Ahealth-alert+is%3Aopen" target="_blank" style="margin-left:auto;font-size:11px;font-weight:600;text-decoration:underline">View Issues ↗</a>
+    </div>
+
     <div class="content">
 
       <div class="kpi-grid">
@@ -513,6 +520,31 @@ revenueChart = new Chart(ctx0, {
 });
 
 loadStats();
+
+// Health banner
+fetch('health.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(h => {
+    const banner = document.getElementById('health-banner');
+    const icon   = document.getElementById('health-icon');
+    const msg    = document.getElementById('health-msg');
+    const link   = document.getElementById('health-link');
+    banner.style.display = 'flex';
+    if (h.healthy) {
+      banner.style.background = '#f0fdf4';
+      banner.style.color = '#15803d';
+      icon.textContent = '✓';
+      msg.textContent = 'All systems healthy — last checked ' + new Date(h.generated_at).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+      link.style.display = 'none';
+    } else {
+      banner.style.background = '#fef2f2';
+      banner.style.color = '#b91c1c';
+      icon.textContent = '⚠️';
+      msg.textContent = h.issue_count + ' issue' + (h.issue_count!==1?'s':'') + ' detected: ' + (h.issues[0] || '');
+      if (h.issue_count > 1) msg.textContent += ` (+${h.issue_count-1} more)`;
+    }
+  })
+  .catch(() => {}); // health.json not yet generated — silent fail
 </script>
 </body>
 </html>
