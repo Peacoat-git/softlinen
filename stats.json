@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T02:04:48.490648+00:00",
+  "generated_at": "2026-05-20T08:51:52.929122+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-20"
@@ -8,9 +8,9 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 130,
+    "articles": 140,
     "videos": 22,
-    "yt_views": 18,
+    "yt_views": 21,
     "sites": 9
   },
   "adsense_connected": false,
@@ -217,7 +217,7 @@
           "standard_id": "2k0lMK48Jd8",
           "standard_url": "https://www.youtube.com/watch?v=2k0lMK48Jd8",
           "shorts_stats": {
-            "views": 0,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
@@ -228,7 +228,7 @@
             "comments": 0,
             "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
           },
-          "total_views": 0
+          "total_views": 2
         }
       ],
       "cloudflare": {
@@ -243,7 +243,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 2
     },
     {
       "slug": "solar-home-planner",
@@ -252,17 +252,22 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 10,
+      "articles": 15,
       "article_titles": [
         "Comparing Solar Bids What To Look For",
         "How To Choose A Solar Company",
         "How To Get Solar Quotes",
         "Is My Solar Installer Legit",
         "My Solar Panels Stopped Working What To Do",
+        "Questions To Ask Solar Companies",
         "Red Flags When Hiring Solar Installer",
         "Solar Company Certifications Nabcep",
+        "Solar Contract What To Review Before Signing",
+        "Solar For Mobile Homes And Manufactured Housing",
         "Solar For Two Story Home",
         "Solar Installer Reviews What To Look For",
+        "Solar Panels For Existing Homes",
+        "Solar Panels For New Construction Homes",
         "Welcome To Solar Home Planner"
       ],
       "videos": [
@@ -740,18 +745,23 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 11,
+      "articles": 16,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
+        "Cat Dental Disease Signs",
         "Cat Hiding Behavior Explained",
         "Cat Not Using Litter Box Causes",
         "Cat Vomiting When To Worry",
+        "Dog Dental Health Guide",
         "Dog Diarrhea Home Remedies",
         "Dog Limping Causes Treatment",
         "Dog Not Eating What To Do",
+        "Dog Teeth Cleaning Cost",
         "Dog Vaccinations Schedule Guide",
         "How Often Should Dog Go To Vet",
+        "Kitten Vet Schedule First Year",
         "Pet Insurance Worth It",
+        "Puppy Vet Schedule First Year",
         "Your Dogs First Vet Visit Guide"
       ],
       "videos": [
@@ -786,7 +796,7 @@
           "standard_id": "eiTfwCvfVUg",
           "standard_url": "https://www.youtube.com/watch?v=eiTfwCvfVUg",
           "shorts_stats": {
-            "views": 12,
+            "views": 13,
             "likes": 0,
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
@@ -797,7 +807,7 @@
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
           },
-          "total_views": 12
+          "total_views": 13
         }
       ],
       "cloudflare": {
@@ -812,7 +822,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 12
+      "yt_total_views": 13
     },
     {
       "slug": "small-biz-finance-guide",
