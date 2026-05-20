@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-05-20T04:00:29.037867+00:00",
+  "healthy": false,
+  "issue_count": 8,
+  "issues": [
+    "**solar-planner-guide**: video workflow FAILED (https://github.com/peacoat-sites/solar-planner-guide/actions/runs/26140385869)",
+    "**solar-home-planner**: video workflow FAILED (https://github.com/peacoat-sites/solar-home-planner/actions/runs/26140386729)",
+    "**injury-victim-guide**: video workflow FAILED (https://github.com/peacoat-sites/injury-victim-guide/actions/runs/26140387545)",
+    "**home-insurance-guide**: video workflow FAILED (https://github.com/peacoat-sites/home-insurance-guide/actions/runs/26140388447)",
+    "**mortgage-advisor-guide**: video workflow FAILED (https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/26140389391)",
+    "**therapy-finder-guide**: video workflow FAILED (https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/26140390271)",
+    "**pet-doctor-guide**: video workflow FAILED (https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/26140390965)",
+    "**small-biz-finance-guide**: video workflow FAILED (https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/26140391796)"
+  ],
+  "thresholds": {
+    "publish_stale_hours": 30,
+    "video_stale_hours": 120
+  },
+  "sites": [
+    {
+      "slug": "medicare-starter",
+      "domain": "medicarestarter.com",
+      "http": 200,
+      "articles": 19,
+      "publish": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 3.5,
+        "created_at": "2026-05-20T00:28:44Z",
+        "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/26133699854"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 33.0,
+        "created_at": "2026-05-18T19:01:13Z",
+        "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/26054208206"
+      },
+      "issues": [],
+      "healthy": true
+    },
+    {
+      "slug": "solar-planner-guide",
+      "domain": "solarplannerguide.com",
+      "http": 200,
+      "articles": 15,
+      "publish": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 3.5,
+        "created_at": "2026-05-20T00:28:46Z",
+        "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/26133700873"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:04Z",
+        "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/26140385869"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/solar-planner-guide/actions/runs/26140385869)"
+      ],
+      "healthy": false
+    },
+    {
+      "slug": "solar-home-planner",
+      "domain": "solarhomeplanner.com",
+      "http": 200,
+      "articles": 10,
+      "publish": {
+        "status": "in_progress",
+        "conclusion": "in_progress",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:00Z",
+        "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/26140384208"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:05Z",
+        "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/26140386729"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/solar-home-planner/actions/runs/26140386729)"
+      ],
+      "healthy": false
+    },
+    {
+      "slug": "injury-victim-guide",
+      "domain": "injuryvictimguide.com",
+      "http": 200,
+      "articles": 20,
+      "publish": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 3.5,
+        "created_at": "2026-05-20T00:28:50Z",
+        "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/26133703016"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:07Z",
+        "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/26140387545"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/injury-victim-guide/actions/runs/26140387545)"
+      ],
+      "healthy": false
+    },
+    {
+      "slug": "home-insurance-guide",
+      "domain": "homeinsuranceclear.com",
+      "http": 200,
+      "articles": 13,
+      "publish": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 3.5,
+        "created_at": "2026-05-20T00:28:52Z",
+        "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/26133704035"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:09Z",
+        "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/26140388447"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/home-insurance-guide/actions/runs/26140388447)"
+      ],
+      "healthy": false
+    },
+    {
+      "slug": "mortgage-advisor-guide",
+      "domain": "mortgageadvisorguide.com",
+      "http": 200,
+      "articles": 13,
+      "publish": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 3.5,
+        "created_at": "2026-05-20T00:28:53Z",
+        "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/26133705037"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:10Z",
+        "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/26140389391"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/26140389391)"
+      ],
+      "healthy": false
+    },
+    {
+      "slug": "therapy-finder-guide",
+      "domain": "therapyfinderguide.com",
+      "http": 200,
+      "articles": 16,
+      "publish": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 3.5,
+        "created_at": "2026-05-20T00:28:55Z",
+        "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/26133706022"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:12Z",
+        "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/26140390271"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/26140390271)"
+      ],
+      "healthy": false
+    },
+    {
+      "slug": "pet-doctor-guide",
+      "domain": "petdoctorguide.com",
+      "http": 200,
+      "articles": 12,
+      "publish": {
+        "status": "in_progress",
+        "conclusion": "in_progress",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:02Z",
+        "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/26140384983"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:13Z",
+        "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/26140390965"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/26140390965)"
+      ],
+      "healthy": false
+    },
+    {
+      "slug": "small-biz-finance-guide",
+      "domain": "smallbizfinanceguide.com",
+      "http": 200,
+      "articles": 13,
+      "publish": {
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 3.5,
+        "created_at": "2026-05-20T00:28:59Z",
+        "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/26133707956"
+      },
+      "video": {
+        "status": "completed",
+        "conclusion": "failure",
+        "age_hours": 0.0,
+        "created_at": "2026-05-20T03:59:15Z",
+        "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/26140391796"
+      },
+      "issues": [
+        "video workflow FAILED (https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/26140391796)"
+      ],
+      "healthy": false
+    }
+  ]
+}
