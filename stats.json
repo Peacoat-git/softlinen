@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T08:51:52.929122+00:00",
+  "generated_at": "2026-05-20T14:32:10.643729+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-20"
@@ -8,9 +8,9 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 140,
+    "articles": 145,
     "videos": 22,
-    "yt_views": 21,
+    "yt_views": 25,
     "sites": 9
   },
   "adsense_connected": false,
@@ -217,7 +217,7 @@
           "standard_id": "2k0lMK48Jd8",
           "standard_url": "https://www.youtube.com/watch?v=2k0lMK48Jd8",
           "shorts_stats": {
-            "views": 2,
+            "views": 6,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
@@ -228,7 +228,7 @@
             "comments": 0,
             "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
           },
-          "total_views": 2
+          "total_views": 6
         }
       ],
       "cloudflare": {
@@ -243,7 +243,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 6
     },
     {
       "slug": "solar-home-planner",
@@ -252,8 +252,9 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 15,
+      "articles": 17,
       "article_titles": [
+        "Can Condos Get Solar Panels",
         "Comparing Solar Bids What To Look For",
         "How To Choose A Solar Company",
         "How To Get Solar Quotes",
@@ -263,6 +264,7 @@
         "Red Flags When Hiring Solar Installer",
         "Solar Company Certifications Nabcep",
         "Solar Contract What To Review Before Signing",
+        "Solar For Flat Roof Homes",
         "Solar For Mobile Homes And Manufactured Housing",
         "Solar For Two Story Home",
         "Solar Installer Reviews What To Look For",
@@ -576,7 +578,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 13,
+      "articles": 14,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Conventional Loan Requirements",
@@ -584,6 +586,7 @@
         "Fixed Vs Adjustable Rate Mortgage",
         "How Much House Can I Afford",
         "How To Get A Mortgage First Time Buyer",
+        "How To Refinance Mortgage",
         "Mortgage Down Payment Options",
         "Mortgage Pre Approval Process",
         "Mortgage Qualification Requirements",
@@ -745,7 +748,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 16,
+      "articles": 18,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Dental Disease Signs",
@@ -754,10 +757,12 @@
         "Cat Vomiting When To Worry",
         "Dog Dental Health Guide",
         "Dog Diarrhea Home Remedies",
+        "Dog Heartworm Prevention Guide",
         "Dog Limping Causes Treatment",
         "Dog Not Eating What To Do",
         "Dog Teeth Cleaning Cost",
         "Dog Vaccinations Schedule Guide",
+        "Flea Tick Prevention Dogs",
         "How Often Should Dog Go To Vet",
         "Kitten Vet Schedule First Year",
         "Pet Insurance Worth It",
