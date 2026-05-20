@@ -1,20 +1,31 @@
 {
-  "generated_at": "2026-05-19T19:00:50.719131+00:00",
+  "generated_at": "2026-05-20T02:04:48.490648+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-19"
+    "end": "2026-05-20"
   },
   "totals": {
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 112,
+    "articles": 130,
     "videos": 22,
-    "yt_views": 12,
+    "yt_views": 18,
     "sites": 9
   },
   "adsense_connected": false,
   "youtube_connected": true,
+  "shotstack": {
+    "baseline_credits": 150.41,
+    "baseline_date": "2026-05-19",
+    "renewal_date": "2026-06-18",
+    "cost_per_render": 0.68,
+    "renders_since_baseline": 44,
+    "credits_used": 29.92,
+    "est_remaining": 120.49,
+    "pct_remaining": 80.1,
+    "days_until_renewal": 29
+  },
   "sites": [
     {
       "slug": "medicare-starter",
@@ -23,10 +34,11 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 16,
+      "articles": 19,
       "article_titles": [
         "Best Medigap Plans 2026",
         "How Does Medicare Work",
+        "How Much Does Medigap Cost",
         "Medicare And Employer Insurance",
         "Medicare And Tricare",
         "Medicare Eligibility Requirements",
@@ -34,12 +46,14 @@
         "Medicare Part B Explained",
         "Medicare Part C Explained",
         "Medicare Part D Explained",
+        "Medicare Supplement Plan Comparison",
         "Medicare Supplement Plan G Explained",
         "Medicare Supplement Plan N Explained",
         "Medicare Vs Medicaid Difference",
         "Medigap Vs Medicare Advantage",
         "Plan G Vs Plan N Medicare Supplement",
         "What Does Medicare Cover",
+        "What Medicare Does Not Cover",
         "When Does Medicare Start"
       ],
       "videos": [
@@ -131,16 +145,19 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 12,
+      "articles": 15,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
+        "Federal Solar Tax Credit 2026",
         "How Long To Pay Off Solar Panels",
+        "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
         "Net Metering Savings Explained",
         "Solar Cost Vs Electricity Bill Savings",
         "Solar Lease Vs Buy Cost Comparison",
         "Solar Loan Vs Solar Lease Vs Ppa",
         "Solar Panel Cost Per Watt 2026",
+        "Solar Panel Installation Cost Breakdown",
         "Solar Panel Roi Calculation",
         "Solar Panels Worth It Financially",
         "Solar Payback Period Calculator",
@@ -235,7 +252,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 9,
+      "articles": 10,
       "article_titles": [
         "Comparing Solar Bids What To Look For",
         "How To Choose A Solar Company",
@@ -243,6 +260,7 @@
         "Is My Solar Installer Legit",
         "My Solar Panels Stopped Working What To Do",
         "Red Flags When Hiring Solar Installer",
+        "Solar Company Certifications Nabcep",
         "Solar For Two Story Home",
         "Solar Installer Reviews What To Look For",
         "Welcome To Solar Home Planner"
@@ -336,9 +354,11 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 17,
+      "articles": 20,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
+        "Back Injury Settlement Amounts Car Accident",
+        "Broken Bone Injury Settlement Average",
         "Car Accident Settlement Amounts By Injury Type",
         "Do I Have A Personal Injury Case",
         "Do You Have A Personal Injury Case",
@@ -350,6 +370,7 @@
         "Personal Injury Lawsuit Vs Settlement",
         "Personal Injury Statute Of Limitations By State",
         "Soft Tissue Injury Settlement Amounts",
+        "Traumatic Brain Injury Settlement Value",
         "What Damages Can I Recover In Personal Injury",
         "What Is A Personal Injury Claim",
         "What Is Pain And Suffering In Personal Injury",
@@ -445,13 +466,14 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 12,
+      "articles": 13,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
         "Home Insurance Coverage Limits Guide",
         "Home Insurance Dwelling Coverage",
         "Home Insurance For First Time Buyers",
+        "Home Insurance Liability Coverage",
         "Home Insurance Quotes Comparison",
         "Home Insurance Vs Renters Insurance",
         "Homeowners Insurance Deductible Explained",
@@ -549,7 +571,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 12,
+      "articles": 13,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Conventional Loan Requirements",
@@ -561,6 +583,7 @@
         "Mortgage Pre Approval Process",
         "Mortgage Qualification Requirements",
         "Mortgage Rates Today Explained",
+        "Pmi Explained Mortgage",
         "Usda Loan Eligibility Guide",
         "Va Loan Benefits Explained"
       ],
@@ -631,8 +654,9 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 14,
+      "articles": 16,
       "article_titles": [
+        "Child Therapy Guide For Parents",
         "Cognitive Behavioral Therapy Explained",
         "Couples Therapy How It Works",
         "Dbt Therapy What Is It",
@@ -643,6 +667,7 @@
         "How To Find A Therapist",
         "How To Find The Right Therapist",
         "Online Therapy Vs In Person",
+        "Teen Therapy Options",
         "Therapy For Anxiety Treatment",
         "Therapy For Depression",
         "Types Of Therapy Explained",
@@ -658,7 +683,7 @@
           "standard_id": "L_2TqIVb_Aw",
           "standard_url": "https://www.youtube.com/watch?v=L_2TqIVb_Aw",
           "shorts_stats": {
-            "views": 0,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
@@ -669,7 +694,7 @@
             "comments": 0,
             "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
           },
-          "total_views": 0
+          "total_views": 2
         },
         {
           "shorts_id": "0rMyaqyipR0",
@@ -706,7 +731,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 1
+      "yt_total_views": 3
     },
     {
       "slug": "pet-doctor-guide",
@@ -715,11 +740,13 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 9,
+      "articles": 11,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Hiding Behavior Explained",
+        "Cat Not Using Litter Box Causes",
         "Cat Vomiting When To Worry",
+        "Dog Diarrhea Home Remedies",
         "Dog Limping Causes Treatment",
         "Dog Not Eating What To Do",
         "Dog Vaccinations Schedule Guide",
@@ -759,7 +786,7 @@
           "standard_id": "eiTfwCvfVUg",
           "standard_url": "https://www.youtube.com/watch?v=eiTfwCvfVUg",
           "shorts_stats": {
-            "views": 9,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
@@ -770,7 +797,7 @@
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
           },
-          "total_views": 9
+          "total_views": 12
         }
       ],
       "cloudflare": {
@@ -785,7 +812,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 9
+      "yt_total_views": 12
     },
     {
       "slug": "small-biz-finance-guide",
@@ -794,8 +821,9 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 11,
+      "articles": 13,
       "article_titles": [
+        "Accounts Receivable Management",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "How To Get A Small Business Loan",
@@ -806,6 +834,7 @@
         "Sba Loan Requirements Guide",
         "Separate Business Personal Finances",
         "Small Business Accounting Basics",
+        "Small Business Bookkeeping Guide",
         "Small Business Grants Available"
       ],
       "videos": [
@@ -818,7 +847,7 @@
           "standard_id": "n960IDUt20s",
           "standard_url": "https://www.youtube.com/watch?v=n960IDUt20s",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Free Business Money: 3 Grant Facts Most Owners Miss"
@@ -829,7 +858,7 @@
             "comments": 0,
             "title": "Free Business Money: 3 Grant Facts Most Owners Miss"
           },
-          "total_views": 1
+          "total_views": 2
         }
       ],
       "cloudflare": {
@@ -844,7 +873,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 1
+      "yt_total_views": 2
     }
   ]
 }
