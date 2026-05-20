@@ -84,6 +84,16 @@ canvas { width:100%!important; }
 .source-label { display:flex; align-items:center; gap:8px; font-size:13px; }
 .source-icon { width:28px; height:28px; border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:14px; }
 .source-value { font-weight:600; font-size:13px; }
+/* Health audit panel */
+.health-table { width:100%; border-collapse:collapse; font-size:12px; }
+.health-table th { text-align:left; font-size:10px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding:8px 12px; border-bottom:1px solid var(--border); }
+.health-table td { padding:9px 12px; border-bottom:1px solid var(--border); vertical-align:middle; }
+.health-table tr:last-child td { border-bottom:none; }
+.health-table tr:hover td { background:var(--bg); }
+.h-ok   { color:var(--green); font-weight:600; }
+.h-warn { color:#d97706;       font-weight:600; }
+.h-fail { color:var(--red);   font-weight:600; }
+.issue-tag { font-size:10px; background:#fee2e2; color:#dc2626; padding:2px 7px; border-radius:4px; display:inline-block; margin:1px 2px; white-space:nowrap; }
 </style>
 </head>
 <body>
@@ -341,6 +351,30 @@ canvas { width:100%!important; }
         </div>
       </div>
 
+      <!-- ── System Health Audit Panel ─────────────────────────── -->
+      <div class="card" style="margin-top:24px" id="audit-panel">
+        <div class="card-header">
+          <div class="card-title">System Health — Last Audit</div>
+          <span class="card-badge" id="audit-badge">Loading…</span>
+        </div>
+        <table class="health-table">
+          <thead>
+            <tr>
+              <th>Site</th>
+              <th>HTTP</th>
+              <th>Articles</th>
+              <th>Last Publish</th>
+              <th>Last Video</th>
+              <th>Issues</th>
+            </tr>
+          </thead>
+          <tbody id="audit-tbody">
+            <tr><td colspan="6" style="text-align:center;color:var(--muted);padding:20px">health.json not yet available — audit runs every 12h</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- ── End Audit Panel ──────────────────────────────────── -->
+
     </div>
   </div>
 </div>
@@ -521,10 +555,19 @@ revenueChart = new Chart(ctx0, {
 
 loadStats();
 
-// Health banner
+// Health banner + audit panel
+function renderAuditWf(wf) {
+  if (!wf || wf.conclusion === 'never_run') return '<span style="color:var(--stone)">never run</span>';
+  if (!wf.conclusion) return '<span style="color:var(--stone)">—</span>';
+  const cls = wf.conclusion === 'success' ? 'h-ok' : wf.conclusion === 'failure' ? 'h-fail' : 'h-warn';
+  const age = wf.age_hours != null ? ' · ' + wf.age_hours + 'h ago' : '';
+  return '<span class="' + cls + '">' + wf.conclusion + age + '</span>';
+}
+
 fetch('health.json?v=' + Date.now())
   .then(r => r.json())
   .then(h => {
+    // ── Banner ───────────────────────────────────────────────
     const banner = document.getElementById('health-banner');
     const icon   = document.getElementById('health-icon');
     const msg    = document.getElementById('health-msg');
@@ -541,7 +584,39 @@ fetch('health.json?v=' + Date.now())
       banner.style.color = '#b91c1c';
       icon.textContent = '⚠️';
       msg.textContent = h.issue_count + ' issue' + (h.issue_count!==1?'s':'') + ' detected: ' + (h.issues[0] || '');
-      if (h.issue_count > 1) msg.textContent += ` (+${h.issue_count-1} more)`;
+      if (h.issue_count > 1) msg.textContent += ' (+' + (h.issue_count-1) + ' more)';
+    }
+
+    // ── Audit panel badge ────────────────────────────────────
+    const auditTime = new Date(h.generated_at);
+    const auditBadge = document.getElementById('audit-badge');
+    auditBadge.textContent = (h.healthy ? '✓ All healthy' : h.issue_count + ' issue' + (h.issue_count!==1?'s':'')) + ' · ' + auditTime.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+    auditBadge.className = 'card-badge ' + (h.healthy ? 'green' : 'red');
+
+    // ── Audit table ──────────────────────────────────────────
+    if (h.sites && h.sites.length) {
+      const tbody = document.getElementById('audit-tbody');
+      tbody.innerHTML = h.sites.map(s => {
+        const color   = COLORS[s.slug] || '#94a3b8';
+        const httpOk  = s.http === 200;
+        const httpCell = httpOk
+          ? '<span class="h-ok">● 200</span>'
+          : '<span class="h-fail">● ' + s.http + '</span>';
+        const issues = (s.issues && s.issues.length)
+          ? s.issues.map(i => '<span class="issue-tag">' + i + '</span>').join('')
+          : '<span class="h-ok">✓</span>';
+        return '<tr>' +
+          '<td><div style="display:flex;align-items:center;gap:8px">' +
+            '<div class="site-dot" style="background:' + color + '"></div>' +
+            '<span style="font-weight:500">' + s.slug + '</span>' +
+          '</div></td>' +
+          '<td>' + httpCell + '</td>' +
+          '<td class="num">' + (s.articles >= 0 ? s.articles : '—') + '</td>' +
+          '<td>' + renderAuditWf(s.publish) + '</td>' +
+          '<td>' + renderAuditWf(s.video) + '</td>' +
+          '<td>' + issues + '</td>' +
+        '</tr>';
+      }).join('');
     }
   })
   .catch(() => {}); // health.json not yet generated — silent fail
