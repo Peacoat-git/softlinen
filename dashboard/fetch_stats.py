@@ -40,6 +40,10 @@ SITES = [
     {"slug": "therapy-finder-guide",    "domain": "therapyfinderguide.com",    "zone": "bfd123744e25ba62408bc1e5d9131e0c", "color": "#ec4899", "niche": "Mental health & therapy",     "rpm_est": "8-14"},
     {"slug": "pet-doctor-guide",        "domain": "petdoctorguide.com",        "zone": "f8ba94856bed0462d289108c029918ed", "color": "#f97316", "niche": "Pet health & vet care",       "rpm_est": "6-12"},
     {"slug": "small-biz-finance-guide", "domain": "smallbizfinanceguide.com",  "zone": "f017bfad279ae9c19ac62f1b211f5143", "color": "#14b8a6", "niche": "Small business finance",      "rpm_est": "8-15"},
+    # Tier 2
+    {"slug": "keto-living-guide",       "domain": "ketolivingguide.com",       "zone": "f5c44a49fbed28497138c0cd8a66f64c", "color": "#1b4332", "niche": "Keto & low-carb living",      "rpm_est": "5-10"},
+    {"slug": "chicken-keeper-guide",    "domain": "chickenkeeperguide.com",    "zone": "8eca9af5b63390c863a003a40d75d038", "color": "#744210", "niche": "Backyard chickens & poultry", "rpm_est": "4-8"},
+    {"slug": "rv-life-guide",           "domain": "rv-life-guide.com",         "zone": "6985e9d6f84254f29742981a91a6c6c1", "color": "#1a1a2e", "niche": "RV life & van living",        "rpm_est": "5-9"},
 ]
 
 ORG = "peacoat-sites"
