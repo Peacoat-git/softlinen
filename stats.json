@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T02:04:12.513547+00:00",
+  "generated_at": "2026-05-21T08:54:19.111578+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-21"
@@ -10,7 +10,7 @@
     "visits": 0,
     "articles": 145,
     "videos": 22,
-    "yt_views": 32,
+    "yt_views": 33,
     "sites": 9
   },
   "adsense_connected": false,
@@ -326,7 +326,7 @@
           "standard_id": "d4eAv_KtX38",
           "standard_url": "https://www.youtube.com/watch?v=d4eAv_KtX38",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "5 Solar Secrets Installers Won't Tell You"
@@ -337,7 +337,7 @@
             "comments": 0,
             "title": "5 Solar Secrets Installers Won't Tell You"
           },
-          "total_views": 0
+          "total_views": 1
         }
       ],
       "cloudflare": {
@@ -352,7 +352,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     },
     {
       "slug": "injury-victim-guide",
