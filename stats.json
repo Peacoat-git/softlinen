@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T08:54:19.111578+00:00",
+  "generated_at": "2026-05-21T14:37:10.114819+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-21"
@@ -8,9 +8,9 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 145,
+    "articles": 157,
     "videos": 22,
-    "yt_views": 33,
+    "yt_views": 37,
     "sites": 9
   },
   "adsense_connected": false,
@@ -145,13 +145,14 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 15,
+      "articles": 17,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Federal Solar Tax Credit 2026",
         "How Long To Pay Off Solar Panels",
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
+        "Itc Solar Investment Tax Credit Explained",
         "Net Metering Savings Explained",
         "Solar Cost Vs Electricity Bill Savings",
         "Solar Lease Vs Buy Cost Comparison",
@@ -161,7 +162,8 @@
         "Solar Panel Roi Calculation",
         "Solar Panels Worth It Financially",
         "Solar Payback Period Calculator",
-        "Solar Savings Calculator"
+        "Solar Savings Calculator",
+        "Solar Tax Credit How To Claim"
       ],
       "videos": [
         {
@@ -195,7 +197,7 @@
           "standard_id": "kv2zAfYOxPo",
           "standard_url": "https://www.youtube.com/watch?v=kv2zAfYOxPo",
           "shorts_stats": {
-            "views": 0,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
@@ -206,7 +208,7 @@
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
           },
-          "total_views": 3
+          "total_views": 6
         },
         {
           "shorts_id": "cqi_MqRbkHE",
@@ -243,7 +245,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 10
+      "yt_total_views": 13
     },
     {
       "slug": "solar-home-planner",
@@ -361,7 +363,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 20,
+      "articles": 22,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -369,10 +371,12 @@
         "Car Accident Settlement Amounts By Injury Type",
         "Do I Have A Personal Injury Case",
         "Do You Have A Personal Injury Case",
+        "How Insurance Companies Calculate Settlements",
         "How Long Do Personal Injury Cases Take",
         "How Much Is My Personal Injury Case Worth",
         "How Personal Injury Settlements Work",
         "How To Document Injuries After Accident",
+        "Neck Injury Settlement Car Accident",
         "Personal Injury Claim Process Step By Step",
         "Personal Injury Lawsuit Vs Settlement",
         "Personal Injury Statute Of Limitations By State",
@@ -380,9 +384,7 @@
         "Traumatic Brain Injury Settlement Value",
         "What Damages Can I Recover In Personal Injury",
         "What Is A Personal Injury Claim",
-        "What Is Pain And Suffering In Personal Injury",
-        "What To Do Immediately After An Accident",
-        "Whiplash Settlement Value 2026"
+        "What Is Pain And Suffering In Personal Injury"
       ],
       "videos": [
         {
@@ -473,7 +475,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 13,
+      "articles": 14,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
@@ -484,6 +486,7 @@
         "Home Insurance Quotes Comparison",
         "Home Insurance Vs Renters Insurance",
         "Homeowners Insurance Deductible Explained",
+        "Homeowners Insurance For Older Homes",
         "How Much Does Homeowners Insurance Cost",
         "How Much Home Insurance Do You Need",
         "How To Lower Homeowners Insurance Cost",
@@ -578,7 +581,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 14,
+      "articles": 15,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Conventional Loan Requirements",
@@ -587,6 +590,7 @@
         "How Much House Can I Afford",
         "How To Get A Mortgage First Time Buyer",
         "How To Refinance Mortgage",
+        "Mortgage Closing Costs Explained",
         "Mortgage Down Payment Options",
         "Mortgage Pre Approval Process",
         "Mortgage Qualification Requirements",
@@ -662,7 +666,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 16,
+      "articles": 18,
       "article_titles": [
         "Child Therapy Guide For Parents",
         "Cognitive Behavioral Therapy Explained",
@@ -671,11 +675,13 @@
         "Does Insurance Cover Therapy",
         "Emdr Therapy Explained",
         "Family Therapy Benefits",
+        "Finding A Therapist That Takes Insurance",
         "How Much Does Therapy Cost",
         "How To Find A Therapist",
         "How To Find The Right Therapist",
         "Online Therapy Vs In Person",
         "Teen Therapy Options",
+        "Therapist Vs Psychologist Vs Psychiatrist",
         "Therapy For Anxiety Treatment",
         "Therapy For Depression",
         "Types Of Therapy Explained",
@@ -748,7 +754,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 18,
+      "articles": 20,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Dental Disease Signs",
@@ -757,6 +763,7 @@
         "Cat Vomiting When To Worry",
         "Dog Dental Health Guide",
         "Dog Diarrhea Home Remedies",
+        "Dog Ear Infection Symptoms Treatment",
         "Dog Heartworm Prevention Guide",
         "Dog Limping Causes Treatment",
         "Dog Not Eating What To Do",
@@ -765,6 +772,7 @@
         "Flea Tick Prevention Dogs",
         "How Often Should Dog Go To Vet",
         "Kitten Vet Schedule First Year",
+        "Pet Emergency Vet When To Go",
         "Pet Insurance Worth It",
         "Puppy Vet Schedule First Year",
         "Your Dogs First Vet Visit Guide"
@@ -785,12 +793,12 @@
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "d0E4Lv8yUtw",
@@ -827,7 +835,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 14
+      "yt_total_views": 15
     },
     {
       "slug": "small-biz-finance-guide",
@@ -836,11 +844,12 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 13,
+      "articles": 15,
       "article_titles": [
         "Accounts Receivable Management",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
+        "Cash Flow Management Guide",
         "How To Get A Small Business Loan",
         "How To Separate Business Personal Finances",
         "Invoicing Tips For Small Business",
@@ -850,7 +859,8 @@
         "Separate Business Personal Finances",
         "Small Business Accounting Basics",
         "Small Business Bookkeeping Guide",
-        "Small Business Grants Available"
+        "Small Business Grants Available",
+        "Small Business Tax Deductions"
       ],
       "videos": [
         {
