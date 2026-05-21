@@ -30,17 +30,21 @@ a { color:inherit; text-decoration:none; }
 .sidebar-logo span { font-family:'Playfair Display',serif; font-size:1.15rem; color:#fff; font-weight:700; }
 .sidebar-logo small { display:block; font-size:10px; color:rgba(255,255,255,0.4); letter-spacing:.1em; text-transform:uppercase; margin-top:2px; }
 .sidebar-section { padding:16px 12px 8px; font-size:9px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,0.3); }
-.sidebar-link { display:flex; align-items:center; gap:10px; padding:9px 20px; color:rgba(255,255,255,0.6); font-size:13px; font-weight:500; border-radius:6px; margin:0 8px; transition:all .15s; }
+.sidebar-link { display:flex; align-items:center; gap:10px; padding:9px 20px; color:rgba(255,255,255,0.6); font-size:13px; font-weight:500; border-radius:6px; margin:0 8px; transition:all .15s; cursor:pointer; border:none; background:none; width:calc(100% - 16px); text-align:left; }
 .sidebar-link:hover,.sidebar-link.active { background:rgba(255,255,255,0.1); color:#fff; }
 .sidebar-link .dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
 .sidebar-footer { margin-top:auto; padding:16px 20px; border-top:1px solid rgba(255,255,255,0.08); font-size:11px; color:rgba(255,255,255,0.3); }
 .main { background:var(--bg); overflow-y:auto; }
 .topbar { background:var(--surface); border-bottom:1px solid var(--border); padding:0 28px; height:60px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:10; }
-.topbar-title { font-weight:600; font-size:15px; }
+.topbar-title { font-weight:600; font-size:15px; display:flex; align-items:center; gap:10px; }
+.topbar-back { background:none; border:1px solid var(--border); color:var(--muted); padding:5px 12px; border-radius:6px; font-size:12px; cursor:pointer; display:none; }
+.topbar-back:hover { background:var(--bg); color:var(--text); }
 .topbar-right { display:flex; align-items:center; gap:12px; }
 .date-badge { font-size:12px; color:var(--muted); background:var(--bg); padding:5px 12px; border-radius:20px; border:1px solid var(--border); }
 .refresh-btn { background:var(--primary); color:#fff; border:none; padding:7px 16px; border-radius:6px; font-size:12px; font-weight:500; cursor:pointer; }
 .content { padding:28px; }
+
+/* ── KPI / Overview ── */
 .kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px; }
 .kpi-card { background:var(--surface); border-radius:var(--radius); padding:20px; border:1px solid var(--border); box-shadow:var(--shadow); }
 .kpi-label { font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
@@ -61,13 +65,12 @@ canvas { width:100%!important; }
 .revenue-table th { text-align:left; font-size:10px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding:10px 12px; border-bottom:1px solid var(--border); }
 .revenue-table td { padding:12px; border-bottom:1px solid var(--border); vertical-align:middle; }
 .revenue-table tr:last-child td { border-bottom:none; }
-.revenue-table tr:hover td { background:var(--bg); }
+.revenue-table tr:hover td { background:var(--bg); cursor:pointer; }
 .site-name-cell { display:flex; align-items:center; gap:10px; }
 .site-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
-.site-link { font-weight:500; color:var(--primary); }
+.site-link { font-weight:500; color:var(--primary); cursor:pointer; }
 .site-link:hover { text-decoration:underline; }
 .badge-live { font-size:9px; font-weight:600; background:#dcfce7; color:#16a34a; padding:2px 7px; border-radius:8px; }
-.badge-pending { font-size:9px; font-weight:600; background:#fef9c3; color:#ca8a04; padding:2px 7px; border-radius:8px; }
 .num { font-variant-numeric:tabular-nums; }
 .num.green { color:var(--green); font-weight:600; }
 .bottom-row { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; }
@@ -86,6 +89,39 @@ canvas { width:100%!important; }
 .el-stat-mini { display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--bg); border-radius:var(--radius); border:1px solid var(--border); padding:14px 12px; text-align:center; }
 .el-stat-mini .el-stat-val { font-size:1.3rem; font-weight:700; line-height:1; margin-top:4px; }
 .el-stat-mini .el-stat-lbl { font-size:10px; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); }
+
+/* ── Site Detail View ── */
+#view-overview { display:block; }
+#view-site { display:none; }
+
+.site-hero { background:var(--surface); border-radius:var(--radius); border:1px solid var(--border); box-shadow:var(--shadow); padding:24px 28px; margin-bottom:20px; display:flex; align-items:center; gap:20px; }
+.site-hero-dot { width:14px; height:14px; border-radius:50%; flex-shrink:0; }
+.site-hero-info h2 { font-size:1.3rem; font-weight:700; }
+.site-hero-info a { font-size:13px; color:var(--muted); }
+.site-hero-info a:hover { color:var(--primary); text-decoration:underline; }
+.site-hero-badges { margin-left:auto; display:flex; gap:8px; align-items:center; }
+.hero-badge { font-size:11px; font-weight:600; padding:4px 12px; border-radius:12px; }
+
+.site-stats-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:20px; }
+.site-stat-card { background:var(--surface); border-radius:var(--radius); padding:18px 20px; border:1px solid var(--border); box-shadow:var(--shadow); }
+.site-stat-label { font-size:10px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+.site-stat-value { font-size:1.6rem; font-weight:700; line-height:1; }
+.site-stat-sub { font-size:11px; color:var(--stone); margin-top:4px; }
+
+.site-detail-row { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px; }
+.site-detail-row.three { grid-template-columns:1fr 1fr 1fr; }
+
+.article-list { list-style:none; }
+.article-item { padding:9px 0; border-bottom:1px solid var(--border); font-size:13px; display:flex; align-items:center; gap:8px; }
+.article-item:last-child { border-bottom:none; }
+.article-item::before { content:''; width:4px; height:4px; border-radius:50%; background:var(--stone); flex-shrink:0; }
+
+.video-item { padding:10px 0; border-bottom:1px solid var(--border); font-size:13px; }
+.video-item:last-child { border-bottom:none; }
+.video-meta { display:flex; gap:16px; margin-top:4px; font-size:11px; color:var(--stone); }
+.video-meta span { display:flex; align-items:center; gap:3px; }
+
+.empty-state { text-align:center; padding:32px 20px; color:var(--stone); font-size:13px; }
 </style>
 </head>
 <body>
@@ -97,56 +133,56 @@ canvas { width:100%!important; }
       <small>Analytics Dashboard</small>
     </div>
     <div class="sidebar-section">Overview</div>
-    <a class="sidebar-link active" href="index.html">
+    <button class="sidebar-link active" id="nav-overview" onclick="showOverview()">
       <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
       Main Dashboard
-    </a>
+    </button>
     <div class="sidebar-section">Sites</div>
-    <a class="sidebar-link" href="site.html?s=medicare-starter"><span class="dot" style="background:#f59e0b"></span>Medicare Starter</a>
-    <a class="sidebar-link" href="site.html?s=solar-planner-guide"><span class="dot" style="background:#22c55e"></span>Solar Planner</a>
-    <a class="sidebar-link" href="site.html?s=solar-home-planner"><span class="dot" style="background:#10b981"></span>Solar Home Planner</a>
-    <a class="sidebar-link" href="site.html?s=injury-victim-guide"><span class="dot" style="background:#ef4444"></span>Injury Victim Guide</a>
-    <a class="sidebar-link" href="site.html?s=home-insurance-guide"><span class="dot" style="background:#3b82f6"></span>Home Insurance Clear</a>
-    <a class="sidebar-link" href="site.html?s=mortgage-advisor-guide"><span class="dot" style="background:#8b5cf6"></span>Mortgage Advisor</a>
-    <a class="sidebar-link" href="site.html?s=therapy-finder-guide"><span class="dot" style="background:#ec4899"></span>Therapy Finder</a>
-    <a class="sidebar-link" href="site.html?s=pet-doctor-guide"><span class="dot" style="background:#f97316"></span>Pet Doctor Guide</a>
-    <a class="sidebar-link" href="site.html?s=small-biz-finance-guide"><span class="dot" style="background:#14b8a6"></span>Small Biz Finance</a>
+    <button class="sidebar-link" onclick="showSite('medicare-starter')"><span class="dot" style="background:#f59e0b"></span>Medicare Starter</button>
+    <button class="sidebar-link" onclick="showSite('solar-planner-guide')"><span class="dot" style="background:#22c55e"></span>Solar Planner</button>
+    <button class="sidebar-link" onclick="showSite('solar-home-planner')"><span class="dot" style="background:#10b981"></span>Solar Home Planner</button>
+    <button class="sidebar-link" onclick="showSite('injury-victim-guide')"><span class="dot" style="background:#ef4444"></span>Injury Victim Guide</button>
+    <button class="sidebar-link" onclick="showSite('home-insurance-guide')"><span class="dot" style="background:#3b82f6"></span>Home Insurance Clear</button>
+    <button class="sidebar-link" onclick="showSite('mortgage-advisor-guide')"><span class="dot" style="background:#8b5cf6"></span>Mortgage Advisor</button>
+    <button class="sidebar-link" onclick="showSite('therapy-finder-guide')"><span class="dot" style="background:#ec4899"></span>Therapy Finder</button>
+    <button class="sidebar-link" onclick="showSite('pet-doctor-guide')"><span class="dot" style="background:#f97316"></span>Pet Doctor Guide</button>
+    <button class="sidebar-link" onclick="showSite('small-biz-finance-guide')"><span class="dot" style="background:#14b8a6"></span>Small Biz Finance</button>
     <div class="sidebar-section">Tier 2 Sites</div>
-    <a class="sidebar-link" href="site.html?s=keto-living-guide"><span class="dot" style="background:#1b4332"></span>Keto Living Guide</a>
-    <a class="sidebar-link" href="site.html?s=chicken-keeper-guide"><span class="dot" style="background:#744210"></span>Chicken Keeper</a>
-    <a class="sidebar-link" href="site.html?s=rv-life-guide"><span class="dot" style="background:#1a1a2e"></span>RV Life Guide</a>
+    <button class="sidebar-link" onclick="showSite('keto-living-guide')"><span class="dot" style="background:#1b4332"></span>Keto Living Guide</button>
+    <button class="sidebar-link" onclick="showSite('chicken-keeper-guide')"><span class="dot" style="background:#744210"></span>Chicken Keeper</button>
+    <button class="sidebar-link" onclick="showSite('rv-life-guide')"><span class="dot" style="background:#1a1a2e"></span>RV Life Guide</button>
     <div class="sidebar-section">Authority Sites</div>
-    <a class="sidebar-link" href="site.html?s=gamedevproducer"><span class="dot" style="background:#6d28d9"></span>GameDevProducer</a>
+    <button class="sidebar-link" onclick="showSite('gamedevproducer')"><span class="dot" style="background:#6d28d9"></span>GameDevProducer</button>
     <div class="sidebar-section">Data Sources</div>
-    <a class="sidebar-link" href="#" id="adsense-status-link">
+    <button class="sidebar-link">
       <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
       AdSense <span id="adsense-dot" style="margin-left:auto;font-size:9px;color:rgba(255,255,255,0.3)">●</span>
-    </a>
-    <a class="sidebar-link" href="#" id="yt-status-link">
+    </button>
+    <button class="sidebar-link">
       <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
       YouTube <span id="yt-dot" style="margin-left:auto;font-size:9px;color:rgba(255,255,255,0.3)">●</span>
-    </a>
-    <a class="sidebar-link" href="#">
+    </button>
+    <button class="sidebar-link">
       <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-      Cloudflare ✓
-    </a>
-    <a class="sidebar-link" href="#el-card">
-      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
-      ElevenLabs <span id="el-dot" style="margin-left:auto;font-size:9px;color:rgba(255,255,255,0.3)">●</span>
-    </a>
+      Cloudflare <span id="el-dot" style="margin-left:auto;font-size:9px;color:rgba(255,255,255,0.3)">●</span>
+    </button>
     <div class="sidebar-footer" id="sidebar-footer">Fetching data…</div>
   </nav>
 
   <div class="main">
     <div class="topbar">
-      <div class="topbar-title">Portfolio Overview</div>
+      <div class="topbar-title">
+        <button class="topbar-back" id="topbar-back" onclick="showOverview()">&#8592; Overview</button>
+        <span id="topbar-title-text">Portfolio Overview</span>
+      </div>
       <div class="topbar-right">
         <span class="date-badge" id="period-badge">Loading…</span>
-        <button class="refresh-btn" onclick="loadStats()">↻ Refresh</button>
+        <button class="refresh-btn" onclick="loadStats()">&#8635; Refresh</button>
       </div>
     </div>
 
-    <div class="content">
+    <!-- ── OVERVIEW VIEW ── -->
+    <div id="view-overview" class="content">
 
       <div class="kpi-grid">
         <div class="kpi-card">
@@ -254,21 +290,9 @@ canvas { width:100%!important; }
             </div>
           </div>
           <div style="display:flex;gap:12px">
-            <div class="el-stat-mini">
-              <div class="el-stat-lbl">Remaining</div>
-              <div class="el-stat-val" id="el-remaining" style="color:var(--green)">—</div>
-              <div style="font-size:10px;color:var(--stone);margin-top:3px">chars</div>
-            </div>
-            <div class="el-stat-mini">
-              <div class="el-stat-lbl">Resets</div>
-              <div class="el-stat-val" id="el-reset" style="font-size:1rem;color:var(--text)">—</div>
-              <div style="font-size:10px;color:var(--stone);margin-top:3px">date</div>
-            </div>
-            <div class="el-stat-mini">
-              <div class="el-stat-lbl">Used</div>
-              <div class="el-stat-val" id="el-used" style="color:var(--muted)">—</div>
-              <div style="font-size:10px;color:var(--stone);margin-top:3px">chars</div>
-            </div>
+            <div class="el-stat-mini"><div class="el-stat-lbl">Remaining</div><div class="el-stat-val" id="el-remaining" style="color:var(--green)">—</div><div style="font-size:10px;color:var(--stone);margin-top:3px">chars</div></div>
+            <div class="el-stat-mini"><div class="el-stat-lbl">Resets</div><div class="el-stat-val" id="el-reset" style="font-size:1rem;color:var(--text)">—</div><div style="font-size:10px;color:var(--stone);margin-top:3px">date</div></div>
+            <div class="el-stat-mini"><div class="el-stat-lbl">Used</div><div class="el-stat-val" id="el-used" style="color:var(--muted)">—</div><div style="font-size:10px;color:var(--stone);margin-top:3px">chars</div></div>
           </div>
         </div>
       </div>
@@ -285,19 +309,17 @@ canvas { width:100%!important; }
             <div class="stat-row"><span>Standard live</span><span class="stat-val" id="yt-standard">—</span></div>
           </div>
         </div>
-
         <div class="card">
           <div class="card-header"><div class="card-title">Content Pipeline</div></div>
           <div class="card-body">
             <div class="stat-row"><span>Total Articles</span><span class="stat-val" id="pipe-articles">—</span></div>
             <div class="stat-row"><span>Avg per Site</span><span class="stat-val" id="pipe-avg">—</span></div>
-            <div class="stat-row"><span>Videos / week</span><span class="stat-val">27 (3×/wk)</span></div>
+            <div class="stat-row"><span>Videos / week</span><span class="stat-val">27 (3x/wk)</span></div>
             <div class="stat-row"><span>Article cadence</span><span class="stat-val">2/day auto</span></div>
             <div class="stat-row"><span>AdSense status</span><span class="stat-val amber" id="pipe-adsense">Under review</span></div>
             <div class="stat-row"><span>YouTube API</span><span class="stat-val" id="pipe-yt">—</span></div>
           </div>
         </div>
-
         <div class="card">
           <div class="card-header"><div class="card-title">Projected Monthly (est.)</div></div>
           <div class="card-body">
@@ -314,7 +336,101 @@ canvas { width:100%!important; }
         </div>
       </div>
 
-    </div>
+    </div><!-- /view-overview -->
+
+    <!-- ── SITE DETAIL VIEW ── -->
+    <div id="view-site" class="content">
+
+      <div class="site-hero">
+        <div class="site-hero-dot" id="detail-dot"></div>
+        <div class="site-hero-info">
+          <h2 id="detail-name">—</h2>
+          <a id="detail-domain-link" href="#" target="_blank" id="detail-domain">—</a>
+        </div>
+        <div class="site-hero-badges">
+          <span class="hero-badge" id="detail-niche-badge" style="background:#f0f4ff;color:#3b5bdb">—</span>
+          <span class="hero-badge" style="background:#dcfce7;color:#16a34a">LIVE</span>
+        </div>
+      </div>
+
+      <div class="site-stats-grid">
+        <div class="site-stat-card">
+          <div class="site-stat-label">Articles</div>
+          <div class="site-stat-value" id="detail-articles">—</div>
+          <div class="site-stat-sub" id="detail-rpm">Est. $— RPM</div>
+        </div>
+        <div class="site-stat-card">
+          <div class="site-stat-label">Page Views (MTD)</div>
+          <div class="site-stat-value" id="detail-views">—</div>
+          <div class="site-stat-sub" id="detail-visitors">— unique visitors</div>
+        </div>
+        <div class="site-stat-card">
+          <div class="site-stat-label">AdSense Revenue</div>
+          <div class="site-stat-value" id="detail-revenue">—</div>
+          <div class="site-stat-sub" id="detail-impressions">— impressions</div>
+        </div>
+        <div class="site-stat-card">
+          <div class="site-stat-label">YouTube Views</div>
+          <div class="site-stat-value" id="detail-yt-views">—</div>
+          <div class="site-stat-sub" id="detail-videos">— videos</div>
+        </div>
+      </div>
+
+      <div class="site-detail-row">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Recent Articles</div>
+            <span class="card-badge green" id="detail-article-count-badge">0 total</span>
+          </div>
+          <div class="card-body">
+            <ul class="article-list" id="detail-article-list">
+              <li class="empty-state">No articles yet</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Videos</div>
+            <span class="card-badge" id="detail-video-count-badge">0 videos</span>
+          </div>
+          <div class="card-body">
+            <div id="detail-video-list">
+              <div class="empty-state">No videos yet — pipeline runs Mon/Wed/Fri</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-detail-row three">
+        <div class="card">
+          <div class="card-header"><div class="card-title">Traffic</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>Page Views MTD</span><span class="stat-val" id="detail-pv2">—</span></div>
+            <div class="stat-row"><span>Unique Visitors</span><span class="stat-val" id="detail-uv2">—</span></div>
+            <div class="stat-row"><span>Total Visits</span><span class="stat-val" id="detail-visits">—</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Monetisation</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>AdSense Revenue</span><span class="stat-val" id="detail-ads-rev">—</span></div>
+            <div class="stat-row"><span>RPM</span><span class="stat-val" id="detail-ads-rpm">—</span></div>
+            <div class="stat-row"><span>Impressions</span><span class="stat-val" id="detail-ads-impr">—</span></div>
+            <div class="stat-row"><span>Clicks</span><span class="stat-val" id="detail-ads-clicks">—</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">Niche</div></div>
+          <div class="card-body">
+            <div class="stat-row"><span>Category</span><span class="stat-val" id="detail-niche-val" style="max-width:140px;text-align:right;font-size:12px">—</span></div>
+            <div class="stat-row"><span>Est. RPM Range</span><span class="stat-val" id="detail-rpm-range">—</span></div>
+            <div class="stat-row"><span>YouTube Channel</span><span class="stat-val" id="detail-yt-channel">—</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /view-site -->
+
   </div>
 </div>
 
@@ -326,11 +442,102 @@ const COLORS = {
   'keto-living-guide':'#1b4332','chicken-keeper-guide':'#744210','rv-life-guide':'#1a1a2e','gamedevproducer':'#6d28d9'
 };
 
+let _statsData = null;
+
 function fmt(n) {
   if (n === undefined || n === null) return '—';
   if (n >= 1000000) return (n/1000000).toFixed(1)+'M';
   if (n >= 1000) return (n/1000).toFixed(1)+'k';
   return n.toLocaleString();
+}
+
+function showOverview() {
+  document.getElementById('view-overview').style.display = 'block';
+  document.getElementById('view-site').style.display = 'none';
+  document.getElementById('topbar-back').style.display = 'none';
+  document.getElementById('topbar-title-text').textContent = 'Portfolio Overview';
+  document.querySelectorAll('.sidebar-link').forEach(l => l.classList.remove('active'));
+  document.getElementById('nav-overview').classList.add('active');
+  window.scrollTo(0,0);
+}
+
+function showSite(slug) {
+  if (!_statsData) return;
+  const site = _statsData.sites.find(s => s.slug === slug);
+  if (!site) return;
+
+  const color = COLORS[slug] || '#94a3b8';
+
+  // Hero
+  document.getElementById('detail-dot').style.background = color;
+  document.getElementById('detail-name').textContent = site.name;
+  const domainLink = document.getElementById('detail-domain-link');
+  domainLink.textContent = site.domain;
+  domainLink.href = 'https://' + site.domain;
+  document.getElementById('detail-niche-badge').textContent = site.niche;
+
+  // Stat cards
+  document.getElementById('detail-articles').textContent = site.articles;
+  document.getElementById('detail-rpm').textContent = 'Est. $' + site.rpm_est + ' RPM';
+  document.getElementById('detail-views').textContent = fmt(site.cloudflare.page_views);
+  document.getElementById('detail-visitors').textContent = fmt(site.cloudflare.unique_visitors) + ' unique visitors';
+  document.getElementById('detail-revenue').textContent = '$' + (site.adsense.revenue||0).toFixed(2);
+  document.getElementById('detail-impressions').textContent = fmt(site.adsense.impressions||0) + ' impressions';
+  document.getElementById('detail-yt-views').textContent = fmt(site.yt_total_views);
+  document.getElementById('detail-videos').textContent = site.videos.length + ' videos';
+
+  // Articles list
+  document.getElementById('detail-article-count-badge').textContent = site.articles + ' total';
+  const artList = document.getElementById('detail-article-list');
+  const titles = site.article_titles || [];
+  if (titles.length === 0) {
+    artList.innerHTML = '<li class="empty-state">No articles yet</li>';
+  } else {
+    artList.innerHTML = titles.slice(0, 15).map(t =>
+      `<li class="article-item">${t}</li>`
+    ).join('') + (titles.length > 15 ? `<li class="article-item" style="color:var(--stone)">+ ${titles.length - 15} more</li>` : '');
+  }
+
+  // Videos list
+  document.getElementById('detail-video-count-badge').textContent = site.videos.length + ' videos';
+  const vidList = document.getElementById('detail-video-list');
+  if (site.videos.length === 0) {
+    vidList.innerHTML = '<div class="empty-state">No videos yet — pipeline runs Mon/Wed/Fri</div>';
+  } else {
+    vidList.innerHTML = site.videos.map(v => {
+      const views = (v.shorts_stats?.views||0) + (v.standard_stats?.views||0);
+      const shortId = v.shorts_id;
+      const stdId = v.standard_id;
+      return `<div class="video-item">
+        <div style="font-weight:500;font-size:13px">${v.title||'Untitled'}</div>
+        <div class="video-meta">
+          <span>👁 ${fmt(views)} views</span>
+          ${shortId ? `<a href="https://youtube.com/shorts/${shortId}" target="_blank" style="color:var(--primary)">Short</a>` : ''}
+          ${stdId ? `<a href="https://youtube.com/watch?v=${stdId}" target="_blank" style="color:var(--primary)">Standard</a>` : ''}
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Traffic + monetization cards
+  document.getElementById('detail-pv2').textContent = fmt(site.cloudflare.page_views);
+  document.getElementById('detail-uv2').textContent = fmt(site.cloudflare.unique_visitors);
+  document.getElementById('detail-visits').textContent = fmt(site.cloudflare.visits);
+  document.getElementById('detail-ads-rev').textContent = '$' + (site.adsense.revenue||0).toFixed(2);
+  document.getElementById('detail-ads-rpm').textContent = site.adsense.rpm ? '$' + site.adsense.rpm.toFixed(2) : '—';
+  document.getElementById('detail-ads-impr').textContent = fmt(site.adsense.impressions||0);
+  document.getElementById('detail-ads-clicks').textContent = fmt(site.adsense.clicks||0);
+  document.getElementById('detail-niche-val').textContent = site.niche;
+  document.getElementById('detail-rpm-range').textContent = '$' + site.rpm_est;
+  document.getElementById('detail-yt-channel').textContent = site.videos.length > 0 ? 'Active' : 'Pending';
+
+  // Show site view
+  document.getElementById('view-overview').style.display = 'none';
+  document.getElementById('view-site').style.display = 'block';
+  document.getElementById('topbar-back').style.display = 'inline-flex';
+  document.getElementById('topbar-title-text').textContent = site.name;
+  document.querySelectorAll('.sidebar-link').forEach(l => l.classList.remove('active'));
+  window.scrollTo(0,0);
 }
 
 let revenueChart = null;
@@ -339,46 +546,40 @@ function loadStats() {
   fetch('stats.json?v=' + Date.now())
     .then(r => r.json())
     .then(data => {
+      _statsData = data;
       const t = data.totals;
-      const period = data.period;
 
       // KPI cards
       document.getElementById('kpi-revenue').textContent = '$' + (t.revenue||0).toFixed(2);
-      document.getElementById('kpi-revenue-note').textContent = data.adsense_connected ? 'AdSense connected' : '⏳ AdSense pending';
+      document.getElementById('kpi-revenue-note').textContent = data.adsense_connected ? 'AdSense connected' : 'AdSense pending';
       document.getElementById('kpi-views').textContent = fmt(t.page_views);
       document.getElementById('kpi-yt').textContent = fmt(t.yt_views);
-      document.getElementById('kpi-yt-note').textContent = t.videos + ' videos live · ' + t.sites + ' channels';
+      document.getElementById('kpi-yt-note').textContent = t.videos + ' videos · ' + t.sites + ' channels';
       document.getElementById('kpi-articles').textContent = t.articles;
       document.getElementById('kpi-articles-note').textContent = t.sites + ' sites · ' + Math.round(t.articles/t.sites) + ' avg/site';
 
-      // Period badge
+      // Period badge + footer
       const d = new Date(data.generated_at);
       document.getElementById('period-badge').textContent = d.toLocaleDateString('en-US',{month:'short',year:'numeric'}) + ' · MTD';
-
-      // Sidebar footer
-      document.getElementById('sidebar-footer').textContent = 'Last sync: ' + d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}) + ' · Auto-refresh daily';
+      document.getElementById('sidebar-footer').textContent = 'Synced ' + d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
 
       // Source indicators
       document.getElementById('adsense-dot').style.color = data.adsense_connected ? '#22c55e' : '#94a3b8';
       document.getElementById('yt-dot').style.color = data.youtube_connected ? '#22c55e' : '#94a3b8';
       document.getElementById('src-adsense').textContent = data.adsense_connected ? '$' + (t.revenue||0).toFixed(2) : 'Pending approval';
+      document.getElementById('el-dot').style.color = data.elevenlabs ? '#22c55e' : '#94a3b8';
 
       // Pipeline card
       document.getElementById('pipe-articles').textContent = t.articles;
       document.getElementById('pipe-avg').textContent = Math.round(t.articles / t.sites);
-      document.getElementById('pipe-adsense').textContent = data.adsense_connected ? 'Connected ✓' : 'Under review';
-      document.getElementById('pipe-yt').textContent = data.youtube_connected ? 'Connected ✓' : 'Pending';
-
-      // Table badge
+      document.getElementById('pipe-adsense').textContent = data.adsense_connected ? 'Connected' : 'Under review';
+      document.getElementById('pipe-yt').textContent = data.youtube_connected ? 'Connected' : 'Pending';
       document.getElementById('table-badge').textContent = 'LIVE DATA';
 
       // YouTube stats
       let shorts = 0, standard = 0, topSite = null, topViews = 0;
       data.sites.forEach(s => {
-        s.videos.forEach(v => {
-          if (v.shorts_id) shorts++;
-          if (v.standard_id) standard++;
-        });
+        s.videos.forEach(v => { if (v.shorts_id) shorts++; if (v.standard_id) standard++; });
         if (s.yt_total_views > topViews) { topViews = s.yt_total_views; topSite = s.name; }
       });
       document.getElementById('yt-total-videos').textContent = t.videos;
@@ -387,14 +588,14 @@ function loadStats() {
       document.getElementById('yt-shorts').textContent = shorts;
       document.getElementById('yt-standard').textContent = standard;
 
-      // Sites table
+      // Sites table — rows are clickable
       const tbody = document.getElementById('sites-tbody');
       tbody.innerHTML = data.sites.map(s => {
         const color = COLORS[s.slug] || '#94a3b8';
         const hasRevenue = s.adsense.revenue > 0;
-        return `<tr>
+        return `<tr onclick="showSite('${s.slug}')" style="cursor:pointer">
           <td><div class="site-name-cell"><div class="site-dot" style="background:${color}"></div>
-            <a class="site-link" href="site.html?s=${s.slug}">${s.name}</a></div></td>
+            <span class="site-link">${s.name}</span></div></td>
           <td class="num">${s.articles}</td>
           <td class="num">${fmt(s.cloudflare.page_views)}</td>
           <td class="num">${fmt(s.cloudflare.unique_visitors)}</td>
@@ -405,93 +606,72 @@ function loadStats() {
         </tr>`;
       }).join('');
 
-      // ElevenLabs character balance
+      // ElevenLabs
       const el = data.elevenlabs;
       if (el) {
-        document.getElementById('el-dot').style.color = '#22c55e';
         document.getElementById('el-tier-badge').textContent = el.tier ? el.tier.charAt(0).toUpperCase() + el.tier.slice(1) : 'Creator';
         document.getElementById('el-chars-label').textContent = el.chars_used.toLocaleString() + ' / ' + el.chars_limit.toLocaleString();
         document.getElementById('el-pct-label').textContent = el.pct_used + '% of monthly limit';
         document.getElementById('el-remaining').textContent = fmt(el.chars_remaining);
         document.getElementById('el-used').textContent = fmt(el.chars_used);
-        document.getElementById('el-reset').textContent = el.reset_date ? el.reset_date.slice(5) : '—'; // MM-DD
+        document.getElementById('el-reset').textContent = el.reset_date ? el.reset_date.slice(5) : '—';
         const pct = Math.min(100, el.pct_used);
         const barColor = pct > 85 ? 'var(--red)' : pct > 60 ? '#d97706' : 'var(--green)';
-        const bar = document.getElementById('el-progress-bar');
-        bar.style.width = pct + '%';
-        bar.style.background = barColor;
+        document.getElementById('el-progress-bar').style.width = pct + '%';
+        document.getElementById('el-progress-bar').style.background = barColor;
         document.getElementById('el-remaining').style.color = barColor;
       } else {
-        document.getElementById('el-dot').style.color = '#94a3b8';
         document.getElementById('el-chars-label').textContent = 'Key not configured';
       }
 
-      // Revenue chart update
       updateChart(data);
     })
-    .catch(err => {
+    .catch(() => {
       document.getElementById('sites-tbody').innerHTML = `<tr><td colspan="8" style="text-align:center;color:var(--muted);padding:24px">stats.json not yet available — run fetch_stats.py first</td></tr>`;
-      document.getElementById('sidebar-footer').textContent = 'Stats not yet generated';
-      console.error(err);
+      document.getElementById('sidebar-footer').textContent = 'Stats unavailable';
     });
 }
 
 function updateChart(data) {
   const ctx = document.getElementById('revenueChart').getContext('2d');
   const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  const curMonth = new Date().getMonth(); // 0-based
-
-  // Actual AdSense revenue where available, projected after
+  const curMonth = new Date().getMonth();
   const adsenseActual = data.totals.revenue || 0;
-  const adsenseData = months.map((_, i) => {
+  const adsenseData = months.map((_,i) => {
     if (i < curMonth) return 0;
     if (i === curMonth) return adsenseActual;
     const mult = [1.5,2,3,4.5,6,8][i-curMonth] || 10;
     return Math.round(adsenseActual * mult || (i - curMonth) * 80);
   });
-
   if (revenueChart) revenueChart.destroy();
   revenueChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: months,
-      datasets: [
-        { label:'AdSense Display', data: adsenseData, backgroundColor:'#c9a84c', borderRadius:4 },
-        { label:'Affiliate / CPA',  data: months.map((_,i) => i < curMonth ? 0 : Math.max(0,(i-curMonth)*40)), backgroundColor:'#3b82f6', borderRadius:4 },
-        { label:'YouTube',          data: months.map((_,i) => i < curMonth ? 0 : Math.max(0,(i-curMonth)*10)), backgroundColor:'#ef4444', borderRadius:4 },
+    type:'bar',
+    data:{
+      labels:months,
+      datasets:[
+        {label:'AdSense Display',data:adsenseData,backgroundColor:'#c9a84c',borderRadius:4},
+        {label:'Affiliate / CPA',data:months.map((_,i)=>i<curMonth?0:Math.max(0,(i-curMonth)*40)),backgroundColor:'#3b82f6',borderRadius:4},
+        {label:'YouTube',data:months.map((_,i)=>i<curMonth?0:Math.max(0,(i-curMonth)*10)),backgroundColor:'#ef4444',borderRadius:4},
       ],
     },
-    options: {
+    options:{
       responsive:true,
-      plugins: {
-        legend:{ position:'bottom', labels:{ font:{size:11}, padding:16 } },
-        tooltip:{ callbacks:{ label:c => ' $'+c.raw.toLocaleString() } },
-      },
-      scales: {
-        x:{ stacked:true, grid:{display:false}, ticks:{font:{size:11}} },
-        y:{ stacked:true, ticks:{callback:v=>'$'+v, font:{size:11}}, grid:{color:'#f1f5f9'} },
-      },
+      plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:16}},tooltip:{callbacks:{label:c=>' $'+c.raw.toLocaleString()}}},
+      scales:{x:{stacked:true,grid:{display:false},ticks:{font:{size:11}}},y:{stacked:true,ticks:{callback:v=>'$'+v,font:{size:11}},grid:{color:'#f1f5f9'}}},
     },
   });
 }
 
-// Initial draw with placeholder chart (in case stats.json fails)
+// Boot placeholder chart
 const ctx0 = document.getElementById('revenueChart').getContext('2d');
-revenueChart = new Chart(ctx0, {
+revenueChart = new Chart(ctx0,{
   type:'bar',
-  data:{
-    labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
-    datasets:[
-      {label:'AdSense Display',data:[0,0,0,0,0,80,240,480,800,1100,1400,1800],backgroundColor:'#c9a84c',borderRadius:4},
-      {label:'Affiliate / CPA', data:[0,0,0,0,0,40,120,280,500,700,950,1200], backgroundColor:'#3b82f6',borderRadius:4},
-      {label:'YouTube',         data:[0,0,0,0,0,10,30,80,150,220,310,420],  backgroundColor:'#ef4444',borderRadius:4},
-    ],
-  },
-  options:{
-    responsive:true,
-    plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:16}},tooltip:{callbacks:{label:c=>' $'+c.raw.toLocaleString()}}},
-    scales:{x:{stacked:true,grid:{display:false},ticks:{font:{size:11}}},y:{stacked:true,ticks:{callback:v=>'$'+v,font:{size:11}},grid:{color:'#f1f5f9'}}},
-  },
+  data:{labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],datasets:[
+    {label:'AdSense Display',data:[0,0,0,0,0,80,240,480,800,1100,1400,1800],backgroundColor:'#c9a84c',borderRadius:4},
+    {label:'Affiliate / CPA',data:[0,0,0,0,0,40,120,280,500,700,950,1200],backgroundColor:'#3b82f6',borderRadius:4},
+    {label:'YouTube',data:[0,0,0,0,0,10,30,80,150,220,310,420],backgroundColor:'#ef4444',borderRadius:4},
+  ]},
+  options:{responsive:true,plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:16}},tooltip:{callbacks:{label:c=>' $'+c.raw.toLocaleString()}}},scales:{x:{stacked:true,grid:{display:false},ticks:{font:{size:11}}},y:{stacked:true,ticks:{callback:v=>'$'+v,font:{size:11}},grid:{color:'#f1f5f9'}}}},
 });
 
 loadStats();
