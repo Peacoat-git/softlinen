@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-20T20:00:29.353755+00:00",
+  "generated_at": "2026-05-21T02:04:12.513547+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-20"
+    "end": "2026-05-21"
   },
   "totals": {
     "revenue": 0,
@@ -10,7 +10,7 @@
     "visits": 0,
     "articles": 145,
     "videos": 22,
-    "yt_views": 31,
+    "yt_views": 32,
     "sites": 9
   },
   "adsense_connected": false,
@@ -24,7 +24,7 @@
     "credits_used": 29.92,
     "est_remaining": 120.49,
     "pct_remaining": 80.1,
-    "days_until_renewal": 29
+    "days_until_renewal": 28
   },
   "sites": [
     {
@@ -543,7 +543,7 @@
           "standard_id": "erDDJl1JAx4",
           "standard_url": "https://www.youtube.com/watch?v=erDDJl1JAx4",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "3 Homeowners Insurance Secrets That Could Save You Thousands"
@@ -554,7 +554,7 @@
             "comments": 0,
             "title": "3 Homeowners Insurance Secrets That Could Save You Thousands"
           },
-          "total_views": 0
+          "total_views": 1
         }
       ],
       "cloudflare": {
@@ -569,7 +569,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     },
     {
       "slug": "mortgage-advisor-guide",
