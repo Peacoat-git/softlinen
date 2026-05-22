@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T02:06:17.364118+00:00",
+  "generated_at": "2026-05-22T02:32:45.871336+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-22"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 157,
+    "articles": 337,
     "videos": 22,
     "yt_views": 38,
-    "sites": 9
+    "sites": 15
   },
   "adsense_connected": false,
   "youtube_connected": true,
@@ -899,6 +899,266 @@
         "rpm": 0
       },
       "yt_total_views": 2
+    },
+    {
+      "slug": "keto-living-guide",
+      "domain": "ketolivingguide.com",
+      "name": "Keto Living Guide",
+      "color": "#84cc16",
+      "niche": "Keto & low-carb diet",
+      "rpm_est": "4-8",
+      "articles": 22,
+      "article_titles": [
+        "Electrolytes On Keto",
+        "Foods Allowed On Keto",
+        "Foods To Avoid On Keto",
+        "How Fast Keto Weight Loss",
+        "How Long To Enter Ketosis",
+        "How To Start Keto",
+        "Keto And Insulin Resistance",
+        "Keto Diet Benefits",
+        "Keto Diet Food List",
+        "Keto Diet For Beginners",
+        "Keto Diet Side Effects",
+        "Keto Dinner Recipes",
+        "Keto Flu Symptoms",
+        "Keto For Type 2 Diabetes",
+        "Keto For Weight Loss",
+        "Keto For Women Over 40",
+        "Keto Macros Calculator",
+        "Keto Plateau Weight Loss",
+        "Keto Supplements List",
+        "Ketosis Symptoms"
+      ],
+      "videos": [],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "chicken-keeper-guide",
+      "domain": "chickenkeeperguide.com",
+      "name": "Chicken Keeper Guide",
+      "color": "#a16207",
+      "niche": "Backyard chickens & poultry",
+      "rpm_est": "3-6",
+      "articles": 22,
+      "article_titles": [
+        "Backyard Chickens For Beginners",
+        "Best Chicken Breeds For Beginners",
+        "Best Egg Laying Chickens",
+        "Chicken Coop Bedding Options",
+        "Chicken Coop Plans Free",
+        "Chicken Coop Predator Protection",
+        "Chicken Coop Ventilation",
+        "Chicken Run Size Requirements",
+        "Cold Hardy Chicken Breeds",
+        "Dual Purpose Chicken Breeds",
+        "Easter Egger Chickens",
+        "Friendly Chicken Breeds",
+        "How Big Should A Chicken Coop Be",
+        "How Many Chickens Should I Get",
+        "How To Build A Chicken Coop",
+        "How To Clean Chicken Coop",
+        "How To Raise Chickens",
+        "Orpington Chickens",
+        "Predator Proof Chicken Coop",
+        "Rhode Island Red Chickens"
+      ],
+      "videos": [],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "rv-life-guide",
+      "domain": "rv-life-guide.com",
+      "name": "Rv Life Guide",
+      "color": "#0ea5e9",
+      "niche": "RV living & travel",
+      "rpm_est": "5-10",
+      "articles": 22,
+      "article_titles": [
+        "Best Class B Van For Full Time",
+        "Best Fifth Wheels Full Time",
+        "Best Rv Brands Reliability",
+        "Best Rv For Full Time Living",
+        "Best Travel Trailers Full Time",
+        "Class A Vs Class B Vs Class C Rv",
+        "Fifth Wheel Vs Travel Trailer",
+        "Full Time Rv Living Guide",
+        "How Much Does Rv Life Cost",
+        "How To Start Rv Life",
+        "Motorhome Vs Travel Trailer",
+        "New Vs Used Rv Buying",
+        "Rv Buying Checklist",
+        "Rv Campground Fees",
+        "Rv Fuel Costs Per Mile",
+        "Rv Full Time Living Budget",
+        "Rv Inspection What To Check",
+        "Rv Insurance Costs",
+        "Rv Life Pros And Cons",
+        "Rv Living For Beginners"
+      ],
+      "videos": [],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "gamedevproducer",
+      "domain": "gamedevproducer.com",
+      "name": "Gamedevproducer",
+      "color": "#7c3aed",
+      "niche": "Game development & production",
+      "rpm_est": "6-12",
+      "articles": 10,
+      "article_titles": [
+        "Crunch Is A Production Failure Not A Culture Problem",
+        "Game Producer Vs Scrum Master What Is The Difference",
+        "Game Producer Vs Technical Program Manager",
+        "Imposter Syndrome As A Game Producer",
+        "Kanban Vs Scrum For Game Development Which To Use",
+        "Managing Engineers And Artists On The Same Team",
+        "Platform Certification What Producers Need To Know",
+        "What Does A Game Producer Actually Do",
+        "What Is A Game Milestone Alpha Beta Gold",
+        "Why Scrum Breaks In Game Pre Production"
+      ],
+      "videos": [],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "seniorstrength",
+      "domain": "seniorstrength.today",
+      "name": "Seniorstrength",
+      "color": "#059669",
+      "niche": "Senior fitness & health",
+      "rpm_est": "5-10",
+      "articles": 60,
+      "article_titles": [
+        "10 Minute Morning Stretches For Seniors Over 70",
+        "Anti Inflammatory Diet For Seniors With Arthritis",
+        "Balance Boards For Seniors Are They Safe And Worth It",
+        "Best Balance Exercises For Seniors To Prevent Falls",
+        "Best Blood Pressure Monitor For Seniors At Home",
+        "Best Chair For Seniors With Back Pain Buying Guide",
+        "Best Hearing Aids For Seniors 2026 Guide",
+        "Best Low Impact Exercises For Seniors With Arthritis",
+        "Best Magnifying Glasses For Seniors With Macular Degeneration",
+        "Best Morning Routines For Seniors Over 65",
+        "Best Omega 3 Foods For Seniors With Joint Pain",
+        "Best Pedometer For Seniors Easy To Use",
+        "Best Protein Foods For Seniors To Maintain Muscle",
+        "Best Resistance Bands For Seniors Tested And Ranked",
+        "Best Stretches For Seniors With Lower Back Pain",
+        "Best Vitamins And Supplements For Seniors Over 70",
+        "Best Walking Shoes For Seniors With Wide Feet 2026 Guide",
+        "Calcium Rich Foods For Seniors Non Dairy Options Too",
+        "Chair Exercises For Seniors With Bad Knees",
+        "Does Walking 30 Minutes A Day Help Seniors Lose Weight"
+      ],
+      "videos": [],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
+    },
+    {
+      "slug": "fixitrightway",
+      "domain": "fixitrightway.com",
+      "name": "Fixitrightway",
+      "color": "#dc2626",
+      "niche": "DIY home repair",
+      "rpm_est": "4-8",
+      "articles": 44,
+      "article_titles": [
+        "How To Clean And Restore Grout",
+        "How To Find A Stud In The Wall Without A Finder",
+        "How To Fix A Door That Wont Latch",
+        "How To Fix A Dripping Faucet Step By Step",
+        "How To Fix A Kitchen Drawer That Falls Off Track",
+        "How To Fix A Leaky Outdoor Faucet",
+        "How To Fix A Noisy Furnace",
+        "How To Fix A Refrigerator That Wont Cool",
+        "How To Fix A Sagging Ceiling",
+        "How To Fix A Shower That Drips When Turned Off",
+        "How To Fix A Sliding Door That Wont Slide",
+        "How To Fix A Tile That Has Come Loose",
+        "How To Fix A Water Damaged Ceiling",
+        "How To Fix Low Water Pressure In Your Home",
+        "How To Install A Deadbolt Lock",
+        "How To Install A Kitchen Backsplash Yourself",
+        "How To Install A Mailbox Post",
+        "How To Install A New Shower",
+        "How To Install A Programmable Thermostat",
+        "How To Install A Window Air Conditioner"
+      ],
+      "videos": [],
+      "cloudflare": {
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
+      },
+      "adsense": {
+        "revenue": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "rpm": 0
+      },
+      "yt_total_views": 0
     }
   ]
 }
