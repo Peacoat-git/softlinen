@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-21T19:41:59.113827+00:00",
+  "generated_at": "2026-05-22T02:06:17.364118+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-21"
+    "end": "2026-05-22"
   },
   "totals": {
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 261,
+    "articles": 157,
     "videos": 22,
-    "yt_views": 39,
-    "sites": 15
+    "yt_views": 38,
+    "sites": 9
   },
   "adsense_connected": false,
   "youtube_connected": true,
@@ -24,7 +24,7 @@
     "credits_used": 29.92,
     "est_remaining": 120.49,
     "pct_remaining": 80.1,
-    "days_until_renewal": 28
+    "days_until_renewal": 27
   },
   "sites": [
     {
@@ -197,7 +197,7 @@
           "standard_id": "kv2zAfYOxPo",
           "standard_url": "https://www.youtube.com/watch?v=kv2zAfYOxPo",
           "shorts_stats": {
-            "views": 3,
+            "views": 0,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
@@ -208,7 +208,7 @@
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
           },
-          "total_views": 6
+          "total_views": 3
         },
         {
           "shorts_id": "cqi_MqRbkHE",
@@ -245,7 +245,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 13
+      "yt_total_views": 10
     },
     {
       "slug": "solar-home-planner",
@@ -809,7 +809,7 @@
           "standard_id": "eiTfwCvfVUg",
           "standard_url": "https://www.youtube.com/watch?v=eiTfwCvfVUg",
           "shorts_stats": {
-            "views": 15,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
@@ -820,7 +820,7 @@
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
           },
-          "total_views": 15
+          "total_views": 17
         }
       ],
       "cloudflare": {
@@ -835,7 +835,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 17
+      "yt_total_views": 19
     },
     {
       "slug": "small-biz-finance-guide",
@@ -899,150 +899,6 @@
         "rpm": 0
       },
       "yt_total_views": 2
-    },
-    {
-      "slug": "keto-living-guide",
-      "domain": "ketolivingguide.com",
-      "name": "Keto Living Guide",
-      "color": "#84cc16",
-      "niche": "Keto diet & health",
-      "rpm_est": "4-8",
-      "articles": 0,
-      "article_titles": [],
-      "videos": [],
-      "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
-      },
-      "adsense": {
-        "revenue": 0,
-        "impressions": 0,
-        "clicks": 0,
-        "rpm": 0
-      },
-      "yt_total_views": 0
-    },
-    {
-      "slug": "chicken-keeper-guide",
-      "domain": "chickenkeeperguide.com",
-      "name": "Chicken Keeper Guide",
-      "color": "#f59e0b",
-      "niche": "Backyard chickens & hobby farming",
-      "rpm_est": "3-6",
-      "articles": 0,
-      "article_titles": [],
-      "videos": [],
-      "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
-      },
-      "adsense": {
-        "revenue": 0,
-        "impressions": 0,
-        "clicks": 0,
-        "rpm": 0
-      },
-      "yt_total_views": 0
-    },
-    {
-      "slug": "rv-life-guide",
-      "domain": "rv-life-guide.com",
-      "name": "RV Life Guide",
-      "color": "#0ea5e9",
-      "niche": "RV lifestyle & travel",
-      "rpm_est": "5-10",
-      "articles": 0,
-      "article_titles": [],
-      "videos": [],
-      "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
-      },
-      "adsense": {
-        "revenue": 0,
-        "impressions": 0,
-        "clicks": 0,
-        "rpm": 0
-      },
-      "yt_total_views": 0
-    },
-    {
-      "slug": "gamedevproducer",
-      "domain": "gamedevproducer.com",
-      "name": "Game Dev Producer",
-      "color": "#7c3aed",
-      "niche": "Game development & B2B/tech",
-      "rpm_est": "6-12",
-      "articles": 0,
-      "article_titles": [],
-      "videos": [],
-      "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
-      },
-      "adsense": {
-        "revenue": 0,
-        "impressions": 0,
-        "clicks": 0,
-        "rpm": 0
-      },
-      "yt_total_views": 0
-    },
-    {
-      "slug": "seniorstrength",
-      "domain": "seniorstrength.today",
-      "name": "Senior Strength",
-      "color": "#16a34a",
-      "niche": "Senior fitness & health",
-      "rpm_est": "5-10",
-      "articles": 60,
-      "article_titles": [],
-      "videos": [],
-      "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
-      },
-      "adsense": {
-        "revenue": 0,
-        "impressions": 0,
-        "clicks": 0,
-        "rpm": 0
-      },
-      "yt_total_views": 0
-    },
-    {
-      "slug": "fixitrightway",
-      "domain": "fixitrightway.com",
-      "name": "Fix It Right Way",
-      "color": "#b45309",
-      "niche": "DIY home repair & improvement",
-      "rpm_est": "4-8",
-      "articles": 44,
-      "article_titles": [],
-      "videos": [],
-      "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
-      },
-      "adsense": {
-        "revenue": 0,
-        "impressions": 0,
-        "clicks": 0,
-        "rpm": 0
-      },
-      "yt_total_views": 0
     }
   ]
 }
