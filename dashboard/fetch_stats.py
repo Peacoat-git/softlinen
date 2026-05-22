@@ -46,6 +46,25 @@ SITES = [
     {"slug": "rv-life-guide",           "domain": "rv-life-guide.com",         "zone": "6985e9d6f84254f29742981a91a6c6c1", "color": "#1a1a2e", "niche": "RV life & van living",        "rpm_est": "5-9"},
     # Authority
     {"slug": "gamedevproducer",          "domain": "gamedevproducer.com",       "zone": "6d57c09c827f709c73a4b8b28928c3e8", "color": "#6d28d9", "niche": "Game producer best practices","rpm_est": "3-7"},
+    # Migrating to Hugo
+    {
+        "slug": "seniorstrength",
+        "domain": "seniorstrength.today",
+        "zone": "90981fc22b9e4c447f5df8981bd19877",
+        "color": "#c9a84c",
+        "niche": "Senior Health & Fitness",
+        "rpm_est": "4-8",
+        "platform": "hugo-migrating"
+    },
+    {
+        "slug": "fixitrightway",
+        "domain": "fixitrightway.com",
+        "zone": "84b618252eb62c6644297943bf8e46ab",
+        "color": "#e85d04",
+        "niche": "DIY Home Repair",
+        "rpm_est": "3-6",
+        "platform": "hugo-migrating"
+    },
 ]
 
 ORG = "peacoat-sites"
