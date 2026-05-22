@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T14:13:00.090264+00:00",
+  "generated_at": "2026-05-22T19:21:25.672730+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-22"
@@ -9,8 +9,8 @@
     "page_views": 0,
     "visits": 0,
     "articles": 362,
-    "videos": 22,
-    "yt_views": 39,
+    "videos": 27,
+    "yt_views": 95,
     "sites": 15
   },
   "adsense_connected": false,
@@ -20,10 +20,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 44,
-    "credits_used": 29.92,
-    "est_remaining": 120.49,
-    "pct_remaining": 80.1,
+    "renders_since_baseline": 54,
+    "credits_used": 36.72,
+    "est_remaining": 113.69,
+    "pct_remaining": 75.6,
     "days_until_renewal": 27
   },
   "sites": [
@@ -169,6 +169,28 @@
         "State Solar Incentives By State"
       ],
       "videos": [
+        {
+          "shorts_id": "TvB77yqLipk",
+          "shorts_url": "https://www.youtube.com/shorts/TvB77yqLipk",
+          "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels",
+          "article_slug": "state-solar-incentives-by-state",
+          "published_at": "2026-05-22T16:24:20.777306+00:00",
+          "standard_id": "ylNgCjxCF4E",
+          "standard_url": "https://www.youtube.com/watch?v=ylNgCjxCF4E",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "wgAuE-vK_hQ",
           "shorts_url": "https://www.youtube.com/shorts/wgAuE-vK_hQ",
@@ -877,6 +899,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "BJscjAi71zI",
+          "shorts_url": "https://www.youtube.com/shorts/BJscjAi71zI",
+          "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year",
+          "article_slug": "vehicle-deduction-small-business",
+          "published_at": "2026-05-22T16:25:29.952586+00:00",
+          "standard_id": "JSfY-QM6j2U",
+          "standard_url": "https://www.youtube.com/watch?v=JSfY-QM6j2U",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "jxqxId01aMg",
           "shorts_url": "https://www.youtube.com/shorts/jxqxId01aMg",
           "title": "Free Business Money: 3 Grant Facts Most Owners Miss",
@@ -943,7 +987,30 @@
         "Keto Plateau Weight Loss",
         "Keto Supplements List"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "shorts_id": "bn07gPxtajg",
+          "shorts_url": "https://www.youtube.com/shorts/bn07gPxtajg",
+          "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)",
+          "article_slug": "what-is-keto-diet",
+          "published_at": "2026-05-22T16:25:28.979769+00:00",
+          "standard_id": "Vvl9Sylo6zk",
+          "standard_url": "https://www.youtube.com/watch?v=Vvl9Sylo6zk",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)"
+          },
+          "total_views": 0
+        }
+      ],
       "cloudflare": {
         "page_views": 0,
         "visits": 0,
@@ -988,7 +1055,30 @@
         "Nesting Boxes For Chickens",
         "Orpington Chickens"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "shorts_id": "I10o8EFJnnw",
+          "shorts_url": "https://www.youtube.com/shorts/I10o8EFJnnw",
+          "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)",
+          "article_slug": "what-to-feed-chickens",
+          "published_at": "2026-05-22T16:27:09.539397+00:00",
+          "standard_id": "0KHqJhuwcOY",
+          "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
+          "shorts_stats": {
+            "views": 56,
+            "likes": 3,
+            "comments": 0,
+            "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
+          },
+          "total_views": 56
+        }
+      ],
       "cloudflare": {
         "page_views": 0,
         "visits": 0,
@@ -1001,7 +1091,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 56
     },
     {
       "slug": "rv-life-guide",
@@ -1033,7 +1123,30 @@
         "Rv Insurance Costs",
         "Rv Life Pros And Cons"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "shorts_id": "0erap12E_2I",
+          "shorts_url": "https://www.youtube.com/shorts/0erap12E_2I",
+          "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)",
+          "article_slug": "types-of-rvs-explained",
+          "published_at": "2026-05-22T16:24:26.947318+00:00",
+          "standard_id": "o7Yq9wiFT5o",
+          "standard_url": "https://www.youtube.com/watch?v=o7Yq9wiFT5o",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
+          },
+          "total_views": 0
+        }
+      ],
       "cloudflare": {
         "page_views": 0,
         "visits": 0,
