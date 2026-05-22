@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T02:32:45.871336+00:00",
+  "generated_at": "2026-05-22T08:47:25.173851+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-22"
@@ -328,7 +328,7 @@
           "standard_id": "d4eAv_KtX38",
           "standard_url": "https://www.youtube.com/watch?v=d4eAv_KtX38",
           "shorts_stats": {
-            "views": 1,
+            "views": 0,
             "likes": 0,
             "comments": 0,
             "title": "5 Solar Secrets Installers Won't Tell You"
@@ -339,7 +339,7 @@
             "comments": 0,
             "title": "5 Solar Secrets Installers Won't Tell You"
           },
-          "total_views": 1
+          "total_views": 0
         }
       ],
       "cloudflare": {
@@ -354,7 +354,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 1
+      "yt_total_views": 0
     },
     {
       "slug": "injury-victim-guide",
@@ -697,7 +697,7 @@
           "standard_id": "L_2TqIVb_Aw",
           "standard_url": "https://www.youtube.com/watch?v=L_2TqIVb_Aw",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
@@ -708,7 +708,7 @@
             "comments": 0,
             "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "0rMyaqyipR0",
@@ -745,7 +745,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 5
+      "yt_total_views": 6
     },
     {
       "slug": "pet-doctor-guide",
