@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T01:55:19.104972+00:00",
+  "generated_at": "2026-05-23T08:04:38.356075+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-23"
@@ -10,7 +10,7 @@
     "visits": 0,
     "articles": 362,
     "videos": 27,
-    "yt_views": 165,
+    "yt_views": 185,
     "sites": 15
   },
   "adsense_connected": false,
@@ -1065,7 +1065,7 @@
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
           "shorts_stats": {
-            "views": 113,
+            "views": 122,
             "likes": 4,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
@@ -1076,7 +1076,7 @@
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 117
+          "total_views": 126
         }
       ],
       "cloudflare": {
@@ -1091,7 +1091,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 117
+      "yt_total_views": 126
     },
     {
       "slug": "rv-life-guide",
@@ -1133,18 +1133,18 @@
           "standard_id": "o7Yq9wiFT5o",
           "standard_url": "https://www.youtube.com/watch?v=o7Yq9wiFT5o",
           "shorts_stats": {
-            "views": 0,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
           },
           "standard_stats": {
-            "views": 7,
+            "views": 10,
             "likes": 0,
             "comments": 0,
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
           },
-          "total_views": 7
+          "total_views": 18
         }
       ],
       "cloudflare": {
@@ -1159,7 +1159,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 7
+      "yt_total_views": 18
     },
     {
       "slug": "gamedevproducer",
