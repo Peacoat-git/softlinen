@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-22T19:21:25.672730+00:00",
+  "generated_at": "2026-05-23T01:55:19.104972+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-22"
+    "end": "2026-05-23"
   },
   "totals": {
     "revenue": 0,
@@ -10,7 +10,7 @@
     "visits": 0,
     "articles": 362,
     "videos": 27,
-    "yt_views": 95,
+    "yt_views": 165,
     "sites": 15
   },
   "adsense_connected": false,
@@ -24,7 +24,7 @@
     "credits_used": 36.72,
     "est_remaining": 113.69,
     "pct_remaining": 75.6,
-    "days_until_renewal": 27
+    "days_until_renewal": 26
   },
   "sites": [
     {
@@ -907,7 +907,7 @@
           "standard_id": "JSfY-QM6j2U",
           "standard_url": "https://www.youtube.com/watch?v=JSfY-QM6j2U",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
@@ -918,7 +918,7 @@
             "comments": 0,
             "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -955,7 +955,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 3
     },
     {
       "slug": "keto-living-guide",
@@ -997,7 +997,7 @@
           "standard_id": "Vvl9Sylo6zk",
           "standard_url": "https://www.youtube.com/watch?v=Vvl9Sylo6zk",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)"
@@ -1008,7 +1008,7 @@
             "comments": 0,
             "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)"
           },
-          "total_views": 0
+          "total_views": 1
         }
       ],
       "cloudflare": {
@@ -1023,7 +1023,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     },
     {
       "slug": "chicken-keeper-guide",
@@ -1065,18 +1065,18 @@
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
           "shorts_stats": {
-            "views": 56,
-            "likes": 3,
+            "views": 113,
+            "likes": 4,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 56
+          "total_views": 117
         }
       ],
       "cloudflare": {
@@ -1091,7 +1091,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 56
+      "yt_total_views": 117
     },
     {
       "slug": "rv-life-guide",
@@ -1139,12 +1139,12 @@
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 7,
             "likes": 0,
             "comments": 0,
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
           },
-          "total_views": 0
+          "total_views": 7
         }
       ],
       "cloudflare": {
@@ -1159,7 +1159,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 7
     },
     {
       "slug": "gamedevproducer",
