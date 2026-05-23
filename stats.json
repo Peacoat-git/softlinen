@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T12:56:34.751199+00:00",
+  "generated_at": "2026-05-23T18:53:10.314917+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-23"
@@ -9,8 +9,8 @@
     "page_views": 0,
     "visits": 0,
     "articles": 388,
-    "videos": 27,
-    "yt_views": 189,
+    "videos": 32,
+    "yt_views": 188,
     "sites": 15
   },
   "adsense_connected": false,
@@ -20,10 +20,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 54,
-    "credits_used": 36.72,
-    "est_remaining": 113.69,
-    "pct_remaining": 75.6,
+    "renders_since_baseline": 64,
+    "credits_used": 43.52,
+    "est_remaining": 106.89,
+    "pct_remaining": 71.1,
     "days_until_renewal": 26
   },
   "sites": [
@@ -305,6 +305,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "1itQXyleQF8",
+          "shorts_url": "https://www.youtube.com/shorts/1itQXyleQF8",
+          "title": "Building a New Home? This Solar Mistake Costs Thousands",
+          "article_slug": "solar-panels-for-new-construction-homes",
+          "published_at": "2026-05-23T15:32:48.646029+00:00",
+          "standard_id": "M7T_EvaalY8",
+          "standard_url": "https://www.youtube.com/watch?v=M7T_EvaalY8",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Building a New Home? This Solar Mistake Costs Thousands"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Building a New Home? This Solar Mistake Costs Thousands"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "zS9JVW74hHQ",
           "shorts_url": "https://www.youtube.com/shorts/zS9JVW74hHQ",
           "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)",
@@ -417,6 +439,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "fSWk_mR_YJo",
+          "shorts_url": "https://www.youtube.com/shorts/fSWk_mR_YJo",
+          "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)",
+          "article_slug": "what-to-do-immediately-after-an-accident",
+          "published_at": "2026-05-23T15:32:21.608824+00:00",
+          "standard_id": "Y7nDwhrhIKY",
+          "standard_url": "https://www.youtube.com/watch?v=Y7nDwhrhIKY",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "FKqK8rFQZqc",
           "shorts_url": "https://www.youtube.com/shorts/FKqK8rFQZqc",
           "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)",
@@ -526,6 +570,28 @@
         "What Does Homeowners Insurance Cover"
       ],
       "videos": [
+        {
+          "shorts_id": "mKfXpnnK-Cg",
+          "shorts_url": "https://www.youtube.com/shorts/mKfXpnnK-Cg",
+          "title": "Your Home Insurance Has a $120K Problem You Don't Know About",
+          "article_slug": "how-much-home-insurance-do-you-need",
+          "published_at": "2026-05-23T15:33:37.049058+00:00",
+          "standard_id": "-BjkftP4EMY",
+          "standard_url": "https://www.youtube.com/watch?v=-BjkftP4EMY",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Home Insurance Has a $120K Problem You Don't Know About"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Home Insurance Has a $120K Problem You Don't Know About"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "KedcbR9GbS4",
           "shorts_url": "https://www.youtube.com/shorts/KedcbR9GbS4",
@@ -997,6 +1063,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "Awv3DwxvEgA",
+          "shorts_url": "https://www.youtube.com/shorts/Awv3DwxvEgA",
+          "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)",
+          "article_slug": "ketosis-symptoms",
+          "published_at": "2026-05-23T15:33:24.608577+00:00",
+          "standard_id": "5-a64bdCJX4",
+          "standard_url": "https://www.youtube.com/watch?v=5-a64bdCJX4",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "bn07gPxtajg",
           "shorts_url": "https://www.youtube.com/shorts/bn07gPxtajg",
           "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)",
@@ -1073,7 +1161,7 @@
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
           "shorts_stats": {
-            "views": 125,
+            "views": 124,
             "likes": 4,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
@@ -1084,7 +1172,7 @@
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 130
+          "total_views": 129
         }
       ],
       "cloudflare": {
@@ -1099,7 +1187,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 130
+      "yt_total_views": 129
     },
     {
       "slug": "rv-life-guide",
@@ -1132,6 +1220,28 @@
         "Rv Inspection What To Check"
       ],
       "videos": [
+        {
+          "shorts_id": "DzS5HtoTul0",
+          "shorts_url": "https://www.youtube.com/shorts/DzS5HtoTul0",
+          "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)",
+          "article_slug": "rv-monthly-expenses-breakdown",
+          "published_at": "2026-05-23T15:33:11.236034+00:00",
+          "standard_id": "_LbpAgPpbhw",
+          "standard_url": "https://www.youtube.com/watch?v=_LbpAgPpbhw",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "0erap12E_2I",
           "shorts_url": "https://www.youtube.com/shorts/0erap12E_2I",
