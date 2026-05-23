@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 monitor.py — Auto-retry failed GitHub Actions workflows across all Peacoat sites.
 Runs daily from Peacoat-git/softlinen via monitor.yml.
