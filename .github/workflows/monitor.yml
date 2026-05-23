@@ -1,0 +1,22 @@
+name: Pipeline Monitor
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 1pm UTC daily — 2h after article publish at 11am
+    - cron: '0 20 * * *'   # 8pm UTC daily — second sweep
+  workflow_dispatch:        # Manual trigger any time
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run monitor
+        run: python monitor.py
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_TOKEN }}
