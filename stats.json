@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T08:15:05.163137+00:00",
+  "generated_at": "2026-05-24T12:56:45.031906+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-24"
@@ -8,9 +8,9 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 388,
+    "articles": 414,
     "videos": 32,
-    "yt_views": 207,
+    "yt_views": 211,
     "sites": 15
   },
   "adsense_connected": false,
@@ -34,12 +34,14 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 23,
+      "articles": 25,
       "article_titles": [
+        "Best Medicare Advantage Plans 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
+        "Medicare Advantage Vs Original Medicare",
         "Medicare And Employer Insurance",
         "Medicare And Tricare",
         "Medicare Eligibility Requirements",
@@ -53,9 +55,7 @@
         "Medicare Supplement Vs Medicare Advantage Cost",
         "Medicare Vs Medicaid Difference",
         "Medigap Open Enrollment Period",
-        "Medigap Plan G Deductible 2026",
-        "Medigap Vs Medicare Advantage",
-        "Plan G Vs Plan N Medicare Supplement"
+        "Medigap Plan G Deductible 2026"
       ],
       "videos": [
         {
@@ -146,7 +146,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 21,
+      "articles": 23,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Federal Solar Tax Credit 2026",
@@ -158,6 +158,8 @@
         "Net Metering Savings Explained",
         "Solar Cost Vs Electricity Bill Savings",
         "Solar Incentives California 2026",
+        "Solar Incentives Florida 2026",
+        "Solar Incentives Texas 2026",
         "Solar Lease Vs Buy Cost Comparison",
         "Solar Loan Vs Solar Lease Vs Ppa",
         "Solar Panel Cost Per Watt 2026",
@@ -165,9 +167,7 @@
         "Solar Panel Roi Calculation",
         "Solar Panels Worth It Financially",
         "Solar Payback Period Calculator",
-        "Solar Rebates From Utility Companies",
-        "Solar Savings Calculator",
-        "Solar Tax Credit How To Claim"
+        "Solar Rebates From Utility Companies"
       ],
       "videos": [
         {
@@ -280,7 +280,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 21,
+      "articles": 23,
       "article_titles": [
         "Best Roof Type For Solar Panels",
         "Can Condos Get Solar Panels",
@@ -293,6 +293,7 @@
         "My Solar Panels Stopped Working What To Do",
         "Questions To Ask Solar Companies",
         "Red Flags When Hiring Solar Installer",
+        "Right To Solar Law Explained",
         "Solar Company Certifications Nabcep",
         "Solar Contract What To Review Before Signing",
         "Solar For Flat Roof Homes",
@@ -300,8 +301,7 @@
         "Solar For Mobile Homes And Manufactured Housing",
         "Solar For Two Story Home",
         "Solar Installer Reviews What To Look For",
-        "Solar Panels For Existing Homes",
-        "Solar Panels For New Construction Homes"
+        "Solar Panel Permit Process Explained"
       ],
       "videos": [
         {
@@ -414,7 +414,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 26,
+      "articles": 28,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -430,12 +430,12 @@
         "How To Document Injuries After Accident",
         "How To Negotiate Higher Personal Injury Settlement",
         "Lost Wages In Personal Injury Settlement",
+        "Lowball Settlement Offer What To Do",
         "Neck Injury Settlement Car Accident",
         "Pain And Suffering Calculation Formula",
+        "Permanent Disability Settlement Amounts",
         "Personal Injury Claim Process Step By Step",
-        "Personal Injury Lawsuit Vs Settlement",
-        "Personal Injury Statute Of Limitations By State",
-        "Soft Tissue Injury Settlement Amounts"
+        "Personal Injury Lawsuit Vs Settlement"
       ],
       "videos": [
         {
@@ -548,10 +548,11 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 18,
+      "articles": 20,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
+        "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Coverage Limits Guide",
         "Home Insurance Dwelling Coverage",
@@ -563,6 +564,7 @@
         "Homeowners Insurance Claim Process",
         "Homeowners Insurance Deductible Explained",
         "Homeowners Insurance For Older Homes",
+        "Homeowners Insurance Personal Property Coverage",
         "Homeowners Insurance Shopping Tips",
         "How Much Does Homeowners Insurance Cost",
         "How Much Home Insurance Do You Need",
@@ -680,7 +682,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 19,
+      "articles": 21,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Cash Out Refinance Explained",
@@ -695,12 +697,13 @@
         "Jumbo Loan Requirements",
         "Mortgage Closing Costs Explained",
         "Mortgage Down Payment Options",
+        "Mortgage Points Explained",
         "Mortgage Pre Approval Process",
         "Mortgage Qualification Requirements",
+        "Mortgage Rate Lock Explained",
         "Mortgage Rates Today Explained",
         "Pmi Explained Mortgage",
-        "Usda Loan Eligibility Guide",
-        "Va Loan Benefits Explained"
+        "Usda Loan Eligibility Guide"
       ],
       "videos": [
         {
@@ -769,7 +772,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 22,
+      "articles": 24,
       "article_titles": [
         "Anger Management Therapy",
         "Child Therapy Guide For Parents",
@@ -788,9 +791,9 @@
         "Ptsd Therapy Options",
         "Teen Therapy Options",
         "Therapist Vs Psychologist Vs Psychiatrist",
+        "Therapy For Adhd Adults",
         "Therapy For Anxiety Treatment",
-        "Therapy For Depression",
-        "Therapy For Trauma Survivors"
+        "Therapy For Depression"
       ],
       "videos": [
         {
@@ -859,12 +862,13 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 23,
+      "articles": 25,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Dental Disease Signs",
         "Cat Hiding Behavior Explained",
         "Cat Not Using Litter Box Causes",
+        "Cat Obesity Health Risks",
         "Cat Urinary Tract Infection Signs",
         "Cat Vomiting When To Worry",
         "Dog Allergies Symptoms Treatment",
@@ -876,11 +880,10 @@
         "Dog Not Eating What To Do",
         "Dog Teeth Cleaning Cost",
         "Dog Vaccinations Schedule Guide",
+        "Dog Weight Management Guide",
         "Flea Tick Prevention Dogs",
         "How Often Should Dog Go To Vet",
-        "Kitten Vet Schedule First Year",
-        "Pet Emergency Vet When To Go",
-        "Pet Food Ingredients Guide"
+        "Kitten Vet Schedule First Year"
       ],
       "videos": [
         {
@@ -949,16 +952,18 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 19,
+      "articles": 21,
       "article_titles": [
         "Accounts Receivable Management",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
         "Cash Flow Management Guide",
+        "Hiring First Employee Guide",
         "Home Office Deduction Rules",
         "How To Get A Small Business Loan",
         "How To Separate Business Personal Finances",
+        "Independent Contractor Vs Employee",
         "Invoicing Tips For Small Business",
         "Llc Vs Sole Proprietorship Taxes",
         "Payroll Basics Small Business",
@@ -968,8 +973,7 @@
         "Small Business Accounting Basics",
         "Small Business Bookkeeping Guide",
         "Small Business Grants Available",
-        "Small Business Tax Deductions",
-        "Vehicle Deduction Small Business"
+        "Small Business Tax Deductions"
       ],
       "videos": [
         {
@@ -1038,7 +1042,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 26,
+      "articles": 28,
       "article_titles": [
         "Easy Keto Meals",
         "Electrolytes On Keto",
@@ -1049,6 +1053,7 @@
         "How To Start Keto",
         "Keto And Insulin Resistance",
         "Keto Breakfast Ideas",
+        "Keto Dessert Recipes",
         "Keto Diet Benefits",
         "Keto Diet Food List",
         "Keto Diet For Beginners",
@@ -1058,8 +1063,7 @@
         "Keto For Type 2 Diabetes",
         "Keto For Weight Loss",
         "Keto For Women Over 40",
-        "Keto Lunch Ideas",
-        "Keto Macros Calculator"
+        "Keto Lunch Ideas"
       ],
       "videos": [
         {
@@ -1128,7 +1132,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 26,
+      "articles": 28,
       "article_titles": [
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
@@ -1142,14 +1146,14 @@
         "Cold Hardy Chicken Breeds",
         "Dual Purpose Chicken Breeds",
         "Easter Egger Chickens",
+        "Foods Chickens Cannot Eat",
         "Friendly Chicken Breeds",
+        "Grit For Chickens",
         "How Big Should A Chicken Coop Be",
         "How Many Chickens Should I Get",
         "How To Build A Chicken Coop",
         "How To Clean Chicken Coop",
-        "How To Raise Chickens",
-        "Kitchen Scraps For Chickens",
-        "Layer Feed Vs Starter Feed"
+        "How To Raise Chickens"
       ],
       "videos": [
         {
@@ -1161,18 +1165,18 @@
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
           "shorts_stats": {
-            "views": 127,
+            "views": 129,
             "likes": 4,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
           "standard_stats": {
-            "views": 9,
+            "views": 11,
             "likes": 0,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 136
+          "total_views": 140
         }
       ],
       "cloudflare": {
@@ -1187,7 +1191,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 136
+      "yt_total_views": 140
     },
     {
       "slug": "rv-life-guide",
@@ -1196,7 +1200,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 26,
+      "articles": 28,
       "article_titles": [
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
@@ -1207,6 +1211,7 @@
         "Class A Vs Class B Vs Class C Rv",
         "Fifth Wheel Vs Travel Trailer",
         "Full Time Rv Living Guide",
+        "Health Insurance Full Time Rv",
         "How Much Does Rv Life Cost",
         "How To Start Rv Life",
         "Mail Forwarding Full Time Rv",
@@ -1216,8 +1221,7 @@
         "Rv Campground Fees",
         "Rv Domicile State Options",
         "Rv Fuel Costs Per Mile",
-        "Rv Full Time Living Budget",
-        "Rv Inspection What To Check"
+        "Rv Full Time Living Budget"
       ],
       "videos": [
         {
@@ -1286,7 +1290,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 14,
+      "articles": 16,
       "article_titles": [
         "Art Debt In Game Production What It Is And How To Manage It",
         "Burnout In Game Development The Year 5 Cliff",
@@ -1299,6 +1303,8 @@
         "Kanban Vs Scrum For Game Development Which To Use",
         "Managing Engineers And Artists On The Same Team",
         "Platform Certification What Producers Need To Know",
+        "Psychological Safety In Game Development Playtests",
+        "Publisher Vs Self Publishing What Changes For Producers",
         "What Does A Game Producer Actually Do",
         "What Is A Game Milestone Alpha Beta Gold",
         "Why Scrum Breaks In Game Pre Production"
