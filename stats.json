@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T02:02:39.861088+00:00",
+  "generated_at": "2026-05-24T08:15:05.163137+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-24"
@@ -10,7 +10,7 @@
     "visits": 0,
     "articles": 388,
     "videos": 32,
-    "yt_views": 201,
+    "yt_views": 207,
     "sites": 15
   },
   "adsense_connected": false,
@@ -892,7 +892,7 @@
           "standard_id": "Gde3LJgCS-M",
           "standard_url": "https://www.youtube.com/watch?v=Gde3LJgCS-M",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
@@ -903,7 +903,7 @@
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "d0E4Lv8yUtw",
@@ -940,7 +940,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 19
+      "yt_total_views": 20
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1161,7 +1161,7 @@
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
           "shorts_stats": {
-            "views": 126,
+            "views": 127,
             "likes": 4,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
@@ -1172,7 +1172,7 @@
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 135
+          "total_views": 136
         }
       ],
       "cloudflare": {
@@ -1187,7 +1187,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 135
+      "yt_total_views": 136
     },
     {
       "slug": "rv-life-guide",
@@ -1229,18 +1229,18 @@
           "standard_id": "_LbpAgPpbhw",
           "standard_url": "https://www.youtube.com/watch?v=_LbpAgPpbhw",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
           },
-          "total_views": 1
+          "total_views": 5
         },
         {
           "shorts_id": "0erap12E_2I",
@@ -1277,7 +1277,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 22
+      "yt_total_views": 26
     },
     {
       "slug": "gamedevproducer",
