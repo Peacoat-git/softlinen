@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T09:45:44.937500+00:00",
+  "generated_at": "2026-05-25T14:30:40.183140+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-25"
@@ -8,9 +8,9 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 414,
-    "videos": 32,
-    "yt_views": 231,
+    "articles": 440,
+    "videos": 37,
+    "yt_views": 237,
     "sites": 15
   },
   "adsense_connected": false,
@@ -20,10 +20,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 64,
-    "credits_used": 43.52,
-    "est_remaining": 106.89,
-    "pct_remaining": 71.1,
+    "renders_since_baseline": 74,
+    "credits_used": 50.32,
+    "est_remaining": 100.09,
+    "pct_remaining": 66.5,
     "days_until_renewal": 24
   },
   "sites": [
@@ -34,13 +34,15 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 25,
+      "articles": 27,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
+        "How Does Medicare Advantage Work",
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
+        "Medicare Advantage Pros And Cons",
         "Medicare Advantage Vs Original Medicare",
         "Medicare And Employer Insurance",
         "Medicare And Tricare",
@@ -53,11 +55,31 @@
         "Medicare Supplement Plan G Explained",
         "Medicare Supplement Plan N Explained",
         "Medicare Supplement Vs Medicare Advantage Cost",
-        "Medicare Vs Medicaid Difference",
-        "Medigap Open Enrollment Period",
-        "Medigap Plan G Deductible 2026"
+        "Medicare Vs Medicaid Difference"
       ],
       "videos": [
+        {
+          "shorts_id": "CQMpncEu5Sc",
+          "shorts_url": "https://www.youtube.com/shorts/CQMpncEu5Sc",
+          "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)",
+          "article_slug": "what-does-medicare-cover",
+          "published_at": "2026-05-25T14:14:26.546982+00:00",
+          "standard_id": "7e2y3fl7G5M",
+          "standard_url": "https://www.youtube.com/watch?v=7e2y3fl7G5M",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "8Joc5DNdSas",
           "shorts_url": "https://www.youtube.com/shorts/8Joc5DNdSas",
@@ -146,10 +168,11 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 23,
+      "articles": 25,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Federal Solar Tax Credit 2026",
+        "Federal Solar Tax Credit Expiration",
         "How Long To Pay Off Solar Panels",
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
@@ -159,17 +182,38 @@
         "Solar Cost Vs Electricity Bill Savings",
         "Solar Incentives California 2026",
         "Solar Incentives Florida 2026",
+        "Solar Incentives New York 2026",
         "Solar Incentives Texas 2026",
         "Solar Lease Vs Buy Cost Comparison",
         "Solar Loan Vs Solar Lease Vs Ppa",
         "Solar Panel Cost Per Watt 2026",
         "Solar Panel Installation Cost Breakdown",
         "Solar Panel Roi Calculation",
-        "Solar Panels Worth It Financially",
-        "Solar Payback Period Calculator",
-        "Solar Rebates From Utility Companies"
+        "Solar Panels Worth It Financially"
       ],
       "videos": [
+        {
+          "shorts_id": "n9Z1zlQ5o5U",
+          "shorts_url": "https://www.youtube.com/shorts/n9Z1zlQ5o5U",
+          "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make",
+          "article_slug": "solar-tax-credit-how-to-claim",
+          "published_at": "2026-05-25T14:02:06.079316+00:00",
+          "standard_id": "ERHAdkZbQes",
+          "standard_url": "https://www.youtube.com/watch?v=ERHAdkZbQes",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "TvB77yqLipk",
           "shorts_url": "https://www.youtube.com/shorts/TvB77yqLipk",
@@ -280,12 +324,14 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 23,
+      "articles": 25,
       "article_titles": [
         "Best Roof Type For Solar Panels",
         "Can Condos Get Solar Panels",
         "Can Hoa Deny Solar Panels",
+        "Can I Install Solar Panels Myself",
         "Comparing Solar Bids What To Look For",
+        "Diy Solar Panel Installation Guide",
         "Hoa Solar Panel Rules",
         "How To Choose A Solar Company",
         "How To Get Solar Quotes",
@@ -299,9 +345,7 @@
         "Solar For Flat Roof Homes",
         "Solar For Home With Trees And Shade",
         "Solar For Mobile Homes And Manufactured Housing",
-        "Solar For Two Story Home",
-        "Solar Installer Reviews What To Look For",
-        "Solar Panel Permit Process Explained"
+        "Solar For Two Story Home"
       ],
       "videos": [
         {
@@ -414,11 +458,12 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 28,
+      "articles": 30,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
         "Broken Bone Injury Settlement Average",
+        "Car Accident Injury Claim Tips",
         "Car Accident Settlement Amounts By Injury Type",
         "Do I Have A Personal Injury Case",
         "Do You Have A Personal Injury Case",
@@ -434,8 +479,7 @@
         "Neck Injury Settlement Car Accident",
         "Pain And Suffering Calculation Formula",
         "Permanent Disability Settlement Amounts",
-        "Personal Injury Claim Process Step By Step",
-        "Personal Injury Lawsuit Vs Settlement"
+        "Personal Injury Claim Process Step By Step"
       ],
       "videos": [
         {
@@ -548,10 +592,11 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 20,
+      "articles": 22,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
+        "Does Home Insurance Cover Roof Damage",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Coverage Limits Guide",
@@ -560,6 +605,7 @@
         "Home Insurance For First Time Buyers",
         "Home Insurance Liability Coverage",
         "Home Insurance Quotes Comparison",
+        "Home Insurance Replacement Cost Vs Actual Cash Value",
         "Home Insurance Vs Renters Insurance",
         "Homeowners Insurance Claim Process",
         "Homeowners Insurance Deductible Explained",
@@ -567,11 +613,31 @@
         "Homeowners Insurance Personal Property Coverage",
         "Homeowners Insurance Shopping Tips",
         "How Much Does Homeowners Insurance Cost",
-        "How Much Home Insurance Do You Need",
-        "How To Lower Homeowners Insurance Cost",
-        "What Does Homeowners Insurance Cover"
+        "How Much Home Insurance Do You Need"
       ],
       "videos": [
+        {
+          "shorts_id": "CAtsFY4ysK0",
+          "shorts_url": "https://www.youtube.com/shorts/CAtsFY4ysK0",
+          "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)",
+          "article_slug": "homeowners-insurance-for-older-homes",
+          "published_at": "2026-05-25T14:00:01.116508+00:00",
+          "standard_id": "PkpVDiqEEtY",
+          "standard_url": "https://www.youtube.com/watch?v=PkpVDiqEEtY",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "mKfXpnnK-Cg",
           "shorts_url": "https://www.youtube.com/shorts/mKfXpnnK-Cg",
@@ -682,7 +748,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 21,
+      "articles": 23,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Cash Out Refinance Explained",
@@ -693,6 +759,7 @@
         "Fixed Vs Adjustable Rate Mortgage",
         "How Much House Can I Afford",
         "How To Get A Mortgage First Time Buyer",
+        "How To Get Pre Qualified For Mortgage",
         "How To Refinance Mortgage",
         "Jumbo Loan Requirements",
         "Mortgage Closing Costs Explained",
@@ -702,10 +769,31 @@
         "Mortgage Qualification Requirements",
         "Mortgage Rate Lock Explained",
         "Mortgage Rates Today Explained",
-        "Pmi Explained Mortgage",
-        "Usda Loan Eligibility Guide"
+        "Mortgage Underwriting Process"
       ],
       "videos": [
+        {
+          "shorts_id": "LpdDGK8w_-Y",
+          "shorts_url": "https://www.youtube.com/shorts/LpdDGK8w_-Y",
+          "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make",
+          "article_slug": "mortgage-rate-lock-explained",
+          "published_at": "2026-05-25T13:59:48.399782+00:00",
+          "standard_id": "L5lU4xHwEEI",
+          "standard_url": "https://www.youtube.com/watch?v=L5lU4xHwEEI",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "tMa7b8eHQK8",
           "shorts_url": "https://www.youtube.com/shorts/tMa7b8eHQK8",
@@ -772,7 +860,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 24,
+      "articles": 26,
       "article_titles": [
         "Anger Management Therapy",
         "Child Therapy Guide For Parents",
@@ -788,12 +876,12 @@
         "How To Find A Therapist",
         "How To Find The Right Therapist",
         "Online Therapy Vs In Person",
+        "Psychodynamic Therapy Vs Cbt",
         "Ptsd Therapy Options",
+        "Somatic Therapy Explained",
         "Teen Therapy Options",
         "Therapist Vs Psychologist Vs Psychiatrist",
-        "Therapy For Adhd Adults",
-        "Therapy For Anxiety Treatment",
-        "Therapy For Depression"
+        "Therapy For Adhd Adults"
       ],
       "videos": [
         {
@@ -862,7 +950,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 25,
+      "articles": 27,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Dental Disease Signs",
@@ -886,6 +974,28 @@
         "Kitten Vet Schedule First Year"
       ],
       "videos": [
+        {
+          "shorts_id": "ythQkwSjiRo",
+          "shorts_url": "https://www.youtube.com/shorts/ythQkwSjiRo",
+          "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)",
+          "article_slug": "senior-dog-care-guide",
+          "published_at": "2026-05-25T13:55:52.350073+00:00",
+          "standard_id": "uFiGHakiqSA",
+          "standard_url": "https://www.youtube.com/watch?v=uFiGHakiqSA",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "smBqOQlgT3M",
           "shorts_url": "https://www.youtube.com/shorts/smBqOQlgT3M",
@@ -952,8 +1062,9 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 21,
+      "articles": 23,
       "article_titles": [
+        "1099 Vs W2 Explained",
         "Accounts Receivable Management",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
@@ -972,8 +1083,7 @@
         "Separate Business Personal Finances",
         "Small Business Accounting Basics",
         "Small Business Bookkeeping Guide",
-        "Small Business Grants Available",
-        "Small Business Tax Deductions"
+        "Small Business Grants Available"
       ],
       "videos": [
         {
@@ -1042,7 +1152,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 28,
+      "articles": 30,
       "article_titles": [
         "Easy Keto Meals",
         "Electrolytes On Keto",
@@ -1052,7 +1162,9 @@
         "How Long To Enter Ketosis",
         "How To Start Keto",
         "Keto And Insulin Resistance",
+        "Keto Bread Recipe",
         "Keto Breakfast Ideas",
+        "Keto Chicken Recipes",
         "Keto Dessert Recipes",
         "Keto Diet Benefits",
         "Keto Diet Food List",
@@ -1061,9 +1173,7 @@
         "Keto Dinner Recipes",
         "Keto Flu Symptoms",
         "Keto For Type 2 Diabetes",
-        "Keto For Weight Loss",
-        "Keto For Women Over 40",
-        "Keto Lunch Ideas"
+        "Keto For Weight Loss"
       ],
       "videos": [
         {
@@ -1132,7 +1242,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 28,
+      "articles": 30,
       "article_titles": [
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
@@ -1151,9 +1261,9 @@
         "Grit For Chickens",
         "How Big Should A Chicken Coop Be",
         "How Many Chickens Should I Get",
+        "How Much To Feed Chickens Per Day",
         "How To Build A Chicken Coop",
-        "How To Clean Chicken Coop",
-        "How To Raise Chickens"
+        "How To Clean Chicken Coop"
       ],
       "videos": [
         {
@@ -1165,7 +1275,7 @@
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
           "shorts_stats": {
-            "views": 136,
+            "views": 139,
             "likes": 4,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
@@ -1176,7 +1286,7 @@
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 149
+          "total_views": 152
         }
       ],
       "cloudflare": {
@@ -1191,7 +1301,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 149
+      "yt_total_views": 152
     },
     {
       "slug": "rv-life-guide",
@@ -1200,7 +1310,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 28,
+      "articles": 30,
       "article_titles": [
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
@@ -1221,7 +1331,7 @@
         "Rv Campground Fees",
         "Rv Domicile State Options",
         "Rv Fuel Costs Per Mile",
-        "Rv Full Time Living Budget"
+        "Rv Full Time Address Setup"
       ],
       "videos": [
         {
@@ -1233,7 +1343,7 @@
           "standard_id": "_LbpAgPpbhw",
           "standard_url": "https://www.youtube.com/watch?v=_LbpAgPpbhw",
           "shorts_stats": {
-            "views": 5,
+            "views": 7,
             "likes": 1,
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
@@ -1244,7 +1354,7 @@
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
           },
-          "total_views": 8
+          "total_views": 10
         },
         {
           "shorts_id": "0erap12E_2I",
@@ -1255,7 +1365,7 @@
           "standard_id": "o7Yq9wiFT5o",
           "standard_url": "https://www.youtube.com/watch?v=o7Yq9wiFT5o",
           "shorts_stats": {
-            "views": 11,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
@@ -1266,7 +1376,7 @@
             "comments": 0,
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
           },
-          "total_views": 26
+          "total_views": 27
         }
       ],
       "cloudflare": {
@@ -1281,7 +1391,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 34
+      "yt_total_views": 37
     },
     {
       "slug": "gamedevproducer",
@@ -1290,11 +1400,13 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 16,
+      "articles": 18,
       "article_titles": [
+        "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Burnout In Game Development The Year 5 Cliff",
         "Crunch Is A Production Failure Not A Culture Problem",
+        "Game Producer Career Path From Associate To Executive",
         "Game Producer Vs Film Producer Key Differences",
         "Game Producer Vs Scrum Master What Is The Difference",
         "Game Producer Vs Technical Program Manager",
