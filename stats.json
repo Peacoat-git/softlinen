@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-24T18:59:07.301825+00:00",
+  "generated_at": "2026-05-25T02:10:38.031330+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-24"
+    "end": "2026-05-25"
   },
   "totals": {
     "revenue": 0,
@@ -10,7 +10,7 @@
     "visits": 0,
     "articles": 414,
     "videos": 32,
-    "yt_views": 212,
+    "yt_views": 222,
     "sites": 15
   },
   "adsense_connected": false,
@@ -24,7 +24,7 @@
     "credits_used": 43.52,
     "est_remaining": 106.89,
     "pct_remaining": 71.1,
-    "days_until_renewal": 25
+    "days_until_renewal": 24
   },
   "sites": [
     {
@@ -1075,7 +1075,7 @@
           "standard_id": "5-a64bdCJX4",
           "standard_url": "https://www.youtube.com/watch?v=5-a64bdCJX4",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 1,
             "comments": 0,
             "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)"
@@ -1086,7 +1086,7 @@
             "comments": 0,
             "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)"
           },
-          "total_views": 3
+          "total_views": 4
         },
         {
           "shorts_id": "bn07gPxtajg",
@@ -1123,7 +1123,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 4
+      "yt_total_views": 5
     },
     {
       "slug": "chicken-keeper-guide",
@@ -1165,18 +1165,18 @@
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
           "shorts_stats": {
-            "views": 130,
+            "views": 135,
             "likes": 4,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
           "standard_stats": {
-            "views": 11,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 141
+          "total_views": 147
         }
       ],
       "cloudflare": {
@@ -1191,7 +1191,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 141
+      "yt_total_views": 147
     },
     {
       "slug": "rv-life-guide",
@@ -1233,8 +1233,8 @@
           "standard_id": "_LbpAgPpbhw",
           "standard_url": "https://www.youtube.com/watch?v=_LbpAgPpbhw",
           "shorts_stats": {
-            "views": 2,
-            "likes": 0,
+            "views": 4,
+            "likes": 1,
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
           },
@@ -1244,7 +1244,7 @@
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
           },
-          "total_views": 5
+          "total_views": 7
         },
         {
           "shorts_id": "0erap12E_2I",
@@ -1255,7 +1255,7 @@
           "standard_id": "o7Yq9wiFT5o",
           "standard_url": "https://www.youtube.com/watch?v=o7Yq9wiFT5o",
           "shorts_stats": {
-            "views": 10,
+            "views": 11,
             "likes": 0,
             "comments": 0,
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
@@ -1266,7 +1266,7 @@
             "comments": 0,
             "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
           },
-          "total_views": 21
+          "total_views": 22
         }
       ],
       "cloudflare": {
@@ -1281,7 +1281,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 26
+      "yt_total_views": 29
     },
     {
       "slug": "gamedevproducer",
