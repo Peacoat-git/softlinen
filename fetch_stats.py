@@ -39,12 +39,12 @@ SITES = [
     {"slug": "therapy-finder-guide",    "domain": "therapyfinderguide.com",    "zone": "bfd123744e25ba62408bc1e5d9131e0c", "color": "#ec4899", "niche": "Mental health & therapy",     "rpm_est": "8-14"},
     {"slug": "pet-doctor-guide",        "domain": "petdoctorguide.com",        "zone": "f8ba94856bed0462d289108c029918ed", "color": "#f97316", "niche": "Pet health & vet care",       "rpm_est": "6-12"},
     {"slug": "small-biz-finance-guide", "domain": "smallbizfinanceguide.com",  "zone": "f017bfad279ae9c19ac62f1b211f5143", "color": "#14b8a6", "niche": "Small business finance",      "rpm_est": "8-15"},
-    {"slug": "keto-living-guide",       "domain": "ketolivingguide.com",       "zone": "", "color": "#84cc16", "niche": "Keto & low-carb diet",            "rpm_est": "4-8"},
-    {"slug": "chicken-keeper-guide",    "domain": "chickenkeeperguide.com",    "zone": "", "color": "#a16207", "niche": "Backyard chickens & poultry",     "rpm_est": "3-6"},
-    {"slug": "rv-life-guide",           "domain": "rv-life-guide.com",         "zone": "", "color": "#0ea5e9", "niche": "RV living & travel",              "rpm_est": "5-10"},
-    {"slug": "gamedevproducer",         "domain": "gamedevproducer.com",       "zone": "", "color": "#7c3aed", "niche": "Game development & production",   "rpm_est": "6-12"},
-    {"slug": "seniorstrength",          "domain": "seniorstrength.today",      "zone": "", "color": "#059669", "niche": "Senior fitness & health",         "rpm_est": "5-10"},
-    {"slug": "fixitrightway",           "domain": "fixitrightway.com",         "zone": "", "color": "#dc2626", "niche": "DIY home repair",                 "rpm_est": "4-8"},
+    {"slug": "keto-living-guide",       "domain": "ketolivingguide.com",       "zone": "f5c44a49fbed28497138c0cd8a66f64c", "color": "#84cc16", "niche": "Keto & low-carb diet",            "rpm_est": "4-8"},
+    {"slug": "chicken-keeper-guide",    "domain": "chickenkeeperguide.com",    "zone": "8eca9af5b63390c863a003a40d75d038", "color": "#a16207", "niche": "Backyard chickens & poultry",     "rpm_est": "3-6"},
+    {"slug": "rv-life-guide",           "domain": "rv-life-guide.com",         "zone": "6985e9d6f84254f29742981a91a6c6c1", "color": "#0ea5e9", "niche": "RV living & travel",              "rpm_est": "5-10"},
+    {"slug": "gamedevproducer",         "domain": "gamedevproducer.com",       "zone": "6d57c09c827f709c73a4b8b28928c3e8", "color": "#7c3aed", "niche": "Game development & production",   "rpm_est": "6-12"},
+    {"slug": "seniorstrength",          "domain": "seniorstrength.today",      "zone": "90981fc22b9e4c447f5df8981bd19877", "color": "#059669", "niche": "Senior fitness & health",         "rpm_est": "5-10"},
+    {"slug": "fixitrightway",           "domain": "fixitrightway.com",         "zone": "84b618252eb62c6644297943bf8e46ab", "color": "#dc2626", "niche": "DIY home repair",                 "rpm_est": "4-8"},
 ]
 
 ORG = "peacoat-sites"
