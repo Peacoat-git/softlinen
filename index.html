@@ -122,10 +122,12 @@ canvas { width:100%!important; }
 <script>
 (function() {
   const KEY = 'sl_auth';
-  const PASS = 'sl2026';
-  function gateUnlock() {
+  const PASS_HASH = 'c484e46f131654cd54d090238727cf7e4cca22cd9e003ff95c0f59c034a907b3';
+  async function gateUnlock() {
     const val = document.getElementById('gate-input').value;
-    if (val === PASS) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(val));
+    const hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+    if (hex === PASS_HASH) {
       localStorage.setItem(KEY, '1');
       document.getElementById('gate').style.display = 'none';
     } else {
