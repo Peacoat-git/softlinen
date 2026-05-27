@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T14:52:19.357916+00:00",
+  "generated_at": "2026-05-27T15:08:09.555456+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-27"
@@ -14,8 +14,8 @@
     "yt_views": 0,
     "sites": 15
   },
-  "adsense_connected": false,
-  "youtube_connected": false,
+  "adsense_connected": true,
+  "youtube_connected": true,
   "shotstack": {
     "baseline_credits": 150.41,
     "baseline_date": "2026-05-19",
