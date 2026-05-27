@@ -12,7 +12,9 @@ import os, json, requests
 from datetime import datetime, timezone, timedelta
 
 # ── Credentials ────────────────────────────────────────────────────────────────
-GH_TOKEN        = os.environ["GITHUB_TOKEN"]
+# PIPELINE_TOKEN has cross-org read access to peacoat-sites repos.
+# Fall back to GITHUB_TOKEN if not set (e.g. local runs).
+GH_TOKEN        = os.environ.get("PIPELINE_TOKEN") or os.environ["GITHUB_TOKEN"]
 CF_TOKEN        = os.environ["CF_TOKEN"]
 CF_ACCOUNT_ID   = os.environ["CF_ACCOUNT_ID"]
 GOOGLE_CLIENT_ID     = os.environ.get("GOOGLE_CLIENT_ID", "")
