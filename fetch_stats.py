@@ -75,7 +75,7 @@ def fetch_gh_articles(slug):
     r = requests.get(f"https://api.github.com/repos/{ORG}/{slug}/contents/content/posts", headers=GH_HEADERS)
     if r.status_code != 200:
         return 0, []
-    files = [f for f in r.json() if f["name"].endswith(".md")]
+    files = [f for f in r.json() if f["name"].endswith(".md") and f["name"] not in ("_index.md",)]
     titles = [f["name"].replace(".md", "").replace("-", " ").title() for f in files]
     return len(files), titles
 
@@ -294,7 +294,12 @@ def main():
     # Portfolio totals
     total_revenue = sum(s["adsense"]["revenue"] for s in sites_data)
     total_yt_views = sum(s["yt_total_views"] for s in sites_data)
-    total_videos = sum(len(s["videos"]) for s in sites_data)
+    total_videos = sum(
+        (1 if v.get("shorts_id") or v.get("video_id") else 0) +
+        (1 if v.get("standard_id") else 0)
+        for s in sites_data for v in s["videos"]
+    )
+    total_channels = sum(1 for s in sites_data if s["videos"])
 
     # ── Shotstack credit tracker ───────────────────────────────────────────────
     # No balance API exists — we track renders since the known baseline snapshot.
@@ -346,6 +351,7 @@ def main():
             "visits":       total_visits,
             "articles":     total_articles,
             "videos":       total_videos,
+            "channels":     total_channels,
             "yt_views":     total_yt_views,
             "sites":        len(sites_data),
         },
