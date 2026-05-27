@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T16:10:23.711751+00:00",
+  "generated_at": "2026-05-27T19:57:57.152406+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-27"
@@ -11,7 +11,7 @@
     "articles": 494,
     "videos": 74,
     "channels": 12,
-    "yt_views": 264,
+    "yt_views": 263,
     "sites": 15
   },
   "adsense_connected": true,
@@ -289,12 +289,12 @@
             "title": "Solar Calculators Lied to This Homeowner by $600/Year"
           },
           "standard_stats": {
-            "views": 1,
+            "views": 0,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Lied to This Homeowner by $600/Year"
           },
-          "total_views": 1
+          "total_views": 0
         },
         {
           "shorts_id": "_Ow6aYYFuSk",
@@ -390,7 +390,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 13
+      "yt_total_views": 12
     },
     {
       "slug": "solar-home-planner",
