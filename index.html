@@ -193,7 +193,7 @@ canvas { width:100%!important; }
       <div class="topbar-title">Portfolio Overview</div>
       <div class="topbar-right">
         <span class="date-badge" id="period-badge">Loading…</span>
-        <button class="refresh-btn" onclick="loadStats()">↻ Refresh</button>
+        <button class="refresh-btn" id="refresh-btn" onclick="triggerRefresh()">↻ Refresh</button>
       </div>
     </div>
 
@@ -561,6 +561,48 @@ revenueChart = new Chart(ctx0, {
     scales:{x:{stacked:true,grid:{display:false},ticks:{font:{size:11}}},y:{stacked:true,ticks:{callback:v=>'$'+v,font:{size:11}},grid:{color:'#f1f5f9'}}},
   },
 });
+
+async function triggerRefresh() {
+  const btn = document.getElementById('refresh-btn');
+  const orig = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '⏳ Triggering...';
+  try {
+    const dispatch = await fetch(
+      'https://api.github.com/repos/Peacoat-git/softlinen/actions/workflows/refresh_stats.yml/dispatches',
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': 'token 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',
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github+json'
+        },
+        body: JSON.stringify({ ref: 'main', inputs: { reason: 'Manual refresh from dashboard' } })
+      }
+    );
+    if (dispatch.status !== 204) throw new Error('Dispatch HTTP ' + dispatch.status);
+    // Poll every 8s for up to ~2.5 min
+    let done = false;
+    for (let i = 0; i < 20; i++) {
+      await new Promise(r => setTimeout(r, 8000));
+      btn.textContent = '⏳ ' + ((i + 1) * 8) + 's…';
+      const runsRes = await fetch(
+        'https://api.github.com/repos/Peacoat-git/softlinen/actions/runs?workflow_id=refresh_stats.yml&per_page=1',
+        { headers: { 'Authorization': 'token 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', 'Accept': 'application/vnd.github+json' } }
+      );
+      const runs = await runsRes.json();
+      const run = runs.workflow_runs?.[0];
+      if (run && run.status === 'completed') { done = true; break; }
+    }
+    btn.textContent = done ? '✓ Updated!' : '↻ Refresh';
+    setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2500);
+    loadStats();
+  } catch(e) {
+    console.error('Refresh failed:', e);
+    btn.textContent = '✗ Failed';
+    setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2500);
+  }
+}
 
 loadStats();
 
