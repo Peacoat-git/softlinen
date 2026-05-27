@@ -104,7 +104,7 @@ def fetch_cf_analytics(zone_id, start=MTD_START, end=TODAY_STR):
             orderBy: [date_ASC]
           ) {
             dimensions { date }
-            sum { pageViews visits requests }
+            sum { pageViews requests }
             uniq { uniques }
           }
         }
@@ -134,10 +134,9 @@ def fetch_cf_analytics(zone_id, start=MTD_START, end=TODAY_STR):
             return _empty
         groups = zones[0].get("httpRequests1dGroups", [])
         total_pv   = sum(g["sum"]["pageViews"] for g in groups)
-        total_vis  = sum(g["sum"]["visits"]    for g in groups)
         total_uniq = sum(g["uniq"]["uniques"]  for g in groups)
-        daily = [{"date": g["dimensions"]["date"], "pageViews": g["sum"]["pageViews"], "visits": g["sum"]["visits"]} for g in groups]
-        return {"page_views": total_pv, "visits": total_vis, "unique_visitors": total_uniq, "daily": daily}
+        daily = [{"date": g["dimensions"]["date"], "pageViews": g["sum"]["pageViews"]} for g in groups]
+        return {"page_views": total_pv, "visits": total_pv, "unique_visitors": total_uniq, "daily": daily}
     except Exception as e:
         print(f"  [WARN] CF analytics exception: {e}")
         return _empty
@@ -276,7 +275,7 @@ def main():
 
         total_articles += art_count
         total_pv       += cf["page_views"]
-        total_visits   += cf["visits"]
+        total_visits   += cf["page_views"]
 
         sites_data.append({
             "slug":         slug,
