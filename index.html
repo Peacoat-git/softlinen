@@ -217,7 +217,7 @@ canvas { width:100%!important; }
           <div class="kpi-label">Page Views (MTD)</div>
           <div class="kpi-value" id="kpi-views">—</div>
           <div class="kpi-change pending">Cloudflare Analytics</div>
-          <div class="kpi-sub">Across all 15 sites</div>
+          <div class="kpi-sub" id="kpi-views-sub">Across all 15 sites</div>
         </div>
         <div class="kpi-card">
           <div class="kpi-label">YouTube Views</div>
@@ -414,8 +414,9 @@ function loadStats() {
       document.getElementById('kpi-revenue').textContent = '$' + (t.revenue||0).toFixed(2);
       document.getElementById('kpi-revenue-note').textContent = data.adsense_connected ? 'AdSense connected' : '⏳ AdSense pending';
       document.getElementById('kpi-views').textContent = fmt(t.page_views);
+      document.getElementById('kpi-views-sub').textContent = 'Across all ' + t.sites + ' sites';
       document.getElementById('kpi-yt').textContent = fmt(t.yt_views);
-      document.getElementById('kpi-yt-note').textContent = t.videos + ' videos live · ' + t.sites + ' channels';
+      document.getElementById('kpi-yt-note').textContent = t.videos + ' videos live · ' + (t.channels || t.sites) + ' channels';
       document.getElementById('kpi-articles').textContent = t.articles;
       document.getElementById('kpi-articles-note').textContent = t.sites + ' sites · ' + Math.round(t.articles/t.sites) + ' avg/site';
 
