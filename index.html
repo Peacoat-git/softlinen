@@ -122,7 +122,7 @@ canvas { width:100%!important; }
 <script>
 (function() {
   const KEY = 'sl_auth';
-  const PASS_HASH = 'c484e46f131654cd54d090238727cf7e4cca22cd9e003ff95c0f59c034a907b3';
+  const PASS_HASH = '444068b52d14eefad0405c60cf0623bb78069c1aa2e2d86b4105383e5e791d58';
   async function gateUnlock() {
     const val = document.getElementById('gate-input').value;
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(val));
