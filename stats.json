@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T09:42:32.403994+00:00",
+  "generated_at": "2026-05-28T15:23:50.944941+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-28"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 52944,
     "visits": 52944,
-    "articles": 494,
+    "articles": 518,
     "videos": 74,
     "channels": 12,
     "yt_views": 263,
@@ -35,9 +35,10 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 31,
+      "articles": 33,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
+        "Best Medicare Advantage Plans By State",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
         "How Does Medicare Advantage Work",
@@ -48,15 +49,14 @@
         "Medicare Advantage Out Of Pocket Maximum",
         "Medicare Advantage Pros And Cons",
         "Medicare Advantage Vs Original Medicare",
+        "Medicare Advantage Vs Supplement Cost Comparison",
         "Medicare And Employer Insurance",
         "Medicare And Tricare",
         "Medicare Eligibility Requirements",
         "Medicare Part A Explained",
         "Medicare Part B Explained",
         "Medicare Part C Explained",
-        "Medicare Part D Explained",
-        "Medicare Supplement Plan Comparison",
-        "Medicare Supplement Plan G Explained"
+        "Medicare Part D Explained"
       ],
       "videos": [
         {
@@ -210,7 +210,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 29,
+      "articles": 31,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Solar Financing Options",
@@ -220,6 +220,7 @@
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
         "How To Finance Solar Panels With No Money Down",
+        "Is Solar Lease Worth It",
         "Itc Solar Investment Tax Credit Explained",
         "Net Metering Policy By State",
         "Net Metering Savings Explained",
@@ -230,8 +231,7 @@
         "Solar Incentives New York 2026",
         "Solar Incentives Texas 2026",
         "Solar Lease Vs Buy Cost Comparison",
-        "Solar Loan Vs Solar Lease Vs Ppa",
-        "Solar Panel Cost Per Watt 2026"
+        "Solar Loan Interest Rates 2026"
       ],
       "videos": [
         {
@@ -407,17 +407,19 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 29,
+      "articles": 31,
       "article_titles": [
         "Best Roof Type For Solar Panels",
         "Can Condos Get Solar Panels",
         "Can Hoa Deny Solar Panels",
         "Can I Install Solar Panels Myself",
+        "Cheapest Way To Go Solar Diy",
         "Comparing Solar Bids What To Look For",
         "Diy Solar For Shed Or Outbuilding",
         "Diy Solar For Tiny Home",
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
+        "Diy Solar Panel System Sizing",
         "Hoa Solar Panel Rules",
         "How To Choose A Solar Company",
         "How To Get Solar Quotes",
@@ -426,9 +428,7 @@
         "Off Grid Solar Diy Setup",
         "Questions To Ask Solar Companies",
         "Red Flags When Hiring Solar Installer",
-        "Right To Solar Law Explained",
-        "Solar Company Certifications Nabcep",
-        "Solar Contract What To Review Before Signing"
+        "Right To Solar Law Explained"
       ],
       "videos": [
         {
@@ -582,7 +582,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 34,
+      "articles": 36,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -757,7 +757,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 26,
+      "articles": 28,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
@@ -770,6 +770,7 @@
         "Home Insurance Flood Coverage",
         "Home Insurance For First Time Buyers",
         "Home Insurance For Investment Property",
+        "Home Insurance In Florida",
         "Home Insurance Liability Coverage",
         "Home Insurance Quotes Comparison",
         "Home Insurance Replacement Cost Vs Actual Cash Value",
@@ -777,8 +778,7 @@
         "Homeowners Insurance After Filing A Claim",
         "Homeowners Insurance Claim Process",
         "Homeowners Insurance Deductible Explained",
-        "Homeowners Insurance For Older Homes",
-        "Homeowners Insurance Personal Property Coverage"
+        "Homeowners Insurance For Older Homes"
       ],
       "videos": [
         {
@@ -954,13 +954,14 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 27,
+      "articles": 29,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Cash Out Refinance Explained",
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
         "Debt To Income Ratio For Mortgage",
+        "Down Payment Assistance Programs",
         "Fha Loan Requirements And Benefits",
         "First Time Homebuyer Programs",
         "Fixed Vs Adjustable Rate Mortgage",
@@ -974,8 +975,7 @@
         "Mortgage Closing Costs Explained",
         "Mortgage Down Payment Options",
         "Mortgage For Self Employed Borrowers",
-        "Mortgage Points Explained",
-        "Mortgage Pre Approval Process"
+        "Mortgage Points Explained"
       ],
       "videos": [
         {
@@ -1107,10 +1107,11 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 30,
+      "articles": 32,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
+        "Betterhelp Vs Talkspace Comparison",
         "Child Therapy Guide For Parents",
         "Cognitive Behavioral Therapy Explained",
         "Couples Therapy How It Works",
@@ -1124,11 +1125,10 @@
         "How Much Does Therapy Cost",
         "How To Find A Therapist",
         "How To Find The Right Therapist",
+        "How To Know If Therapy Is Working",
         "Mindfulness Based Therapy",
         "Online Therapy Vs In Person",
-        "Psychodynamic Therapy Vs Cbt",
-        "Ptsd Therapy Options",
-        "Somatic Therapy Explained"
+        "Psychodynamic Therapy Vs Cbt"
       ],
       "videos": [
         {
@@ -1238,7 +1238,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 31,
+      "articles": 33,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Dental Disease Signs",
@@ -1258,8 +1258,8 @@
         "Dog Heartworm Prevention Guide",
         "Dog Limping Causes Treatment",
         "Dog Not Eating What To Do",
-        "Dog Teeth Cleaning Cost",
-        "Dog Vaccinations Schedule Guide"
+        "Dog Poison Emergency Guide",
+        "Dog Teeth Cleaning Cost"
       ],
       "videos": [
         {
@@ -1391,7 +1391,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 27,
+      "articles": 29,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1409,10 +1409,10 @@
         "Invoicing Tips For Small Business",
         "Llc Vs Sole Proprietorship Taxes",
         "Payroll Basics Small Business",
+        "Profit Margin Calculation Guide",
         "Quarterly Estimated Taxes Small Business",
         "Sba Loan Requirements Guide",
-        "Separate Business Personal Finances",
-        "Small Business Accounting Basics"
+        "Separate Business Personal Finances"
       ],
       "videos": [
         {
@@ -1522,7 +1522,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 34,
+      "articles": 36,
       "article_titles": [
         "Easy Keto Meals",
         "Electrolytes On Keto",
@@ -1531,6 +1531,7 @@
         "How Fast Keto Weight Loss",
         "How Long To Enter Ketosis",
         "How To Start Keto",
+        "Keto 30 Day Meal Plan",
         "Keto 7 Day Meal Plan",
         "Keto And Insulin Resistance",
         "Keto Bread Recipe",
@@ -1542,8 +1543,7 @@
         "Keto Diet For Beginners",
         "Keto Diet Side Effects",
         "Keto Dinner Recipes",
-        "Keto Flu Symptoms",
-        "Keto For Type 2 Diabetes"
+        "Keto Flu Symptoms"
       ],
       "videos": [
         {
@@ -1641,7 +1641,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 34,
+      "articles": 36,
       "article_titles": [
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
@@ -1656,13 +1656,13 @@
         "Cold Hardy Chicken Breeds",
         "Dual Purpose Chicken Breeds",
         "Easter Egger Chickens",
+        "Egg Production Per Year By Breed",
         "Foods Chickens Cannot Eat",
         "Friendly Chicken Breeds",
         "Grit For Chickens",
         "How Big Should A Chicken Coop Be",
         "How Long Do Chickens Lay Eggs",
-        "How Many Chickens Should I Get",
-        "How Much To Feed Chickens Per Day"
+        "How Many Chickens Should I Get"
       ],
       "videos": [
         {
@@ -1738,8 +1738,9 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 34,
+      "articles": 36,
       "article_titles": [
+        "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Rv Brands Reliability",
@@ -1753,13 +1754,12 @@
         "How Much Does Rv Life Cost",
         "How To Start Rv Life",
         "Learning To Drive Rv",
+        "Leveling Rv Guide",
         "Mail Forwarding Full Time Rv",
         "Motorhome Vs Travel Trailer",
         "New Vs Used Rv Buying",
         "Rv Buying Checklist",
-        "Rv Campground Fees",
-        "Rv Domicile State Options",
-        "Rv Fuel Costs Per Mile"
+        "Rv Campground Fees"
       ],
       "videos": [
         {
