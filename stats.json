@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-28T01:52:52.222648+00:00",
+  "generated_at": "2026-05-28T09:42:32.403994+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-28"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 52943,
-    "visits": 52943,
+    "page_views": 52944,
+    "visits": 52944,
     "articles": 494,
     "videos": 74,
     "channels": 12,
@@ -1882,8 +1882,8 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2108,
-        "visits": 2108,
+        "page_views": 2109,
+        "visits": 2109,
         "unique_visitors": 1011,
         "daily": [
           {
@@ -1912,7 +1912,7 @@
           },
           {
             "date": "2026-05-27",
-            "pageViews": 262
+            "pageViews": 263
           }
         ]
       },
