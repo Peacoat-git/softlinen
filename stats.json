@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T09:32:01.818539+00:00",
+  "generated_at": "2026-05-29T14:36:27.886377+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-29"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 55589,
     "visits": 55589,
-    "articles": 603,
+    "articles": 629,
     "videos": 102,
     "channels": 12,
     "yt_views": 0,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 38,
+      "articles": 40,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -210,13 +210,14 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 36,
+      "articles": 38,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Solar Financing Options",
         "Best Solar Panels For Home 2026",
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
+        "How Long Do Solar Panels Last",
         "How Long To Pay Off Solar Panels",
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
@@ -230,8 +231,7 @@
         "Solar Cost Vs Electricity Bill Savings",
         "Solar Incentives California 2026",
         "Solar Incentives Florida 2026",
-        "Solar Incentives New York 2026",
-        "Solar Incentives Texas 2026"
+        "Solar Incentives New York 2026"
       ],
       "videos": [
         {
@@ -397,7 +397,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 36,
+      "articles": 38,
       "article_titles": [
         "Best Ev Charger For Solar Home",
         "Best Roof Type For Solar Panels",
@@ -416,9 +416,9 @@
         "How Many Solar Panels To Charge Ev",
         "How To Choose A Solar Company",
         "How To Get Solar Quotes",
+        "How To Size Solar System For Ev",
         "Is My Solar Installer Legit",
-        "My Solar Panels Stopped Working What To Do",
-        "Off Grid Solar Diy Setup"
+        "My Solar Panels Stopped Working What To Do"
       ],
       "videos": [
         {
@@ -560,15 +560,17 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 40,
+      "articles": 42,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
         "Broken Bone Injury Settlement Average",
+        "Car Accident Injury Claim Denied What To Do",
         "Car Accident Injury Claim Tips",
         "Car Accident Injury No Insurance Options",
         "Car Accident Pain And Suffering Claim",
         "Car Accident Settlement Amounts By Injury Type",
+        "Delayed Injury Symptoms After Car Accident",
         "Do I Have A Personal Injury Case",
         "Drunk Driver Accident Injury Lawsuit",
         "Factors That Increase Settlement Value",
@@ -579,9 +581,7 @@
         "How Personal Injury Settlements Work",
         "How To Document Injuries After Accident",
         "How To File Car Accident Injury Claim",
-        "How To Negotiate Higher Personal Injury Settlement",
-        "Lost Wages In Personal Injury Settlement",
-        "Lowball Settlement Offer What To Do"
+        "How To Negotiate Higher Personal Injury Settlement"
       ],
       "videos": [
         {
@@ -711,7 +711,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 33,
+      "articles": 35,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
@@ -728,11 +728,11 @@
         "Home Insurance In Florida",
         "Home Insurance In Texas",
         "Home Insurance Liability Coverage",
+        "Home Insurance Mandatory Vs Optional Coverage",
         "Home Insurance Quotes Comparison",
         "Home Insurance Replacement Cost Vs Actual Cash Value",
         "Home Insurance Umbrella Policy",
-        "Home Insurance Vs Renters Insurance",
-        "Home Insurance Water Damage Coverage"
+        "Home Insurance Vs Renters Insurance"
       ],
       "videos": [
         {
@@ -874,7 +874,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 34,
+      "articles": 36,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Break Even Refinance Analysis",
@@ -888,14 +888,14 @@
         "Fixed Vs Adjustable Rate Mortgage",
         "Home Loan Application Checklist",
         "How Much House Can I Afford",
+        "How Reverse Mortgage Works",
         "How To Get A Mortgage First Time Buyer",
         "How To Get Pre Qualified For Mortgage",
         "How To Refinance Mortgage",
         "Jumbo Loan Requirements",
         "Mortgage Approval Timeline",
         "Mortgage Closing Costs Explained",
-        "Mortgage Down Payment Options",
-        "Mortgage For Self Employed Borrowers"
+        "Mortgage Down Payment Options"
       ],
       "videos": [
         {
@@ -1013,7 +1013,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 37,
+      "articles": 39,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1028,13 +1028,13 @@
         "Finding A Therapist That Takes Insurance",
         "Grief Counseling Guide",
         "Group Therapy Benefits",
+        "How Long Does Therapy Take",
         "How Much Does Therapy Cost",
         "How To Find A Therapist",
         "How To Find The Right Therapist",
         "How To Know If Therapy Is Working",
         "Mindfulness Based Therapy",
-        "Online Therapy Vs In Person",
-        "Premarital Counseling Benefits"
+        "Online Therapy Vs In Person"
       ],
       "videos": [
         {
@@ -1140,7 +1140,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 38,
+      "articles": 40,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Dental Disease Signs",
@@ -1279,7 +1279,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 34,
+      "articles": 36,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1289,6 +1289,7 @@
         "Business Expense Categories Guide",
         "Business Liability Insurance Guide",
         "Cash Flow Management Guide",
+        "Cash Flow Statement Explained",
         "Hiring First Employee Guide",
         "Home Office Deduction Rules",
         "How To Get A Small Business Loan",
@@ -1299,8 +1300,7 @@
         "Invoicing Tips For Small Business",
         "Llc Vs Sole Proprietorship Taxes",
         "Payroll Basics Small Business",
-        "Pricing Strategy Small Business",
-        "Profit Margin Calculation Guide"
+        "Pricing Strategy Small Business"
       ],
       "videos": [
         {
@@ -1406,9 +1406,10 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 41,
+      "articles": 43,
       "article_titles": [
         "Best Keto Sweeteners",
+        "Best Protein Sources Keto",
         "Easy Keto Meals",
         "Electrolytes On Keto",
         "Foods Allowed On Keto",
@@ -1426,8 +1427,7 @@
         "Keto Diet Benefits",
         "Keto Diet Food List",
         "Keto Diet For Beginners",
-        "Keto Diet Side Effects",
-        "Keto Dinner Recipes"
+        "Keto Diet Side Effects"
       ],
       "videos": [
         {
@@ -1509,7 +1509,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 41,
+      "articles": 43,
       "article_titles": [
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
@@ -1600,7 +1600,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 41,
+      "articles": 43,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
@@ -1615,13 +1615,13 @@
         "Full Time Rv Living Guide",
         "Health Insurance Full Time Rv",
         "How Much Does Rv Life Cost",
+        "How Much Solar For Rv",
         "How To Start Rv Life",
         "Learning To Drive Rv",
         "Leveling Rv Guide",
         "Mail Forwarding Full Time Rv",
         "Motorhome Vs Travel Trailer",
-        "New Vs Used Rv Buying",
-        "Rv Buying Checklist"
+        "New Vs Used Rv Buying"
       ],
       "videos": [
         {
@@ -1703,13 +1703,14 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 49,
+      "articles": 51,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Associate Producer To Producer How To Level Up",
         "Burnout In Game Development The Year 5 Cliff",
         "Console Game Certification Process For Producers",
+        "Crunch Aftermath How To Rebuild Team Trust",
         "Crunch Is A Production Failure Not A Culture Problem",
         "Dependency Mapping In Game Development Schedules",
         "Game Producer Career Path From Associate To Executive",
@@ -1723,8 +1724,7 @@
         "How Game Engine Choice Affects Your Production Plan",
         "How To Explain Game Production To People Outside The Industry",
         "How To Give Feedback To Artists Vs Engineers Differently",
-        "How To Write A Game Production Milestone Document",
-        "Imposter Syndrome As A Game Producer"
+        "How To Run A Game Development Retrospective"
       ],
       "videos": [],
       "cloudflare": {
