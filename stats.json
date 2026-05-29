@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T20:06:32.984984+00:00",
+  "generated_at": "2026-05-29T21:22:49.110789+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-29"
@@ -9,9 +9,9 @@
     "page_views": 55589,
     "visits": 55589,
     "articles": 629,
-    "videos": 102,
-    "channels": 12,
-    "yt_views": 486,
+    "videos": 106,
+    "channels": 14,
+    "yt_views": 514,
     "sites": 15
   },
   "adsense_connected": false,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 102,
-    "credits_used": 69.36,
-    "est_remaining": 81.05,
-    "pct_remaining": 53.9,
+    "renders_since_baseline": 106,
+    "credits_used": 72.08,
+    "est_remaining": 78.33,
+    "pct_remaining": 52.1,
     "days_until_renewal": 20
   },
   "sites": [
@@ -335,18 +335,18 @@
           "standard_id": "JqWrVkcXzAs",
           "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
           "shorts_stats": {
-            "views": 16,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
-          "total_views": 16
+          "total_views": 18
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -357,7 +357,7 @@
           "standard_id": "FQTr6YXrdV8",
           "standard_url": "https://www.youtube.com/watch?v=FQTr6YXrdV8",
           "shorts_stats": {
-            "views": 10,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
@@ -368,7 +368,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
-          "total_views": 14
+          "total_views": 16
         },
         {
           "shorts_id": "n9Z1zlQ5o5U",
@@ -538,7 +538,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 89
+      "yt_total_views": 93
     },
     {
       "slug": "solar-home-planner",
@@ -580,7 +580,7 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 36,
+            "views": 37,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
@@ -591,7 +591,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 39
+          "total_views": 40
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -602,7 +602,7 @@
           "standard_id": "d36C0zXzx4I",
           "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
           "shorts_stats": {
-            "views": 97,
+            "views": 116,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
@@ -613,7 +613,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 98
+          "total_views": 117
         },
         {
           "shorts_id": "1itQXyleQF8",
@@ -761,7 +761,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 140
+      "yt_total_views": 160
     },
     {
       "slug": "injury-victim-guide",
@@ -1563,7 +1563,7 @@
           "standard_id": "ONGEDFc8iDs",
           "standard_url": "https://www.youtube.com/watch?v=ONGEDFc8iDs",
           "shorts_stats": {
-            "views": 5,
+            "views": 7,
             "likes": 0,
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
@@ -1574,7 +1574,7 @@
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
           },
-          "total_views": 5
+          "total_views": 7
         },
         {
           "shorts_id": "ythQkwSjiRo",
@@ -1585,7 +1585,7 @@
           "standard_id": "uFiGHakiqSA",
           "standard_url": "https://www.youtube.com/watch?v=uFiGHakiqSA",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
@@ -1596,7 +1596,7 @@
             "comments": 0,
             "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "smBqOQlgT3M",
@@ -1700,7 +1700,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 24
+      "yt_total_views": 27
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2314,7 +2314,30 @@
         "Chair Exercises For Seniors With Bad Knees",
         "Does Walking 30 Minutes A Day Help Seniors Lose Weight"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "shorts_id": "D87bLFUgJd8",
+          "shorts_url": "https://www.youtube.com/shorts/D87bLFUgJd8",
+          "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout",
+          "article_slug": "water-aerobics-for-seniors-benefits-and-beginner-moves",
+          "published_at": "2026-05-29T21:22:01.373445+00:00",
+          "standard_id": "7DklL5biwvk",
+          "standard_url": "https://www.youtube.com/watch?v=7DklL5biwvk",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
+          },
+          "total_views": 0
+        }
+      ],
       "cloudflare": {
         "page_views": 2854,
         "visits": 2854,
@@ -2388,7 +2411,30 @@
         "How To Install A Programmable Thermostat",
         "How To Install A Window Air Conditioner"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "shorts_id": "V4Y6Y9bF_-o",
+          "shorts_url": "https://www.youtube.com/shorts/V4Y6Y9bF_-o",
+          "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)",
+          "article_slug": "how-to-tape-and-mud-drywall-like-a-pro",
+          "published_at": "2026-05-29T21:15:25.482032+00:00",
+          "standard_id": "_8NDg2XcyrA",
+          "standard_url": "https://www.youtube.com/watch?v=_8NDg2XcyrA",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
+          },
+          "total_views": 1
+        }
+      ],
       "cloudflare": {
         "page_views": 3436,
         "visits": 3436,
@@ -2434,7 +2480,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 1
     }
   ]
 }
