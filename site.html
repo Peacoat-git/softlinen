@@ -91,10 +91,12 @@ a{color:inherit;text-decoration:none}
 <script>
 (function() {
   const KEY = 'sl_auth';
-  const PASS = 'sl2026';
-  function gateUnlock() {
+  const PASS_HASH = '444068b52d14eefad0405c60cf0623bb78069c1aa2e2d86b4105383e5e791d58';
+  async function gateUnlock() {
     const val = document.getElementById('gate-input').value;
-    if (val === PASS) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(val));
+    const hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+    if (hex === PASS_HASH) {
       localStorage.setItem(KEY, '1');
       document.getElementById('gate').style.display = 'none';
     } else {
@@ -448,3 +450,4 @@ fetch('stats.json?v=' + Date.now())
 </script>
 </body>
 </html>
+
