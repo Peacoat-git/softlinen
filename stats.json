@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-28T20:03:52.929175+00:00",
+  "generated_at": "2026-05-29T02:02:26.317464+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-28"
+    "end": "2026-05-29"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 52944,
-    "visits": 52944,
-    "articles": 518,
-    "videos": 74,
+    "page_views": 55589,
+    "visits": 55589,
+    "articles": 595,
+    "videos": 102,
     "channels": 12,
-    "yt_views": 263,
+    "yt_views": 0,
     "sites": 15
   },
-  "adsense_connected": true,
-  "youtube_connected": true,
+  "adsense_connected": false,
+  "youtube_connected": false,
   "shotstack": {
     "baseline_credits": 150.41,
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 74,
-    "credits_used": 50.32,
-    "est_remaining": 100.09,
-    "pct_remaining": 66.5,
-    "days_until_renewal": 21
+    "renders_since_baseline": 102,
+    "credits_used": 69.36,
+    "est_remaining": 81.05,
+    "pct_remaining": 53.9,
+    "days_until_renewal": 20
   },
   "sites": [
     {
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 33,
+      "articles": 38,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -44,6 +44,7 @@
         "How Does Medicare Advantage Work",
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
+        "How To Choose Medicare Part D Plan",
         "Medicare Advantage Dental Coverage",
         "Medicare Advantage Hmo Vs Ppo",
         "Medicare Advantage Out Of Pocket Maximum",
@@ -53,12 +54,47 @@
         "Medicare And Employer Insurance",
         "Medicare And Tricare",
         "Medicare Eligibility Requirements",
-        "Medicare Part A Explained",
-        "Medicare Part B Explained",
-        "Medicare Part C Explained",
-        "Medicare Part D Explained"
+        "Medicare Extra Help Program",
+        "Medicare Low Income Subsidy",
+        "Medicare Part A Explained"
       ],
       "videos": [
+        {
+          "shorts_id": "MtQGeHyLq0A",
+          "shorts_url": "https://www.youtube.com/shorts/MtQGeHyLq0A",
+          "title": "Medicare Start Dates: Why Everyone's Advice Is Wrong (The Real Rules)",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-05-29T00:56:18.985198+00:00",
+          "standard_id": "ojbzD5QGiaM",
+          "standard_url": "https://www.youtube.com/watch?v=ojbzD5QGiaM",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "shorts_id": "oclJB-svGGM",
+          "shorts_url": "https://www.youtube.com/shorts/oclJB-svGGM",
+          "title": "Medicare Start Dates: Why Everyone's Advice Is Wrong (The Real Rules)",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-05-29T00:56:14.377209+00:00",
+          "standard_id": "Pct0R3M-FwM",
+          "standard_url": "https://www.youtube.com/watch?v=Pct0R3M-FwM",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "shorts_id": "xO7WEpwxjbE",
+          "shorts_url": "https://www.youtube.com/shorts/xO7WEpwxjbE",
+          "title": "Medicare at 65: The Enrollment Mistake That Costs You Forever",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-05-28T23:58:46.895728+00:00",
+          "standard_id": "_vzywncB8Zw",
+          "standard_url": "https://www.youtube.com/watch?v=_vzywncB8Zw",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "CQMpncEu5Sc",
           "shorts_url": "https://www.youtube.com/shorts/CQMpncEu5Sc",
@@ -67,19 +103,9 @@
           "published_at": "2026-05-25T14:14:26.546982+00:00",
           "standard_id": "7e2y3fl7G5M",
           "standard_url": "https://www.youtube.com/watch?v=7e2y3fl7G5M",
-          "shorts_stats": {
-            "views": 6,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)"
-          },
-          "standard_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)"
-          },
-          "total_views": 8
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "8Joc5DNdSas",
@@ -89,18 +115,8 @@
           "published_at": "2026-05-19T15:21:56.068980+00:00",
           "standard_id": "7uI4b3-q3jw",
           "standard_url": "https://www.youtube.com/watch?v=7uI4b3-q3jw",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Timing Mistake That Costs You FOREVER (Age 65 Alert)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Timing Mistake That Costs You FOREVER (Age 65 Alert)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -111,18 +127,8 @@
           "published_at": "2026-05-19T14:37:53.686285+00:00",
           "standard_id": "7hPHBunGsa8",
           "standard_url": "https://www.youtube.com/watch?v=7hPHBunGsa8",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Start Date Mistakes That Cost You Forever (Age 65 Truth)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Start Date Mistakes That Cost You Forever (Age 65 Truth)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -133,25 +139,15 @@
           "published_at": "2026-05-19T04:31:21.852757+00:00",
           "standard_id": "NrX_Pefc5Rw",
           "standard_url": "https://www.youtube.com/watch?v=NrX_Pefc5Rw",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Start Dates: 3 Facts That Could Save You Money"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Start Dates: 3 Facts That Could Save You Money"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3237,
-        "visits": 3237,
-        "unique_visitors": 1224,
+        "page_views": 3338,
+        "visits": 3338,
+        "unique_visitors": 1313,
         "daily": [
           {
             "date": "2026-05-18",
@@ -192,6 +188,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 82
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 101
           }
         ]
       },
@@ -201,7 +201,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 8
+      "yt_total_views": 0
     },
     {
       "slug": "solar-planner-guide",
@@ -210,10 +210,11 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 31,
+      "articles": 36,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Solar Financing Options",
+        "Best Solar Panels For Home 2026",
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
         "How Long To Pay Off Solar Panels",
@@ -222,6 +223,7 @@
         "How To Finance Solar Panels With No Money Down",
         "Is Solar Lease Worth It",
         "Itc Solar Investment Tax Credit Explained",
+        "Monocrystalline Vs Polycrystalline Solar Panels",
         "Net Metering Policy By State",
         "Net Metering Savings Explained",
         "Solar Battery Storage Tax Credit",
@@ -229,11 +231,45 @@
         "Solar Incentives California 2026",
         "Solar Incentives Florida 2026",
         "Solar Incentives New York 2026",
-        "Solar Incentives Texas 2026",
-        "Solar Lease Vs Buy Cost Comparison",
-        "Solar Loan Interest Rates 2026"
+        "Solar Incentives Texas 2026"
       ],
       "videos": [
+        {
+          "shorts_id": "Xkp2j1dtURE",
+          "shorts_url": "https://www.youtube.com/shorts/Xkp2j1dtURE",
+          "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss",
+          "article_slug": "zero-down-solar-financing-options",
+          "published_at": "2026-05-29T01:01:27.646314+00:00",
+          "standard_id": "bzM9K5xc0jU",
+          "standard_url": "https://www.youtube.com/watch?v=bzM9K5xc0jU",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "shorts_id": "yHGlLIXx8sE",
+          "shorts_url": "https://www.youtube.com/shorts/yHGlLIXx8sE",
+          "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps",
+          "article_slug": "zero-down-solar-financing-options",
+          "published_at": "2026-05-29T01:01:09.495240+00:00",
+          "standard_id": "JqWrVkcXzAs",
+          "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "shorts_id": "RFIRA7UPZr0",
+          "shorts_url": "https://www.youtube.com/shorts/RFIRA7UPZr0",
+          "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You",
+          "article_slug": "zero-down-solar-financing-options",
+          "published_at": "2026-05-29T00:03:21.290385+00:00",
+          "standard_id": "FQTr6YXrdV8",
+          "standard_url": "https://www.youtube.com/watch?v=FQTr6YXrdV8",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "n9Z1zlQ5o5U",
           "shorts_url": "https://www.youtube.com/shorts/n9Z1zlQ5o5U",
@@ -242,18 +278,8 @@
           "published_at": "2026-05-25T14:02:06.079316+00:00",
           "standard_id": "ERHAdkZbQes",
           "standard_url": "https://www.youtube.com/watch?v=ERHAdkZbQes",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -264,18 +290,8 @@
           "published_at": "2026-05-22T16:24:20.777306+00:00",
           "standard_id": "ylNgCjxCF4E",
           "standard_url": "https://www.youtube.com/watch?v=ylNgCjxCF4E",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -286,18 +302,8 @@
           "published_at": "2026-05-19T15:27:05.094051+00:00",
           "standard_id": "9NK9yIDaj08",
           "standard_url": "https://www.youtube.com/watch?v=9NK9yIDaj08",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Solar Calculators Lied to This Homeowner by $600/Year"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Solar Calculators Lied to This Homeowner by $600/Year"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -308,19 +314,9 @@
           "published_at": "2026-05-19T14:43:40.509507+00:00",
           "standard_id": "kv2zAfYOxPo",
           "standard_url": "https://www.youtube.com/watch?v=kv2zAfYOxPo",
-          "shorts_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
-          },
-          "standard_stats": {
-            "views": 3,
-            "likes": 0,
-            "comments": 0,
-            "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
-          },
-          "total_views": 5
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "cqi_MqRbkHE",
@@ -330,25 +326,15 @@
           "published_at": "2026-05-19T04:34:36.661399+00:00",
           "standard_id": "2k0lMK48Jd8",
           "standard_url": "https://www.youtube.com/watch?v=2k0lMK48Jd8",
-          "shorts_stats": {
-            "views": 7,
-            "likes": 0,
-            "comments": 0,
-            "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
-          },
-          "total_views": 7
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3623,
-        "visits": 3623,
-        "unique_visitors": 1364,
+        "page_views": 3731,
+        "visits": 3731,
+        "unique_visitors": 1474,
         "daily": [
           {
             "date": "2026-05-18",
@@ -389,6 +375,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 79
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 108
           }
         ]
       },
@@ -398,7 +388,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 12
+      "yt_total_views": 0
     },
     {
       "slug": "solar-home-planner",
@@ -407,12 +397,14 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 31,
+      "articles": 36,
       "article_titles": [
+        "Best Ev Charger For Solar Home",
         "Best Roof Type For Solar Panels",
         "Can Condos Get Solar Panels",
         "Can Hoa Deny Solar Panels",
         "Can I Install Solar Panels Myself",
+        "Can Solar Power Charge An Electric Car",
         "Cheapest Way To Go Solar Diy",
         "Comparing Solar Bids What To Look For",
         "Diy Solar For Shed Or Outbuilding",
@@ -421,16 +413,38 @@
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
         "Hoa Solar Panel Rules",
+        "How Many Solar Panels To Charge Ev",
         "How To Choose A Solar Company",
         "How To Get Solar Quotes",
         "Is My Solar Installer Legit",
         "My Solar Panels Stopped Working What To Do",
-        "Off Grid Solar Diy Setup",
-        "Questions To Ask Solar Companies",
-        "Red Flags When Hiring Solar Installer",
-        "Right To Solar Law Explained"
+        "Off Grid Solar Diy Setup"
       ],
       "videos": [
+        {
+          "shorts_id": "E1LkJP2I3LI",
+          "shorts_url": "https://www.youtube.com/shorts/E1LkJP2I3LI",
+          "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)",
+          "article_slug": "welcome-to-solar-home-planner",
+          "published_at": "2026-05-29T01:06:48.228802+00:00",
+          "standard_id": "v1iO08fcPwY",
+          "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "shorts_id": "9d15hwE4rnc",
+          "shorts_url": "https://www.youtube.com/shorts/9d15hwE4rnc",
+          "title": "3 Solar Installer Secrets That Save Homeowners Thousands",
+          "article_slug": "welcome-to-solar-home-planner",
+          "published_at": "2026-05-29T00:12:00.827947+00:00",
+          "standard_id": "d36C0zXzx4I",
+          "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "1itQXyleQF8",
           "shorts_url": "https://www.youtube.com/shorts/1itQXyleQF8",
@@ -439,18 +453,8 @@
           "published_at": "2026-05-23T15:32:48.646029+00:00",
           "standard_id": "M7T_EvaalY8",
           "standard_url": "https://www.youtube.com/watch?v=M7T_EvaalY8",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Building a New Home? This Solar Mistake Costs Thousands"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Building a New Home? This Solar Mistake Costs Thousands"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -461,19 +465,9 @@
           "published_at": "2026-05-19T15:33:45.135411+00:00",
           "standard_id": "40KVpcXq1lI",
           "standard_url": "https://www.youtube.com/watch?v=40KVpcXq1lI",
-          "shorts_stats": {
-            "views": 3,
-            "likes": 0,
-            "comments": 0,
-            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
-          },
-          "total_views": 3
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "HMQkCFdnGsY",
@@ -483,18 +477,8 @@
           "published_at": "2026-05-19T14:48:58.637697+00:00",
           "standard_id": "Xn5eKZPFaxQ",
           "standard_url": "https://www.youtube.com/watch?v=Xn5eKZPFaxQ",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -505,25 +489,15 @@
           "published_at": "2026-05-19T04:37:17.787577+00:00",
           "standard_id": "d4eAv_KtX38",
           "standard_url": "https://www.youtube.com/watch?v=d4eAv_KtX38",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "5 Solar Secrets Installers Won't Tell You"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "5 Solar Secrets Installers Won't Tell You"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3957,
-        "visits": 3957,
-        "unique_visitors": 1267,
+        "page_views": 4100,
+        "visits": 4100,
+        "unique_visitors": 1364,
         "daily": [
           {
             "date": "2026-05-18",
@@ -564,6 +538,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 66
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 143
           }
         ]
       },
@@ -573,7 +551,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 3
+      "yt_total_views": 0
     },
     {
       "slug": "injury-victim-guide",
@@ -582,16 +560,17 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 36,
+      "articles": 40,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
         "Broken Bone Injury Settlement Average",
         "Car Accident Injury Claim Tips",
         "Car Accident Injury No Insurance Options",
+        "Car Accident Pain And Suffering Claim",
         "Car Accident Settlement Amounts By Injury Type",
         "Do I Have A Personal Injury Case",
-        "Do You Have A Personal Injury Case",
+        "Drunk Driver Accident Injury Lawsuit",
         "Factors That Increase Settlement Value",
         "Hit And Run Accident Injury Claim",
         "How Insurance Companies Calculate Settlements",
@@ -602,10 +581,21 @@
         "How To File Car Accident Injury Claim",
         "How To Negotiate Higher Personal Injury Settlement",
         "Lost Wages In Personal Injury Settlement",
-        "Lowball Settlement Offer What To Do",
-        "Neck Injury Settlement Car Accident"
+        "Lowball Settlement Offer What To Do"
       ],
       "videos": [
+        {
+          "shorts_id": "eQfuPugr3lo",
+          "shorts_url": "https://www.youtube.com/shorts/eQfuPugr3lo",
+          "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026",
+          "article_slug": "whiplash-settlement-value-2026",
+          "published_at": "2026-05-29T01:11:34.176215+00:00",
+          "standard_id": "aLVKb9w5Yv8",
+          "standard_url": "https://www.youtube.com/watch?v=aLVKb9w5Yv8",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "fSWk_mR_YJo",
           "shorts_url": "https://www.youtube.com/shorts/fSWk_mR_YJo",
@@ -614,18 +604,8 @@
           "published_at": "2026-05-23T15:32:21.608824+00:00",
           "standard_id": "Y7nDwhrhIKY",
           "standard_url": "https://www.youtube.com/watch?v=Y7nDwhrhIKY",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -636,18 +616,8 @@
           "published_at": "2026-05-19T15:38:11.466034+00:00",
           "standard_id": "xr70gtVSmn0",
           "standard_url": "https://www.youtube.com/watch?v=xr70gtVSmn0",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -658,18 +628,8 @@
           "published_at": "2026-05-19T14:54:11.526659+00:00",
           "standard_id": "9wb5OVP2KiU",
           "standard_url": "https://www.youtube.com/watch?v=9wb5OVP2KiU",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Auto-Denying Whiplash Claims in 2026 (Former Adjuster Explains)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Auto-Denying Whiplash Claims in 2026 (Former Adjuster Explains)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -680,25 +640,15 @@
           "published_at": "2026-05-19T04:40:40.620573+00:00",
           "standard_id": "1k93GFSbhrs",
           "standard_url": "https://www.youtube.com/watch?v=1k93GFSbhrs",
-          "shorts_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
-          },
-          "total_views": 2
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3794,
-        "visits": 3794,
-        "unique_visitors": 1297,
+        "page_views": 3983,
+        "visits": 3983,
+        "unique_visitors": 1388,
         "daily": [
           {
             "date": "2026-05-18",
@@ -739,6 +689,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 66
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 189
           }
         ]
       },
@@ -748,7 +702,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 0
     },
     {
       "slug": "home-insurance-guide",
@@ -757,7 +711,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 28,
+      "articles": 33,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
@@ -770,17 +724,29 @@
         "Home Insurance Flood Coverage",
         "Home Insurance For First Time Buyers",
         "Home Insurance For Investment Property",
+        "Home Insurance In California",
         "Home Insurance In Florida",
+        "Home Insurance In Texas",
         "Home Insurance Liability Coverage",
         "Home Insurance Quotes Comparison",
         "Home Insurance Replacement Cost Vs Actual Cash Value",
+        "Home Insurance Umbrella Policy",
         "Home Insurance Vs Renters Insurance",
-        "Homeowners Insurance After Filing A Claim",
-        "Homeowners Insurance Claim Process",
-        "Homeowners Insurance Deductible Explained",
-        "Homeowners Insurance For Older Homes"
+        "Home Insurance Water Damage Coverage"
       ],
       "videos": [
+        {
+          "shorts_id": "2vai5qhItTA",
+          "shorts_url": "https://www.youtube.com/shorts/2vai5qhItTA",
+          "title": "3 Homeowners Insurance Gaps That Cost Families Everything",
+          "article_slug": "what-does-homeowners-insurance-cover",
+          "published_at": "2026-05-29T01:14:40.231606+00:00",
+          "standard_id": "OFSZ1VlCIJk",
+          "standard_url": "https://www.youtube.com/watch?v=OFSZ1VlCIJk",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "CAtsFY4ysK0",
           "shorts_url": "https://www.youtube.com/shorts/CAtsFY4ysK0",
@@ -789,18 +755,8 @@
           "published_at": "2026-05-25T14:00:01.116508+00:00",
           "standard_id": "PkpVDiqEEtY",
           "standard_url": "https://www.youtube.com/watch?v=PkpVDiqEEtY",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -811,18 +767,8 @@
           "published_at": "2026-05-23T15:33:37.049058+00:00",
           "standard_id": "-BjkftP4EMY",
           "standard_url": "https://www.youtube.com/watch?v=-BjkftP4EMY",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Home Insurance Has a $120K Problem You Don't Know About"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Home Insurance Has a $120K Problem You Don't Know About"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -833,18 +779,8 @@
           "published_at": "2026-05-19T15:43:34.753343+00:00",
           "standard_id": "dckffxyS9GU",
           "standard_url": "https://www.youtube.com/watch?v=dckffxyS9GU",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Homeowners Insurance Gaps That Cost You Thousands"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Homeowners Insurance Gaps That Cost You Thousands"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -855,18 +791,8 @@
           "published_at": "2026-05-19T14:59:39.256289+00:00",
           "standard_id": "szEBX_p9rxg",
           "standard_url": "https://www.youtube.com/watch?v=szEBX_p9rxg",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Homeowners Insurance Gaps That Will Shock You"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Homeowners Insurance Gaps That Will Shock You"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -877,25 +803,15 @@
           "published_at": "2026-05-19T04:42:46.624147+00:00",
           "standard_id": "erDDJl1JAx4",
           "standard_url": "https://www.youtube.com/watch?v=erDDJl1JAx4",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Homeowners Insurance Secrets That Could Save You Thousands"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Homeowners Insurance Secrets That Could Save You Thousands"
-          },
-          "total_views": 1
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 4066,
-        "visits": 4066,
-        "unique_visitors": 1249,
+        "page_views": 4221,
+        "visits": 4221,
+        "unique_visitors": 1345,
         "daily": [
           {
             "date": "2026-05-18",
@@ -936,6 +852,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 103
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 155
           }
         ]
       },
@@ -945,7 +865,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 1
+      "yt_total_views": 0
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -954,9 +874,10 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 29,
+      "articles": 34,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
+        "Break Even Refinance Analysis",
         "Cash Out Refinance Explained",
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
@@ -974,10 +895,21 @@
         "Mortgage Approval Timeline",
         "Mortgage Closing Costs Explained",
         "Mortgage Down Payment Options",
-        "Mortgage For Self Employed Borrowers",
-        "Mortgage Points Explained"
+        "Mortgage For Self Employed Borrowers"
       ],
       "videos": [
+        {
+          "shorts_id": "iiUgA5cnX3k",
+          "shorts_url": "https://www.youtube.com/shorts/iiUgA5cnX3k",
+          "title": "Veterans: Stop Paying $38K You Don't Owe (VA Loan Truth)",
+          "article_slug": "va-loan-benefits-explained",
+          "published_at": "2026-05-29T01:18:00.261505+00:00",
+          "standard_id": "FOH8Q7x7mVI",
+          "standard_url": "https://www.youtube.com/watch?v=FOH8Q7x7mVI",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "LpdDGK8w_-Y",
           "shorts_url": "https://www.youtube.com/shorts/LpdDGK8w_-Y",
@@ -986,19 +918,9 @@
           "published_at": "2026-05-25T13:59:48.399782+00:00",
           "standard_id": "L5lU4xHwEEI",
           "standard_url": "https://www.youtube.com/watch?v=L5lU4xHwEEI",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make"
-          },
-          "total_views": 1
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "tMa7b8eHQK8",
@@ -1008,18 +930,8 @@
           "published_at": "2026-05-19T15:45:28.279580+00:00",
           "standard_id": "oA9wirOB6RA",
           "standard_url": "https://www.youtube.com/watch?v=oA9wirOB6RA",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -1030,25 +942,15 @@
           "published_at": "2026-05-19T04:44:38.702701+00:00",
           "standard_id": "LPUYD-6fxG4",
           "standard_url": "https://www.youtube.com/watch?v=LPUYD-6fxG4",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Paying $38K You Don't Owe"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Paying $38K You Don't Owe"
-          },
-          "total_views": 1
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3190,
-        "visits": 3190,
-        "unique_visitors": 1222,
+        "page_views": 3387,
+        "visits": 3387,
+        "unique_visitors": 1327,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1089,6 +991,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 227
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 197
           }
         ]
       },
@@ -1098,7 +1004,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 0
     },
     {
       "slug": "therapy-finder-guide",
@@ -1107,7 +1013,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 32,
+      "articles": 37,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1128,9 +1034,21 @@
         "How To Know If Therapy Is Working",
         "Mindfulness Based Therapy",
         "Online Therapy Vs In Person",
-        "Psychodynamic Therapy Vs Cbt"
+        "Premarital Counseling Benefits"
       ],
       "videos": [
+        {
+          "shorts_id": "CSzn8yIf-uk",
+          "shorts_url": "https://www.youtube.com/shorts/CSzn8yIf-uk",
+          "title": "3 Signs Your Therapist Isn't Working (And When to Stay)",
+          "article_slug": "when-to-switch-therapists",
+          "published_at": "2026-05-29T01:22:28.641655+00:00",
+          "standard_id": "EfjsyWyNIP8",
+          "standard_url": "https://www.youtube.com/watch?v=EfjsyWyNIP8",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "jJh9fA3MF88",
           "shorts_url": "https://www.youtube.com/shorts/jJh9fA3MF88",
@@ -1139,19 +1057,9 @@
           "published_at": "2026-05-19T15:49:12.008725+00:00",
           "standard_id": "L_2TqIVb_Aw",
           "standard_url": "https://www.youtube.com/watch?v=L_2TqIVb_Aw",
-          "shorts_stats": {
-            "views": 3,
-            "likes": 0,
-            "comments": 0,
-            "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
-          },
-          "total_views": 3
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "0rMyaqyipR0",
@@ -1161,25 +1069,15 @@
           "published_at": "2026-05-19T04:51:38.415845+00:00",
           "standard_id": "0oNFibmafc0",
           "standard_url": "https://www.youtube.com/watch?v=0oNFibmafc0",
-          "shorts_stats": {
-            "views": 3,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things Nobody Tells You Before Your First Therapy Session"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things Nobody Tells You Before Your First Therapy Session"
-          },
-          "total_views": 3
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3684,
-        "visits": 3684,
-        "unique_visitors": 1233,
+        "page_views": 3841,
+        "visits": 3841,
+        "unique_visitors": 1323,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1220,6 +1118,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 69
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 157
           }
         ]
       },
@@ -1229,7 +1131,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 6
+      "yt_total_views": 0
     },
     {
       "slug": "pet-doctor-guide",
@@ -1238,7 +1140,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 33,
+      "articles": 38,
       "article_titles": [
         "Cat Annual Vet Visit What To Expect",
         "Cat Dental Disease Signs",
@@ -1252,16 +1154,28 @@
         "Dog Allergies Symptoms Treatment",
         "Dog Anxiety Treatment Options",
         "Dog Arthritis Symptoms Treatment",
+        "Dog Bite Wound Care",
         "Dog Dental Health Guide",
         "Dog Diarrhea Home Remedies",
         "Dog Ear Infection Symptoms Treatment",
         "Dog Heartworm Prevention Guide",
         "Dog Limping Causes Treatment",
         "Dog Not Eating What To Do",
-        "Dog Poison Emergency Guide",
-        "Dog Teeth Cleaning Cost"
+        "Dog Poison Emergency Guide"
       ],
       "videos": [
+        {
+          "shorts_id": "NCQJLVjEERc",
+          "shorts_url": "https://www.youtube.com/shorts/NCQJLVjEERc",
+          "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-05-29T01:26:30.595628+00:00",
+          "standard_id": "ONGEDFc8iDs",
+          "standard_url": "https://www.youtube.com/watch?v=ONGEDFc8iDs",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "ythQkwSjiRo",
           "shorts_url": "https://www.youtube.com/shorts/ythQkwSjiRo",
@@ -1270,18 +1184,8 @@
           "published_at": "2026-05-25T13:55:52.350073+00:00",
           "standard_id": "uFiGHakiqSA",
           "standard_url": "https://www.youtube.com/watch?v=uFiGHakiqSA",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -1292,19 +1196,9 @@
           "published_at": "2026-05-19T15:55:45.863432+00:00",
           "standard_id": "Gde3LJgCS-M",
           "standard_url": "https://www.youtube.com/watch?v=Gde3LJgCS-M",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
-          },
-          "standard_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
-          },
-          "total_views": 2
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "d0E4Lv8yUtw",
@@ -1314,25 +1208,15 @@
           "published_at": "2026-05-19T04:54:06.762396+00:00",
           "standard_id": "eiTfwCvfVUg",
           "standard_url": "https://www.youtube.com/watch?v=eiTfwCvfVUg",
-          "shorts_stats": {
-            "views": 17,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
-          },
-          "total_views": 17
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3498,
-        "visits": 3498,
-        "unique_visitors": 1195,
+        "page_views": 3674,
+        "visits": 3674,
+        "unique_visitors": 1316,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1373,6 +1257,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 115
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 176
           }
         ]
       },
@@ -1382,7 +1270,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 19
+      "yt_total_views": 0
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1391,10 +1279,11 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 29,
+      "articles": 34,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
+        "Break Even Analysis Explained",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
@@ -1404,17 +1293,28 @@
         "Home Office Deduction Rules",
         "How To Get A Small Business Loan",
         "How To Separate Business Personal Finances",
+        "Income Statement Guide Small Business",
         "Independent Contractor Vs Employee",
         "Invoice Factoring Explained",
         "Invoicing Tips For Small Business",
         "Llc Vs Sole Proprietorship Taxes",
         "Payroll Basics Small Business",
-        "Profit Margin Calculation Guide",
-        "Quarterly Estimated Taxes Small Business",
-        "Sba Loan Requirements Guide",
-        "Separate Business Personal Finances"
+        "Pricing Strategy Small Business",
+        "Profit Margin Calculation Guide"
       ],
       "videos": [
+        {
+          "shorts_id": "5UZaBE5AQuA",
+          "shorts_url": "https://www.youtube.com/shorts/5UZaBE5AQuA",
+          "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)",
+          "article_slug": "workers-comp-insurance-small-business",
+          "published_at": "2026-05-29T01:30:48.225840+00:00",
+          "standard_id": "I3PTaAsRtWI",
+          "standard_url": "https://www.youtube.com/watch?v=I3PTaAsRtWI",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "BJscjAi71zI",
           "shorts_url": "https://www.youtube.com/shorts/BJscjAi71zI",
@@ -1423,19 +1323,9 @@
           "published_at": "2026-05-22T16:25:29.952586+00:00",
           "standard_id": "JSfY-QM6j2U",
           "standard_url": "https://www.youtube.com/watch?v=JSfY-QM6j2U",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
-          },
-          "total_views": 1
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -1445,25 +1335,15 @@
           "published_at": "2026-05-19T15:55:57.749795+00:00",
           "standard_id": "n960IDUt20s",
           "standard_url": "https://www.youtube.com/watch?v=n960IDUt20s",
-          "shorts_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "Free Business Money: 3 Grant Facts Most Owners Miss"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Free Business Money: 3 Grant Facts Most Owners Miss"
-          },
-          "total_views": 2
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3593,
-        "visits": 3593,
-        "unique_visitors": 1283,
+        "page_views": 3808,
+        "visits": 3808,
+        "unique_visitors": 1370,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1504,6 +1384,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 89
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 215
           }
         ]
       },
@@ -1513,7 +1397,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 3
+      "yt_total_views": 0
     },
     {
       "slug": "keto-living-guide",
@@ -1522,8 +1406,9 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 36,
+      "articles": 41,
       "article_titles": [
+        "Best Keto Sweeteners",
         "Easy Keto Meals",
         "Electrolytes On Keto",
         "Foods Allowed On Keto",
@@ -1542,8 +1427,7 @@
         "Keto Diet Food List",
         "Keto Diet For Beginners",
         "Keto Diet Side Effects",
-        "Keto Dinner Recipes",
-        "Keto Flu Symptoms"
+        "Keto Dinner Recipes"
       ],
       "videos": [
         {
@@ -1554,19 +1438,9 @@
           "published_at": "2026-05-23T15:33:24.608577+00:00",
           "standard_id": "5-a64bdCJX4",
           "standard_url": "https://www.youtube.com/watch?v=5-a64bdCJX4",
-          "shorts_stats": {
-            "views": 4,
-            "likes": 1,
-            "comments": 0,
-            "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)"
-          },
-          "standard_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)"
-          },
-          "total_views": 5
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "bn07gPxtajg",
@@ -1576,25 +1450,15 @@
           "published_at": "2026-05-22T16:25:28.979769+00:00",
           "standard_id": "Vvl9Sylo6zk",
           "standard_url": "https://www.youtube.com/watch?v=Vvl9Sylo6zk",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why You're ALWAYS Hungry (The Fuel Problem Nobody Talks About)"
-          },
-          "total_views": 1
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 5016,
-        "visits": 5016,
-        "unique_visitors": 989,
+        "page_views": 5278,
+        "visits": 5278,
+        "unique_visitors": 1103,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1623,6 +1487,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 108
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 262
           }
         ]
       },
@@ -1632,7 +1500,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 6
+      "yt_total_views": 0
     },
     {
       "slug": "chicken-keeper-guide",
@@ -1641,28 +1509,28 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 36,
+      "articles": 41,
       "article_titles": [
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
         "Best Egg Laying Chickens",
+        "Broody Hen Behavior",
         "Chicken Coop Bedding Options",
         "Chicken Coop Plans Free",
         "Chicken Coop Predator Protection",
         "Chicken Coop Ventilation",
         "Chicken Feed Types Explained",
+        "Chicken Health Problems",
         "Chicken Run Size Requirements",
         "Chicken Water Requirements",
+        "Chickens Not Laying In Winter",
         "Cold Hardy Chicken Breeds",
         "Dual Purpose Chicken Breeds",
         "Easter Egger Chickens",
         "Egg Production Per Year By Breed",
         "Foods Chickens Cannot Eat",
         "Friendly Chicken Breeds",
-        "Grit For Chickens",
-        "How Big Should A Chicken Coop Be",
-        "How Long Do Chickens Lay Eggs",
-        "How Many Chickens Should I Get"
+        "Grit For Chickens"
       ],
       "videos": [
         {
@@ -1673,25 +1541,15 @@
           "published_at": "2026-05-22T16:27:09.539397+00:00",
           "standard_id": "0KHqJhuwcOY",
           "standard_url": "https://www.youtube.com/watch?v=0KHqJhuwcOY",
-          "shorts_stats": {
-            "views": 141,
-            "likes": 4,
-            "comments": 0,
-            "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
-          },
-          "standard_stats": {
-            "views": 14,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
-          },
-          "total_views": 155
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3814,
-        "visits": 3814,
-        "unique_visitors": 1079,
+        "page_views": 3975,
+        "visits": 3975,
+        "unique_visitors": 1212,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1720,6 +1578,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 96
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 161
           }
         ]
       },
@@ -1729,7 +1591,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 155
+      "yt_total_views": 0
     },
     {
       "slug": "rv-life-guide",
@@ -1738,7 +1600,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 36,
+      "articles": 41,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
@@ -1747,6 +1609,7 @@
         "Best Rv For Full Time Living",
         "Best Travel Trailers Full Time",
         "Boondocking Free Camping",
+        "Boondocking Without Hookups",
         "Class A Vs Class B Vs Class C Rv",
         "Fifth Wheel Vs Travel Trailer",
         "Full Time Rv Living Guide",
@@ -1758,8 +1621,7 @@
         "Mail Forwarding Full Time Rv",
         "Motorhome Vs Travel Trailer",
         "New Vs Used Rv Buying",
-        "Rv Buying Checklist",
-        "Rv Campground Fees"
+        "Rv Buying Checklist"
       ],
       "videos": [
         {
@@ -1770,19 +1632,9 @@
           "published_at": "2026-05-23T15:33:11.236034+00:00",
           "standard_id": "_LbpAgPpbhw",
           "standard_url": "https://www.youtube.com/watch?v=_LbpAgPpbhw",
-          "shorts_stats": {
-            "views": 11,
-            "likes": 1,
-            "comments": 0,
-            "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
-          },
-          "standard_stats": {
-            "views": 4,
-            "likes": 0,
-            "comments": 0,
-            "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
-          },
-          "total_views": 15
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "0erap12E_2I",
@@ -1792,25 +1644,15 @@
           "published_at": "2026-05-22T16:24:26.947318+00:00",
           "standard_id": "o7Yq9wiFT5o",
           "standard_url": "https://www.youtube.com/watch?v=o7Yq9wiFT5o",
-          "shorts_stats": {
-            "views": 16,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
-          },
-          "standard_stats": {
-            "views": 15,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 RV Classes Explained in 60 Seconds (Don't Buy Wrong)"
-          },
-          "total_views": 31
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 3546,
-        "visits": 3546,
-        "unique_visitors": 1001,
+        "page_views": 3681,
+        "visits": 3681,
+        "unique_visitors": 1113,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1839,6 +1681,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 86
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 135
           }
         ]
       },
@@ -1848,7 +1694,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 46
+      "yt_total_views": 0
     },
     {
       "slug": "gamedevproducer",
@@ -1857,34 +1703,34 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 22,
+      "articles": 41,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Burnout In Game Development The Year 5 Cliff",
+        "Console Game Certification Process For Producers",
         "Crunch Is A Production Failure Not A Culture Problem",
+        "Dependency Mapping In Game Development Schedules",
         "Game Producer Career Path From Associate To Executive",
+        "Game Producer Interview Questions And Answers",
+        "Game Producer Salary Ranges By Studio Size And Role",
         "Game Producer Vs Film Producer Key Differences",
         "Game Producer Vs Scrum Master What Is The Difference",
         "Game Producer Vs Technical Program Manager",
+        "Gdc State Of The Industry What It Means For Producers",
         "How Game Engine Choice Affects Your Production Plan",
+        "How To Explain Game Production To People Outside The Industry",
+        "How To Give Feedback To Artists Vs Engineers Differently",
         "Imposter Syndrome As A Game Producer",
         "Kanban Vs Scrum For Game Development Which To Use",
         "Lessons From 20 Years Of Gdc Post Mortems",
-        "Managing Engineers And Artists On The Same Team",
-        "Milestone Deliverable Documents What To Include",
-        "Passion Culture In Games Is A Production Risk",
-        "Platform Certification What Producers Need To Know",
-        "Psychological Safety In Game Development Playtests",
-        "Publisher Vs Self Publishing What Changes For Producers",
-        "The Creative Director Producer Relationship Explained",
-        "What Does A Game Producer Actually Do"
+        "Live Service Game Production Vs Ship And Done Titles"
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2109,
-        "visits": 2109,
-        "unique_visitors": 1011,
+        "page_views": 2282,
+        "visits": 2282,
+        "unique_visitors": 1168,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1913,6 +1759,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 263
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 173
           }
         ]
       },
@@ -1956,9 +1806,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2675,
-        "visits": 2675,
-        "unique_visitors": 719,
+        "page_views": 2854,
+        "visits": 2854,
+        "unique_visitors": 860,
         "daily": [
           {
             "date": "2026-05-22",
@@ -1983,6 +1833,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 275
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 179
           }
         ]
       },
@@ -2001,11 +1855,10 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 45,
+      "articles": 44,
       "article_titles": [
         "How To Clean And Restore Grout",
         "How To Find A Stud In The Wall Without A Finder",
-        "How To Fix A Door That Won T Latch",
         "How To Fix A Door That Wont Latch",
         "How To Fix A Dripping Faucet Step By Step",
         "How To Fix A Kitchen Drawer That Falls Off Track",
@@ -2022,13 +1875,14 @@
         "How To Install A Kitchen Backsplash Yourself",
         "How To Install A Mailbox Post",
         "How To Install A New Shower",
-        "How To Install A Programmable Thermostat"
+        "How To Install A Programmable Thermostat",
+        "How To Install A Window Air Conditioner"
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 3142,
-        "visits": 3142,
-        "unique_visitors": 941,
+        "page_views": 3436,
+        "visits": 3436,
+        "unique_visitors": 1090,
         "daily": [
           {
             "date": "2026-05-21",
@@ -2057,6 +1911,10 @@
           {
             "date": "2026-05-27",
             "pageViews": 332
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 294
           }
         ]
       },
