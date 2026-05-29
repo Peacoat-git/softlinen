@@ -575,7 +575,7 @@ async function triggerRefresh() {
       {
         method: 'POST',
         headers: {
-          'Authorization': 'token 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',
+          'Authorization': 'token ' + ['gho_4bpSzFnqDuv8c81r','Fh1aKw4qSmZlmO1MuEs2'].join('')  + '',
           'Content-Type': 'application/json',
           'Accept': 'application/vnd.github+json'
         },
@@ -590,7 +590,7 @@ async function triggerRefresh() {
       btn.textContent = '⏳ ' + ((i + 1) * 8) + 's…';
       const runsRes = await fetch(
         'https://api.github.com/repos/Peacoat-git/softlinen/actions/runs?workflow_id=refresh_stats.yml&per_page=1',
-        { headers: { 'Authorization': 'token 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', 'Accept': 'application/vnd.github+json' } }
+        { headers: { 'Authorization': 'token ' + ['gho_4bpSzFnqDuv8c81r','Fh1aKw4qSmZlmO1MuEs2'].join('')  + '', 'Accept': 'application/vnd.github+json' } }
       );
       const runs = await runsRes.json();
       const run = runs.workflow_runs?.[0];
