@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T02:02:26.317464+00:00",
+  "generated_at": "2026-05-29T09:32:01.818539+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-29"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 55589,
     "visits": 55589,
-    "articles": 595,
+    "articles": 603,
     "videos": 102,
     "channels": 12,
     "yt_views": 0,
@@ -1703,16 +1703,18 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 41,
+      "articles": 49,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
+        "Associate Producer To Producer How To Level Up",
         "Burnout In Game Development The Year 5 Cliff",
         "Console Game Certification Process For Producers",
         "Crunch Is A Production Failure Not A Culture Problem",
         "Dependency Mapping In Game Development Schedules",
         "Game Producer Career Path From Associate To Executive",
         "Game Producer Interview Questions And Answers",
+        "Game Producer Portfolio What To Show Hiring Managers",
         "Game Producer Salary Ranges By Studio Size And Role",
         "Game Producer Vs Film Producer Key Differences",
         "Game Producer Vs Scrum Master What Is The Difference",
@@ -1721,10 +1723,8 @@
         "How Game Engine Choice Affects Your Production Plan",
         "How To Explain Game Production To People Outside The Industry",
         "How To Give Feedback To Artists Vs Engineers Differently",
-        "Imposter Syndrome As A Game Producer",
-        "Kanban Vs Scrum For Game Development Which To Use",
-        "Lessons From 20 Years Of Gdc Post Mortems",
-        "Live Service Game Production Vs Ship And Done Titles"
+        "How To Write A Game Production Milestone Document",
+        "Imposter Syndrome As A Game Producer"
       ],
       "videos": [],
       "cloudflare": {
