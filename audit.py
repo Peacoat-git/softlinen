@@ -221,8 +221,7 @@ def main():
         })
 
     # Token health (proactive: catches revocation/expiry before workflows fail)
-    print("
-  token health...")
+    print("  token health...")
     token_issues = check_tokens()
     for ti in token_issues:
         all_issues.append(f"**TOKEN**: {ti}")
