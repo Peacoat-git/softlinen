@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T15:09:34.692601+00:00",
+  "generated_at": "2026-05-30T18:40:16.173463+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-30"
@@ -11,10 +11,10 @@
     "articles": 811,
     "videos": 80,
     "channels": 14,
-    "yt_views": 687,
+    "yt_views": 710,
     "sites": 15
   },
-  "adsense_connected": false,
+  "adsense_connected": true,
   "youtube_connected": true,
   "shotstack": {
     "baseline_credits": 150.41,
@@ -295,7 +295,7 @@
           "standard_id": "bzM9K5xc0jU",
           "standard_url": "https://www.youtube.com/watch?v=bzM9K5xc0jU",
           "shorts_stats": {
-            "views": 58,
+            "views": 66,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
@@ -306,7 +306,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
-          "total_views": 58
+          "total_views": 66
         },
         {
           "shorts_id": "yHGlLIXx8sE",
@@ -339,7 +339,7 @@
           "standard_id": "FQTr6YXrdV8",
           "standard_url": "https://www.youtube.com/watch?v=FQTr6YXrdV8",
           "shorts_stats": {
-            "views": 18,
+            "views": 19,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
@@ -350,7 +350,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
-          "total_views": 23
+          "total_views": 24
         },
         {
           "shorts_id": "wgAuE-vK_hQ",
@@ -389,12 +389,12 @@
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
           },
           "standard_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
           },
-          "total_views": 5
+          "total_views": 6
         },
         {
           "shorts_id": "cqi_MqRbkHE",
@@ -480,7 +480,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 124
+      "yt_total_views": 134
     },
     {
       "slug": "solar-home-planner",
@@ -522,7 +522,7 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 71,
+            "views": 75,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
@@ -533,7 +533,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 74
+          "total_views": 78
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -544,7 +544,7 @@
           "standard_id": "d36C0zXzx4I",
           "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
           "shorts_stats": {
-            "views": 141,
+            "views": 146,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
@@ -555,7 +555,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 142
+          "total_views": 147
         }
       ],
       "cloudflare": {
@@ -619,7 +619,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 216
+      "yt_total_views": 225
     },
     {
       "slug": "injury-victim-guide",
@@ -2090,7 +2090,7 @@
           "standard_id": "7DklL5biwvk",
           "standard_url": "https://www.youtube.com/watch?v=7DklL5biwvk",
           "shorts_stats": {
-            "views": 5,
+            "views": 7,
             "likes": 0,
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
@@ -2101,7 +2101,7 @@
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
           },
-          "total_views": 6
+          "total_views": 8
         }
       ],
       "cloudflare": {
@@ -2149,7 +2149,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 6
+      "yt_total_views": 8
     },
     {
       "slug": "fixitrightway",
@@ -2191,18 +2191,18 @@
           "standard_id": "_8NDg2XcyrA",
           "standard_url": "https://www.youtube.com/watch?v=_8NDg2XcyrA",
           "shorts_stats": {
-            "views": 85,
+            "views": 86,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
           },
-          "total_views": 85
+          "total_views": 87
         }
       ],
       "cloudflare": {
@@ -2254,7 +2254,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 85
+      "yt_total_views": 87
     }
   ]
 }
