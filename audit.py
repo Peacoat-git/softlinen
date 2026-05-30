@@ -117,6 +117,53 @@ def close_health_issues():
             )
 
 
+# ── TOKEN HEALTH ───────────────────────────────────────────────
+
+def check_tokens():
+    """Validate all long-lived credentials so a revoked/expired token is flagged
+    directly (by name) BEFORE it silently breaks publishing / video / indexing."""
+    issues = []
+    # GitHub
+    try:
+        r = requests.get("https://api.github.com/user", headers=GH_HEADS, timeout=15)
+        if r.status_code != 200:
+            issues.append(f"GitHub token INVALID (HTTP {r.status_code}) - workflows + admin will fail")
+    except Exception as e:
+        issues.append(f"GitHub token check error: {e}")
+    # Google OAuth refresh tokens
+    cid  = os.environ.get("GOOGLE_CLIENT_ID", "")
+    csec = os.environ.get("GOOGLE_CLIENT_SECRET", "")
+    if cid and csec:
+        for label, key in [("Google main", "GOOGLE_REFRESH_TOKEN"),
+                           ("Search Console", "WEBMASTERS_REFRESH_TOKEN"),
+                           ("AdSense", "ADSENSE_REFRESH_TOKEN"),
+                           ("GSC Indexing", "GSC_INDEXING_TOKEN")]:
+            rt = os.environ.get(key, "")
+            if not rt:
+                continue
+            try:
+                r = requests.post("https://oauth2.googleapis.com/token", data={
+                    "client_id": cid, "client_secret": csec,
+                    "refresh_token": rt, "grant_type": "refresh_token",
+                }, timeout=15)
+                if r.status_code != 200:
+                    err = r.json().get("error", "unknown")
+                    issues.append(f"{label} OAuth token INVALID ({err}) - RE-AUTHORIZE required")
+            except Exception as e:
+                issues.append(f"{label} token check error: {e}")
+    # Cloudflare
+    cf = os.environ.get("CF_TOKEN", "") or os.environ.get("CF_PAGES_TOKEN", "")
+    if cf:
+        try:
+            r = requests.get("https://api.cloudflare.com/client/v4/user/tokens/verify",
+                             headers={"Authorization": f"Bearer {cf}"}, timeout=15)
+            if r.status_code != 200 or not r.json().get("success"):
+                issues.append("Cloudflare token INVALID - Pages deploys may fail")
+        except Exception as e:
+            issues.append(f"Cloudflare token check error: {e}")
+    return issues
+
+
 def main():
     now = datetime.now(timezone.utc)
     print(f"Portfolio health audit — {now.isoformat()}")
@@ -173,6 +220,16 @@ def main():
             "healthy":      len(site_issues) == 0,
         })
 
+    # Token health (proactive: catches revocation/expiry before workflows fail)
+    print("
+  token health...")
+    token_issues = check_tokens()
+    for ti in token_issues:
+        all_issues.append(f"**TOKEN**: {ti}")
+        print(f"    ALERT: {ti}")
+    if not token_issues:
+        print("    all tokens valid")
+
     # Write health.json
     health = {
         "generated_at": now.isoformat(),
@@ -184,6 +241,7 @@ def main():
             "video_stale_hours":   VIDEO_STALE_H,
         },
         "sites": site_health,
+        "token_issues": token_issues,
     }
     out = Path(__file__).parent / "health.json"
     out.write_text(json.dumps(health, indent=2))
