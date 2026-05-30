@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-29T21:22:49.110789+00:00",
+  "generated_at": "2026-05-30T01:56:28.789872+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-29"
+    "end": "2026-05-30"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 55589,
-    "visits": 55589,
-    "articles": 629,
+    "page_views": 58515,
+    "visits": 58515,
+    "articles": 778,
     "videos": 106,
     "channels": 14,
-    "yt_views": 514,
+    "yt_views": 654,
     "sites": 15
   },
   "adsense_connected": false,
@@ -25,7 +25,7 @@
     "credits_used": 72.08,
     "est_remaining": 78.33,
     "pct_remaining": 52.1,
-    "days_until_renewal": 20
+    "days_until_renewal": 19
   },
   "sites": [
     {
@@ -35,16 +35,19 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 40,
+      "articles": 50,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
+        "Best Medicare Part D Plans 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
+        "Comparing Medicare Part D Plans",
         "How Does Medicare Advantage Work",
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
         "How To Choose Medicare Part D Plan",
+        "Medicare 2000 Out Of Pocket Cap Drugs",
         "Medicare Advantage Dental Coverage",
         "Medicare Advantage Hmo Vs Ppo",
         "Medicare Advantage Out Of Pocket Maximum",
@@ -53,10 +56,7 @@
         "Medicare Advantage Vs Supplement Cost Comparison",
         "Medicare And Employer Insurance",
         "Medicare And Tricare",
-        "Medicare Eligibility Requirements",
-        "Medicare Extra Help Program",
-        "Medicare Low Income Subsidy",
-        "Medicare Part A Explained"
+        "Medicare Annual Enrollment Period Dates 2026"
       ],
       "videos": [
         {
@@ -215,9 +215,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3338,
-        "visits": 3338,
-        "unique_visitors": 1313,
+        "page_views": 3636,
+        "visits": 3636,
+        "unique_visitors": 1435,
         "daily": [
           {
             "date": "2026-05-18",
@@ -262,6 +262,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 101
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 298
           }
         ]
       },
@@ -280,28 +284,28 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 38,
+      "articles": 48,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
+        "Best Home Battery 2026",
         "Best Solar Financing Options",
         "Best Solar Panels For Home 2026",
+        "Enphase Iq Battery Review",
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
+        "Hoa Solar Panel Rules",
+        "Home Battery Storage Options Compared",
         "How Long Do Solar Panels Last",
         "How Long To Pay Off Solar Panels",
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
+        "How To Choose A Solar Installer",
         "How To Finance Solar Panels With No Money Down",
         "Is Solar Lease Worth It",
         "Itc Solar Investment Tax Credit Explained",
         "Monocrystalline Vs Polycrystalline Solar Panels",
         "Net Metering Policy By State",
-        "Net Metering Savings Explained",
-        "Solar Battery Storage Tax Credit",
-        "Solar Cost Vs Electricity Bill Savings",
-        "Solar Incentives California 2026",
-        "Solar Incentives Florida 2026",
-        "Solar Incentives New York 2026"
+        "Net Metering Savings Explained"
       ],
       "videos": [
         {
@@ -313,7 +317,7 @@
           "standard_id": "bzM9K5xc0jU",
           "standard_url": "https://www.youtube.com/watch?v=bzM9K5xc0jU",
           "shorts_stats": {
-            "views": 47,
+            "views": 54,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
@@ -324,7 +328,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
-          "total_views": 47
+          "total_views": 54
         },
         {
           "shorts_id": "yHGlLIXx8sE",
@@ -335,7 +339,7 @@
           "standard_id": "JqWrVkcXzAs",
           "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
           "shorts_stats": {
-            "views": 17,
+            "views": 21,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
@@ -346,7 +350,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
-          "total_views": 18
+          "total_views": 22
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -357,7 +361,7 @@
           "standard_id": "FQTr6YXrdV8",
           "standard_url": "https://www.youtube.com/watch?v=FQTr6YXrdV8",
           "shorts_stats": {
-            "views": 12,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
@@ -368,7 +372,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
-          "total_views": 16
+          "total_views": 21
         },
         {
           "shorts_id": "n9Z1zlQ5o5U",
@@ -482,9 +486,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3731,
-        "visits": 3731,
-        "unique_visitors": 1474,
+        "page_views": 3803,
+        "visits": 3803,
+        "unique_visitors": 1567,
         "daily": [
           {
             "date": "2026-05-18",
@@ -529,6 +533,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 108
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 72
           }
         ]
       },
@@ -538,7 +546,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 93
+      "yt_total_views": 109
     },
     {
       "slug": "solar-home-planner",
@@ -547,8 +555,9 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 38,
+      "articles": 48,
       "article_titles": [
+        "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
         "Best Roof Type For Solar Panels",
         "Can Condos Get Solar Panels",
@@ -562,13 +571,12 @@
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
+        "Generator Vs Solar Battery Backup",
         "Hoa Solar Panel Rules",
         "How Many Solar Panels To Charge Ev",
+        "How Much Battery Storage For Off Grid Home",
         "How To Choose A Solar Company",
-        "How To Get Solar Quotes",
-        "How To Size Solar System For Ev",
-        "Is My Solar Installer Legit",
-        "My Solar Panels Stopped Working What To Do"
+        "How To Get Solar Quotes"
       ],
       "videos": [
         {
@@ -580,7 +588,7 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 37,
+            "views": 54,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
@@ -591,7 +599,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 40
+          "total_views": 57
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -602,7 +610,7 @@
           "standard_id": "d36C0zXzx4I",
           "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
           "shorts_stats": {
-            "views": 116,
+            "views": 134,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
@@ -613,7 +621,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 117
+          "total_views": 135
         },
         {
           "shorts_id": "1itQXyleQF8",
@@ -705,9 +713,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4100,
-        "visits": 4100,
-        "unique_visitors": 1364,
+        "page_views": 4222,
+        "visits": 4222,
+        "unique_visitors": 1465,
         "daily": [
           {
             "date": "2026-05-18",
@@ -752,6 +760,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 143
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 122
           }
         ]
       },
@@ -761,7 +773,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 160
+      "yt_total_views": 195
     },
     {
       "slug": "injury-victim-guide",
@@ -770,12 +782,13 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 42,
+      "articles": 52,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
         "Broken Bone Injury Settlement Average",
         "Car Accident Injury Claim Denied What To Do",
+        "Car Accident Injury Claim Time Limit",
         "Car Accident Injury Claim Tips",
         "Car Accident Injury No Insurance Options",
         "Car Accident Pain And Suffering Claim",
@@ -790,8 +803,7 @@
         "How Much Is My Personal Injury Case Worth",
         "How Personal Injury Settlements Work",
         "How To Document Injuries After Accident",
-        "How To File Car Accident Injury Claim",
-        "How To Negotiate Higher Personal Injury Settlement"
+        "How To File Car Accident Injury Claim"
       ],
       "videos": [
         {
@@ -906,9 +918,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3983,
-        "visits": 3983,
-        "unique_visitors": 1388,
+        "page_views": 4104,
+        "visits": 4104,
+        "unique_visitors": 1471,
         "daily": [
           {
             "date": "2026-05-18",
@@ -953,6 +965,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 189
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 121
           }
         ]
       },
@@ -971,7 +987,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 35,
+      "articles": 45,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
@@ -979,20 +995,20 @@
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Coverage Limits Guide",
+        "Home Insurance Credit Score Impact",
         "Home Insurance Dwelling Coverage",
         "Home Insurance Earthquake Coverage",
+        "Home Insurance Extended Replacement Cost",
         "Home Insurance Flood Coverage",
         "Home Insurance For First Time Buyers",
         "Home Insurance For Investment Property",
+        "Home Insurance For New Construction",
         "Home Insurance In California",
         "Home Insurance In Florida",
         "Home Insurance In Texas",
         "Home Insurance Liability Coverage",
         "Home Insurance Mandatory Vs Optional Coverage",
-        "Home Insurance Quotes Comparison",
-        "Home Insurance Replacement Cost Vs Actual Cash Value",
-        "Home Insurance Umbrella Policy",
-        "Home Insurance Vs Renters Insurance"
+        "Home Insurance Ordinance Or Law Coverage"
       ],
       "videos": [
         {
@@ -1129,9 +1145,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4221,
-        "visits": 4221,
-        "unique_visitors": 1345,
+        "page_views": 4382,
+        "visits": 4382,
+        "unique_visitors": 1449,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1176,6 +1192,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 155
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 161
           }
         ]
       },
@@ -1194,11 +1214,12 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 36,
+      "articles": 46,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Break Even Refinance Analysis",
         "Cash Out Refinance Explained",
+        "Closing Disclosure Explained",
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
         "Debt To Income Ratio For Mortgage",
@@ -1206,16 +1227,15 @@
         "Fha Loan Requirements And Benefits",
         "First Time Homebuyer Programs",
         "Fixed Vs Adjustable Rate Mortgage",
+        "Heloc Vs Home Equity Loan",
+        "Home Equity Loan Rates",
         "Home Loan Application Checklist",
+        "Homeowners Insurance Mortgage Requirement",
         "How Much House Can I Afford",
         "How Reverse Mortgage Works",
         "How To Get A Mortgage First Time Buyer",
         "How To Get Pre Qualified For Mortgage",
-        "How To Refinance Mortgage",
-        "Jumbo Loan Requirements",
-        "Mortgage Approval Timeline",
-        "Mortgage Closing Costs Explained",
-        "Mortgage Down Payment Options"
+        "How To Refinance Mortgage"
       ],
       "videos": [
         {
@@ -1308,9 +1328,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3387,
-        "visits": 3387,
-        "unique_visitors": 1327,
+        "page_views": 3493,
+        "visits": 3493,
+        "unique_visitors": 1436,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1355,6 +1375,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 197
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 106
           }
         ]
       },
@@ -1373,28 +1397,28 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 39,
+      "articles": 49,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
         "Betterhelp Vs Talkspace Comparison",
         "Child Therapy Guide For Parents",
         "Cognitive Behavioral Therapy Explained",
+        "Community Mental Health Center Access",
         "Couples Therapy How It Works",
         "Dbt Therapy What Is It",
         "Does Insurance Cover Therapy",
         "Emdr Therapy Explained",
         "Family Therapy Benefits",
+        "Federally Qualified Health Center Therapy",
         "Finding A Therapist That Takes Insurance",
+        "Fsa Hsa For Therapy Costs",
         "Grief Counseling Guide",
         "Group Therapy Benefits",
         "How Long Does Therapy Take",
         "How Much Does Therapy Cost",
         "How To Find A Therapist",
-        "How To Find The Right Therapist",
-        "How To Know If Therapy Is Working",
-        "Mindfulness Based Therapy",
-        "Online Therapy Vs In Person"
+        "How To Find The Right Therapist"
       ],
       "videos": [
         {
@@ -1465,9 +1489,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3841,
-        "visits": 3841,
-        "unique_visitors": 1323,
+        "page_views": 3977,
+        "visits": 3977,
+        "unique_visitors": 1417,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1512,6 +1536,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 157
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 136
           }
         ]
       },
@@ -1530,28 +1558,28 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 40,
+      "articles": 50,
       "article_titles": [
+        "Blood Work For Dogs Explained",
         "Cat Annual Vet Visit What To Expect",
+        "Cat Annual Wellness Exam Guide",
         "Cat Dental Disease Signs",
         "Cat Hiding Behavior Explained",
         "Cat Kidney Disease Diet",
         "Cat Not Using Litter Box Causes",
         "Cat Obesity Health Risks",
+        "Cat Post Surgery Care",
         "Cat Stress Signs Causes",
         "Cat Urinary Tract Infection Signs",
         "Cat Vomiting When To Worry",
         "Dog Allergies Symptoms Treatment",
+        "Dog Annual Physical Exam Guide",
         "Dog Anxiety Treatment Options",
         "Dog Arthritis Symptoms Treatment",
         "Dog Bite Wound Care",
         "Dog Dental Health Guide",
-        "Dog Diarrhea Home Remedies",
-        "Dog Ear Infection Symptoms Treatment",
-        "Dog Heartworm Prevention Guide",
-        "Dog Limping Causes Treatment",
-        "Dog Not Eating What To Do",
-        "Dog Poison Emergency Guide"
+        "Dog Diabetes Management",
+        "Dog Diarrhea Home Remedies"
       ],
       "videos": [
         {
@@ -1563,7 +1591,7 @@
           "standard_id": "ONGEDFc8iDs",
           "standard_url": "https://www.youtube.com/watch?v=ONGEDFc8iDs",
           "shorts_stats": {
-            "views": 7,
+            "views": 10,
             "likes": 0,
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
@@ -1574,7 +1602,7 @@
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
           },
-          "total_views": 7
+          "total_views": 10
         },
         {
           "shorts_id": "ythQkwSjiRo",
@@ -1644,9 +1672,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3674,
-        "visits": 3674,
-        "unique_visitors": 1316,
+        "page_views": 3805,
+        "visits": 3805,
+        "unique_visitors": 1406,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1691,6 +1719,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 176
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 131
           }
         ]
       },
@@ -1700,7 +1732,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 27
+      "yt_total_views": 30
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1709,7 +1741,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 36,
+      "articles": 46,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1718,8 +1750,11 @@
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
         "Business Liability Insurance Guide",
+        "Business Loan Interest Rates Comparison",
+        "Business Valuation Methods",
         "Cash Flow Management Guide",
         "Cash Flow Statement Explained",
+        "Cdfi Lender Small Business",
         "Hiring First Employee Guide",
         "Home Office Deduction Rules",
         "How To Get A Small Business Loan",
@@ -1727,10 +1762,7 @@
         "Income Statement Guide Small Business",
         "Independent Contractor Vs Employee",
         "Invoice Factoring Explained",
-        "Invoicing Tips For Small Business",
-        "Llc Vs Sole Proprietorship Taxes",
-        "Payroll Basics Small Business",
-        "Pricing Strategy Small Business"
+        "Invoicing Tips For Small Business"
       ],
       "videos": [
         {
@@ -1801,9 +1833,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3808,
-        "visits": 3808,
-        "unique_visitors": 1370,
+        "page_views": 3937,
+        "visits": 3937,
+        "unique_visitors": 1478,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1848,6 +1880,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 215
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 129
           }
         ]
       },
@@ -1866,10 +1902,13 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 43,
+      "articles": 53,
       "article_titles": [
+        "20 Grams Carbs Keto",
         "Best Keto Sweeteners",
         "Best Protein Sources Keto",
+        "Cyclical Keto Diet",
+        "Dirty Keto Vs Clean Keto",
         "Easy Keto Meals",
         "Electrolytes On Keto",
         "Foods Allowed On Keto",
@@ -1879,15 +1918,12 @@
         "How To Start Keto",
         "Keto 30 Day Meal Plan",
         "Keto 7 Day Meal Plan",
+        "Keto And Cholesterol",
         "Keto And Insulin Resistance",
         "Keto Bread Recipe",
         "Keto Breakfast Ideas",
-        "Keto Chicken Recipes",
-        "Keto Dessert Recipes",
-        "Keto Diet Benefits",
-        "Keto Diet Food List",
-        "Keto Diet For Beginners",
-        "Keto Diet Side Effects"
+        "Keto Carbs Per Day Limit",
+        "Keto Chicken Recipes"
       ],
       "videos": [
         {
@@ -1936,9 +1972,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5278,
-        "visits": 5278,
-        "unique_visitors": 1103,
+        "page_views": 5481,
+        "visits": 5481,
+        "unique_visitors": 1299,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1971,6 +2007,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 262
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 203
           }
         ]
       },
@@ -1989,28 +2029,28 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 43,
+      "articles": 52,
       "article_titles": [
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
         "Best Egg Laying Chickens",
         "Broody Hen Behavior",
+        "Bumblefoot In Chickens",
         "Chicken Coop Bedding Options",
         "Chicken Coop Plans Free",
         "Chicken Coop Predator Protection",
         "Chicken Coop Ventilation",
         "Chicken Feed Types Explained",
         "Chicken Health Problems",
+        "Chicken Lice Treatment",
+        "Chicken Pecking Order",
         "Chicken Run Size Requirements",
         "Chicken Water Requirements",
         "Chickens Not Laying In Winter",
+        "Coccidiosis Chickens",
         "Cold Hardy Chicken Breeds",
         "Dual Purpose Chicken Breeds",
-        "Easter Egger Chickens",
-        "Egg Production Per Year By Breed",
-        "Foods Chickens Cannot Eat",
-        "Friendly Chicken Breeds",
-        "Grit For Chickens"
+        "Easter Egger Chickens"
       ],
       "videos": [
         {
@@ -2037,9 +2077,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3975,
-        "visits": 3975,
-        "unique_visitors": 1212,
+        "page_views": 4187,
+        "visits": 4187,
+        "unique_visitors": 1427,
         "daily": [
           {
             "date": "2026-05-21",
@@ -2072,6 +2112,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 161
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 212
           }
         ]
       },
@@ -2090,28 +2134,28 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 43,
+      "articles": 53,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
+        "Best Free Camping Apps",
         "Best Rv Brands Reliability",
+        "Best Rv Campgrounds Usa",
         "Best Rv For Full Time Living",
         "Best Travel Trailers Full Time",
+        "Blm Land Camping Rv",
         "Boondocking Free Camping",
+        "Boondocking Locations Free",
         "Boondocking Without Hookups",
         "Class A Vs Class B Vs Class C Rv",
+        "Dispersed Camping Guide",
         "Fifth Wheel Vs Travel Trailer",
         "Full Time Rv Living Guide",
+        "Harvest Hosts Membership",
         "Health Insurance Full Time Rv",
         "How Much Does Rv Life Cost",
-        "How Much Solar For Rv",
-        "How To Start Rv Life",
-        "Learning To Drive Rv",
-        "Leveling Rv Guide",
-        "Mail Forwarding Full Time Rv",
-        "Motorhome Vs Travel Trailer",
-        "New Vs Used Rv Buying"
+        "How Much Solar For Rv"
       ],
       "videos": [
         {
@@ -2160,9 +2204,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3681,
-        "visits": 3681,
-        "unique_visitors": 1113,
+        "page_views": 3955,
+        "visits": 3955,
+        "unique_visitors": 1301,
         "daily": [
           {
             "date": "2026-05-21",
@@ -2195,6 +2239,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 135
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 274
           }
         ]
       },
@@ -2213,12 +2261,13 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 51,
+      "articles": 61,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Associate Producer To Producer How To Level Up",
         "Burnout In Game Development The Year 5 Cliff",
+        "Capacity Planning For Game Development Teams",
         "Console Game Certification Process For Producers",
         "Crunch Aftermath How To Rebuild Team Trust",
         "Crunch Is A Production Failure Not A Culture Problem",
@@ -2226,21 +2275,20 @@
         "Game Producer Career Path From Associate To Executive",
         "Game Producer Interview Questions And Answers",
         "Game Producer Portfolio What To Show Hiring Managers",
+        "Game Producer Resume Tips What Hiring Managers Look For",
         "Game Producer Salary Ranges By Studio Size And Role",
+        "Game Producer Tools And Software For Project Management",
         "Game Producer Vs Film Producer Key Differences",
         "Game Producer Vs Scrum Master What Is The Difference",
         "Game Producer Vs Technical Program Manager",
-        "Gdc State Of The Industry What It Means For Producers",
-        "How Game Engine Choice Affects Your Production Plan",
-        "How To Explain Game Production To People Outside The Industry",
-        "How To Give Feedback To Artists Vs Engineers Differently",
-        "How To Run A Game Development Retrospective"
+        "Game Studio Post Mortem Process That Actually Works",
+        "Gdc State Of The Industry What It Means For Producers"
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2282,
-        "visits": 2282,
-        "unique_visitors": 1168,
+        "page_views": 2792,
+        "visits": 2792,
+        "unique_visitors": 1335,
         "daily": [
           {
             "date": "2026-05-21",
@@ -2273,6 +2321,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 173
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 510
           }
         ]
       },
@@ -2291,11 +2343,12 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 61,
+      "articles": 71,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
         "Balance Boards For Seniors Are They Safe And Worth It",
+        "Balance Exercises For Seniors To Prevent Falls",
         "Best Balance Exercises For Seniors To Prevent Falls",
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
@@ -2307,12 +2360,11 @@
         "Best Pedometer For Seniors Easy To Use",
         "Best Protein Foods For Seniors To Maintain Muscle",
         "Best Resistance Bands For Seniors Tested And Ranked",
+        "Best Strength Exercises For Seniors At Home",
         "Best Stretches For Seniors With Lower Back Pain",
         "Best Vitamins And Supplements For Seniors Over 70",
         "Best Walking Shoes For Seniors With Wide Feet 2026 Guide",
-        "Calcium Rich Foods For Seniors Non Dairy Options Too",
-        "Chair Exercises For Seniors With Bad Knees",
-        "Does Walking 30 Minutes A Day Help Seniors Lose Weight"
+        "Calcium Rich Foods For Seniors Non Dairy Options Too"
       ],
       "videos": [
         {
@@ -2324,7 +2376,7 @@
           "standard_id": "7DklL5biwvk",
           "standard_url": "https://www.youtube.com/watch?v=7DklL5biwvk",
           "shorts_stats": {
-            "views": 0,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
@@ -2335,13 +2387,13 @@
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
           },
-          "total_views": 0
+          "total_views": 2
         }
       ],
       "cloudflare": {
-        "page_views": 2854,
-        "visits": 2854,
-        "unique_visitors": 860,
+        "page_views": 3027,
+        "visits": 3027,
+        "unique_visitors": 1027,
         "daily": [
           {
             "date": "2026-05-22",
@@ -2370,6 +2422,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 179
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 173
           }
         ]
       },
@@ -2379,7 +2435,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 2
     },
     {
       "slug": "fixitrightway",
@@ -2388,28 +2444,28 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 44,
+      "articles": 54,
       "article_titles": [
+        "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
         "How To Find A Stud In The Wall Without A Finder",
         "How To Fix A Door That Wont Latch",
         "How To Fix A Dripping Faucet Step By Step",
+        "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
+        "How To Fix A Leaky Faucet",
         "How To Fix A Leaky Outdoor Faucet",
         "How To Fix A Noisy Furnace",
         "How To Fix A Refrigerator That Wont Cool",
+        "How To Fix A Running Toilet",
         "How To Fix A Sagging Ceiling",
         "How To Fix A Shower That Drips When Turned Off",
         "How To Fix A Sliding Door That Wont Slide",
+        "How To Fix A Sticking Door",
         "How To Fix A Tile That Has Come Loose",
         "How To Fix A Water Damaged Ceiling",
         "How To Fix Low Water Pressure In Your Home",
-        "How To Install A Deadbolt Lock",
-        "How To Install A Kitchen Backsplash Yourself",
-        "How To Install A Mailbox Post",
-        "How To Install A New Shower",
-        "How To Install A Programmable Thermostat",
-        "How To Install A Window Air Conditioner"
+        "How To Install A Deadbolt Lock"
       ],
       "videos": [
         {
@@ -2421,7 +2477,7 @@
           "standard_id": "_8NDg2XcyrA",
           "standard_url": "https://www.youtube.com/watch?v=_8NDg2XcyrA",
           "shorts_stats": {
-            "views": 1,
+            "views": 85,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
@@ -2432,13 +2488,13 @@
             "comments": 0,
             "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
           },
-          "total_views": 1
+          "total_views": 85
         }
       ],
       "cloudflare": {
-        "page_views": 3436,
-        "visits": 3436,
-        "unique_visitors": 1090,
+        "page_views": 3714,
+        "visits": 3714,
+        "unique_visitors": 1285,
         "daily": [
           {
             "date": "2026-05-21",
@@ -2471,6 +2527,10 @@
           {
             "date": "2026-05-28",
             "pageViews": 294
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 278
           }
         ]
       },
@@ -2480,7 +2540,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 1
+      "yt_total_views": 85
     }
   ]
 }
