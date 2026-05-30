@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T13:00:12.571413+00:00",
+  "generated_at": "2026-05-30T15:09:34.692601+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-30"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 58515,
     "visits": 58515,
-    "articles": 808,
-    "videos": 106,
+    "articles": 811,
+    "videos": 80,
     "channels": 14,
-    "yt_views": 689,
+    "yt_views": 687,
     "sites": 15
   },
   "adsense_connected": false,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 106,
-    "credits_used": 72.08,
-    "est_remaining": 78.33,
-    "pct_remaining": 52.1,
+    "renders_since_baseline": 80,
+    "credits_used": 54.4,
+    "est_remaining": 96.01,
+    "pct_remaining": 63.8,
     "days_until_renewal": 19
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 52,
+      "articles": 54,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -124,28 +124,6 @@
             "title": "Medicare at 65: The Enrollment Mistake That Costs You Forever"
           },
           "total_views": 6
-        },
-        {
-          "shorts_id": "CQMpncEu5Sc",
-          "shorts_url": "https://www.youtube.com/shorts/CQMpncEu5Sc",
-          "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)",
-          "article_slug": "what-does-medicare-cover",
-          "published_at": "2026-05-25T14:14:26.546982+00:00",
-          "standard_id": "7e2y3fl7G5M",
-          "standard_url": "https://www.youtube.com/watch?v=7e2y3fl7G5M",
-          "shorts_stats": {
-            "views": 6,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)"
-          },
-          "standard_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "Medicare Parts A & B Explained in 60 Seconds (What You Actually Get)"
-          },
-          "total_views": 8
         },
         {
           "shorts_id": "8Joc5DNdSas",
@@ -275,7 +253,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 14
+      "yt_total_views": 6
     },
     {
       "slug": "solar-planner-guide",
@@ -317,7 +295,7 @@
           "standard_id": "bzM9K5xc0jU",
           "standard_url": "https://www.youtube.com/watch?v=bzM9K5xc0jU",
           "shorts_stats": {
-            "views": 55,
+            "views": 58,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
@@ -328,7 +306,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
-          "total_views": 55
+          "total_views": 58
         },
         {
           "shorts_id": "yHGlLIXx8sE",
@@ -339,7 +317,7 @@
           "standard_id": "JqWrVkcXzAs",
           "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
           "shorts_stats": {
-            "views": 26,
+            "views": 30,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
@@ -350,7 +328,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
-          "total_views": 27
+          "total_views": 31
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -373,50 +351,6 @@
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
           "total_views": 23
-        },
-        {
-          "shorts_id": "n9Z1zlQ5o5U",
-          "shorts_url": "https://www.youtube.com/shorts/n9Z1zlQ5o5U",
-          "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make",
-          "article_slug": "solar-tax-credit-how-to-claim",
-          "published_at": "2026-05-25T14:02:06.079316+00:00",
-          "standard_id": "ERHAdkZbQes",
-          "standard_url": "https://www.youtube.com/watch?v=ERHAdkZbQes",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "$7,840 Solar Tax Credit Mistake 90% of Homeowners Make"
-          },
-          "total_views": 0
-        },
-        {
-          "shorts_id": "TvB77yqLipk",
-          "shorts_url": "https://www.youtube.com/shorts/TvB77yqLipk",
-          "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels",
-          "article_slug": "state-solar-incentives-by-state",
-          "published_at": "2026-05-22T16:24:20.777306+00:00",
-          "standard_id": "ylNgCjxCF4E",
-          "standard_url": "https://www.youtube.com/watch?v=ylNgCjxCF4E",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why Your Neighbor Paid $18K Less for the Same Solar Panels"
-          },
-          "total_views": 0
         },
         {
           "shorts_id": "wgAuE-vK_hQ",
@@ -546,7 +480,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 117
+      "yt_total_views": 124
     },
     {
       "slug": "solar-home-planner",
@@ -588,7 +522,7 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 66,
+            "views": 71,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
@@ -599,7 +533,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 69
+          "total_views": 74
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -622,94 +556,6 @@
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
           "total_views": 142
-        },
-        {
-          "shorts_id": "1itQXyleQF8",
-          "shorts_url": "https://www.youtube.com/shorts/1itQXyleQF8",
-          "title": "Building a New Home? This Solar Mistake Costs Thousands",
-          "article_slug": "solar-panels-for-new-construction-homes",
-          "published_at": "2026-05-23T15:32:48.646029+00:00",
-          "standard_id": "M7T_EvaalY8",
-          "standard_url": "https://www.youtube.com/watch?v=M7T_EvaalY8",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Building a New Home? This Solar Mistake Costs Thousands"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Building a New Home? This Solar Mistake Costs Thousands"
-          },
-          "total_views": 0
-        },
-        {
-          "shorts_id": "zS9JVW74hHQ",
-          "shorts_url": "https://www.youtube.com/shorts/zS9JVW74hHQ",
-          "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)",
-          "article_slug": "welcome-to-solar-home-planner",
-          "published_at": "2026-05-19T15:33:45.135411+00:00",
-          "standard_id": "40KVpcXq1lI",
-          "standard_url": "https://www.youtube.com/watch?v=40KVpcXq1lI",
-          "shorts_stats": {
-            "views": 3,
-            "likes": 0,
-            "comments": 0,
-            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
-          },
-          "total_views": 3
-        },
-        {
-          "shorts_id": "HMQkCFdnGsY",
-          "shorts_url": "https://www.youtube.com/shorts/HMQkCFdnGsY",
-          "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)",
-          "article_slug": "welcome-to-solar-home-planner",
-          "published_at": "2026-05-19T14:48:58.637697+00:00",
-          "standard_id": "Xn5eKZPFaxQ",
-          "standard_url": "https://www.youtube.com/watch?v=Xn5eKZPFaxQ",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
-          },
-          "total_views": 0
-        },
-        {
-          "shorts_id": "4aG3FW9yE2E",
-          "shorts_url": "https://www.youtube.com/shorts/4aG3FW9yE2E",
-          "title": "5 Solar Secrets Installers Won't Tell You",
-          "article_slug": "welcome-to-solar-home-planner",
-          "published_at": "2026-05-19T04:37:17.787577+00:00",
-          "standard_id": "d4eAv_KtX38",
-          "standard_url": "https://www.youtube.com/watch?v=d4eAv_KtX38",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "5 Solar Secrets Installers Won't Tell You"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "5 Solar Secrets Installers Won't Tell You"
-          },
-          "total_views": 0
         }
       ],
       "cloudflare": {
@@ -773,7 +619,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 214
+      "yt_total_views": 216
     },
     {
       "slug": "injury-victim-guide",
@@ -827,28 +673,6 @@
             "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026"
           },
           "total_views": 1
-        },
-        {
-          "shorts_id": "fSWk_mR_YJo",
-          "shorts_url": "https://www.youtube.com/shorts/fSWk_mR_YJo",
-          "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)",
-          "article_slug": "what-to-do-immediately-after-an-accident",
-          "published_at": "2026-05-23T15:32:21.608824+00:00",
-          "standard_id": "Y7nDwhrhIKY",
-          "standard_url": "https://www.youtube.com/watch?v=Y7nDwhrhIKY",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "12 Years in Insurance Exposed This Accident Mistake (Don't Do This)"
-          },
-          "total_views": 0
         },
         {
           "shorts_id": "FKqK8rFQZqc",
@@ -987,7 +811,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 47,
+      "articles": 48,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
@@ -1030,50 +854,6 @@
             "likes": 0,
             "comments": 0,
             "title": "3 Homeowners Insurance Gaps That Cost Families Everything"
-          },
-          "total_views": 0
-        },
-        {
-          "shorts_id": "CAtsFY4ysK0",
-          "shorts_url": "https://www.youtube.com/shorts/CAtsFY4ysK0",
-          "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)",
-          "article_slug": "homeowners-insurance-for-older-homes",
-          "published_at": "2026-05-25T14:00:01.116508+00:00",
-          "standard_id": "PkpVDiqEEtY",
-          "standard_url": "https://www.youtube.com/watch?v=PkpVDiqEEtY",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Hidden Insurance Trap Hitting Older Homes (Don't Learn This Too Late)"
-          },
-          "total_views": 0
-        },
-        {
-          "shorts_id": "mKfXpnnK-Cg",
-          "shorts_url": "https://www.youtube.com/shorts/mKfXpnnK-Cg",
-          "title": "Your Home Insurance Has a $120K Problem You Don't Know About",
-          "article_slug": "how-much-home-insurance-do-you-need",
-          "published_at": "2026-05-23T15:33:37.049058+00:00",
-          "standard_id": "-BjkftP4EMY",
-          "standard_url": "https://www.youtube.com/watch?v=-BjkftP4EMY",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Home Insurance Has a $120K Problem You Don't Know About"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Home Insurance Has a $120K Problem You Don't Know About"
           },
           "total_views": 0
         },
@@ -1261,28 +1041,6 @@
           "total_views": 0
         },
         {
-          "shorts_id": "LpdDGK8w_-Y",
-          "shorts_url": "https://www.youtube.com/shorts/LpdDGK8w_-Y",
-          "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make",
-          "article_slug": "mortgage-rate-lock-explained",
-          "published_at": "2026-05-25T13:59:48.399782+00:00",
-          "standard_id": "L5lU4xHwEEI",
-          "standard_url": "https://www.youtube.com/watch?v=L5lU4xHwEEI",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Rate Locks: The $180/Month Mistake Most Borrowers Make"
-          },
-          "total_views": 1
-        },
-        {
           "shorts_id": "tMa7b8eHQK8",
           "shorts_url": "https://www.youtube.com/shorts/tMa7b8eHQK8",
           "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase",
@@ -1388,7 +1146,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 1
     },
     {
       "slug": "therapy-finder-guide",
@@ -1605,28 +1363,6 @@
           "total_views": 10
         },
         {
-          "shorts_id": "ythQkwSjiRo",
-          "shorts_url": "https://www.youtube.com/shorts/ythQkwSjiRo",
-          "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)",
-          "article_slug": "senior-dog-care-guide",
-          "published_at": "2026-05-25T13:55:52.350073+00:00",
-          "standard_id": "uFiGHakiqSA",
-          "standard_url": "https://www.youtube.com/watch?v=uFiGHakiqSA",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Your Senior Dog Is Declining and You Can't See It (Age 7+)"
-          },
-          "total_views": 1
-        },
-        {
           "shorts_id": "smBqOQlgT3M",
           "shorts_url": "https://www.youtube.com/shorts/smBqOQlgT3M",
           "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health",
@@ -1732,7 +1468,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 30
+      "yt_total_views": 29
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1786,28 +1522,6 @@
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
           },
           "total_views": 0
-        },
-        {
-          "shorts_id": "BJscjAi71zI",
-          "shorts_url": "https://www.youtube.com/shorts/BJscjAi71zI",
-          "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year",
-          "article_slug": "vehicle-deduction-small-business",
-          "published_at": "2026-05-22T16:25:29.952586+00:00",
-          "standard_id": "JSfY-QM6j2U",
-          "standard_url": "https://www.youtube.com/watch?v=JSfY-QM6j2U",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "The Vehicle Deduction Mistake Costing You Thousands Every Year"
-          },
-          "total_views": 1
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -1893,7 +1607,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 3
+      "yt_total_views": 2
     },
     {
       "slug": "keto-living-guide",
