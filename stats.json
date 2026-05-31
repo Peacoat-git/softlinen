@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T08:33:13.751252+00:00",
+  "generated_at": "2026-05-31T13:10:21.841336+00:00",
   "period": {
     "start": "2026-05-01",
     "end": "2026-05-31"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 61501,
     "visits": 61501,
-    "articles": 814,
+    "articles": 844,
     "videos": 80,
     "channels": 14,
-    "yt_views": 774,
+    "yt_views": 798,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -48,6 +48,7 @@
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
         "How To Choose Medicare Part D Plan",
+        "How To File Car Accident Injury Claim",
         "Medicare 2000 Out Of Pocket Cap Drugs",
         "Medicare Advantage Dental Coverage",
         "Medicare Advantage Hmo Vs Ppo",
@@ -55,8 +56,7 @@
         "Medicare Advantage Pros And Cons",
         "Medicare Advantage Vs Original Medicare",
         "Medicare Advantage Vs Supplement Cost Comparison",
-        "Medicare And Employer Insurance",
-        "Medicare And Tricare"
+        "Medicare And Employer Insurance"
       ],
       "videos": [
         {
@@ -266,12 +266,13 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 51,
+      "articles": 53,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
         "Best Solar Financing Options",
         "Best Solar Panels For Home 2026",
+        "Energy Independence With Solar And Battery",
         "Enphase Iq Battery Review",
         "Ev Charging And Solar Panels Home",
         "Federal Solar Tax Credit 2026",
@@ -286,8 +287,7 @@
         "How To Finance Solar Panels With No Money Down",
         "Is Solar Lease Worth It",
         "Itc Solar Investment Tax Credit Explained",
-        "Monocrystalline Vs Polycrystalline Solar Panels",
-        "Net Metering Policy By State"
+        "Monocrystalline Vs Polycrystalline Solar Panels"
       ],
       "videos": [
         {
@@ -299,7 +299,7 @@
           "standard_id": "bzM9K5xc0jU",
           "standard_url": "https://www.youtube.com/watch?v=bzM9K5xc0jU",
           "shorts_stats": {
-            "views": 70,
+            "views": 74,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
@@ -310,7 +310,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
-          "total_views": 72
+          "total_views": 76
         },
         {
           "shorts_id": "yHGlLIXx8sE",
@@ -321,7 +321,7 @@
           "standard_id": "JqWrVkcXzAs",
           "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
           "shorts_stats": {
-            "views": 38,
+            "views": 40,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
@@ -332,7 +332,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
-          "total_views": 39
+          "total_views": 41
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -343,18 +343,18 @@
           "standard_id": "FQTr6YXrdV8",
           "standard_url": "https://www.youtube.com/watch?v=FQTr6YXrdV8",
           "shorts_stats": {
-            "views": 25,
+            "views": 27,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
           "standard_stats": {
-            "views": 5,
+            "views": 6,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
-          "total_views": 30
+          "total_views": 33
         },
         {
           "shorts_id": "wgAuE-vK_hQ",
@@ -488,7 +488,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 154
+      "yt_total_views": 163
     },
     {
       "slug": "solar-home-planner",
@@ -497,7 +497,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 51,
+      "articles": 53,
       "article_titles": [
         "Back Injury Settlement Amounts Car Accident",
         "Best Batteries For Off Grid Solar",
@@ -530,7 +530,7 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 86,
+            "views": 98,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
@@ -541,7 +541,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 90
+          "total_views": 102
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -552,7 +552,7 @@
           "standard_id": "d36C0zXzx4I",
           "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
           "shorts_stats": {
-            "views": 156,
+            "views": 159,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
@@ -563,7 +563,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 157
+          "total_views": 160
         }
       ],
       "cloudflare": {
@@ -631,7 +631,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 247
+      "yt_total_views": 262
     },
     {
       "slug": "injury-victim-guide",
@@ -640,7 +640,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -661,7 +661,7 @@
         "How Much Is My Personal Injury Case Worth",
         "How Personal Injury Settlements Work",
         "How To Document Injuries After Accident",
-        "How To File Car Accident Injury Claim"
+        "How To Dump Rv Black Water Tank Safely"
       ],
       "videos": [
         {
@@ -827,11 +827,12 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 48,
+      "articles": 50,
       "article_titles": [
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
         "Does Home Insurance Cover Roof Damage",
+        "Does Homeowners Insurance Cover Water Damage",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Coverage Limits Guide",
@@ -847,8 +848,7 @@
         "Home Insurance In Florida",
         "Home Insurance In Texas",
         "Home Insurance Liability Coverage",
-        "Home Insurance Mandatory Vs Optional Coverage",
-        "Home Insurance Ordinance Or Law Coverage"
+        "Home Insurance Mandatory Vs Optional Coverage"
       ],
       "videos": [
         {
@@ -1014,7 +1014,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 48,
+      "articles": 50,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Break Even Refinance Analysis",
@@ -1179,7 +1179,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 51,
+      "articles": 53,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1199,8 +1199,8 @@
         "Group Therapy Benefits",
         "How Long Does Therapy Take",
         "How Much Does Personal Injury Lawyer Cost",
-        "How Much Does Therapy Cost",
-        "How To Find A Therapist"
+        "How Much Does Therapy Cost Without Insurance",
+        "How Much Does Therapy Cost"
       ],
       "videos": [
         {
@@ -1344,8 +1344,9 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 52,
+      "articles": 54,
       "article_titles": [
+        "Back Injury Settlement Amounts Car Accident",
         "Blood Work For Dogs Explained",
         "Cat Annual Vet Visit What To Expect",
         "Cat Annual Wellness Exam Guide",
@@ -1364,8 +1365,7 @@
         "Dog Arthritis Symptoms Treatment",
         "Dog Bite Wound Care",
         "Dog Dental Health Guide",
-        "Dog Diabetes Management",
-        "Dog Diarrhea Home Remedies"
+        "Dog Diabetes Management"
       ],
       "videos": [
         {
@@ -1509,7 +1509,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 48,
+      "articles": 50,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1652,9 +1652,10 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "20 Grams Carbs Keto",
+        "Best Keto Snacks To Buy At The Grocery Store",
         "Best Keto Sweeteners",
         "Best Protein Sources Keto",
         "Cyclical Keto Diet",
@@ -1666,14 +1667,13 @@
         "How Fast Keto Weight Loss",
         "How Long To Enter Ketosis",
         "How To Break A Keto Weight Loss Plateau",
+        "How To Meal Prep Keto Lunches For The Week",
         "How To Start Keto",
         "Keto 30 Day Meal Plan",
         "Keto 7 Day Meal Plan",
         "Keto And Cholesterol",
         "Keto And Insulin Resistance",
-        "Keto Bread Recipe",
-        "Keto Breakfast Ideas",
-        "Keto Carbs Per Day Limit"
+        "Keto Bread Recipe"
       ],
       "videos": [
         {
@@ -1783,7 +1783,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
@@ -1804,7 +1804,7 @@
         "Chickens Not Laying In Winter",
         "Coccidiosis Chickens",
         "Cold Hardy Chicken Breeds",
-        "Dual Purpose Chicken Breeds"
+        "Do I Have A Personal Injury Case"
       ],
       "videos": [
         {
@@ -1892,9 +1892,10 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 55,
+      "articles": 57,
       "article_titles": [
         "Backing Up Rv Guide",
+        "Bad Faith Insurance Claim Explained",
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
@@ -1912,8 +1913,7 @@
         "Full Time Rv Living Guide",
         "Harvest Hosts Membership",
         "Health Insurance Full Time Rv",
-        "How Much Does Rv Life Cost",
-        "How Much Is My Personal Injury Case Worth"
+        "How Much Does Rv Life Cost"
       ],
       "videos": [
         {
@@ -2023,7 +2023,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -2109,7 +2109,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 73,
+      "articles": 75,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2214,7 +2214,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "Car Accident Settlement Amounts By Injury Type",
         "How To Caulk A Bathtub Like A Pro",
