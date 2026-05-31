@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-30T18:57:16.284124+00:00",
+  "generated_at": "2026-05-31T02:11:27.176851+00:00",
   "period": {
     "start": "2026-05-01",
-    "end": "2026-05-30"
+    "end": "2026-05-31"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 58515,
-    "visits": 58515,
+    "page_views": 61501,
+    "visits": 61501,
     "articles": 811,
     "videos": 80,
     "channels": 14,
-    "yt_views": 715,
+    "yt_views": 754,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 54.4,
     "est_remaining": 96.01,
     "pct_remaining": 63.8,
-    "days_until_renewal": 19
+    "days_until_renewal": 18
   },
   "sites": [
     {
@@ -112,18 +112,18 @@
           "standard_id": "_vzywncB8Zw",
           "standard_url": "https://www.youtube.com/watch?v=_vzywncB8Zw",
           "shorts_stats": {
-            "views": 0,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Medicare at 65: The Enrollment Mistake That Costs You Forever"
           },
           "standard_stats": {
-            "views": 6,
+            "views": 7,
             "likes": 0,
             "comments": 0,
             "title": "Medicare at 65: The Enrollment Mistake That Costs You Forever"
           },
-          "total_views": 6
+          "total_views": 10
         },
         {
           "shorts_id": "8Joc5DNdSas",
@@ -193,9 +193,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3636,
-        "visits": 3636,
-        "unique_visitors": 1435,
+        "page_views": 3743,
+        "visits": 3743,
+        "unique_visitors": 1547,
         "daily": [
           {
             "date": "2026-05-18",
@@ -244,6 +244,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 298
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 107
           }
         ]
       },
@@ -253,7 +257,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 6
+      "yt_total_views": 10
     },
     {
       "slug": "solar-planner-guide",
@@ -295,18 +299,18 @@
           "standard_id": "bzM9K5xc0jU",
           "standard_url": "https://www.youtube.com/watch?v=bzM9K5xc0jU",
           "shorts_stats": {
-            "views": 66,
+            "views": 69,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
-          "total_views": 66
+          "total_views": 71
         },
         {
           "shorts_id": "yHGlLIXx8sE",
@@ -317,7 +321,7 @@
           "standard_id": "JqWrVkcXzAs",
           "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
           "shorts_stats": {
-            "views": 34,
+            "views": 37,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
@@ -328,7 +332,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
-          "total_views": 35
+          "total_views": 38
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -339,7 +343,7 @@
           "standard_id": "FQTr6YXrdV8",
           "standard_url": "https://www.youtube.com/watch?v=FQTr6YXrdV8",
           "shorts_stats": {
-            "views": 20,
+            "views": 23,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
@@ -350,7 +354,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
-          "total_views": 25
+          "total_views": 28
         },
         {
           "shorts_id": "wgAuE-vK_hQ",
@@ -420,9 +424,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3803,
-        "visits": 3803,
-        "unique_visitors": 1567,
+        "page_views": 4110,
+        "visits": 4110,
+        "unique_visitors": 1684,
         "daily": [
           {
             "date": "2026-05-18",
@@ -471,6 +475,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 72
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 307
           }
         ]
       },
@@ -480,7 +488,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 139
+      "yt_total_views": 150
     },
     {
       "slug": "solar-home-planner",
@@ -522,18 +530,18 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 75,
+            "views": 84,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
           "standard_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 78
+          "total_views": 88
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -544,7 +552,7 @@
           "standard_id": "d36C0zXzx4I",
           "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
           "shorts_stats": {
-            "views": 146,
+            "views": 152,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
@@ -555,13 +563,13 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 147
+          "total_views": 153
         }
       ],
       "cloudflare": {
-        "page_views": 4222,
-        "visits": 4222,
-        "unique_visitors": 1465,
+        "page_views": 4354,
+        "visits": 4354,
+        "unique_visitors": 1577,
         "daily": [
           {
             "date": "2026-05-18",
@@ -610,6 +618,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 122
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 132
           }
         ]
       },
@@ -619,7 +631,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 225
+      "yt_total_views": 241
     },
     {
       "slug": "injury-victim-guide",
@@ -742,9 +754,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4104,
-        "visits": 4104,
-        "unique_visitors": 1471,
+        "page_views": 4204,
+        "visits": 4204,
+        "unique_visitors": 1554,
         "daily": [
           {
             "date": "2026-05-18",
@@ -793,6 +805,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 121
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 100
           }
         ]
       },
@@ -925,9 +941,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4382,
-        "visits": 4382,
-        "unique_visitors": 1449,
+        "page_views": 4545,
+        "visits": 4545,
+        "unique_visitors": 1559,
         "daily": [
           {
             "date": "2026-05-18",
@@ -976,6 +992,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 161
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 163
           }
         ]
       },
@@ -1086,9 +1106,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3493,
-        "visits": 3493,
-        "unique_visitors": 1436,
+        "page_views": 3677,
+        "visits": 3677,
+        "unique_visitors": 1518,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1137,6 +1157,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 106
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 184
           }
         ]
       },
@@ -1247,9 +1271,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3977,
-        "visits": 3977,
-        "unique_visitors": 1417,
+        "page_views": 4119,
+        "visits": 4119,
+        "unique_visitors": 1500,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1298,6 +1322,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 136
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 142
           }
         ]
       },
@@ -1408,9 +1436,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3805,
-        "visits": 3805,
-        "unique_visitors": 1406,
+        "page_views": 4028,
+        "visits": 4028,
+        "unique_visitors": 1539,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1459,6 +1487,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 131
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 223
           }
         ]
       },
@@ -1510,7 +1542,7 @@
           "standard_id": "I3PTaAsRtWI",
           "standard_url": "https://www.youtube.com/watch?v=I3PTaAsRtWI",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
@@ -1521,7 +1553,7 @@
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -1547,9 +1579,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3937,
-        "visits": 3937,
-        "unique_visitors": 1478,
+        "page_views": 4085,
+        "visits": 4085,
+        "unique_visitors": 1583,
         "daily": [
           {
             "date": "2026-05-18",
@@ -1598,6 +1630,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 129
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 148
           }
         ]
       },
@@ -1607,7 +1643,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 3
     },
     {
       "slug": "keto-living-guide",
@@ -1686,9 +1722,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5481,
-        "visits": 5481,
-        "unique_visitors": 1299,
+        "page_views": 5804,
+        "visits": 5804,
+        "unique_visitors": 1423,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1725,6 +1761,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 203
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 323
           }
         ]
       },
@@ -1791,9 +1831,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4187,
-        "visits": 4187,
-        "unique_visitors": 1427,
+        "page_views": 4408,
+        "visits": 4408,
+        "unique_visitors": 1592,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1830,6 +1870,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 212
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 221
           }
         ]
       },
@@ -1918,9 +1962,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3955,
-        "visits": 3955,
-        "unique_visitors": 1301,
+        "page_views": 4150,
+        "visits": 4150,
+        "unique_visitors": 1440,
         "daily": [
           {
             "date": "2026-05-21",
@@ -1957,6 +2001,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 274
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 195
           }
         ]
       },
@@ -2000,9 +2048,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2792,
-        "visits": 2792,
-        "unique_visitors": 1335,
+        "page_views": 2941,
+        "visits": 2941,
+        "unique_visitors": 1438,
         "daily": [
           {
             "date": "2026-05-21",
@@ -2039,6 +2087,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 510
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 149
           }
         ]
       },
@@ -2090,7 +2142,7 @@
           "standard_id": "7DklL5biwvk",
           "standard_url": "https://www.youtube.com/watch?v=7DklL5biwvk",
           "shorts_stats": {
-            "views": 7,
+            "views": 14,
             "likes": 0,
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
@@ -2101,13 +2153,13 @@
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
           },
-          "total_views": 8
+          "total_views": 15
         }
       ],
       "cloudflare": {
-        "page_views": 3027,
-        "visits": 3027,
-        "unique_visitors": 1027,
+        "page_views": 3384,
+        "visits": 3384,
+        "unique_visitors": 1229,
         "daily": [
           {
             "date": "2026-05-22",
@@ -2140,6 +2192,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 173
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 357
           }
         ]
       },
@@ -2149,7 +2205,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 8
+      "yt_total_views": 15
     },
     {
       "slug": "fixitrightway",
@@ -2206,9 +2262,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3714,
-        "visits": 3714,
-        "unique_visitors": 1285,
+        "page_views": 3949,
+        "visits": 3949,
+        "unique_visitors": 1444,
         "daily": [
           {
             "date": "2026-05-21",
@@ -2245,6 +2301,10 @@
           {
             "date": "2026-05-29",
             "pageViews": 278
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 235
           }
         ]
       },
