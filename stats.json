@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-31T19:00:25.788166+00:00",
+  "generated_at": "2026-06-01T02:33:23.074682+00:00",
   "period": {
-    "start": "2026-05-01",
-    "end": "2026-05-31"
+    "start": "2026-06-01",
+    "end": "2026-06-01"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 61501,
-    "visits": 61501,
+    "page_views": 0,
+    "visits": 0,
     "articles": 844,
     "videos": 80,
     "channels": 14,
-    "yt_views": 863,
+    "yt_views": 892,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 54.4,
     "est_remaining": 96.01,
     "pct_remaining": 63.8,
-    "days_until_renewal": 18
+    "days_until_renewal": 17
   },
   "sites": [
     {
@@ -193,63 +193,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3743,
-        "visits": 3743,
-        "unique_visitors": 1547,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 287
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 711
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 587
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 481
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 660
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 112
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 105
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 124
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 88
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 82
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 101
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 298
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 107
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -299,7 +246,7 @@
           "standard_id": "bzM9K5xc0jU",
           "standard_url": "https://www.youtube.com/watch?v=bzM9K5xc0jU",
           "shorts_stats": {
-            "views": 81,
+            "views": 83,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
@@ -310,7 +257,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
-          "total_views": 83
+          "total_views": 85
         },
         {
           "shorts_id": "yHGlLIXx8sE",
@@ -321,7 +268,7 @@
           "standard_id": "JqWrVkcXzAs",
           "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
           "shorts_stats": {
-            "views": 47,
+            "views": 48,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
@@ -332,7 +279,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
-          "total_views": 48
+          "total_views": 49
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -424,63 +371,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4110,
-        "visits": 4110,
-        "unique_visitors": 1684,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 642
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 1002
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 636
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 427
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 324
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 98
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 93
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 150
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 172
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 79
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 108
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 72
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 307
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -488,7 +382,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 177
+      "yt_total_views": 180
     },
     {
       "slug": "solar-home-planner",
@@ -530,7 +424,7 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 116,
+            "views": 124,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
@@ -541,7 +435,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 122
+          "total_views": 130
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -552,7 +446,7 @@
           "standard_id": "d36C0zXzx4I",
           "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
           "shorts_stats": {
-            "views": 185,
+            "views": 196,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
@@ -563,67 +457,14 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 186
+          "total_views": 197
         }
       ],
       "cloudflare": {
-        "page_views": 4354,
-        "visits": 4354,
-        "unique_visitors": 1577,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 618
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 758
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 634
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 418
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 757
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 283
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 81
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 193
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 149
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 66
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 143
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 122
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 132
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -631,7 +472,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 308
+      "yt_total_views": 327
     },
     {
       "slug": "injury-victim-guide",
@@ -754,63 +595,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4204,
-        "visits": 4204,
-        "unique_visitors": 1554,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 939
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 931
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 639
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 392
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 422
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 57
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 116
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 98
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 134
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 66
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 189
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 121
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 100
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -941,63 +729,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4545,
-        "visits": 4545,
-        "unique_visitors": 1559,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 725
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 1377
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 772
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 342
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 386
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 54
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 114
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 109
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 84
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 103
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 155
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 161
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 163
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1106,63 +841,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3677,
-        "visits": 3677,
-        "unique_visitors": 1518,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 590
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 864
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 539
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 335
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 300
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 46
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 118
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 81
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 90
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 227
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 197
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 106
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 184
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1271,63 +953,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4119,
-        "visits": 4119,
-        "unique_visitors": 1500,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 569
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 1161
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 680
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 380
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 392
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 90
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 106
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 130
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 107
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 69
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 157
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 136
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 142
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1377,7 +1006,7 @@
           "standard_id": "ONGEDFc8iDs",
           "standard_url": "https://www.youtube.com/watch?v=ONGEDFc8iDs",
           "shorts_stats": {
-            "views": 11,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
@@ -1388,7 +1017,7 @@
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
           },
-          "total_views": 11
+          "total_views": 12
         },
         {
           "shorts_id": "smBqOQlgT3M",
@@ -1436,63 +1065,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4028,
-        "visits": 4028,
-        "unique_visitors": 1539,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 612
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 1016
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 610
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 349
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 365
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 114
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 95
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 117
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 105
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 115
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 176
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 131
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 223
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1500,7 +1076,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 30
+      "yt_total_views": 31
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1579,63 +1155,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4085,
-        "visits": 4085,
-        "unique_visitors": 1583,
-        "daily": [
-          {
-            "date": "2026-05-18",
-            "pageViews": 802
-          },
-          {
-            "date": "2026-05-19",
-            "pageViews": 854
-          },
-          {
-            "date": "2026-05-20",
-            "pageViews": 729
-          },
-          {
-            "date": "2026-05-21",
-            "pageViews": 356
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 371
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 50
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 94
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 131
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 117
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 89
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 215
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 129
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 148
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1722,51 +1245,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5804,
-        "visits": 5804,
-        "unique_visitors": 1423,
-        "daily": [
-          {
-            "date": "2026-05-21",
-            "pageViews": 2256
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 2019
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 179
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 251
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 111
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 92
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 108
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 262
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 203
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 323
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1831,51 +1313,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4408,
-        "visits": 4408,
-        "unique_visitors": 1592,
-        "daily": [
-          {
-            "date": "2026-05-21",
-            "pageViews": 872
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 2078
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 241
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 260
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 143
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 124
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 96
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 161
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 212
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 221
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1925,7 +1366,7 @@
           "standard_id": "_LbpAgPpbhw",
           "standard_url": "https://www.youtube.com/watch?v=_LbpAgPpbhw",
           "shorts_stats": {
-            "views": 11,
+            "views": 13,
             "likes": 1,
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
@@ -1936,7 +1377,7 @@
             "comments": 0,
             "title": "My First Month RV Living Cost $4,200 (Real Numbers Inside)"
           },
-          "total_views": 15
+          "total_views": 17
         },
         {
           "shorts_id": "0erap12E_2I",
@@ -1962,51 +1403,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4150,
-        "visits": 4150,
-        "unique_visitors": 1440,
-        "daily": [
-          {
-            "date": "2026-05-21",
-            "pageViews": 958
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 1769
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 230
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 286
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 150
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 67
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 86
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 135
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 274
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 195
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -2014,7 +1414,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 46
+      "yt_total_views": 48
     },
     {
       "slug": "gamedevproducer",
@@ -2048,51 +1448,10 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2941,
-        "visits": 2941,
-        "unique_visitors": 1438,
-        "daily": [
-          {
-            "date": "2026-05-21",
-            "pageViews": 229
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 1050
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 150
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 131
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 134
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 152
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 263
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 173
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 510
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 149
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -2142,7 +1501,7 @@
           "standard_id": "7DklL5biwvk",
           "standard_url": "https://www.youtube.com/watch?v=7DklL5biwvk",
           "shorts_stats": {
-            "views": 17,
+            "views": 18,
             "likes": 0,
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
@@ -2153,51 +1512,14 @@
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
           },
-          "total_views": 18
+          "total_views": 19
         }
       ],
       "cloudflare": {
-        "page_views": 3384,
-        "visits": 3384,
-        "unique_visitors": 1229,
-        "daily": [
-          {
-            "date": "2026-05-22",
-            "pageViews": 2033
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 80
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 46
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 117
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 124
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 275
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 179
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 173
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 357
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -2205,7 +1527,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 18
+      "yt_total_views": 19
     },
     {
       "slug": "fixitrightway",
@@ -2247,7 +1569,7 @@
           "standard_id": "_8NDg2XcyrA",
           "standard_url": "https://www.youtube.com/watch?v=_8NDg2XcyrA",
           "shorts_stats": {
-            "views": 91,
+            "views": 94,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
@@ -2258,55 +1580,14 @@
             "comments": 0,
             "title": "Why Your Drywall Looks Cheap (3 Pro Fixes)"
           },
-          "total_views": 92
+          "total_views": 95
         }
       ],
       "cloudflare": {
-        "page_views": 3949,
-        "visits": 3949,
-        "unique_visitors": 1444,
-        "daily": [
-          {
-            "date": "2026-05-21",
-            "pageViews": 88
-          },
-          {
-            "date": "2026-05-22",
-            "pageViews": 2289
-          },
-          {
-            "date": "2026-05-23",
-            "pageViews": 137
-          },
-          {
-            "date": "2026-05-24",
-            "pageViews": 133
-          },
-          {
-            "date": "2026-05-25",
-            "pageViews": 114
-          },
-          {
-            "date": "2026-05-26",
-            "pageViews": 49
-          },
-          {
-            "date": "2026-05-27",
-            "pageViews": 332
-          },
-          {
-            "date": "2026-05-28",
-            "pageViews": 294
-          },
-          {
-            "date": "2026-05-29",
-            "pageViews": 278
-          },
-          {
-            "date": "2026-05-30",
-            "pageViews": 235
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -2314,7 +1595,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 92
+      "yt_total_views": 95
     }
   ]
 }
