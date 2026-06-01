@@ -1,0 +1,41 @@
+name: Indexing API Backfill
+
+# Submits the backlog of existing article URLs (all 15 sites) to Google's Indexing API,
+# 150/day, until the whole catalog has been submitted. Then idles. State persists in
+# index_backfill_state.json. Runs after the daily publish window to share the 200/day quota.
+
+on:
+  schedule:
+    - cron: '0 16 * * *'   # 16:00 UTC daily (after the ~11:00 publish window)
+  workflow_dispatch:
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Submit backlog to Indexing API
+        env:
+          GSC_INDEXING_TOKEN:   ${{ secrets.GSC_INDEXING_TOKEN }}
+          GOOGLE_CLIENT_ID:     ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          INDEX_DAILY_BUDGET:   '150'
+        run: python index_backfill.py
+      - name: Commit progress
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index_backfill_state.json
+          git diff --staged --quiet || git commit -m "chore: indexing backfill progress [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git pull --rebase origin main || true
+          git push || true
