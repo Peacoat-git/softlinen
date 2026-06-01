@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T17:13:39.115771+00:00",
+  "generated_at": "2026-06-01T21:19:55.329243+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-01"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 889,
+    "articles": 849,
     "videos": 82,
     "channels": 14,
-    "yt_views": 916,
+    "yt_views": 945,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,28 +35,28 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 59,
+      "articles": 52,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
         "Best Medicare Part D Plans 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
-        "Can I Sue Employer Instead Of Workers Comp",
         "Comparing Medicare Part D Plans",
-        "Delayed Injury Symptoms After Car Accident",
         "How Does Medicare Advantage Work",
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
         "How To Choose Medicare Part D Plan",
-        "How To File Car Accident Injury Claim",
         "Is Medicare Advantage Right For You",
         "Medicare 2000 Out Of Pocket Cap Drugs",
         "Medicare Advantage Dental Coverage",
         "Medicare Advantage Hmo Vs Ppo",
         "Medicare Advantage Out Of Pocket Maximum",
         "Medicare Advantage Pros And Cons",
-        "Medicare Advantage Vs Original Medicare"
+        "Medicare Advantage Vs Original Medicare",
+        "Medicare Advantage Vs Supplement Cost Comparison",
+        "Medicare And Employer Insurance",
+        "Medicare And Tricare"
       ],
       "videos": [
         {
@@ -268,7 +268,7 @@
           "standard_id": "JqWrVkcXzAs",
           "standard_url": "https://www.youtube.com/watch?v=JqWrVkcXzAs",
           "shorts_stats": {
-            "views": 49,
+            "views": 48,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
@@ -279,7 +279,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
-          "total_views": 50
+          "total_views": 49
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -290,7 +290,7 @@
           "standard_id": "FQTr6YXrdV8",
           "standard_url": "https://www.youtube.com/watch?v=FQTr6YXrdV8",
           "shorts_stats": {
-            "views": 27,
+            "views": 26,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
@@ -301,7 +301,7 @@
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's What They Won't Tell You"
           },
-          "total_views": 33
+          "total_views": 32
         },
         {
           "shorts_id": "wgAuE-vK_hQ",
@@ -382,7 +382,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 182
+      "yt_total_views": 180
     },
     {
       "slug": "solar-home-planner",
@@ -391,9 +391,8 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 56,
+      "articles": 52,
       "article_titles": [
-        "Back Injury Settlement Amounts Car Accident",
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
         "Best Roof Type For Solar Panels",
@@ -408,11 +407,12 @@
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
-        "Do I Have A Personal Injury Case",
         "Generator Vs Solar Battery Backup",
         "Hoa Solar Panel Rules",
         "How Long Until Solar Panels Pay For Themselves",
-        "How Many Solar Panels To Charge Ev"
+        "How Many Solar Panels To Charge Ev",
+        "How Much Battery Storage For Off Grid Home",
+        "How To Choose A Solar Company"
       ],
       "videos": [
         {
@@ -481,7 +481,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 59,
+      "articles": 58,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -648,7 +648,7 @@
           "standard_id": "2lIbI7WUmz4",
           "standard_url": "https://www.youtube.com/watch?v=2lIbI7WUmz4",
           "shorts_stats": {
-            "views": 16,
+            "views": 47,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Neighbor Pays $1,500 Less for Home Insurance"
@@ -659,7 +659,7 @@
             "comments": 0,
             "title": "Why Your Neighbor Pays $1,500 Less for Home Insurance"
           },
-          "total_views": 16
+          "total_views": 47
         },
         {
           "shorts_id": "2vai5qhItTA",
@@ -762,7 +762,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 18
+      "yt_total_views": 49
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -771,7 +771,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 53,
+      "articles": 48,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
@@ -781,7 +781,6 @@
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
         "Debt To Income Ratio For Mortgage",
-        "Dog Bite Injury Claim Process",
         "Down Payment Assistance Programs",
         "Fha Loan Requirements And Benefits",
         "First Time Homebuyer Programs",
@@ -792,7 +791,8 @@
         "Homeowners Insurance Mortgage Requirement",
         "How Much House Can I Afford",
         "How Reverse Mortgage Works",
-        "How To File Car Accident Injury Claim"
+        "How To Get A Mortgage First Time Buyer",
+        "How To Get Pre Qualified For Mortgage"
       ],
       "videos": [
         {
@@ -883,7 +883,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 56,
+      "articles": 53,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -904,7 +904,7 @@
         "Grief Counseling Guide",
         "Group Therapy Benefits",
         "How Long Does Therapy Take",
-        "How Much Does Personal Injury Lawyer Cost"
+        "How Much Does Therapy Cost Without Insurance"
       ],
       "videos": [
         {
@@ -995,10 +995,9 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 57,
+      "articles": 53,
       "article_titles": [
         "Are You Ready For A New Pet",
-        "Back Injury Settlement Amounts Car Accident",
         "Blood Work For Dogs Explained",
         "Cat Annual Vet Visit What To Expect",
         "Cat Annual Wellness Exam Guide",
@@ -1016,7 +1015,8 @@
         "Dog Anxiety Treatment Options",
         "Dog Arthritis Symptoms Treatment",
         "Dog Bite Wound Care",
-        "Dog Dental Health Guide"
+        "Dog Dental Health Guide",
+        "Dog Diabetes Management"
       ],
       "videos": [
         {
@@ -1107,14 +1107,12 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 53,
+      "articles": 47,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
         "Are You Ready To Start A Business",
-        "Bicycle Accident Injury Settlement",
         "Break Even Analysis Explained",
-        "Broken Bone Injury Settlement Average",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
@@ -1128,7 +1126,9 @@
         "Home Office Deduction Rules",
         "How To Get A Small Business Loan",
         "How To Separate Business Personal Finances",
-        "Income Statement Guide Small Business"
+        "Income Statement Guide Small Business",
+        "Independent Contractor Vs Employee",
+        "Invoice Factoring Explained"
       ],
       "videos": [
         {
@@ -1197,7 +1197,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 61,
+      "articles": 63,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1211,14 +1211,14 @@
         "Foods To Avoid On Keto",
         "How Fast Keto Weight Loss",
         "How Long To Enter Ketosis",
+        "How Much Protein Should I Eat On Keto",
         "How To Break A Keto Weight Loss Plateau",
+        "How To Calculate Net Carbs On Keto",
         "How To Meal Prep Keto Lunches For The Week",
         "How To Start Keto",
         "Is Keto Right For You",
         "Keto 30 Day Meal Plan",
-        "Keto 7 Day Meal Plan",
-        "Keto And Cholesterol",
-        "Keto And Insulin Resistance"
+        "Keto 7 Day Meal Plan"
       ],
       "videos": [
         {
@@ -1355,10 +1355,9 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 60,
+      "articles": 54,
       "article_titles": [
         "Backing Up Rv Guide",
-        "Bad Faith Insurance Claim Explained",
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
@@ -1370,13 +1369,14 @@
         "Boondocking Free Camping",
         "Boondocking Locations Free",
         "Boondocking Without Hookups",
-        "Car Accident Pain And Suffering Claim",
         "Class A Vs Class B Vs Class C Rv",
         "Dispersed Camping Guide",
         "Fifth Wheel Vs Travel Trailer",
         "Full Time Rv Living Guide",
         "Harvest Hosts Membership",
-        "Health Insurance Full Time Rv"
+        "Health Insurance Full Time Rv",
+        "How Much Does Rv Life Cost",
+        "How Much Solar For Rv"
       ],
       "videos": [
         {
@@ -1558,9 +1558,8 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 61,
+      "articles": 55,
       "article_titles": [
-        "Car Accident Settlement Amounts By Injury Type",
         "Diy Or Call A Pro Fix It Style",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
@@ -1579,7 +1578,8 @@
         "How To Fix A Sliding Door That Wont Slide",
         "How To Fix A Sticking Door",
         "How To Fix A Tile That Has Come Loose",
-        "How To Fix A Water Damaged Ceiling"
+        "How To Fix A Water Damaged Ceiling",
+        "How To Fix Low Water Pressure In Your Home"
       ],
       "videos": [
         {
