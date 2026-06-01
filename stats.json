@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T11:06:05.125823+00:00",
+  "generated_at": "2026-06-01T17:13:39.115771+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-01"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 844,
-    "videos": 80,
+    "articles": 889,
+    "videos": 82,
     "channels": 14,
-    "yt_views": 897,
+    "yt_views": 916,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 80,
-    "credits_used": 54.4,
-    "est_remaining": 96.01,
-    "pct_remaining": 63.8,
+    "renders_since_baseline": 82,
+    "credits_used": 55.76,
+    "est_remaining": 94.65,
+    "pct_remaining": 62.9,
     "days_until_renewal": 17
   },
   "sites": [
@@ -35,13 +35,14 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 56,
+      "articles": 59,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
         "Best Medicare Part D Plans 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
+        "Can I Sue Employer Instead Of Workers Comp",
         "Comparing Medicare Part D Plans",
         "Delayed Injury Symptoms After Car Accident",
         "How Does Medicare Advantage Work",
@@ -49,14 +50,13 @@
         "How Much Does Medigap Cost",
         "How To Choose Medicare Part D Plan",
         "How To File Car Accident Injury Claim",
+        "Is Medicare Advantage Right For You",
         "Medicare 2000 Out Of Pocket Cap Drugs",
         "Medicare Advantage Dental Coverage",
         "Medicare Advantage Hmo Vs Ppo",
         "Medicare Advantage Out Of Pocket Maximum",
         "Medicare Advantage Pros And Cons",
-        "Medicare Advantage Vs Original Medicare",
-        "Medicare Advantage Vs Supplement Cost Comparison",
-        "Medicare And Employer Insurance"
+        "Medicare Advantage Vs Original Medicare"
       ],
       "videos": [
         {
@@ -213,12 +213,14 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 53,
+      "articles": 56,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
+        "Best Solar Companies 2026",
         "Best Solar Financing Options",
         "Best Solar Panels For Home 2026",
+        "Do Solar Panels Work In Winter",
         "Energy Independence With Solar And Battery",
         "Enphase Iq Battery Review",
         "Ev Charging And Solar Panels Home",
@@ -232,9 +234,7 @@
         "How Much Do Solar Panels Cost 2026",
         "How To Choose A Solar Installer",
         "How To Finance Solar Panels With No Money Down",
-        "Is Solar Lease Worth It",
-        "Itc Solar Investment Tax Credit Explained",
-        "Monocrystalline Vs Polycrystalline Solar Panels"
+        "Is Solar Lease Worth It"
       ],
       "videos": [
         {
@@ -391,7 +391,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 53,
+      "articles": 56,
       "article_titles": [
         "Back Injury Settlement Amounts Car Accident",
         "Best Batteries For Off Grid Solar",
@@ -411,8 +411,8 @@
         "Do I Have A Personal Injury Case",
         "Generator Vs Solar Battery Backup",
         "Hoa Solar Panel Rules",
-        "How Many Solar Panels To Charge Ev",
-        "How Much Battery Storage For Off Grid Home"
+        "How Long Until Solar Panels Pay For Themselves",
+        "How Many Solar Panels To Charge Ev"
       ],
       "videos": [
         {
@@ -424,7 +424,7 @@
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
           "shorts_stats": {
-            "views": 123,
+            "views": 126,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
@@ -435,7 +435,7 @@
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 130
+          "total_views": 133
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -472,7 +472,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 327
+      "yt_total_views": 330
     },
     {
       "slug": "injury-victim-guide",
@@ -481,7 +481,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 56,
+      "articles": 59,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -492,6 +492,7 @@
         "Car Accident Injury No Insurance Options",
         "Car Accident Pain And Suffering Claim",
         "Car Accident Settlement Amounts By Injury Type",
+        "Could You Have A Personal Injury Claim",
         "Delayed Injury Symptoms After Car Accident",
         "Do I Have A Personal Injury Case",
         "Drunk Driver Accident Injury Lawsuit",
@@ -501,8 +502,7 @@
         "How Long Do Personal Injury Cases Take",
         "How Much Is My Personal Injury Case Worth",
         "How Personal Injury Settlements Work",
-        "How To Document Injuries After Accident",
-        "How To Dump Rv Black Water Tank Safely"
+        "How To Document Injuries After Accident"
       ],
       "videos": [
         {
@@ -615,11 +615,13 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 50,
+      "articles": 53,
       "article_titles": [
+        "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
         "Does Home Insurance Cover Roof Damage",
+        "Does Home Insurance Cover Roof Leaks",
         "Does Homeowners Insurance Cover Water Damage",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
@@ -634,11 +636,31 @@
         "Home Insurance For New Construction",
         "Home Insurance In California",
         "Home Insurance In Florida",
-        "Home Insurance In Texas",
-        "Home Insurance Liability Coverage",
-        "Home Insurance Mandatory Vs Optional Coverage"
+        "Home Insurance In Texas"
       ],
       "videos": [
+        {
+          "shorts_id": "SR1eMcjnRpw",
+          "shorts_url": "https://www.youtube.com/shorts/SR1eMcjnRpw",
+          "title": "Why Your Neighbor Pays $1,500 Less for Home Insurance",
+          "article_slug": "how-much-does-homeowners-insurance-cost",
+          "published_at": "2026-06-01T16:39:21.959751+00:00",
+          "standard_id": "2lIbI7WUmz4",
+          "standard_url": "https://www.youtube.com/watch?v=2lIbI7WUmz4",
+          "shorts_stats": {
+            "views": 16,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Neighbor Pays $1,500 Less for Home Insurance"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Neighbor Pays $1,500 Less for Home Insurance"
+          },
+          "total_views": 16
+        },
         {
           "shorts_id": "2vai5qhItTA",
           "shorts_url": "https://www.youtube.com/shorts/2vai5qhItTA",
@@ -740,7 +762,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 18
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -749,9 +771,10 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 50,
+      "articles": 53,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
+        "Are You Ready To Buy A Home",
         "Break Even Refinance Analysis",
         "Cash Out Refinance Explained",
         "Closing Disclosure Explained",
@@ -769,8 +792,7 @@
         "Homeowners Insurance Mortgage Requirement",
         "How Much House Can I Afford",
         "How Reverse Mortgage Works",
-        "How To Get A Mortgage First Time Buyer",
-        "How To Get Pre Qualified For Mortgage"
+        "How To File Car Accident Injury Claim"
       ],
       "videos": [
         {
@@ -861,7 +883,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 53,
+      "articles": 56,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -869,6 +891,7 @@
         "Child Therapy Guide For Parents",
         "Cognitive Behavioral Therapy Explained",
         "Community Mental Health Center Access",
+        "Could Talking To Someone Help Right Now",
         "Couples Therapy How It Works",
         "Dbt Therapy What Is It",
         "Does Insurance Cover Therapy",
@@ -876,13 +899,12 @@
         "Family Therapy Benefits",
         "Federally Qualified Health Center Therapy",
         "Finding A Therapist That Takes Insurance",
+        "Free Mental Health Resources And Hotlines",
         "Fsa Hsa For Therapy Costs",
         "Grief Counseling Guide",
         "Group Therapy Benefits",
         "How Long Does Therapy Take",
-        "How Much Does Personal Injury Lawyer Cost",
-        "How Much Does Therapy Cost Without Insurance",
-        "How Much Does Therapy Cost"
+        "How Much Does Personal Injury Lawyer Cost"
       ],
       "videos": [
         {
@@ -973,8 +995,9 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 54,
+      "articles": 57,
       "article_titles": [
+        "Are You Ready For A New Pet",
         "Back Injury Settlement Amounts Car Accident",
         "Blood Work For Dogs Explained",
         "Cat Annual Vet Visit What To Expect",
@@ -993,8 +1016,7 @@
         "Dog Anxiety Treatment Options",
         "Dog Arthritis Symptoms Treatment",
         "Dog Bite Wound Care",
-        "Dog Dental Health Guide",
-        "Dog Diabetes Management"
+        "Dog Dental Health Guide"
       ],
       "videos": [
         {
@@ -1085,11 +1107,14 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 50,
+      "articles": 53,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
+        "Are You Ready To Start A Business",
+        "Bicycle Accident Injury Settlement",
         "Break Even Analysis Explained",
+        "Broken Bone Injury Settlement Average",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
@@ -1103,10 +1128,7 @@
         "Home Office Deduction Rules",
         "How To Get A Small Business Loan",
         "How To Separate Business Personal Finances",
-        "Income Statement Guide Small Business",
-        "Independent Contractor Vs Employee",
-        "Invoice Factoring Explained",
-        "Invoicing Tips For Small Business"
+        "Income Statement Guide Small Business"
       ],
       "videos": [
         {
@@ -1175,7 +1197,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 58,
+      "articles": 61,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1192,11 +1214,11 @@
         "How To Break A Keto Weight Loss Plateau",
         "How To Meal Prep Keto Lunches For The Week",
         "How To Start Keto",
+        "Is Keto Right For You",
         "Keto 30 Day Meal Plan",
         "Keto 7 Day Meal Plan",
         "Keto And Cholesterol",
-        "Keto And Insulin Resistance",
-        "Keto Bread Recipe"
+        "Keto And Insulin Resistance"
       ],
       "videos": [
         {
@@ -1265,13 +1287,15 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 56,
+      "articles": 59,
       "article_titles": [
+        "Are You Ready To Raise Backyard Chickens",
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
         "Best Egg Laying Chickens",
         "Broody Hen Behavior",
         "Bumblefoot In Chickens",
+        "Car Accident Injury Claim Tips",
         "Car Accident Settlement Amounts By Injury Type",
         "Chicken Coop Bedding Options",
         "Chicken Coop Plans Free",
@@ -1284,9 +1308,7 @@
         "Chicken Run Size Requirements",
         "Chicken Water Requirements",
         "Chickens Not Laying In Winter",
-        "Coccidiosis Chickens",
-        "Cold Hardy Chicken Breeds",
-        "Do I Have A Personal Injury Case"
+        "Coccidiosis Chickens"
       ],
       "videos": [
         {
@@ -1333,7 +1355,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 57,
+      "articles": 60,
       "article_titles": [
         "Backing Up Rv Guide",
         "Bad Faith Insurance Claim Explained",
@@ -1348,13 +1370,13 @@
         "Boondocking Free Camping",
         "Boondocking Locations Free",
         "Boondocking Without Hookups",
+        "Car Accident Pain And Suffering Claim",
         "Class A Vs Class B Vs Class C Rv",
         "Dispersed Camping Guide",
         "Fifth Wheel Vs Travel Trailer",
         "Full Time Rv Living Guide",
         "Harvest Hosts Membership",
-        "Health Insurance Full Time Rv",
-        "How Much Does Rv Life Cost"
+        "Health Insurance Full Time Rv"
       ],
       "videos": [
         {
@@ -1423,17 +1445,19 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 65,
+      "articles": 68,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Associate Producer To Producer How To Level Up",
+        "Best Project Management Tools For Game Studios",
         "Burnout In Game Development The Year 5 Cliff",
         "Capacity Planning For Game Development Teams",
         "Console Game Certification Process For Producers",
         "Crunch Aftermath How To Rebuild Team Trust",
         "Crunch Is A Production Failure Not A Culture Problem",
         "Dependency Mapping In Game Development Schedules",
+        "Do You Have What It Takes To Be A Game Producer",
         "Game Launch Checklist For Indie Developers",
         "Game Producer Career Path From Associate To Executive",
         "Game Producer Interview Questions And Answers",
@@ -1442,9 +1466,7 @@
         "Game Producer Salary Ranges By Studio Size And Role",
         "Game Producer Tools And Software For Project Management",
         "Game Producer Vs Film Producer Key Differences",
-        "Game Producer Vs Scrum Master What Is The Difference",
-        "Game Producer Vs Technical Program Manager",
-        "Game Studio Post Mortem Process That Actually Works"
+        "Game Producer Vs Scrum Master What Is The Difference"
       ],
       "videos": [],
       "cloudflare": {
@@ -1468,7 +1490,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 75,
+      "articles": 78,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -1479,17 +1501,17 @@
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
         "Best Hearing Aids For Seniors 2026 Guide",
+        "Best Low Impact Exercises For Bad Knees",
         "Best Low Impact Exercises For Seniors With Arthritis",
         "Best Magnifying Glasses For Seniors With Macular Degeneration",
         "Best Morning Routines For Seniors Over 65",
         "Best Omega 3 Foods For Seniors With Joint Pain",
         "Best Pedometer For Seniors Easy To Use",
         "Best Protein Foods For Seniors To Maintain Muscle",
+        "Best Protein Sources For Seniors Building Muscle",
         "Best Resistance Bands For Seniors Tested And Ranked",
         "Best Strength Exercises For Seniors At Home",
-        "Best Stretches For Seniors With Lower Back Pain",
-        "Best Vitamins And Supplements For Seniors Over 70",
-        "Best Walking Shoes For Seniors With Wide Feet 2026 Guide"
+        "Best Stretches For Seniors With Lower Back Pain"
       ],
       "videos": [
         {
@@ -1536,9 +1558,10 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 58,
+      "articles": 61,
       "article_titles": [
         "Car Accident Settlement Amounts By Injury Type",
+        "Diy Or Call A Pro Fix It Style",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
         "How To Find A Stud In The Wall Without A Finder",
@@ -1556,8 +1579,7 @@
         "How To Fix A Sliding Door That Wont Slide",
         "How To Fix A Sticking Door",
         "How To Fix A Tile That Has Come Loose",
-        "How To Fix A Water Damaged Ceiling",
-        "How To Fix Low Water Pressure In Your Home"
+        "How To Fix A Water Damaged Ceiling"
       ],
       "videos": [
         {
