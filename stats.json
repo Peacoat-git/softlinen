@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:56:05.493604+00:00",
+  "generated_at": "2026-06-02T20:33:46.298719+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-02"
@@ -9,7 +9,7 @@
     "page_views": 3901,
     "visits": 3901,
     "articles": 878,
-    "videos": 84,
+    "videos": 86,
     "channels": 14,
     "yt_views": 952,
     "sites": 15
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 84,
-    "credits_used": 57.12,
-    "est_remaining": 93.29,
-    "pct_remaining": 62.0,
+    "renders_since_baseline": 86,
+    "credits_used": 58.48,
+    "est_remaining": 91.93,
+    "pct_remaining": 61.1,
     "days_until_renewal": 16
   },
   "sites": [
@@ -59,6 +59,28 @@
         "Medicare And Tricare"
       ],
       "videos": [
+        {
+          "shorts_id": "MgLAI3O-IyY",
+          "shorts_url": "https://www.youtube.com/shorts/MgLAI3O-IyY",
+          "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)",
+          "article_slug": "what-medicare-does-not-cover",
+          "published_at": "2026-06-02T16:29:58.521949+00:00",
+          "standard_id": "EqJU8I1pOr8",
+          "standard_url": "https://www.youtube.com/watch?v=EqJU8I1pOr8",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "MtQGeHyLq0A",
           "shorts_url": "https://www.youtube.com/shorts/MtQGeHyLq0A",
