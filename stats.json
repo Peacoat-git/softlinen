@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-01T21:19:55.329243+00:00",
+  "generated_at": "2026-06-02T02:31:47.603813+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-01"
+    "end": "2026-06-02"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 0,
-    "visits": 0,
-    "articles": 849,
+    "page_views": 3901,
+    "visits": 3901,
+    "articles": 846,
     "videos": 82,
     "channels": 14,
-    "yt_views": 945,
+    "yt_views": 950,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 55.76,
     "est_remaining": 94.65,
     "pct_remaining": 62.9,
-    "days_until_renewal": 17
+    "days_until_renewal": 16
   },
   "sites": [
     {
@@ -193,10 +193,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 198,
+        "visits": 198,
+        "unique_visitors": 154,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 198
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -371,10 +376,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 247,
+        "visits": 247,
+        "unique_visitors": 230,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 247
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -461,10 +471,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 191,
+        "visits": 191,
+        "unique_visitors": 170,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 191
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -595,10 +610,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 143,
+        "visits": 143,
+        "unique_visitors": 117,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 143
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -751,10 +771,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 219,
+        "visits": 219,
+        "unique_visitors": 202,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 219
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -863,10 +888,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 194,
+        "visits": 194,
+        "unique_visitors": 172,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 194
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -975,10 +1005,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 217,
+        "visits": 217,
+        "unique_visitors": 196,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 217
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1087,10 +1122,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 286,
+        "visits": 286,
+        "unique_visitors": 246,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 286
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1140,7 +1180,7 @@
           "standard_id": "I3PTaAsRtWI",
           "standard_url": "https://www.youtube.com/watch?v=I3PTaAsRtWI",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
@@ -1151,7 +1191,7 @@
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -1177,10 +1217,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 166,
+        "visits": 166,
+        "unique_visitors": 157,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 166
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1188,7 +1233,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 4
+      "yt_total_views": 5
     },
     {
       "slug": "keto-living-guide",
@@ -1197,7 +1242,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1267,10 +1312,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 167,
+        "visits": 167,
+        "unique_visitors": 126,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 167
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1287,7 +1337,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 59,
+      "articles": 54,
       "article_titles": [
         "Are You Ready To Raise Backyard Chickens",
         "Backyard Chickens For Beginners",
@@ -1295,8 +1345,6 @@
         "Best Egg Laying Chickens",
         "Broody Hen Behavior",
         "Bumblefoot In Chickens",
-        "Car Accident Injury Claim Tips",
-        "Car Accident Settlement Amounts By Injury Type",
         "Chicken Coop Bedding Options",
         "Chicken Coop Plans Free",
         "Chicken Coop Predator Protection",
@@ -1308,7 +1356,9 @@
         "Chicken Run Size Requirements",
         "Chicken Water Requirements",
         "Chickens Not Laying In Winter",
-        "Coccidiosis Chickens"
+        "Coccidiosis Chickens",
+        "Cold Hardy Chicken Breeds",
+        "Dual Purpose Chicken Breeds"
       ],
       "videos": [
         {
@@ -1335,10 +1385,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 180,
+        "visits": 180,
+        "unique_visitors": 181,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 180
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1425,10 +1480,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 206,
+        "visits": 206,
+        "unique_visitors": 181,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 206
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1470,10 +1530,15 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 1199,
+        "visits": 1199,
+        "unique_visitors": 162,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 1199
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1523,7 +1588,7 @@
           "standard_id": "7DklL5biwvk",
           "standard_url": "https://www.youtube.com/watch?v=7DklL5biwvk",
           "shorts_stats": {
-            "views": 18,
+            "views": 22,
             "likes": 0,
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
@@ -1534,14 +1599,19 @@
             "comments": 0,
             "title": "Why 60% of Seniors Are Switching to THIS Pain-Free Workout"
           },
-          "total_views": 19
+          "total_views": 23
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 145,
+        "visits": 145,
+        "unique_visitors": 138,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 145
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1549,7 +1619,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 19
+      "yt_total_views": 23
     },
     {
       "slug": "fixitrightway",
@@ -1606,10 +1676,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 143,
+        "visits": 143,
+        "unique_visitors": 130,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 143
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
