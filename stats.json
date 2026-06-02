@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T10:00:27.607474+00:00",
+  "generated_at": "2026-06-02T15:56:05.493604+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-02"
@@ -8,8 +8,8 @@
     "revenue": 0,
     "page_views": 3901,
     "visits": 3901,
-    "articles": 846,
-    "videos": 82,
+    "articles": 878,
+    "videos": 84,
     "channels": 14,
     "yt_views": 952,
     "sites": 15
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 82,
-    "credits_used": 55.76,
-    "est_remaining": 94.65,
-    "pct_remaining": 62.9,
+    "renders_since_baseline": 84,
+    "credits_used": 57.12,
+    "est_remaining": 93.29,
+    "pct_remaining": 62.0,
     "days_until_renewal": 16
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 52,
+      "articles": 54,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -218,7 +218,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -401,7 +401,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 52,
+      "articles": 54,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -496,7 +496,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -507,6 +507,7 @@
         "Car Accident Injury No Insurance Options",
         "Car Accident Pain And Suffering Claim",
         "Car Accident Settlement Amounts By Injury Type",
+        "Catastrophic Injury Lawsuit Process",
         "Could You Have A Personal Injury Claim",
         "Delayed Injury Symptoms After Car Accident",
         "Do I Have A Personal Injury Case",
@@ -516,8 +517,7 @@
         "How Insurance Companies Calculate Settlements",
         "How Long Do Personal Injury Cases Take",
         "How Much Is My Personal Injury Case Worth",
-        "How Personal Injury Settlements Work",
-        "How To Document Injuries After Accident"
+        "How Personal Injury Settlements Work"
       ],
       "videos": [
         {
@@ -635,7 +635,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 53,
+      "articles": 55,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -796,10 +796,11 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 48,
+      "articles": 50,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
+        "Best Mortgage Lenders For First Time Home Buyers 2026",
         "Break Even Refinance Analysis",
         "Cash Out Refinance Explained",
         "Closing Disclosure Explained",
@@ -816,8 +817,7 @@
         "Homeowners Insurance Mortgage Requirement",
         "How Much House Can I Afford",
         "How Reverse Mortgage Works",
-        "How To Get A Mortgage First Time Buyer",
-        "How To Get Pre Qualified For Mortgage"
+        "How To Get A Mortgage First Time Buyer"
       ],
       "videos": [
         {
@@ -913,7 +913,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 53,
+      "articles": 55,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1030,7 +1030,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 53,
+      "articles": 55,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Blood Work For Dogs Explained",
@@ -1147,11 +1147,12 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 47,
+      "articles": 49,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
         "Are You Ready To Start A Business",
+        "Best Business Checking Account For Llc No Monthly Fee",
         "Break Even Analysis Explained",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
@@ -1165,10 +1166,9 @@
         "Hiring First Employee Guide",
         "Home Office Deduction Rules",
         "How To Get A Small Business Loan",
+        "How To Get A Startup Business Loan With No Revenue",
         "How To Separate Business Personal Finances",
-        "Income Statement Guide Small Business",
-        "Independent Contractor Vs Employee",
-        "Invoice Factoring Explained"
+        "Income Statement Guide Small Business"
       ],
       "videos": [
         {
@@ -1242,7 +1242,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 65,
+      "articles": 69,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1262,8 +1262,8 @@
         "How To Meal Prep Keto Lunches For The Week",
         "How To Start Keto",
         "Is Keto Right For You",
-        "Keto 30 Day Meal Plan",
-        "Keto 7 Day Meal Plan"
+        "Is Keto Safe Long Term",
+        "Keto 30 Day Meal Plan"
       ],
       "videos": [
         {
@@ -1337,7 +1337,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "Are You Ready To Raise Backyard Chickens",
         "Backyard Chickens For Beginners",
@@ -1352,13 +1352,13 @@
         "Chicken Feed Types Explained",
         "Chicken Health Problems",
         "Chicken Lice Treatment",
+        "Chicken Ordinances By City",
         "Chicken Pecking Order",
         "Chicken Run Size Requirements",
         "Chicken Water Requirements",
         "Chickens Not Laying In Winter",
         "Coccidiosis Chickens",
-        "Cold Hardy Chicken Breeds",
-        "Dual Purpose Chicken Breeds"
+        "Cold Hardy Chicken Breeds"
       ],
       "videos": [
         {
@@ -1410,7 +1410,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
@@ -1434,6 +1434,28 @@
         "How Much Solar For Rv"
       ],
       "videos": [
+        {
+          "shorts_id": "E5ikv9IZVJE",
+          "shorts_url": "https://www.youtube.com/shorts/E5ikv9IZVJE",
+          "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)",
+          "article_slug": "south-dakota-rv-domicile",
+          "published_at": "2026-06-02T14:15:31.360165+00:00",
+          "standard_id": "MMIl2PNCLqk",
+          "standard_url": "https://www.youtube.com/watch?v=MMIl2PNCLqk",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "DzS5HtoTul0",
           "shorts_url": "https://www.youtube.com/shorts/DzS5HtoTul0",
@@ -1505,7 +1527,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -1555,7 +1577,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -1628,8 +1650,9 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 55,
+      "articles": 57,
       "article_titles": [
+        "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
@@ -1648,8 +1671,7 @@
         "How To Fix A Sliding Door That Wont Slide",
         "How To Fix A Sticking Door",
         "How To Fix A Tile That Has Come Loose",
-        "How To Fix A Water Damaged Ceiling",
-        "How To Fix Low Water Pressure In Your Home"
+        "How To Fix A Water Damaged Ceiling"
       ],
       "videos": [
         {
