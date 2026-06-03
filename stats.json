@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T16:14:04.865959+00:00",
+  "generated_at": "2026-06-03T20:45:57.348589+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-03"
@@ -9,9 +9,9 @@
     "page_views": 7682,
     "visits": 7682,
     "articles": 908,
-    "videos": 90,
+    "videos": 94,
     "channels": 14,
-    "yt_views": 958,
+    "yt_views": 965,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 90,
-    "credits_used": 61.2,
-    "est_remaining": 89.21,
-    "pct_remaining": 59.3,
+    "renders_since_baseline": 94,
+    "credits_used": 63.92,
+    "est_remaining": 86.49,
+    "pct_remaining": 57.5,
     "days_until_renewal": 15
   },
   "sites": [
@@ -269,6 +269,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "DNhB_7ypnq8",
+          "shorts_url": "https://www.youtube.com/shorts/DNhB_7ypnq8",
+          "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)",
+          "article_slug": "transferring-solar-lease-when-selling-home",
+          "published_at": "2026-06-03T16:50:45.198741+00:00",
+          "standard_id": "xHrTXR1hHb4",
+          "standard_url": "https://www.youtube.com/watch?v=xHrTXR1hHb4",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "Xkp2j1dtURE",
           "shorts_url": "https://www.youtube.com/shorts/Xkp2j1dtURE",
           "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss",
@@ -456,6 +478,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "Zh28KoFedbc",
+          "shorts_url": "https://www.youtube.com/shorts/Zh28KoFedbc",
+          "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)",
+          "article_slug": "solar-panels-for-existing-homes",
+          "published_at": "2026-06-03T16:30:45.782616+00:00",
+          "standard_id": "EHLdbDrtELs",
+          "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
+          "shorts_stats": {
+            "views": 5,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
+          },
+          "total_views": 5
+        },
+        {
           "shorts_id": "E1LkJP2I3LI",
           "shorts_url": "https://www.youtube.com/shorts/E1LkJP2I3LI",
           "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)",
@@ -521,7 +565,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 330
+      "yt_total_views": 335
     },
     {
       "slug": "injury-victim-guide",
@@ -1135,7 +1179,7 @@
           "standard_id": "Gde3LJgCS-M",
           "standard_url": "https://www.youtube.com/watch?v=Gde3LJgCS-M",
           "shorts_stats": {
-            "views": 2,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
@@ -1146,7 +1190,7 @@
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
           },
-          "total_views": 3
+          "total_views": 2
         },
         {
           "shorts_id": "d0E4Lv8yUtw",
@@ -1192,7 +1236,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 33
+      "yt_total_views": 32
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1454,7 +1498,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 0,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -1465,7 +1509,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 0
+          "total_views": 3
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1511,7 +1555,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 156
+      "yt_total_views": 159
     },
     {
       "slug": "rv-life-guide",
