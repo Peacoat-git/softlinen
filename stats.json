@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-02T20:33:46.298719+00:00",
+  "generated_at": "2026-06-03T02:38:15.057387+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-02"
+    "end": "2026-06-03"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 3901,
-    "visits": 3901,
+    "page_views": 7682,
+    "visits": 7682,
     "articles": 878,
-    "videos": 86,
+    "videos": 88,
     "channels": 14,
-    "yt_views": 952,
+    "yt_views": 954,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,11 +21,11 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 86,
-    "credits_used": 58.48,
-    "est_remaining": 91.93,
-    "pct_remaining": 61.1,
-    "days_until_renewal": 16
+    "renders_since_baseline": 88,
+    "credits_used": 59.84,
+    "est_remaining": 90.57,
+    "pct_remaining": 60.2,
+    "days_until_renewal": 15
   },
   "sites": [
     {
@@ -74,12 +74,12 @@
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
           },
-          "total_views": 0
+          "total_views": 2
         },
         {
           "shorts_id": "MtQGeHyLq0A",
@@ -215,13 +215,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 198,
-        "visits": 198,
-        "unique_visitors": 154,
+        "page_views": 511,
+        "visits": 511,
+        "unique_visitors": 345,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 198
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 313
           }
         ]
       },
@@ -231,7 +235,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 14
+      "yt_total_views": 16
     },
     {
       "slug": "solar-planner-guide",
@@ -398,13 +402,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 247,
-        "visits": 247,
-        "unique_visitors": 230,
+        "page_views": 342,
+        "visits": 342,
+        "unique_visitors": 342,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 247
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 95
           }
         ]
       },
@@ -493,13 +501,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 191,
-        "visits": 191,
-        "unique_visitors": 170,
+        "page_views": 273,
+        "visits": 273,
+        "unique_visitors": 269,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 191
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 82
           }
         ]
       },
@@ -632,13 +644,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 143,
-        "visits": 143,
-        "unique_visitors": 117,
+        "page_views": 221,
+        "visits": 221,
+        "unique_visitors": 213,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 143
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 78
           }
         ]
       },
@@ -793,13 +809,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 219,
-        "visits": 219,
-        "unique_visitors": 202,
+        "page_views": 630,
+        "visits": 630,
+        "unique_visitors": 414,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 219
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 411
           }
         ]
       },
@@ -910,13 +930,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 194,
-        "visits": 194,
-        "unique_visitors": 172,
+        "page_views": 351,
+        "visits": 351,
+        "unique_visitors": 312,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 194
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 157
           }
         ]
       },
@@ -1027,13 +1051,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 217,
-        "visits": 217,
-        "unique_visitors": 196,
+        "page_views": 329,
+        "visits": 329,
+        "unique_visitors": 321,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 217
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 112
           }
         ]
       },
@@ -1144,13 +1172,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 286,
-        "visits": 286,
-        "unique_visitors": 246,
+        "page_views": 698,
+        "visits": 698,
+        "unique_visitors": 458,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 286
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 412
           }
         ]
       },
@@ -1239,13 +1271,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 166,
-        "visits": 166,
-        "unique_visitors": 157,
+        "page_views": 287,
+        "visits": 287,
+        "unique_visitors": 271,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 166
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 121
           }
         ]
       },
@@ -1288,6 +1324,28 @@
         "Keto 30 Day Meal Plan"
       ],
       "videos": [
+        {
+          "shorts_id": "HvpF4wM3C50",
+          "shorts_url": "https://www.youtube.com/shorts/HvpF4wM3C50",
+          "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis Results",
+          "article_slug": "what-foods-to-avoid-on-a-ketogenic-diet",
+          "published_at": "2026-06-02T22:47:13.387590+00:00",
+          "standard_id": "sdnrw82A1vU",
+          "standard_url": "https://www.youtube.com/watch?v=sdnrw82A1vU",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis Results"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis Results"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "Awv3DwxvEgA",
           "shorts_url": "https://www.youtube.com/shorts/Awv3DwxvEgA",
@@ -1334,13 +1392,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 167,
-        "visits": 167,
-        "unique_visitors": 126,
+        "page_views": 368,
+        "visits": 368,
+        "unique_visitors": 223,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 167
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 201
           }
         ]
       },
@@ -1407,13 +1469,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 180,
-        "visits": 180,
-        "unique_visitors": 181,
+        "page_views": 566,
+        "visits": 566,
+        "unique_visitors": 392,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 180
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 386
           }
         ]
       },
@@ -1524,13 +1590,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 206,
-        "visits": 206,
-        "unique_visitors": 181,
+        "page_views": 356,
+        "visits": 356,
+        "unique_visitors": 344,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 206
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 150
           }
         ]
       },
@@ -1574,13 +1644,17 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 1199,
-        "visits": 1199,
-        "unique_visitors": 162,
+        "page_views": 1731,
+        "visits": 1731,
+        "unique_visitors": 388,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 1199
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 532
           }
         ]
       },
@@ -1647,13 +1721,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 145,
-        "visits": 145,
-        "unique_visitors": 138,
+        "page_views": 538,
+        "visits": 538,
+        "unique_visitors": 379,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 145
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 393
           }
         ]
       },
@@ -1720,13 +1798,17 @@
         }
       ],
       "cloudflare": {
-        "page_views": 143,
-        "visits": 143,
-        "unique_visitors": 130,
+        "page_views": 481,
+        "visits": 481,
+        "unique_visitors": 377,
         "daily": [
           {
             "date": "2026-06-01",
             "pageViews": 143
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 338
           }
         ]
       },
