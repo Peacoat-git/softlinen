@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T10:31:29.760464+00:00",
+  "generated_at": "2026-06-03T16:14:04.865959+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-03"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 7682,
     "visits": 7682,
-    "articles": 878,
-    "videos": 88,
+    "articles": 908,
+    "videos": 90,
     "channels": 14,
-    "yt_views": 957,
+    "yt_views": 958,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 88,
-    "credits_used": 59.84,
-    "est_remaining": 90.57,
-    "pct_remaining": 60.2,
+    "renders_since_baseline": 90,
+    "credits_used": 61.2,
+    "est_remaining": 89.21,
+    "pct_remaining": 59.3,
     "days_until_renewal": 15
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -55,8 +55,8 @@
         "Medicare Advantage Pros And Cons",
         "Medicare Advantage Vs Original Medicare",
         "Medicare Advantage Vs Supplement Cost Comparison",
-        "Medicare And Employer Insurance",
-        "Medicare And Tricare"
+        "Medicare And Dental Coverage Options",
+        "Medicare And Employer Insurance"
       ],
       "videos": [
         {
@@ -244,7 +244,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -263,9 +263,9 @@
         "How Long To Pay Off Solar Panels",
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
+        "How To Calculate Solar Panel Wattage Needs",
         "How To Choose A Solar Installer",
-        "How To Finance Solar Panels With No Money Down",
-        "Is Solar Lease Worth It"
+        "How To Finance Solar Panels With No Money Down"
       ],
       "videos": [
         {
@@ -431,7 +431,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -447,12 +447,12 @@
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
+        "Free Solar Panels Programs Real Or Scam",
         "Generator Vs Solar Battery Backup",
         "Hoa Solar Panel Rules",
         "How Long Until Solar Panels Pay For Themselves",
         "How Many Solar Panels To Charge Ev",
-        "How Much Battery Storage For Off Grid Home",
-        "How To Choose A Solar Company"
+        "How Much Battery Storage For Off Grid Home"
       ],
       "videos": [
         {
@@ -530,7 +530,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 60,
+      "articles": 62,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -673,7 +673,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 55,
+      "articles": 57,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -683,6 +683,7 @@
         "Does Homeowners Insurance Cover Water Damage",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
+        "Home Insurance Collectibles Coverage",
         "Home Insurance Coverage Limits Guide",
         "Home Insurance Credit Score Impact",
         "Home Insurance Dwelling Coverage",
@@ -693,8 +694,7 @@
         "Home Insurance For Investment Property",
         "Home Insurance For New Construction",
         "Home Insurance In California",
-        "Home Insurance In Florida",
-        "Home Insurance In Texas"
+        "Home Insurance In Florida"
       ],
       "videos": [
         {
@@ -838,7 +838,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 50,
+      "articles": 52,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
@@ -848,6 +848,7 @@
         "Closing Disclosure Explained",
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
+        "Current 30 Year Fixed Mortgage Rates Forecast 2026",
         "Debt To Income Ratio For Mortgage",
         "Down Payment Assistance Programs",
         "Fha Loan Requirements And Benefits",
@@ -858,8 +859,7 @@
         "Home Loan Application Checklist",
         "Homeowners Insurance Mortgage Requirement",
         "How Much House Can I Afford",
-        "How Reverse Mortgage Works",
-        "How To Get A Mortgage First Time Buyer"
+        "How Reverse Mortgage Works"
       ],
       "videos": [
         {
@@ -959,7 +959,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 55,
+      "articles": 57,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1080,10 +1080,12 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 55,
+      "articles": 57,
       "article_titles": [
         "Are You Ready For A New Pet",
+        "Best Flea And Tick Prevention For Dogs Comparison",
         "Blood Work For Dogs Explained",
+        "Can I Give My Dog Benadryl For Allergies Dosage Chart",
         "Cat Annual Vet Visit What To Expect",
         "Cat Annual Wellness Exam Guide",
         "Cat Dental Disease Signs",
@@ -1099,9 +1101,7 @@
         "Dog Annual Physical Exam Guide",
         "Dog Anxiety Treatment Options",
         "Dog Arthritis Symptoms Treatment",
-        "Dog Bite Wound Care",
-        "Dog Dental Health Guide",
-        "Dog Diabetes Management"
+        "Dog Bite Wound Care"
       ],
       "videos": [
         {
@@ -1201,7 +1201,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 49,
+      "articles": 51,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1240,12 +1240,12 @@
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -1291,7 +1291,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 5
+      "yt_total_views": 6
     },
     {
       "slug": "keto-living-guide",
@@ -1300,7 +1300,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 69,
+      "articles": 71,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1317,11 +1317,11 @@
         "How Much Protein Should I Eat On Keto",
         "How To Break A Keto Weight Loss Plateau",
         "How To Calculate Net Carbs On Keto",
+        "How To Make Keto Bread Without Almond Flour",
         "How To Meal Prep Keto Lunches For The Week",
         "How To Start Keto",
         "Is Keto Right For You",
-        "Is Keto Safe Long Term",
-        "Keto 30 Day Meal Plan"
+        "Is Keto Safe Long Term"
       ],
       "videos": [
         {
@@ -1421,7 +1421,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "Are You Ready To Raise Backyard Chickens",
         "Backyard Chickens For Beginners",
@@ -1445,6 +1445,28 @@
         "Cold Hardy Chicken Breeds"
       ],
       "videos": [
+        {
+          "shorts_id": "g3QyszV9gJM",
+          "shorts_url": "https://www.youtube.com/shorts/g3QyszV9gJM",
+          "title": "Your Chickens Probably Have Worms (Here's How I Found Out)",
+          "article_slug": "worms-in-chickens",
+          "published_at": "2026-06-03T15:33:44.775504+00:00",
+          "standard_id": "0ZXQavMDTuk",
+          "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "I10o8EFJnnw",
           "shorts_url": "https://www.youtube.com/shorts/I10o8EFJnnw",
@@ -1498,7 +1520,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
@@ -1619,7 +1641,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 70,
+      "articles": 72,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -1630,6 +1652,7 @@
         "Console Game Certification Process For Producers",
         "Crunch Aftermath How To Rebuild Team Trust",
         "Crunch Is A Production Failure Not A Culture Problem",
+        "Dealing With Burnout On A Game Dev Team",
         "Dependency Mapping In Game Development Schedules",
         "Do You Have What It Takes To Be A Game Producer",
         "Game Launch Checklist For Indie Developers",
@@ -1639,8 +1662,7 @@
         "Game Producer Resume Tips What Hiring Managers Look For",
         "Game Producer Salary Ranges By Studio Size And Role",
         "Game Producer Tools And Software For Project Management",
-        "Game Producer Vs Film Producer Key Differences",
-        "Game Producer Vs Scrum Master What Is The Difference"
+        "Game Producer Vs Film Producer Key Differences"
       ],
       "videos": [],
       "cloudflare": {
@@ -1673,7 +1695,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 80,
+      "articles": 82,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -1750,7 +1772,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 57,
+      "articles": 59,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
