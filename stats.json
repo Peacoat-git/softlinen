@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T09:41:17.372828+00:00",
+  "generated_at": "2026-06-04T14:30:55.135011+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-04"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 9711,
     "visits": 9711,
-    "articles": 908,
+    "articles": 938,
     "videos": 112,
     "channels": 14,
-    "yt_views": 1323,
+    "yt_views": 1327,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,11 +35,12 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
         "Best Medicare Part D Plans 2026",
+        "Best Medicare Plans In California 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
         "Comparing Medicare Part D Plans",
@@ -55,8 +56,7 @@
         "Medicare Advantage Pros And Cons",
         "Medicare Advantage Vs Original Medicare",
         "Medicare Advantage Vs Supplement Cost Comparison",
-        "Medicare And Dental Coverage Options",
-        "Medicare And Employer Insurance"
+        "Medicare And Dental Coverage Options"
       ],
       "videos": [
         {
@@ -248,7 +248,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 60,
+      "articles": 62,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -267,9 +267,9 @@
         "How Long To Pay Off Solar Panels",
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
+        "How Much Do Solar Panels Increase Home Value",
         "How To Calculate Solar Panel Wattage Needs",
-        "How To Choose A Solar Installer",
-        "How To Finance Solar Panels With No Money Down"
+        "How To Choose A Solar Installer"
       ],
       "videos": [
         {
@@ -303,7 +303,7 @@
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
           "shorts_stats": {
-            "views": 7,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
@@ -314,7 +314,7 @@
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
           },
-          "total_views": 9
+          "total_views": 10
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -518,7 +518,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 519
+      "yt_total_views": 520
     },
     {
       "slug": "solar-home-planner",
@@ -527,7 +527,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -560,7 +560,7 @@
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
           "shorts_stats": {
-            "views": 7,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
@@ -571,7 +571,7 @@
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
           },
-          "total_views": 9
+          "total_views": 10
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -709,7 +709,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 342
+      "yt_total_views": 343
     },
     {
       "slug": "injury-victim-guide",
@@ -718,7 +718,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 62,
+      "articles": 64,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -865,7 +865,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 57,
+      "articles": 59,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -873,6 +873,7 @@
         "Does Home Insurance Cover Roof Damage",
         "Does Home Insurance Cover Roof Leaks",
         "Does Homeowners Insurance Cover Water Damage",
+        "Escrow And Home Insurance",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Collectibles Coverage",
@@ -885,8 +886,7 @@
         "Home Insurance For First Time Buyers",
         "Home Insurance For Investment Property",
         "Home Insurance For New Construction",
-        "Home Insurance In California",
-        "Home Insurance In Florida"
+        "Home Insurance Hail Damage Claim"
       ],
       "videos": [
         {
@@ -1034,7 +1034,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 52,
+      "articles": 54,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
@@ -1159,7 +1159,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 57,
+      "articles": 59,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1284,7 +1284,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 57,
+      "articles": 59,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1409,7 +1409,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 51,
+      "articles": 53,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1427,10 +1427,10 @@
         "Cdfi Lender Small Business",
         "Hiring First Employee Guide",
         "Home Office Deduction Rules",
+        "How To Build Business Credit Score Fast",
         "How To Get A Small Business Loan",
         "How To Get A Startup Business Loan With No Revenue",
-        "How To Separate Business Personal Finances",
-        "Income Statement Guide Small Business"
+        "How To Separate Business Personal Finances"
       ],
       "videos": [
         {
@@ -1512,7 +1512,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 71,
+      "articles": 73,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1703,8 +1703,9 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
+        "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
@@ -1723,8 +1724,7 @@
         "Chicken Run Size Requirements",
         "Chicken Water Requirements",
         "Chickens Not Laying In Winter",
-        "Coccidiosis Chickens",
-        "Cold Hardy Chicken Breeds"
+        "Coccidiosis Chickens"
       ],
       "videos": [
         {
@@ -1736,18 +1736,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 10,
+            "views": 11,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 12
+          "total_views": 14
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1797,7 +1797,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 168
+      "yt_total_views": 170
     },
     {
       "slug": "rv-life-guide",
@@ -1806,7 +1806,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
@@ -1931,7 +1931,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 72,
+      "articles": 74,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -1989,7 +1989,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 82,
+      "articles": 84,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2070,7 +2070,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 59,
+      "articles": 61,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
