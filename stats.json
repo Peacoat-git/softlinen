@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-03T20:45:57.348589+00:00",
+  "generated_at": "2026-06-04T02:34:49.229213+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-03"
+    "end": "2026-06-04"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 7682,
-    "visits": 7682,
+    "page_views": 9711,
+    "visits": 9711,
     "articles": 908,
-    "videos": 94,
+    "videos": 112,
     "channels": 14,
-    "yt_views": 965,
+    "yt_views": 1310,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,11 +21,11 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 94,
-    "credits_used": 63.92,
-    "est_remaining": 86.49,
-    "pct_remaining": 57.5,
-    "days_until_renewal": 15
+    "renders_since_baseline": 112,
+    "credits_used": 76.16,
+    "est_remaining": 74.25,
+    "pct_remaining": 49.4,
+    "days_until_renewal": 14
   },
   "sites": [
     {
@@ -215,9 +215,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 511,
-        "visits": 511,
-        "unique_visitors": 345,
+        "page_views": 708,
+        "visits": 708,
+        "unique_visitors": 468,
         "daily": [
           {
             "date": "2026-06-01",
@@ -226,6 +226,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 313
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 197
           }
         ]
       },
@@ -291,6 +295,50 @@
           "total_views": 0
         },
         {
+          "shorts_id": "Zh28KoFedbc",
+          "shorts_url": "https://www.youtube.com/shorts/Zh28KoFedbc",
+          "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)",
+          "article_slug": "3-solar-mistakes-that-cost-homeowners-6000-installers-wont-s",
+          "published_at": "2026-06-03T16:31:05+00:00",
+          "standard_id": "EHLdbDrtELs",
+          "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
+          "shorts_stats": {
+            "views": 5,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
+          },
+          "total_views": 5
+        },
+        {
+          "shorts_id": "E1LkJP2I3LI",
+          "shorts_url": "https://www.youtube.com/shorts/E1LkJP2I3LI",
+          "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)",
+          "article_slug": "3-solar-installer-secrets-that-save-you-15000-most-skip-2",
+          "published_at": "2026-05-29T01:07:07+00:00",
+          "standard_id": "v1iO08fcPwY",
+          "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
+          "shorts_stats": {
+            "views": 126,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
+          },
+          "standard_stats": {
+            "views": 7,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
+          },
+          "total_views": 133
+        },
+        {
           "shorts_id": "Xkp2j1dtURE",
           "shorts_url": "https://www.youtube.com/shorts/Xkp2j1dtURE",
           "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss",
@@ -333,6 +381,28 @@
             "title": "Zero Down Solar Is Real \u2014 But 3 Options Are Financial Traps"
           },
           "total_views": 49
+        },
+        {
+          "shorts_id": "9d15hwE4rnc",
+          "shorts_url": "https://www.youtube.com/shorts/9d15hwE4rnc",
+          "title": "3 Solar Installer Secrets That Save Homeowners Thousands",
+          "article_slug": "3-solar-installer-secrets-that-save-homeowners-thousands",
+          "published_at": "2026-05-29T00:12:17+00:00",
+          "standard_id": "d36C0zXzx4I",
+          "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
+          "shorts_stats": {
+            "views": 196,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
+          },
+          "standard_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
+          },
+          "total_views": 197
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -424,9 +494,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 342,
-        "visits": 342,
-        "unique_visitors": 342,
+        "page_views": 518,
+        "visits": 518,
+        "unique_visitors": 476,
         "daily": [
           {
             "date": "2026-06-01",
@@ -435,6 +505,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 95
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 176
           }
         ]
       },
@@ -444,7 +518,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 180
+      "yt_total_views": 515
     },
     {
       "slug": "solar-home-planner",
@@ -542,12 +616,78 @@
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
           "total_views": 197
+        },
+        {
+          "shorts_id": "zS9JVW74hHQ",
+          "shorts_url": "https://www.youtube.com/shorts/zS9JVW74hHQ",
+          "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)",
+          "article_slug": "30-of-solar-owners-have-this-regret-dont-make-their-mistake",
+          "published_at": "2026-05-19T15:34:15+00:00",
+          "standard_id": "40KVpcXq1lI",
+          "standard_url": "https://www.youtube.com/watch?v=40KVpcXq1lI",
+          "shorts_stats": {
+            "views": 3,
+            "likes": 0,
+            "comments": 0,
+            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
+          },
+          "total_views": 3
+        },
+        {
+          "shorts_id": "HMQkCFdnGsY",
+          "shorts_url": "https://www.youtube.com/shorts/HMQkCFdnGsY",
+          "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)",
+          "article_slug": "3-solar-mistakes-costing-homeowners-thousands-avoid-these",
+          "published_at": "2026-05-19T14:49:35+00:00",
+          "standard_id": "Xn5eKZPFaxQ",
+          "standard_url": "https://www.youtube.com/watch?v=Xn5eKZPFaxQ",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "4aG3FW9yE2E",
+          "shorts_url": "https://www.youtube.com/shorts/4aG3FW9yE2E",
+          "title": "5 Solar Secrets Installers Won't Tell You",
+          "article_slug": "5-solar-secrets-installers-wont-tell-you",
+          "published_at": "2026-05-19T04:37:43+00:00",
+          "standard_id": "d4eAv_KtX38",
+          "standard_url": "https://www.youtube.com/watch?v=d4eAv_KtX38",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "5 Solar Secrets Installers Won't Tell You"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "5 Solar Secrets Installers Won't Tell You"
+          },
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 273,
-        "visits": 273,
-        "unique_visitors": 269,
+        "page_views": 425,
+        "visits": 425,
+        "unique_visitors": 401,
         "daily": [
           {
             "date": "2026-06-01",
@@ -556,6 +696,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 82
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 152
           }
         ]
       },
@@ -565,7 +709,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 335
+      "yt_total_views": 338
     },
     {
       "slug": "injury-victim-guide",
@@ -679,18 +823,18 @@
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
           },
-          "total_views": 2
+          "total_views": 3
         }
       ],
       "cloudflare": {
-        "page_views": 221,
-        "visits": 221,
-        "unique_visitors": 213,
+        "page_views": 329,
+        "visits": 329,
+        "unique_visitors": 330,
         "daily": [
           {
             "date": "2026-06-01",
@@ -699,6 +843,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 78
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 108
           }
         ]
       },
@@ -708,7 +856,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 3
+      "yt_total_views": 4
     },
     {
       "slug": "home-insurance-guide",
@@ -853,9 +1001,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 630,
-        "visits": 630,
-        "unique_visitors": 414,
+        "page_views": 747,
+        "visits": 747,
+        "unique_visitors": 551,
         "daily": [
           {
             "date": "2026-06-01",
@@ -864,6 +1012,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 411
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 117
           }
         ]
       },
@@ -974,9 +1126,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 351,
-        "visits": 351,
-        "unique_visitors": 312,
+        "page_views": 440,
+        "visits": 440,
+        "unique_visitors": 404,
         "daily": [
           {
             "date": "2026-06-01",
@@ -985,6 +1137,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 157
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 89
           }
         ]
       },
@@ -1095,9 +1251,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 329,
-        "visits": 329,
-        "unique_visitors": 321,
+        "page_views": 458,
+        "visits": 458,
+        "unique_visitors": 451,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1106,6 +1262,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 112
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 129
           }
         ]
       },
@@ -1216,9 +1376,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 698,
-        "visits": 698,
-        "unique_visitors": 458,
+        "page_views": 813,
+        "visits": 813,
+        "unique_visitors": 558,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1227,6 +1387,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 412
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 115
           }
         ]
       },
@@ -1315,9 +1479,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 287,
-        "visits": 287,
-        "unique_visitors": 271,
+        "page_views": 391,
+        "visits": 391,
+        "unique_visitors": 394,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1326,6 +1490,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 121
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 104
           }
         ]
       },
@@ -1391,6 +1559,72 @@
           "total_views": 0
         },
         {
+          "shorts_id": "GJvDvPdEZQg",
+          "shorts_url": "https://www.youtube.com/shorts/GJvDvPdEZQg",
+          "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis",
+          "article_slug": "3-healthy-foods-secretly-destroying-your-ketosis",
+          "published_at": "2026-06-02T22:20:34+00:00",
+          "standard_id": "yu5qi0dvlaA",
+          "standard_url": "https://www.youtube.com/watch?v=yu5qi0dvlaA",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "u7u_wYHuo5I",
+          "shorts_url": "https://www.youtube.com/shorts/u7u_wYHuo5I",
+          "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis",
+          "article_slug": "3-healthy-foods-secretly-destroying-your-ketosis",
+          "published_at": "2026-06-02T17:21:23+00:00",
+          "standard_id": "T_FLECNIaFA",
+          "standard_url": "https://www.youtube.com/watch?v=T_FLECNIaFA",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "pngzFd5kPJc",
+          "shorts_url": "https://www.youtube.com/shorts/pngzFd5kPJc",
+          "title": "Why Keto Flu Hits So Hard (And the 48-Hour Fix)",
+          "article_slug": "why-keto-flu-hits-so-hard-and-the-48-hour-fix",
+          "published_at": "2026-06-02T15:07:07+00:00",
+          "standard_id": "T-eZXD6jpoc",
+          "standard_url": "https://www.youtube.com/watch?v=T-eZXD6jpoc",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Keto Flu Hits So Hard (And the 48-Hour Fix)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Keto Flu Hits So Hard (And the 48-Hour Fix)"
+          },
+          "total_views": 1
+        },
+        {
           "shorts_id": "Awv3DwxvEgA",
           "shorts_url": "https://www.youtube.com/shorts/Awv3DwxvEgA",
           "title": "Why Ketosis Symptoms Actually Mean It's Working (Science)",
@@ -1436,9 +1670,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 368,
-        "visits": 368,
-        "unique_visitors": 223,
+        "page_views": 472,
+        "visits": 472,
+        "unique_visitors": 348,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1447,6 +1681,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 201
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 104
           }
         ]
       },
@@ -1456,7 +1694,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 7
+      "yt_total_views": 8
     },
     {
       "slug": "chicken-keeper-guide",
@@ -1498,7 +1736,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 3,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -1509,7 +1747,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 3
+          "total_views": 8
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1535,9 +1773,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 566,
-        "visits": 566,
-        "unique_visitors": 392,
+        "page_views": 651,
+        "visits": 651,
+        "unique_visitors": 502,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1546,6 +1784,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 386
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 85
           }
         ]
       },
@@ -1555,7 +1797,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 159
+      "yt_total_views": 164
     },
     {
       "slug": "rv-life-guide",
@@ -1656,9 +1898,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 356,
-        "visits": 356,
-        "unique_visitors": 344,
+        "page_views": 469,
+        "visits": 469,
+        "unique_visitors": 447,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1667,6 +1909,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 150
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 113
           }
         ]
       },
@@ -1710,9 +1956,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 1731,
-        "visits": 1731,
-        "unique_visitors": 388,
+        "page_views": 1856,
+        "visits": 1856,
+        "unique_visitors": 539,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1721,6 +1967,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 532
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 125
           }
         ]
       },
@@ -1787,9 +2037,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 538,
-        "visits": 538,
-        "unique_visitors": 379,
+        "page_views": 691,
+        "visits": 691,
+        "unique_visitors": 528,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1798,6 +2048,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 393
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 153
           }
         ]
       },
@@ -1864,9 +2118,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 481,
-        "visits": 481,
-        "unique_visitors": 377,
+        "page_views": 743,
+        "visits": 743,
+        "unique_visitors": 543,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1875,6 +2129,10 @@
           {
             "date": "2026-06-02",
             "pageViews": 338
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 262
           }
         ]
       },
