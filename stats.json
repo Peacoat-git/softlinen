@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T09:27:15.557309+00:00",
+  "generated_at": "2026-06-05T14:21:47.802219+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-05"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 12063,
     "visits": 12063,
-    "articles": 938,
-    "videos": 114,
+    "articles": 968,
+    "videos": 118,
     "channels": 14,
-    "yt_views": 1351,
+    "yt_views": 1352,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 114,
-    "credits_used": 77.52,
-    "est_remaining": 72.89,
-    "pct_remaining": 48.5,
+    "renders_since_baseline": 118,
+    "credits_used": 80.24,
+    "est_remaining": 70.17,
+    "pct_remaining": 46.7,
     "days_until_renewal": 13
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -44,6 +44,7 @@
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
         "Comparing Medicare Part D Plans",
+        "Difference Between Medicare And Medicaid Explained",
         "How Does Medicare Advantage Work",
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
@@ -55,8 +56,7 @@
         "Medicare Advantage Out Of Pocket Maximum",
         "Medicare Advantage Pros And Cons",
         "Medicare Advantage Vs Original Medicare",
-        "Medicare Advantage Vs Supplement Cost Comparison",
-        "Medicare And Dental Coverage Options"
+        "Medicare Advantage Vs Supplement Cost Comparison"
       ],
       "videos": [
         {
@@ -252,7 +252,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 62,
+      "articles": 64,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -267,13 +267,13 @@
         "Federal Solar Tax Credit Expiration",
         "Hoa Solar Panel Rules",
         "Home Battery Storage Options Compared",
+        "How Long Do Solar Batteries Last",
         "How Long Do Solar Panels Last",
         "How Long To Pay Off Solar Panels",
         "How Many Solar Panels Do I Need",
         "How Much Do Solar Panels Cost 2026",
         "How Much Do Solar Panels Increase Home Value",
-        "How To Calculate Solar Panel Wattage Needs",
-        "How To Choose A Solar Installer"
+        "How To Calculate Solar Panel Wattage Needs"
       ],
       "videos": [
         {
@@ -307,7 +307,7 @@
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
           "shorts_stats": {
-            "views": 11,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
@@ -318,7 +318,7 @@
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
           },
-          "total_views": 13
+          "total_views": 14
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -526,7 +526,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 524
+      "yt_total_views": 525
     },
     {
       "slug": "solar-home-planner",
@@ -535,7 +535,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -730,7 +730,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 64,
+      "articles": 66,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -881,7 +881,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 59,
+      "articles": 61,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1054,7 +1054,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 54,
+      "articles": 56,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
@@ -1068,14 +1068,14 @@
         "Debt To Income Ratio For Mortgage",
         "Down Payment Assistance Programs",
         "Fha Loan Requirements And Benefits",
+        "Fha Vs Conventional Loan Which Is Better For First Time Buyers",
         "First Time Homebuyer Programs",
         "Fixed Vs Adjustable Rate Mortgage",
         "Heloc Vs Home Equity Loan",
         "Home Equity Loan Rates",
         "Home Loan Application Checklist",
         "Homeowners Insurance Mortgage Requirement",
-        "How Much House Can I Afford",
-        "How Reverse Mortgage Works"
+        "How Much House Can I Afford"
       ],
       "videos": [
         {
@@ -1183,7 +1183,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 59,
+      "articles": 61,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1312,7 +1312,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 59,
+      "articles": 61,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1441,7 +1441,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 53,
+      "articles": 55,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1459,10 +1459,10 @@
         "Cdfi Lender Small Business",
         "Hiring First Employee Guide",
         "Home Office Deduction Rules",
+        "How Much Does General Liability Insurance Cost For Small Business",
         "How To Build Business Credit Score Fast",
         "How To Get A Small Business Loan",
-        "How To Get A Startup Business Loan With No Revenue",
-        "How To Separate Business Personal Finances"
+        "How To Get A Startup Business Loan With No Revenue"
       ],
       "videos": [
         {
@@ -1570,7 +1570,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 73,
+      "articles": 75,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1765,13 +1765,14 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 60,
+      "articles": 62,
       "article_titles": [
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
         "Best Egg Laying Chickens",
+        "Brooder Setup For Chicks",
         "Broody Hen Behavior",
         "Bumblefoot In Chickens",
         "Chicken Coop Bedding Options",
@@ -1785,8 +1786,7 @@
         "Chicken Pecking Order",
         "Chicken Run Size Requirements",
         "Chicken Water Requirements",
-        "Chickens Not Laying In Winter",
-        "Coccidiosis Chickens"
+        "Chickens Not Laying In Winter"
       ],
       "videos": [
         {
@@ -1872,7 +1872,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 60,
+      "articles": 62,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Class B Van For Full Time",
@@ -2001,7 +2001,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 74,
+      "articles": 76,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -2063,7 +2063,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2087,6 +2087,28 @@
         "Best Stretches For Seniors With Lower Back Pain"
       ],
       "videos": [
+        {
+          "shorts_id": "9lini_2f2EI",
+          "shorts_url": "https://www.youtube.com/shorts/9lini_2f2EI",
+          "title": "3 Hidden Systems Destroying Your Balance After 60",
+          "article_slug": "why-do-seniors-lose-their-balance",
+          "published_at": "2026-06-05T12:50:20.969176+00:00",
+          "standard_id": "EnoSdGWiryU",
+          "standard_url": "https://www.youtube.com/watch?v=EnoSdGWiryU",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Hidden Systems Destroying Your Balance After 60"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Hidden Systems Destroying Your Balance After 60"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "D87bLFUgJd8",
           "shorts_url": "https://www.youtube.com/shorts/D87bLFUgJd8",
@@ -2148,7 +2170,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 61,
+      "articles": 63,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
@@ -2172,6 +2194,28 @@
         "How To Fix A Water Damaged Ceiling"
       ],
       "videos": [
+        {
+          "shorts_id": "tWLaiHl1NQs",
+          "shorts_url": "https://www.youtube.com/shorts/tWLaiHl1NQs",
+          "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast",
+          "article_slug": "how-to-unclog-a-toilet-without-a-plunger",
+          "published_at": "2026-06-05T13:57:06.495263+00:00",
+          "standard_id": "Fvnj3gAgAM0",
+          "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "V4Y6Y9bF_-o",
           "shorts_url": "https://www.youtube.com/shorts/V4Y6Y9bF_-o",
