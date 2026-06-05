@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-04T15:35:10.576786+00:00",
+  "generated_at": "2026-06-05T04:39:38.602712+00:00",
   "healthy": false,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
-    "**TOKEN**: Search Console OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required"
+    "**TOKEN**: Search Console OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required",
+    "**TOKEN**: GSC Indexing OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required"
   ],
   "thresholds": {
     "publish_stale_hours": 30,
@@ -18,14 +19,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:22:30Z",
         "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/26951415186"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 47.3,
+        "age_hours": 60.4,
         "created_at": "2026-06-02T16:16:22Z",
         "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/26832827356"
       },
@@ -40,14 +41,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:21:39Z",
         "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/26951373202"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 22.8,
+        "age_hours": 35.9,
         "created_at": "2026-06-03T16:46:41Z",
         "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/26899426792"
       },
@@ -62,14 +63,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:21:59Z",
         "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/26951390018"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 23.1,
+        "age_hours": 36.2,
         "created_at": "2026-06-03T16:26:55Z",
         "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/26898360460"
       },
@@ -84,14 +85,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:21:59Z",
         "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/26951389804"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 71.8,
+        "age_hours": 84.9,
         "created_at": "2026-06-01T15:46:39Z",
         "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/26765624405"
       },
@@ -106,14 +107,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:21:28Z",
         "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/26951365167"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 71.0,
+        "age_hours": 84.1,
         "created_at": "2026-06-01T16:34:30Z",
         "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/26768139705"
       },
@@ -128,14 +129,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.3,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:19:33Z",
         "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/26951275809"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 70.4,
+        "age_hours": 83.5,
         "created_at": "2026-06-01T17:10:12Z",
         "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/26769949484"
       },
@@ -150,14 +151,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:21:27Z",
         "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/26951364445"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 25.3,
+        "age_hours": 38.3,
         "created_at": "2026-06-03T14:19:03Z",
         "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/26890898686"
       },
@@ -172,14 +173,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.3,
+        "age_hours": 16.4,
         "created_at": "2026-06-04T12:17:45Z",
         "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/26951191254"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1.7,
+        "age_hours": 14.8,
         "created_at": "2026-06-04T13:54:30Z",
         "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/26956232861"
       },
@@ -194,14 +195,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.3,
         "created_at": "2026-06-04T12:21:59Z",
         "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/26951389546"
       },
       "video": {
-        "status": "in_progress",
-        "conclusion": "in_progress",
-        "age_hours": 0.2,
+        "status": "completed",
+        "conclusion": "success",
+        "age_hours": 13.3,
         "created_at": "2026-06-04T15:20:58Z",
         "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/26961323695"
       },
@@ -210,6 +211,7 @@
     }
   ],
   "token_issues": [
-    "Search Console OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required"
+    "Search Console OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required",
+    "GSC Indexing OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required"
   ]
 }
