@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T08:22:08.342827+00:00",
+  "generated_at": "2026-06-06T13:04:58.213924+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-06"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 14567,
     "visits": 14567,
-    "articles": 980,
+    "articles": 990,
     "videos": 118,
     "channels": 14,
-    "yt_views": 1384,
+    "yt_views": 1389,
     "sites": 15
   },
   "adsense_connected": true,
@@ -256,7 +256,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 64,
+      "articles": 66,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -493,12 +493,12 @@
             "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Lie \u2014 3 Hidden Tricks They Use"
           },
-          "total_views": 7
+          "total_views": 8
         }
       ],
       "cloudflare": {
@@ -534,7 +534,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 531
+      "yt_total_views": 532
     },
     {
       "slug": "solar-home-planner",
@@ -742,10 +742,11 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 66,
+      "articles": 68,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
+        "Bad Faith Insurance Claim Explained",
         "Broken Bone Injury Settlement Average",
         "Car Accident Injury Claim Denied What To Do",
         "Car Accident Injury Claim Time Limit",
@@ -762,8 +763,7 @@
         "Hit And Run Accident Injury Claim",
         "How Insurance Companies Calculate Settlements",
         "How Long Do Personal Injury Cases Take",
-        "How Much Is My Personal Injury Case Worth",
-        "How Personal Injury Settlements Work"
+        "How Much Is My Personal Injury Case Worth"
       ],
       "videos": [
         {
@@ -897,7 +897,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 61,
+      "articles": 63,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -911,14 +911,14 @@
         "Home Insurance Collectibles Coverage",
         "Home Insurance Coverage Limits Guide",
         "Home Insurance Credit Score Impact",
+        "Home Insurance Dispute Resolution",
         "Home Insurance Dwelling Coverage",
         "Home Insurance Earthquake Coverage",
         "Home Insurance Extended Replacement Cost",
         "Home Insurance Flood Coverage",
         "Home Insurance For First Time Buyers",
         "Home Insurance For Investment Property",
-        "Home Insurance For New Construction",
-        "Home Insurance Hail Damage Claim"
+        "Home Insurance For New Construction"
       ],
       "videos": [
         {
@@ -1838,7 +1838,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 29,
+            "views": 30,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -1849,7 +1849,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 37
+          "total_views": 38
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1907,7 +1907,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 193
+      "yt_total_views": 194
     },
     {
       "slug": "rv-life-guide",
@@ -2049,7 +2049,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 76,
+      "articles": 78,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -2226,13 +2226,14 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
         "How To Find A Stud In The Wall Without A Finder",
+        "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Door That Wont Latch",
         "How To Fix A Dripping Faucet Step By Step",
         "How To Fix A Hole In The Wall From A Doorknob",
@@ -2246,8 +2247,7 @@
         "How To Fix A Shower That Drips When Turned Off",
         "How To Fix A Sliding Door That Wont Slide",
         "How To Fix A Sticking Door",
-        "How To Fix A Tile That Has Come Loose",
-        "How To Fix A Water Damaged Ceiling"
+        "How To Fix A Tile That Has Come Loose"
       ],
       "videos": [
         {
@@ -2259,7 +2259,7 @@
           "standard_id": "Fvnj3gAgAM0",
           "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
           "shorts_stats": {
-            "views": 9,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
@@ -2270,7 +2270,7 @@
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
           },
-          "total_views": 9
+          "total_views": 12
         },
         {
           "shorts_id": "V4Y6Y9bF_-o",
@@ -2328,7 +2328,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 104
+      "yt_total_views": 107
     }
   ]
 }
