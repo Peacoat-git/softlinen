@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T02:00:15.372792+00:00",
+  "generated_at": "2026-06-06T08:22:08.342827+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-06"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 14567,
     "visits": 14567,
-    "articles": 978,
+    "articles": 980,
     "videos": 118,
     "channels": 14,
-    "yt_views": 1375,
+    "yt_views": 1384,
     "sites": 15
   },
   "adsense_connected": true,
@@ -311,7 +311,7 @@
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
           "shorts_stats": {
-            "views": 16,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
@@ -322,7 +322,7 @@
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
           },
-          "total_views": 18
+          "total_views": 19
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -534,7 +534,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 530
+      "yt_total_views": 531
     },
     {
       "slug": "solar-home-planner",
@@ -576,7 +576,7 @@
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
           "shorts_stats": {
-            "views": 16,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
@@ -587,7 +587,7 @@
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
           },
-          "total_views": 18
+          "total_views": 19
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -733,7 +733,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 352
+      "yt_total_views": 353
     },
     {
       "slug": "injury-victim-guide",
@@ -1395,7 +1395,7 @@
           "standard_id": "Gde3LJgCS-M",
           "standard_url": "https://www.youtube.com/watch?v=Gde3LJgCS-M",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
@@ -1406,7 +1406,7 @@
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "d0E4Lv8yUtw",
@@ -1464,7 +1464,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 32
+      "yt_total_views": 33
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1805,12 +1805,14 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 62,
+      "articles": 64,
       "article_titles": [
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
+        "Backyard Chicken Egg Cost Vs Store",
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
+        "Best Chicken Coop Kits To Buy",
         "Best Egg Laying Chickens",
         "Brooder Setup For Chicks",
         "Broody Hen Behavior",
@@ -1824,9 +1826,7 @@
         "Chicken Lice Treatment",
         "Chicken Ordinances By City",
         "Chicken Pecking Order",
-        "Chicken Run Size Requirements",
-        "Chicken Water Requirements",
-        "Chickens Not Laying In Winter"
+        "Chicken Run Size Requirements"
       ],
       "videos": [
         {
@@ -1838,18 +1838,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 25,
+            "views": 29,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 6,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 31
+          "total_views": 37
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1907,7 +1907,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 187
+      "yt_total_views": 193
     },
     {
       "slug": "rv-life-guide",
