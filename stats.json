@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-05T19:29:26.951221+00:00",
+  "generated_at": "2026-06-06T02:00:15.372792+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-05"
+    "end": "2026-06-06"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 12063,
-    "visits": 12063,
-    "articles": 970,
+    "page_views": 14567,
+    "visits": 14567,
+    "articles": 978,
     "videos": 118,
     "channels": 14,
-    "yt_views": 1365,
+    "yt_views": 1375,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 80.24,
     "est_remaining": 70.17,
     "pct_remaining": 46.7,
-    "days_until_renewal": 13
+    "days_until_renewal": 12
   },
   "sites": [
     {
@@ -215,9 +215,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 850,
-        "visits": 850,
-        "unique_visitors": 597,
+        "page_views": 937,
+        "visits": 937,
+        "unique_visitors": 690,
         "daily": [
           {
             "date": "2026-06-01",
@@ -234,6 +234,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 142
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 87
           }
         ]
       },
@@ -307,7 +311,7 @@
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
           "shorts_stats": {
-            "views": 13,
+            "views": 16,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
@@ -318,7 +322,7 @@
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
           },
-          "total_views": 15
+          "total_views": 18
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -498,9 +502,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 825,
-        "visits": 825,
-        "unique_visitors": 644,
+        "page_views": 952,
+        "visits": 952,
+        "unique_visitors": 789,
         "daily": [
           {
             "date": "2026-06-01",
@@ -517,6 +521,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 307
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 127
           }
         ]
       },
@@ -526,7 +534,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 527
+      "yt_total_views": 530
     },
     {
       "slug": "solar-home-planner",
@@ -535,7 +543,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 60,
+      "articles": 62,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -568,7 +576,7 @@
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
           "shorts_stats": {
-            "views": 13,
+            "views": 16,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
@@ -579,7 +587,7 @@
             "comments": 0,
             "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
           },
-          "total_views": 15
+          "total_views": 18
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -693,9 +701,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 533,
-        "visits": 533,
-        "unique_visitors": 531,
+        "page_views": 858,
+        "visits": 858,
+        "unique_visitors": 649,
         "daily": [
           {
             "date": "2026-06-01",
@@ -712,6 +720,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 108
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 325
           }
         ]
       },
@@ -721,7 +733,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 349
+      "yt_total_views": 352
     },
     {
       "slug": "injury-victim-guide",
@@ -844,9 +856,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 425,
-        "visits": 425,
-        "unique_visitors": 439,
+        "page_views": 499,
+        "visits": 499,
+        "unique_visitors": 520,
         "daily": [
           {
             "date": "2026-06-01",
@@ -863,6 +875,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 96
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 74
           }
         ]
       },
@@ -1017,9 +1033,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 901,
-        "visits": 901,
-        "unique_visitors": 686,
+        "page_views": 997,
+        "visits": 997,
+        "unique_visitors": 798,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1036,6 +1052,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 154
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 96
           }
         ]
       },
@@ -1146,9 +1166,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 562,
-        "visits": 562,
-        "unique_visitors": 511,
+        "page_views": 702,
+        "visits": 702,
+        "unique_visitors": 633,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1165,6 +1185,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 122
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 140
           }
         ]
       },
@@ -1275,9 +1299,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 556,
-        "visits": 556,
-        "unique_visitors": 551,
+        "page_views": 673,
+        "visits": 673,
+        "unique_visitors": 672,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1294,6 +1318,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 98
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 117
           }
         ]
       },
@@ -1404,9 +1432,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1008,
-        "visits": 1008,
-        "unique_visitors": 723,
+        "page_views": 1101,
+        "visits": 1101,
+        "unique_visitors": 824,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1423,6 +1451,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 195
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 93
           }
         ]
       },
@@ -1441,7 +1473,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 55,
+      "articles": 57,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1533,9 +1565,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 624,
-        "visits": 624,
-        "unique_visitors": 582,
+        "page_views": 721,
+        "visits": 721,
+        "unique_visitors": 684,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1552,6 +1584,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 233
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 97
           }
         ]
       },
@@ -1728,9 +1764,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 599,
-        "visits": 599,
-        "unique_visitors": 476,
+        "page_views": 737,
+        "visits": 737,
+        "unique_visitors": 625,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1747,6 +1783,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 127
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 138
           }
         ]
       },
@@ -1798,7 +1838,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 24,
+            "views": 25,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -1809,7 +1849,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 30
+          "total_views": 31
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1835,9 +1875,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 909,
-        "visits": 909,
-        "unique_visitors": 725,
+        "page_views": 1056,
+        "visits": 1056,
+        "unique_visitors": 879,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1854,6 +1894,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 258
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 147
           }
         ]
       },
@@ -1863,7 +1907,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 186
+      "yt_total_views": 187
     },
     {
       "slug": "rv-life-guide",
@@ -1872,9 +1916,10 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 62,
+      "articles": 64,
       "article_titles": [
         "Backing Up Rv Guide",
+        "Best Apps For Finding Free Campsites",
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
@@ -1892,8 +1937,7 @@
         "Full Time Rv Living Guide",
         "Harvest Hosts Membership",
         "Health Insurance Full Time Rv",
-        "How Much Does Rv Life Cost",
-        "How Much Solar For Rv"
+        "How Much Does Rv Life Cost"
       ],
       "videos": [
         {
@@ -1964,9 +2008,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 579,
-        "visits": 579,
-        "unique_visitors": 571,
+        "page_views": 671,
+        "visits": 671,
+        "unique_visitors": 659,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1983,6 +2027,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 110
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 92
           }
         ]
       },
@@ -2026,9 +2074,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 1977,
-        "visits": 1977,
-        "unique_visitors": 668,
+        "page_views": 2406,
+        "visits": 2406,
+        "unique_visitors": 836,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2045,6 +2093,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 121
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 429
           }
         ]
       },
@@ -2063,7 +2115,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 86,
+      "articles": 88,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2073,6 +2125,7 @@
         "Best Balance Exercises For Seniors To Prevent Falls",
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
+        "Best Exercise Routine For 65 Year Old Woman",
         "Best Hearing Aids For Seniors 2026 Guide",
         "Best Low Impact Exercises For Bad Knees",
         "Best Low Impact Exercises For Seniors With Arthritis",
@@ -2083,8 +2136,7 @@
         "Best Protein Foods For Seniors To Maintain Muscle",
         "Best Protein Sources For Seniors Building Muscle",
         "Best Resistance Bands For Seniors Tested And Ranked",
-        "Best Strength Exercises For Seniors At Home",
-        "Best Stretches For Seniors With Lower Back Pain"
+        "Best Strength Exercises For Seniors At Home"
       ],
       "videos": [
         {
@@ -2133,9 +2185,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 841,
-        "visits": 841,
-        "unique_visitors": 668,
+        "page_views": 1169,
+        "visits": 1169,
+        "unique_visitors": 836,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2152,6 +2204,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 150
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 328
           }
         ]
       },
@@ -2203,7 +2259,7 @@
           "standard_id": "Fvnj3gAgAM0",
           "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
           "shorts_stats": {
-            "views": 6,
+            "views": 9,
             "likes": 0,
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
@@ -2214,7 +2270,7 @@
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
           },
-          "total_views": 6
+          "total_views": 9
         },
         {
           "shorts_id": "V4Y6Y9bF_-o",
@@ -2240,9 +2296,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 874,
-        "visits": 874,
-        "unique_visitors": 679,
+        "page_views": 1088,
+        "visits": 1088,
+        "unique_visitors": 815,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2259,6 +2315,10 @@
           {
             "date": "2026-06-04",
             "pageViews": 131
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 214
           }
         ]
       },
@@ -2268,7 +2328,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 101
+      "yt_total_views": 104
     }
   ]
 }
