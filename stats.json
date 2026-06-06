@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T16:49:36.780273+00:00",
+  "generated_at": "2026-06-06T18:57:55.642357+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-06"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 14567,
     "visits": 14567,
-    "articles": 996,
+    "articles": 1000,
     "videos": 118,
     "channels": 14,
     "yt_views": 1391,
@@ -1074,7 +1074,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 56,
+      "articles": 58,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
@@ -1091,11 +1091,11 @@
         "Fha Vs Conventional Loan Which Is Better For First Time Buyers",
         "First Time Homebuyer Programs",
         "Fixed Vs Adjustable Rate Mortgage",
+        "Heloc Vs Home Equity Loan Which Should I Choose",
         "Heloc Vs Home Equity Loan",
         "Home Equity Loan Rates",
         "Home Loan Application Checklist",
-        "Homeowners Insurance Mortgage Requirement",
-        "How Much House Can I Afford"
+        "Homeowners Insurance Mortgage Requirement"
       ],
       "videos": [
         {
@@ -1340,10 +1340,11 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
+        "Best Supplements For Senior Dogs With Arthritis",
         "Blood Work For Dogs Explained",
         "Can I Give My Dog Benadryl For Allergies Dosage Chart",
         "Cat Annual Vet Visit What To Expect",
@@ -1360,8 +1361,7 @@
         "Common Health Problems In French Bulldogs",
         "Dog Allergies Symptoms Treatment",
         "Dog Annual Physical Exam Guide",
-        "Dog Anxiety Treatment Options",
-        "Dog Arthritis Symptoms Treatment"
+        "Dog Anxiety Treatment Options"
       ],
       "videos": [
         {
