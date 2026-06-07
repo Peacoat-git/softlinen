@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T02:16:08.494970+00:00",
+  "generated_at": "2026-06-07T08:42:47.028983+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-07"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 17276,
     "visits": 17276,
-    "articles": 1008,
+    "articles": 991,
     "videos": 118,
     "channels": 14,
-    "yt_views": 1393,
+    "yt_views": 1397,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 62,
+      "articles": 57,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -1560,7 +1560,7 @@
           "standard_id": "I3PTaAsRtWI",
           "standard_url": "https://www.youtube.com/watch?v=I3PTaAsRtWI",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
@@ -1571,7 +1571,7 @@
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
           },
-          "total_views": 4
+          "total_views": 5
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -1633,7 +1633,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 7
+      "yt_total_views": 8
     },
     {
       "slug": "keto-living-guide",
@@ -1845,7 +1845,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 64,
+      "articles": 66,
       "article_titles": [
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
@@ -1857,6 +1857,7 @@
         "Brooder Setup For Chicks",
         "Broody Hen Behavior",
         "Bumblefoot In Chickens",
+        "Chick Starter Feed",
         "Chicken Coop Bedding Options",
         "Chicken Coop Plans Free",
         "Chicken Coop Predator Protection",
@@ -1865,8 +1866,7 @@
         "Chicken Health Problems",
         "Chicken Lice Treatment",
         "Chicken Ordinances By City",
-        "Chicken Pecking Order",
-        "Chicken Run Size Requirements"
+        "Chicken Pecking Order"
       ],
       "videos": [
         {
@@ -2167,14 +2167,12 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 90,
+      "articles": 83,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
         "Balance Boards For Seniors Are They Safe And Worth It",
         "Balance Exercises For Seniors To Prevent Falls",
-        "Balance Training For Fall Prevention Seniors",
-        "Best Balance Exercises For Elderly At Home",
         "Best Balance Exercises For Seniors To Prevent Falls",
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
@@ -2188,7 +2186,9 @@
         "Best Pedometer For Seniors Easy To Use",
         "Best Protein Foods For Seniors To Maintain Muscle",
         "Best Protein Sources For Seniors Building Muscle",
-        "Best Resistance Bands For Seniors Tested And Ranked"
+        "Best Resistance Bands For Seniors Tested And Ranked",
+        "Best Strength Exercises For Seniors At Home",
+        "Best Stretches For Seniors With Lower Back Pain"
       ],
       "videos": [
         {
@@ -2282,16 +2282,13 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 65,
+      "articles": 58,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
-        "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
-        "How To Find A Stud In The Wall Without A Finder",
         "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Door That Wont Latch",
-        "How To Fix A Dripping Faucet Step By Step",
         "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
         "How To Fix A Leaky Faucet",
@@ -2303,7 +2300,10 @@
         "How To Fix A Shower That Drips When Turned Off",
         "How To Fix A Sliding Door That Wont Slide",
         "How To Fix A Sticking Door",
-        "How To Fix A Tile That Has Come Loose"
+        "How To Fix A Tile That Has Come Loose",
+        "How To Fix A Water Damaged Ceiling",
+        "How To Fix Low Water Pressure In Your Home",
+        "How To Install A Deadbolt Lock"
       ],
       "videos": [
         {
@@ -2315,7 +2315,7 @@
           "standard_id": "Fvnj3gAgAM0",
           "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
           "shorts_stats": {
-            "views": 14,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
@@ -2326,7 +2326,7 @@
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
           },
-          "total_views": 14
+          "total_views": 17
         },
         {
           "shorts_id": "V4Y6Y9bF_-o",
@@ -2388,7 +2388,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 109
+      "yt_total_views": 112
     }
   ]
 }
