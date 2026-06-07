@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T08:42:47.028983+00:00",
+  "generated_at": "2026-06-07T13:17:26.298501+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-07"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 17276,
     "visits": 17276,
-    "articles": 991,
+    "articles": 999,
     "videos": 118,
     "channels": 14,
-    "yt_views": 1397,
+    "yt_views": 1400,
     "sites": 15
   },
   "adsense_connected": true,
@@ -260,13 +260,14 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 66,
+      "articles": 68,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
         "Best Solar Companies 2026",
         "Best Solar Financing Options",
         "Best Solar Panels For Home 2026",
+        "Can Solar Panels Power A Whole House Off Grid",
         "Do Solar Panels Work In Winter",
         "Energy Independence With Solar And Battery",
         "Enphase Iq Battery Review",
@@ -278,10 +279,9 @@
         "How Long Do Solar Batteries Last",
         "How Long Do Solar Panels Last",
         "How Long To Pay Off Solar Panels",
+        "How Many Kwh Does A Solar Panel Produce Per Day",
         "How Many Solar Panels Do I Need",
-        "How Much Do Solar Panels Cost 2026",
-        "How Much Do Solar Panels Increase Home Value",
-        "How To Calculate Solar Panel Wattage Needs"
+        "How Much Do Solar Panels Cost 2026"
       ],
       "videos": [
         {
@@ -453,12 +453,12 @@
             "title": "Solar Calculators Lied to This Homeowner by $600/Year"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Lied to This Homeowner by $600/Year"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "_Ow6aYYFuSk",
@@ -542,7 +542,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 533
+      "yt_total_views": 534
     },
     {
       "slug": "solar-home-planner",
@@ -754,7 +754,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -768,14 +768,14 @@
         "Car Accident Settlement Amounts By Injury Type",
         "Catastrophic Injury Lawsuit Process",
         "Could You Have A Personal Injury Claim",
+        "Defective Product Injury Claim",
         "Delayed Injury Symptoms After Car Accident",
         "Do I Have A Personal Injury Case",
         "Drunk Driver Accident Injury Lawsuit",
         "Factors That Increase Settlement Value",
         "Hit And Run Accident Injury Claim",
         "How Insurance Companies Calculate Settlements",
-        "How Long Do Personal Injury Cases Take",
-        "How Much Is My Personal Injury Case Worth"
+        "How Long Do Personal Injury Cases Take"
       ],
       "videos": [
         {
@@ -1884,12 +1884,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 8,
+            "views": 10,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 38
+          "total_views": 40
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1951,7 +1951,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 194
+      "yt_total_views": 196
     },
     {
       "slug": "rv-life-guide",
@@ -2097,7 +2097,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -2111,14 +2111,14 @@
         "Dealing With Burnout On A Game Dev Team",
         "Dependency Mapping In Game Development Schedules",
         "Do You Have What It Takes To Be A Game Producer",
+        "Funding Options For Indie Game Studios Explained",
         "Game Launch Checklist For Indie Developers",
         "Game Producer Career Path From Associate To Executive",
         "Game Producer Interview Questions And Answers",
         "Game Producer Portfolio What To Show Hiring Managers",
         "Game Producer Resume Tips What Hiring Managers Look For",
         "Game Producer Salary Ranges By Studio Size And Role",
-        "Game Producer Tools And Software For Project Management",
-        "Game Producer Vs Film Producer Key Differences"
+        "Game Producer Tools And Software For Project Management"
       ],
       "videos": [],
       "cloudflare": {
@@ -2282,7 +2282,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
