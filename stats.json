@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-06T19:03:10.253563+00:00",
+  "generated_at": "2026-06-07T02:16:08.494970+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-06"
+    "end": "2026-06-07"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 14567,
-    "visits": 14567,
-    "articles": 1000,
+    "page_views": 17276,
+    "visits": 17276,
+    "articles": 1008,
     "videos": 118,
     "channels": 14,
-    "yt_views": 1391,
+    "yt_views": 1393,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 80.24,
     "est_remaining": 70.17,
     "pct_remaining": 46.7,
-    "days_until_renewal": 12
+    "days_until_renewal": 11
   },
   "sites": [
     {
@@ -215,9 +215,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 937,
-        "visits": 937,
-        "unique_visitors": 690,
+        "page_views": 1178,
+        "visits": 1178,
+        "unique_visitors": 813,
         "daily": [
           {
             "date": "2026-06-01",
@@ -238,6 +238,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 87
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 241
           }
         ]
       },
@@ -502,9 +506,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 952,
-        "visits": 952,
-        "unique_visitors": 789,
+        "page_views": 1055,
+        "visits": 1055,
+        "unique_visitors": 899,
         "daily": [
           {
             "date": "2026-06-01",
@@ -525,6 +529,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 127
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 103
           }
         ]
       },
@@ -543,7 +551,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 62,
+      "articles": 64,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -701,9 +709,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 858,
-        "visits": 858,
-        "unique_visitors": 649,
+        "page_views": 951,
+        "visits": 951,
+        "unique_visitors": 757,
         "daily": [
           {
             "date": "2026-06-01",
@@ -724,6 +732,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 325
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 93
           }
         ]
       },
@@ -856,9 +868,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 499,
-        "visits": 499,
-        "unique_visitors": 520,
+        "page_views": 598,
+        "visits": 598,
+        "unique_visitors": 599,
         "daily": [
           {
             "date": "2026-06-01",
@@ -879,6 +891,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 74
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 99
           }
         ]
       },
@@ -1033,9 +1049,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 997,
-        "visits": 997,
-        "unique_visitors": 798,
+        "page_views": 1472,
+        "visits": 1472,
+        "unique_visitors": 924,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1056,6 +1072,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 96
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 475
           }
         ]
       },
@@ -1166,9 +1186,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 702,
-        "visits": 702,
-        "unique_visitors": 633,
+        "page_views": 758,
+        "visits": 758,
+        "unique_visitors": 702,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1189,6 +1209,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 140
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 56
           }
         ]
       },
@@ -1299,9 +1323,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 673,
-        "visits": 673,
-        "unique_visitors": 672,
+        "page_views": 735,
+        "visits": 735,
+        "unique_visitors": 751,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1322,6 +1346,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 117
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 62
           }
         ]
       },
@@ -1432,9 +1460,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1101,
-        "visits": 1101,
-        "unique_visitors": 824,
+        "page_views": 1462,
+        "visits": 1462,
+        "unique_visitors": 960,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1455,6 +1483,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 93
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 361
           }
         ]
       },
@@ -1473,7 +1505,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 57,
+      "articles": 59,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1493,8 +1525,8 @@
         "Home Office Deduction Rules",
         "How Much Does General Liability Insurance Cost For Small Business",
         "How To Build Business Credit Score Fast",
-        "How To Get A Small Business Loan",
-        "How To Get A Startup Business Loan With No Revenue"
+        "How To Calculate Quarterly Estimated Taxes For Self Employed",
+        "How To Get A Small Business Loan"
       ],
       "videos": [
         {
@@ -1565,9 +1597,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 721,
-        "visits": 721,
-        "unique_visitors": 684,
+        "page_views": 887,
+        "visits": 887,
+        "unique_visitors": 789,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1588,6 +1620,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 97
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 166
           }
         ]
       },
@@ -1764,9 +1800,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 737,
-        "visits": 737,
-        "unique_visitors": 625,
+        "page_views": 811,
+        "visits": 811,
+        "unique_visitors": 711,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1787,6 +1823,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 138
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 74
           }
         ]
       },
@@ -1875,9 +1915,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1056,
-        "visits": 1056,
-        "unique_visitors": 879,
+        "page_views": 1327,
+        "visits": 1327,
+        "unique_visitors": 1032,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1898,6 +1938,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 147
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 271
           }
         ]
       },
@@ -1916,7 +1960,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 64,
+      "articles": 66,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -1935,9 +1979,9 @@
         "Dispersed Camping Guide",
         "Fifth Wheel Vs Travel Trailer",
         "Full Time Rv Living Guide",
+        "Full Time Rv Living Vs Van Life Pros And Cons",
         "Harvest Hosts Membership",
-        "Health Insurance Full Time Rv",
-        "How Much Does Rv Life Cost"
+        "Health Insurance Full Time Rv"
       ],
       "videos": [
         {
@@ -2008,9 +2052,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 671,
-        "visits": 671,
-        "unique_visitors": 659,
+        "page_views": 975,
+        "visits": 975,
+        "unique_visitors": 766,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2031,6 +2075,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 92
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 304
           }
         ]
       },
@@ -2074,9 +2122,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2406,
-        "visits": 2406,
-        "unique_visitors": 836,
+        "page_views": 2478,
+        "visits": 2478,
+        "unique_visitors": 922,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2097,6 +2145,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 429
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 72
           }
         ]
       },
@@ -2115,13 +2167,14 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 88,
+      "articles": 90,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
         "Balance Boards For Seniors Are They Safe And Worth It",
         "Balance Exercises For Seniors To Prevent Falls",
         "Balance Training For Fall Prevention Seniors",
+        "Best Balance Exercises For Elderly At Home",
         "Best Balance Exercises For Seniors To Prevent Falls",
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
@@ -2135,8 +2188,7 @@
         "Best Pedometer For Seniors Easy To Use",
         "Best Protein Foods For Seniors To Maintain Muscle",
         "Best Protein Sources For Seniors Building Muscle",
-        "Best Resistance Bands For Seniors Tested And Ranked",
-        "Best Strength Exercises For Seniors At Home"
+        "Best Resistance Bands For Seniors Tested And Ranked"
       ],
       "videos": [
         {
@@ -2185,9 +2237,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1169,
-        "visits": 1169,
-        "unique_visitors": 836,
+        "page_views": 1273,
+        "visits": 1273,
+        "unique_visitors": 926,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2208,6 +2260,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 328
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 104
           }
         ]
       },
@@ -2259,7 +2315,7 @@
           "standard_id": "Fvnj3gAgAM0",
           "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
           "shorts_stats": {
-            "views": 12,
+            "views": 14,
             "likes": 0,
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
@@ -2270,7 +2326,7 @@
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
           },
-          "total_views": 12
+          "total_views": 14
         },
         {
           "shorts_id": "V4Y6Y9bF_-o",
@@ -2296,9 +2352,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1088,
-        "visits": 1088,
-        "unique_visitors": 815,
+        "page_views": 1316,
+        "visits": 1316,
+        "unique_visitors": 936,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2319,6 +2375,10 @@
           {
             "date": "2026-06-05",
             "pageViews": 214
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 228
           }
         ]
       },
@@ -2328,7 +2388,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 107
+      "yt_total_views": 109
     }
   ]
 }
