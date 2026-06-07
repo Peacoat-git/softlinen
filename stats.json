@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-07T13:17:26.298501+00:00",
+  "generated_at": "2026-06-07T19:04:19.516421+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-07"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 17276,
-    "visits": 17276,
-    "articles": 999,
+    "page_views": 16518,
+    "visits": 16518,
+    "articles": 1009,
     "videos": 118,
     "channels": 14,
     "yt_views": 1400,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 57,
+      "articles": 59,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -45,6 +45,7 @@
         "Best Medigap Plans 2026",
         "Comparing Medicare Part D Plans",
         "Difference Between Medicare And Medicaid Explained",
+        "Does Medicare Cover 100 Percent",
         "How Does Medicare Advantage Work",
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
@@ -55,8 +56,7 @@
         "Medicare Advantage Hmo Vs Ppo",
         "Medicare Advantage Out Of Pocket Maximum",
         "Medicare Advantage Pros And Cons",
-        "Medicare Advantage Vs Original Medicare",
-        "Medicare Advantage Vs Supplement Cost Comparison"
+        "Medicare Advantage Vs Original Medicare"
       ],
       "videos": [
         {
@@ -1094,7 +1094,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 58,
+      "articles": 60,
       "article_titles": [
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
@@ -1186,35 +1186,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 758,
-        "visits": 758,
-        "unique_visitors": 702,
-        "daily": [
-          {
-            "date": "2026-06-01",
-            "pageViews": 194
-          },
-          {
-            "date": "2026-06-02",
-            "pageViews": 157
-          },
-          {
-            "date": "2026-06-03",
-            "pageViews": 89
-          },
-          {
-            "date": "2026-06-04",
-            "pageViews": 122
-          },
-          {
-            "date": "2026-06-05",
-            "pageViews": 140
-          },
-          {
-            "date": "2026-06-06",
-            "pageViews": 56
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1231,11 +1206,12 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
         "Best Online Therapy Platforms 2026",
+        "Best Therapy Apps For Daily Mental Health Support",
         "Betterhelp Vs Talkspace Comparison",
         "Child Therapy Guide For Parents",
         "Cognitive Behavioral Therapy Explained",
@@ -1251,8 +1227,7 @@
         "Free Mental Health Resources And Hotlines",
         "Fsa Hsa For Therapy Costs",
         "Grief Counseling Guide",
-        "Group Therapy Benefits",
-        "How Long Does Therapy Take"
+        "Group Therapy Benefits"
       ],
       "videos": [
         {
@@ -1368,7 +1343,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 65,
+      "articles": 67,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1380,6 +1355,7 @@
         "Cat Dental Disease Signs",
         "Cat Hiding Behavior Explained",
         "Cat Kidney Disease Diet",
+        "Cat Not Eating For 2 Days But Acting Normal Causes",
         "Cat Not Using Litter Box Causes",
         "Cat Obesity Health Risks",
         "Cat Post Surgery Care",
@@ -1388,8 +1364,7 @@
         "Cat Vomiting When To Worry",
         "Common Health Problems In French Bulldogs",
         "Dog Allergies Symptoms Treatment",
-        "Dog Annual Physical Exam Guide",
-        "Dog Anxiety Treatment Options"
+        "Dog Annual Physical Exam Guide"
       ],
       "videos": [
         {
@@ -1642,7 +1617,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 77,
+      "articles": 79,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
