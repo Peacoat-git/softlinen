@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T02:32:25.324382+00:00",
+  "generated_at": "2026-06-08T10:14:46.811133+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-08"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 21134,
     "visits": 21134,
-    "articles": 1017,
+    "articles": 1019,
     "videos": 118,
     "channels": 14,
-    "yt_views": 1401,
+    "yt_views": 1405,
     "sites": 15
   },
   "adsense_connected": true,
@@ -1451,7 +1451,7 @@
           "standard_id": "Gde3LJgCS-M",
           "standard_url": "https://www.youtube.com/watch?v=Gde3LJgCS-M",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
@@ -1462,7 +1462,7 @@
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
           },
-          "total_views": 3
+          "total_views": 4
         },
         {
           "shorts_id": "d0E4Lv8yUtw",
@@ -1528,7 +1528,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 33
+      "yt_total_views": 34
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1885,7 +1885,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 66,
+      "articles": 68,
       "article_titles": [
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
@@ -1924,12 +1924,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 10,
+            "views": 11,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 41
+          "total_views": 42
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1995,7 +1995,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 197
+      "yt_total_views": 198
     },
     {
       "slug": "rv-life-guide",
@@ -2371,7 +2371,7 @@
           "standard_id": "Fvnj3gAgAM0",
           "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
           "shorts_stats": {
-            "views": 17,
+            "views": 19,
             "likes": 0,
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
@@ -2382,7 +2382,7 @@
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
           },
-          "total_views": 17
+          "total_views": 19
         },
         {
           "shorts_id": "V4Y6Y9bF_-o",
@@ -2448,7 +2448,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 112
+      "yt_total_views": 114
     }
   ]
 }
