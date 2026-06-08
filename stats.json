@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T15:27:37.273307+00:00",
+  "generated_at": "2026-06-08T19:59:10.172907+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-08"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 21134,
     "visits": 21134,
-    "articles": 1029,
+    "articles": 1039,
     "videos": 120,
     "channels": 14,
-    "yt_views": 1404,
+    "yt_views": 1403,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 59,
+      "articles": 61,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -50,13 +50,13 @@
         "How Does Medicare Work",
         "How Much Does Medigap Cost",
         "How To Choose Medicare Part D Plan",
+        "Irmaa Medicare Surcharge 2026",
         "Is Medicare Advantage Right For You",
         "Medicare 2000 Out Of Pocket Cap Drugs",
         "Medicare Advantage Dental Coverage",
         "Medicare Advantage Hmo Vs Ppo",
         "Medicare Advantage Out Of Pocket Maximum",
-        "Medicare Advantage Pros And Cons",
-        "Medicare Advantage Vs Original Medicare"
+        "Medicare Advantage Pros And Cons"
       ],
       "videos": [
         {
@@ -1136,8 +1136,9 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 60,
+      "articles": 62,
       "article_titles": [
+        "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
         "Are You Ready To Buy A Home",
         "Best Mortgage Lenders For First Time Home Buyers 2026",
@@ -1156,8 +1157,7 @@
         "Heloc Vs Home Equity Loan Which Should I Choose",
         "Heloc Vs Home Equity Loan",
         "Home Equity Loan Rates",
-        "Home Loan Application Checklist",
-        "Homeowners Insurance Mortgage Requirement"
+        "Home Loan Application Checklist"
       ],
       "videos": [
         {
@@ -1277,7 +1277,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 65,
+      "articles": 67,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1418,7 +1418,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 67,
+      "articles": 69,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1438,8 +1438,8 @@
         "Cat Urinary Tract Infection Signs",
         "Cat Vomiting When To Worry",
         "Common Health Problems In French Bulldogs",
-        "Dog Allergies Symptoms Treatment",
-        "Dog Annual Physical Exam Guide"
+        "Cost Of Professional Dog Teeth Cleaning Under Anesthesia 2026",
+        "Dog Allergies Symptoms Treatment"
       ],
       "videos": [
         {
@@ -1473,7 +1473,7 @@
           "standard_id": "Gde3LJgCS-M",
           "standard_url": "https://www.youtube.com/watch?v=Gde3LJgCS-M",
           "shorts_stats": {
-            "views": 3,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
@@ -1484,7 +1484,7 @@
             "comments": 0,
             "title": "3 First Vet Visit Mistakes That Cost Your Dog's Health"
           },
-          "total_views": 4
+          "total_views": 3
         },
         {
           "shorts_id": "d0E4Lv8yUtw",
@@ -1550,7 +1550,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 34
+      "yt_total_views": 33
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1700,7 +1700,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 79,
+      "articles": 81,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
