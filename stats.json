@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T10:14:46.811133+00:00",
+  "generated_at": "2026-06-08T15:27:37.273307+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-08"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 21134,
     "visits": 21134,
-    "articles": 1019,
-    "videos": 118,
+    "articles": 1029,
+    "videos": 120,
     "channels": 14,
-    "yt_views": 1405,
+    "yt_views": 1404,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 118,
-    "credits_used": 80.24,
-    "est_remaining": 70.17,
-    "pct_remaining": 46.7,
+    "renders_since_baseline": 120,
+    "credits_used": 81.6,
+    "est_remaining": 68.81,
+    "pct_remaining": 45.7,
     "days_until_renewal": 10
   },
   "sites": [
@@ -264,13 +264,14 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
         "Best Solar Companies 2026",
         "Best Solar Financing Options",
         "Best Solar Panels For Home 2026",
+        "Best States For Solar Energy Savings",
         "Can Solar Panels Power A Whole House Off Grid",
         "Do Solar Panels Work In Winter",
         "Energy Independence With Solar And Battery",
@@ -284,8 +285,7 @@
         "How Long Do Solar Panels Last",
         "How Long To Pay Off Solar Panels",
         "How Many Kwh Does A Solar Panel Produce Per Day",
-        "How Many Solar Panels Do I Need",
-        "How Much Do Solar Panels Cost 2026"
+        "How Many Solar Panels Do I Need"
       ],
       "videos": [
         {
@@ -457,12 +457,12 @@
             "title": "Solar Calculators Lied to This Homeowner by $600/Year"
           },
           "standard_stats": {
-            "views": 1,
+            "views": 0,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Lied to This Homeowner by $600/Year"
           },
-          "total_views": 1
+          "total_views": 0
         },
         {
           "shorts_id": "_Ow6aYYFuSk",
@@ -550,7 +550,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 534
+      "yt_total_views": 533
     },
     {
       "slug": "solar-home-planner",
@@ -766,7 +766,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 70,
+      "articles": 72,
       "article_titles": [
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
@@ -929,7 +929,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -946,13 +946,35 @@
         "Home Insurance Dispute Resolution",
         "Home Insurance Dwelling Coverage",
         "Home Insurance Earthquake Coverage",
+        "Home Insurance Electronics Coverage",
         "Home Insurance Extended Replacement Cost",
         "Home Insurance Flood Coverage",
         "Home Insurance For First Time Buyers",
-        "Home Insurance For Investment Property",
-        "Home Insurance For New Construction"
+        "Home Insurance For Investment Property"
       ],
       "videos": [
+        {
+          "shorts_id": "5Fa6XDOsJOw",
+          "shorts_url": "https://www.youtube.com/shorts/5Fa6XDOsJOw",
+          "title": "The $110K Insurance Gap Most Homeowners Don't Know About",
+          "article_slug": "what-is-dwelling-coverage-in-home-insurance",
+          "published_at": "2026-06-08T14:51:29.304921+00:00",
+          "standard_id": "KCogNM4bLkk",
+          "standard_url": "https://www.youtube.com/watch?v=KCogNM4bLkk",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $110K Insurance Gap Most Homeowners Don't Know About"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $110K Insurance Gap Most Homeowners Don't Know About"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "SR1eMcjnRpw",
           "shorts_url": "https://www.youtube.com/shorts/SR1eMcjnRpw",
@@ -2145,11 +2167,12 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 80,
+      "articles": 82,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Associate Producer To Producer How To Level Up",
+        "Avoiding Scope Creep In Game Production",
         "Best Project Management Tools For Game Studios",
         "Burnout In Game Development The Year 5 Cliff",
         "Capacity Planning For Game Development Teams",
@@ -2165,8 +2188,7 @@
         "Game Producer Interview Questions And Answers",
         "Game Producer Portfolio What To Show Hiring Managers",
         "Game Producer Resume Tips What Hiring Managers Look For",
-        "Game Producer Salary Ranges By Studio Size And Role",
-        "Game Producer Tools And Software For Project Management"
+        "Game Producer Salary Ranges By Studio Size And Role"
       ],
       "videos": [],
       "cloudflare": {
@@ -2338,7 +2360,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 60,
+      "articles": 62,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
