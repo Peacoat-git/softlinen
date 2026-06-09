@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T14:18:42.272500+00:00",
+  "generated_at": "2026-06-09T19:54:50.948231+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-09"
@@ -8,8 +8,8 @@
     "revenue": 0,
     "page_views": 24386,
     "visits": 24386,
-    "articles": 1059,
-    "videos": 120,
+    "articles": 1069,
+    "videos": 122,
     "channels": 14,
     "yt_views": 1415,
     "sites": 15
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 120,
-    "credits_used": 81.6,
-    "est_remaining": 68.81,
-    "pct_remaining": 45.7,
+    "renders_since_baseline": 122,
+    "credits_used": 82.96,
+    "est_remaining": 67.45,
+    "pct_remaining": 44.8,
     "days_until_renewal": 9
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 61,
+      "articles": 63,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -59,6 +59,28 @@
         "Medicare Advantage Pros And Cons"
       ],
       "videos": [
+        {
+          "shorts_id": "h52_WE8fnF4",
+          "shorts_url": "https://www.youtube.com/shorts/h52_WE8fnF4",
+          "title": "The Medicare Deadline Mistake That Costs You For Life (Not Fixable)",
+          "article_slug": "missing-medicare-enrollment-window",
+          "published_at": "2026-06-09T14:50:22.534885+00:00",
+          "standard_id": "85U-bXlSPag",
+          "standard_url": "https://www.youtube.com/watch?v=85U-bXlSPag",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The Medicare Deadline Mistake That Costs You For Life (Not Fixable)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The Medicare Deadline Mistake That Costs You For Life (Not Fixable)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "MgLAI3O-IyY",
           "shorts_url": "https://www.youtube.com/shorts/MgLAI3O-IyY",
@@ -373,12 +395,12 @@
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
           "standard_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Zero Down Solar Is Real \u2014 Here's the Trap Most Homeowners Miss"
           },
-          "total_views": 86
+          "total_views": 87
         },
         {
           "shorts_id": "yHGlLIXx8sE",
@@ -558,7 +580,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 535
+      "yt_total_views": 536
     },
     {
       "slug": "solar-home-planner",
@@ -978,7 +1000,7 @@
           "standard_id": "KCogNM4bLkk",
           "standard_url": "https://www.youtube.com/watch?v=KCogNM4bLkk",
           "shorts_stats": {
-            "views": 1,
+            "views": 0,
             "likes": 0,
             "comments": 0,
             "title": "The $110K Insurance Gap Most Homeowners Don't Know About"
@@ -989,7 +1011,7 @@
             "comments": 0,
             "title": "The $110K Insurance Gap Most Homeowners Don't Know About"
           },
-          "total_views": 1
+          "total_views": 0
         },
         {
           "shorts_id": "SR1eMcjnRpw",
@@ -1147,7 +1169,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 53
+      "yt_total_views": 52
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1156,7 +1178,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 62,
+      "articles": 64,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1301,7 +1323,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 67,
+      "articles": 69,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1314,6 +1336,7 @@
         "Could Talking To Someone Help Right Now",
         "Couples Therapy How It Works",
         "Dbt Therapy What Is It",
+        "Difference Between Psychologist Psychiatrist And Therapist",
         "Does Insurance Cover Therapy",
         "Emdr Therapy Explained",
         "Family Therapy Benefits",
@@ -1321,8 +1344,7 @@
         "Finding A Therapist That Takes Insurance",
         "Free Mental Health Resources And Hotlines",
         "Fsa Hsa For Therapy Costs",
-        "Grief Counseling Guide",
-        "Group Therapy Benefits"
+        "Grief Counseling Guide"
       ],
       "videos": [
         {
@@ -1446,7 +1468,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 69,
+      "articles": 71,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1736,12 +1758,13 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 81,
+      "articles": 83,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
         "Best Keto Sweeteners",
         "Best Protein Sources Keto",
+        "Butter On Keto",
         "Cyclical Keto Diet",
         "Dirty Keto Vs Clean Keto",
         "Easy Keto Meals",
@@ -1756,8 +1779,7 @@
         "How To Make Keto Bread Without Almond Flour",
         "How To Meal Prep Keto Lunches For The Week",
         "How To Start Keto",
-        "Is Keto Right For You",
-        "Is Keto Safe Long Term"
+        "Is Keto Right For You"
       ],
       "videos": [
         {
