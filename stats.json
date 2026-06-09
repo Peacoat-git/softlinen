@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-08T19:59:10.172907+00:00",
+  "generated_at": "2026-06-09T01:26:08.346074+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-08"
+    "end": "2026-06-09"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 21134,
-    "visits": 21134,
-    "articles": 1039,
+    "page_views": 24386,
+    "visits": 24386,
+    "articles": 1047,
     "videos": 120,
     "channels": 14,
-    "yt_views": 1403,
+    "yt_views": 1407,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 81.6,
     "est_remaining": 68.81,
     "pct_remaining": 45.7,
-    "days_until_renewal": 10
+    "days_until_renewal": 9
   },
   "sites": [
     {
@@ -215,9 +215,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1341,
-        "visits": 1341,
-        "unique_visitors": 911,
+        "page_views": 1514,
+        "visits": 1514,
+        "unique_visitors": 1035,
         "daily": [
           {
             "date": "2026-06-01",
@@ -246,6 +246,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 163
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 173
           }
         ]
       },
@@ -303,12 +307,12 @@
             "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -510,9 +514,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1257,
-        "visits": 1257,
-        "unique_visitors": 1005,
+        "page_views": 1411,
+        "visits": 1411,
+        "unique_visitors": 1168,
         "daily": [
           {
             "date": "2026-06-01",
@@ -541,6 +545,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 202
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 154
           }
         ]
       },
@@ -550,7 +558,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 533
+      "yt_total_views": 534
     },
     {
       "slug": "solar-home-planner",
@@ -559,7 +567,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 66,
+      "articles": 68,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -717,9 +725,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1162,
-        "visits": 1162,
-        "unique_visitors": 852,
+        "page_views": 1379,
+        "visits": 1379,
+        "unique_visitors": 995,
         "daily": [
           {
             "date": "2026-06-01",
@@ -748,6 +756,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 211
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 217
           }
         ]
       },
@@ -880,9 +892,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 759,
-        "visits": 759,
-        "unique_visitors": 671,
+        "page_views": 889,
+        "visits": 889,
+        "unique_visitors": 826,
         "daily": [
           {
             "date": "2026-06-01",
@@ -911,6 +923,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 161
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 130
           }
         ]
       },
@@ -962,7 +978,7 @@
           "standard_id": "KCogNM4bLkk",
           "standard_url": "https://www.youtube.com/watch?v=KCogNM4bLkk",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "The $110K Insurance Gap Most Homeowners Don't Know About"
@@ -973,7 +989,7 @@
             "comments": 0,
             "title": "The $110K Insurance Gap Most Homeowners Don't Know About"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "SR1eMcjnRpw",
@@ -1087,9 +1103,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1759,
-        "visits": 1759,
-        "unique_visitors": 1018,
+        "page_views": 1905,
+        "visits": 1905,
+        "unique_visitors": 1170,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1118,6 +1134,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 287
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 146
           }
         ]
       },
@@ -1127,7 +1147,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 52
+      "yt_total_views": 53
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1228,9 +1248,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 954,
-        "visits": 954,
-        "unique_visitors": 802,
+        "page_views": 1139,
+        "visits": 1139,
+        "unique_visitors": 909,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1259,6 +1279,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 196
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 185
           }
         ]
       },
@@ -1369,9 +1393,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1056,
-        "visits": 1056,
-        "unique_visitors": 834,
+        "page_views": 1164,
+        "visits": 1164,
+        "unique_visitors": 947,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1400,6 +1424,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 321
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 108
           }
         ]
       },
@@ -1510,9 +1538,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1812,
-        "visits": 1812,
-        "unique_visitors": 1061,
+        "page_views": 1984,
+        "visits": 1984,
+        "unique_visitors": 1229,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1541,6 +1569,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 350
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 172
           }
         ]
       },
@@ -1559,13 +1591,14 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 61,
+      "articles": 63,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
         "Are You Ready To Start A Business",
         "Best Business Checking Account For Llc No Monthly Fee",
         "Break Even Analysis Explained",
+        "Business Acquisition Loan",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
@@ -1579,8 +1612,7 @@
         "Home Office Deduction Rules",
         "How Much Does General Liability Insurance Cost For Small Business",
         "How To Build Business Credit Score Fast",
-        "How To Calculate Quarterly Estimated Taxes For Self Employed",
-        "How To Get A Small Business Loan"
+        "How To Calculate Quarterly Estimated Taxes For Self Employed"
       ],
       "videos": [
         {
@@ -1651,9 +1683,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1185,
-        "visits": 1185,
-        "unique_visitors": 884,
+        "page_views": 1391,
+        "visits": 1391,
+        "unique_visitors": 1041,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1682,6 +1714,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 298
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 206
           }
         ]
       },
@@ -1858,9 +1894,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1021,
-        "visits": 1021,
-        "unique_visitors": 812,
+        "page_views": 1281,
+        "visits": 1281,
+        "unique_visitors": 972,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1889,6 +1925,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 210
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 260
           }
         ]
       },
@@ -1940,7 +1980,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 31,
+            "views": 33,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -1951,7 +1991,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 42
+          "total_views": 44
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -1977,9 +2017,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1631,
-        "visits": 1631,
-        "unique_visitors": 1187,
+        "page_views": 1967,
+        "visits": 1967,
+        "unique_visitors": 1373,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2008,6 +2048,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 304
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 336
           }
         ]
       },
@@ -2017,7 +2061,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 198
+      "yt_total_views": 200
     },
     {
       "slug": "rv-life-guide",
@@ -2026,7 +2070,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2035,6 +2079,7 @@
         "Best Free Camping Apps",
         "Best Rv Brands Reliability",
         "Best Rv Campgrounds Usa",
+        "Best Rv Camping Memberships To Save Money",
         "Best Rv For Full Time Living",
         "Best Travel Trailers Full Time",
         "Best Truck For Towing A Fifth Wheel Full Time",
@@ -2046,8 +2091,7 @@
         "Dispersed Camping Guide",
         "Fifth Wheel Vs Travel Trailer",
         "Full Time Rv Living Guide",
-        "Full Time Rv Living Vs Van Life Pros And Cons",
-        "Harvest Hosts Membership"
+        "Full Time Rv Living Vs Van Life Pros And Cons"
       ],
       "videos": [
         {
@@ -2118,9 +2162,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1160,
-        "visits": 1160,
-        "unique_visitors": 843,
+        "page_views": 1748,
+        "visits": 1748,
+        "unique_visitors": 1031,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2149,6 +2193,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 185
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 588
           }
         ]
       },
@@ -2192,9 +2240,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2768,
-        "visits": 2768,
-        "unique_visitors": 1090,
+        "page_views": 2892,
+        "visits": 2892,
+        "unique_visitors": 1225,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2223,6 +2271,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 290
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 124
           }
         ]
       },
@@ -2241,7 +2293,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 85,
+      "articles": 87,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2252,6 +2304,7 @@
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
         "Best Exercise Routine For 65 Year Old Woman",
+        "Best Exercise Routine For 70 Year Old Man",
         "Best Hearing Aids For Seniors 2026 Guide",
         "Best Low Impact Exercises For Bad Knees",
         "Best Low Impact Exercises For Seniors With Arthritis",
@@ -2261,8 +2314,7 @@
         "Best Pedometer For Seniors Easy To Use",
         "Best Protein Foods For Seniors To Maintain Muscle",
         "Best Protein Sources For Seniors Building Muscle",
-        "Best Resistance Bands For Seniors Tested And Ranked",
-        "Best Strength Exercises For Seniors At Home"
+        "Best Resistance Bands For Seniors Tested And Ranked"
       ],
       "videos": [
         {
@@ -2311,9 +2363,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1676,
-        "visits": 1676,
-        "unique_visitors": 1067,
+        "page_views": 1985,
+        "visits": 1985,
+        "unique_visitors": 1194,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2342,6 +2394,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 403
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 309
           }
         ]
       },
@@ -2430,9 +2486,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1593,
-        "visits": 1593,
-        "unique_visitors": 1064,
+        "page_views": 1737,
+        "visits": 1737,
+        "unique_visitors": 1207,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2461,6 +2517,10 @@
           {
             "date": "2026-06-07",
             "pageViews": 277
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 144
           }
         ]
       },
