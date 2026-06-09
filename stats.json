@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T01:56:49.612340+00:00",
+  "generated_at": "2026-06-09T08:57:25.335695+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-09"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 24386,
     "visits": 24386,
-    "articles": 1047,
+    "articles": 1049,
     "videos": 120,
     "channels": 14,
-    "yt_views": 1407,
+    "yt_views": 1412,
     "sites": 15
   },
   "adsense_connected": true,
@@ -1485,12 +1485,12 @@
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
           },
-          "total_views": 13
+          "total_views": 14
         },
         {
           "shorts_id": "smBqOQlgT3M",
@@ -1529,12 +1529,12 @@
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
           },
           "standard_stats": {
-            "views": 0,
-            "likes": 0,
+            "views": 2,
+            "likes": 1,
             "comments": 0,
             "title": "3 Must-Know Tips Before Your Dog's First Vet Visit"
           },
-          "total_views": 17
+          "total_views": 19
         }
       ],
       "cloudflare": {
@@ -1582,7 +1582,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 33
+      "yt_total_views": 36
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1947,7 +1947,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
@@ -1967,8 +1967,8 @@
         "Chicken Feed Types Explained",
         "Chicken Health Problems",
         "Chicken Lice Treatment",
-        "Chicken Ordinances By City",
-        "Chicken Pecking Order"
+        "Chicken Manure Fertilizer",
+        "Chicken Ordinances By City"
       ],
       "videos": [
         {
@@ -2008,12 +2008,12 @@
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
           "standard_stats": {
-            "views": 14,
+            "views": 15,
             "likes": 0,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 156
+          "total_views": 157
         }
       ],
       "cloudflare": {
@@ -2061,7 +2061,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 200
+      "yt_total_views": 201
     },
     {
       "slug": "rv-life-guide",
@@ -2109,12 +2109,12 @@
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "DzS5HtoTul0",
@@ -2206,7 +2206,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 51
+      "yt_total_views": 52
     },
     {
       "slug": "gamedevproducer",
