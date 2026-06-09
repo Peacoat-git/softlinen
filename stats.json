@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T08:57:25.335695+00:00",
+  "generated_at": "2026-06-09T14:18:42.272500+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-09"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 24386,
     "visits": 24386,
-    "articles": 1049,
+    "articles": 1059,
     "videos": 120,
     "channels": 14,
-    "yt_views": 1412,
+    "yt_views": 1415,
     "sites": 15
   },
   "adsense_connected": true,
@@ -268,7 +268,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 70,
+      "articles": 72,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -281,6 +281,7 @@
         "Energy Independence With Solar And Battery",
         "Enphase Iq Battery Review",
         "Ev Charging And Solar Panels Home",
+        "Federal Solar Tax Credit 2026 Explained",
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
         "Hoa Solar Panel Rules",
@@ -288,8 +289,7 @@
         "How Long Do Solar Batteries Last",
         "How Long Do Solar Panels Last",
         "How Long To Pay Off Solar Panels",
-        "How Many Kwh Does A Solar Panel Produce Per Day",
-        "How Many Solar Panels Do I Need"
+        "How Many Kwh Does A Solar Panel Produce Per Day"
       ],
       "videos": [
         {
@@ -351,12 +351,12 @@
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
           "standard_stats": {
-            "views": 8,
+            "views": 9,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 134
+          "total_views": 135
         },
         {
           "shorts_id": "Xkp2j1dtURE",
@@ -558,7 +558,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 534
+      "yt_total_views": 535
     },
     {
       "slug": "solar-home-planner",
@@ -628,12 +628,12 @@
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
           "standard_stats": {
-            "views": 8,
+            "views": 9,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 134
+          "total_views": 135
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -769,7 +769,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 354
+      "yt_total_views": 355
     },
     {
       "slug": "injury-victim-guide",
@@ -778,8 +778,9 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 72,
+      "articles": 74,
       "article_titles": [
+        "Average Payout For Soft Tissue Injury Car Accident",
         "Average Personal Injury Settlement Amounts",
         "Back Injury Settlement Amounts Car Accident",
         "Bad Faith Insurance Claim Explained",
@@ -798,8 +799,7 @@
         "Drunk Driver Accident Injury Lawsuit",
         "Factors That Increase Settlement Value",
         "Hit And Run Accident Injury Claim",
-        "How Insurance Companies Calculate Settlements",
-        "How Long Do Personal Injury Cases Take"
+        "How Insurance Companies Calculate Settlements"
       ],
       "videos": [
         {
@@ -945,7 +945,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 65,
+      "articles": 67,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -954,6 +954,7 @@
         "Does Home Insurance Cover Roof Leaks",
         "Does Homeowners Insurance Cover Water Damage",
         "Escrow And Home Insurance",
+        "Home Insurance After Refinancing",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Collectibles Coverage",
@@ -965,8 +966,7 @@
         "Home Insurance Electronics Coverage",
         "Home Insurance Extended Replacement Cost",
         "Home Insurance Flood Coverage",
-        "Home Insurance For First Time Buyers",
-        "Home Insurance For Investment Property"
+        "Home Insurance For First Time Buyers"
       ],
       "videos": [
         {
@@ -1986,12 +1986,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 11,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 44
+          "total_views": 45
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2061,7 +2061,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 201
+      "yt_total_views": 202
     },
     {
       "slug": "rv-life-guide",
@@ -2215,7 +2215,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 82,
+      "articles": 84,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Art Debt In Game Production What It Is And How To Manage It",
@@ -2236,7 +2236,7 @@
         "Game Producer Interview Questions And Answers",
         "Game Producer Portfolio What To Show Hiring Managers",
         "Game Producer Resume Tips What Hiring Managers Look For",
-        "Game Producer Salary Ranges By Studio Size And Role"
+        "Game Producer Salary Guide Explained"
       ],
       "videos": [],
       "cloudflare": {
@@ -2416,7 +2416,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 62,
+      "articles": 64,
       "article_titles": [
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
@@ -2425,6 +2425,7 @@
         "How To Fix A Door That Wont Latch",
         "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
+        "How To Fix A Leaking Shower Valve Behind The Wall",
         "How To Fix A Leaky Faucet",
         "How To Fix A Leaky Outdoor Faucet",
         "How To Fix A Noisy Furnace",
@@ -2433,11 +2434,10 @@
         "How To Fix A Sagging Ceiling",
         "How To Fix A Shower That Drips When Turned Off",
         "How To Fix A Sliding Door That Wont Slide",
+        "How To Fix A Slow Draining Shower Without Chemicals",
         "How To Fix A Sticking Door",
         "How To Fix A Tile That Has Come Loose",
-        "How To Fix A Water Damaged Ceiling",
-        "How To Fix Low Water Pressure In Your Home",
-        "How To Install A Deadbolt Lock"
+        "How To Fix A Water Damaged Ceiling"
       ],
       "videos": [
         {
