@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T20:09:00.759664+00:00",
+  "generated_at": "2026-06-10T21:25:22.814872+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-10"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 28392,
     "visits": 28392,
-    "articles": 1098,
+    "articles": 1100,
     "videos": 128,
     "channels": 14,
-    "yt_views": 1421,
+    "yt_views": 1422,
     "sites": 15
   },
   "adsense_connected": true,
@@ -327,7 +327,7 @@
           "standard_id": "M4NY-Gqak5A",
           "standard_url": "https://www.youtube.com/watch?v=M4NY-Gqak5A",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why Solar Calculators Get Your Home Size Wrong (The Real Number)"
@@ -338,7 +338,7 @@
             "comments": 0,
             "title": "Why Solar Calculators Get Your Home Size Wrong (The Real Number)"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "DNhB_7ypnq8",
@@ -610,7 +610,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 536
+      "yt_total_views": 537
     },
     {
       "slug": "solar-home-planner",
@@ -2202,7 +2202,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 72,
+      "articles": 74,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
