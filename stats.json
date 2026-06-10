@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T14:49:21.281137+00:00",
+  "generated_at": "2026-06-10T20:09:00.759664+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-10"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 28392,
     "visits": 28392,
-    "articles": 1089,
-    "videos": 124,
+    "articles": 1098,
+    "videos": 128,
     "channels": 14,
-    "yt_views": 1420,
+    "yt_views": 1421,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 124,
-    "credits_used": 84.32,
-    "est_remaining": 66.09,
-    "pct_remaining": 43.9,
+    "renders_since_baseline": 128,
+    "credits_used": 87.04,
+    "est_remaining": 63.37,
+    "pct_remaining": 42.1,
     "days_until_renewal": 8
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -318,6 +318,28 @@
         "How Many Kwh Does A Solar Panel Produce Per Day"
       ],
       "videos": [
+        {
+          "shorts_id": "8KFPwhWdjTE",
+          "shorts_url": "https://www.youtube.com/shorts/8KFPwhWdjTE",
+          "title": "Why Solar Calculators Get Your Home Size Wrong (The Real Number)",
+          "article_slug": "what-size-solar-system-for-2000-sq-ft-home",
+          "published_at": "2026-06-10T15:36:36.517648+00:00",
+          "standard_id": "M4NY-Gqak5A",
+          "standard_url": "https://www.youtube.com/watch?v=M4NY-Gqak5A",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Solar Calculators Get Your Home Size Wrong (The Real Number)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Solar Calculators Get Your Home Size Wrong (The Real Number)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "DNhB_7ypnq8",
           "shorts_url": "https://www.youtube.com/shorts/DNhB_7ypnq8",
@@ -622,6 +644,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "TUYfMfIX63E",
+          "shorts_url": "https://www.youtube.com/shorts/TUYfMfIX63E",
+          "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)",
+          "article_slug": "whole-home-solar-backup-system",
+          "published_at": "2026-06-10T15:28:04.338108+00:00",
+          "standard_id": "EbFy1lIwBtg",
+          "standard_url": "https://www.youtube.com/watch?v=EbFy1lIwBtg",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
+          },
+          "total_views": 1
+        },
+        {
           "shorts_id": "Zh28KoFedbc",
           "shorts_url": "https://www.youtube.com/shorts/Zh28KoFedbc",
           "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)",
@@ -803,7 +847,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 355
+      "yt_total_views": 356
     },
     {
       "slug": "injury-victim-guide",
@@ -1198,7 +1242,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 64,
+      "articles": 66,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1206,6 +1250,7 @@
         "Best Mortgage Lenders For First Time Home Buyers 2026",
         "Break Even Refinance Analysis",
         "Cash Out Refinance Explained",
+        "Cash Out Refinance Vs Home Equity Loan Comparison",
         "Closing Disclosure Explained",
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
@@ -1218,8 +1263,7 @@
         "Fixed Vs Adjustable Rate Mortgage",
         "Heloc Vs Home Equity Loan Which Should I Choose",
         "Heloc Vs Home Equity Loan",
-        "Home Equity Loan Rates",
-        "Home Loan Application Checklist"
+        "Home Equity Loan Rates"
       ],
       "videos": [
         {
@@ -1347,13 +1391,14 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 69,
+      "articles": 71,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
         "Best Online Therapy Platforms 2026",
         "Best Therapy Apps For Daily Mental Health Support",
         "Betterhelp Vs Talkspace Comparison",
+        "Cbt Vs Dbt Therapy What Is The Difference",
         "Child Therapy Guide For Parents",
         "Cognitive Behavioral Therapy Explained",
         "Community Mental Health Center Access",
@@ -1362,13 +1407,12 @@
         "Dbt Therapy What Is It",
         "Difference Between Psychologist Psychiatrist And Therapist",
         "Does Insurance Cover Therapy",
+        "Does Marriage Counseling Actually Work",
         "Emdr Therapy Explained",
         "Family Therapy Benefits",
         "Federally Qualified Health Center Therapy",
         "Finding A Therapist That Takes Insurance",
-        "Free Mental Health Resources And Hotlines",
-        "Fsa Hsa For Therapy Costs",
-        "Grief Counseling Guide"
+        "Free Mental Health Resources And Hotlines"
       ],
       "videos": [
         {
@@ -1496,10 +1540,11 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 71,
+      "articles": 73,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
+        "Best High Protein Dog Food For Weight Loss",
         "Best Supplements For Senior Dogs With Arthritis",
         "Blood Work For Dogs Explained",
         "Can I Give My Dog Benadryl For Allergies Dosage Chart",
@@ -1516,8 +1561,7 @@
         "Cat Urinary Tract Infection Signs",
         "Cat Vomiting When To Worry",
         "Common Health Problems In French Bulldogs",
-        "Cost Of Professional Dog Teeth Cleaning Under Anesthesia 2026",
-        "Dog Allergies Symptoms Treatment"
+        "Cost Of Professional Dog Teeth Cleaning Under Anesthesia 2026"
       ],
       "videos": [
         {
@@ -1794,7 +1838,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 83,
+      "articles": 84,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -1810,12 +1854,12 @@
         "How Fast Keto Weight Loss",
         "How Long To Enter Ketosis",
         "How Much Protein Should I Eat On Keto",
+        "How To Become Fat Adapted",
         "How To Break A Keto Weight Loss Plateau",
         "How To Calculate Net Carbs On Keto",
         "How To Make Keto Bread Without Almond Flour",
         "How To Meal Prep Keto Lunches For The Week",
-        "How To Start Keto",
-        "Is Keto Right For You"
+        "How To Start Keto"
       ],
       "videos": [
         {
