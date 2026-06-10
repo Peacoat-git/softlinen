@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T09:38:11.286517+00:00",
+  "generated_at": "2026-06-10T14:49:21.281137+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-10"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 28392,
     "visits": 28392,
-    "articles": 1079,
-    "videos": 122,
+    "articles": 1089,
+    "videos": 124,
     "channels": 14,
-    "yt_views": 1418,
+    "yt_views": 1420,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 122,
-    "credits_used": 82.96,
-    "est_remaining": 67.45,
-    "pct_remaining": 44.8,
+    "renders_since_baseline": 124,
+    "credits_used": 84.32,
+    "est_remaining": 66.09,
+    "pct_remaining": 43.9,
     "days_until_renewal": 8
   },
   "sites": [
@@ -294,7 +294,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 72,
+      "articles": 74,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -812,7 +812,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 74,
+      "articles": 76,
       "article_titles": [
         "Average Payout For Soft Tissue Injury Car Accident",
         "Average Personal Injury Settlement Amounts",
@@ -983,7 +983,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 67,
+      "articles": 69,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -2034,6 +2034,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "TZQVPVg_sS8",
+          "shorts_url": "https://www.youtube.com/shorts/TZQVPVg_sS8",
+          "title": "Your Sick Chicken Is Hiding It (3 Warning Signs You're Missing)",
+          "article_slug": "sick-chicken-symptoms",
+          "published_at": "2026-06-10T14:31:18.460835+00:00",
+          "standard_id": "2wfv8jHC91I",
+          "standard_url": "https://www.youtube.com/watch?v=2wfv8jHC91I",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Sick Chicken Is Hiding It (3 Warning Signs You're Missing)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Sick Chicken Is Hiding It (3 Warning Signs You're Missing)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "g3QyszV9gJM",
           "shorts_url": "https://www.youtube.com/shorts/g3QyszV9gJM",
           "title": "Your Chickens Probably Have Worms (Here's How I Found Out)",
@@ -2042,18 +2064,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 34,
+            "views": 35,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 13,
+            "views": 14,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 47
+          "total_views": 49
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2127,7 +2149,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 204
+      "yt_total_views": 206
     },
     {
       "slug": "rv-life-guide",
@@ -2285,9 +2307,10 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
+        "Agile Vs Waterfall For Game Development",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Associate Producer To Producer How To Level Up",
         "Avoiding Scope Creep In Game Production",
@@ -2305,8 +2328,7 @@
         "Game Producer Career Path From Associate To Executive",
         "Game Producer Interview Questions And Answers",
         "Game Producer Portfolio What To Show Hiring Managers",
-        "Game Producer Resume Tips What Hiring Managers Look For",
-        "Game Producer Salary Guide Explained"
+        "Game Producer Resume Tips What Hiring Managers Look For"
       ],
       "videos": [],
       "cloudflare": {
@@ -2494,8 +2516,9 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 64,
+      "articles": 66,
       "article_titles": [
+        "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
         "How To Clean And Restore Grout",
@@ -2514,8 +2537,7 @@
         "How To Fix A Sliding Door That Wont Slide",
         "How To Fix A Slow Draining Shower Without Chemicals",
         "How To Fix A Sticking Door",
-        "How To Fix A Tile That Has Come Loose",
-        "How To Fix A Water Damaged Ceiling"
+        "How To Fix A Tile That Has Come Loose"
       ],
       "videos": [
         {
