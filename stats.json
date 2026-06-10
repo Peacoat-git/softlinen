@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-09T19:54:50.948231+00:00",
+  "generated_at": "2026-06-10T02:09:07.754245+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-09"
+    "end": "2026-06-10"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 24386,
-    "visits": 24386,
-    "articles": 1069,
+    "page_views": 28392,
+    "visits": 28392,
+    "articles": 1077,
     "videos": 122,
     "channels": 14,
-    "yt_views": 1415,
+    "yt_views": 1417,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 82.96,
     "est_remaining": 67.45,
     "pct_remaining": 44.8,
-    "days_until_renewal": 9
+    "days_until_renewal": 8
   },
   "sites": [
     {
@@ -237,9 +237,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1514,
-        "visits": 1514,
-        "unique_visitors": 1035,
+        "page_views": 1717,
+        "visits": 1717,
+        "unique_visitors": 1156,
         "daily": [
           {
             "date": "2026-06-01",
@@ -272,6 +272,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 173
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 203
           }
         ]
       },
@@ -536,9 +540,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1411,
-        "visits": 1411,
-        "unique_visitors": 1168,
+        "page_views": 2089,
+        "visits": 2089,
+        "unique_visitors": 1417,
         "daily": [
           {
             "date": "2026-06-01",
@@ -571,6 +575,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 154
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 678
           }
         ]
       },
@@ -589,7 +597,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -747,9 +755,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1379,
-        "visits": 1379,
-        "unique_visitors": 995,
+        "page_views": 1573,
+        "visits": 1573,
+        "unique_visitors": 1170,
         "daily": [
           {
             "date": "2026-06-01",
@@ -782,6 +790,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 217
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 194
           }
         ]
       },
@@ -914,9 +926,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 889,
-        "visits": 889,
-        "unique_visitors": 826,
+        "page_views": 1234,
+        "visits": 1234,
+        "unique_visitors": 957,
         "daily": [
           {
             "date": "2026-06-01",
@@ -949,6 +961,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 130
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 345
           }
         ]
       },
@@ -1125,9 +1141,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1905,
-        "visits": 1905,
-        "unique_visitors": 1170,
+        "page_views": 2038,
+        "visits": 2038,
+        "unique_visitors": 1290,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1160,6 +1176,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 146
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 133
           }
         ]
       },
@@ -1270,9 +1290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1139,
-        "visits": 1139,
-        "unique_visitors": 909,
+        "page_views": 1316,
+        "visits": 1316,
+        "unique_visitors": 1087,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1305,6 +1325,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 185
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 177
           }
         ]
       },
@@ -1415,9 +1439,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1164,
-        "visits": 1164,
-        "unique_visitors": 947,
+        "page_views": 1428,
+        "visits": 1428,
+        "unique_visitors": 1107,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1450,6 +1474,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 108
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 264
           }
         ]
       },
@@ -1560,9 +1588,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1984,
-        "visits": 1984,
-        "unique_visitors": 1229,
+        "page_views": 2407,
+        "visits": 2407,
+        "unique_visitors": 1401,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1595,6 +1623,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 172
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 423
           }
         ]
       },
@@ -1613,7 +1645,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 63,
+      "articles": 65,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1630,11 +1662,11 @@
         "Cash Flow Management Guide",
         "Cash Flow Statement Explained",
         "Cdfi Lender Small Business",
+        "Cyber Liability Insurance Small Business",
+        "Equipment Financing Explained",
         "Hiring First Employee Guide",
         "Home Office Deduction Rules",
-        "How Much Does General Liability Insurance Cost For Small Business",
-        "How To Build Business Credit Score Fast",
-        "How To Calculate Quarterly Estimated Taxes For Self Employed"
+        "How Much Does General Liability Insurance Cost For Small Business"
       ],
       "videos": [
         {
@@ -1668,7 +1700,7 @@
           "standard_id": "I3PTaAsRtWI",
           "standard_url": "https://www.youtube.com/watch?v=I3PTaAsRtWI",
           "shorts_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
@@ -1679,7 +1711,7 @@
             "comments": 0,
             "title": "Why 1 Injury Could Bankrupt Your Small Business (Workers' Comp Truth)"
           },
-          "total_views": 5
+          "total_views": 6
         },
         {
           "shorts_id": "jxqxId01aMg",
@@ -1705,9 +1737,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1391,
-        "visits": 1391,
-        "unique_visitors": 1041,
+        "page_views": 1588,
+        "visits": 1588,
+        "unique_visitors": 1243,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1740,6 +1772,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 206
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 197
           }
         ]
       },
@@ -1749,7 +1785,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 8
+      "yt_total_views": 9
     },
     {
       "slug": "keto-living-guide",
@@ -1916,9 +1952,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1281,
-        "visits": 1281,
-        "unique_visitors": 972,
+        "page_views": 1436,
+        "visits": 1436,
+        "unique_visitors": 1108,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1951,6 +1987,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 260
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 155
           }
         ]
       },
@@ -2002,7 +2042,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 33,
+            "views": 34,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2013,7 +2053,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 45
+          "total_views": 46
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2039,9 +2079,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1967,
-        "visits": 1967,
-        "unique_visitors": 1373,
+        "page_views": 2396,
+        "visits": 2396,
+        "unique_visitors": 1568,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2074,6 +2114,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 336
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 429
           }
         ]
       },
@@ -2083,7 +2127,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 202
+      "yt_total_views": 203
     },
     {
       "slug": "rv-life-guide",
@@ -2092,10 +2136,11 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 70,
+      "articles": 72,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
+        "Best Boondocking Spots On Blm Land Out West",
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
@@ -2103,6 +2148,7 @@
         "Best Rv Campgrounds Usa",
         "Best Rv Camping Memberships To Save Money",
         "Best Rv For Full Time Living",
+        "Best Rv Parks For Monthly Long Term Stays",
         "Best Travel Trailers Full Time",
         "Best Truck For Towing A Fifth Wheel Full Time",
         "Blm Land Camping Rv",
@@ -2111,9 +2157,7 @@
         "Boondocking Without Hookups",
         "Class A Vs Class B Vs Class C Rv",
         "Dispersed Camping Guide",
-        "Fifth Wheel Vs Travel Trailer",
-        "Full Time Rv Living Guide",
-        "Full Time Rv Living Vs Van Life Pros And Cons"
+        "Fifth Wheel Vs Travel Trailer"
       ],
       "videos": [
         {
@@ -2184,9 +2228,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1748,
-        "visits": 1748,
-        "unique_visitors": 1031,
+        "page_views": 1987,
+        "visits": 1987,
+        "unique_visitors": 1159,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2219,6 +2263,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 588
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 239
           }
         ]
       },
@@ -2262,9 +2310,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2892,
-        "visits": 2892,
-        "unique_visitors": 1225,
+        "page_views": 3090,
+        "visits": 3090,
+        "unique_visitors": 1367,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2297,6 +2345,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 124
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 198
           }
         ]
       },
@@ -2315,7 +2367,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 87,
+      "articles": 89,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2385,9 +2437,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1985,
-        "visits": 1985,
-        "unique_visitors": 1194,
+        "page_views": 2209,
+        "visits": 2209,
+        "unique_visitors": 1369,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2420,6 +2472,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 309
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 224
           }
         ]
       },
@@ -2508,9 +2564,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1737,
-        "visits": 1737,
-        "unique_visitors": 1207,
+        "page_views": 1884,
+        "visits": 1884,
+        "unique_visitors": 1359,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2543,6 +2599,10 @@
           {
             "date": "2026-06-08",
             "pageViews": 144
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 147
           }
         ]
       },
