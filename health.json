@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-10T15:57:27.536274+00:00",
+  "generated_at": "2026-06-11T04:49:44.690738+00:00",
   "healthy": false,
   "issue_count": 4,
   "issues": [
-    "**pet-doctor-guide**: video not run in 146h (threshold 120h)",
-    "**small-biz-finance-guide**: video not run in 145h (threshold 120h)",
+    "**pet-doctor-guide**: video not run in 159h (threshold 120h)",
+    "**small-biz-finance-guide**: video not run in 158h (threshold 120h)",
     "**TOKEN**: Search Console OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required",
     "**TOKEN**: GSC Indexing OAuth token INVALID (invalid_grant) - RE-AUTHORIZE required"
   ],
@@ -17,18 +17,18 @@
       "slug": "medicare-starter",
       "domain": "medicarestarter.com",
       "http": 200,
-      "articles": 63,
+      "articles": 65,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 23.3,
-        "created_at": "2026-06-09T16:37:34Z",
-        "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/27221090778"
+        "age_hours": 11.3,
+        "created_at": "2026-06-10T17:29:26Z",
+        "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/27293888307"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 25.3,
+        "age_hours": 38.1,
         "created_at": "2026-06-09T14:41:34Z",
         "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/27214068677"
       },
@@ -43,14 +43,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 4.9,
+        "age_hours": 17.8,
         "created_at": "2026-06-10T11:01:47Z",
         "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/27271690761"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 0.4,
+        "age_hours": 13.3,
         "created_at": "2026-06-10T15:32:03Z",
         "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/27287238115"
       },
@@ -61,18 +61,18 @@
       "slug": "solar-home-planner",
       "domain": "solarhomeplanner.com",
       "http": 200,
-      "articles": 70,
+      "articles": 72,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 16.1,
-        "created_at": "2026-06-09T23:49:19Z",
-        "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/27243313248"
+        "age_hours": 4.9,
+        "created_at": "2026-06-10T23:54:18Z",
+        "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/27314088225"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 0.6,
+        "age_hours": 13.5,
         "created_at": "2026-06-10T15:20:56Z",
         "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/27286620978"
       },
@@ -87,14 +87,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1.5,
+        "age_hours": 14.3,
         "created_at": "2026-06-10T14:29:08Z",
         "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/27283446091"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 50.0,
+        "age_hours": 62.9,
         "created_at": "2026-06-08T13:57:58Z",
         "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/27142775802"
       },
@@ -109,14 +109,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.0,
         "created_at": "2026-06-10T12:47:07Z",
         "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/27277267837"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 49.2,
+        "age_hours": 62.1,
         "created_at": "2026-06-08T14:44:59Z",
         "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/27145672443"
       },
@@ -127,18 +127,18 @@
       "slug": "mortgage-advisor-guide",
       "domain": "mortgageadvisorguide.com",
       "http": 200,
-      "articles": 64,
+      "articles": 66,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 22.2,
-        "created_at": "2026-06-09T17:46:41Z",
-        "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/27224891195"
+        "age_hours": 10.5,
+        "created_at": "2026-06-10T18:19:21Z",
+        "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/27296849265"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 48.6,
+        "age_hours": 61.5,
         "created_at": "2026-06-08T15:21:18Z",
         "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/27147922892"
       },
@@ -149,18 +149,18 @@
       "slug": "therapy-finder-guide",
       "domain": "therapyfinderguide.com",
       "http": 200,
-      "articles": 69,
+      "articles": 71,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 23.7,
-        "created_at": "2026-06-09T16:18:29Z",
-        "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/27219997623"
+        "age_hours": 12.0,
+        "created_at": "2026-06-10T16:47:36Z",
+        "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/27291462624"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 3.2,
+        "age_hours": 16.0,
         "created_at": "2026-06-10T12:47:15Z",
         "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/27277275830"
       },
@@ -171,23 +171,23 @@
       "slug": "pet-doctor-guide",
       "domain": "petdoctorguide.com",
       "http": 200,
-      "articles": 71,
+      "articles": 73,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 20.5,
-        "created_at": "2026-06-09T19:30:22Z",
-        "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/27230596283"
+        "age_hours": 9.1,
+        "created_at": "2026-06-10T19:45:25Z",
+        "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/27301724197"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 146.1,
+        "age_hours": 158.9,
         "created_at": "2026-06-04T13:54:30Z",
         "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/26956232861"
       },
       "issues": [
-        "video not run in 146h (threshold 120h)"
+        "video not run in 159h (threshold 120h)"
       ],
       "healthy": false
     },
@@ -195,23 +195,23 @@
       "slug": "small-biz-finance-guide",
       "domain": "smallbizfinanceguide.com",
       "http": 200,
-      "articles": 65,
+      "articles": 67,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 16.9,
-        "created_at": "2026-06-09T23:03:53Z",
-        "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/27241489616"
+        "age_hours": 5.6,
+        "created_at": "2026-06-10T23:14:25Z",
+        "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/27312476470"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 144.6,
+        "age_hours": 157.5,
         "created_at": "2026-06-04T15:20:58Z",
         "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/26961323695"
       },
       "issues": [
-        "video not run in 145h (threshold 120h)"
+        "video not run in 158h (threshold 120h)"
       ],
       "healthy": false
     }
