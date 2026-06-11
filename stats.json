@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-10T21:25:22.814872+00:00",
+  "generated_at": "2026-06-11T02:32:23.135878+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-10"
+    "end": "2026-06-11"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 28392,
-    "visits": 28392,
-    "articles": 1100,
-    "videos": 128,
+    "page_views": 32407,
+    "visits": 32407,
+    "articles": 1106,
+    "videos": 134,
     "channels": 14,
-    "yt_views": 1422,
+    "yt_views": 1435,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,11 +21,11 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 128,
-    "credits_used": 87.04,
-    "est_remaining": 63.37,
-    "pct_remaining": 42.1,
-    "days_until_renewal": 8
+    "renders_since_baseline": 134,
+    "credits_used": 91.12,
+    "est_remaining": 59.29,
+    "pct_remaining": 39.4,
+    "days_until_renewal": 7
   },
   "sites": [
     {
@@ -59,6 +59,28 @@
         "Medicare Advantage Pros And Cons"
       ],
       "videos": [
+        {
+          "shorts_id": "dERJ7MALRQA",
+          "shorts_url": "https://www.youtube.com/shorts/dERJ7MALRQA",
+          "title": "Medicare Enrollment Mistake That Costs You Forever (Don't Do This)",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-06-10T21:28:04.790601+00:00",
+          "standard_id": "V6XkmnOaz5w",
+          "standard_url": "https://www.youtube.com/watch?v=V6XkmnOaz5w",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Enrollment Mistake That Costs You Forever (Don't Do This)"
+          },
+          "standard_stats": {
+            "views": 2,
+            "likes": 0,
+            "comments": 0,
+            "title": "Medicare Enrollment Mistake That Costs You Forever (Don't Do This)"
+          },
+          "total_views": 2
+        },
         {
           "shorts_id": "h52_WE8fnF4",
           "shorts_url": "https://www.youtube.com/shorts/h52_WE8fnF4",
@@ -237,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1717,
-        "visits": 1717,
-        "unique_visitors": 1156,
+        "page_views": 1890,
+        "visits": 1890,
+        "unique_visitors": 1266,
         "daily": [
           {
             "date": "2026-06-01",
@@ -276,6 +298,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 203
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 173
           }
         ]
       },
@@ -285,7 +311,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 17
+      "yt_total_views": 19
     },
     {
       "slug": "solar-planner-guide",
@@ -318,6 +344,28 @@
         "How Many Kwh Does A Solar Panel Produce Per Day"
       ],
       "videos": [
+        {
+          "shorts_id": "N3fWLumb6BI",
+          "shorts_url": "https://www.youtube.com/shorts/N3fWLumb6BI",
+          "title": "The $0 Down Solar Myth That's Draining Your Bank Account",
+          "article_slug": "zero-down-solar-financing-options",
+          "published_at": "2026-06-10T21:33:20.726891+00:00",
+          "standard_id": "7qdIo0IL9bQ",
+          "standard_url": "https://www.youtube.com/watch?v=7qdIo0IL9bQ",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $0 Down Solar Myth That's Draining Your Bank Account"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $0 Down Solar Myth That's Draining Your Bank Account"
+          },
+          "total_views": 1
+        },
         {
           "shorts_id": "8KFPwhWdjTE",
           "shorts_url": "https://www.youtube.com/shorts/8KFPwhWdjTE",
@@ -399,12 +447,12 @@
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
           "standard_stats": {
-            "views": 9,
+            "views": 10,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 135
+          "total_views": 136
         },
         {
           "shorts_id": "Xkp2j1dtURE",
@@ -465,12 +513,12 @@
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
           "standard_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 198
+          "total_views": 199
         },
         {
           "shorts_id": "RFIRA7UPZr0",
@@ -562,9 +610,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2089,
-        "visits": 2089,
-        "unique_visitors": 1417,
+        "page_views": 2257,
+        "visits": 2257,
+        "unique_visitors": 1557,
         "daily": [
           {
             "date": "2026-06-01",
@@ -601,6 +649,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 678
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 168
           }
         ]
       },
@@ -610,7 +662,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 537
+      "yt_total_views": 540
     },
     {
       "slug": "solar-home-planner",
@@ -619,7 +671,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 70,
+      "articles": 72,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -652,7 +704,7 @@
           "standard_id": "EbFy1lIwBtg",
           "standard_url": "https://www.youtube.com/watch?v=EbFy1lIwBtg",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
@@ -663,7 +715,7 @@
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -702,12 +754,12 @@
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
           "standard_stats": {
-            "views": 9,
+            "views": 10,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
           },
-          "total_views": 135
+          "total_views": 136
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -724,12 +776,12 @@
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
           "standard_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
           },
-          "total_views": 198
+          "total_views": 199
         },
         {
           "shorts_id": "zS9JVW74hHQ",
@@ -799,9 +851,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1573,
-        "visits": 1573,
-        "unique_visitors": 1170,
+        "page_views": 2077,
+        "visits": 2077,
+        "unique_visitors": 1378,
         "daily": [
           {
             "date": "2026-06-01",
@@ -838,6 +890,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 194
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 504
           }
         ]
       },
@@ -847,7 +903,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 356
+      "yt_total_views": 359
     },
     {
       "slug": "injury-victim-guide",
@@ -970,9 +1026,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1234,
-        "visits": 1234,
-        "unique_visitors": 957,
+        "page_views": 1736,
+        "visits": 1736,
+        "unique_visitors": 1106,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1009,6 +1065,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 345
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 502
           }
         ]
       },
@@ -1051,6 +1111,28 @@
         "Home Insurance For First Time Buyers"
       ],
       "videos": [
+        {
+          "shorts_id": "zzagShQjqys",
+          "shorts_url": "https://www.youtube.com/shorts/zzagShQjqys",
+          "title": "The $110K Home Insurance Gap Nobody Talks About",
+          "article_slug": "what-is-dwelling-coverage-in-home-insurance",
+          "published_at": "2026-06-10T21:45:08.584470+00:00",
+          "standard_id": "wBwyw2M6yK8",
+          "standard_url": "https://www.youtube.com/watch?v=wBwyw2M6yK8",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $110K Home Insurance Gap Nobody Talks About"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "The $110K Home Insurance Gap Nobody Talks About"
+          },
+          "total_views": 1
+        },
         {
           "shorts_id": "5Fa6XDOsJOw",
           "shorts_url": "https://www.youtube.com/shorts/5Fa6XDOsJOw",
@@ -1185,9 +1267,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2038,
-        "visits": 2038,
-        "unique_visitors": 1290,
+        "page_views": 2267,
+        "visits": 2267,
+        "unique_visitors": 1406,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1224,6 +1306,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 133
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 229
           }
         ]
       },
@@ -1233,7 +1319,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 52
+      "yt_total_views": 53
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1334,9 +1420,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1316,
-        "visits": 1316,
-        "unique_visitors": 1087,
+        "page_views": 1449,
+        "visits": 1449,
+        "unique_visitors": 1180,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1373,6 +1459,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 177
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 133
           }
         ]
       },
@@ -1483,9 +1573,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1428,
-        "visits": 1428,
-        "unique_visitors": 1107,
+        "page_views": 1822,
+        "visits": 1822,
+        "unique_visitors": 1252,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1522,6 +1612,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 264
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 394
           }
         ]
       },
@@ -1632,9 +1726,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2407,
-        "visits": 2407,
-        "unique_visitors": 1401,
+        "page_views": 2539,
+        "visits": 2539,
+        "unique_visitors": 1522,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1671,6 +1765,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 423
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 132
           }
         ]
       },
@@ -1689,7 +1787,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 65,
+      "articles": 67,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1781,9 +1879,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1588,
-        "visits": 1588,
-        "unique_visitors": 1243,
+        "page_views": 1914,
+        "visits": 1914,
+        "unique_visitors": 1428,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1820,6 +1918,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 197
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 326
           }
         ]
       },
@@ -1996,9 +2098,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1436,
-        "visits": 1436,
-        "unique_visitors": 1108,
+        "page_views": 1940,
+        "visits": 1940,
+        "unique_visitors": 1254,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2035,6 +2137,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 155
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 504
           }
         ]
       },
@@ -2114,12 +2220,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 14,
+            "views": 18,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 49
+          "total_views": 53
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2145,9 +2251,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2396,
-        "visits": 2396,
-        "unique_visitors": 1568,
+        "page_views": 2739,
+        "visits": 2739,
+        "unique_visitors": 1710,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2184,6 +2290,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 429
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 343
           }
         ]
       },
@@ -2193,7 +2303,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 206
+      "yt_total_views": 210
     },
     {
       "slug": "rv-life-guide",
@@ -2294,9 +2404,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1987,
-        "visits": 1987,
-        "unique_visitors": 1159,
+        "page_views": 2171,
+        "visits": 2171,
+        "unique_visitors": 1285,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2333,6 +2443,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 239
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 184
           }
         ]
       },
@@ -2376,9 +2490,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 3090,
-        "visits": 3090,
-        "unique_visitors": 1367,
+        "page_views": 3271,
+        "visits": 3271,
+        "unique_visitors": 1499,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2415,6 +2529,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 198
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 181
           }
         ]
       },
@@ -2433,7 +2551,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 89,
+      "articles": 91,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2503,9 +2621,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2209,
-        "visits": 2209,
-        "unique_visitors": 1369,
+        "page_views": 2323,
+        "visits": 2323,
+        "unique_visitors": 1463,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2542,6 +2660,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 224
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 114
           }
         ]
       },
@@ -2630,9 +2752,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1884,
-        "visits": 1884,
-        "unique_visitors": 1359,
+        "page_views": 2012,
+        "visits": 2012,
+        "unique_visitors": 1457,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2669,6 +2791,10 @@
           {
             "date": "2026-06-09",
             "pageViews": 147
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 128
           }
         ]
       },
