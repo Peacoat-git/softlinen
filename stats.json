@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T15:31:28.029866+00:00",
+  "generated_at": "2026-06-11T20:08:32.011083+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-11"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 32407,
     "visits": 32407,
-    "articles": 1118,
-    "videos": 134,
+    "articles": 1128,
+    "videos": 138,
     "channels": 14,
-    "yt_views": 1445,
+    "yt_views": 1448,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 134,
-    "credits_used": 91.12,
-    "est_remaining": 59.29,
-    "pct_remaining": 39.4,
+    "renders_since_baseline": 138,
+    "credits_used": 93.84,
+    "est_remaining": 56.57,
+    "pct_remaining": 37.6,
     "days_until_renewal": 7
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 65,
+      "articles": 67,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -704,7 +704,7 @@
           "standard_id": "EbFy1lIwBtg",
           "standard_url": "https://www.youtube.com/watch?v=EbFy1lIwBtg",
           "shorts_stats": {
-            "views": 4,
+            "views": 5,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
@@ -715,7 +715,7 @@
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
           },
-          "total_views": 4
+          "total_views": 5
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -903,7 +903,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 361
+      "yt_total_views": 362
     },
     {
       "slug": "injury-victim-guide",
@@ -1120,7 +1120,7 @@
           "standard_id": "wBwyw2M6yK8",
           "standard_url": "https://www.youtube.com/watch?v=wBwyw2M6yK8",
           "shorts_stats": {
-            "views": 5,
+            "views": 7,
             "likes": 0,
             "comments": 0,
             "title": "The $110K Home Insurance Gap Nobody Talks About"
@@ -1131,7 +1131,7 @@
             "comments": 0,
             "title": "The $110K Home Insurance Gap Nobody Talks About"
           },
-          "total_views": 5
+          "total_views": 7
         },
         {
           "shorts_id": "5Fa6XDOsJOw",
@@ -1319,7 +1319,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 57
+      "yt_total_views": 59
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1328,10 +1328,11 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 66,
+      "articles": 68,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
+        "Are Mortgage Interest Payments Tax Deductible In 2026",
         "Are You Ready To Buy A Home",
         "Best Mortgage Lenders For First Time Home Buyers 2026",
         "Break Even Refinance Analysis",
@@ -1348,8 +1349,7 @@
         "First Time Homebuyer Programs",
         "Fixed Vs Adjustable Rate Mortgage",
         "Heloc Vs Home Equity Loan Which Should I Choose",
-        "Heloc Vs Home Equity Loan",
-        "Home Equity Loan Rates"
+        "Heloc Vs Home Equity Loan"
       ],
       "videos": [
         {
@@ -1481,7 +1481,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 71,
+      "articles": 73,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1634,7 +1634,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 73,
+      "articles": 75,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1658,6 +1658,28 @@
         "Cost Of Professional Dog Teeth Cleaning Under Anesthesia 2026"
       ],
       "videos": [
+        {
+          "shorts_id": "YWNfC78n5eM",
+          "shorts_url": "https://www.youtube.com/shorts/YWNfC78n5eM",
+          "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)",
+          "article_slug": "why-is-my-dog-coughing-and-gagging-like-something-is-stuck",
+          "published_at": "2026-06-11T17:09:10.793836+00:00",
+          "standard_id": "OiB3Keqih2c",
+          "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "NCQJLVjEERc",
           "shorts_url": "https://www.youtube.com/shorts/NCQJLVjEERc",
@@ -1812,6 +1834,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "Qk4oDFcYVzI",
+          "shorts_url": "https://www.youtube.com/shorts/Qk4oDFcYVzI",
+          "title": "3 Tax Deductions You're Missing Right Now (2026 Small Business)",
+          "article_slug": "small-business-tax-deductions-checklist-2026",
+          "published_at": "2026-06-11T17:09:20.997392+00:00",
+          "standard_id": "Fgnau_vSVfU",
+          "standard_url": "https://www.youtube.com/watch?v=Fgnau_vSVfU",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Tax Deductions You're Missing Right Now (2026 Small Business)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Tax Deductions You're Missing Right Now (2026 Small Business)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "pQI3glOQOs4",
           "shorts_url": "https://www.youtube.com/shorts/pQI3glOQOs4",
           "title": "$4,800 Tax Mistake Most Small Business Owners Make Every Year",
@@ -1940,7 +1984,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
