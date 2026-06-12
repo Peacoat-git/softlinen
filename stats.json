@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-12T14:31:46.145907+00:00",
+  "generated_at": "2026-06-12T19:50:18.533934+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-12"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 30856,
-    "visits": 30856,
-    "articles": 1148,
+    "page_views": 34584,
+    "visits": 34584,
+    "articles": 1158,
     "videos": 140,
     "channels": 14,
-    "yt_views": 1463,
+    "yt_views": 1464,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 67,
+      "articles": 69,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -1038,10 +1038,55 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 1805,
+        "visits": 1805,
+        "unique_visitors": 1180,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 143
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 78
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 108
+          },
+          {
+            "date": "2026-06-04",
+            "pageViews": 96
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 74
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 99
+          },
+          {
+            "date": "2026-06-07",
+            "pageViews": 161
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 130
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 345
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 502
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 69
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1303,7 +1348,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1460,7 +1505,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 73,
+      "articles": 75,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1552,10 +1597,55 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 1923,
+        "visits": 1923,
+        "unique_visitors": 1348,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 217
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 112
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 129
+          },
+          {
+            "date": "2026-06-04",
+            "pageViews": 98
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 117
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 62
+          },
+          {
+            "date": "2026-06-07",
+            "pageViews": 321
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 108
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 264
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 394
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 101
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1572,7 +1662,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 75,
+      "articles": 77,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1930,7 +2020,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 86,
+      "articles": 88,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -2590,7 +2680,7 @@
           "standard_id": "JTxP0V6bqlo",
           "standard_url": "https://www.youtube.com/watch?v=JTxP0V6bqlo",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
@@ -2601,7 +2691,7 @@
             "comments": 0,
             "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "9lini_2f2EI",
@@ -2705,7 +2795,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 25
+      "yt_total_views": 26
     },
     {
       "slug": "fixitrightway",
