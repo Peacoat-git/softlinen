@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-12T09:54:39.333456+00:00",
+  "generated_at": "2026-06-12T14:31:46.145907+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-12"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 34584,
-    "visits": 34584,
-    "articles": 1138,
-    "videos": 138,
+    "page_views": 30856,
+    "visits": 30856,
+    "articles": 1148,
+    "videos": 140,
     "channels": 14,
-    "yt_views": 1457,
+    "yt_views": 1463,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 138,
-    "credits_used": 93.84,
-    "est_remaining": 56.57,
-    "pct_remaining": 37.6,
+    "renders_since_baseline": 140,
+    "credits_used": 95.2,
+    "est_remaining": 55.21,
+    "pct_remaining": 36.7,
     "days_until_renewal": 6
   },
   "sites": [
@@ -324,7 +324,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 76,
+      "articles": 78,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -332,6 +332,7 @@
         "Best Solar Financing Options",
         "Best Solar Panels For Home 2026",
         "Best States For Solar Energy Savings",
+        "California Nem 30 Explained",
         "Can Solar Panels Power A Whole House Off Grid",
         "Do Solar Panels Work In Winter",
         "Energy Independence With Solar And Battery",
@@ -340,12 +341,11 @@
         "Federal Solar Tax Credit 2026 Explained",
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
+        "Grid Tied Vs Off Grid Solar System",
         "Hoa Solar Panel Rules",
         "Home Battery Storage Options Compared",
         "How Long Do Solar Batteries Last",
-        "How Long Do Solar Panels Last",
-        "How Long To Pay Off Solar Panels",
-        "How Many Kwh Does A Solar Panel Produce Per Day"
+        "How Long Do Solar Panels Last"
       ],
       "videos": [
         {
@@ -924,7 +924,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1038,55 +1038,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1805,
-        "visits": 1805,
-        "unique_visitors": 1180,
-        "daily": [
-          {
-            "date": "2026-06-01",
-            "pageViews": 143
-          },
-          {
-            "date": "2026-06-02",
-            "pageViews": 78
-          },
-          {
-            "date": "2026-06-03",
-            "pageViews": 108
-          },
-          {
-            "date": "2026-06-04",
-            "pageViews": 96
-          },
-          {
-            "date": "2026-06-05",
-            "pageViews": 74
-          },
-          {
-            "date": "2026-06-06",
-            "pageViews": 99
-          },
-          {
-            "date": "2026-06-07",
-            "pageViews": 161
-          },
-          {
-            "date": "2026-06-08",
-            "pageViews": 130
-          },
-          {
-            "date": "2026-06-09",
-            "pageViews": 345
-          },
-          {
-            "date": "2026-06-10",
-            "pageViews": 502
-          },
-          {
-            "date": "2026-06-11",
-            "pageViews": 69
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1103,7 +1058,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 71,
+      "articles": 73,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1597,55 +1552,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1923,
-        "visits": 1923,
-        "unique_visitors": 1348,
-        "daily": [
-          {
-            "date": "2026-06-01",
-            "pageViews": 217
-          },
-          {
-            "date": "2026-06-02",
-            "pageViews": 112
-          },
-          {
-            "date": "2026-06-03",
-            "pageViews": 129
-          },
-          {
-            "date": "2026-06-04",
-            "pageViews": 98
-          },
-          {
-            "date": "2026-06-05",
-            "pageViews": 117
-          },
-          {
-            "date": "2026-06-06",
-            "pageViews": 62
-          },
-          {
-            "date": "2026-06-07",
-            "pageViews": 321
-          },
-          {
-            "date": "2026-06-08",
-            "pageViews": 108
-          },
-          {
-            "date": "2026-06-09",
-            "pageViews": 264
-          },
-          {
-            "date": "2026-06-10",
-            "pageViews": 394
-          },
-          {
-            "date": "2026-06-11",
-            "pageViews": 101
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -1695,7 +1605,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 4,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -1706,7 +1616,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 4
+          "total_views": 8
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1832,7 +1742,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 40
+      "yt_total_views": 44
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2304,12 +2214,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 22,
+            "views": 23,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 58
+          "total_views": 59
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2391,7 +2301,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 217
+      "yt_total_views": 218
     },
     {
       "slug": "rv-life-guide",
@@ -2557,7 +2467,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 88,
+      "articles": 90,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -2672,6 +2582,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "hhSlNw248wg",
+          "shorts_url": "https://www.youtube.com/shorts/hhSlNw248wg",
+          "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60",
+          "article_slug": "upper-body-exercises-for-seniors",
+          "published_at": "2026-06-12T12:59:32.019696+00:00",
+          "standard_id": "JTxP0V6bqlo",
+          "standard_url": "https://www.youtube.com/watch?v=JTxP0V6bqlo",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
+          },
+          "total_views": 1
+        },
+        {
           "shorts_id": "9lini_2f2EI",
           "shorts_url": "https://www.youtube.com/shorts/9lini_2f2EI",
           "title": "3 Hidden Systems Destroying Your Balance After 60",
@@ -2773,7 +2705,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 24
+      "yt_total_views": 25
     },
     {
       "slug": "fixitrightway",
@@ -2782,7 +2714,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 68,
+      "articles": 70,
       "article_titles": [
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Primer For Covering Dark Walls In One Coat",
