@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-11T20:08:32.011083+00:00",
+  "generated_at": "2026-06-12T02:15:41.695766+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-11"
+    "end": "2026-06-12"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 32407,
-    "visits": 32407,
-    "articles": 1128,
+    "page_views": 34584,
+    "visits": 34584,
+    "articles": 1136,
     "videos": 138,
     "channels": 14,
-    "yt_views": 1448,
+    "yt_views": 1457,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 93.84,
     "est_remaining": 56.57,
     "pct_remaining": 37.6,
-    "days_until_renewal": 7
+    "days_until_renewal": 6
   },
   "sites": [
     {
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1890,
-        "visits": 1890,
-        "unique_visitors": 1266,
+        "page_views": 1971,
+        "visits": 1971,
+        "unique_visitors": 1359,
         "daily": [
           {
             "date": "2026-06-01",
@@ -302,6 +302,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 173
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 81
           }
         ]
       },
@@ -610,9 +614,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2257,
-        "visits": 2257,
-        "unique_visitors": 1557,
+        "page_views": 2617,
+        "visits": 2617,
+        "unique_visitors": 1712,
         "daily": [
           {
             "date": "2026-06-01",
@@ -653,6 +657,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 168
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 360
           }
         ]
       },
@@ -671,7 +679,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 72,
+      "articles": 74,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -851,9 +859,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2077,
-        "visits": 2077,
-        "unique_visitors": 1378,
+        "page_views": 2208,
+        "visits": 2208,
+        "unique_visitors": 1503,
         "daily": [
           {
             "date": "2026-06-01",
@@ -894,6 +902,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 504
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 131
           }
         ]
       },
@@ -1026,9 +1038,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1736,
-        "visits": 1736,
-        "unique_visitors": 1106,
+        "page_views": 1805,
+        "visits": 1805,
+        "unique_visitors": 1180,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1069,6 +1081,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 502
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 69
           }
         ]
       },
@@ -1120,7 +1136,7 @@
           "standard_id": "wBwyw2M6yK8",
           "standard_url": "https://www.youtube.com/watch?v=wBwyw2M6yK8",
           "shorts_stats": {
-            "views": 7,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "The $110K Home Insurance Gap Nobody Talks About"
@@ -1131,7 +1147,7 @@
             "comments": 0,
             "title": "The $110K Home Insurance Gap Nobody Talks About"
           },
-          "total_views": 7
+          "total_views": 8
         },
         {
           "shorts_id": "5Fa6XDOsJOw",
@@ -1267,9 +1283,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2267,
-        "visits": 2267,
-        "unique_visitors": 1406,
+        "page_views": 2340,
+        "visits": 2340,
+        "unique_visitors": 1488,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1310,6 +1326,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 229
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 73
           }
         ]
       },
@@ -1319,7 +1339,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 59
+      "yt_total_views": 60
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1420,9 +1440,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1449,
-        "visits": 1449,
-        "unique_visitors": 1180,
+        "page_views": 1585,
+        "visits": 1585,
+        "unique_visitors": 1294,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1463,6 +1483,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 133
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 136
           }
         ]
       },
@@ -1573,9 +1597,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1822,
-        "visits": 1822,
-        "unique_visitors": 1252,
+        "page_views": 1923,
+        "visits": 1923,
+        "unique_visitors": 1348,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1616,6 +1640,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 394
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 101
           }
         ]
       },
@@ -1667,7 +1695,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 0,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -1678,7 +1706,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 0
+          "total_views": 4
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1748,9 +1776,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2539,
-        "visits": 2539,
-        "unique_visitors": 1522,
+        "page_views": 2629,
+        "visits": 2629,
+        "unique_visitors": 1607,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1791,6 +1819,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 132
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 90
           }
         ]
       },
@@ -1800,7 +1832,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 36
+      "yt_total_views": 40
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1809,7 +1841,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 67,
+      "articles": 69,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1923,9 +1955,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1914,
-        "visits": 1914,
-        "unique_visitors": 1428,
+        "page_views": 2047,
+        "visits": 2047,
+        "unique_visitors": 1553,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1966,6 +1998,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 326
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 133
           }
         ]
       },
@@ -2142,9 +2178,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1940,
-        "visits": 1940,
-        "unique_visitors": 1254,
+        "page_views": 2150,
+        "visits": 2150,
+        "unique_visitors": 1372,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2185,6 +2221,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 504
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 210
           }
         ]
       },
@@ -2264,12 +2304,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 19,
+            "views": 22,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 55
+          "total_views": 58
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2295,9 +2335,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2739,
-        "visits": 2739,
-        "unique_visitors": 1710,
+        "page_views": 2860,
+        "visits": 2860,
+        "unique_visitors": 1822,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2338,6 +2378,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 343
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 121
           }
         ]
       },
@@ -2347,7 +2391,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 214
+      "yt_total_views": 217
     },
     {
       "slug": "rv-life-guide",
@@ -2356,7 +2400,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 74,
+      "articles": 76,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2448,9 +2492,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2171,
-        "visits": 2171,
-        "unique_visitors": 1285,
+        "page_views": 2445,
+        "visits": 2445,
+        "unique_visitors": 1416,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2491,6 +2535,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 184
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 274
           }
         ]
       },
@@ -2534,9 +2582,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 3271,
-        "visits": 3271,
-        "unique_visitors": 1499,
+        "page_views": 3409,
+        "visits": 3409,
+        "unique_visitors": 1645,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2577,6 +2625,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 181
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 138
           }
         ]
       },
@@ -2595,7 +2647,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 91,
+      "articles": 93,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2607,6 +2659,7 @@
         "Best Chair For Seniors With Back Pain Buying Guide",
         "Best Exercise Routine For 65 Year Old Woman",
         "Best Exercise Routine For 70 Year Old Man",
+        "Best Exercises For Osteoporosis",
         "Best Hearing Aids For Seniors 2026 Guide",
         "Best Low Impact Exercises For Bad Knees",
         "Best Low Impact Exercises For Seniors With Arthritis",
@@ -2615,8 +2668,7 @@
         "Best Omega 3 Foods For Seniors With Joint Pain",
         "Best Pedometer For Seniors Easy To Use",
         "Best Protein Foods For Seniors To Maintain Muscle",
-        "Best Protein Sources For Seniors Building Muscle",
-        "Best Resistance Bands For Seniors Tested And Ranked"
+        "Best Protein Sources For Seniors Building Muscle"
       ],
       "videos": [
         {
@@ -2628,7 +2680,7 @@
           "standard_id": "EnoSdGWiryU",
           "standard_url": "https://www.youtube.com/watch?v=EnoSdGWiryU",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
@@ -2639,7 +2691,7 @@
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "D87bLFUgJd8",
@@ -2665,9 +2717,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2323,
-        "visits": 2323,
-        "unique_visitors": 1463,
+        "page_views": 2460,
+        "visits": 2460,
+        "unique_visitors": 1588,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2708,6 +2760,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 114
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 137
           }
         ]
       },
@@ -2717,7 +2773,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 23
+      "yt_total_views": 24
     },
     {
       "slug": "fixitrightway",
@@ -2796,9 +2852,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2012,
-        "visits": 2012,
-        "unique_visitors": 1457,
+        "page_views": 2135,
+        "visits": 2135,
+        "unique_visitors": 1621,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2839,6 +2895,10 @@
           {
             "date": "2026-06-10",
             "pageViews": 128
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 123
           }
         ]
       },
