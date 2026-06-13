@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T17:01:17.955010+00:00",
+  "generated_at": "2026-06-13T19:06:07.864496+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-13"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 39482,
     "visits": 39482,
-    "articles": 1184,
+    "articles": 1189,
     "videos": 140,
     "channels": 14,
-    "yt_views": 1482,
+    "yt_views": 1483,
     "sites": 15
   },
   "adsense_connected": true,
@@ -1368,7 +1368,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 70,
+      "articles": 72,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1388,8 +1388,8 @@
         "Fha Vs Conventional Loan Which Is Better For First Time Buyers",
         "First Time Homebuyer Programs",
         "Fixed Vs Adjustable Rate Mortgage",
-        "Heloc Vs Home Equity Loan Which Should I Choose",
-        "Heloc Vs Home Equity Loan"
+        "Heloc Repayment Explained",
+        "Heloc Vs Home Equity Loan Which Should I Choose"
       ],
       "videos": [
         {
@@ -1690,7 +1690,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 77,
+      "articles": 79,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best Flea And Tick Prevention For Dogs Comparison",
@@ -1702,6 +1702,7 @@
         "Cat Annual Wellness Exam Guide",
         "Cat Dental Disease Signs",
         "Cat Hiding Behavior Explained",
+        "Cat Hyperthyroidism Treatment",
         "Cat Kidney Disease Diet",
         "Cat Not Eating For 2 Days But Acting Normal Causes",
         "Cat Not Using Litter Box Causes",
@@ -1710,8 +1711,7 @@
         "Cat Stress Signs Causes",
         "Cat Urinary Tract Infection Signs",
         "Cat Vomiting When To Worry",
-        "Common Health Problems In French Bulldogs",
-        "Cost Of Professional Dog Teeth Cleaning Under Anesthesia 2026"
+        "Common Health Problems In French Bulldogs"
       ],
       "videos": [
         {
@@ -2344,12 +2344,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 25,
+            "views": 26,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 63
+          "total_views": 64
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2435,7 +2435,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 222
+      "yt_total_views": 223
     },
     {
       "slug": "rv-life-guide",
@@ -2605,13 +2605,14 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 92,
+      "articles": 93,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Associate Producer To Producer How To Level Up",
         "Avoiding Scope Creep In Game Production",
+        "Best Game Engine 2026",
         "Best Project Management Tools For Game Studios",
         "Burnout In Game Development The Year 5 Cliff",
         "Capacity Planning For Game Development Teams",
@@ -2625,8 +2626,7 @@
         "Game Development Milestones Explained",
         "Game Launch Checklist For Indie Developers",
         "Game Producer Career Path From Associate To Executive",
-        "Game Producer Interview Questions And Answers",
-        "Game Producer Portfolio What To Show Hiring Managers"
+        "Game Producer Interview Questions And Answers"
       ],
       "videos": [],
       "cloudflare": {
