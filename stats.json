@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-12T19:50:18.533934+00:00",
+  "generated_at": "2026-06-13T02:08:17.897734+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-12"
+    "end": "2026-06-13"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 34584,
-    "visits": 34584,
-    "articles": 1158,
+    "page_views": 39482,
+    "visits": 39482,
+    "articles": 1166,
     "videos": 140,
     "channels": 14,
-    "yt_views": 1464,
+    "yt_views": 1468,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 95.2,
     "est_remaining": 55.21,
     "pct_remaining": 36.7,
-    "days_until_renewal": 6
+    "days_until_renewal": 5
   },
   "sites": [
     {
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1971,
-        "visits": 1971,
-        "unique_visitors": 1359,
+        "page_views": 2303,
+        "visits": 2303,
+        "unique_visitors": 1508,
         "daily": [
           {
             "date": "2026-06-01",
@@ -306,6 +306,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 81
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 332
           }
         ]
       },
@@ -614,9 +618,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2617,
-        "visits": 2617,
-        "unique_visitors": 1712,
+        "page_views": 2819,
+        "visits": 2819,
+        "unique_visitors": 1848,
         "daily": [
           {
             "date": "2026-06-01",
@@ -661,6 +665,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 360
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 202
           }
         ]
       },
@@ -679,7 +687,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 74,
+      "articles": 76,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -689,6 +697,7 @@
         "Can I Install Solar Panels Myself",
         "Can Solar Power Charge An Electric Car",
         "Cheapest Way To Go Solar Diy",
+        "Community Solar How It Works",
         "Comparing Solar Bids What To Look For",
         "Diy Solar For Shed Or Outbuilding",
         "Diy Solar For Tiny Home",
@@ -699,8 +708,7 @@
         "Generator Vs Solar Battery Backup",
         "Hoa Solar Panel Rules",
         "How Long Do Solar Panels Last",
-        "How Long Until Solar Panels Pay For Themselves",
-        "How Many Solar Panels To Charge Ev"
+        "How Long Until Solar Panels Pay For Themselves"
       ],
       "videos": [
         {
@@ -859,9 +867,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2208,
-        "visits": 2208,
-        "unique_visitors": 1503,
+        "page_views": 2484,
+        "visits": 2484,
+        "unique_visitors": 1696,
         "daily": [
           {
             "date": "2026-06-01",
@@ -906,6 +914,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 131
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 276
           }
         ]
       },
@@ -1038,9 +1050,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1805,
-        "visits": 1805,
-        "unique_visitors": 1180,
+        "page_views": 1986,
+        "visits": 1986,
+        "unique_visitors": 1280,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1085,6 +1097,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 69
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 181
           }
         ]
       },
@@ -1283,9 +1299,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2340,
-        "visits": 2340,
-        "unique_visitors": 1488,
+        "page_views": 2557,
+        "visits": 2557,
+        "unique_visitors": 1631,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1330,6 +1346,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 73
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 217
           }
         ]
       },
@@ -1440,9 +1460,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1585,
-        "visits": 1585,
-        "unique_visitors": 1294,
+        "page_views": 1777,
+        "visits": 1777,
+        "unique_visitors": 1424,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1487,6 +1507,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 136
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 192
           }
         ]
       },
@@ -1597,9 +1621,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1923,
-        "visits": 1923,
-        "unique_visitors": 1348,
+        "page_views": 2096,
+        "visits": 2096,
+        "unique_visitors": 1445,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1644,6 +1668,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 101
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 173
           }
         ]
       },
@@ -1776,9 +1804,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2629,
-        "visits": 2629,
-        "unique_visitors": 1607,
+        "page_views": 2881,
+        "visits": 2881,
+        "unique_visitors": 1767,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1823,6 +1851,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 90
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 252
           }
         ]
       },
@@ -1841,7 +1873,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 69,
+      "articles": 71,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1854,6 +1886,7 @@
         "Business Expense Categories Guide",
         "Business Liability Insurance Guide",
         "Business Loan Interest Rates Comparison",
+        "Business Succession Planning",
         "Business Valuation Methods",
         "Cash Flow Management Guide",
         "Cash Flow Statement Explained",
@@ -1861,8 +1894,7 @@
         "Cyber Liability Insurance Small Business",
         "Equipment Financing Explained",
         "Hiring First Employee Guide",
-        "Home Office Deduction Rules",
-        "How Much Does General Liability Insurance Cost For Small Business"
+        "Home Office Deduction Rules"
       ],
       "videos": [
         {
@@ -1955,9 +1987,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2047,
-        "visits": 2047,
-        "unique_visitors": 1553,
+        "page_views": 2331,
+        "visits": 2331,
+        "unique_visitors": 1753,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2002,6 +2034,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 133
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 284
           }
         ]
       },
@@ -2178,9 +2214,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2150,
-        "visits": 2150,
-        "unique_visitors": 1372,
+        "page_views": 2336,
+        "visits": 2336,
+        "unique_visitors": 1475,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2225,6 +2261,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 210
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 186
           }
         ]
       },
@@ -2276,7 +2316,7 @@
           "standard_id": "2wfv8jHC91I",
           "standard_url": "https://www.youtube.com/watch?v=2wfv8jHC91I",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Your Sick Chicken Is Hiding It (3 Warning Signs You're Missing)"
@@ -2287,7 +2327,7 @@
             "comments": 0,
             "title": "Your Sick Chicken Is Hiding It (3 Warning Signs You're Missing)"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "g3QyszV9gJM",
@@ -2298,7 +2338,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 36,
+            "views": 37,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2309,7 +2349,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 59
+          "total_views": 60
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2335,9 +2375,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2860,
-        "visits": 2860,
-        "unique_visitors": 1822,
+        "page_views": 3124,
+        "visits": 3124,
+        "unique_visitors": 1980,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2382,6 +2422,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 121
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 264
           }
         ]
       },
@@ -2391,7 +2435,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 218
+      "yt_total_views": 220
     },
     {
       "slug": "rv-life-guide",
@@ -2400,7 +2444,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 76,
+      "articles": 78,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2492,9 +2536,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2445,
-        "visits": 2445,
-        "unique_visitors": 1416,
+        "page_views": 2735,
+        "visits": 2735,
+        "unique_visitors": 1595,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2539,6 +2583,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 274
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 290
           }
         ]
       },
@@ -2582,9 +2630,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 3409,
-        "visits": 3409,
-        "unique_visitors": 1645,
+        "page_views": 4891,
+        "visits": 4891,
+        "unique_visitors": 1929,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2629,6 +2677,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 138
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 1482
           }
         ]
       },
@@ -2647,13 +2699,14 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 93,
+      "articles": 95,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
         "Balance Boards For Seniors Are They Safe And Worth It",
         "Balance Exercises For Seniors To Prevent Falls",
         "Benefits Of Exercise For Older Adults",
+        "Best Balance Exercises For Elderly At Home",
         "Best Balance Exercises For Seniors To Prevent Falls",
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
@@ -2667,8 +2720,7 @@
         "Best Morning Routines For Seniors Over 65",
         "Best Omega 3 Foods For Seniors With Joint Pain",
         "Best Pedometer For Seniors Easy To Use",
-        "Best Protein Foods For Seniors To Maintain Muscle",
-        "Best Protein Sources For Seniors Building Muscle"
+        "Best Protein Foods For Seniors To Maintain Muscle"
       ],
       "videos": [
         {
@@ -2680,7 +2732,7 @@
           "standard_id": "JTxP0V6bqlo",
           "standard_url": "https://www.youtube.com/watch?v=JTxP0V6bqlo",
           "shorts_stats": {
-            "views": 2,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
@@ -2691,7 +2743,7 @@
             "comments": 0,
             "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
           },
-          "total_views": 2
+          "total_views": 4
         },
         {
           "shorts_id": "9lini_2f2EI",
@@ -2739,9 +2791,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2460,
-        "visits": 2460,
-        "unique_visitors": 1588,
+        "page_views": 2821,
+        "visits": 2821,
+        "unique_visitors": 1727,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2786,6 +2838,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 137
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 361
           }
         ]
       },
@@ -2795,7 +2851,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 26
+      "yt_total_views": 28
     },
     {
       "slug": "fixitrightway",
@@ -2874,9 +2930,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2135,
-        "visits": 2135,
-        "unique_visitors": 1621,
+        "page_views": 2341,
+        "visits": 2341,
+        "unique_visitors": 1780,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2921,6 +2977,10 @@
           {
             "date": "2026-06-11",
             "pageViews": 123
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 206
           }
         ]
       },
