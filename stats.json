@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T02:08:17.897734+00:00",
+  "generated_at": "2026-06-13T08:44:58.344585+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-13"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 39482,
     "visits": 39482,
-    "articles": 1166,
+    "articles": 1168,
     "videos": 140,
     "channels": 14,
-    "yt_views": 1468,
+    "yt_views": 1480,
     "sites": 15
   },
   "adsense_connected": true,
@@ -969,7 +969,7 @@
           "standard_id": "aLVKb9w5Yv8",
           "standard_url": "https://www.youtube.com/watch?v=aLVKb9w5Yv8",
           "shorts_stats": {
-            "views": 1,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026"
@@ -980,7 +980,7 @@
             "comments": 0,
             "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026"
           },
-          "total_views": 1
+          "total_views": 4
         },
         {
           "shorts_id": "FKqK8rFQZqc",
@@ -1110,7 +1110,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 4
+      "yt_total_views": 7
     },
     {
       "slug": "home-insurance-guide",
@@ -1723,7 +1723,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 8,
+            "views": 12,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -1734,7 +1734,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 8
+          "total_views": 12
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1751,12 +1751,12 @@
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
           },
           "standard_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "3 Vet Visit Mistakes That Cost Your Dog's Health (Do This Instead)"
           },
-          "total_views": 14
+          "total_views": 15
         },
         {
           "shorts_id": "smBqOQlgT3M",
@@ -1864,7 +1864,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 44
+      "yt_total_views": 49
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2283,7 +2283,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 76,
+      "articles": 78,
       "article_titles": [
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
@@ -2291,10 +2291,12 @@
         "Backyard Chickens For Beginners",
         "Best Chicken Breeds For Beginners",
         "Best Chicken Coop Kits To Buy",
+        "Best Egg Incubator",
         "Best Egg Laying Chickens",
         "Brooder Setup For Chicks",
         "Broody Hen Behavior",
         "Bumblefoot In Chickens",
+        "Buying Chicks Online",
         "Chick Starter Feed",
         "Chicken Coop Bedding Options",
         "Chicken Coop Plans Free",
@@ -2302,9 +2304,7 @@
         "Chicken Coop Ventilation",
         "Chicken Feed Types Explained",
         "Chicken Health Problems",
-        "Chicken Lice Treatment",
-        "Chicken Manure Fertilizer",
-        "Chicken Ordinances By City"
+        "Chicken Lice Treatment"
       ],
       "videos": [
         {
@@ -2344,12 +2344,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 23,
+            "views": 25,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 60
+          "total_views": 62
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2435,7 +2435,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 220
+      "yt_total_views": 222
     },
     {
       "slug": "rv-life-guide",
@@ -2732,7 +2732,7 @@
           "standard_id": "JTxP0V6bqlo",
           "standard_url": "https://www.youtube.com/watch?v=JTxP0V6bqlo",
           "shorts_stats": {
-            "views": 4,
+            "views": 6,
             "likes": 0,
             "comments": 0,
             "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
@@ -2743,7 +2743,7 @@
             "comments": 0,
             "title": "2 Upper Body Muscles That Predict How Long You'll Live Over 60"
           },
-          "total_views": 4
+          "total_views": 6
         },
         {
           "shorts_id": "9lini_2f2EI",
@@ -2851,7 +2851,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 28
+      "yt_total_views": 30
     },
     {
       "slug": "fixitrightway",
