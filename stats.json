@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-13T19:06:07.864496+00:00",
+  "generated_at": "2026-06-14T02:31:07.238177+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-13"
+    "end": "2026-06-14"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 39482,
-    "visits": 39482,
-    "articles": 1189,
+    "page_views": 42967,
+    "visits": 42967,
+    "articles": 1197,
     "videos": 140,
     "channels": 14,
     "yt_views": 1483,
@@ -25,7 +25,7 @@
     "credits_used": 95.2,
     "est_remaining": 55.21,
     "pct_remaining": 36.7,
-    "days_until_renewal": 5
+    "days_until_renewal": 4
   },
   "sites": [
     {
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2303,
-        "visits": 2303,
-        "unique_visitors": 1508,
+        "page_views": 2724,
+        "visits": 2724,
+        "unique_visitors": 1644,
         "daily": [
           {
             "date": "2026-06-01",
@@ -310,6 +310,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 332
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 421
           }
         ]
       },
@@ -618,9 +622,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2819,
-        "visits": 2819,
-        "unique_visitors": 1848,
+        "page_views": 3039,
+        "visits": 3039,
+        "unique_visitors": 1967,
         "daily": [
           {
             "date": "2026-06-01",
@@ -669,6 +673,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 202
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 220
           }
         ]
       },
@@ -687,7 +695,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 76,
+      "articles": 78,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -704,11 +712,11 @@
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
+        "Do Solar Panels Work On Cloudy Days",
         "Free Solar Panels Programs Real Or Scam",
         "Generator Vs Solar Battery Backup",
         "Hoa Solar Panel Rules",
-        "How Long Do Solar Panels Last",
-        "How Long Until Solar Panels Pay For Themselves"
+        "How Long Do Solar Panels Last"
       ],
       "videos": [
         {
@@ -867,9 +875,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2484,
-        "visits": 2484,
-        "unique_visitors": 1696,
+        "page_views": 2733,
+        "visits": 2733,
+        "unique_visitors": 1863,
         "daily": [
           {
             "date": "2026-06-01",
@@ -918,6 +926,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 276
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 249
           }
         ]
       },
@@ -1050,9 +1062,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1986,
-        "visits": 1986,
-        "unique_visitors": 1280,
+        "page_views": 2179,
+        "visits": 2179,
+        "unique_visitors": 1368,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1101,6 +1113,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 181
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 193
           }
         ]
       },
@@ -1299,9 +1315,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2557,
-        "visits": 2557,
-        "unique_visitors": 1631,
+        "page_views": 2794,
+        "visits": 2794,
+        "unique_visitors": 1750,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1350,6 +1366,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 217
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 237
           }
         ]
       },
@@ -1460,9 +1480,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1777,
-        "visits": 1777,
-        "unique_visitors": 1424,
+        "page_views": 1994,
+        "visits": 1994,
+        "unique_visitors": 1545,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1511,6 +1531,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 192
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 217
           }
         ]
       },
@@ -1621,9 +1645,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2096,
-        "visits": 2096,
-        "unique_visitors": 1445,
+        "page_views": 2461,
+        "visits": 2461,
+        "unique_visitors": 1583,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1672,6 +1696,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 173
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 365
           }
         ]
       },
@@ -1804,9 +1832,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2881,
-        "visits": 2881,
-        "unique_visitors": 1767,
+        "page_views": 3166,
+        "visits": 3166,
+        "unique_visitors": 1898,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1855,6 +1883,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 252
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 285
           }
         ]
       },
@@ -1873,12 +1905,13 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 71,
+      "articles": 73,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
         "Are You Ready To Start A Business",
         "Best Business Checking Account For Llc No Monthly Fee",
+        "Bonus Depreciation 2024",
         "Break Even Analysis Explained",
         "Business Acquisition Loan",
         "Business Bank Account Requirements",
@@ -1893,8 +1926,7 @@
         "Cdfi Lender Small Business",
         "Cyber Liability Insurance Small Business",
         "Equipment Financing Explained",
-        "Hiring First Employee Guide",
-        "Home Office Deduction Rules"
+        "Hiring First Employee Guide"
       ],
       "videos": [
         {
@@ -1987,9 +2019,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2331,
-        "visits": 2331,
-        "unique_visitors": 1753,
+        "page_views": 2556,
+        "visits": 2556,
+        "unique_visitors": 1900,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2038,6 +2070,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 284
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 225
           }
         ]
       },
@@ -2214,9 +2250,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2336,
-        "visits": 2336,
-        "unique_visitors": 1475,
+        "page_views": 2450,
+        "visits": 2450,
+        "unique_visitors": 1601,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2265,6 +2301,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 186
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 114
           }
         ]
       },
@@ -2375,9 +2415,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3124,
-        "visits": 3124,
-        "unique_visitors": 1980,
+        "page_views": 3237,
+        "visits": 3237,
+        "unique_visitors": 2110,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2426,6 +2466,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 264
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 113
           }
         ]
       },
@@ -2444,7 +2488,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2536,9 +2580,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2735,
-        "visits": 2735,
-        "unique_visitors": 1595,
+        "page_views": 2842,
+        "visits": 2842,
+        "unique_visitors": 1704,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2587,6 +2631,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 290
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 107
           }
         ]
       },
@@ -2630,9 +2678,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 4891,
-        "visits": 4891,
-        "unique_visitors": 1929,
+        "page_views": 5232,
+        "visits": 5232,
+        "unique_visitors": 2192,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2681,6 +2729,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 1482
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 341
           }
         ]
       },
@@ -2699,7 +2751,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2791,9 +2843,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2821,
-        "visits": 2821,
-        "unique_visitors": 1727,
+        "page_views": 3051,
+        "visits": 3051,
+        "unique_visitors": 1895,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2842,6 +2894,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 361
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 230
           }
         ]
       },
@@ -2930,9 +2986,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2341,
-        "visits": 2341,
-        "unique_visitors": 1780,
+        "page_views": 2509,
+        "visits": 2509,
+        "unique_visitors": 1904,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2981,6 +3037,10 @@
           {
             "date": "2026-06-12",
             "pageViews": 206
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 168
           }
         ]
       },
