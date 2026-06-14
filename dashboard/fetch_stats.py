@@ -19,6 +19,7 @@ GOOGLE_CLIENT_ID     = os.environ.get("GOOGLE_CLIENT_ID", "")
 GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", "")
 GOOGLE_REFRESH_TOKEN = os.environ.get("GOOGLE_REFRESH_TOKEN", "")
 ADSENSE_REFRESH_TOKEN = os.environ.get("ADSENSE_REFRESH_TOKEN", "")  # separate token w/ adsense scope
+YOUTUBE_REFRESH_TOKEN = os.environ.get("YOUTUBE_REFRESH_TOKEN", "") or GOOGLE_REFRESH_TOKEN  # youtube-scoped token (main token no longer has youtube scope)
 ELEVENLABS_API_KEY   = os.environ.get("ELEVENLABS_API_KEY", "")
 
 GH_HEADERS = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json"}
@@ -258,7 +259,7 @@ def main():
     print(f"Fetching dashboard data — {TODAY_STR}")
 
     # Get Google access tokens
-    yt_token      = google_access_token(GOOGLE_REFRESH_TOKEN)
+    yt_token      = google_access_token(YOUTUBE_REFRESH_TOKEN)
     adsense_token = google_access_token(ADSENSE_REFRESH_TOKEN) if ADSENSE_REFRESH_TOKEN else None
     print(f"  YouTube token:  {'OK' if yt_token else 'MISSING'}")
     print(f"  AdSense token:  {'OK' if adsense_token else 'MISSING (needs adsense.readonly scope)'}")
