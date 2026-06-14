@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T02:31:07.238177+00:00",
+  "generated_at": "2026-06-14T08:59:49.065704+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-14"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 42967,
     "visits": 42967,
-    "articles": 1197,
+    "articles": 1199,
     "videos": 140,
     "channels": 14,
-    "yt_views": 1483,
+    "yt_views": 1485,
     "sites": 15
   },
   "adsense_connected": true,
@@ -2323,7 +2323,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
@@ -2378,18 +2378,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 38,
+            "views": 39,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 26,
+            "views": 27,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 64
+          "total_views": 66
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2479,7 +2479,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 223
+      "yt_total_views": 225
     },
     {
       "slug": "rv-life-guide",
