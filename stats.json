@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T08:59:49.065704+00:00",
+  "generated_at": "2026-06-14T13:25:11.643290+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-14"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 42967,
     "visits": 42967,
-    "articles": 1199,
+    "articles": 1209,
     "videos": 140,
     "channels": 14,
-    "yt_views": 1485,
+    "yt_views": 1488,
     "sites": 15
   },
   "adsense_connected": true,
@@ -332,7 +332,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 80,
+      "articles": 82,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -728,7 +728,7 @@
           "standard_id": "EbFy1lIwBtg",
           "standard_url": "https://www.youtube.com/watch?v=EbFy1lIwBtg",
           "shorts_stats": {
-            "views": 5,
+            "views": 6,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
@@ -739,7 +739,7 @@
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
           },
-          "total_views": 5
+          "total_views": 6
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -939,7 +939,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 363
+      "yt_total_views": 364
     },
     {
       "slug": "injury-victim-guide",
@@ -948,7 +948,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 82,
+      "articles": 84,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1135,7 +1135,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 75,
+      "articles": 77,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1156,7 +1156,7 @@
         "Home Insurance Earthquake Coverage",
         "Home Insurance Electronics Coverage",
         "Home Insurance Extended Replacement Cost",
-        "Home Insurance Flood Coverage"
+        "Home Insurance Fence Coverage"
       ],
       "videos": [
         {
@@ -1751,7 +1751,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 12,
+            "views": 14,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -1762,7 +1762,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 13
+          "total_views": 15
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1896,7 +1896,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 50
+      "yt_total_views": 52
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2653,7 +2653,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 93,
+      "articles": 95,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -2916,7 +2916,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 72,
+      "articles": 74,
       "article_titles": [
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Drywall Anchors For Heavy Mirrors",
@@ -2927,6 +2927,7 @@
         "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Door That Wont Latch Properly",
         "How To Fix A Door That Wont Latch",
+        "How To Fix A Garbage Disposal That Wont Turn On",
         "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
         "How To Fix A Leaking Shower Valve Behind The Wall",
@@ -2936,8 +2937,7 @@
         "How To Fix A Refrigerator That Wont Cool",
         "How To Fix A Running Toilet",
         "How To Fix A Sagging Ceiling",
-        "How To Fix A Shower That Drips When Turned Off",
-        "How To Fix A Sliding Door That Wont Slide"
+        "How To Fix A Shower That Drips When Turned Off"
       ],
       "videos": [
         {
