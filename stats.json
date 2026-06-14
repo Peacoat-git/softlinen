@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T13:25:11.643290+00:00",
+  "generated_at": "2026-06-14T17:04:20.511818+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-14"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 42967,
     "visits": 42967,
-    "articles": 1209,
+    "articles": 1216,
     "videos": 140,
     "channels": 14,
     "yt_views": 1488,
@@ -35,10 +35,11 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 71,
+      "articles": 73,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
+        "Best Medicare Advantage Plans With Dental And Vision 2026",
         "Best Medicare Part D Plans 2026",
         "Best Medicare Plans In California 2026",
         "Best Medicare Supplement Companies",
@@ -55,8 +56,7 @@
         "Is Medicare Advantage Right For You",
         "Medicare 2000 Out Of Pocket Cap Drugs",
         "Medicare Advantage Dental Coverage",
-        "Medicare Advantage Hmo Vs Ppo",
-        "Medicare Advantage Out Of Pocket Maximum"
+        "Medicare Advantage Hmo Vs Ppo"
       ],
       "videos": [
         {
@@ -1388,7 +1388,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 72,
+      "articles": 73,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1553,10 +1553,11 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 77,
+      "articles": 79,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
+        "Antidepressants And Therapy Combined",
         "Best Online Therapy Platforms 2026",
         "Best Therapy Apps For Daily Mental Health Support",
         "Betterhelp Vs Talkspace Comparison",
@@ -1573,8 +1574,7 @@
         "Does Marriage Counseling Actually Work",
         "Emdr Therapy Explained",
         "Family Therapy Benefits",
-        "Federally Qualified Health Center Therapy",
-        "Finding A Therapist That Takes Insurance"
+        "Federally Qualified Health Center Therapy"
       ],
       "videos": [
         {
@@ -2092,7 +2092,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 90,
+      "articles": 92,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
