@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T16:52:39.705633+00:00",
+  "generated_at": "2026-06-15T20:43:40.686106+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-15"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 45404,
     "visits": 45404,
-    "articles": 1224,
+    "articles": 1234,
     "videos": 144,
     "channels": 14,
-    "yt_views": 1498,
+    "yt_views": 1499,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 71,
+      "articles": 73,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -1430,7 +1430,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 74,
+      "articles": 76,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1463,7 +1463,7 @@
           "standard_id": "JEuYKbfW_dc",
           "standard_url": "https://www.youtube.com/watch?v=JEuYKbfW_dc",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
@@ -1474,7 +1474,7 @@
             "comments": 0,
             "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "iiUgA5cnX3k",
@@ -1612,7 +1612,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 2
+      "yt_total_views": 3
     },
     {
       "slug": "therapy-finder-guide",
@@ -1621,7 +1621,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1630,6 +1630,7 @@
         "Best Therapy Apps For Daily Mental Health Support",
         "Betterhelp Vs Talkspace Comparison",
         "Cbt Vs Dbt Therapy What Is The Difference",
+        "Cbt Worksheets Explained",
         "Child Therapy Guide For Parents",
         "Co Parenting Therapy",
         "Cognitive Behavioral Therapy Explained",
@@ -1641,8 +1642,7 @@
         "Does Insurance Cover Therapy",
         "Does Marriage Counseling Actually Work",
         "Emdr Therapy Explained",
-        "Family Therapy Benefits",
-        "Federally Qualified Health Center Therapy"
+        "Family Therapy Benefits"
       ],
       "videos": [
         {
@@ -1790,7 +1790,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 79,
+      "articles": 81,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best High Protein Dog Food For Weight Loss",
@@ -2172,7 +2172,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 91,
+      "articles": 93,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -2185,6 +2185,7 @@
         "Electrolytes On Keto",
         "Foods Allowed On Keto",
         "Foods To Avoid On Keto",
+        "High Fat Keto Foods",
         "How Fast Keto Weight Loss",
         "How Long To Enter Ketosis",
         "How Much Protein Should I Eat On Keto",
@@ -2192,8 +2193,7 @@
         "How To Calculate Net Carbs On Keto",
         "How To Make Keto Bread Without Almond Flour",
         "How To Meal Prep Keto Lunches For The Week",
-        "How To Start Keto",
-        "How To Test For Ketosis At Home"
+        "How To Start Keto"
       ],
       "videos": [
         {
