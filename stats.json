@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T02:35:55.410201+00:00",
+  "generated_at": "2026-06-15T11:42:14.415575+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-15"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 45404,
     "visits": 45404,
-    "articles": 1228,
+    "articles": 1214,
     "videos": 140,
     "channels": 14,
-    "yt_views": 1490,
+    "yt_views": 1495,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 73,
+      "articles": 71,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -336,7 +336,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 82,
+      "articles": 80,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -350,14 +350,14 @@
         "Energy Independence With Solar And Battery",
         "Enphase Iq Battery Review",
         "Ev Charging And Solar Panels Home",
-        "Federal Solar Tax Credit 2026 Explained",
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
         "Grid Tied Vs Off Grid Solar System",
         "Hoa Solar Panel Rules",
         "Home Battery Storage Options Compared",
         "How Long Do Solar Batteries Last",
-        "How Long Do Solar Panels Last"
+        "How Long Do Solar Panels Last",
+        "How Long To Pay Off Solar Panels"
       ],
       "videos": [
         {
@@ -736,7 +736,7 @@
           "standard_id": "EbFy1lIwBtg",
           "standard_url": "https://www.youtube.com/watch?v=EbFy1lIwBtg",
           "shorts_stats": {
-            "views": 6,
+            "views": 7,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
@@ -747,7 +747,7 @@
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
           },
-          "total_views": 6
+          "total_views": 7
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -951,7 +951,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 364
+      "yt_total_views": 365
     },
     {
       "slug": "injury-victim-guide",
@@ -1151,7 +1151,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 77,
+      "articles": 75,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1577,7 +1577,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 79,
+      "articles": 78,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1746,10 +1746,9 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 81,
+      "articles": 79,
       "article_titles": [
         "Are You Ready For A New Pet",
-        "Best Flea And Tick Prevention For Dogs Comparison",
         "Best High Protein Dog Food For Weight Loss",
         "Best Supplements For Senior Dogs With Arthritis",
         "Blood Work For Dogs Explained",
@@ -1767,7 +1766,8 @@
         "Cat Stress Signs Causes",
         "Cat Urinary Tract Infection Signs",
         "Cat Vomiting When To Worry",
-        "Common Health Problems In French Bulldogs"
+        "Common Health Problems In French Bulldogs",
+        "Cost Of Professional Dog Teeth Cleaning Under Anesthesia 2026"
       ],
       "videos": [
         {
@@ -1937,7 +1937,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 75,
+      "articles": 72,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2128,7 +2128,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 92,
+      "articles": 91,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -2145,11 +2145,11 @@
         "How Long To Enter Ketosis",
         "How Much Protein Should I Eat On Keto",
         "How To Become Fat Adapted",
-        "How To Break A Keto Weight Loss Plateau",
         "How To Calculate Net Carbs On Keto",
         "How To Make Keto Bread Without Almond Flour",
         "How To Meal Prep Keto Lunches For The Week",
-        "How To Start Keto"
+        "How To Start Keto",
+        "How To Test For Ketosis At Home"
       ],
       "videos": [
         {
@@ -2363,8 +2363,9 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 80,
+      "articles": 82,
       "article_titles": [
+        "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
         "Backyard Chicken Egg Cost Vs Store",
@@ -2383,8 +2384,7 @@
         "Chicken Coop Predator Protection",
         "Chicken Coop Ventilation",
         "Chicken Feed Types Explained",
-        "Chicken Health Problems",
-        "Chicken Lice Treatment"
+        "Chicken Health Problems"
       ],
       "videos": [
         {
@@ -2565,7 +2565,7 @@
           "standard_id": "MMIl2PNCLqk",
           "standard_url": "https://www.youtube.com/watch?v=MMIl2PNCLqk",
           "shorts_stats": {
-            "views": 1,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
@@ -2576,7 +2576,7 @@
             "comments": 0,
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
           },
-          "total_views": 2
+          "total_views": 5
         },
         {
           "shorts_id": "DzS5HtoTul0",
@@ -2692,7 +2692,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 52
+      "yt_total_views": 55
     },
     {
       "slug": "gamedevproducer",
@@ -2701,7 +2701,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 96,
+      "articles": 95,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -2803,7 +2803,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 99,
+      "articles": 98,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2811,7 +2811,6 @@
         "Balance Exercises For Seniors To Prevent Falls",
         "Benefits Of Exercise For Older Adults",
         "Best Balance Exercises For Elderly At Home",
-        "Best Balance Exercises For Seniors To Prevent Falls",
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
         "Best Exercise Routine For 65 Year Old Woman",
@@ -2824,7 +2823,8 @@
         "Best Morning Routines For Seniors Over 65",
         "Best Omega 3 Foods For Seniors With Joint Pain",
         "Best Pedometer For Seniors Easy To Use",
-        "Best Protein Foods For Seniors To Maintain Muscle"
+        "Best Protein Foods For Seniors To Maintain Muscle",
+        "Best Protein Sources For Seniors Building Muscle"
       ],
       "videos": [
         {
@@ -2972,7 +2972,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 74,
+      "articles": 73,
       "article_titles": [
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Drywall Anchors For Heavy Mirrors",
@@ -2981,7 +2981,6 @@
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
         "How To Find Studs Behind Drywall Without A Stud Finder",
-        "How To Fix A Door That Wont Latch Properly",
         "How To Fix A Door That Wont Latch",
         "How To Fix A Garbage Disposal That Wont Turn On",
         "How To Fix A Hole In The Wall From A Doorknob",
@@ -2993,7 +2992,8 @@
         "How To Fix A Refrigerator That Wont Cool",
         "How To Fix A Running Toilet",
         "How To Fix A Sagging Ceiling",
-        "How To Fix A Shower That Drips When Turned Off"
+        "How To Fix A Shower That Drips When Turned Off",
+        "How To Fix A Sliding Door That Wont Slide"
       ],
       "videos": [
         {
@@ -3005,7 +3005,7 @@
           "standard_id": "Fvnj3gAgAM0",
           "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
           "shorts_stats": {
-            "views": 19,
+            "views": 20,
             "likes": 0,
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
@@ -3016,7 +3016,7 @@
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
           },
-          "total_views": 19
+          "total_views": 20
         },
         {
           "shorts_id": "V4Y6Y9bF_-o",
@@ -3110,7 +3110,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 114
+      "yt_total_views": 115
     }
   ]
 }
