@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T11:42:14.415575+00:00",
+  "generated_at": "2026-06-15T16:52:39.705633+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-15"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 45404,
     "visits": 45404,
-    "articles": 1214,
-    "videos": 140,
+    "articles": 1224,
+    "videos": 144,
     "channels": 14,
-    "yt_views": 1495,
+    "yt_views": 1498,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 140,
-    "credits_used": 95.2,
-    "est_remaining": 55.21,
-    "pct_remaining": 36.7,
+    "renders_since_baseline": 144,
+    "credits_used": 97.92,
+    "est_remaining": 52.49,
+    "pct_remaining": 34.9,
     "days_until_renewal": 3
   },
   "sites": [
@@ -336,7 +336,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 80,
+      "articles": 82,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -960,7 +960,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1151,7 +1151,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 75,
+      "articles": 77,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1160,6 +1160,7 @@
         "Does Home Insurance Cover Roof Leaks",
         "Does Homeowners Insurance Cover Water Damage",
         "Escrow And Home Insurance",
+        "Ho 3 Policy Explained",
         "Hoa Master Policy And Condo Coverage",
         "Home Insurance After Refinancing",
         "Home Insurance Bundling Discount",
@@ -1171,10 +1172,31 @@
         "Home Insurance Dwelling Coverage",
         "Home Insurance Earthquake Coverage",
         "Home Insurance Electronics Coverage",
-        "Home Insurance Extended Replacement Cost",
-        "Home Insurance Fence Coverage"
+        "Home Insurance Extended Replacement Cost"
       ],
       "videos": [
+        {
+          "shorts_id": "dQz9RGmlhxI",
+          "shorts_url": "https://www.youtube.com/shorts/dQz9RGmlhxI",
+          "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)",
+          "article_slug": "mortgage-lender-insurance-requirements",
+          "published_at": "2026-06-15T16:16:36.491776+00:00",
+          "standard_id": "syIn1xHGmcQ",
+          "standard_url": "https://www.youtube.com/watch?v=syIn1xHGmcQ",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "zzagShQjqys",
           "shorts_url": "https://www.youtube.com/shorts/zzagShQjqys",
@@ -1432,6 +1454,28 @@
         "Heloc Vs Home Equity Loan Which Should I Choose"
       ],
       "videos": [
+        {
+          "shorts_id": "ptAhipXG4wk",
+          "shorts_url": "https://www.youtube.com/shorts/ptAhipXG4wk",
+          "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This",
+          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
+          "published_at": "2026-06-15T16:51:59.429304+00:00",
+          "standard_id": "JEuYKbfW_dc",
+          "standard_url": "https://www.youtube.com/watch?v=JEuYKbfW_dc",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
+          },
+          "total_views": 0
+        },
         {
           "shorts_id": "iiUgA5cnX3k",
           "shorts_url": "https://www.youtube.com/shorts/iiUgA5cnX3k",
@@ -2418,18 +2462,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 39,
+            "views": 40,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 28,
+            "views": 29,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 67
+          "total_views": 69
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2523,7 +2567,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 226
+      "yt_total_views": 228
     },
     {
       "slug": "rv-life-guide",
@@ -2701,7 +2745,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -2858,7 +2902,7 @@
           "standard_id": "EnoSdGWiryU",
           "standard_url": "https://www.youtube.com/watch?v=EnoSdGWiryU",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
@@ -2869,7 +2913,7 @@
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "D87bLFUgJd8",
@@ -2963,7 +3007,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 30
+      "yt_total_views": 31
     },
     {
       "slug": "fixitrightway",
@@ -2972,16 +3016,18 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 73,
+      "articles": 75,
       "article_titles": [
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Drywall Anchors For Heavy Mirrors",
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
+        "How Tariffs Are Changing The Cost Of Your Next Diy Project",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
         "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Door That Wont Latch",
+        "How To Fix A Drafty Window Without Replacing It",
         "How To Fix A Garbage Disposal That Wont Turn On",
         "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
@@ -2991,9 +3037,7 @@
         "How To Fix A Noisy Furnace",
         "How To Fix A Refrigerator That Wont Cool",
         "How To Fix A Running Toilet",
-        "How To Fix A Sagging Ceiling",
-        "How To Fix A Shower That Drips When Turned Off",
-        "How To Fix A Sliding Door That Wont Slide"
+        "How To Fix A Sagging Ceiling"
       ],
       "videos": [
         {
