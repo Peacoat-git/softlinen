@@ -69,6 +69,9 @@ def main():
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
     submitted_today = 0
+    errors = 0
+    fatal = None
+    quota_stop = False
     for u in remaining[:DAILY_BUDGET]:
         try:
             r = requests.post("https://indexing.googleapis.com/v3/urlNotifications:publish",
@@ -76,10 +79,16 @@ def main():
             if r.status_code == 200:
                 done.add(u); submitted_today += 1
             elif r.status_code in (429, 403) and ("quota" in r.text.lower() or "rateLimit" in r.text):
-                print(f"  Daily quota reached after {submitted_today} (resumes tomorrow)"); break
+                print(f"  Daily quota reached after {submitted_today} (resumes tomorrow)")
+                quota_stop = True; break
+            elif r.status_code == 403 and ("SCOPE_INSUFFICIENT" in r.text or "PERMISSION_DENIED" in r.text):
+                fatal = f"403 PERMISSION_DENIED / insufficient scope - token is missing the 'indexing' scope. {r.text[:140]}"
+                print(f"  FATAL: {fatal}"); break
             else:
+                errors += 1
                 print(f"  {r.status_code} for {u}: {r.text[:80]}")
         except Exception as e:
+            errors += 1
             print(f"  error {e}")
         time.sleep(0.2)
 
@@ -87,6 +96,14 @@ def main():
     json.dump(state, open(STATE_FILE, "w", encoding="utf-8"), indent=0)
     print(f"\nSubmitted {submitted_today} URLs today. Total done: {len(done)}/{total}. "
           f"Remaining: {total - len(done)}")
+
+    # Fail loudly so a broken backfill turns the run RED instead of a green run that submits
+    # nothing. A silent scope-403 froze this job for days before the 2026-06-15 fix.
+    if fatal:
+        raise SystemExit(f"BACKFILL FAILED: {fatal}")
+    if submitted_today == 0 and not quota_stop:
+        raise SystemExit(f"BACKFILL FAILED: 0 of {len(remaining)} remaining URLs submitted "
+                         f"({errors} errors) - check token scope / quota.")
 
 if __name__ == "__main__":
     main()
