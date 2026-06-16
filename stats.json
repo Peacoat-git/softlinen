@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T10:51:25.478680+00:00",
+  "generated_at": "2026-06-16T16:20:43.526173+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-16"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 47870,
     "visits": 47870,
-    "articles": 1244,
-    "videos": 146,
+    "articles": 1254,
+    "videos": 150,
     "channels": 14,
-    "yt_views": 1502,
+    "yt_views": 1503,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 146,
-    "credits_used": 99.28,
-    "est_remaining": 51.13,
-    "pct_remaining": 34.0,
+    "renders_since_baseline": 150,
+    "credits_used": 102.0,
+    "est_remaining": 48.41,
+    "pct_remaining": 32.2,
     "days_until_renewal": 2
   },
   "sites": [
@@ -340,7 +340,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 82,
+      "articles": 84,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -972,7 +972,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 86,
+      "articles": 88,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1167,7 +1167,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 77,
+      "articles": 79,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1200,7 +1200,7 @@
           "standard_id": "syIn1xHGmcQ",
           "standard_url": "https://www.youtube.com/watch?v=syIn1xHGmcQ",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
@@ -1211,7 +1211,7 @@
             "comments": 0,
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "zzagShQjqys",
@@ -1441,7 +1441,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 60
+      "yt_total_views": 61
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -2233,6 +2233,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "hQwSfP2pGvk",
+          "shorts_url": "https://www.youtube.com/shorts/hQwSfP2pGvk",
+          "title": "3 Keto Studies in 2026 Contradict Each Other \u2014 Here's the Truth",
+          "article_slug": "new-studies-clash-on-long-term-keto-what-the-science-actually-says",
+          "published_at": "2026-06-16T15:55:28.873577+00:00",
+          "standard_id": "aoniB1z4Ud0",
+          "standard_url": "https://www.youtube.com/watch?v=aoniB1z4Ud0",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Keto Studies in 2026 Contradict Each Other \u2014 Here's the Truth"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "3 Keto Studies in 2026 Contradict Each Other \u2014 Here's the Truth"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "9iS9YAf5dUE",
           "shorts_url": "https://www.youtube.com/shorts/9iS9YAf5dUE",
           "title": "Keto Flu Explained: The Real Reason You Feel Terrible (It's Fixable)",
@@ -2667,6 +2689,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "KP_XepCOlVQ",
+          "shorts_url": "https://www.youtube.com/shorts/KP_XepCOlVQ",
+          "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)",
+          "article_slug": "working-remotely-from-rv",
+          "published_at": "2026-06-16T15:19:57.539931+00:00",
+          "standard_id": "gFyx-e7aln8",
+          "standard_url": "https://www.youtube.com/watch?v=gFyx-e7aln8",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "E5ikv9IZVJE",
           "shorts_url": "https://www.youtube.com/shorts/E5ikv9IZVJE",
           "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)",
@@ -2815,7 +2859,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 97,
+      "articles": 99,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3094,8 +3138,9 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 75,
+      "articles": 77,
       "article_titles": [
+        "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Drywall Anchors For Heavy Mirrors",
         "Best Primer For Covering Dark Walls In One Coat",
@@ -3114,8 +3159,7 @@
         "How To Fix A Leaky Outdoor Faucet",
         "How To Fix A Noisy Furnace",
         "How To Fix A Refrigerator That Wont Cool",
-        "How To Fix A Running Toilet",
-        "How To Fix A Sagging Ceiling"
+        "How To Fix A Running Toilet"
       ],
       "videos": [
         {
