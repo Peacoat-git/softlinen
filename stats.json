@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T03:54:43.627195+00:00",
+  "generated_at": "2026-06-16T10:51:25.478680+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-16"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 47870,
     "visits": 47870,
-    "articles": 1242,
-    "videos": 144,
+    "articles": 1244,
+    "videos": 146,
     "channels": 14,
-    "yt_views": 1501,
+    "yt_views": 1502,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-05-19",
     "renewal_date": "2026-06-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 144,
-    "credits_used": 97.92,
-    "est_remaining": 52.49,
-    "pct_remaining": 34.9,
+    "renders_since_baseline": 146,
+    "credits_used": 99.28,
+    "est_remaining": 51.13,
+    "pct_remaining": 34.0,
     "days_until_renewal": 2
   },
   "sites": [
@@ -2233,6 +2233,28 @@
       ],
       "videos": [
         {
+          "shorts_id": "9iS9YAf5dUE",
+          "shorts_url": "https://www.youtube.com/shorts/9iS9YAf5dUE",
+          "title": "Keto Flu Explained: The Real Reason You Feel Terrible (It's Fixable)",
+          "article_slug": "what-is-the-keto-flu-and-how-long-does-it-last",
+          "published_at": "2026-06-16T05:49:03.870964+00:00",
+          "standard_id": "h6DpRtBWkOw",
+          "standard_url": "https://www.youtube.com/watch?v=h6DpRtBWkOw",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Keto Flu Explained: The Real Reason You Feel Terrible (It's Fixable)"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Keto Flu Explained: The Real Reason You Feel Terrible (It's Fixable)"
+          },
+          "total_views": 0
+        },
+        {
           "shorts_id": "HvpF4wM3C50",
           "shorts_url": "https://www.youtube.com/shorts/HvpF4wM3C50",
           "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis Results",
@@ -2247,12 +2269,12 @@
             "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis Results"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "3 'Healthy' Foods Secretly Destroying Your Ketosis Results"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "GJvDvPdEZQg",
@@ -2438,7 +2460,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 9
+      "yt_total_views": 10
     },
     {
       "slug": "chicken-keeper-guide",
@@ -2447,7 +2469,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 82,
+      "articles": 84,
       "article_titles": [
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Aggressive Chickens",
