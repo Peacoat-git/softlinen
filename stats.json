@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-15T23:42:54.977443+00:00",
+  "generated_at": "2026-06-16T00:45:20.206947+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-15"
+    "end": "2026-06-16"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 45404,
-    "visits": 45404,
-    "articles": 1240,
+    "page_views": 47870,
+    "visits": 47870,
+    "articles": 1242,
     "videos": 144,
     "channels": 14,
     "yt_views": 1499,
@@ -25,7 +25,7 @@
     "credits_used": 97.92,
     "est_remaining": 52.49,
     "pct_remaining": 34.9,
-    "days_until_renewal": 3
+    "days_until_renewal": 2
   },
   "sites": [
     {
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2827,
-        "visits": 2827,
-        "unique_visitors": 1777,
+        "page_views": 2929,
+        "visits": 2929,
+        "unique_visitors": 1905,
         "daily": [
           {
             "date": "2026-06-01",
@@ -318,6 +318,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 103
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 102
           }
         ]
       },
@@ -626,9 +630,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3243,
-        "visits": 3243,
-        "unique_visitors": 2203,
+        "page_views": 3444,
+        "visits": 3444,
+        "unique_visitors": 2401,
         "daily": [
           {
             "date": "2026-06-01",
@@ -685,6 +689,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 204
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 201
           }
         ]
       },
@@ -703,7 +711,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 80,
+      "articles": 82,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -883,9 +891,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2888,
-        "visits": 2888,
-        "unique_visitors": 2031,
+        "page_views": 2982,
+        "visits": 2982,
+        "unique_visitors": 2149,
         "daily": [
           {
             "date": "2026-06-01",
@@ -942,6 +950,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 155
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 94
           }
         ]
       },
@@ -1074,9 +1086,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2281,
-        "visits": 2281,
-        "unique_visitors": 1463,
+        "page_views": 2383,
+        "visits": 2383,
+        "unique_visitors": 1570,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1132,6 +1144,10 @@
           },
           {
             "date": "2026-06-14",
+            "pageViews": 102
+          },
+          {
+            "date": "2026-06-15",
             "pageViews": 102
           }
         ]
@@ -1353,9 +1369,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2906,
-        "visits": 2906,
-        "unique_visitors": 1875,
+        "page_views": 2992,
+        "visits": 2992,
+        "unique_visitors": 1977,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1412,6 +1428,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 112
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 86
           }
         ]
       },
@@ -1544,9 +1564,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2095,
-        "visits": 2095,
-        "unique_visitors": 1667,
+        "page_views": 2201,
+        "visits": 2201,
+        "unique_visitors": 1765,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1603,6 +1623,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 101
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 106
           }
         ]
       },
@@ -1713,9 +1737,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2591,
-        "visits": 2591,
-        "unique_visitors": 1686,
+        "page_views": 2669,
+        "visits": 2669,
+        "unique_visitors": 1771,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1772,6 +1796,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 130
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 78
           }
         ]
       },
@@ -1904,9 +1932,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3492,
-        "visits": 3492,
-        "unique_visitors": 2064,
+        "page_views": 3700,
+        "visits": 3700,
+        "unique_visitors": 2179,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1963,6 +1991,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 326
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 208
           }
         ]
       },
@@ -2095,9 +2127,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2717,
-        "visits": 2717,
-        "unique_visitors": 2045,
+        "page_views": 2824,
+        "visits": 2824,
+        "unique_visitors": 2174,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2154,6 +2186,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 161
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 107
           }
         ]
       },
@@ -2330,9 +2366,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2651,
-        "visits": 2651,
-        "unique_visitors": 1852,
+        "page_views": 2858,
+        "visits": 2858,
+        "unique_visitors": 1949,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2389,6 +2425,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 201
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 207
           }
         ]
       },
@@ -2499,9 +2539,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3424,
-        "visits": 3424,
-        "unique_visitors": 2305,
+        "page_views": 3665,
+        "visits": 3665,
+        "unique_visitors": 2448,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2558,6 +2598,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 187
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 241
           }
         ]
       },
@@ -2668,9 +2712,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3006,
-        "visits": 3006,
-        "unique_visitors": 1839,
+        "page_views": 3221,
+        "visits": 3221,
+        "unique_visitors": 1962,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2727,6 +2771,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 164
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 215
           }
         ]
       },
@@ -2770,9 +2818,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 5472,
-        "visits": 5472,
-        "unique_visitors": 2352,
+        "page_views": 5665,
+        "visits": 5665,
+        "unique_visitors": 2484,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2829,6 +2877,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 240
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 193
           }
         ]
       },
@@ -2939,9 +2991,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3159,
-        "visits": 3159,
-        "unique_visitors": 2019,
+        "page_views": 3387,
+        "visits": 3387,
+        "unique_visitors": 2133,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2998,6 +3050,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 108
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 228
           }
         ]
       },
@@ -3086,9 +3142,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2652,
-        "visits": 2652,
-        "unique_visitors": 2067,
+        "page_views": 2950,
+        "visits": 2950,
+        "unique_visitors": 2229,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3145,6 +3201,10 @@
           {
             "date": "2026-06-14",
             "pageViews": 143
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 298
           }
         ]
       },
