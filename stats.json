@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T01:37:47.065580+00:00",
+  "generated_at": "2026-06-17T02:35:08.887445+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-17"
@@ -11,7 +11,7 @@
     "articles": 1272,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1518,
+    "yt_views": 1519,
     "sites": 15
   },
   "adsense_connected": true,
@@ -2741,7 +2741,7 @@
           "standard_id": "gFyx-e7aln8",
           "standard_url": "https://www.youtube.com/watch?v=gFyx-e7aln8",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
@@ -2752,7 +2752,7 @@
             "comments": 0,
             "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "E5ikv9IZVJE",
@@ -2898,7 +2898,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 55
+      "yt_total_views": 56
     },
     {
       "slug": "gamedevproducer",
