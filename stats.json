@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T02:35:08.887445+00:00",
+  "generated_at": "2026-06-17T10:23:31.315267+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-17"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 50483,
     "visits": 50483,
-    "articles": 1272,
+    "articles": 1273,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1519,
+    "yt_views": 1521,
     "sites": 15
   },
   "adsense_connected": true,
@@ -597,7 +597,7 @@
           "standard_id": "kv2zAfYOxPo",
           "standard_url": "https://www.youtube.com/watch?v=kv2zAfYOxPo",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
@@ -608,7 +608,7 @@
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
           },
-          "total_views": 6
+          "total_views": 7
         },
         {
           "shorts_id": "cqi_MqRbkHE",
@@ -710,7 +710,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 542
+      "yt_total_views": 543
     },
     {
       "slug": "solar-home-planner",
@@ -1879,7 +1879,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 16,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -1890,7 +1890,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 17
+          "total_views": 18
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2036,7 +2036,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 54
+      "yt_total_views": 55
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2045,7 +2045,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 76,
+      "articles": 75,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2531,13 +2531,14 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
         "Backyard Chicken Egg Cost Vs Store",
         "Backyard Chickens For Beginners",
+        "Bantam Chicken Breeds",
         "Best Chicken Breeds For Beginners",
         "Best Chicken Coop Kits To Buy",
         "Best Egg Incubator",
@@ -2550,9 +2551,8 @@
         "Chicken Coop Bedding Options",
         "Chicken Coop Plans Free",
         "Chicken Coop Predator Protection",
-        "Chicken Coop Ventilation",
-        "Chicken Feed Types Explained",
-        "Chicken Health Problems"
+        "Chicken Coop Smell Control",
+        "Chicken Coop Ventilation"
       ],
       "videos": [
         {
