@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-16T20:35:43.235840+00:00",
+  "generated_at": "2026-06-17T01:37:47.065580+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-16"
+    "end": "2026-06-17"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 47870,
-    "visits": 47870,
-    "articles": 1264,
+    "page_views": 50483,
+    "visits": 50483,
+    "articles": 1272,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1512,
+    "yt_views": 1518,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 102.0,
     "est_remaining": 48.41,
     "pct_remaining": 32.2,
-    "days_until_renewal": 2
+    "days_until_renewal": 1
   },
   "sites": [
     {
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2929,
-        "visits": 2929,
-        "unique_visitors": 1905,
+        "page_views": 3025,
+        "visits": 3025,
+        "unique_visitors": 2032,
         "daily": [
           {
             "date": "2026-06-01",
@@ -322,6 +322,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 102
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 96
           }
         ]
       },
@@ -630,9 +634,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3444,
-        "visits": 3444,
-        "unique_visitors": 2401,
+        "page_views": 3621,
+        "visits": 3621,
+        "unique_visitors": 2597,
         "daily": [
           {
             "date": "2026-06-01",
@@ -693,6 +697,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 201
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 177
           }
         ]
       },
@@ -711,7 +719,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 82,
+      "articles": 84,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -891,9 +899,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2982,
-        "visits": 2982,
-        "unique_visitors": 2149,
+        "page_views": 3083,
+        "visits": 3083,
+        "unique_visitors": 2279,
         "daily": [
           {
             "date": "2026-06-01",
@@ -954,6 +962,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 94
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 101
           }
         ]
       },
@@ -1086,9 +1098,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2383,
-        "visits": 2383,
-        "unique_visitors": 1570,
+        "page_views": 2454,
+        "visits": 2454,
+        "unique_visitors": 1668,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1149,6 +1161,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 102
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 71
           }
         ]
       },
@@ -1200,7 +1216,7 @@
           "standard_id": "syIn1xHGmcQ",
           "standard_url": "https://www.youtube.com/watch?v=syIn1xHGmcQ",
           "shorts_stats": {
-            "views": 9,
+            "views": 10,
             "likes": 0,
             "comments": 0,
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
@@ -1211,7 +1227,7 @@
             "comments": 0,
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
-          "total_views": 9
+          "total_views": 10
         },
         {
           "shorts_id": "zzagShQjqys",
@@ -1369,9 +1385,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2992,
-        "visits": 2992,
-        "unique_visitors": 1977,
+        "page_views": 3085,
+        "visits": 3085,
+        "unique_visitors": 2101,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1432,6 +1448,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 86
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 93
           }
         ]
       },
@@ -1441,7 +1461,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 69
+      "yt_total_views": 70
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1564,9 +1584,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2201,
-        "visits": 2201,
-        "unique_visitors": 1765,
+        "page_views": 2323,
+        "visits": 2323,
+        "unique_visitors": 1892,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1627,6 +1647,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 106
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 122
           }
         ]
       },
@@ -1737,9 +1761,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2669,
-        "visits": 2669,
-        "unique_visitors": 1771,
+        "page_views": 2750,
+        "visits": 2750,
+        "unique_visitors": 1885,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1800,6 +1824,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 78
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 81
           }
         ]
       },
@@ -1851,7 +1879,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 14,
+            "views": 16,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -1862,7 +1890,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 15
+          "total_views": 17
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1932,9 +1960,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3700,
-        "visits": 3700,
-        "unique_visitors": 2179,
+        "page_views": 4001,
+        "visits": 4001,
+        "unique_visitors": 2379,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1995,6 +2023,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 208
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 301
           }
         ]
       },
@@ -2004,7 +2036,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 52
+      "yt_total_views": 54
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2013,7 +2045,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 74,
+      "articles": 76,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2127,9 +2159,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2824,
-        "visits": 2824,
-        "unique_visitors": 2174,
+        "page_views": 3069,
+        "visits": 3069,
+        "unique_visitors": 2356,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2190,6 +2222,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 107
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 245
           }
         ]
       },
@@ -2263,7 +2299,7 @@
           "standard_id": "h6DpRtBWkOw",
           "standard_url": "https://www.youtube.com/watch?v=h6DpRtBWkOw",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Keto Flu Explained: The Real Reason You Feel Terrible (It's Fixable)"
@@ -2274,7 +2310,7 @@
             "comments": 0,
             "title": "Keto Flu Explained: The Real Reason You Feel Terrible (It's Fixable)"
           },
-          "total_views": 0
+          "total_views": 1
         },
         {
           "shorts_id": "HvpF4wM3C50",
@@ -2410,9 +2446,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2858,
-        "visits": 2858,
-        "unique_visitors": 1949,
+        "page_views": 3081,
+        "visits": 3081,
+        "unique_visitors": 2137,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2473,6 +2509,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 207
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 223
           }
         ]
       },
@@ -2482,7 +2522,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 10
+      "yt_total_views": 11
     },
     {
       "slug": "chicken-keeper-guide",
@@ -2546,18 +2586,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 40,
+            "views": 41,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 29,
+            "views": 30,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 69
+          "total_views": 71
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2583,9 +2623,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3665,
-        "visits": 3665,
-        "unique_visitors": 2448,
+        "page_views": 3916,
+        "visits": 3916,
+        "unique_visitors": 2596,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2646,6 +2686,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 241
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 251
           }
         ]
       },
@@ -2655,7 +2699,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 228
+      "yt_total_views": 230
     },
     {
       "slug": "rv-life-guide",
@@ -2664,7 +2708,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2672,6 +2716,7 @@
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
+        "Best Remote Jobs For Full Time Rvers",
         "Best Rv Brands Reliability",
         "Best Rv Campgrounds Usa",
         "Best Rv Camping Memberships To Save Money",
@@ -2684,8 +2729,7 @@
         "Boondocking Locations Free",
         "Boondocking Without Hookups",
         "Californias Clean Truck Check Is Now Hitting Diesel Motorhome Owners",
-        "Class A Vs Class B Vs Class C Rv",
-        "Dispersed Camping Guide"
+        "Class A Vs Class B Vs Class C Rv"
       ],
       "videos": [
         {
@@ -2778,9 +2822,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3221,
-        "visits": 3221,
-        "unique_visitors": 1962,
+        "page_views": 3436,
+        "visits": 3436,
+        "unique_visitors": 2119,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2841,6 +2885,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 215
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 215
           }
         ]
       },
@@ -2884,9 +2932,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 5665,
-        "visits": 5665,
-        "unique_visitors": 2484,
+        "page_views": 5815,
+        "visits": 5815,
+        "unique_visitors": 2616,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2947,6 +2995,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 193
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 150
           }
         ]
       },
@@ -2965,7 +3017,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 100,
+      "articles": 102,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -3057,9 +3109,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3387,
-        "visits": 3387,
-        "unique_visitors": 2133,
+        "page_views": 3671,
+        "visits": 3671,
+        "unique_visitors": 2296,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3120,6 +3172,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 228
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 284
           }
         ]
       },
@@ -3208,9 +3264,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2950,
-        "visits": 2950,
-        "unique_visitors": 2229,
+        "page_views": 3153,
+        "visits": 3153,
+        "unique_visitors": 2452,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3271,6 +3327,10 @@
           {
             "date": "2026-06-15",
             "pageViews": 298
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 203
           }
         ]
       },
