@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T14:47:59.740649+00:00",
+  "generated_at": "2026-06-17T19:57:08.472676+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-17"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 50483,
     "visits": 50483,
-    "articles": 1283,
+    "articles": 1298,
     "videos": 150,
     "channels": 14,
     "yt_views": 1521,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 75,
+      "articles": 77,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -597,7 +597,7 @@
           "standard_id": "kv2zAfYOxPo",
           "standard_url": "https://www.youtube.com/watch?v=kv2zAfYOxPo",
           "shorts_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
@@ -608,7 +608,7 @@
             "comments": 0,
             "title": "Solar Calculators Are Lying to You (Here's the $600 Proof)"
           },
-          "total_views": 7
+          "total_views": 8
         },
         {
           "shorts_id": "cqi_MqRbkHE",
@@ -710,7 +710,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 543
+      "yt_total_views": 544
     },
     {
       "slug": "solar-home-planner",
@@ -1470,7 +1470,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1503,7 +1503,7 @@
           "standard_id": "JEuYKbfW_dc",
           "standard_url": "https://www.youtube.com/watch?v=JEuYKbfW_dc",
           "shorts_stats": {
-            "views": 2,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
@@ -1514,7 +1514,7 @@
             "comments": 0,
             "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
           },
-          "total_views": 2
+          "total_views": 1
         },
         {
           "shorts_id": "iiUgA5cnX3k",
@@ -1660,7 +1660,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 4
+      "yt_total_views": 3
     },
     {
       "slug": "therapy-finder-guide",
@@ -1669,11 +1669,12 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 82,
+      "articles": 87,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
         "Antidepressants And Therapy Combined",
+        "Anxiety Screening",
         "Best Online Therapy Platforms 2026",
         "Best Therapy Apps For Daily Mental Health Support",
         "Betterhelp Vs Talkspace Comparison",
@@ -1685,12 +1686,11 @@
         "Community Mental Health Center Access",
         "Could Talking To Someone Help Right Now",
         "Couples Therapy How It Works",
+        "Culturally Competent Therapy",
         "Dbt Therapy What Is It",
+        "Depression Screening",
         "Difference Between Psychologist Psychiatrist And Therapist",
-        "Does Insurance Cover Therapy",
-        "Does Marriage Counseling Actually Work",
-        "Emdr Therapy Explained",
-        "Family Therapy Benefits"
+        "Does Insurance Cover Therapy"
       ],
       "videos": [
         {
@@ -1846,7 +1846,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 83,
+      "articles": 85,
       "article_titles": [
         "Are You Ready For A New Pet",
         "Best High Protein Dog Food For Weight Loss",
@@ -2045,7 +2045,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 75,
+      "articles": 77,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2053,20 +2053,20 @@
         "Best Business Checking Account For Llc No Monthly Fee",
         "Bonus Depreciation 2024",
         "Break Even Analysis Explained",
+        "Break Even Calculator",
         "Business Acquisition Loan",
         "Business Bank Account Requirements",
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
         "Business Liability Insurance Guide",
+        "Business Loan Calculator",
         "Business Loan Interest Rates Comparison",
         "Business Succession Planning",
         "Business Valuation Methods",
         "Cash Flow Management Guide",
         "Cash Flow Statement Explained",
         "Cdfi Lender Small Business",
-        "Cyber Liability Insurance Small Business",
-        "Equipment Financing Explained",
-        "Health Insurance Self Employed Deduction"
+        "Cyber Liability Insurance Small Business"
       ],
       "videos": [
         {
@@ -2244,12 +2244,13 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
         "Best Keto Sweeteners",
         "Best Protein Sources Keto",
+        "Blood Ketone Levels Chart",
         "Butter On Keto",
         "Cyclical Keto Diet",
         "Dirty Keto Vs Clean Keto",
@@ -2264,8 +2265,7 @@
         "How To Become Fat Adapted",
         "How To Calculate Net Carbs On Keto",
         "How To Make Keto Bread Without Almond Flour",
-        "How To Meal Prep Keto Lunches For The Week",
-        "How To Start Keto"
+        "How To Meal Prep Keto Lunches For The Week"
       ],
       "videos": [
         {
