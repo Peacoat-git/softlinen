@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-18T20:08:41.804345+00:00",
+  "generated_at": "2026-06-19T02:41:50.269188+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-18"
+    "end": "2026-06-19"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 53601,
-    "visits": 53601,
-    "articles": 1333,
+    "page_views": 56543,
+    "visits": 56543,
+    "articles": 1341,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1521,
+    "yt_views": 1534,
     "sites": 15
   },
   "adsense_connected": true,
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3215,
-        "visits": 3215,
-        "unique_visitors": 2136,
+        "page_views": 3387,
+        "visits": 3387,
+        "unique_visitors": 2298,
         "daily": [
           {
             "date": "2026-06-01",
@@ -330,6 +330,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 190
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 172
           }
         ]
       },
@@ -638,9 +642,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3772,
-        "visits": 3772,
-        "unique_visitors": 2773,
+        "page_views": 3923,
+        "visits": 3923,
+        "unique_visitors": 2929,
         "daily": [
           {
             "date": "2026-06-01",
@@ -709,6 +713,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 151
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 151
           }
         ]
       },
@@ -727,7 +735,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 86,
+      "articles": 88,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -746,9 +754,9 @@
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
+        "Do Solar Panels Need Maintenance",
         "Do Solar Panels Work On Cloudy Days",
-        "Free Solar Panels Programs Real Or Scam",
-        "Generator Vs Solar Battery Backup"
+        "Free Solar Panels Programs Real Or Scam"
       ],
       "videos": [
         {
@@ -907,9 +915,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3232,
-        "visits": 3232,
-        "unique_visitors": 2439,
+        "page_views": 3375,
+        "visits": 3375,
+        "unique_visitors": 2561,
         "daily": [
           {
             "date": "2026-06-01",
@@ -978,6 +986,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 149
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 143
           }
         ]
       },
@@ -1110,9 +1122,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2552,
-        "visits": 2552,
-        "unique_visitors": 1767,
+        "page_views": 2638,
+        "visits": 2638,
+        "unique_visitors": 1863,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1181,6 +1193,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 98
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 86
           }
         ]
       },
@@ -1401,9 +1417,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3209,
-        "visits": 3209,
-        "unique_visitors": 2216,
+        "page_views": 3388,
+        "visits": 3388,
+        "unique_visitors": 2347,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1472,6 +1488,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 124
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 179
           }
         ]
       },
@@ -1604,9 +1624,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2412,
-        "visits": 2412,
-        "unique_visitors": 2000,
+        "page_views": 2576,
+        "visits": 2576,
+        "unique_visitors": 2126,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1675,6 +1695,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 89
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 164
           }
         ]
       },
@@ -1785,9 +1809,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2861,
-        "visits": 2861,
-        "unique_visitors": 1978,
+        "page_views": 3004,
+        "visits": 3004,
+        "unique_visitors": 2125,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1856,6 +1880,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 111
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 143
           }
         ]
       },
@@ -1907,7 +1935,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 17,
+            "views": 28,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -1918,7 +1946,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 18
+          "total_views": 29
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1988,9 +2016,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4113,
-        "visits": 4113,
-        "unique_visitors": 2510,
+        "page_views": 4279,
+        "visits": 4279,
+        "unique_visitors": 2662,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2059,6 +2087,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 112
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 166
           }
         ]
       },
@@ -2068,7 +2100,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 55
+      "yt_total_views": 66
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2077,12 +2109,13 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 78,
+      "articles": 80,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
         "Are You Ready To Start A Business",
         "Best Business Checking Account For Llc No Monthly Fee",
+        "Bootstrapping Vs Raising Venture Capital For Startups",
         "Break Even Analysis Explained",
         "Break Even Calculator",
         "Business Acquisition Loan",
@@ -2097,8 +2130,7 @@
         "Cash Flow Management Guide",
         "Cash Flow Statement Explained",
         "Cdfi Lender Small Business",
-        "Cyber Liability Insurance Small Business",
-        "Equipment Financing Explained"
+        "Cyber Liability Insurance Small Business"
       ],
       "videos": [
         {
@@ -2191,9 +2223,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3477,
-        "visits": 3477,
-        "unique_visitors": 2542,
+        "page_views": 3734,
+        "visits": 3734,
+        "unique_visitors": 2755,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2262,6 +2294,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 408
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 257
           }
         ]
       },
@@ -2482,9 +2518,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3337,
-        "visits": 3337,
-        "unique_visitors": 2414,
+        "page_views": 3735,
+        "visits": 3735,
+        "unique_visitors": 2643,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2553,6 +2589,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 256
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 398
           }
         ]
       },
@@ -2626,7 +2666,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 41,
+            "views": 42,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2637,7 +2677,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 71
+          "total_views": 72
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2654,18 +2694,18 @@
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
           "standard_stats": {
-            "views": 15,
+            "views": 16,
             "likes": 0,
             "comments": 0,
             "title": "3 Chicken Feed Mistakes Destroying Your Flock (12-Year Keeper)"
           },
-          "total_views": 157
+          "total_views": 158
         }
       ],
       "cloudflare": {
-        "page_views": 4314,
-        "visits": 4314,
-        "unique_visitors": 2720,
+        "page_views": 4610,
+        "visits": 4610,
+        "unique_visitors": 2854,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2734,6 +2774,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 398
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 296
           }
         ]
       },
@@ -2743,7 +2787,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 230
+      "yt_total_views": 232
     },
     {
       "slug": "rv-life-guide",
@@ -2752,7 +2796,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 88,
+      "articles": 90,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2760,6 +2804,7 @@
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
+        "Best Mail Forwarding Service For Full Time Rvers",
         "Best Remote Jobs For Full Time Rvers",
         "Best Rv Brands Reliability",
         "Best Rv Campgrounds Usa",
@@ -2772,8 +2817,7 @@
         "Boondocking Free Camping",
         "Boondocking Locations Free",
         "Boondocking Without Hookups",
-        "Californias Clean Truck Check Is Now Hitting Diesel Motorhome Owners",
-        "Class A Vs Class B Vs Class C Rv"
+        "Californias Clean Truck Check Is Now Hitting Diesel Motorhome Owners"
       ],
       "videos": [
         {
@@ -2866,9 +2910,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3560,
-        "visits": 3560,
-        "unique_visitors": 2228,
+        "page_views": 3856,
+        "visits": 3856,
+        "unique_visitors": 2374,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2937,6 +2981,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 124
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 296
           }
         ]
       },
@@ -2980,9 +3028,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 5971,
-        "visits": 5971,
-        "unique_visitors": 2766,
+        "page_views": 6123,
+        "visits": 6123,
+        "unique_visitors": 2921,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3051,6 +3099,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 156
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 152
           }
         ]
       },
@@ -3069,12 +3121,13 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
         "Balance Boards For Seniors Are They Safe And Worth It",
         "Balance Exercises For Seniors To Prevent Falls",
+        "Bed Exercises For Elderly With Limited Mobility",
         "Benefits Of Exercise For Older Adults",
         "Best Balance Exercises For Elderly At Home",
         "Best Blood Pressure Monitor For Seniors At Home",
@@ -3089,8 +3142,7 @@
         "Best Morning Routines For Seniors Over 65",
         "Best Omega 3 Foods For Seniors With Joint Pain",
         "Best Pedometer For Seniors Easy To Use",
-        "Best Protein Foods For Seniors To Maintain Muscle",
-        "Best Protein Sources For Seniors Building Muscle"
+        "Best Protein Foods For Seniors To Maintain Muscle"
       ],
       "videos": [
         {
@@ -3161,9 +3213,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3921,
-        "visits": 3921,
-        "unique_visitors": 2439,
+        "page_views": 4103,
+        "visits": 4103,
+        "unique_visitors": 2592,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3232,6 +3284,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 250
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 182
           }
         ]
       },
@@ -3320,9 +3376,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3655,
-        "visits": 3655,
-        "unique_visitors": 2594,
+        "page_views": 3812,
+        "visits": 3812,
+        "unique_visitors": 2752,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3391,6 +3447,10 @@
           {
             "date": "2026-06-17",
             "pageViews": 502
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 157
           }
         ]
       },
