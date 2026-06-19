@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T14:39:24.051952+00:00",
+  "generated_at": "2026-06-19T19:23:14.658506+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-19"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 56543,
     "visits": 56543,
-    "articles": 1353,
+    "articles": 1363,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1535,
+    "yt_views": 1537,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 79,
+      "articles": 81,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -112,7 +112,7 @@
           "standard_id": "EqJU8I1pOr8",
           "standard_url": "https://www.youtube.com/watch?v=EqJU8I1pOr8",
           "shorts_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
@@ -123,7 +123,7 @@
             "comments": 0,
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
           },
-          "total_views": 3
+          "total_views": 4
         },
         {
           "shorts_id": "MtQGeHyLq0A",
@@ -343,7 +343,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 19
+      "yt_total_views": 20
     },
     {
       "slug": "solar-planner-guide",
@@ -1510,7 +1510,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1717,7 +1717,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 89,
+      "articles": 91,
       "article_titles": [
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
@@ -1902,13 +1902,14 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 87,
+      "articles": 89,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
         "Best High Protein Dog Food For Weight Loss",
         "Best Supplements For Senior Dogs With Arthritis",
         "Blood Work For Dogs Explained",
+        "Brachycephalic Dog Health Problems",
         "Can I Give My Dog Benadryl For Allergies Dosage Chart",
         "Cat Annual Vet Visit What To Expect",
         "Cat Annual Wellness Exam Guide",
@@ -1922,8 +1923,7 @@
         "Cat Post Surgery Care",
         "Cat Stress Signs Causes",
         "Cat Upper Respiratory Infection",
-        "Cat Urinary Tract Infection Signs",
-        "Cat Vomiting When To Worry"
+        "Cat Urinary Tract Infection Signs"
       ],
       "videos": [
         {
@@ -2316,7 +2316,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 99,
+      "articles": 101,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -2328,6 +2328,7 @@
         "Dirty Keto Vs Clean Keto",
         "Easy Keto Meals",
         "Electrolytes On Keto",
+        "Exogenous Ketones",
         "Foods Allowed On Keto",
         "Foods To Avoid On Keto",
         "High Fat Keto Foods",
@@ -2336,8 +2337,7 @@
         "How Much Protein Should I Eat On Keto",
         "How To Become Fat Adapted",
         "How To Calculate Net Carbs On Keto",
-        "How To Make Keto Bread Without Almond Flour",
-        "How To Meal Prep Keto Lunches For The Week"
+        "How To Make Keto Bread Without Almond Flour"
       ],
       "videos": [
         {
@@ -2672,12 +2672,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 30,
+            "views": 31,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 72
+          "total_views": 73
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2787,7 +2787,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 232
+      "yt_total_views": 233
     },
     {
       "slug": "rv-life-guide",
