@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T10:09:50.965649+00:00",
+  "generated_at": "2026-06-19T14:39:24.051952+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-19"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 56543,
     "visits": 56543,
-    "articles": 1343,
+    "articles": 1353,
     "videos": 150,
     "channels": 14,
     "yt_views": 1535,
@@ -352,7 +352,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 88,
+      "articles": 90,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -1008,7 +1008,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 92,
+      "articles": 94,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1215,11 +1215,12 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 83,
+      "articles": 85,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
+        "Does Home Insurance Cover Mold Removal",
         "Does Home Insurance Cover Roof Damage",
         "Does Home Insurance Cover Roof Leaks",
         "Does Homeowners Insurance Cover Water Damage",
@@ -1235,8 +1236,7 @@
         "Home Insurance Dispute Resolution",
         "Home Insurance Dwelling Coverage",
         "Home Insurance Earthquake Coverage",
-        "Home Insurance Electronics Coverage",
-        "Home Insurance Extended Replacement Cost"
+        "Home Insurance Electronics Coverage"
       ],
       "videos": [
         {
@@ -3003,7 +3003,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 107,
+      "articles": 109,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3306,7 +3306,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 81,
+      "articles": 83,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
