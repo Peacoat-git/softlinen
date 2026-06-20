@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T13:30:21.981402+00:00",
+  "generated_at": "2026-06-20T16:53:08.452043+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-20"
@@ -8,24 +8,24 @@
     "revenue": 0,
     "page_views": 60749,
     "visits": 60749,
-    "articles": 1383,
+    "articles": 1389,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1537,
+    "yt_views": 1538,
     "sites": 15
   },
   "adsense_connected": true,
   "youtube_connected": true,
   "shotstack": {
-    "baseline_credits": 150.41,
-    "baseline_date": "2026-05-19",
-    "renewal_date": "2026-06-18",
+    "baseline_credits": 200.34,
+    "baseline_date": "2026-06-20",
+    "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 150,
-    "credits_used": 102.0,
-    "est_remaining": 48.41,
-    "pct_remaining": 32.2,
-    "days_until_renewal": 0
+    "renders_since_baseline": 0,
+    "credits_used": 0.0,
+    "est_remaining": 200.34,
+    "pct_remaining": 100.0,
+    "days_until_renewal": 28
   },
   "sites": [
     {
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 81,
+      "articles": 83,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -112,7 +112,7 @@
           "standard_id": "EqJU8I1pOr8",
           "standard_url": "https://www.youtube.com/watch?v=EqJU8I1pOr8",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
@@ -123,7 +123,7 @@
             "comments": 0,
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
           },
-          "total_views": 4
+          "total_views": 5
         },
         {
           "shorts_id": "MtQGeHyLq0A",
@@ -347,7 +347,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 20
+      "yt_total_views": 21
     },
     {
       "slug": "solar-planner-guide",
@@ -1741,8 +1741,9 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 91,
+      "articles": 93,
       "article_titles": [
+        "988 Suicide And Crisis Lifeline How It Works",
         "Acceptance And Commitment Therapy Act",
         "Anger Management Therapy",
         "Antidepressants And Therapy Combined",
@@ -1761,8 +1762,7 @@
         "Culturally Competent Therapy",
         "Dbt Therapy What Is It",
         "Depression Screening",
-        "Difference Between Psychologist Psychiatrist And Therapist",
-        "Does Insurance Cover Therapy"
+        "Difference Between Psychologist Psychiatrist And Therapist"
       ],
       "videos": [
         {
@@ -2352,7 +2352,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 101,
+      "articles": 103,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
