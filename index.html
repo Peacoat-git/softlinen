@@ -39,7 +39,15 @@ a { color:inherit; text-decoration:none; }
 .topbar-title { font-weight:600; font-size:15px; }
 .topbar-right { display:flex; align-items:center; gap:12px; }
 .date-badge { font-size:12px; color:var(--muted); background:var(--bg); padding:5px 12px; border-radius:20px; border:1px solid var(--border); }
-.refresh-btn { background:var(--primary); color:#fff; border:none; padding:7px 16px; border-radius:6px; font-size:12px; font-weight:500; cursor:pointer; }
+.refresh-btn { background:var(--primary); color:#fff; border:none; padding:7px 16px; border-radius:6px; font-size:12px; font-weight:500; cursor:pointer; transition:opacity .2s; }
+.refresh-btn:disabled { opacity:.55; cursor:default; }
+/* Refresh progress bar */
+#refresh-bar { display:none; background:var(--surface); border-bottom:1px solid var(--border); padding:0 28px; height:36px; align-items:center; gap:14px; font-size:12px; color:var(--muted); position:sticky; top:60px; z-index:9; }
+#refresh-bar.visible { display:flex; }
+#refresh-bar-track { flex:1; max-width:260px; height:4px; background:var(--border); border-radius:2px; overflow:hidden; }
+#refresh-bar-fill { height:100%; width:0%; background:var(--primary); border-radius:2px; transition:width .6s ease; }
+#refresh-bar-label { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+#refresh-bar-elapsed { font-variant-numeric:tabular-nums; color:var(--stone,#94a3b8); min-width:36px; text-align:right; }
 .content { padding:28px; }
 .kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px; }
 .kpi-card { background:var(--surface); border-radius:var(--radius); padding:20px; border:1px solid var(--border); box-shadow:var(--shadow); }
@@ -220,6 +228,13 @@ canvas { width:100%!important; }
         <span class="date-badge" id="period-badge">Loading…</span>
         <button class="refresh-btn" id="refresh-btn" onclick="triggerRefresh()">↻ Refresh</button>
       </div>
+    </div>
+
+    <!-- Refresh progress bar -->
+    <div id="refresh-bar">
+      <div id="refresh-bar-track"><div id="refresh-bar-fill"></div></div>
+      <span id="refresh-bar-label">Starting…</span>
+      <span id="refresh-bar-elapsed"></span>
     </div>
 
     <!-- Health Alert Banner -->
@@ -578,44 +593,119 @@ revenueChart = new Chart(ctx0, {
 
 async function triggerRefresh() {
   const btn = document.getElementById('refresh-btn');
-  const orig = btn.textContent;
+  const bar = document.getElementById('refresh-bar');
+  const fill = document.getElementById('refresh-bar-fill');
+  const label = document.getElementById('refresh-bar-label');
+  const elapsed = document.getElementById('refresh-bar-elapsed');
+  const GH_HEADERS = {
+    'Authorization': 'token ' + ['gho_4bpSzFnqDuv8c81r','Fh1aKw4qSmZlmO1MuEs2'].join(''),
+    'Accept': 'application/vnd.github+json'
+  };
+  const ESTIMATED_S = 75; // typical workflow duration
+
+  function setBar(pct, msg) {
+    fill.style.width = Math.min(pct, 98) + '%';
+    label.textContent = msg;
+  }
+
+  // Start: show bar, disable button
   btn.disabled = true;
-  btn.textContent = '⏳ Triggering...';
+  btn.textContent = '↻ Refreshing';
+  bar.classList.add('visible');
+  setBar(4, 'Triggering workflow…');
+  elapsed.textContent = '';
+
+  const startTs = Date.now();
+
+  // Elapsed timer — ticks every second independent of poll loop
+  const elapsedInterval = setInterval(() => {
+    const s = Math.floor((Date.now() - startTs) / 1000);
+    elapsed.textContent = s + 's';
+    // Time-based progress fill (caps at 92% until job actually completes)
+    const timePct = Math.min((s / ESTIMATED_S) * 90, 92);
+    // Only advance the fill if it's behind the time estimate
+    const curPct = parseFloat(fill.style.width) || 0;
+    if (timePct > curPct) fill.style.width = timePct + '%';
+  }, 1000);
+
   try {
+    // Dispatch
     const dispatch = await fetch(
       'https://api.github.com/repos/Peacoat-git/softlinen/actions/workflows/refresh_stats.yml/dispatches',
-      {
-        method: 'POST',
-        headers: {
-          'Authorization': 'token ' + ['gho_4bpSzFnqDuv8c81r','Fh1aKw4qSmZlmO1MuEs2'].join('')  + '',
-          'Content-Type': 'application/json',
-          'Accept': 'application/vnd.github+json'
-        },
-        body: JSON.stringify({ ref: 'main', inputs: { reason: 'Manual refresh from dashboard' } })
-      }
+      { method: 'POST', headers: { ...GH_HEADERS, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ref: 'main', inputs: { reason: 'Manual refresh from dashboard' } }) }
     );
     if (dispatch.status !== 204) throw new Error('Dispatch HTTP ' + dispatch.status);
-    // Poll every 8s for up to ~2.5 min
+
+    setBar(8, 'Workflow queued — waiting for runner…');
+
+    // Wait briefly for the run to appear, then poll
+    await new Promise(r => setTimeout(r, 4000));
+
     let done = false;
-    for (let i = 0; i < 20; i++) {
-      await new Promise(r => setTimeout(r, 8000));
-      btn.textContent = '⏳ ' + ((i + 1) * 8) + 's…';
+    let runId = null;
+
+    for (let i = 0; i < 25; i++) {
+      await new Promise(r => setTimeout(r, 6000));
+
+      // Get the latest run
       const runsRes = await fetch(
-        'https://api.github.com/repos/Peacoat-git/softlinen/actions/runs?workflow_id=refresh_stats.yml&per_page=1',
-        { headers: { 'Authorization': 'token ' + ['gho_4bpSzFnqDuv8c81r','Fh1aKw4qSmZlmO1MuEs2'].join('')  + '', 'Accept': 'application/vnd.github+json' } }
+        'https://api.github.com/repos/Peacoat-git/softlinen/actions/workflows/refresh_stats.yml/runs?per_page=1',
+        { headers: GH_HEADERS }
       );
       const runs = await runsRes.json();
       const run = runs.workflow_runs?.[0];
-      if (run && run.status === 'completed') { done = true; break; }
+      if (!run) continue;
+      runId = run.id;
+
+      if (run.status === 'completed') { done = true; break; }
+
+      // Get active job steps for a real step name
+      try {
+        const jobsRes = await fetch(
+          'https://api.github.com/repos/Peacoat-git/softlinen/actions/runs/' + runId + '/jobs',
+          { headers: GH_HEADERS }
+        );
+        const jobs = await jobsRes.json();
+        const job = jobs.jobs?.[0];
+        if (job) {
+          const activeStep = job.steps?.find(s => s.status === 'in_progress');
+          const stepName = activeStep ? activeStep.name
+                        : job.status === 'queued' ? 'Waiting for runner'
+                        : job.name || 'Running';
+          setBar(parseFloat(fill.style.width) || 20, stepName + '…');
+        }
+      } catch(_) { /* jobs API optional — just leave current label */ }
     }
-    btn.textContent = done ? '✓ Updated!' : '↻ Refresh';
-    setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2500);
-    loadStats();
+
+    clearInterval(elapsedInterval);
+
+    if (done) {
+      fill.style.width = '100%';
+      label.textContent = '✓ Stats updated — reloading data';
+      elapsed.textContent = Math.floor((Date.now() - startTs) / 1000) + 's';
+      await new Promise(r => setTimeout(r, 800));
+      loadStats();
+      await new Promise(r => setTimeout(r, 1200));
+    } else {
+      fill.style.width = '100%';
+      label.textContent = 'Timed out — data may still be updating';
+      await new Promise(r => setTimeout(r, 2500));
+    }
   } catch(e) {
-    console.error('Refresh failed:', e);
-    btn.textContent = '✗ Failed';
-    setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2500);
+    clearInterval(elapsedInterval);
+    fill.style.width = '100%';
+    fill.style.background = '#ef4444';
+    label.textContent = '✗ Refresh failed — ' + e.message;
+    await new Promise(r => setTimeout(r, 3000));
+    fill.style.background = '';
   }
+
+  // Hide bar, re-enable button
+  bar.classList.remove('visible');
+  fill.style.width = '0%';
+  btn.textContent = '↻ Refresh';
+  btn.disabled = false;
 }
 
 loadStats();
