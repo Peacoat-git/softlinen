@@ -305,11 +305,11 @@ def main():
 
     # ── Shotstack credit tracker ───────────────────────────────────────────────
     # No balance API exists — we track renders since the known baseline snapshot.
-    # Update SHOTSTACK_BASELINE_CREDITS + SHOTSTACK_BASELINE_DATE whenever you
-    # manually check the Shotstack dashboard and want to re-anchor the estimate.
-    SHOTSTACK_BASELINE_CREDITS = 150.41   # balance as of baseline date
-    SHOTSTACK_BASELINE_DATE    = "2026-05-19"
-    SHOTSTACK_RENEWAL_DATE     = "2026-06-18"
+    # Re-anchor: read Shotstack dashboard, set BASELINE_CREDITS=available, BASELINE_DATE=today, RENEWAL_DATE=expiry.
+    # Last anchored 2026-06-20: 200.34 cr available, expires 2026-07-18.
+    SHOTSTACK_BASELINE_CREDITS = 200.34   # available credits as of baseline date (anchored 2026-06-20)
+    SHOTSTACK_BASELINE_DATE    = "2026-06-20"
+    SHOTSTACK_RENEWAL_DATE     = "2026-07-18"
     SHOTSTACK_COST_PER_RENDER  = 0.68    # ~0.65-0.72 for a 60s video
 
     renders_since_baseline = 0
