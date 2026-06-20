@@ -72,8 +72,13 @@ def main():
     errors = 0
     fatal = None
     quota_stop = False
+    ownership_skip = set()  # domains that returned 403 ownership error — skip remaining URLs
     for u in remaining[:DAILY_BUDGET]:
         try:
+            # Skip domains that already returned an ownership error this run
+            from urllib.parse import urlparse
+            if urlparse(u).netloc in ownership_skip:
+                continue
             r = requests.post("https://indexing.googleapis.com/v3/urlNotifications:publish",
                               headers=headers, json={"url": u, "type": "URL_UPDATED"}, timeout=15)
             if r.status_code == 200:
@@ -81,9 +86,17 @@ def main():
             elif r.status_code in (429, 403) and ("quota" in r.text.lower() or "rateLimit" in r.text):
                 print(f"  Daily quota reached after {submitted_today} (resumes tomorrow)")
                 quota_stop = True; break
-            elif r.status_code == 403 and ("SCOPE_INSUFFICIENT" in r.text or "PERMISSION_DENIED" in r.text):
+            elif r.status_code == 403 and ("SCOPE_INSUFFICIENT" in r.text or "insufficient authentication scopes" in r.text.lower()):
+                # True OAuth scope error — token doesn't have the indexing scope at all.
                 fatal = f"403 PERMISSION_DENIED / insufficient scope - token is missing the 'indexing' scope. {r.text[:140]}"
                 print(f"  FATAL: {fatal}"); break
+            elif r.status_code == 403 and "Failed to verify the URL ownership" in r.text:
+                # Domain not verified in Google Search Console — skip all URLs for this domain.
+                from urllib.parse import urlparse
+                bad_domain = urlparse(u).netloc
+                ownership_skip.add(bad_domain)
+                errors += 1
+                print(f"  SKIP domain {bad_domain}: not verified in GSC (ownership error) — skipping remaining URLs for this domain")
             else:
                 errors += 1
                 print(f"  {r.status_code} for {u}: {r.text[:80]}")
