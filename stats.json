@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T09:33:27.549840+00:00",
+  "generated_at": "2026-06-21T13:45:26.899187+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-21"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 63732,
     "visits": 63732,
-    "articles": 1403,
+    "articles": 1413,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1538,
+    "yt_views": 1539,
     "sites": 15
   },
   "adsense_connected": true,
@@ -360,7 +360,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 92,
+      "articles": 94,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Home Battery 2026",
@@ -381,7 +381,7 @@
         "Home Battery Storage Options Compared",
         "How Long Do Solar Batteries Last",
         "How Long Do Solar Panels Last",
-        "How Long To Pay Off Solar Panels"
+        "How Long Does A Powerwall Last"
       ],
       "videos": [
         {
@@ -1032,7 +1032,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 96,
+      "articles": 98,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1042,6 +1042,7 @@
         "Back Injury Settlement Amounts Car Accident",
         "Bad Faith Insurance Claim Explained",
         "Broken Bone Injury Settlement Average",
+        "Can I Be Fired For Filing A Workers Comp Claim",
         "Car Accident Injury Claim Denied What To Do",
         "Car Accident Injury Claim Time Limit",
         "Car Accident Injury Claim Tips",
@@ -1052,8 +1053,7 @@
         "Could You Have A Personal Injury Claim",
         "Defective Product Injury Claim",
         "Delayed Injury Symptoms After Car Accident",
-        "Do I Have A Personal Injury Case",
-        "Dog Bite Settlement Amounts"
+        "Do I Have A Personal Injury Case"
       ],
       "videos": [
         {
@@ -1247,7 +1247,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 87,
+      "articles": 89,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -2752,12 +2752,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 32,
+            "views": 33,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 74
+          "total_views": 75
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2875,7 +2875,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 234
+      "yt_total_views": 235
     },
     {
       "slug": "rv-life-guide",
@@ -3099,7 +3099,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 111,
+      "articles": 113,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3418,7 +3418,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 85,
+      "articles": 87,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
