@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-20T19:07:26.463387+00:00",
+  "generated_at": "2026-06-21T02:33:09.384868+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-20"
+    "end": "2026-06-21"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 60749,
-    "visits": 60749,
-    "articles": 1393,
+    "page_views": 63732,
+    "visits": 63732,
+    "articles": 1401,
     "videos": 150,
     "channels": 14,
     "yt_views": 1537,
@@ -25,7 +25,7 @@
     "credits_used": 0.0,
     "est_remaining": 200.34,
     "pct_remaining": 100.0,
-    "days_until_renewal": 28
+    "days_until_renewal": 27
   },
   "sites": [
     {
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3629,
-        "visits": 3629,
-        "unique_visitors": 2431,
+        "page_views": 3783,
+        "visits": 3783,
+        "unique_visitors": 2591,
         "daily": [
           {
             "date": "2026-06-01",
@@ -338,6 +338,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 242
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 154
           }
         ]
       },
@@ -646,9 +650,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4299,
-        "visits": 4299,
-        "unique_visitors": 3134,
+        "page_views": 4500,
+        "visits": 4500,
+        "unique_visitors": 3346,
         "daily": [
           {
             "date": "2026-06-01",
@@ -725,6 +729,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 376
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 201
           }
         ]
       },
@@ -743,7 +751,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 90,
+      "articles": 92,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -764,7 +772,7 @@
         "Diy Solar Panel System Sizing",
         "Do Solar Panels Need Maintenance",
         "Do Solar Panels Work On Cloudy Days",
-        "Free Solar Panels Programs Real Or Scam"
+        "Fighting Hoa Solar Panel Denial"
       ],
       "videos": [
         {
@@ -923,9 +931,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3596,
-        "visits": 3596,
-        "unique_visitors": 2703,
+        "page_views": 3776,
+        "visits": 3776,
+        "unique_visitors": 2903,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1002,6 +1010,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 221
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 180
           }
         ]
       },
@@ -1134,9 +1146,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2840,
-        "visits": 2840,
-        "unique_visitors": 1970,
+        "page_views": 2981,
+        "visits": 2981,
+        "unique_visitors": 2115,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1213,6 +1225,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 202
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 141
           }
         ]
       },
@@ -1433,9 +1449,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3619,
-        "visits": 3619,
-        "unique_visitors": 2495,
+        "page_views": 3804,
+        "visits": 3804,
+        "unique_visitors": 2665,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1512,6 +1528,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 231
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 185
           }
         ]
       },
@@ -1644,9 +1664,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2809,
-        "visits": 2809,
-        "unique_visitors": 2278,
+        "page_views": 2980,
+        "visits": 2980,
+        "unique_visitors": 2442,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1723,6 +1743,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 233
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 171
           }
         ]
       },
@@ -1833,9 +1857,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3246,
-        "visits": 3246,
-        "unique_visitors": 2264,
+        "page_views": 3393,
+        "visits": 3393,
+        "unique_visitors": 2415,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1912,6 +1936,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 242
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 147
           }
         ]
       },
@@ -2044,9 +2072,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4505,
-        "visits": 4505,
-        "unique_visitors": 2787,
+        "page_views": 4709,
+        "visits": 4709,
+        "unique_visitors": 2989,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2123,6 +2151,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 226
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 204
           }
         ]
       },
@@ -2141,7 +2173,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 82,
+      "articles": 84,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2255,9 +2287,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4053,
-        "visits": 4053,
-        "unique_visitors": 2997,
+        "page_views": 4319,
+        "visits": 4319,
+        "unique_visitors": 3240,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2334,6 +2366,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 319
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 266
           }
         ]
       },
@@ -2554,9 +2590,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4093,
-        "visits": 4093,
-        "unique_visitors": 2891,
+        "page_views": 4281,
+        "visits": 4281,
+        "unique_visitors": 3098,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2633,6 +2669,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 358
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 188
           }
         ]
       },
@@ -2743,9 +2783,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4901,
-        "visits": 4901,
-        "unique_visitors": 3041,
+        "page_views": 5124,
+        "visits": 5124,
+        "unique_visitors": 3272,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2822,6 +2862,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 291
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 223
           }
         ]
       },
@@ -2840,7 +2884,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 92,
+      "articles": 94,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2954,9 +2998,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4192,
-        "visits": 4192,
-        "unique_visitors": 2530,
+        "page_views": 4427,
+        "visits": 4427,
+        "unique_visitors": 2738,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3033,6 +3077,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 336
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 235
           }
         ]
       },
@@ -3076,9 +3124,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 6481,
-        "visits": 6481,
-        "unique_visitors": 3095,
+        "page_views": 6646,
+        "visits": 6646,
+        "unique_visitors": 3267,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3155,6 +3203,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 358
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 165
           }
         ]
       },
@@ -3173,7 +3225,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 108,
+      "articles": 110,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -3265,9 +3317,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4432,
-        "visits": 4432,
-        "unique_visitors": 2765,
+        "page_views": 4816,
+        "visits": 4816,
+        "unique_visitors": 2895,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3344,6 +3396,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 329
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 384
           }
         ]
       },
@@ -3432,9 +3488,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4054,
-        "visits": 4054,
-        "unique_visitors": 2906,
+        "page_views": 4193,
+        "visits": 4193,
+        "unique_visitors": 3051,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3511,6 +3567,10 @@
           {
             "date": "2026-06-19",
             "pageViews": 242
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 139
           }
         ]
       },
