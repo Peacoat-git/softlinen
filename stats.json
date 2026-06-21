@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T13:45:26.899187+00:00",
+  "generated_at": "2026-06-21T15:53:33.822948+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-21"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 63732,
     "visits": 63732,
-    "articles": 1413,
+    "articles": 1417,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1539,
+    "yt_views": 1541,
     "sites": 15
   },
   "adsense_connected": true,
@@ -1765,7 +1765,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 93,
+      "articles": 95,
       "article_titles": [
         "988 Suicide And Crisis Lifeline How It Works",
         "Acceptance And Commitment Therapy Act",
@@ -2388,7 +2388,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 103,
+      "articles": 105,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Snacks To Buy At The Grocery Store",
@@ -2746,7 +2746,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 42,
+            "views": 44,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2757,7 +2757,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 75
+          "total_views": 77
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2875,7 +2875,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 235
+      "yt_total_views": 237
     },
     {
       "slug": "rv-life-guide",
