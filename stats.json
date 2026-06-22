@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T16:25:05.250334+00:00",
+  "generated_at": "2026-06-22T20:31:50.182221+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-22"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 66534,
     "visits": 66534,
-    "articles": 1443,
+    "articles": 1453,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1544,
+    "yt_views": 1549,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 85,
+      "articles": 87,
       "article_titles": [
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
@@ -44,6 +44,7 @@
         "Best Medicare Plans In California 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
+        "Cms Proposes Making Medicare Drug Price Negotiations Permanent",
         "Comparing Medicare Part D Plans",
         "Difference Between Medicare And Medicaid Explained",
         "Does Medicare Cover 100 Percent",
@@ -55,8 +56,7 @@
         "How To Sign Up For Medicare",
         "Irmaa Medicare Surcharge 2026",
         "Is Medicare Advantage Right For You",
-        "Medicare 2000 Out Of Pocket Cap Drugs",
-        "Medicare Advantage Dental Coverage"
+        "Medicare 2000 Out Of Pocket Cap Drugs"
       ],
       "videos": [
         {
@@ -403,12 +403,12 @@
             "title": "The $0 Down Solar Myth That's Draining Your Bank Account"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "The $0 Down Solar Myth That's Draining Your Bank Account"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "8KFPwhWdjTE",
@@ -447,12 +447,12 @@
             "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
           },
           "standard_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -750,7 +750,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 544
+      "yt_total_views": 546
     },
     {
       "slug": "solar-home-planner",
@@ -1570,7 +1570,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 90,
+      "articles": 92,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1789,7 +1789,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "988 Suicide And Crisis Lifeline How It Works",
         "Acceptance And Commitment Therapy Act",
@@ -1986,7 +1986,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 93,
+      "articles": 95,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -1999,6 +1999,7 @@
         "Cat Annual Wellness Exam Guide",
         "Cat Cancer Treatment Options",
         "Cat Dental Disease Signs",
+        "Cat Grooming Matting Prevention",
         "Cat Hiding Behavior Explained",
         "Cat Hyperthyroidism Treatment",
         "Cat Kidney Disease Diet",
@@ -2006,8 +2007,7 @@
         "Cat Not Using Litter Box Causes",
         "Cat Obesity Health Risks",
         "Cat Post Surgery Care",
-        "Cat Stress Signs Causes",
-        "Cat Upper Respiratory Infection"
+        "Cat Stress Signs Causes"
       ],
       "videos": [
         {
@@ -2019,7 +2019,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 28,
+            "views": 29,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -2030,7 +2030,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 29
+          "total_views": 30
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2196,7 +2196,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 66
+      "yt_total_views": 67
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2424,9 +2424,10 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 105,
+      "articles": 107,
       "article_titles": [
         "20 Grams Carbs Keto",
+        "Best Keto Frozen Meals",
         "Best Keto Snacks To Buy At The Grocery Store",
         "Best Keto Sweeteners",
         "Best Protein Sources Keto",
@@ -2444,8 +2445,7 @@
         "How Long To Enter Ketosis",
         "How Much Protein Should I Eat On Keto",
         "How To Become Fat Adapted",
-        "How To Calculate Net Carbs On Keto",
-        "How To Make Keto Bread Without Almond Flour"
+        "How To Calculate Net Carbs On Keto"
       ],
       "videos": [
         {
@@ -2786,7 +2786,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 47,
+            "views": 49,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2797,7 +2797,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 80
+          "total_views": 82
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2919,7 +2919,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 240
+      "yt_total_views": 242
     },
     {
       "slug": "rv-life-guide",
