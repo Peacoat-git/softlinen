@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-21T19:58:11.207705+00:00",
+  "generated_at": "2026-06-22T02:37:30.474873+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-21"
+    "end": "2026-06-22"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 63732,
-    "visits": 63732,
-    "articles": 1423,
+    "page_views": 66534,
+    "visits": 66534,
+    "articles": 1431,
     "videos": 150,
     "channels": 14,
-    "yt_views": 1542,
+    "yt_views": 1543,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 0.0,
     "est_remaining": 200.34,
     "pct_remaining": 100.0,
-    "days_until_renewal": 27
+    "days_until_renewal": 26
   },
   "sites": [
     {
@@ -259,9 +259,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3783,
-        "visits": 3783,
-        "unique_visitors": 2591,
+        "page_views": 3914,
+        "visits": 3914,
+        "unique_visitors": 2743,
         "daily": [
           {
             "date": "2026-06-01",
@@ -342,6 +342,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 154
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 131
           }
         ]
       },
@@ -650,9 +654,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4500,
-        "visits": 4500,
-        "unique_visitors": 3346,
+        "page_views": 4720,
+        "visits": 4720,
+        "unique_visitors": 3476,
         "daily": [
           {
             "date": "2026-06-01",
@@ -733,6 +737,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 201
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 220
           }
         ]
       },
@@ -751,7 +759,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 92,
+      "articles": 94,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -931,9 +939,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3776,
-        "visits": 3776,
-        "unique_visitors": 2903,
+        "page_views": 3998,
+        "visits": 3998,
+        "unique_visitors": 3032,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1014,6 +1022,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 180
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 222
           }
         ]
       },
@@ -1146,9 +1158,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2981,
-        "visits": 2981,
-        "unique_visitors": 2115,
+        "page_views": 3100,
+        "visits": 3100,
+        "unique_visitors": 2218,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1229,6 +1241,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 141
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 119
           }
         ]
       },
@@ -1449,9 +1465,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3804,
-        "visits": 3804,
-        "unique_visitors": 2665,
+        "page_views": 4002,
+        "visits": 4002,
+        "unique_visitors": 2837,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1532,6 +1548,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 185
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 198
           }
         ]
       },
@@ -1664,9 +1684,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2980,
-        "visits": 2980,
-        "unique_visitors": 2442,
+        "page_views": 3099,
+        "visits": 3099,
+        "unique_visitors": 2570,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1747,6 +1767,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 171
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 119
           }
         ]
       },
@@ -1857,9 +1881,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3393,
-        "visits": 3393,
-        "unique_visitors": 2415,
+        "page_views": 3560,
+        "visits": 3560,
+        "unique_visitors": 2516,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1940,6 +1964,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 147
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 167
           }
         ]
       },
@@ -2072,9 +2100,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4709,
-        "visits": 4709,
-        "unique_visitors": 2989,
+        "page_views": 4903,
+        "visits": 4903,
+        "unique_visitors": 3128,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2155,6 +2183,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 204
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 194
           }
         ]
       },
@@ -2173,7 +2205,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 84,
+      "articles": 86,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2184,6 +2216,7 @@
         "Break Even Calculator",
         "Business Acquisition Loan",
         "Business Bank Account Requirements",
+        "Business Credit Card Vs Personal Credit Card For Llc",
         "Business Credit Score How To Build",
         "Business Expense Categories Guide",
         "Business Liability Insurance Guide",
@@ -2193,8 +2226,7 @@
         "Business Valuation Methods",
         "Cash Flow Management Guide",
         "Cash Flow Statement Explained",
-        "Cdfi Lender Small Business",
-        "Commercial Umbrella Insurance"
+        "Cdfi Lender Small Business"
       ],
       "videos": [
         {
@@ -2287,9 +2319,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4319,
-        "visits": 4319,
-        "unique_visitors": 3240,
+        "page_views": 4499,
+        "visits": 4499,
+        "unique_visitors": 3432,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2370,6 +2402,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 266
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 180
           }
         ]
       },
@@ -2590,9 +2626,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4281,
-        "visits": 4281,
-        "unique_visitors": 3098,
+        "page_views": 4391,
+        "visits": 4391,
+        "unique_visitors": 3236,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2673,6 +2709,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 188
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 110
           }
         ]
       },
@@ -2746,7 +2786,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 45,
+            "views": 46,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2757,7 +2797,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 78
+          "total_views": 79
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2783,9 +2823,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5124,
-        "visits": 5124,
-        "unique_visitors": 3272,
+        "page_views": 5317,
+        "visits": 5317,
+        "unique_visitors": 3460,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2866,6 +2906,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 223
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 193
           }
         ]
       },
@@ -2875,7 +2919,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 238
+      "yt_total_views": 239
     },
     {
       "slug": "rv-life-guide",
@@ -2884,7 +2928,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 94,
+      "articles": 96,
       "article_titles": [
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
@@ -2998,9 +3042,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4427,
-        "visits": 4427,
-        "unique_visitors": 2738,
+        "page_views": 4519,
+        "visits": 4519,
+        "unique_visitors": 2835,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3081,6 +3125,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 235
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 92
           }
         ]
       },
@@ -3124,9 +3172,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 6646,
-        "visits": 6646,
-        "unique_visitors": 3267,
+        "page_views": 6928,
+        "visits": 6928,
+        "unique_visitors": 3493,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3207,6 +3255,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 165
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 282
           }
         ]
       },
@@ -3225,7 +3277,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 110,
+      "articles": 112,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -3236,6 +3288,7 @@
         "Best Balance Exercises For Elderly At Home",
         "Best Blood Pressure Monitor For Seniors At Home",
         "Best Chair For Seniors With Back Pain Buying Guide",
+        "Best Diet For Senior Fitness And Energy",
         "Best Exercise Routine For 65 Year Old Woman",
         "Best Exercise Routine For 70 Year Old Man",
         "Best Exercises For Osteoporosis",
@@ -3245,8 +3298,7 @@
         "Best Magnifying Glasses For Seniors With Macular Degeneration",
         "Best Morning Routines For Seniors Over 65",
         "Best Omega 3 Foods For Seniors With Joint Pain",
-        "Best Pedometer For Seniors Easy To Use",
-        "Best Protein Foods For Seniors To Maintain Muscle"
+        "Best Pedometer For Seniors Easy To Use"
       ],
       "videos": [
         {
@@ -3317,9 +3369,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4816,
-        "visits": 4816,
-        "unique_visitors": 2895,
+        "page_views": 5145,
+        "visits": 5145,
+        "unique_visitors": 3036,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3400,6 +3452,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 384
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 329
           }
         ]
       },
@@ -3488,9 +3544,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4193,
-        "visits": 4193,
-        "unique_visitors": 3051,
+        "page_views": 4439,
+        "visits": 4439,
+        "unique_visitors": 3223,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3571,6 +3627,10 @@
           {
             "date": "2026-06-20",
             "pageViews": 139
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 246
           }
         ]
       },
