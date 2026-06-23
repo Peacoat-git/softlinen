@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T14:22:28.058515+00:00",
+  "generated_at": "2026-06-23T19:48:02.296366+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-23"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 70762,
     "visits": 70762,
-    "articles": 1473,
-    "videos": 155,
+    "articles": 1483,
+    "videos": 156,
     "channels": 14,
-    "yt_views": 1553,
+    "yt_views": 1554,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 5,
-    "credits_used": 3.4,
-    "est_remaining": 196.94,
-    "pct_remaining": 98.3,
+    "renders_since_baseline": 6,
+    "credits_used": 4.08,
+    "est_remaining": 196.26,
+    "pct_remaining": 98.0,
     "days_until_renewal": 25
   },
   "sites": [
@@ -35,8 +35,9 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 87,
+      "articles": 89,
       "article_titles": [
+        "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
         "Best Medicare Advantage Plans By State",
         "Best Medicare Advantage Plans With Dental And Vision 2026",
@@ -55,10 +56,19 @@
         "How To Choose Medicare Part D Plan",
         "How To Sign Up For Medicare",
         "Irmaa Medicare Surcharge 2026",
-        "Is Medicare Advantage Right For You",
-        "Medicare 2000 Out Of Pocket Cap Drugs"
+        "Is Medicare Advantage Right For You"
       ],
       "videos": [
+        {
+          "video_id": "5ngqAjssPtI",
+          "url": "https://www.youtube.com/shorts/5ngqAjssPtI",
+          "title": "3 Medicare Start Date Mistakes That Cost You Thousands",
+          "article_slug": "when-does-medicare-start",
+          "published_at": "2026-06-23T14:42:21.891910+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "dERJ7MALRQA",
           "shorts_url": "https://www.youtube.com/shorts/dERJ7MALRQA",
@@ -1610,7 +1620,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 92,
+      "articles": 94,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1843,10 +1853,11 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 97,
+      "articles": 99,
       "article_titles": [
         "988 Suicide And Crisis Lifeline How It Works",
         "Acceptance And Commitment Therapy Act",
+        "Adventure Therapy Teens",
         "Anger Management Therapy",
         "Antidepressants And Therapy Combined",
         "Anxiety Screening",
@@ -1863,8 +1874,7 @@
         "Couples Therapy How It Works",
         "Culturally Competent Therapy",
         "Dbt Therapy What Is It",
-        "Depression Screening",
-        "Difference Between Psychologist Psychiatrist And Therapist"
+        "Depression Screening"
       ],
       "videos": [
         {
@@ -2044,7 +2054,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2490,7 +2500,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 107,
+      "articles": 109,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Keto Frozen Meals",
@@ -3434,7 +3444,7 @@
           "standard_id": "EnoSdGWiryU",
           "standard_url": "https://www.youtube.com/watch?v=EnoSdGWiryU",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
@@ -3445,7 +3455,7 @@
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "D87bLFUgJd8",
@@ -3571,7 +3581,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 31
+      "yt_total_views": 32
     },
     {
       "slug": "fixitrightway",
