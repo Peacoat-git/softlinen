@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T02:03:24.638366+00:00",
+  "generated_at": "2026-06-23T08:55:52.343912+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-23"
@@ -8,8 +8,8 @@
     "revenue": 0,
     "page_views": 70762,
     "visits": 70762,
-    "articles": 1461,
-    "videos": 150,
+    "articles": 1463,
+    "videos": 153,
     "channels": 14,
     "yt_views": 1552,
     "sites": 15
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 0,
-    "credits_used": 0.0,
-    "est_remaining": 200.34,
-    "pct_remaining": 100.0,
+    "renders_since_baseline": 3,
+    "credits_used": 2.04,
+    "est_remaining": 198.3,
+    "pct_remaining": 99.0,
     "days_until_renewal": 25
   },
   "sites": [
@@ -1081,6 +1081,16 @@
       ],
       "videos": [
         {
+          "video_id": "A8f7hOCZ0sk",
+          "url": "https://www.youtube.com/shorts/A8f7hOCZ0sk",
+          "title": "3 Things About Wrongful Death Claims You Need to Know",
+          "article_slug": "wrongful-death-personal-injury-claim",
+          "published_at": "2026-06-23T02:03:35.700669+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
           "shorts_id": "eQfuPugr3lo",
           "shorts_url": "https://www.youtube.com/shorts/eQfuPugr3lo",
           "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026",
@@ -1303,6 +1313,16 @@
         "Home Insurance Electronics Coverage"
       ],
       "videos": [
+        {
+          "video_id": "oe81R6aWM0A",
+          "url": "https://www.youtube.com/shorts/oe81R6aWM0A",
+          "title": "Insurance Companies Must Reveal Your Wildfire Risk Score in 2026",
+          "article_slug": "your-wildfire-risk-score-now-has-to-be-disclosed",
+          "published_at": "2026-06-23T02:04:04.777960+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "dQz9RGmlhxI",
           "shorts_url": "https://www.youtube.com/shorts/dQz9RGmlhxI",
@@ -1614,6 +1634,16 @@
         "Fixed Vs Adjustable Rate Mortgage"
       ],
       "videos": [
+        {
+          "video_id": "ixjNgplhTTc",
+          "url": "https://www.youtube.com/shorts/ixjNgplhTTc",
+          "title": "Stop Timing Your Mortgage Rate (Do This Instead)",
+          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
+          "published_at": "2026-06-23T02:04:14.078782+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "ptAhipXG4wk",
           "shorts_url": "https://www.youtube.com/shorts/ptAhipXG4wk",
@@ -2771,7 +2801,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 96,
+      "articles": 98,
       "article_titles": [
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Adding Light For Winter Egg Production",
@@ -2792,7 +2822,7 @@
         "Chick Starter Feed",
         "Chicken Composting Manure",
         "Chicken Coop Bedding Options",
-        "Chicken Coop Plans Free"
+        "Chicken Coop Flooring Options"
       ],
       "videos": [
         {
