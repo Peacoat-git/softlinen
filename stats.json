@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-24T08:51:16.381530+00:00",
+  "generated_at": "2026-06-24T14:03:17.547683+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-24"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 68972,
-    "visits": 68972,
-    "articles": 1493,
-    "videos": 156,
+    "page_views": 73639,
+    "visits": 73639,
+    "articles": 1503,
+    "videos": 158,
     "channels": 14,
     "yt_views": 1556,
     "sites": 15
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 6,
-    "credits_used": 4.08,
-    "est_remaining": 196.26,
-    "pct_remaining": 98.0,
+    "renders_since_baseline": 8,
+    "credits_used": 5.44,
+    "est_remaining": 194.9,
+    "pct_remaining": 97.3,
     "days_until_renewal": 24
   },
   "sites": [
@@ -382,7 +382,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 98,
+      "articles": 100,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1078,7 +1078,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 102,
+      "articles": 104,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1315,11 +1315,12 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 93,
+      "articles": 95,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
         "Cheap Homeowners Insurance",
+        "Condo Insurance Explained",
         "Does Home Insurance Cover Mold Removal",
         "Does Home Insurance Cover Roof Damage",
         "Does Home Insurance Cover Roof Leaks",
@@ -1335,8 +1336,7 @@
         "Home Insurance Credit Score Impact",
         "Home Insurance Dispute Resolution",
         "Home Insurance Dwelling Coverage",
-        "Home Insurance Earthquake Coverage",
-        "Home Insurance Electronics Coverage"
+        "Home Insurance Earthquake Coverage"
       ],
       "videos": [
         {
@@ -1901,6 +1901,16 @@
         "Depression Screening"
       ],
       "videos": [
+        {
+          "video_id": "k-wHg1siiqs",
+          "url": "https://www.youtube.com/shorts/k-wHg1siiqs",
+          "title": "Your Therapist's Secret AI Tool (What You Should Know)",
+          "article_slug": "your-therapist-may-be-using-ai-to-record-your-sessions",
+          "published_at": "2026-06-24T12:14:02.945436+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "CSzn8yIf-uk",
           "shorts_url": "https://www.youtube.com/shorts/CSzn8yIf-uk",
@@ -2748,10 +2758,103 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 4667,
+        "visits": 4667,
+        "unique_visitors": 3517,
+        "daily": [
+          {
+            "date": "2026-06-01",
+            "pageViews": 167
+          },
+          {
+            "date": "2026-06-02",
+            "pageViews": 201
+          },
+          {
+            "date": "2026-06-03",
+            "pageViews": 104
+          },
+          {
+            "date": "2026-06-04",
+            "pageViews": 127
+          },
+          {
+            "date": "2026-06-05",
+            "pageViews": 138
+          },
+          {
+            "date": "2026-06-06",
+            "pageViews": 74
+          },
+          {
+            "date": "2026-06-07",
+            "pageViews": 210
+          },
+          {
+            "date": "2026-06-08",
+            "pageViews": 260
+          },
+          {
+            "date": "2026-06-09",
+            "pageViews": 155
+          },
+          {
+            "date": "2026-06-10",
+            "pageViews": 504
+          },
+          {
+            "date": "2026-06-11",
+            "pageViews": 210
+          },
+          {
+            "date": "2026-06-12",
+            "pageViews": 186
+          },
+          {
+            "date": "2026-06-13",
+            "pageViews": 114
+          },
+          {
+            "date": "2026-06-14",
+            "pageViews": 201
+          },
+          {
+            "date": "2026-06-15",
+            "pageViews": 207
+          },
+          {
+            "date": "2026-06-16",
+            "pageViews": 223
+          },
+          {
+            "date": "2026-06-17",
+            "pageViews": 256
+          },
+          {
+            "date": "2026-06-18",
+            "pageViews": 398
+          },
+          {
+            "date": "2026-06-19",
+            "pageViews": 358
+          },
+          {
+            "date": "2026-06-20",
+            "pageViews": 188
+          },
+          {
+            "date": "2026-06-21",
+            "pageViews": 110
+          },
+          {
+            "date": "2026-06-22",
+            "pageViews": 100
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 176
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -2792,6 +2895,16 @@
         "Chicken Coop Bedding Options"
       ],
       "videos": [
+        {
+          "video_id": "F7hIT_si0bQ",
+          "url": "https://www.youtube.com/shorts/F7hIT_si0bQ",
+          "title": "The Worm Problem Most Backyard Chicken Keepers Miss",
+          "article_slug": "worms-in-chickens",
+          "published_at": "2026-06-24T13:26:22.557014+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "TZQVPVg_sS8",
           "shorts_url": "https://www.youtube.com/shorts/TZQVPVg_sS8",
@@ -3210,7 +3323,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 117,
+      "articles": 119,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3553,7 +3666,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 91,
+      "articles": 93,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
@@ -3566,6 +3679,7 @@
         "How To Adjust Soft Close Cabinet Hinges",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
+        "How To Find And Seal Drafts In An Old House",
         "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Door That Wont Latch",
         "How To Fix A Drafty Window Without Replacing It",
@@ -3573,8 +3687,7 @@
         "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
         "How To Fix A Leaking Shower Valve Behind The Wall",
-        "How To Fix A Leaky Faucet",
-        "How To Fix A Leaky Outdoor Faucet"
+        "How To Fix A Leaky Faucet"
       ],
       "videos": [
         {
