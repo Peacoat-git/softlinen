@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-24T02:04:59.958916+00:00",
+  "generated_at": "2026-06-24T08:51:16.381530+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-24"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 73639,
-    "visits": 73639,
-    "articles": 1491,
+    "page_views": 68972,
+    "visits": 68972,
+    "articles": 1493,
     "videos": 156,
     "channels": 14,
-    "yt_views": 1555,
+    "yt_views": 1556,
     "sites": 15
   },
   "adsense_connected": true,
@@ -2121,12 +2121,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 31
+          "total_views": 32
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2300,7 +2300,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 68
+      "yt_total_views": 69
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2748,103 +2748,10 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4667,
-        "visits": 4667,
-        "unique_visitors": 3517,
-        "daily": [
-          {
-            "date": "2026-06-01",
-            "pageViews": 167
-          },
-          {
-            "date": "2026-06-02",
-            "pageViews": 201
-          },
-          {
-            "date": "2026-06-03",
-            "pageViews": 104
-          },
-          {
-            "date": "2026-06-04",
-            "pageViews": 127
-          },
-          {
-            "date": "2026-06-05",
-            "pageViews": 138
-          },
-          {
-            "date": "2026-06-06",
-            "pageViews": 74
-          },
-          {
-            "date": "2026-06-07",
-            "pageViews": 210
-          },
-          {
-            "date": "2026-06-08",
-            "pageViews": 260
-          },
-          {
-            "date": "2026-06-09",
-            "pageViews": 155
-          },
-          {
-            "date": "2026-06-10",
-            "pageViews": 504
-          },
-          {
-            "date": "2026-06-11",
-            "pageViews": 210
-          },
-          {
-            "date": "2026-06-12",
-            "pageViews": 186
-          },
-          {
-            "date": "2026-06-13",
-            "pageViews": 114
-          },
-          {
-            "date": "2026-06-14",
-            "pageViews": 201
-          },
-          {
-            "date": "2026-06-15",
-            "pageViews": 207
-          },
-          {
-            "date": "2026-06-16",
-            "pageViews": 223
-          },
-          {
-            "date": "2026-06-17",
-            "pageViews": 256
-          },
-          {
-            "date": "2026-06-18",
-            "pageViews": 398
-          },
-          {
-            "date": "2026-06-19",
-            "pageViews": 358
-          },
-          {
-            "date": "2026-06-20",
-            "pageViews": 188
-          },
-          {
-            "date": "2026-06-21",
-            "pageViews": 110
-          },
-          {
-            "date": "2026-06-22",
-            "pageViews": 100
-          },
-          {
-            "date": "2026-06-23",
-            "pageViews": 176
-          }
-        ]
+        "page_views": 0,
+        "visits": 0,
+        "unique_visitors": 0,
+        "daily": []
       },
       "adsense": {
         "revenue": 0,
@@ -2861,12 +2768,13 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 98,
+      "articles": 100,
       "article_titles": [
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Adding Light For Winter Egg Production",
         "Aggressive Chickens",
         "Are You Ready To Raise Backyard Chickens",
+        "Avian Influenza Backyard Flock",
         "Backyard Chicken Egg Cost Vs Store",
         "Backyard Chickens For Beginners",
         "Bantam Chicken Breeds",
@@ -2881,8 +2789,7 @@
         "Cdc Tracks 8 Salmonella Outbreaks Tied To Backyard Poultry",
         "Chick Starter Feed",
         "Chicken Composting Manure",
-        "Chicken Coop Bedding Options",
-        "Chicken Coop Flooring Options"
+        "Chicken Coop Bedding Options"
       ],
       "videos": [
         {
