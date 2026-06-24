@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-23T19:48:02.296366+00:00",
+  "generated_at": "2026-06-24T02:04:59.958916+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-23"
+    "end": "2026-06-24"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 70762,
-    "visits": 70762,
-    "articles": 1483,
+    "page_views": 73639,
+    "visits": 73639,
+    "articles": 1491,
     "videos": 156,
     "channels": 14,
-    "yt_views": 1554,
+    "yt_views": 1555,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 4.08,
     "est_remaining": 196.26,
     "pct_remaining": 98.0,
-    "days_until_renewal": 25
+    "days_until_renewal": 24
   },
   "sites": [
     {
@@ -269,9 +269,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4019,
-        "visits": 4019,
-        "unique_visitors": 2871,
+        "page_views": 4150,
+        "visits": 4150,
+        "unique_visitors": 2993,
         "daily": [
           {
             "date": "2026-06-01",
@@ -360,6 +360,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 105
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 131
           }
         ]
       },
@@ -668,9 +672,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5192,
-        "visits": 5192,
-        "unique_visitors": 3648,
+        "page_views": 5363,
+        "visits": 5363,
+        "unique_visitors": 3807,
         "daily": [
           {
             "date": "2026-06-01",
@@ -759,6 +763,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 472
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 171
           }
         ]
       },
@@ -777,7 +785,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 96,
+      "articles": 98,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -791,14 +799,14 @@
         "Community Solar How It Works",
         "Community Solar Vs Rooftop Solar",
         "Comparing Solar Bids What To Look For",
+        "Diy Solar For Rv Or Camper",
         "Diy Solar For Shed Or Outbuilding",
         "Diy Solar For Tiny Home",
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
-        "Do Solar Panels Need Maintenance",
-        "Do Solar Panels Work On Cloudy Days",
-        "Fighting Hoa Solar Panel Denial"
+        "Diy Solar With Battery Storage",
+        "Do Solar Panels Need Maintenance"
       ],
       "videos": [
         {
@@ -957,9 +965,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4123,
-        "visits": 4123,
-        "unique_visitors": 3165,
+        "page_views": 4326,
+        "visits": 4326,
+        "unique_visitors": 3323,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1048,6 +1056,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 125
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 203
           }
         ]
       },
@@ -1190,9 +1202,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3199,
-        "visits": 3199,
-        "unique_visitors": 2330,
+        "page_views": 3333,
+        "visits": 3333,
+        "unique_visitors": 2432,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1281,6 +1293,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 99
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 134
           }
         ]
       },
@@ -1511,9 +1527,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4144,
-        "visits": 4144,
-        "unique_visitors": 2998,
+        "page_views": 4315,
+        "visits": 4315,
+        "unique_visitors": 3154,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1602,6 +1618,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 142
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 171
           }
         ]
       },
@@ -1744,9 +1764,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3214,
-        "visits": 3214,
-        "unique_visitors": 2705,
+        "page_views": 3521,
+        "visits": 3521,
+        "unique_visitors": 2882,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1835,6 +1855,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 115
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 307
           }
         ]
       },
@@ -1945,9 +1969,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5234,
-        "visits": 5234,
-        "unique_visitors": 2654,
+        "page_views": 5382,
+        "visits": 5382,
+        "unique_visitors": 2786,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2036,6 +2060,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 1674
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 148
           }
         ]
       },
@@ -2087,7 +2115,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 29,
+            "views": 30,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -2098,7 +2126,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 30
+          "total_views": 31
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2168,9 +2196,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5033,
-        "visits": 5033,
-        "unique_visitors": 3273,
+        "page_views": 5181,
+        "visits": 5181,
+        "unique_visitors": 3406,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2259,6 +2287,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 130
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 148
           }
         ]
       },
@@ -2268,7 +2300,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 67
+      "yt_total_views": 68
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2277,7 +2309,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 88,
+      "articles": 90,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2391,9 +2423,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4971,
-        "visits": 4971,
-        "unique_visitors": 3604,
+        "page_views": 5217,
+        "visits": 5217,
+        "unique_visitors": 3786,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2482,6 +2514,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 472
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 246
           }
         ]
       },
@@ -2712,9 +2748,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4491,
-        "visits": 4491,
-        "unique_visitors": 3361,
+        "page_views": 4667,
+        "visits": 4667,
+        "unique_visitors": 3517,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2803,6 +2839,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 100
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 176
           }
         ]
       },
@@ -2913,9 +2953,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5501,
-        "visits": 5501,
-        "unique_visitors": 3671,
+        "page_views": 5755,
+        "visits": 5755,
+        "unique_visitors": 3877,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3004,6 +3044,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 184
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 254
           }
         ]
       },
@@ -3022,7 +3066,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 98,
+      "articles": 100,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Up Rv Guide",
@@ -3146,9 +3190,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4655,
-        "visits": 4655,
-        "unique_visitors": 2969,
+        "page_views": 4853,
+        "visits": 4853,
+        "unique_visitors": 3126,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3237,6 +3281,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 136
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 198
           }
         ]
       },
@@ -3280,9 +3328,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 7163,
-        "visits": 7163,
-        "unique_visitors": 3727,
+        "page_views": 7430,
+        "visits": 7430,
+        "unique_visitors": 3985,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3371,6 +3419,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 235
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 267
           }
         ]
       },
@@ -3389,7 +3441,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 114,
+      "articles": 116,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "A 4 Minute Daily Workout Just Proved It Can Transform Fitness After 65",
@@ -3481,9 +3533,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5224,
-        "visits": 5224,
-        "unique_visitors": 3134,
+        "page_views": 5396,
+        "visits": 5396,
+        "unique_visitors": 3282,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3572,6 +3624,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 79
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 172
           }
         ]
       },
@@ -3660,9 +3716,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4599,
-        "visits": 4599,
-        "unique_visitors": 3377,
+        "page_views": 4750,
+        "visits": 4750,
+        "unique_visitors": 3511,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3751,6 +3807,10 @@
           {
             "date": "2026-06-22",
             "pageViews": 160
+          },
+          {
+            "date": "2026-06-23",
+            "pageViews": 151
           }
         ]
       },
