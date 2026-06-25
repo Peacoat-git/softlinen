@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T08:44:53.859769+00:00",
+  "generated_at": "2026-06-25T14:00:13.653013+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-25"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 75962,
     "visits": 75962,
-    "articles": 1523,
-    "videos": 160,
+    "articles": 1533,
+    "videos": 161,
     "channels": 14,
-    "yt_views": 1556,
+    "yt_views": 1557,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 10,
-    "credits_used": 6.8,
-    "est_remaining": 193.54,
-    "pct_remaining": 96.6,
+    "renders_since_baseline": 11,
+    "credits_used": 7.48,
+    "est_remaining": 192.86,
+    "pct_remaining": 96.3,
     "days_until_renewal": 23
   },
   "sites": [
@@ -386,7 +386,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 100,
+      "articles": 102,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -398,6 +398,7 @@
         "California Nem 30 Explained",
         "Can Solar Panels Power A Whole House Off Grid",
         "Do Solar Panels Work In Winter",
+        "Does Solar Increase Home Value",
         "Energy Independence With Solar And Battery",
         "Enphase Iq Battery Review",
         "Ev Charging And Solar Panels Home",
@@ -406,8 +407,7 @@
         "Grid Tied Vs Off Grid Solar System",
         "Hoa Solar Panel Rules",
         "Home Battery Storage Options Compared",
-        "How Long Do Solar Batteries Last",
-        "How Long Do Solar Panels Last"
+        "How Long Do Solar Batteries Last"
       ],
       "videos": [
         {
@@ -1110,7 +1110,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1351,7 +1351,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1363,6 +1363,7 @@
         "Does Homeowners Insurance Cover Water Damage",
         "Escrow And Home Insurance",
         "Ho 3 Policy Explained",
+        "Ho 8 Older Home Insurance",
         "Hoa Master Policy And Condo Coverage",
         "Home Insurance After Refinancing",
         "Home Insurance Bundling Discount",
@@ -1371,8 +1372,7 @@
         "Home Insurance Coverage Limits Guide",
         "Home Insurance Credit Score Impact",
         "Home Insurance Dispute Resolution",
-        "Home Insurance Dwelling Coverage",
-        "Home Insurance Earthquake Coverage"
+        "Home Insurance Dwelling Coverage"
       ],
       "videos": [
         {
@@ -2164,6 +2164,16 @@
         "Cat Stress Signs Causes"
       ],
       "videos": [
+        {
+          "video_id": "PS-nowx2d8c",
+          "url": "https://www.youtube.com/shorts/PS-nowx2d8c",
+          "title": "First Vet Visit: 5 Things Vets Check During Your Dog's Exam",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-06-25T13:14:41.580910+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "YWNfC78n5eM",
           "shorts_url": "https://www.youtube.com/shorts/YWNfC78n5eM",
@@ -3193,7 +3203,7 @@
           "standard_id": "gFyx-e7aln8",
           "standard_url": "https://www.youtube.com/watch?v=gFyx-e7aln8",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
@@ -3204,7 +3214,7 @@
             "comments": 0,
             "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "E5ikv9IZVJE",
@@ -3382,7 +3392,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 56
+      "yt_total_views": 57
     },
     {
       "slug": "gamedevproducer",
@@ -3391,7 +3401,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 119,
+      "articles": 121,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3742,7 +3752,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 93,
+      "articles": 95,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
@@ -3759,11 +3769,11 @@
         "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Door That Wont Latch",
         "How To Fix A Drafty Window Without Replacing It",
+        "How To Fix A Foggy Double Pane Window",
         "How To Fix A Garbage Disposal That Wont Turn On",
         "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
-        "How To Fix A Leaking Shower Valve Behind The Wall",
-        "How To Fix A Leaky Faucet"
+        "How To Fix A Leaking Shower Valve Behind The Wall"
       ],
       "videos": [
         {
