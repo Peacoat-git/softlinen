@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-24T19:24:58.885919+00:00",
+  "generated_at": "2026-06-25T02:05:41.032439+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-24"
+    "end": "2026-06-25"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 73639,
-    "visits": 73639,
-    "articles": 1513,
+    "page_views": 75962,
+    "visits": 75962,
+    "articles": 1521,
     "videos": 160,
     "channels": 14,
     "yt_views": 1556,
@@ -25,7 +25,7 @@
     "credits_used": 6.8,
     "est_remaining": 193.54,
     "pct_remaining": 96.6,
-    "days_until_renewal": 24
+    "days_until_renewal": 23
   },
   "sites": [
     {
@@ -269,9 +269,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4150,
-        "visits": 4150,
-        "unique_visitors": 2993,
+        "page_views": 4244,
+        "visits": 4244,
+        "unique_visitors": 3118,
         "daily": [
           {
             "date": "2026-06-01",
@@ -364,6 +364,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 131
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 94
           }
         ]
       },
@@ -682,9 +686,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5363,
-        "visits": 5363,
-        "unique_visitors": 3807,
+        "page_views": 5473,
+        "visits": 5473,
+        "unique_visitors": 3957,
         "daily": [
           {
             "date": "2026-06-01",
@@ -777,6 +781,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 171
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 110
           }
         ]
       },
@@ -795,7 +803,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 98,
+      "articles": 100,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -985,9 +993,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4326,
-        "visits": 4326,
-        "unique_visitors": 3323,
+        "page_views": 4424,
+        "visits": 4424,
+        "unique_visitors": 3459,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1080,6 +1088,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 203
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 98
           }
         ]
       },
@@ -1222,9 +1234,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3333,
-        "visits": 3333,
-        "unique_visitors": 2432,
+        "page_views": 3457,
+        "visits": 3457,
+        "unique_visitors": 2583,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1317,6 +1329,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 134
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 124
           }
         ]
       },
@@ -1547,9 +1563,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4315,
-        "visits": 4315,
-        "unique_visitors": 3154,
+        "page_views": 4425,
+        "visits": 4425,
+        "unique_visitors": 3303,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1642,6 +1658,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 171
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 110
           }
         ]
       },
@@ -1784,9 +1804,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3521,
-        "visits": 3521,
-        "unique_visitors": 2882,
+        "page_views": 3672,
+        "visits": 3672,
+        "unique_visitors": 3042,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1879,6 +1899,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 307
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 151
           }
         ]
       },
@@ -1999,9 +2023,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5382,
-        "visits": 5382,
-        "unique_visitors": 2786,
+        "page_views": 5493,
+        "visits": 5493,
+        "unique_visitors": 2919,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2094,6 +2118,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 148
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 111
           }
         ]
       },
@@ -2226,9 +2254,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5181,
-        "visits": 5181,
-        "unique_visitors": 3406,
+        "page_views": 5451,
+        "visits": 5451,
+        "unique_visitors": 3675,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2321,6 +2349,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 148
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 270
           }
         ]
       },
@@ -2339,7 +2371,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 90,
+      "articles": 92,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2453,9 +2485,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5217,
-        "visits": 5217,
-        "unique_visitors": 3786,
+        "page_views": 5456,
+        "visits": 5456,
+        "unique_visitors": 4027,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2548,6 +2580,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 246
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 239
           }
         ]
       },
@@ -2778,9 +2814,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4667,
-        "visits": 4667,
-        "unique_visitors": 3517,
+        "page_views": 4774,
+        "visits": 4774,
+        "unique_visitors": 3656,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2873,6 +2909,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 176
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 107
           }
         ]
       },
@@ -2993,9 +3033,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5755,
-        "visits": 5755,
-        "unique_visitors": 3877,
+        "page_views": 5963,
+        "visits": 5963,
+        "unique_visitors": 4092,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3088,6 +3128,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 254
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 208
           }
         ]
       },
@@ -3106,7 +3150,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 100,
+      "articles": 102,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Up Rv Guide",
@@ -3230,9 +3274,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4853,
-        "visits": 4853,
-        "unique_visitors": 3126,
+        "page_views": 4996,
+        "visits": 4996,
+        "unique_visitors": 3260,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3325,6 +3369,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 198
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 143
           }
         ]
       },
@@ -3368,9 +3416,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 7430,
-        "visits": 7430,
-        "unique_visitors": 3985,
+        "page_views": 7709,
+        "visits": 7709,
+        "unique_visitors": 4268,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3463,6 +3511,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 267
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 279
           }
         ]
       },
@@ -3481,11 +3533,12 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 116,
+      "articles": 118,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "A 4 Minute Daily Workout Just Proved It Can Transform Fitness After 65",
         "Anti Inflammatory Diet For Seniors With Arthritis",
+        "Anti Inflammatory Foods For Senior Joints",
         "Balance Boards For Seniors Are They Safe And Worth It",
         "Balance Exercises For Seniors To Prevent Falls",
         "Bed Exercises For Elderly With Limited Mobility",
@@ -3501,8 +3554,7 @@
         "Best Low Impact Exercises For Bad Knees",
         "Best Low Impact Exercises For Seniors With Arthritis",
         "Best Magnifying Glasses For Seniors With Macular Degeneration",
-        "Best Morning Routines For Seniors Over 65",
-        "Best Omega 3 Foods For Seniors With Joint Pain"
+        "Best Morning Routines For Seniors Over 65"
       ],
       "videos": [
         {
@@ -3573,9 +3625,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5396,
-        "visits": 5396,
-        "unique_visitors": 3282,
+        "page_views": 5526,
+        "visits": 5526,
+        "unique_visitors": 3421,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3668,6 +3720,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 172
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 130
           }
         ]
       },
@@ -3756,9 +3812,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4750,
-        "visits": 4750,
-        "unique_visitors": 3511,
+        "page_views": 4899,
+        "visits": 4899,
+        "unique_visitors": 3689,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3851,6 +3907,10 @@
           {
             "date": "2026-06-23",
             "pageViews": 151
+          },
+          {
+            "date": "2026-06-24",
+            "pageViews": 149
           }
         ]
       },
