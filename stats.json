@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T14:06:13.626674+00:00",
+  "generated_at": "2026-06-25T19:44:13.343836+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-25"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 75962,
     "visits": 75962,
-    "articles": 1533,
-    "videos": 161,
+    "articles": 1543,
+    "videos": 162,
     "channels": 14,
-    "yt_views": 1557,
+    "yt_views": 1558,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 11,
-    "credits_used": 7.48,
-    "est_remaining": 192.86,
-    "pct_remaining": 96.3,
+    "renders_since_baseline": 12,
+    "credits_used": 8.16,
+    "est_remaining": 192.18,
+    "pct_remaining": 95.9,
     "days_until_renewal": 23
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 91,
+      "articles": 93,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -1400,12 +1400,12 @@
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
-          "total_views": 10
+          "total_views": 11
         },
         {
           "shorts_id": "zzagShQjqys",
@@ -1671,7 +1671,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 70
+      "yt_total_views": 71
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1680,13 +1680,14 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 96,
+      "articles": 98,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
         "Are Mortgage Interest Payments Tax Deductible In 2026",
         "Are You Ready To Buy A Home",
         "Best Mortgage Lenders For First Time Home Buyers 2026",
+        "Break Even Point Calculator For Refinancing A Home Loan",
         "Break Even Refinance Analysis",
         "Cash Out Refinance Explained",
         "Cash Out Refinance Vs Home Equity Loan Comparison",
@@ -1700,8 +1701,7 @@
         "Fha Loan Requirements And Benefits",
         "Fha Now Accepts New Credit Scores What Buyers Need To Know",
         "Fha Vs Conventional Loan Which Is Better For First Time Buyers",
-        "First Time Homebuyer Programs",
-        "Fixed Vs Adjustable Rate Mortgage"
+        "First Time Homebuyer Programs"
       ],
       "videos": [
         {
@@ -1921,8 +1921,9 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 101,
+      "articles": 103,
       "article_titles": [
+        "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
         "Acceptance And Commitment Therapy Act",
         "Adventure Therapy Teens",
@@ -1941,8 +1942,7 @@
         "Could Talking To Someone Help Right Now",
         "Couples Therapy How It Works",
         "Culturally Competent Therapy",
-        "Dbt Therapy What Is It",
-        "Depression Screening"
+        "Dbt Therapy What Is It"
       ],
       "videos": [
         {
@@ -2140,7 +2140,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 99,
+      "articles": 101,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2406,6 +2406,16 @@
       ],
       "videos": [
         {
+          "video_id": "aXJUHsq3TGw",
+          "url": "https://www.youtube.com/shorts/aXJUHsq3TGw",
+          "title": "Xero Accounting: What They Don't Tell You",
+          "article_slug": "xero-accounting-guide",
+          "published_at": "2026-06-25T14:39:15.499600+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
           "shorts_id": "Qk4oDFcYVzI",
           "shorts_url": "https://www.youtube.com/shorts/Qk4oDFcYVzI",
           "title": "3 Tax Deductions You're Missing Right Now (2026 Small Business)",
@@ -2612,9 +2622,10 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 111,
+      "articles": 113,
       "article_titles": [
         "20 Grams Carbs Keto",
+        "Best Electrolyte Supplements For Keto Beginners",
         "Best Keto Frozen Meals",
         "Best Keto Snacks To Buy At The Grocery Store",
         "Best Keto Sweeteners",
@@ -2632,8 +2643,7 @@
         "High Fat Keto Foods",
         "How Fast Keto Weight Loss",
         "How Long To Enter Ketosis",
-        "How Much Protein Should I Eat On Keto",
-        "How To Become Fat Adapted"
+        "How Much Protein Should I Eat On Keto"
       ],
       "videos": [
         {
