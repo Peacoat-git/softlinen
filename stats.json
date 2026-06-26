@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T08:47:39.166820+00:00",
+  "generated_at": "2026-06-26T13:21:56.472596+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-26"
@@ -8,8 +8,8 @@
     "revenue": 0,
     "page_views": 79275,
     "visits": 79275,
-    "articles": 1553,
-    "videos": 162,
+    "articles": 1562,
+    "videos": 164,
     "channels": 14,
     "yt_views": 1561,
     "sites": 15
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 12,
-    "credits_used": 8.16,
-    "est_remaining": 192.18,
-    "pct_remaining": 95.9,
+    "renders_since_baseline": 14,
+    "credits_used": 9.52,
+    "est_remaining": 190.82,
+    "pct_remaining": 95.2,
     "days_until_renewal": 22
   },
   "sites": [
@@ -390,7 +390,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 102,
+      "articles": 104,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1122,7 +1122,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 106,
+      "articles": 107,
       "article_titles": [
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
@@ -1367,7 +1367,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 97,
+      "articles": 99,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -3459,7 +3459,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 121,
+      "articles": 123,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3629,6 +3629,16 @@
         "Best Morning Routines For Seniors Over 65"
       ],
       "videos": [
+        {
+          "video_id": "qI1Iaz1SBi4",
+          "url": "https://www.youtube.com/shorts/qI1Iaz1SBi4",
+          "title": "Ozempic Users: The Muscle Loss Your Doctor Didn't Mention",
+          "article_slug": "why-seniors-on-ozempic-must-prioritize-strength-training-now",
+          "published_at": "2026-06-26T12:13:26.116923+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "hhSlNw248wg",
           "shorts_url": "https://www.youtube.com/shorts/hhSlNw248wg",
@@ -3818,7 +3828,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
@@ -3839,9 +3849,19 @@
         "How To Fix A Garbage Disposal That Wont Turn On",
         "How To Fix A Hole In The Wall From A Doorknob",
         "How To Fix A Kitchen Drawer That Falls Off Track",
-        "How To Fix A Leaking Shower Valve Behind The Wall"
+        "How To Fix A Leaking Kitchen Faucet Base"
       ],
       "videos": [
+        {
+          "video_id": "nRbvmokRljQ",
+          "url": "https://www.youtube.com/shorts/nRbvmokRljQ",
+          "title": "13M Grill Brushes Recalled: Check Yours Now",
+          "article_slug": "your-wire-grill-brush-may-be-recalled-what-to-use-instead",
+          "published_at": "2026-06-26T13:15:50.548188+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "shorts_id": "tWLaiHl1NQs",
           "shorts_url": "https://www.youtube.com/shorts/tWLaiHl1NQs",
