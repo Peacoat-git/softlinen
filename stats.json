@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T02:07:43.905900+00:00",
+  "generated_at": "2026-06-26T08:47:39.166820+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-26"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 79275,
     "visits": 79275,
-    "articles": 1551,
+    "articles": 1553,
     "videos": 162,
     "channels": 14,
-    "yt_views": 1559,
+    "yt_views": 1561,
     "sites": 15
   },
   "adsense_connected": true,
@@ -860,12 +860,12 @@
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
           },
-          "total_views": 8
+          "total_views": 9
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -1113,7 +1113,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 366
+      "yt_total_views": 367
     },
     {
       "slug": "injury-victim-guide",
@@ -2217,12 +2217,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 32
+          "total_views": 33
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2404,7 +2404,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 69
+      "yt_total_views": 70
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2991,7 +2991,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 102,
+      "articles": 104,
       "article_titles": [
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Adding Light For Winter Egg Production",
