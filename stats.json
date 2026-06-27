@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T02:02:24.070384+00:00",
+  "generated_at": "2026-06-27T08:24:23.340572+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-27"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 82920,
     "visits": 82920,
-    "articles": 1581,
+    "articles": 1583,
     "videos": 164,
     "channels": 14,
-    "yt_views": 1568,
+    "yt_views": 1569,
     "sites": 15
   },
   "adsense_connected": true,
@@ -3031,7 +3031,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Adding Light For Winter Egg Production",
@@ -3051,8 +3051,8 @@
         "Buying Chicks Online",
         "Cdc Tracks 8 Salmonella Outbreaks Tied To Backyard Poultry",
         "Chick Starter Feed",
-        "Chicken Composting Manure",
-        "Chicken Coop Bedding Options"
+        "Chick Vaccinations",
+        "Chicken Composting Manure"
       ],
       "videos": [
         {
@@ -3096,7 +3096,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 54,
+            "views": 55,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -3107,7 +3107,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 90
+          "total_views": 91
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3249,7 +3249,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 250
+      "yt_total_views": 251
     },
     {
       "slug": "rv-life-guide",
