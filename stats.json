@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-26T19:26:43.850778+00:00",
+  "generated_at": "2026-06-27T01:22:43.223452+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-26"
+    "end": "2026-06-27"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 79275,
-    "visits": 79275,
-    "articles": 1573,
+    "page_views": 82920,
+    "visits": 82920,
+    "articles": 1581,
     "videos": 164,
     "channels": 14,
-    "yt_views": 1563,
+    "yt_views": 1568,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 9.52,
     "est_remaining": 190.82,
     "pct_remaining": 95.2,
-    "days_until_renewal": 22
+    "days_until_renewal": 21
   },
   "sites": [
     {
@@ -128,12 +128,12 @@
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
           },
           "standard_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "4 Things Medicare Will NEVER Pay For (Seniors Shocked)"
           },
-          "total_views": 4
+          "total_views": 5
         },
         {
           "shorts_id": "MtQGeHyLq0A",
@@ -269,9 +269,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4451,
-        "visits": 4451,
-        "unique_visitors": 3265,
+        "page_views": 4560,
+        "visits": 4560,
+        "unique_visitors": 3413,
         "daily": [
           {
             "date": "2026-06-01",
@@ -372,6 +372,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 207
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 109
           }
         ]
       },
@@ -381,7 +385,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 20
+      "yt_total_views": 21
     },
     {
       "slug": "solar-planner-guide",
@@ -690,9 +694,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5622,
-        "visits": 5622,
-        "unique_visitors": 4134,
+        "page_views": 5860,
+        "visits": 5860,
+        "unique_visitors": 4355,
         "daily": [
           {
             "date": "2026-06-01",
@@ -793,6 +797,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 149
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 238
           }
         ]
       },
@@ -811,12 +819,13 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 102,
+      "articles": 104,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
         "Best Roof Type For Solar Panels",
         "Best Solar Inverter Brands Reviewed",
+        "Bifacial Solar Panels Explained",
         "Can Condos Get Solar Panels",
         "Can Hoa Deny Solar Panels",
         "Can I Install Solar Panels Myself",
@@ -831,8 +840,7 @@
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
         "Diy Solar Panel System Sizing",
-        "Diy Solar With Battery Storage",
-        "Do Solar Panels Need Maintenance"
+        "Diy Solar With Battery Storage"
       ],
       "videos": [
         {
@@ -1001,9 +1009,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4674,
-        "visits": 4674,
-        "unique_visitors": 3715,
+        "page_views": 4957,
+        "visits": 4957,
+        "unique_visitors": 4000,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1104,6 +1112,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 250
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 283
           }
         ]
       },
@@ -1246,9 +1258,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3653,
-        "visits": 3653,
-        "unique_visitors": 2785,
+        "page_views": 3981,
+        "visits": 3981,
+        "unique_visitors": 3075,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1349,6 +1361,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 196
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 328
           }
         ]
       },
@@ -1579,9 +1595,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4527,
-        "visits": 4527,
-        "unique_visitors": 3424,
+        "page_views": 4757,
+        "visits": 4757,
+        "unique_visitors": 3610,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1682,6 +1698,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 102
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 230
           }
         ]
       },
@@ -1824,9 +1844,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3850,
-        "visits": 3850,
-        "unique_visitors": 3202,
+        "page_views": 4120,
+        "visits": 4120,
+        "unique_visitors": 3418,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1927,6 +1947,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 178
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 270
           }
         ]
       },
@@ -2047,9 +2071,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5628,
-        "visits": 5628,
-        "unique_visitors": 3064,
+        "page_views": 5781,
+        "visits": 5781,
+        "unique_visitors": 3225,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2150,6 +2174,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 135
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 153
           }
         ]
       },
@@ -2211,18 +2239,18 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 30,
+            "views": 31,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 3,
+            "views": 5,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 33
+          "total_views": 36
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2292,9 +2320,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5857,
-        "visits": 5857,
-        "unique_visitors": 4008,
+        "page_views": 6056,
+        "visits": 6056,
+        "unique_visitors": 4221,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2395,6 +2423,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 406
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 199
           }
         ]
       },
@@ -2404,7 +2436,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 70
+      "yt_total_views": 73
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2413,7 +2445,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 94,
+      "articles": 96,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2537,9 +2569,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5628,
-        "visits": 5628,
-        "unique_visitors": 4209,
+        "page_views": 5860,
+        "visits": 5860,
+        "unique_visitors": 4452,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2640,6 +2672,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 172
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 232
           }
         ]
       },
@@ -2870,9 +2906,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4982,
-        "visits": 4982,
-        "unique_visitors": 3830,
+        "page_views": 5110,
+        "visits": 5110,
+        "unique_visitors": 3971,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2973,6 +3009,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 208
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 128
           }
         ]
       },
@@ -3062,12 +3102,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 35,
+            "views": 36,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 89
+          "total_views": 90
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3093,9 +3133,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6340,
-        "visits": 6340,
-        "unique_visitors": 4418,
+        "page_views": 6717,
+        "visits": 6717,
+        "unique_visitors": 4793,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3196,6 +3236,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 377
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 377
           }
         ]
       },
@@ -3205,7 +3249,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 249
+      "yt_total_views": 250
     },
     {
       "slug": "rv-life-guide",
@@ -3214,7 +3258,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Up Rv Guide",
@@ -3338,9 +3382,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5465,
-        "visits": 5465,
-        "unique_visitors": 3379,
+        "page_views": 5701,
+        "visits": 5701,
+        "unique_visitors": 3628,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3441,6 +3485,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 469
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 236
           }
         ]
       },
@@ -3484,9 +3532,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 7904,
-        "visits": 7904,
-        "unique_visitors": 4468,
+        "page_views": 8130,
+        "visits": 8130,
+        "unique_visitors": 4654,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3587,6 +3635,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 195
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 226
           }
         ]
       },
@@ -3605,7 +3657,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 120,
+      "articles": 122,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "A 4 Minute Daily Workout Just Proved It Can Transform Fitness After 65",
@@ -3622,11 +3674,11 @@
         "Best Exercise Routine For 65 Year Old Woman",
         "Best Exercise Routine For 70 Year Old Man",
         "Best Exercises For Osteoporosis",
+        "Best Foods For Bone Health In Seniors",
         "Best Hearing Aids For Seniors 2026 Guide",
         "Best Low Impact Exercises For Bad Knees",
         "Best Low Impact Exercises For Seniors With Arthritis",
-        "Best Magnifying Glasses For Seniors With Macular Degeneration",
-        "Best Morning Routines For Seniors Over 65"
+        "Best Magnifying Glasses For Seniors With Macular Degeneration"
       ],
       "videos": [
         {
@@ -3707,9 +3759,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5651,
-        "visits": 5651,
-        "unique_visitors": 3552,
+        "page_views": 5984,
+        "visits": 5984,
+        "unique_visitors": 3873,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3810,6 +3862,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 125
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 333
           }
         ]
       },
@@ -3908,9 +3964,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5043,
-        "visits": 5043,
-        "unique_visitors": 3850,
+        "page_views": 5346,
+        "visits": 5346,
+        "unique_visitors": 4155,
         "daily": [
           {
             "date": "2026-06-01",
@@ -4011,6 +4067,10 @@
           {
             "date": "2026-06-25",
             "pageViews": 144
+          },
+          {
+            "date": "2026-06-26",
+            "pageViews": 303
           }
         ]
       },
