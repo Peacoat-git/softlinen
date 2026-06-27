@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T13:05:09.389131+00:00",
+  "generated_at": "2026-06-27T19:01:43.793490+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-27"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 82920,
     "visits": 82920,
-    "articles": 1593,
+    "articles": 1603,
     "videos": 164,
     "channels": 14,
-    "yt_views": 1569,
+    "yt_views": 1571,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 95,
+      "articles": 97,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -53,10 +53,10 @@
         "How Does Medicare Work",
         "How Much Does Medicare Part B Cost In 2026",
         "How Much Does Medigap Cost",
+        "How To Choose A Medicare Part D Prescription Drug Plan",
         "How To Choose Medicare Part D Plan",
         "How To Sign Up For Medicare",
-        "Irmaa Medicare Surcharge 2026",
-        "Is Medicare Advantage Right For You"
+        "Irmaa Medicare Surcharge 2026"
       ],
       "videos": [
         {
@@ -1720,7 +1720,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 100,
+      "articles": 102,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1969,7 +1969,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 105,
+      "articles": 107,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2196,7 +2196,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 103,
+      "articles": 105,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2245,12 +2245,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 5,
+            "views": 6,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 36
+          "total_views": 37
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2436,7 +2436,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 73
+      "yt_total_views": 74
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2694,10 +2694,11 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 115,
+      "articles": 117,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Electrolyte Supplements For Keto Beginners",
+        "Best Fats On Keto",
         "Best Keto Frozen Meals",
         "Best Keto Snacks To Buy At The Grocery Store",
         "Best Keto Sweeteners",
@@ -2714,8 +2715,7 @@
         "Foods To Avoid On Keto",
         "High Fat Keto Foods",
         "How Fast Keto Weight Loss",
-        "How Long To Enter Ketosis",
-        "How Much Protein Should I Eat On Keto"
+        "How Long To Enter Ketosis"
       ],
       "videos": [
         {
@@ -3307,12 +3307,12 @@
             "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why 90% of Remote RV Workers Fail (Internet Reality Check)"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "E5ikv9IZVJE",
@@ -3498,7 +3498,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 57
+      "yt_total_views": 58
     },
     {
       "slug": "gamedevproducer",
