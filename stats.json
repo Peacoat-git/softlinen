@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T08:24:23.340572+00:00",
+  "generated_at": "2026-06-27T13:05:09.389131+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-27"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 82920,
     "visits": 82920,
-    "articles": 1583,
+    "articles": 1593,
     "videos": 164,
     "channels": 14,
     "yt_views": 1569,
@@ -394,7 +394,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1134,12 +1134,14 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 108,
+      "articles": 110,
       "article_titles": [
+        "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
         "Average Personal Injury Settlement Amounts",
         "Average Settlement For Traumatic Brain Injury 2026",
+        "Average Settlement For Whiplash Injury 2026",
         "Average Slip And Fall Settlement At Grocery Store",
         "Back Injury Settlement Amounts Car Accident",
         "Bad Faith Insurance Claim Explained",
@@ -1153,9 +1155,7 @@
         "Car Accident Settlement Amounts By Injury Type",
         "Catastrophic Injury Lawsuit Process",
         "Could You Have A Personal Injury Claim",
-        "Defective Product Injury Claim",
-        "Delayed Injury Symptoms After Car Accident",
-        "Do I Have A Personal Injury Case"
+        "Defective Product Injury Claim"
       ],
       "videos": [
         {
@@ -1383,7 +1383,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 99,
+      "articles": 101,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1400,11 +1400,11 @@
         "Home Insurance After Refinancing",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
+        "Home Insurance Claims Statistics",
         "Home Insurance Collectibles Coverage",
         "Home Insurance Coverage Limits Guide",
         "Home Insurance Credit Score Impact",
-        "Home Insurance Dispute Resolution",
-        "Home Insurance Dwelling Coverage"
+        "Home Insurance Dispute Resolution"
       ],
       "videos": [
         {
@@ -3507,7 +3507,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 123,
+      "articles": 125,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3884,7 +3884,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 97,
+      "articles": 99,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
