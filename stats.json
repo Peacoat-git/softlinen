@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T08:38:42.853134+00:00",
+  "generated_at": "2026-06-28T13:11:13.738023+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-28"
@@ -8,7 +8,7 @@
     "revenue": 0,
     "page_views": 86098,
     "visits": 86098,
-    "articles": 1613,
+    "articles": 1623,
     "videos": 164,
     "channels": 14,
     "yt_views": 1573,
@@ -398,7 +398,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 106,
+      "articles": 108,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1146,7 +1146,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 110,
+      "articles": 112,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1399,7 +1399,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 101,
+      "articles": 103,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -3555,7 +3555,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 125,
+      "articles": 127,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3940,7 +3940,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 99,
+      "articles": 101,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
@@ -3953,6 +3953,7 @@
         "How To Adjust Soft Close Cabinet Hinges",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
+        "How To Cut Crown Molding Inside Corners",
         "How To Find And Seal Drafts In An Old House",
         "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Door That Wont Latch",
@@ -3960,8 +3961,7 @@
         "How To Fix A Foggy Double Pane Window",
         "How To Fix A Garbage Disposal That Wont Turn On",
         "How To Fix A Hole In The Wall From A Doorknob",
-        "How To Fix A Kitchen Drawer That Falls Off Track",
-        "How To Fix A Leaking Kitchen Faucet Base"
+        "How To Fix A Kitchen Drawer That Falls Off Track"
       ],
       "videos": [
         {
