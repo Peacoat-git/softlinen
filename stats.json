@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-27T19:01:43.793490+00:00",
+  "generated_at": "2026-06-28T02:13:19.502680+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-27"
+    "end": "2026-06-28"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 82920,
-    "visits": 82920,
-    "articles": 1603,
+    "page_views": 86098,
+    "visits": 86098,
+    "articles": 1611,
     "videos": 164,
     "channels": 14,
-    "yt_views": 1571,
+    "yt_views": 1573,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 9.52,
     "est_remaining": 190.82,
     "pct_remaining": 95.2,
-    "days_until_renewal": 21
+    "days_until_renewal": 20
   },
   "sites": [
     {
@@ -269,9 +269,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4560,
-        "visits": 4560,
-        "unique_visitors": 3413,
+        "page_views": 4674,
+        "visits": 4674,
+        "unique_visitors": 3541,
         "daily": [
           {
             "date": "2026-06-01",
@@ -376,6 +376,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 109
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 114
           }
         ]
       },
@@ -694,9 +698,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5860,
-        "visits": 5860,
-        "unique_visitors": 4355,
+        "page_views": 6004,
+        "visits": 6004,
+        "unique_visitors": 4524,
         "daily": [
           {
             "date": "2026-06-01",
@@ -801,6 +805,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 238
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 144
           }
         ]
       },
@@ -819,7 +827,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -1009,9 +1017,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4957,
-        "visits": 4957,
-        "unique_visitors": 4000,
+        "page_views": 5136,
+        "visits": 5136,
+        "unique_visitors": 4158,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1116,6 +1124,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 283
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 179
           }
         ]
       },
@@ -1258,9 +1270,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3981,
-        "visits": 3981,
-        "unique_visitors": 3075,
+        "page_views": 4184,
+        "visits": 4184,
+        "unique_visitors": 3261,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1365,6 +1377,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 328
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 203
           }
         ]
       },
@@ -1595,9 +1611,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4757,
-        "visits": 4757,
-        "unique_visitors": 3610,
+        "page_views": 4980,
+        "visits": 4980,
+        "unique_visitors": 3814,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1702,6 +1718,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 230
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 223
           }
         ]
       },
@@ -1844,9 +1864,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4120,
-        "visits": 4120,
-        "unique_visitors": 3418,
+        "page_views": 4316,
+        "visits": 4316,
+        "unique_visitors": 3596,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1951,6 +1971,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 270
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 196
           }
         ]
       },
@@ -2071,9 +2095,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5781,
-        "visits": 5781,
-        "unique_visitors": 3225,
+        "page_views": 5859,
+        "visits": 5859,
+        "unique_visitors": 3327,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2178,6 +2202,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 153
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 78
           }
         ]
       },
@@ -2320,9 +2348,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6056,
-        "visits": 6056,
-        "unique_visitors": 4221,
+        "page_views": 6228,
+        "visits": 6228,
+        "unique_visitors": 4388,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2427,6 +2455,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 199
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 172
           }
         ]
       },
@@ -2445,10 +2477,11 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 96,
+      "articles": 98,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
+        "Ach Payment Processing",
         "Are You Ready To Start A Business",
         "Best Business Checking Account For Llc No Monthly Fee",
         "Bootstrapping Vs Raising Venture Capital For Startups",
@@ -2465,8 +2498,7 @@
         "Business Loan Interest Rates Comparison",
         "Business Succession Planning",
         "Business Valuation Methods",
-        "Cash Flow Management Guide",
-        "Cash Flow Statement Explained"
+        "Cash Flow Management Guide"
       ],
       "videos": [
         {
@@ -2569,9 +2601,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5860,
-        "visits": 5860,
-        "unique_visitors": 4452,
+        "page_views": 6107,
+        "visits": 6107,
+        "unique_visitors": 4713,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2676,6 +2708,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 232
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 247
           }
         ]
       },
@@ -2906,9 +2942,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5110,
-        "visits": 5110,
-        "unique_visitors": 3971,
+        "page_views": 5220,
+        "visits": 5220,
+        "unique_visitors": 4099,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3013,6 +3049,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 128
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 110
           }
         ]
       },
@@ -3096,7 +3136,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 55,
+            "views": 57,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -3107,7 +3147,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 91
+          "total_views": 93
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3133,9 +3173,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6717,
-        "visits": 6717,
-        "unique_visitors": 4793,
+        "page_views": 7116,
+        "visits": 7116,
+        "unique_visitors": 5217,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3240,6 +3280,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 377
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 399
           }
         ]
       },
@@ -3249,7 +3293,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 251
+      "yt_total_views": 253
     },
     {
       "slug": "rv-life-guide",
@@ -3258,7 +3302,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 106,
+      "articles": 108,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Up Rv Guide",
@@ -3382,9 +3426,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5701,
-        "visits": 5701,
-        "unique_visitors": 3628,
+        "page_views": 5858,
+        "visits": 5858,
+        "unique_visitors": 3780,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3489,6 +3533,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 236
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 157
           }
         ]
       },
@@ -3532,9 +3580,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 8130,
-        "visits": 8130,
-        "unique_visitors": 4654,
+        "page_views": 8490,
+        "visits": 8490,
+        "unique_visitors": 4989,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3639,6 +3687,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 226
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 360
           }
         ]
       },
@@ -3657,7 +3709,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 122,
+      "articles": 124,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "A 4 Minute Daily Workout Just Proved It Can Transform Fitness After 65",
@@ -3759,9 +3811,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5984,
-        "visits": 5984,
-        "unique_visitors": 3873,
+        "page_views": 6296,
+        "visits": 6296,
+        "unique_visitors": 4169,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3866,6 +3918,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 333
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 312
           }
         ]
       },
@@ -3964,9 +4020,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5346,
-        "visits": 5346,
-        "unique_visitors": 4155,
+        "page_views": 5630,
+        "visits": 5630,
+        "unique_visitors": 4453,
         "daily": [
           {
             "date": "2026-06-01",
@@ -4071,6 +4127,10 @@
           {
             "date": "2026-06-26",
             "pageViews": 303
+          },
+          {
+            "date": "2026-06-27",
+            "pageViews": 284
           }
         ]
       },
