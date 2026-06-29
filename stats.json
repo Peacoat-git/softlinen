@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T02:12:59.917710+00:00",
+  "generated_at": "2026-06-29T10:18:42.326489+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-29"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 90221,
     "visits": 90221,
-    "articles": 1649,
+    "articles": 1651,
     "videos": 164,
     "channels": 14,
-    "yt_views": 1577,
+    "yt_views": 1581,
     "sites": 15
   },
   "adsense_connected": true,
@@ -473,12 +473,12 @@
             "title": "Why Solar Calculators Get Your Home Size Wrong (The Real Number)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Why Solar Calculators Get Your Home Size Wrong (The Real Number)"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "DNhB_7ypnq8",
@@ -826,7 +826,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 546
+      "yt_total_views": 547
     },
     {
       "slug": "solar-home-planner",
@@ -2295,18 +2295,18 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 31,
+            "views": 32,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 7,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 38
+          "total_views": 40
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2500,7 +2500,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 75
+      "yt_total_views": 77
     },
     {
       "slug": "small-biz-finance-guide",
@@ -3111,7 +3111,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 109,
+      "articles": 111,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
@@ -3130,9 +3130,9 @@
         "Broody Hen Behavior",
         "Bumblefoot In Chickens",
         "Buying Chicks Online",
+        "Candling Eggs Guide",
         "Cdc Tracks 8 Salmonella Outbreaks Tied To Backyard Poultry",
-        "Chick Starter Feed",
-        "Chick Vaccinations"
+        "Chick Starter Feed"
       ],
       "videos": [
         {
@@ -3182,12 +3182,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 37,
+            "views": 38,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 96
+          "total_views": 97
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3337,7 +3337,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 256
+      "yt_total_views": 257
     },
     {
       "slug": "rv-life-guide",
