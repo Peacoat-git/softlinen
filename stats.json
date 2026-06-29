@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T15:26:28.819195+00:00",
+  "generated_at": "2026-06-29T19:40:43.231000+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-29"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 90221,
     "visits": 90221,
-    "articles": 1661,
+    "articles": 1565,
     "videos": 167,
     "channels": 14,
-    "yt_views": 1581,
+    "yt_views": 1582,
     "sites": 15
   },
   "adsense_connected": true,
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 99,
+      "articles": 101,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -43,6 +43,7 @@
         "Best Medicare Advantage Plans With Dental And Vision 2026",
         "Best Medicare Part D Plans 2026",
         "Best Medicare Plans In California 2026",
+        "Best Medicare Plans In Florida 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
         "Cms Proposes Making Medicare Drug Price Negotiations Permanent",
@@ -55,8 +56,7 @@
         "How Much Does Medigap Cost",
         "How To Choose A Medicare Part D Prescription Drug Plan",
         "How To Choose Medicare Part D Plan",
-        "How To Compare Medicare Plans Cost",
-        "How To Sign Up For Medicare"
+        "How To Compare Medicare Plans Cost"
       ],
       "videos": [
         {
@@ -1425,29 +1425,8 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 106,
-      "article_titles": [
-        "Best Home Insurance For New Homeowners",
-        "Best Homeowners Insurance Companies",
-        "Cheap Homeowners Insurance",
-        "Condo Insurance Explained",
-        "Does Home Insurance Cover Mold Removal",
-        "Does Home Insurance Cover Roof Damage",
-        "Does Home Insurance Cover Roof Leaks",
-        "Does Homeowners Insurance Cover Water Damage",
-        "Escrow And Home Insurance",
-        "Fair Plan Insurance Explained",
-        "Ho 3 Policy Explained",
-        "Ho 8 Older Home Insurance",
-        "Hoa Master Policy And Condo Coverage",
-        "Home Insurance After Refinancing",
-        "Home Insurance Bundling Discount",
-        "Home Insurance Calculator",
-        "Home Insurance Claims Statistics",
-        "Home Insurance Collectibles Coverage",
-        "Home Insurance Coverage Limits Guide",
-        "Home Insurance Credit Score Impact"
-      ],
+      "articles": 0,
+      "article_titles": [],
       "videos": [
         {
           "video_id": "Ueeq2HZO45M",
@@ -1566,7 +1545,7 @@
           "standard_id": "OFSZ1VlCIJk",
           "standard_url": "https://www.youtube.com/watch?v=OFSZ1VlCIJk",
           "shorts_stats": {
-            "views": 1,
+            "views": 2,
             "likes": 0,
             "comments": 0,
             "title": "3 Homeowners Insurance Gaps That Cost Families Everything"
@@ -1577,7 +1556,7 @@
             "comments": 0,
             "title": "3 Homeowners Insurance Gaps That Cost Families Everything"
           },
-          "total_views": 1
+          "total_views": 2
         },
         {
           "shorts_id": "KedcbR9GbS4",
@@ -1771,7 +1750,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 71
+      "yt_total_views": 72
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1780,12 +1759,13 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
         "Are Mortgage Interest Payments Tax Deductible In 2026",
         "Are You Ready To Buy A Home",
+        "Average Cost Of Private Mortgage Insurance Per Month",
         "Best Mortgage Lenders For First Time Home Buyers 2026",
         "Break Even Point Calculator For Refinancing A Home Loan",
         "Break Even Refinance Analysis",
@@ -1800,8 +1780,7 @@
         "Down Payment Assistance Programs",
         "Fha Loan Requirements And Benefits",
         "Fha Now Accepts New Credit Scores What Buyers Need To Know",
-        "Fha Vs Conventional Loan Which Is Better For First Time Buyers",
-        "First Time Homebuyer Programs"
+        "Fha Vs Conventional Loan Which Is Better For First Time Buyers"
       ],
       "videos": [
         {
@@ -2047,7 +2026,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 109,
+      "articles": 111,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2282,7 +2261,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 108,
+      "articles": 110,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2796,7 +2775,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 119,
+      "articles": 121,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Electrolyte Supplements For Keto Beginners",
