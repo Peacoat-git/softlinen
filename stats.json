@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-28T19:00:05.403381+00:00",
+  "generated_at": "2026-06-29T02:12:59.917710+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-28"
+    "end": "2026-06-29"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 86098,
-    "visits": 86098,
-    "articles": 1633,
+    "page_views": 90221,
+    "visits": 90221,
+    "articles": 1649,
     "videos": 164,
     "channels": 14,
-    "yt_views": 1573,
+    "yt_views": 1577,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 9.52,
     "est_remaining": 190.82,
     "pct_remaining": 95.2,
-    "days_until_renewal": 20
+    "days_until_renewal": 19
   },
   "sites": [
     {
@@ -269,9 +269,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4674,
-        "visits": 4674,
-        "unique_visitors": 3541,
+        "page_views": 4839,
+        "visits": 4839,
+        "unique_visitors": 3703,
         "daily": [
           {
             "date": "2026-06-01",
@@ -380,6 +380,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 114
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 165
           }
         ]
       },
@@ -698,9 +702,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6004,
-        "visits": 6004,
-        "unique_visitors": 4524,
+        "page_views": 6183,
+        "visits": 6183,
+        "unique_visitors": 4720,
         "daily": [
           {
             "date": "2026-06-01",
@@ -809,6 +813,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 144
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 179
           }
         ]
       },
@@ -827,7 +835,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 106,
+      "articles": 108,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -842,13 +850,13 @@
         "Community Solar How It Works",
         "Community Solar Vs Rooftop Solar",
         "Comparing Solar Bids What To Look For",
+        "Critical Loads Panel Solar Backup",
         "Diy Solar For Rv Or Camper",
         "Diy Solar For Shed Or Outbuilding",
         "Diy Solar For Tiny Home",
         "Diy Solar Kit Recommendations",
         "Diy Solar Panel Installation Guide",
-        "Diy Solar Panel System Sizing",
-        "Diy Solar With Battery Storage"
+        "Diy Solar Panel System Sizing"
       ],
       "videos": [
         {
@@ -1017,9 +1025,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5136,
-        "visits": 5136,
-        "unique_visitors": 4158,
+        "page_views": 5350,
+        "visits": 5350,
+        "unique_visitors": 4342,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1128,6 +1136,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 179
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 214
           }
         ]
       },
@@ -1146,7 +1158,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 112,
+      "articles": 113,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1270,9 +1282,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4184,
-        "visits": 4184,
-        "unique_visitors": 3261,
+        "page_views": 4483,
+        "visits": 4483,
+        "unique_visitors": 3457,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1381,6 +1393,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 203
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 299
           }
         ]
       },
@@ -1399,7 +1415,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 103,
+      "articles": 104,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1611,9 +1627,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4980,
-        "visits": 4980,
-        "unique_visitors": 3814,
+        "page_views": 5288,
+        "visits": 5288,
+        "unique_visitors": 4072,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1722,6 +1738,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 223
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 308
           }
         ]
       },
@@ -1864,9 +1884,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4316,
-        "visits": 4316,
-        "unique_visitors": 3596,
+        "page_views": 4647,
+        "visits": 4647,
+        "unique_visitors": 3858,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1975,6 +1995,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 196
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 331
           }
         ]
       },
@@ -2095,9 +2119,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5859,
-        "visits": 5859,
-        "unique_visitors": 3327,
+        "page_views": 6082,
+        "visits": 6082,
+        "unique_visitors": 3484,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2206,6 +2230,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 78
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 223
           }
         ]
       },
@@ -2224,7 +2252,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 107,
+      "articles": 108,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2273,12 +2301,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 6,
+            "views": 7,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 37
+          "total_views": 38
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2348,9 +2376,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6228,
-        "visits": 6228,
-        "unique_visitors": 4388,
+        "page_views": 6534,
+        "visits": 6534,
+        "unique_visitors": 4605,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2459,6 +2487,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 172
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 306
           }
         ]
       },
@@ -2468,7 +2500,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 74
+      "yt_total_views": 75
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2477,7 +2509,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 98,
+      "articles": 101,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2601,9 +2633,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6107,
-        "visits": 6107,
-        "unique_visitors": 4713,
+        "page_views": 6518,
+        "visits": 6518,
+        "unique_visitors": 5047,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2712,6 +2744,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 247
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 411
           }
         ]
       },
@@ -2942,9 +2978,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5220,
-        "visits": 5220,
-        "unique_visitors": 4099,
+        "page_views": 5387,
+        "visits": 5387,
+        "unique_visitors": 4235,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3053,6 +3089,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 110
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 167
           }
         ]
       },
@@ -3071,7 +3111,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 108,
+      "articles": 109,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
@@ -3136,18 +3176,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 57,
+            "views": 59,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 36,
+            "views": 37,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 93
+          "total_views": 96
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3173,9 +3213,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7116,
-        "visits": 7116,
-        "unique_visitors": 5217,
+        "page_views": 7440,
+        "visits": 7440,
+        "unique_visitors": 5551,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3284,6 +3324,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 399
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 324
           }
         ]
       },
@@ -3293,7 +3337,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 253
+      "yt_total_views": 256
     },
     {
       "slug": "rv-life-guide",
@@ -3302,15 +3346,17 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 108,
+      "articles": 111,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
+        "Backing Into Rv Campsite",
         "Backing Up Rv Guide",
         "Best Apps For Finding Free Campsites",
         "Best Boondocking Spots On Blm Land Out West",
         "Best Class B Van For Full Time",
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
+        "Best Generator For Boondocking In An Rv",
         "Best Mail Forwarding Service For Full Time Rvers",
         "Best Remote Jobs For Full Time Rvers",
         "Best Rv Brands Reliability",
@@ -3321,9 +3367,7 @@
         "Best Rv Trip Planning App For Full Time Travel",
         "Best Travel Trailers Full Time",
         "Best Truck For Towing A Fifth Wheel Full Time",
-        "Blm Land Camping Rv",
-        "Boondocking Free Camping",
-        "Boondocking Locations Free"
+        "Blm Land Camping Rv"
       ],
       "videos": [
         {
@@ -3426,9 +3470,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5858,
-        "visits": 5858,
-        "unique_visitors": 3780,
+        "page_views": 6186,
+        "visits": 6186,
+        "unique_visitors": 4059,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3537,6 +3581,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 157
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 328
           }
         ]
       },
@@ -3580,9 +3628,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 8490,
-        "visits": 8490,
-        "unique_visitors": 4989,
+        "page_views": 8886,
+        "visits": 8886,
+        "unique_visitors": 5264,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3691,6 +3739,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 360
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 396
           }
         ]
       },
@@ -3709,7 +3761,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 124,
+      "articles": 127,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "A 4 Minute Daily Workout Just Proved It Can Transform Fitness After 65",
@@ -3811,9 +3863,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6296,
-        "visits": 6296,
-        "unique_visitors": 4169,
+        "page_views": 6507,
+        "visits": 6507,
+        "unique_visitors": 4350,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3922,6 +3974,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 312
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 211
           }
         ]
       },
@@ -3940,13 +3996,14 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 101,
+      "articles": 102,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Drywall Anchors For Heavy Mirrors",
         "Best Primer For Covering Dark Walls In One Coat",
         "Diy Or Call A Pro Fix It Style",
+        "Diy Project Tool Costs Timeline 2026",
         "How 2026 Tariffs Are Changing The Math On Summer Diy Projects",
         "How Tariff Driven Material Costs Are Changing What You Should Diy",
         "How Tariffs Are Changing The Cost Of Your Next Diy Project",
@@ -3960,8 +4017,7 @@
         "How To Fix A Drafty Window Without Replacing It",
         "How To Fix A Foggy Double Pane Window",
         "How To Fix A Garbage Disposal That Wont Turn On",
-        "How To Fix A Hole In The Wall From A Doorknob",
-        "How To Fix A Kitchen Drawer That Falls Off Track"
+        "How To Fix A Hole In The Wall From A Doorknob"
       ],
       "videos": [
         {
@@ -4020,9 +4076,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5630,
-        "visits": 5630,
-        "unique_visitors": 4453,
+        "page_views": 5891,
+        "visits": 5891,
+        "unique_visitors": 4681,
         "daily": [
           {
             "date": "2026-06-01",
@@ -4131,6 +4187,10 @@
           {
             "date": "2026-06-27",
             "pageViews": 284
+          },
+          {
+            "date": "2026-06-28",
+            "pageViews": 261
           }
         ]
       },
