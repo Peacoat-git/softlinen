@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T13:52:09.937908+00:00",
+  "generated_at": "2026-06-30T18:59:43.984991+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-30"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 93942,
     "visits": 93942,
-    "articles": 1691,
-    "videos": 169,
+    "articles": 1699,
+    "videos": 170,
     "channels": 14,
-    "yt_views": 1585,
+    "yt_views": 1586,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 19,
-    "credits_used": 12.92,
-    "est_remaining": 187.42,
-    "pct_remaining": 93.6,
+    "renders_since_baseline": 20,
+    "credits_used": 13.6,
+    "est_remaining": 186.74,
+    "pct_remaining": 93.2,
     "days_until_renewal": 18
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 101,
+      "articles": 103,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -59,6 +59,16 @@
         "How To Compare Medicare Plans Cost"
       ],
       "videos": [
+        {
+          "video_id": "-h4QeHR8OIo",
+          "url": "https://www.youtube.com/shorts/-h4QeHR8OIo",
+          "title": "5 Medicare Enrollment Rules That Cost Seniors Thousands",
+          "article_slug": "when-to-enroll-in-medicare",
+          "published_at": "2026-06-30T14:12:52.467487+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "5ngqAjssPtI",
           "url": "https://www.youtube.com/shorts/5ngqAjssPtI",
@@ -1800,7 +1810,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 106,
+      "articles": 108,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -2071,7 +2081,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 111,
+      "articles": 113,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2359,12 +2369,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 8,
+            "views": 9,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 41
+          "total_views": 42
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2562,7 +2572,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 78
+      "yt_total_views": 79
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2832,7 +2842,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 121,
+      "articles": 123,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Electrolyte Supplements For Keto Beginners",
