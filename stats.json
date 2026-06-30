@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-29T19:40:43.231000+00:00",
+  "generated_at": "2026-06-30T02:07:41.846639+00:00",
   "period": {
     "start": "2026-06-01",
-    "end": "2026-06-29"
+    "end": "2026-06-30"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 90221,
-    "visits": 90221,
-    "articles": 1565,
+    "page_views": 93942,
+    "visits": 93942,
+    "articles": 1679,
     "videos": 167,
     "channels": 14,
-    "yt_views": 1582,
+    "yt_views": 1584,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 11.56,
     "est_remaining": 188.78,
     "pct_remaining": 94.2,
-    "days_until_renewal": 19
+    "days_until_renewal": 18
   },
   "sites": [
     {
@@ -269,9 +269,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4839,
-        "visits": 4839,
-        "unique_visitors": 3703,
+        "page_views": 5082,
+        "visits": 5082,
+        "unique_visitors": 3942,
         "daily": [
           {
             "date": "2026-06-01",
@@ -384,6 +384,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 165
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 243
           }
         ]
       },
@@ -495,12 +499,12 @@
             "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
           },
           "standard_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Solar Lease Almost Killed My Home Sale (Don't Make This Mistake)"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -702,9 +706,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6183,
-        "visits": 6183,
-        "unique_visitors": 4720,
+        "page_views": 6501,
+        "visits": 6501,
+        "unique_visitors": 5020,
         "daily": [
           {
             "date": "2026-06-01",
@@ -817,6 +821,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 179
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 318
           }
         ]
       },
@@ -826,7 +834,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 547
+      "yt_total_views": 548
     },
     {
       "slug": "solar-home-planner",
@@ -835,7 +843,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 108,
+      "articles": 110,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -1025,9 +1033,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5350,
-        "visits": 5350,
-        "unique_visitors": 4342,
+        "page_views": 5510,
+        "visits": 5510,
+        "unique_visitors": 4494,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1140,6 +1148,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 214
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 160
           }
         ]
       },
@@ -1292,9 +1304,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4483,
-        "visits": 4483,
-        "unique_visitors": 3457,
+        "page_views": 4683,
+        "visits": 4683,
+        "unique_visitors": 3660,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1407,6 +1419,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 299
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 200
           }
         ]
       },
@@ -1425,8 +1441,29 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 0,
-      "article_titles": [],
+      "articles": 106,
+      "article_titles": [
+        "Best Home Insurance For New Homeowners",
+        "Best Homeowners Insurance Companies",
+        "Cheap Homeowners Insurance",
+        "Condo Insurance Explained",
+        "Does Home Insurance Cover Mold Removal",
+        "Does Home Insurance Cover Roof Damage",
+        "Does Home Insurance Cover Roof Leaks",
+        "Does Homeowners Insurance Cover Water Damage",
+        "Escrow And Home Insurance",
+        "Fair Plan Insurance Explained",
+        "Ho 3 Policy Explained",
+        "Ho 8 Older Home Insurance",
+        "Hoa Master Policy And Condo Coverage",
+        "Home Insurance After Refinancing",
+        "Home Insurance Bundling Discount",
+        "Home Insurance Calculator",
+        "Home Insurance Claims Statistics",
+        "Home Insurance Collectibles Coverage",
+        "Home Insurance Coverage Limits Guide",
+        "Home Insurance Credit Score Impact"
+      ],
       "videos": [
         {
           "video_id": "Ueeq2HZO45M",
@@ -1626,9 +1663,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5288,
-        "visits": 5288,
-        "unique_visitors": 4072,
+        "page_views": 5629,
+        "visits": 5629,
+        "unique_visitors": 4382,
         "daily": [
           {
             "date": "2026-06-01",
@@ -1741,6 +1778,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 308
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 341
           }
         ]
       },
@@ -1893,9 +1934,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4647,
-        "visits": 4647,
-        "unique_visitors": 3858,
+        "page_views": 4954,
+        "visits": 4954,
+        "unique_visitors": 4133,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2008,6 +2049,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 331
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 307
           }
         ]
       },
@@ -2128,9 +2173,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6082,
-        "visits": 6082,
-        "unique_visitors": 3484,
+        "page_views": 6204,
+        "visits": 6204,
+        "unique_visitors": 3612,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2243,6 +2288,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 223
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 122
           }
         ]
       },
@@ -2385,9 +2434,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6534,
-        "visits": 6534,
-        "unique_visitors": 4605,
+        "page_views": 6740,
+        "visits": 6740,
+        "unique_visitors": 4785,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2500,6 +2549,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 306
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 206
           }
         ]
       },
@@ -2518,7 +2571,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 101,
+      "articles": 103,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2530,6 +2583,7 @@
         "Break Even Calculator",
         "Business Acquisition Loan",
         "Business Bank Account Requirements",
+        "Business Checking Account Comparison",
         "Business Credit Building Tips",
         "Business Credit Card Vs Personal Credit Card For Llc",
         "Business Credit Score How To Build",
@@ -2538,8 +2592,7 @@
         "Business Loan Calculator",
         "Business Loan Interest Rates Comparison",
         "Business Succession Planning",
-        "Business Valuation Methods",
-        "Cash Flow Management Guide"
+        "Business Valuation Methods"
       ],
       "videos": [
         {
@@ -2642,9 +2695,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6518,
-        "visits": 6518,
-        "unique_visitors": 5047,
+        "page_views": 6789,
+        "visits": 6789,
+        "unique_visitors": 5316,
         "daily": [
           {
             "date": "2026-06-01",
@@ -2757,6 +2810,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 411
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 271
           }
         ]
       },
@@ -2987,9 +3044,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5387,
-        "visits": 5387,
-        "unique_visitors": 4235,
+        "page_views": 5594,
+        "visits": 5594,
+        "unique_visitors": 4384,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3102,6 +3159,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 167
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 207
           }
         ]
       },
@@ -3191,12 +3252,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 38,
+            "views": 39,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 97
+          "total_views": 98
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3222,9 +3283,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7440,
-        "visits": 7440,
-        "unique_visitors": 5551,
+        "page_views": 7710,
+        "visits": 7710,
+        "unique_visitors": 5854,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3337,6 +3398,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 324
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 270
           }
         ]
       },
@@ -3346,7 +3411,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 257
+      "yt_total_views": 258
     },
     {
       "slug": "rv-life-guide",
@@ -3355,7 +3420,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 111,
+      "articles": 113,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -3479,9 +3544,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6186,
-        "visits": 6186,
-        "unique_visitors": 4059,
+        "page_views": 6629,
+        "visits": 6629,
+        "unique_visitors": 4433,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3594,6 +3659,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 328
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 443
           }
         ]
       },
@@ -3637,9 +3706,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 8886,
-        "visits": 8886,
-        "unique_visitors": 5264,
+        "page_views": 9196,
+        "visits": 9196,
+        "unique_visitors": 5511,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3752,6 +3821,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 396
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 310
           }
         ]
       },
@@ -3770,7 +3843,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 127,
+      "articles": 129,
       "article_titles": [
         "10 Minute Morning Stretches For Seniors Over 70",
         "A 4 Minute Daily Workout Just Proved It Can Transform Fitness After 65",
@@ -3872,9 +3945,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6507,
-        "visits": 6507,
-        "unique_visitors": 4350,
+        "page_views": 6656,
+        "visits": 6656,
+        "unique_visitors": 4512,
         "daily": [
           {
             "date": "2026-06-01",
@@ -3987,6 +4060,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 211
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 149
           }
         ]
       },
@@ -4085,9 +4162,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5891,
-        "visits": 5891,
-        "unique_visitors": 4681,
+        "page_views": 6065,
+        "visits": 6065,
+        "unique_visitors": 4839,
         "daily": [
           {
             "date": "2026-06-01",
@@ -4200,6 +4277,10 @@
           {
             "date": "2026-06-28",
             "pageViews": 261
+          },
+          {
+            "date": "2026-06-29",
+            "pageViews": 174
           }
         ]
       },
