@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T08:53:29.752251+00:00",
+  "generated_at": "2026-06-30T13:52:09.937908+00:00",
   "period": {
     "start": "2026-06-01",
     "end": "2026-06-30"
@@ -8,8 +8,8 @@
     "revenue": 0,
     "page_views": 93942,
     "visits": 93942,
-    "articles": 1681,
-    "videos": 167,
+    "articles": 1691,
+    "videos": 169,
     "channels": 14,
     "yt_views": 1585,
     "sites": 15
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 17,
-    "credits_used": 11.56,
-    "est_remaining": 188.78,
-    "pct_remaining": 94.2,
+    "renders_since_baseline": 19,
+    "credits_used": 12.92,
+    "est_remaining": 187.42,
+    "pct_remaining": 93.6,
     "days_until_renewal": 18
   },
   "sites": [
@@ -406,7 +406,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 110,
+      "articles": 112,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1170,7 +1170,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 115,
+      "articles": 117,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1441,7 +1441,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 106,
+      "articles": 108,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -2857,6 +2857,16 @@
       ],
       "videos": [
         {
+          "video_id": "biecGx5s2g4",
+          "url": "https://www.youtube.com/shorts/biecGx5s2g4",
+          "title": "Why Keto Flu Happens (And How to Stop It)",
+          "article_slug": "what-is-the-keto-flu-and-how-long-does-it-last",
+          "published_at": "2026-06-30T13:09:55.271551+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
           "video_id": "KdRnR6NW-ck",
           "url": "https://www.youtube.com/shorts/KdRnR6NW-ck",
           "title": "Why Keto Flu Happens (And How to Stop It)",
@@ -3445,6 +3455,16 @@
       ],
       "videos": [
         {
+          "video_id": "BkefM3JRo_M",
+          "url": "https://www.youtube.com/shorts/BkefM3JRo_M",
+          "title": "3 Brutal Truths About Working Remote From an RV",
+          "article_slug": "working-remotely-from-rv",
+          "published_at": "2026-06-30T12:16:18.383772+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
           "video_id": "KHqsOSqXBPM",
           "url": "https://www.youtube.com/shorts/KHqsOSqXBPM",
           "title": "Remote Work From RV: 3 Things Instagram Won't Show You",
@@ -3681,7 +3701,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 129,
+      "articles": 131,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -4082,7 +4102,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 104,
+      "articles": 106,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
@@ -4100,10 +4120,10 @@
         "How To Fill Nail Holes In Trim Before Painting",
         "How To Find And Seal Drafts In An Old House",
         "How To Find Studs Behind Drywall Without A Stud Finder",
+        "How To Fix A Crack In Plaster Wall Before Painting",
         "How To Fix A Door That Wont Latch",
         "How To Fix A Drafty Window Without Replacing It",
-        "How To Fix A Foggy Double Pane Window",
-        "How To Fix A Garbage Disposal That Wont Turn On"
+        "How To Fix A Foggy Double Pane Window"
       ],
       "videos": [
         {
