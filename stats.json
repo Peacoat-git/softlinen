@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T14:03:49.468753+00:00",
+  "generated_at": "2026-07-01T19:27:56.269268+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-01"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 1721,
-    "videos": 172,
+    "articles": 1731,
+    "videos": 174,
     "channels": 14,
-    "yt_views": 1594,
+    "yt_views": 1595,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 22,
-    "credits_used": 14.96,
-    "est_remaining": 185.38,
-    "pct_remaining": 92.5,
+    "renders_since_baseline": 24,
+    "credits_used": 16.32,
+    "est_remaining": 184.02,
+    "pct_remaining": 91.9,
     "days_until_renewal": 17
   },
   "sites": [
@@ -35,7 +35,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 103,
+      "articles": 105,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -323,6 +323,16 @@
         "Home Battery Storage Options Compared"
       ],
       "videos": [
+        {
+          "video_id": "Ae1uIFx8oYc",
+          "url": "https://www.youtube.com/shorts/Ae1uIFx8oYc",
+          "title": "4 Zero-Down Solar Options Installers Hide From You",
+          "article_slug": "zero-down-solar-financing-options",
+          "published_at": "2026-07-01T14:34:56.532718+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "ePiNCS0GHWI",
           "url": "https://www.youtube.com/shorts/ePiNCS0GHWI",
@@ -643,6 +653,16 @@
         "Diy Solar Panel System Sizing"
       ],
       "videos": [
+        {
+          "video_id": "zG_RpO9Hnqo",
+          "url": "https://www.youtube.com/shorts/zG_RpO9Hnqo",
+          "title": "Why Your Solar Production Crashed (Don't Panic)",
+          "article_slug": "why-is-my-solar-production-low-today",
+          "published_at": "2026-07-01T14:24:08.688183+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "xkG3l1CdetM",
           "url": "https://www.youtube.com/shorts/xkG3l1CdetM",
@@ -1225,7 +1245,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 108,
+      "articles": 110,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1243,10 +1263,10 @@
         "Credit Score For Mortgage Approval",
         "Current 30 Year Fixed Mortgage Rates Forecast 2026",
         "Debt To Income Ratio For Mortgage",
+        "Deed In Lieu Mortgage",
         "Down Payment Assistance Programs",
         "Fha Loan Requirements And Benefits",
-        "Fha Now Accepts New Credit Scores What Buyers Need To Know",
-        "Fha Vs Conventional Loan Which Is Better For First Time Buyers"
+        "Fha Now Accepts New Credit Scores What Buyers Need To Know"
       ],
       "videos": [
         {
@@ -1379,7 +1399,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 113,
+      "articles": 115,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -1511,7 +1531,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 112,
+      "articles": 114,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -1799,7 +1819,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 123,
+      "articles": 125,
       "article_titles": [
         "20 Grams Carbs Keto",
         "Best Electrolyte Supplements For Keto Beginners",
@@ -2122,12 +2142,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 40,
+            "views": 41,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 99
+          "total_views": 100
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2164,7 +2184,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 259
+      "yt_total_views": 260
     },
     {
       "slug": "rv-life-guide",
