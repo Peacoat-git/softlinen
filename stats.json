@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:26:28.198269+00:00",
+  "generated_at": "2026-07-01T14:03:49.468753+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-01"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 0,
     "visits": 0,
-    "articles": 1711,
-    "videos": 170,
+    "articles": 1721,
+    "videos": 172,
     "channels": 14,
-    "yt_views": 1593,
+    "yt_views": 1594,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 20,
-    "credits_used": 13.6,
-    "est_remaining": 186.74,
-    "pct_remaining": 93.2,
+    "renders_since_baseline": 22,
+    "credits_used": 14.96,
+    "est_remaining": 185.38,
+    "pct_remaining": 92.5,
     "days_until_renewal": 17
   },
   "sites": [
@@ -299,7 +299,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 112,
+      "articles": 114,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -829,7 +829,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 117,
+      "articles": 119,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -983,7 +983,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 108,
+      "articles": 110,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -998,13 +998,13 @@
         "Ho 3 Policy Explained",
         "Ho 8 Older Home Insurance",
         "Hoa Master Policy And Condo Coverage",
+        "Home Insurance After Divorce",
         "Home Insurance After Refinancing",
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Claims Statistics",
         "Home Insurance Collectibles Coverage",
-        "Home Insurance Coverage Limits Guide",
-        "Home Insurance Credit Score Impact"
+        "Home Insurance Coverage Limits Guide"
       ],
       "videos": [
         {
@@ -1403,6 +1403,16 @@
         "Dbt Therapy What Is It"
       ],
       "videos": [
+        {
+          "video_id": "ApJ2HTz60eA",
+          "url": "https://www.youtube.com/shorts/ApJ2HTz60eA",
+          "title": "56% of Therapists Use AI Recording Tools\u2014Do You Know?",
+          "article_slug": "your-therapist-may-be-using-ai-to-record-your-sessions",
+          "published_at": "2026-07-01T12:27:55.659266+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "k-wHg1siiqs",
           "url": "https://www.youtube.com/shorts/k-wHg1siiqs",
@@ -2056,6 +2066,16 @@
       ],
       "videos": [
         {
+          "video_id": "YnLC6AX-55A",
+          "url": "https://www.youtube.com/shorts/YnLC6AX-55A",
+          "title": "The #1 Hidden Killer in Backyard Chicken Flocks",
+          "article_slug": "worms-in-chickens",
+          "published_at": "2026-07-01T13:37:20.829303+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
           "video_id": "F7hIT_si0bQ",
           "url": "https://www.youtube.com/shorts/F7hIT_si0bQ",
           "title": "The Worm Problem Most Backyard Chicken Keepers Miss",
@@ -2307,7 +2327,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 131,
+      "articles": 133,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -2417,7 +2437,7 @@
           "standard_id": "EnoSdGWiryU",
           "standard_url": "https://www.youtube.com/watch?v=EnoSdGWiryU",
           "shorts_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
@@ -2428,7 +2448,7 @@
             "comments": 0,
             "title": "3 Hidden Systems Destroying Your Balance After 60"
           },
-          "total_views": 3
+          "total_views": 4
         },
         {
           "shorts_id": "D87bLFUgJd8",
@@ -2465,7 +2485,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 32
+      "yt_total_views": 33
     },
     {
       "slug": "fixitrightway",
@@ -2474,12 +2494,13 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 106,
+      "articles": 108,
       "article_titles": [
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Drywall Anchors For Heavy Mirrors",
         "Best Primer For Covering Dark Walls In One Coat",
+        "Deck Staining In 2026 Is Diy Worth It With Tariff Hit Lumber Prices",
         "Diy Or Call A Pro Fix It Style",
         "Diy Project Tool Costs Timeline 2026",
         "How 2026 Tariffs Are Changing The Math On Summer Diy Projects",
@@ -2488,14 +2509,13 @@
         "How To Adjust Soft Close Cabinet Hinges",
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
+        "How To Cover A Stain That Bleeds Through Paint",
         "How To Cut Crown Molding Inside Corners",
         "How To Fill Nail Holes In Trim Before Painting",
         "How To Find And Seal Drafts In An Old House",
         "How To Find Studs Behind Drywall Without A Stud Finder",
         "How To Fix A Crack In Plaster Wall Before Painting",
-        "How To Fix A Door That Wont Latch",
-        "How To Fix A Drafty Window Without Replacing It",
-        "How To Fix A Foggy Double Pane Window"
+        "How To Fix A Door That Wont Latch"
       ],
       "videos": [
         {
