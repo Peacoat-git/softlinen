@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T08:39:06.349445+00:00",
+  "generated_at": "2026-07-02T13:26:35.494172+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-02"
@@ -8,10 +8,10 @@
     "revenue": 0,
     "page_views": 2850,
     "visits": 2850,
-    "articles": 1741,
-    "videos": 174,
+    "articles": 1751,
+    "videos": 175,
     "channels": 14,
-    "yt_views": 1597,
+    "yt_views": 1598,
     "sites": 15
   },
   "adsense_connected": true,
@@ -21,10 +21,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 24,
-    "credits_used": 16.32,
-    "est_remaining": 184.02,
-    "pct_remaining": 91.9,
+    "renders_since_baseline": 25,
+    "credits_used": 17.0,
+    "est_remaining": 183.34,
+    "pct_remaining": 91.5,
     "days_until_renewal": 16
   },
   "sites": [
@@ -304,7 +304,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 114,
+      "articles": 116,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -864,7 +864,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 119,
+      "articles": 121,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1023,7 +1023,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 110,
+      "articles": 112,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1035,6 +1035,7 @@
         "Does Homeowners Insurance Cover Water Damage",
         "Escrow And Home Insurance",
         "Fair Plan Insurance Explained",
+        "Hail And Wind Are Now Pricier Than Hurricanes For Insurers",
         "Ho 3 Policy Explained",
         "Ho 8 Older Home Insurance",
         "Hoa Master Policy And Condo Coverage",
@@ -1043,8 +1044,7 @@
         "Home Insurance Bundling Discount",
         "Home Insurance Calculator",
         "Home Insurance Claims Statistics",
-        "Home Insurance Collectibles Coverage",
-        "Home Insurance Coverage Limits Guide"
+        "Home Insurance Collectibles Coverage"
       ],
       "videos": [
         {
@@ -1591,6 +1591,16 @@
       ],
       "videos": [
         {
+          "video_id": "y-Phrrfgm6I",
+          "url": "https://www.youtube.com/shorts/y-Phrrfgm6I",
+          "title": "First Vet Visit? Here's What to Expect & How to Prep",
+          "article_slug": "your-dogs-first-vet-visit-guide",
+          "published_at": "2026-07-02T12:55:43.358876+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
           "video_id": "PS-nowx2d8c",
           "url": "https://www.youtube.com/shorts/PS-nowx2d8c",
           "title": "First Vet Visit: 5 Things Vets Check During Your Dog's Exam",
@@ -1615,12 +1625,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 16,
+            "views": 17,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 49
+          "total_views": 50
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1706,7 +1716,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 86
+      "yt_total_views": 87
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2407,7 +2417,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 133,
+      "articles": 135,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -2584,8 +2594,9 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 108,
+      "articles": 110,
       "article_titles": [
+        "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
         "Best Drain Snake For A Clogged Bathroom Sink",
         "Best Drywall Anchors For Heavy Mirrors",
@@ -2604,8 +2615,7 @@
         "How To Fill Nail Holes In Trim Before Painting",
         "How To Find And Seal Drafts In An Old House",
         "How To Find Studs Behind Drywall Without A Stud Finder",
-        "How To Fix A Crack In Plaster Wall Before Painting",
-        "How To Fix A Door That Wont Latch"
+        "How To Fix A Crack In Plaster Wall Before Painting"
       ],
       "videos": [
         {
