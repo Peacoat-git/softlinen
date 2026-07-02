@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-01T19:27:56.269268+00:00",
+  "generated_at": "2026-07-02T02:04:43.534037+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-01"
+    "end": "2026-07-02"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 0,
-    "visits": 0,
-    "articles": 1731,
+    "page_views": 2850,
+    "visits": 2850,
+    "articles": 1739,
     "videos": 174,
     "channels": 14,
-    "yt_views": 1595,
+    "yt_views": 1597,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +25,7 @@
     "credits_used": 16.32,
     "est_remaining": 184.02,
     "pct_remaining": 91.9,
-    "days_until_renewal": 17
+    "days_until_renewal": 16
   },
   "sites": [
     {
@@ -279,10 +279,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 132,
+        "visits": 132,
+        "unique_visitors": 175,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 132
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -609,10 +614,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 165,
+        "visits": 165,
+        "unique_visitors": 192,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 165
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -629,7 +639,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 112,
+      "articles": 114,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -829,10 +839,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 209,
+        "visits": 209,
+        "unique_visitors": 193,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 209
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -983,10 +998,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 136,
+        "visits": 136,
+        "unique_visitors": 167,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 136
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1225,10 +1245,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 123,
+        "visits": 123,
+        "unique_visitors": 152,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 123
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1379,10 +1404,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 138,
+        "visits": 138,
+        "unique_visitors": 138,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 138
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1511,10 +1541,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 104,
+        "visits": 104,
+        "unique_visitors": 117,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 104
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1580,12 +1615,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 15,
+            "views": 16,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 48
+          "total_views": 49
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1655,10 +1690,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 300,
+        "visits": 300,
+        "unique_visitors": 292,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 300
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -1666,7 +1706,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 85
+      "yt_total_views": 86
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1675,7 +1715,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 105,
+      "articles": 107,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1799,10 +1839,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 219,
+        "visits": 219,
+        "unique_visitors": 211,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 219
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -2041,10 +2086,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 364,
+        "visits": 364,
+        "unique_visitors": 270,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 364
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -2136,7 +2186,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 59,
+            "views": 60,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2147,7 +2197,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 100
+          "total_views": 101
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2173,10 +2223,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 245,
+        "visits": 245,
+        "unique_visitors": 294,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 245
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -2184,7 +2239,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 260
+      "yt_total_views": 261
     },
     {
       "slug": "rv-life-guide",
@@ -2193,7 +2248,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 115,
+      "articles": 117,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -2327,10 +2382,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 152,
+        "visits": 152,
+        "unique_visitors": 168,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 152
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -2372,10 +2432,15 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 239,
+        "visits": 239,
+        "unique_visitors": 273,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 239
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -2392,8 +2457,9 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 131,
+      "articles": 133,
       "article_titles": [
+        "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
         "A 4 Minute Daily Workout Just Proved It Can Transform Fitness After 65",
         "Anti Inflammatory Diet For Seniors With Arthritis",
@@ -2412,8 +2478,7 @@
         "Best Exercises For Osteoporosis",
         "Best Foods For Bone Health In Seniors",
         "Best Hearing Aids For Seniors 2026 Guide",
-        "Best Low Impact Exercises For Bad Knees",
-        "Best Low Impact Exercises For Seniors With Arthritis"
+        "Best Low Impact Exercises For Bad Knees"
       ],
       "videos": [
         {
@@ -2494,10 +2559,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 123,
+        "visits": 123,
+        "unique_visitors": 143,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 123
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
@@ -2594,10 +2664,15 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 201,
+        "visits": 201,
+        "unique_visitors": 209,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 201
+          }
+        ]
       },
       "adsense": {
         "revenue": 0,
