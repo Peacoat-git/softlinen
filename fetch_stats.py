@@ -146,13 +146,13 @@ def fetch_cf_analytics(zone_id, start=MTD_START, end=TODAY_STR):
 
 
 def fetch_cf_monthly(zone_id, start=ALL_TIME_START, end=TODAY_STR):
-    """Fetch monthly page views from Cloudflare — used for all-time stacked chart."""
+    """Aggregate daily CF data by month — uses same query/permission as fetch_cf_analytics."""
     query = """
     query($zoneTag: String!, $start: Date!, $end: Date!) {
       viewer {
         zones(filter: {zoneTag: $zoneTag}) {
-          httpRequests1mGroups(
-            limit: 24
+          httpRequests1dGroups(
+            limit: 600
             filter: {date_geq: $start, date_lt: $end}
             orderBy: [date_ASC]
           ) {
@@ -175,9 +175,13 @@ def fetch_cf_monthly(zone_id, start=ALL_TIME_START, end=TODAY_STR):
         zones = r.json().get("data", {}).get("viewer", {}).get("zones", [])
         if not zones:
             return []
-        groups = zones[0].get("httpRequests1mGroups", [])
-        # date field is first day of month e.g. "2025-01-01" → normalize to "2025-01"
-        return [{"month": g["dimensions"]["date"][:7], "pageViews": g["sum"]["pageViews"]} for g in groups]
+        groups = zones[0].get("httpRequests1dGroups", [])
+        # Aggregate daily rows into monthly buckets
+        monthly = {}
+        for g in groups:
+            month = g["dimensions"]["date"][:7]  # "2025-01-15" -> "2025-01"
+            monthly[month] = monthly.get(month, 0) + g["sum"]["pageViews"]
+        return [{"month": m, "pageViews": v} for m, v in sorted(monthly.items())]
     except Exception as e:
         print(f"  [WARN] CF monthly exception: {e}")
         return []
