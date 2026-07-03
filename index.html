@@ -279,7 +279,7 @@ canvas { width:100%!important; }
             <div class="card-title">Monthly Page Views — All Sites</div>
             <span class="card-badge green" id="visits-badge">All Time</span>
           </div>
-          <div class="card-body"><canvas id="revenueChart" height="160"></canvas></div>
+          <div class="card-body"><canvas id="revenueChart" height="200"></canvas></div>
         </div>
         <div class="card">
           <div class="card-header"><div class="card-title">Revenue Sources</div></div>
@@ -547,7 +547,7 @@ function loadStats() {
 function updateChart(data) {
   const ctx = document.getElementById('revenueChart').getContext('2d');
 
-  // Collect all months across all sites
+  // Collect all months across all sites, sorted oldest→newest
   const monthSet = new Set();
   data.sites.forEach(s => (s.monthly_views||[]).forEach(m => monthSet.add(m.month)));
   const months = [...monthSet].sort();
@@ -574,6 +574,7 @@ function updateChart(data) {
     type: 'bar',
     data: { labels, datasets },
     options: {
+      indexAxis: 'y',
       responsive: true,
       plugins: {
         legend: { display: true, position: 'bottom', labels: { boxWidth: 10, font: { size: 10 }, padding: 8 } },
@@ -586,8 +587,8 @@ function updateChart(data) {
         },
       },
       scales: {
-        x: { stacked: true, grid: { display: false }, ticks: { font: { size: 10 } } },
-        y: { stacked: true, ticks: { callback: v => fmt(v), font: { size: 11 } }, grid: { color: '#f1f5f9' } },
+        x: { stacked: true, ticks: { callback: v => fmt(v), font: { size: 10 } }, grid: { color: '#f1f5f9' } },
+        y: { stacked: true, grid: { display: false }, ticks: { font: { size: 11 } } },
       },
     },
   });
@@ -603,11 +604,12 @@ revenueChart = new Chart(ctx0, {
     datasets:[{ label:'Loading…', data: placeholderMonths.map(()=>0), backgroundColor:'#e2e8f0', borderRadius:2 }],
   },
   options:{
+    indexAxis:'y',
     responsive:true,
     plugins:{ legend:{ display:false }, tooltip:{ enabled:false } },
     scales:{
-      x:{ stacked:true, grid:{display:false}, ticks:{font:{size:10}} },
-      y:{ stacked:true, ticks:{callback:v=>fmt(v),font:{size:11}}, grid:{color:'#f1f5f9'} },
+      x:{ stacked:true, ticks:{font:{size:10}}, grid:{color:'#f1f5f9'} },
+      y:{ stacked:true, grid:{display:false}, ticks:{font:{size:11}} },
     },
   },
 });
