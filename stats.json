@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-03T00:02:06.838209+00:00",
+  "generated_at": "2026-07-03T01:48:39.445400+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-03"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 5893,
+    "page_views": 5897,
     "page_views_alltime": 0,
-    "visits": 5893,
+    "visits": 5897,
     "articles": 1769,
     "videos": 176,
     "channels": 14,
@@ -280,9 +280,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 265,
-        "visits": 265,
-        "unique_visitors": 316,
+        "page_views": 266,
+        "visits": 266,
+        "unique_visitors": 317,
         "daily": [
           {
             "date": "2026-07-01",
@@ -290,7 +290,7 @@
           },
           {
             "date": "2026-07-02",
-            "pageViews": 133
+            "pageViews": 134
           }
         ]
       },
@@ -1266,9 +1266,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 241,
-        "visits": 241,
-        "unique_visitors": 284,
+        "page_views": 242,
+        "visits": 242,
+        "unique_visitors": 285,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1276,7 +1276,7 @@
           },
           {
             "date": "2026-07-02",
-            "pageViews": 118
+            "pageViews": 119
           }
         ]
       },
@@ -1736,9 +1736,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 612,
-        "visits": 612,
-        "unique_visitors": 607,
+        "page_views": 613,
+        "visits": 613,
+        "unique_visitors": 608,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1746,7 +1746,7 @@
           },
           {
             "date": "2026-07-02",
-            "pageViews": 312
+            "pageViews": 313
           }
         ]
       },
@@ -2294,9 +2294,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 650,
-        "visits": 650,
-        "unique_visitors": 720,
+        "page_views": 651,
+        "visits": 651,
+        "unique_visitors": 722,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2304,7 +2304,7 @@
           },
           {
             "date": "2026-07-02",
-            "pageViews": 405
+            "pageViews": 406
           }
         ]
       },
