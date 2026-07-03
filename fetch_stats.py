@@ -145,46 +145,103 @@ def fetch_cf_analytics(zone_id, start=MTD_START, end=TODAY_STR):
 
 
 
-def fetch_cf_monthly(zone_id, start=ALL_TIME_START, end=TODAY_STR):
-    """Aggregate daily CF data by month — uses same query/permission as fetch_cf_analytics."""
-    query = """
-    query($zoneTag: String!, $start: Date!, $end: Date!) {
-      viewer {
-        zones(filter: {zoneTag: $zoneTag}) {
-          httpRequests1dGroups(
-            limit: 600
-            filter: {date_geq: $start, date_lt: $end}
-            orderBy: [date_ASC]
-          ) {
-            dimensions { date }
-            sum { pageViews }
-          }
-        }
-      }
-    }
-    """
+_MONTHLY_HISTORY_CACHE = None  # loaded once per run
+
+
+def _load_monthly_history():
+    """Load accumulated monthly page view history from monthly_history.json in this repo."""
+    global _MONTHLY_HISTORY_CACHE
+    if _MONTHLY_HISTORY_CACHE is not None:
+        return _MONTHLY_HISTORY_CACHE
     try:
+        r = requests.get(
+            "https://api.github.com/repos/Peacoat-git/softlinen/contents/monthly_history.json",
+            headers=GH_HEADERS, timeout=10,
+        )
+        if r.status_code == 200:
+            _MONTHLY_HISTORY_CACHE = json.loads(base64.b64decode(r.json()["content"]).decode("utf-8"))
+            return _MONTHLY_HISTORY_CACHE
+    except Exception as e:
+        print(f"  [WARN] monthly_history load: {e}")
+    _MONTHLY_HISTORY_CACHE = {}
+    return _MONTHLY_HISTORY_CACHE
+
+
+def save_monthly_history(history):
+    """Commit updated monthly_history.json back to repo (called once after all sites processed)."""
+    content = json.dumps(history, indent=2, sort_keys=True)
+    b = requests.post("https://api.github.com/repos/Peacoat-git/softlinen/git/blobs",
+                      headers=GH_HEADERS, json={"content": content, "encoding": "utf-8"}, timeout=15)
+    if b.status_code != 201:
+        print(f"  [WARN] monthly_history blob error: {b.status_code}")
+        return
+    blob_sha = b.json()["sha"]
+    for _ in range(3):
+        head = requests.get("https://api.github.com/repos/Peacoat-git/softlinen/git/ref/heads/main",
+                            headers=GH_HEADERS, timeout=10).json()["object"]["sha"]
+        base_tree = requests.get(f"https://api.github.com/repos/Peacoat-git/softlinen/git/commits/{head}",
+                                 headers=GH_HEADERS, timeout=10).json()["tree"]["sha"]
+        tr = requests.post("https://api.github.com/repos/Peacoat-git/softlinen/git/trees",
+                           headers=GH_HEADERS, json={"base_tree": base_tree, "tree": [
+                               {"path": "monthly_history.json", "mode": "100644", "type": "blob", "sha": blob_sha}
+                           ]}, timeout=15)
+        cr = requests.post("https://api.github.com/repos/Peacoat-git/softlinen/git/commits",
+                           headers=GH_HEADERS, json={"message": f"chore: update monthly page view history [{TODAY_STR}]",
+                           "tree": tr.json()["sha"], "parents": [head]}, timeout=15)
+        pr = requests.patch("https://api.github.com/repos/Peacoat-git/softlinen/git/refs/heads/main",
+                            headers=GH_HEADERS, json={"sha": cr.json()["sha"]}, timeout=10)
+        if pr.status_code == 200:
+            print(f"  [OK] monthly_history.json committed: {cr.json()['sha'][:8]}")
+            return
+        time.sleep(2)
+    print("  [WARN] monthly_history commit failed after retries")
+
+
+def fetch_cf_monthly(zone_id, slug):
+    """Return monthly page views for a site using accumulated history + current-month CF query.
+
+    CF free plan retains ~72h of GraphQL data, so historical months cannot be queried.
+    We accumulate month-by-month totals in monthly_history.json (keyed by slug -> month).
+    """
+    import json as _json
+    history = _load_monthly_history()
+    site_history = dict(history.get(slug, {}))
+    current_month = TODAY_STR[:7]  # "2026-07"
+
+    # Query current month from CF (within free-plan retention window)
+    try:
+        query = """
+        query($zoneTag: String!, $start: Date!, $end: Date!) {
+          viewer { zones(filter: {zoneTag: $zoneTag}) {
+            httpRequests1dGroups(
+              limit: 31
+              filter: {date_geq: $start, date_lt: $end}
+              orderBy: [date_ASC]
+            ) {
+              dimensions { date } sum { pageViews }
+            }
+          }}
+        }
+        """
         r = requests.post(
             "https://api.cloudflare.com/client/v4/graphql",
             headers=CF_HEADERS,
-            json={"query": query, "variables": {"zoneTag": zone_id, "start": start, "end": end}},
+            json={"query": query, "variables": {
+                "zoneTag": zone_id, "start": MTD_START, "end": TODAY_STR}},
             timeout=15,
         )
-        if r.status_code != 200:
-            return []
-        zones = r.json().get("data", {}).get("viewer", {}).get("zones", [])
-        if not zones:
-            return []
-        groups = zones[0].get("httpRequests1dGroups", [])
-        # Aggregate daily rows into monthly buckets
-        monthly = {}
-        for g in groups:
-            month = g["dimensions"]["date"][:7]  # "2025-01-15" -> "2025-01"
-            monthly[month] = monthly.get(month, 0) + g["sum"]["pageViews"]
-        return [{"month": m, "pageViews": v} for m, v in sorted(monthly.items())]
+        if r.status_code == 200 and not r.json().get("errors"):
+            zones = r.json().get("data", {}).get("viewer", {}).get("zones", [])
+            if zones:
+                groups = zones[0].get("httpRequests1dGroups", [])
+                mtd_total = sum(g["sum"]["pageViews"] for g in groups)
+                site_history[current_month] = mtd_total
     except Exception as e:
-        print(f"  [WARN] CF monthly exception: {e}")
-        return []
+        print(f"  [WARN] CF monthly exception for {slug}: {e}")
+
+    # Write back to shared history dict so save_monthly_history() can persist it
+    history[slug] = site_history
+    return [{"month": m, "pageViews": v} for m, v in sorted(site_history.items())]
 
 
 def fetch_yt_video_stats(video_ids, access_token):
@@ -292,7 +349,7 @@ def main():
 
         # Cloudflare analytics
         cf = fetch_cf_analytics(site["zone"])
-        cf_monthly = fetch_cf_monthly(site["zone"])
+        cf_monthly = fetch_cf_monthly(site["zone"], site["slug"])
         print(f"    Page views: {cf['page_views']}  |  Visitors: {cf['unique_visitors']}")
 
         # YouTube video stats
@@ -413,6 +470,7 @@ def main():
     # Write stats.json (works both locally and in GitHub Actions runner)
     import pathlib
     out_path = pathlib.Path(__file__).parent / "stats.json"
+    save_monthly_history(_load_monthly_history())
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
     print(f"\n✓ stats.json written to {out_path}  |  Views: {total_pv}  |  Articles: {total_articles}  |  Revenue: ${total_revenue:.2f}")
