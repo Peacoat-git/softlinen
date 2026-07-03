@@ -254,7 +254,7 @@ canvas { width:100%!important; }
           <div class="kpi-sub">AdSense + affiliate</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">Page Views (MTD)</div>
+          <div class="kpi-label">Page Views (All Time)</div>
           <div class="kpi-value" id="kpi-views">—</div>
           <div class="kpi-change pending">Cloudflare Analytics</div>
           <div class="kpi-sub" id="kpi-views-sub">Across all 15 sites</div>
@@ -276,10 +276,10 @@ canvas { width:100%!important; }
       <div class="charts-row">
         <div class="card">
           <div class="card-header">
-            <div class="card-title">Site Visits — All Properties</div>
-            <span class="card-badge green" id="visits-badge">MTD</span>
+            <div class="card-title">Monthly Page Views — All Sites</div>
+            <span class="card-badge green" id="visits-badge">All Time</span>
           </div>
-          <div class="card-body"><canvas id="revenueChart" height="110"></canvas></div>
+          <div class="card-body"><canvas id="revenueChart" height="160"></canvas></div>
         </div>
         <div class="card">
           <div class="card-header"><div class="card-title">Revenue Sources</div></div>
@@ -453,7 +453,7 @@ function loadStats() {
       // KPI cards
       document.getElementById('kpi-revenue').textContent = '$' + (t.revenue||0).toFixed(2);
       document.getElementById('kpi-revenue-note').textContent = data.adsense_connected ? 'AdSense connected' : '⏳ AdSense pending';
-      document.getElementById('kpi-views').textContent = fmt(t.page_views);
+      document.getElementById('kpi-views').textContent = fmt(t.page_views_alltime || t.page_views);
       document.getElementById('kpi-views-sub').textContent = 'Across all ' + t.sites + ' sites';
       document.getElementById('kpi-yt').textContent = fmt(t.yt_views);
       document.getElementById('kpi-yt-note').textContent = t.videos + ' videos live · ' + (t.channels || t.sites) + ' channels';
@@ -462,7 +462,7 @@ function loadStats() {
 
       // Period badge
       const d = new Date(data.generated_at);
-      document.getElementById('period-badge').textContent = d.toLocaleDateString('en-US',{month:'short',year:'numeric'}) + ' · MTD';
+      document.getElementById('period-badge').textContent = 'All time · ' + d.toLocaleDateString('en-US',{month:'short',year:'numeric'});
 
       // Sidebar footer
       document.getElementById('sidebar-footer').textContent = 'Last sync: ' + d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}) + ' · Auto-refresh daily';
@@ -546,27 +546,48 @@ function loadStats() {
 
 function updateChart(data) {
   const ctx = document.getElementById('revenueChart').getContext('2d');
-  const sorted = [...data.sites].sort((a,b) => (b.cloudflare.page_views||0) - (a.cloudflare.page_views||0));
-  const labels = sorted.map(s => s.name.replace(' Guide','').replace(' Planner','').replace(' Starter',''));
-  const values = sorted.map(s => s.cloudflare.page_views || 0);
-  const colors = sorted.map(s => COLORS[s.slug] || '#94a3b8');
+
+  // Collect all months across all sites
+  const monthSet = new Set();
+  data.sites.forEach(s => (s.monthly_views||[]).forEach(m => monthSet.add(m.month)));
+  const months = [...monthSet].sort();
+  const labels = months.map(m => {
+    const [y, mo] = m.split('-');
+    return new Date(+y, +mo-1, 1).toLocaleDateString('en-US',{month:'short', year:'2-digit'});
+  });
+
+  // One dataset per site, values aligned to months array
+  const datasets = data.sites.map(s => {
+    const byMonth = {};
+    (s.monthly_views||[]).forEach(m => byMonth[m.month] = m.pageViews);
+    return {
+      label: s.name.replace(' Guide','').replace(' Planner','').replace(' Starter',''),
+      data: months.map(m => byMonth[m] || 0),
+      backgroundColor: COLORS[s.slug] || '#94a3b8',
+      borderRadius: 2,
+      borderSkipped: false,
+    };
+  });
 
   if (revenueChart) revenueChart.destroy();
   revenueChart = new Chart(ctx, {
     type: 'bar',
-    data: {
-      labels,
-      datasets: [{ label:'Page Views (MTD)', data: values, backgroundColor: colors, borderRadius: 4 }],
-    },
+    data: { labels, datasets },
     options: {
-      responsive:true,
+      responsive: true,
       plugins: {
-        legend:{ display:false },
-        tooltip:{ callbacks:{ label:c => ' '+c.raw.toLocaleString()+' views' } },
+        legend: { display: true, position: 'bottom', labels: { boxWidth: 10, font: { size: 10 }, padding: 8 } },
+        tooltip: {
+          mode: 'index',
+          callbacks: {
+            label: c => ' ' + c.dataset.label + ': ' + c.raw.toLocaleString(),
+            footer: items => 'Total: ' + items.reduce((a,i) => a + i.raw, 0).toLocaleString() + ' views',
+          }
+        },
       },
       scales: {
-        x:{ grid:{display:false}, ticks:{font:{size:10},maxRotation:35} },
-        y:{ ticks:{callback:v=>fmt(v),font:{size:11}}, grid:{color:'#f1f5f9'} },
+        x: { stacked: true, grid: { display: false }, ticks: { font: { size: 10 } } },
+        y: { stacked: true, ticks: { callback: v => fmt(v), font: { size: 11 } }, grid: { color: '#f1f5f9' } },
       },
     },
   });
@@ -574,19 +595,19 @@ function updateChart(data) {
 
 // Initial draw — placeholder skeleton until stats.json loads
 const ctx0 = document.getElementById('revenueChart').getContext('2d');
-const placeholderSites = ['Medicare','Solar Planner','Solar Home','Injury','Home Ins.','Mortgage','Therapy','Pet Doctor','Small Biz','Keto','Chicken','RV Life','GameDev','Senior','FixIt'];
+const placeholderMonths = ['Jan','Feb','Mar','Apr','May','Jun','Jul'];
 revenueChart = new Chart(ctx0, {
   type:'bar',
   data:{
-    labels: placeholderSites,
-    datasets:[{ label:'Page Views (MTD)', data: placeholderSites.map(()=>0), backgroundColor:'#e2e8f0', borderRadius:4 }],
+    labels: placeholderMonths,
+    datasets:[{ label:'Loading…', data: placeholderMonths.map(()=>0), backgroundColor:'#e2e8f0', borderRadius:2 }],
   },
   options:{
     responsive:true,
     plugins:{ legend:{ display:false }, tooltip:{ enabled:false } },
     scales:{
-      x:{ grid:{display:false}, ticks:{font:{size:10},maxRotation:35} },
-      y:{ ticks:{callback:v=>fmt(v),font:{size:11}}, grid:{color:'#f1f5f9'} },
+      x:{ stacked:true, grid:{display:false}, ticks:{font:{size:10}} },
+      y:{ stacked:true, ticks:{callback:v=>fmt(v),font:{size:11}}, grid:{color:'#f1f5f9'} },
     },
   },
 });

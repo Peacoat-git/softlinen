@@ -30,6 +30,7 @@ TODAY     = datetime.now(timezone.utc).date()
 MTD_START = TODAY.replace(day=1).isoformat()
 TODAY_STR = TODAY.isoformat()
 LAST_30   = (TODAY - timedelta(days=30)).isoformat()
+ALL_TIME_START = "2025-01-01"  # sites launched ~Jan 2025
 
 # ── Site manifest ──────────────────────────────────────────────────────────────
 SITES = [
@@ -143,6 +144,45 @@ def fetch_cf_analytics(zone_id, start=MTD_START, end=TODAY_STR):
         return _empty
 
 
+
+def fetch_cf_monthly(zone_id, start=ALL_TIME_START, end=TODAY_STR):
+    """Fetch monthly page views from Cloudflare — used for all-time stacked chart."""
+    query = """
+    query($zoneTag: String!, $start: Date!, $end: Date!) {
+      viewer {
+        zones(filter: {zoneTag: $zoneTag}) {
+          httpRequests1mGroups(
+            limit: 24
+            filter: {date_geq: $start, date_lt: $end}
+            orderBy: [date_ASC]
+          ) {
+            dimensions { date }
+            sum { pageViews }
+          }
+        }
+      }
+    }
+    """
+    try:
+        r = requests.post(
+            "https://api.cloudflare.com/client/v4/graphql",
+            headers=CF_HEADERS,
+            json={"query": query, "variables": {"zoneTag": zone_id, "start": start, "end": end}},
+            timeout=15,
+        )
+        if r.status_code != 200:
+            return []
+        zones = r.json().get("data", {}).get("viewer", {}).get("zones", [])
+        if not zones:
+            return []
+        groups = zones[0].get("httpRequests1mGroups", [])
+        # date field is first day of month e.g. "2025-01-01" → normalize to "2025-01"
+        return [{"month": g["dimensions"]["date"][:7], "pageViews": g["sum"]["pageViews"]} for g in groups]
+    except Exception as e:
+        print(f"  [WARN] CF monthly exception: {e}")
+        return []
+
+
 def fetch_yt_video_stats(video_ids, access_token):
     """Fetch view counts for a list of YouTube video IDs."""
     if not video_ids or not access_token:
@@ -248,6 +288,7 @@ def main():
 
         # Cloudflare analytics
         cf = fetch_cf_analytics(site["zone"])
+        cf_monthly = fetch_cf_monthly(site["zone"])
         print(f"    Page views: {cf['page_views']}  |  Visitors: {cf['unique_visitors']}")
 
         # YouTube video stats
@@ -289,6 +330,7 @@ def main():
             "article_titles": art_titles[:20],
             "videos":       enriched_videos,
             "cloudflare":   cf,
+            "monthly_views": cf_monthly,
             "adsense":      ads,
             "yt_total_views": yt_total_views,
         })
@@ -350,6 +392,7 @@ def main():
         "totals": {
             "revenue":      round(total_revenue, 2),
             "page_views":   total_pv,
+            "page_views_alltime": sum(sum(m["pageViews"] for m in s.get("monthly_views",[])) for s in sites_data),
             "visits":       total_visits,
             "articles":     total_articles,
             "videos":       total_videos,
