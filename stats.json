@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-07-02T19:06:53.483744+00:00",
+  "generated_at": "2026-07-03T00:02:06.838209+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-02"
+    "end": "2026-07-03"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 2850,
-    "visits": 2850,
-    "articles": 1761,
+    "page_views": 5893,
+    "page_views_alltime": 0,
+    "visits": 5893,
+    "articles": 1769,
     "videos": 176,
     "channels": 14,
-    "yt_views": 1599,
+    "yt_views": 1602,
     "sites": 15
   },
   "adsense_connected": true,
@@ -25,7 +26,7 @@
     "credits_used": 17.68,
     "est_remaining": 182.66,
     "pct_remaining": 91.2,
-    "days_until_renewal": 16
+    "days_until_renewal": 15
   },
   "sites": [
     {
@@ -279,16 +280,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 132,
-        "visits": 132,
-        "unique_visitors": 175,
+        "page_views": 265,
+        "visits": 265,
+        "unique_visitors": 316,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 132
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 133
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -614,16 +620,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 165,
-        "visits": 165,
-        "unique_visitors": 192,
+        "page_views": 433,
+        "visits": 433,
+        "unique_visitors": 379,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 165
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 268
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -639,7 +650,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 114,
+      "articles": 116,
       "article_titles": [
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
@@ -839,16 +850,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 209,
-        "visits": 209,
-        "unique_visitors": 193,
+        "page_views": 359,
+        "visits": 359,
+        "unique_visitors": 342,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 209
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 150
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -998,16 +1014,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 136,
-        "visits": 136,
-        "unique_visitors": 167,
+        "page_views": 307,
+        "visits": 307,
+        "unique_visitors": 365,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 136
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 171
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -1245,16 +1266,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 123,
-        "visits": 123,
-        "unique_visitors": 152,
+        "page_views": 241,
+        "visits": 241,
+        "unique_visitors": 284,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 123
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 118
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -1404,16 +1430,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 138,
-        "visits": 138,
-        "unique_visitors": 138,
+        "page_views": 270,
+        "visits": 270,
+        "unique_visitors": 281,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 138
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 132
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -1541,16 +1572,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 104,
-        "visits": 104,
-        "unique_visitors": 117,
+        "page_views": 226,
+        "visits": 226,
+        "unique_visitors": 244,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 104
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 122
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -1625,12 +1661,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 17,
+            "views": 19,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 50
+          "total_views": 52
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1700,23 +1736,28 @@
         }
       ],
       "cloudflare": {
-        "page_views": 300,
-        "visits": 300,
-        "unique_visitors": 292,
+        "page_views": 612,
+        "visits": 612,
+        "unique_visitors": 607,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 300
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 312
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 87
+      "yt_total_views": 89
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1725,7 +1766,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 107,
+      "articles": 109,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -1859,16 +1900,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 219,
-        "visits": 219,
-        "unique_visitors": 211,
+        "page_views": 484,
+        "visits": 484,
+        "unique_visitors": 472,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 219
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 265
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2106,16 +2152,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 364,
-        "visits": 364,
-        "unique_visitors": 270,
+        "page_views": 575,
+        "visits": 575,
+        "unique_visitors": 467,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 364
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 211
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2212,12 +2263,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 41,
+            "views": 42,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 101
+          "total_views": 102
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2243,23 +2294,28 @@
         }
       ],
       "cloudflare": {
-        "page_views": 245,
-        "visits": 245,
-        "unique_visitors": 294,
+        "page_views": 650,
+        "visits": 650,
+        "unique_visitors": 720,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 245
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 405
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 261
+      "yt_total_views": 262
     },
     {
       "slug": "rv-life-guide",
@@ -2268,7 +2324,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 117,
+      "articles": 119,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -2402,16 +2458,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 152,
-        "visits": 152,
-        "unique_visitors": 168,
+        "page_views": 314,
+        "visits": 314,
+        "unique_visitors": 343,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 152
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 162
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2452,16 +2513,21 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 239,
-        "visits": 239,
-        "unique_visitors": 273,
+        "page_views": 480,
+        "visits": 480,
+        "unique_visitors": 442,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 239
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 241
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2477,7 +2543,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 133,
+      "articles": 135,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -2579,16 +2645,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 123,
-        "visits": 123,
-        "unique_visitors": 143,
+        "page_views": 289,
+        "visits": 289,
+        "unique_visitors": 316,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 123
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 166
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2684,16 +2755,21 @@
         }
       ],
       "cloudflare": {
-        "page_views": 201,
-        "visits": 201,
-        "unique_visitors": 209,
+        "page_views": 388,
+        "visits": 388,
+        "unique_visitors": 429,
         "daily": [
           {
             "date": "2026-07-01",
             "pageViews": 201
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 187
           }
         ]
       },
+      "monthly_views": [],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
