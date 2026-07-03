@@ -3,7 +3,8 @@
 Dashboard data fetcher — runs via GitHub Actions, commits stats.json to the softlinen repo.
 Sources:
   - GitHub API          : article counts, video data (always available)
-  - Cloudflare GraphQL  : page views, unique visitors per site (available now)
+  - Cloudflare GraphQL  : page views, unique visitors per site (MTD only — free plan)
+  - Google Search Console: monthly click history (16 months, used for chart)
   - YouTube Data API v3 : video view counts, likes (uses OAuth access token)
   - AdSense API         : revenue, RPM, impressions (needs adsense.readonly scope)
 """
@@ -244,6 +245,52 @@ def fetch_cf_monthly(zone_id, slug):
     return [{"month": m, "pageViews": v} for m, v in sorted(site_history.items())]
 
 
+
+def fetch_gsc_monthly(domain, access_token):
+    """Fetch monthly click totals from Google Search Console Search Analytics API.
+    Returns [{"month": "2025-06", "pageViews": 123}, ...] for up to 16 months.
+    Uses clicks as the metric (closest available proxy for page views in GSC).
+    """
+    if not access_token:
+        return []
+    import urllib.parse
+    # Try domain property first (sc-domain:), then URL-prefix as fallback
+    for site_url in [f"sc-domain:{domain}", f"https://{domain}/"]:
+        encoded = urllib.parse.quote(site_url, safe="")
+        start_date = ALL_TIME_START  # "2025-01-01"
+        end_date   = TODAY_STR
+        payload = {
+            "startDate":  start_date,
+            "endDate":    end_date,
+            "dimensions": ["date"],
+            "rowLimit":   500,
+        }
+        try:
+            resp = requests.post(
+                f"https://www.googleapis.com/webmasters/v3/sites/{encoded}/searchAnalytics/query",
+                headers={"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"},
+                json=payload,
+                timeout=15,
+            )
+            if resp.status_code == 403 or resp.status_code == 404:
+                continue  # try next URL format
+            if resp.status_code != 200:
+                print(f"  [WARN] GSC {domain} HTTP {resp.status_code}: {resp.text[:200]}")
+                return []
+            rows = resp.json().get("rows", [])
+            # Aggregate daily rows into monthly totals
+            monthly = {}
+            for row in rows:
+                day   = row["keys"][0]         # "2025-06-15"
+                month = day[:7]                # "2025-06"
+                monthly[month] = monthly.get(month, 0) + int(row.get("clicks", 0))
+            return [{"month": m, "pageViews": v} for m, v in sorted(monthly.items())]
+        except Exception as e:
+            print(f"  [WARN] GSC monthly exception for {domain}: {e}")
+            return []
+    print(f"  [WARN] GSC: no valid property found for {domain}")
+    return []
+
 def fetch_yt_video_stats(video_ids, access_token):
     """Fetch view counts for a list of YouTube video IDs."""
     if not video_ids or not access_token:
@@ -313,8 +360,10 @@ def main():
     # Get Google access tokens
     yt_token      = google_access_token(YOUTUBE_REFRESH_TOKEN)
     adsense_token = google_access_token(ADSENSE_REFRESH_TOKEN) if ADSENSE_REFRESH_TOKEN else None
+    gsc_token     = google_access_token(GOOGLE_REFRESH_TOKEN)
     print(f"  YouTube token:  {'OK' if yt_token else 'MISSING'}")
     print(f"  AdSense token:  {'OK' if adsense_token else 'MISSING (needs adsense.readonly scope)'}")
+    print(f"  GSC token:      {'OK' if gsc_token else 'MISSING'}")
 
     # Fetch AdSense totals
     adsense_data = fetch_adsense_revenue(adsense_token) if adsense_token else None
@@ -349,7 +398,7 @@ def main():
 
         # Cloudflare analytics
         cf = fetch_cf_analytics(site["zone"])
-        cf_monthly = fetch_cf_monthly(site["zone"], site["slug"])
+        cf_monthly = fetch_gsc_monthly(site["domain"], gsc_token)
         print(f"    Page views: {cf['page_views']}  |  Visitors: {cf['unique_visitors']}")
 
         # YouTube video stats
@@ -470,7 +519,6 @@ def main():
     # Write stats.json (works both locally and in GitHub Actions runner)
     import pathlib
     out_path = pathlib.Path(__file__).parent / "stats.json"
-    save_monthly_history(_load_monthly_history())
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
     print(f"\n✓ stats.json written to {out_path}  |  Views: {total_pv}  |  Articles: {total_articles}  |  Revenue: ${total_revenue:.2f}")
