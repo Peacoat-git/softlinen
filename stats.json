@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-03T18:59:11.869300+00:00",
+  "generated_at": "2026-07-04T01:48:36.403623+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-03"
+    "end": "2026-07-04"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 5897,
+    "page_views": 9632,
     "page_views_alltime": 26,
-    "visits": 5897,
-    "articles": 1791,
+    "visits": 9632,
+    "articles": 1799,
     "videos": 178,
     "channels": 14,
-    "yt_views": 1608,
+    "yt_views": 1611,
     "sites": 15
   },
   "adsense_connected": true,
@@ -26,7 +26,7 @@
     "credits_used": 19.04,
     "est_remaining": 181.3,
     "pct_remaining": 90.5,
-    "days_until_renewal": 15
+    "days_until_renewal": 14
   },
   "sites": [
     {
@@ -280,9 +280,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 266,
-        "visits": 266,
-        "unique_visitors": 317,
+        "page_views": 404,
+        "visits": 404,
+        "unique_visitors": 516,
         "daily": [
           {
             "date": "2026-07-01",
@@ -291,6 +291,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 134
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 138
           }
         ]
       },
@@ -633,9 +637,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 433,
-        "visits": 433,
-        "unique_visitors": 379,
+        "page_views": 693,
+        "visits": 693,
+        "unique_visitors": 571,
         "daily": [
           {
             "date": "2026-07-01",
@@ -644,6 +648,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 268
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 260
           }
         ]
       },
@@ -676,8 +684,9 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 116,
+      "articles": 118,
       "article_titles": [
+        "Balcony Solar Laws Are Going Live What Your State Allows Now",
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
         "Best Roof Type For Solar Panels",
@@ -696,8 +705,7 @@
         "Diy Solar For Shed Or Outbuilding",
         "Diy Solar For Tiny Home",
         "Diy Solar Kit Recommendations",
-        "Diy Solar Panel Installation Guide",
-        "Diy Solar Panel System Sizing"
+        "Diy Solar Panel Installation Guide"
       ],
       "videos": [
         {
@@ -876,9 +884,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 359,
-        "visits": 359,
-        "unique_visitors": 342,
+        "page_views": 624,
+        "visits": 624,
+        "unique_visitors": 511,
         "daily": [
           {
             "date": "2026-07-01",
@@ -887,6 +895,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 150
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 265
           }
         ]
       },
@@ -1053,9 +1065,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 307,
-        "visits": 307,
-        "unique_visitors": 365,
+        "page_views": 493,
+        "visits": 493,
+        "unique_visitors": 539,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1064,6 +1076,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 171
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 186
           }
         ]
       },
@@ -1318,9 +1334,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 242,
-        "visits": 242,
-        "unique_visitors": 285,
+        "page_views": 451,
+        "visits": 451,
+        "unique_visitors": 439,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1329,6 +1345,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 119
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 209
           }
         ]
       },
@@ -1495,9 +1515,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 270,
-        "visits": 270,
-        "unique_visitors": 281,
+        "page_views": 420,
+        "visits": 420,
+        "unique_visitors": 431,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1506,6 +1526,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 132
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 150
           }
         ]
       },
@@ -1650,9 +1674,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 226,
-        "visits": 226,
-        "unique_visitors": 244,
+        "page_views": 558,
+        "visits": 558,
+        "unique_visitors": 447,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1661,6 +1685,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 122
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 332
           }
         ]
       },
@@ -1752,12 +1780,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 19,
+            "views": 21,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 52
+          "total_views": 54
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1827,9 +1855,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 613,
-        "visits": 613,
-        "unique_visitors": 608,
+        "page_views": 1042,
+        "visits": 1042,
+        "unique_visitors": 955,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1838,6 +1866,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 313
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 429
           }
         ]
       },
@@ -1861,7 +1893,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 89
+      "yt_total_views": 91
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1870,13 +1902,14 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 109,
+      "articles": 111,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
         "Ach Payment Processing",
         "Are You Ready To Start A Business",
         "Best Business Checking Account For Llc No Monthly Fee",
+        "Best Small Business Grants For Startups 2026",
         "Bootstrapping Vs Raising Venture Capital For Startups",
         "Break Even Analysis Explained",
         "Break Even Calculator",
@@ -1890,8 +1923,7 @@
         "Business Liability Insurance Guide",
         "Business Loan Calculator",
         "Business Loan Interest Rates Comparison",
-        "Business Succession Planning",
-        "Business Valuation Methods"
+        "Business Succession Planning"
       ],
       "videos": [
         {
@@ -2004,9 +2036,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 484,
-        "visits": 484,
-        "unique_visitors": 472,
+        "page_views": 967,
+        "visits": 967,
+        "unique_visitors": 718,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2015,6 +2047,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 265
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 483
           }
         ]
       },
@@ -2269,9 +2305,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 575,
-        "visits": 575,
-        "unique_visitors": 467,
+        "page_views": 772,
+        "visits": 772,
+        "unique_visitors": 680,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2280,6 +2316,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 211
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 197
           }
         ]
       },
@@ -2387,7 +2427,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 62,
+            "views": 63,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -2398,7 +2438,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 104
+          "total_views": 105
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2424,9 +2464,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 651,
-        "visits": 651,
-        "unique_visitors": 722,
+        "page_views": 1027,
+        "visits": 1027,
+        "unique_visitors": 1136,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2435,6 +2475,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 406
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 376
           }
         ]
       },
@@ -2458,7 +2502,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 264
+      "yt_total_views": 265
     },
     {
       "slug": "rv-life-guide",
@@ -2467,7 +2511,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 119,
+      "articles": 121,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -2601,9 +2645,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 314,
-        "visits": 314,
-        "unique_visitors": 343,
+        "page_views": 499,
+        "visits": 499,
+        "unique_visitors": 524,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2612,6 +2656,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 162
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 185
           }
         ]
       },
@@ -2669,9 +2717,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 480,
-        "visits": 480,
-        "unique_visitors": 442,
+        "page_views": 664,
+        "visits": 664,
+        "unique_visitors": 618,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2680,6 +2728,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 241
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 184
           }
         ]
       },
@@ -2712,7 +2764,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 135,
+      "articles": 137,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -2824,9 +2876,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 289,
-        "visits": 289,
-        "unique_visitors": 316,
+        "page_views": 437,
+        "visits": 437,
+        "unique_visitors": 457,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2835,6 +2887,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 166
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 148
           }
         ]
       },
@@ -2944,9 +3000,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 388,
-        "visits": 388,
-        "unique_visitors": 429,
+        "page_views": 581,
+        "visits": 581,
+        "unique_visitors": 620,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2955,6 +3011,10 @@
           {
             "date": "2026-07-02",
             "pageViews": 187
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 193
           }
         ]
       },
