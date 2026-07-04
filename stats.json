@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T01:48:36.403623+00:00",
+  "generated_at": "2026-07-04T08:20:36.014758+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-04"
@@ -7,12 +7,12 @@
   "totals": {
     "revenue": 0,
     "page_views": 9632,
-    "page_views_alltime": 26,
+    "page_views_alltime": 28,
     "visits": 9632,
-    "articles": 1799,
+    "articles": 1801,
     "videos": 178,
     "channels": 14,
-    "yt_views": 1611,
+    "yt_views": 1612,
     "sites": 15
   },
   "adsense_connected": true,
@@ -666,7 +666,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 0
+          "pageViews": 1
         }
       ],
       "adsense": {
@@ -2352,7 +2352,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 119,
+      "articles": 121,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
@@ -2433,12 +2433,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 42,
+            "views": 43,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 105
+          "total_views": 106
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2502,7 +2502,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 265
+      "yt_total_views": 266
     },
     {
       "slug": "rv-life-guide",
@@ -2746,7 +2746,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 0
+          "pageViews": 1
         }
       ],
       "adsense": {
