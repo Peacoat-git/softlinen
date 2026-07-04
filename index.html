@@ -255,7 +255,7 @@ canvas { width:100%!important; }
           <div class="kpi-sub">AdSense + affiliate</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">Page Views (All Time)</div>
+          <div class="kpi-label">Page Views (This Month)</div>
           <div class="kpi-value" id="kpi-views">—</div>
           <div class="kpi-change pending">Cloudflare Analytics</div>
           <div class="kpi-sub" id="kpi-views-sub">Across all 15 sites</div>
@@ -277,8 +277,8 @@ canvas { width:100%!important; }
       <div class="charts-row">
         <div class="card">
           <div class="card-header">
-            <div class="card-title">Monthly Page Views — All Sites</div>
-            <span class="card-badge green" id="visits-badge">All Time</span>
+            <div class="card-title">Monthly Search Clicks — All Sites</div>
+            <span class="card-badge green" id="visits-badge">Google Search Console</span>
           </div>
           <div class="card-body"><canvas id="revenueChart" height="200"></canvas></div>
         </div>
@@ -454,7 +454,7 @@ function loadStats() {
       // KPI cards
       document.getElementById('kpi-revenue').textContent = '$' + (t.revenue||0).toFixed(2);
       document.getElementById('kpi-revenue-note').textContent = data.adsense_connected ? 'AdSense connected' : '⏳ AdSense pending';
-      document.getElementById('kpi-views').textContent = fmt(t.page_views_alltime || t.page_views);
+      document.getElementById('kpi-views').textContent = fmt(t.page_views);
       document.getElementById('kpi-views-sub').textContent = 'Across all ' + t.sites + ' sites';
       document.getElementById('kpi-yt').textContent = fmt(t.yt_views);
       document.getElementById('kpi-yt-note').textContent = t.videos + ' videos live · ' + (t.channels || t.sites) + ' channels';
