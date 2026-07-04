@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T08:20:36.014758+00:00",
+  "generated_at": "2026-07-04T12:56:34.385518+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-04"
@@ -9,7 +9,7 @@
     "page_views": 9632,
     "page_views_alltime": 28,
     "visits": 9632,
-    "articles": 1801,
+    "articles": 1811,
     "videos": 178,
     "channels": 14,
     "yt_views": 1612,
@@ -327,7 +327,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 118,
+      "articles": 120,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -339,6 +339,7 @@
         "California Nem 30 Explained",
         "Can Solar Panels Power A Whole House Off Grid",
         "Canadian Solar Panels Review",
+        "Community Solar Vs Rooftop Solar",
         "Do Solar Panels Work In Winter",
         "Does Solar Increase Home Value",
         "Energy Independence With Solar And Battery",
@@ -347,8 +348,7 @@
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
         "Grid Tied Vs Off Grid Solar System",
-        "Hoa Solar Panel Rules",
-        "Home Battery Storage Options Compared"
+        "Hoa Solar Panel Rules"
       ],
       "videos": [
         {
@@ -931,7 +931,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 123,
+      "articles": 125,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1112,7 +1112,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 114,
+      "articles": 116,
       "article_titles": [
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -2692,10 +2692,11 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 137,
+      "articles": 139,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
+        "Alpha Vs Beta Milestone In Game Production",
         "Art Debt In Game Production What It Is And How To Manage It",
         "Associate Producer To Producer How To Level Up",
         "Avoiding Scope Creep In Game Production",
@@ -2712,8 +2713,7 @@
         "Do You Have What It Takes To Be A Game Producer",
         "Funding Options For Indie Game Studios Explained",
         "Game Dev Salary Guide",
-        "Game Development Milestones Explained",
-        "Game Launch Checklist For Indie Developers"
+        "Game Dev Unions Are Moving From Sentiment To Strike Action"
       ],
       "videos": [],
       "cloudflare": {
@@ -2910,7 +2910,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 112,
+      "articles": 114,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
