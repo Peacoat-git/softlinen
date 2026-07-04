@@ -45,7 +45,6 @@ jobs:
           GOOGLE_CLIENT_ID:         ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET:     ${{ secrets.GOOGLE_CLIENT_SECRET }}
           GOOGLE_REFRESH_TOKEN:     ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          WEBMASTERS_REFRESH_TOKEN: ${{ secrets.WEBMASTERS_REFRESH_TOKEN }}
           ADSENSE_REFRESH_TOKEN:    ${{ secrets.ADSENSE_REFRESH_TOKEN }}
           GSC_INDEXING_TOKEN:       ${{ secrets.GSC_INDEXING_TOKEN }}
           CF_TOKEN:                 ${{ secrets.CF_TOKEN }}
