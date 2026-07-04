@@ -16,7 +16,7 @@ AUDIT_REPO = "peacoat-git/softlinen"   # where to open issues
 
 # Max acceptable age (hours) before flagging as stale
 PUBLISH_STALE_H = 30   # should run daily; flag if >30h
-VIDEO_STALE_H   = 120  # runs Mon/Wed/Fri; max gap ~96h, flag at 120h
+VIDEO_STALE_H   = 216  # some sites run weekly (Mon); max gap ~168h, flag at 216h
 
 SITES = [
     {"slug": "medicare-starter",        "domain": "medicarestarter.com"},
