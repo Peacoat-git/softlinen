@@ -135,7 +135,6 @@ def check_tokens():
     csec = os.environ.get("GOOGLE_CLIENT_SECRET", "")
     if cid and csec:
         for label, key in [("Google main", "GOOGLE_REFRESH_TOKEN"),
-                           ("Search Console", "WEBMASTERS_REFRESH_TOKEN"),
                            ("AdSense", "ADSENSE_REFRESH_TOKEN"),
                            ("GSC Indexing", "GSC_INDEXING_TOKEN")]:
             rt = os.environ.get(key, "")
