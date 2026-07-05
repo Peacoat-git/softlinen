@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-04T18:53:39.896422+00:00",
+  "generated_at": "2026-07-05T01:53:49.129035+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-04"
+    "end": "2026-07-05"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 9632,
+    "page_views": 13201,
     "page_views_alltime": 28,
-    "visits": 9632,
-    "articles": 1821,
+    "visits": 13201,
+    "articles": 1829,
     "videos": 178,
     "channels": 14,
-    "yt_views": 1612,
+    "yt_views": 1614,
     "sites": 15
   },
   "adsense_connected": true,
@@ -26,7 +26,7 @@
     "credits_used": 19.04,
     "est_remaining": 181.3,
     "pct_remaining": 90.5,
-    "days_until_renewal": 14
+    "days_until_renewal": 13
   },
   "sites": [
     {
@@ -280,9 +280,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 404,
-        "visits": 404,
-        "unique_visitors": 516,
+        "page_views": 555,
+        "visits": 555,
+        "unique_visitors": 688,
         "daily": [
           {
             "date": "2026-07-01",
@@ -295,6 +295,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 138
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 151
           }
         ]
       },
@@ -637,9 +641,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 693,
-        "visits": 693,
-        "unique_visitors": 571,
+        "page_views": 995,
+        "visits": 995,
+        "unique_visitors": 851,
         "daily": [
           {
             "date": "2026-07-01",
@@ -652,6 +656,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 260
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 302
           }
         ]
       },
@@ -684,7 +692,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 118,
+      "articles": 120,
       "article_titles": [
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
         "Best Batteries For Off Grid Solar",
@@ -884,9 +892,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 624,
-        "visits": 624,
-        "unique_visitors": 511,
+        "page_views": 741,
+        "visits": 741,
+        "unique_visitors": 619,
         "daily": [
           {
             "date": "2026-07-01",
@@ -899,6 +907,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 265
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 117
           }
         ]
       },
@@ -1065,9 +1077,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 493,
-        "visits": 493,
-        "unique_visitors": 539,
+        "page_views": 650,
+        "visits": 650,
+        "unique_visitors": 680,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1080,6 +1092,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 186
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 157
           }
         ]
       },
@@ -1334,9 +1350,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 451,
-        "visits": 451,
-        "unique_visitors": 439,
+        "page_views": 581,
+        "visits": 581,
+        "unique_visitors": 576,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1349,6 +1365,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 209
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 130
           }
         ]
       },
@@ -1515,9 +1535,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 420,
-        "visits": 420,
-        "unique_visitors": 431,
+        "page_views": 642,
+        "visits": 642,
+        "unique_visitors": 594,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1530,6 +1550,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 150
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 222
           }
         ]
       },
@@ -1674,9 +1698,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 558,
-        "visits": 558,
-        "unique_visitors": 447,
+        "page_views": 879,
+        "visits": 879,
+        "unique_visitors": 721,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1689,6 +1713,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 332
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 321
           }
         ]
       },
@@ -1780,12 +1808,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 21,
+            "views": 22,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 54
+          "total_views": 55
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -1855,9 +1883,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1042,
-        "visits": 1042,
-        "unique_visitors": 955,
+        "page_views": 1380,
+        "visits": 1380,
+        "unique_visitors": 1290,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1870,6 +1898,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 429
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 338
           }
         ]
       },
@@ -1893,7 +1925,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 91
+      "yt_total_views": 92
     },
     {
       "slug": "small-biz-finance-guide",
@@ -1902,7 +1934,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 111,
+      "articles": 113,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2036,9 +2068,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 967,
-        "visits": 967,
-        "unique_visitors": 718,
+        "page_views": 1166,
+        "visits": 1166,
+        "unique_visitors": 916,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2051,6 +2083,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 483
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 199
           }
         ]
       },
@@ -2305,9 +2341,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 772,
-        "visits": 772,
-        "unique_visitors": 680,
+        "page_views": 900,
+        "visits": 900,
+        "unique_visitors": 790,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2320,6 +2356,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 197
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 128
           }
         ]
       },
@@ -2464,9 +2504,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1027,
-        "visits": 1027,
-        "unique_visitors": 1136,
+        "page_views": 1482,
+        "visits": 1482,
+        "unique_visitors": 1540,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2479,6 +2519,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 376
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 455
           }
         ]
       },
@@ -2511,7 +2555,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 121,
+      "articles": 123,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -2586,7 +2630,7 @@
           "standard_id": "MMIl2PNCLqk",
           "standard_url": "https://www.youtube.com/watch?v=MMIl2PNCLqk",
           "shorts_stats": {
-            "views": 4,
+            "views": 5,
             "likes": 0,
             "comments": 0,
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
@@ -2597,7 +2641,7 @@
             "comments": 0,
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
           },
-          "total_views": 5
+          "total_views": 6
         },
         {
           "shorts_id": "DzS5HtoTul0",
@@ -2645,9 +2689,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 499,
-        "visits": 499,
-        "unique_visitors": 524,
+        "page_views": 738,
+        "visits": 738,
+        "unique_visitors": 759,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2660,6 +2704,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 185
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 239
           }
         ]
       },
@@ -2683,7 +2731,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 58
+      "yt_total_views": 59
     },
     {
       "slug": "gamedevproducer",
@@ -2717,9 +2765,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 664,
-        "visits": 664,
-        "unique_visitors": 618,
+        "page_views": 1062,
+        "visits": 1062,
+        "unique_visitors": 808,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2732,6 +2780,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 184
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 398
           }
         ]
       },
@@ -2764,7 +2816,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 137,
+      "articles": 139,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -2876,9 +2928,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 437,
-        "visits": 437,
-        "unique_visitors": 457,
+        "page_views": 570,
+        "visits": 570,
+        "unique_visitors": 591,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2891,6 +2943,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 148
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 133
           }
         ]
       },
@@ -3000,9 +3056,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 581,
-        "visits": 581,
-        "unique_visitors": 620,
+        "page_views": 860,
+        "visits": 860,
+        "unique_visitors": 880,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3015,6 +3071,10 @@
           {
             "date": "2026-07-03",
             "pageViews": 193
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 279
           }
         ]
       },
