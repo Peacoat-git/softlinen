@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T02:00:54.373285+00:00",
+  "generated_at": "2026-07-06T09:52:40.151915+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-06"
@@ -7,9 +7,9 @@
   "totals": {
     "revenue": 0,
     "page_views": 17573,
-    "page_views_alltime": 28,
+    "page_views_alltime": 30,
     "visits": 17573,
-    "articles": 1859,
+    "articles": 1861,
     "videos": 178,
     "channels": 14,
     "yt_views": 1618,
@@ -2432,7 +2432,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 123,
+      "articles": 125,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
@@ -2443,6 +2443,7 @@
         "Backyard Chicken Egg Cost Vs Store",
         "Backyard Chickens For Beginners",
         "Bantam Chicken Breeds",
+        "Barred Rock Chickens",
         "Best Chicken Breeds For Beginners",
         "Best Chicken Coop Kits To Buy",
         "Best Egg Incubator",
@@ -2452,8 +2453,7 @@
         "Bumblefoot In Chickens",
         "Buying Chicks Online",
         "Candling Eggs Guide",
-        "Cdc Traces 2026 Salmonella Outbreak To Pekin Ducks And 7 Hatcheries",
-        "Cdc Tracks 8 Salmonella Outbreaks Tied To Backyard Poultry"
+        "Cdc Traces 2026 Salmonella Outbreak To Pekin Ducks And 7 Hatcheries"
       ],
       "videos": [
         {
@@ -2770,7 +2770,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 0
+          "pageViews": 2
         }
       ],
       "adsense": {
