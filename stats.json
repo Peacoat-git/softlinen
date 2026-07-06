@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-05T19:24:08.495466+00:00",
+  "generated_at": "2026-07-06T02:00:54.373285+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-05"
+    "end": "2026-07-06"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 13201,
+    "page_views": 17573,
     "page_views_alltime": 28,
-    "visits": 13201,
-    "articles": 1851,
+    "visits": 17573,
+    "articles": 1859,
     "videos": 178,
     "channels": 14,
-    "yt_views": 1616,
+    "yt_views": 1618,
     "sites": 15
   },
   "adsense_connected": true,
@@ -26,7 +26,7 @@
     "credits_used": 19.04,
     "est_remaining": 181.3,
     "pct_remaining": 90.5,
-    "days_until_renewal": 13
+    "days_until_renewal": 12
   },
   "sites": [
     {
@@ -280,9 +280,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 555,
-        "visits": 555,
-        "unique_visitors": 688,
+        "page_views": 811,
+        "visits": 811,
+        "unique_visitors": 853,
         "daily": [
           {
             "date": "2026-07-01",
@@ -299,6 +299,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 151
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 256
           }
         ]
       },
@@ -641,9 +645,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 995,
-        "visits": 995,
-        "unique_visitors": 851,
+        "page_views": 1298,
+        "visits": 1298,
+        "unique_visitors": 1027,
         "daily": [
           {
             "date": "2026-07-01",
@@ -660,6 +664,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 302
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 303
           }
         ]
       },
@@ -692,7 +700,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 120,
+      "articles": 122,
       "article_titles": [
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
         "Best Batteries For Off Grid Solar",
@@ -892,9 +900,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 741,
-        "visits": 741,
-        "unique_visitors": 619,
+        "page_views": 1001,
+        "visits": 1001,
+        "unique_visitors": 804,
         "daily": [
           {
             "date": "2026-07-01",
@@ -911,6 +919,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 117
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 260
           }
         ]
       },
@@ -1062,7 +1074,7 @@
           "standard_id": "1k93GFSbhrs",
           "standard_url": "https://www.youtube.com/watch?v=1k93GFSbhrs",
           "shorts_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
@@ -1073,13 +1085,13 @@
             "comments": 0,
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
           },
-          "total_views": 3
+          "total_views": 4
         }
       ],
       "cloudflare": {
-        "page_views": 650,
-        "visits": 650,
-        "unique_visitors": 680,
+        "page_views": 863,
+        "visits": 863,
+        "unique_visitors": 857,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1096,6 +1108,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 157
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 213
           }
         ]
       },
@@ -1119,7 +1135,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 6
+      "yt_total_views": 7
     },
     {
       "slug": "home-insurance-guide",
@@ -1187,12 +1203,12 @@
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
           "standard_stats": {
-            "views": 2,
+            "views": 3,
             "likes": 0,
             "comments": 0,
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
-          "total_views": 12
+          "total_views": 13
         },
         {
           "shorts_id": "zzagShQjqys",
@@ -1350,9 +1366,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 581,
-        "visits": 581,
-        "unique_visitors": 576,
+        "page_views": 859,
+        "visits": 859,
+        "unique_visitors": 727,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1369,6 +1385,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 130
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 278
           }
         ]
       },
@@ -1392,7 +1412,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 73
+      "yt_total_views": 74
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1535,9 +1555,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 642,
-        "visits": 642,
-        "unique_visitors": 594,
+        "page_views": 929,
+        "visits": 929,
+        "unique_visitors": 734,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1554,6 +1574,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 222
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 287
           }
         ]
       },
@@ -1698,9 +1722,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 879,
-        "visits": 879,
-        "unique_visitors": 721,
+        "page_views": 1162,
+        "visits": 1162,
+        "unique_visitors": 922,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1717,6 +1741,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 321
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 283
           }
         ]
       },
@@ -1883,9 +1911,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1380,
-        "visits": 1380,
-        "unique_visitors": 1290,
+        "page_views": 1801,
+        "visits": 1801,
+        "unique_visitors": 1583,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1902,6 +1930,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 338
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 421
           }
         ]
       },
@@ -1934,7 +1966,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 113,
+      "articles": 115,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2068,9 +2100,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1166,
-        "visits": 1166,
-        "unique_visitors": 916,
+        "page_views": 1477,
+        "visits": 1477,
+        "unique_visitors": 1251,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2087,6 +2119,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 199
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 311
           }
         ]
       },
@@ -2341,9 +2377,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 900,
-        "visits": 900,
-        "unique_visitors": 790,
+        "page_views": 1193,
+        "visits": 1193,
+        "unique_visitors": 905,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2360,6 +2396,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 128
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 293
           }
         ]
       },
@@ -2504,9 +2544,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1482,
-        "visits": 1482,
-        "unique_visitors": 1540,
+        "page_views": 1965,
+        "visits": 1965,
+        "unique_visitors": 1860,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2523,6 +2563,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 455
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 483
           }
         ]
       },
@@ -2555,7 +2599,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 123,
+      "articles": 125,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -2689,9 +2733,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 738,
-        "visits": 738,
-        "unique_visitors": 759,
+        "page_views": 1063,
+        "visits": 1063,
+        "unique_visitors": 945,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2708,6 +2752,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 239
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 325
           }
         ]
       },
@@ -2765,9 +2813,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 1062,
-        "visits": 1062,
-        "unique_visitors": 808,
+        "page_views": 1317,
+        "visits": 1317,
+        "unique_visitors": 1029,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2784,6 +2832,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 398
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 255
           }
         ]
       },
@@ -2816,7 +2868,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 139,
+      "articles": 141,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -2928,9 +2980,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 570,
-        "visits": 570,
-        "unique_visitors": 591,
+        "page_views": 736,
+        "visits": 736,
+        "unique_visitors": 723,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2947,6 +2999,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 133
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 166
           }
         ]
       },
@@ -3056,9 +3112,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 860,
-        "visits": 860,
-        "unique_visitors": 880,
+        "page_views": 1098,
+        "visits": 1098,
+        "unique_visitors": 1083,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3075,6 +3131,10 @@
           {
             "date": "2026-07-04",
             "pageViews": 279
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 238
           }
         ]
       },
