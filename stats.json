@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T09:52:40.151915+00:00",
+  "generated_at": "2026-07-06T14:42:54.285880+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-06"
@@ -9,8 +9,8 @@
     "page_views": 17573,
     "page_views_alltime": 30,
     "visits": 17573,
-    "articles": 1861,
-    "videos": 178,
+    "articles": 1870,
+    "videos": 180,
     "channels": 14,
     "yt_views": 1618,
     "sites": 15
@@ -22,10 +22,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 28,
-    "credits_used": 19.04,
-    "est_remaining": 181.3,
-    "pct_remaining": 90.5,
+    "renders_since_baseline": 30,
+    "credits_used": 20.4,
+    "est_remaining": 179.94,
+    "pct_remaining": 89.8,
     "days_until_renewal": 12
   },
   "sites": [
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 113,
+      "articles": 112,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -335,7 +335,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 122,
+      "articles": 124,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -955,7 +955,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 127,
+      "articles": 129,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -979,6 +979,16 @@
         "Defective Product Injury Claim"
       ],
       "videos": [
+        {
+          "video_id": "3eIxx7ogm8U",
+          "url": "https://www.youtube.com/shorts/3eIxx7ogm8U",
+          "title": "What Is a Wrongful Death Claim? 3 Critical Facts",
+          "article_slug": "wrongful-death-personal-injury-claim",
+          "published_at": "2026-07-06T13:38:28.144557+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "sVCeokbWKCg",
           "url": "https://www.youtube.com/shorts/sVCeokbWKCg",
@@ -1144,10 +1154,12 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 118,
+      "articles": 120,
       "article_titles": [
+        "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
+        "California Fair Plan Rates Jump 298 This Fall",
         "Cheap Homeowners Insurance",
         "Condo Insurance Explained",
         "Does Home Insurance Cover Mold Removal",
@@ -1163,11 +1175,19 @@
         "Ho 8 Older Home Insurance",
         "Hoa Master Policy And Condo Coverage",
         "Home Insurance After Divorce",
-        "Home Insurance After Refinancing",
-        "Home Insurance Bicycle Coverage",
-        "Home Insurance Bundling Discount"
+        "Home Insurance After Refinancing"
       ],
       "videos": [
+        {
+          "video_id": "wOp92bIUFUQ",
+          "url": "https://www.youtube.com/shorts/wOp92bIUFUQ",
+          "title": "Insurance Companies Must Reveal Your Wildfire Risk Score",
+          "article_slug": "your-wildfire-risk-score-now-has-to-be-disclosed",
+          "published_at": "2026-07-06T14:23:17.400979+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "Ueeq2HZO45M",
           "url": "https://www.youtube.com/shorts/Ueeq2HZO45M",
@@ -2788,7 +2808,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 141,
+      "articles": 143,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3022,7 +3042,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 116,
+      "articles": 118,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
