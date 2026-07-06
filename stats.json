@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T14:42:54.285880+00:00",
+  "generated_at": "2026-07-06T14:54:29.606220+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-06"
@@ -10,7 +10,7 @@
     "page_views_alltime": 30,
     "visits": 17573,
     "articles": 1870,
-    "videos": 180,
+    "videos": 181,
     "channels": 14,
     "yt_views": 1618,
     "sites": 15
@@ -22,10 +22,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 30,
-    "credits_used": 20.4,
-    "est_remaining": 179.94,
-    "pct_remaining": 89.8,
+    "renders_since_baseline": 31,
+    "credits_used": 21.08,
+    "est_remaining": 179.26,
+    "pct_remaining": 89.5,
     "days_until_renewal": 12
   },
   "sites": [
@@ -1465,6 +1465,16 @@
         "Falling Prices Rising Offers The Functioning Market Borrowers Have Bee"
       ],
       "videos": [
+        {
+          "video_id": "_bkkHM-SC5Q",
+          "url": "https://www.youtube.com/shorts/_bkkHM-SC5Q",
+          "title": "Why Fed Rate Hikes Will Crush Your Mortgage Rate",
+          "article_slug": "why-the-fed-may-hike-rates-next-and-what-that-means-for-your-mortgage",
+          "published_at": "2026-07-06T14:52:54.472130+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "X7inPoB6cS0",
           "url": "https://www.youtube.com/shorts/X7inPoB6cS0",
