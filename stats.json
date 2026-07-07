@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T14:03:30.299268+00:00",
+  "generated_at": "2026-07-07T19:38:16.286683+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-07"
@@ -9,10 +9,10 @@
     "page_views": 23769,
     "page_views_alltime": 30,
     "visits": 23769,
-    "articles": 1902,
-    "videos": 181,
+    "articles": 1912,
+    "videos": 182,
     "channels": 14,
-    "yt_views": 1619,
+    "yt_views": 1620,
     "sites": 15
   },
   "adsense_connected": true,
@@ -22,10 +22,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 31,
-    "credits_used": 21.08,
-    "est_remaining": 179.26,
-    "pct_remaining": 89.5,
+    "renders_since_baseline": 32,
+    "credits_used": 21.76,
+    "est_remaining": 178.58,
+    "pct_remaining": 89.1,
     "days_until_renewal": 11
   },
   "sites": [
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 114,
+      "articles": 116,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -47,6 +47,7 @@
         "Best Medicare Plans In Florida 2026",
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
+        "Can I Switch From Medicare Advantage Back To Original Medicare",
         "Cms Proposes Making Medicare Drug Price Negotiations Permanent",
         "Comparing Medicare Part D Plans",
         "Difference Between Medicare And Medicaid Explained",
@@ -56,10 +57,19 @@
         "How Much Does Medicare Part B Cost In 2026",
         "How Much Does Medigap Cost",
         "How To Choose A Medicare Part D Prescription Drug Plan",
-        "How To Choose Medicare Part D Plan",
-        "How To Compare Medicare Plans Cost"
+        "How To Choose Medicare Part D Plan"
       ],
       "videos": [
+        {
+          "video_id": "4V3vftHyOwY",
+          "url": "https://www.youtube.com/shorts/4V3vftHyOwY",
+          "title": "23 Hospitals Just Dropped Medicare Advantage\u2014Is Yours Next?",
+          "article_slug": "your-medicare-advantage-doctor-may-have-just-gone-out-of-network",
+          "published_at": "2026-07-07T14:26:28.475279+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
         {
           "video_id": "-h4QeHR8OIo",
           "url": "https://www.youtube.com/shorts/-h4QeHR8OIo",
@@ -1461,7 +1471,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 121,
+      "articles": 123,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1664,7 +1674,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 125,
+      "articles": 127,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -1835,7 +1845,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 124,
+      "articles": 126,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2221,9 +2231,10 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 135,
+      "articles": 137,
       "article_titles": [
         "20 Grams Carbs Keto",
+        "50 Grams Carbs Keto",
         "Best Electrolyte Supplements For Keto Beginners",
         "Best Fats On Keto",
         "Best Keto Bread Brands",
@@ -2241,8 +2252,7 @@
         "Exogenous Ketones",
         "Foods Allowed On Keto",
         "Foods To Avoid On Keto",
-        "High Fat Keto Foods",
-        "How Fast Keto Weight Loss"
+        "High Fat Keto Foods"
       ],
       "videos": [
         {
@@ -2561,12 +2571,12 @@
             "title": "Your Sick Chicken Is Hiding It (3 Warning Signs You're Missing)"
           },
           "standard_stats": {
-            "views": 0,
+            "views": 1,
             "likes": 0,
             "comments": 0,
             "title": "Your Sick Chicken Is Hiding It (3 Warning Signs You're Missing)"
           },
-          "total_views": 2
+          "total_views": 3
         },
         {
           "shorts_id": "g3QyszV9gJM",
@@ -2664,7 +2674,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 267
+      "yt_total_views": 268
     },
     {
       "slug": "rv-life-guide",
