@@ -801,6 +801,41 @@ fetch('health.json?v=' + Date.now())
   })
   .catch(() => {}); // health.json not yet generated — silent fail
 </script>
+<script>
+/* Sortable Site Performance table (additive) */
+(function(){
+  function cellVal(td){
+    var t=(td.textContent||'').replace(/stats/gi,'').replace(/[\u2197,$]/g,'').trim();
+    var m=t.match(/-?\d+(?:\.\d+)?/);
+    if(!m) return t.toLowerCase();
+    var n=parseFloat(m[0]); if(/k/i.test(t))n*=1e3; if(/m/i.test(t))n*=1e6; return n;
+  }
+  function setup(){
+    var table=document.querySelector('.revenue-table'); if(!table||!table.tHead) return;
+    var tbody=table.tBodies[0], ths=Array.prototype.slice.call(table.tHead.rows[0].cells);
+    function doSort(idx,th){
+      var rows=Array.prototype.slice.call(tbody.querySelectorAll('tr')).filter(function(r){return r.cells.length>1;});
+      if(!rows.length) return;
+      var asc=th.__asc=!th.__asc;
+      rows.sort(function(a,b){var x=cellVal(a.cells[idx]),y=cellVal(b.cells[idx]); return x<y?(asc?-1:1):x>y?(asc?1:-1):0;});
+      rows.forEach(function(r){tbody.appendChild(r);});
+      ths.forEach(function(h){var s=h.querySelector('.sort-arrow'); if(s)s.textContent='';});
+      var s=th.querySelector('.sort-arrow'); if(s)s.textContent=asc?' \u25B2':' \u25BC';
+    }
+    ths.forEach(function(th,idx){
+      th.style.cursor='pointer'; th.style.userSelect='none'; th.style.whiteSpace='nowrap';
+      var ar=document.createElement('span'); ar.className='sort-arrow'; ar.style.opacity='.75'; ar.style.fontSize='.8em'; th.appendChild(ar);
+      th.addEventListener('click',function(){doSort(idx,th);});
+    });
+    var obs=new MutationObserver(function(){
+      var rows=tbody.querySelectorAll('tr');
+      if(rows.length && rows[0].cells.length>1){ obs.disconnect(); ths[2].__asc=true; doSort(2,ths[2]); }
+    });
+    obs.observe(tbody,{childList:true});
+  }
+  if(document.readyState!=='loading') setup(); else document.addEventListener('DOMContentLoaded',setup);
+})();
+</script>
 </body>
 </html>
 
