@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T02:38:16.362053+00:00",
+  "generated_at": "2026-07-08T02:57:27.979761+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-08"
@@ -7,7 +7,7 @@
   "totals": {
     "revenue": 0,
     "page_views": 28169,
-    "page_views_alltime": 30,
+    "page_views_alltime": 34,
     "visits": 28169,
     "articles": 1920,
     "videos": 182,
@@ -3158,7 +3158,20 @@
           }
         ]
       },
-      "monthly_views": [],
+      "monthly_views": [
+        {
+          "month": "2026-05",
+          "pageViews": 2
+        },
+        {
+          "month": "2026-06",
+          "pageViews": 0
+        },
+        {
+          "month": "2026-07",
+          "pageViews": 0
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -3298,7 +3311,20 @@
           }
         ]
       },
-      "monthly_views": [],
+      "monthly_views": [
+        {
+          "month": "2026-05",
+          "pageViews": 0
+        },
+        {
+          "month": "2026-06",
+          "pageViews": 1
+        },
+        {
+          "month": "2026-07",
+          "pageViews": 1
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
