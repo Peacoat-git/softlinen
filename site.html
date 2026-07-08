@@ -344,7 +344,8 @@ fetch('stats.json?v=' + Date.now())
     document.getElementById('kpi-visitors').textContent = fmt(cf.unique_visitors);
     document.getElementById('kpi-articles').textContent = site.articles;
     document.getElementById('kpi-yt-views').textContent = fmt(site.yt_total_views);
-    document.getElementById('kpi-yt-sub').textContent = site.videos.length + ' video' + (site.videos.length!==1?'s':'') + ' live';
+    const vcount = site.video_count ?? site.videos.length;
+    document.getElementById('kpi-yt-sub').textContent = vcount + ' video' + (vcount!==1?'s':'') + ' live';
 
     // AdSense panel
     if (ads.revenue > 0) {
