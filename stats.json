@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T08:05:54.531346+00:00",
+  "generated_at": "2026-07-08T13:26:44.948999+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-08"
@@ -9,7 +9,7 @@
     "page_views": 28169,
     "page_views_alltime": 36,
     "visits": 28169,
-    "articles": 1922,
+    "articles": 1936,
     "videos": 182,
     "channels": 14,
     "yt_views": 1621,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 116,
+      "articles": 117,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -353,7 +353,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 126,
+      "articles": 128,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -989,7 +989,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 131,
+      "articles": 133,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1196,7 +1196,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 122,
+      "articles": 124,
       "article_titles": [
         "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
@@ -1207,6 +1207,7 @@
         "Does Home Insurance Cover Mold Removal",
         "Does Home Insurance Cover Roof Damage",
         "Does Home Insurance Cover Roof Leaks",
+        "Does Home Insurance Cover Water Damage",
         "Does Homeowners Insurance Cover Water Damage",
         "Escrow And Home Insurance",
         "Fair Plan Insurance Explained",
@@ -1216,8 +1217,7 @@
         "Ho 3 Policy Explained",
         "Ho 8 Older Home Insurance",
         "Hoa Master Policy And Condo Coverage",
-        "Home Insurance After Divorce",
-        "Home Insurance After Refinancing"
+        "Home Insurance After Divorce"
       ],
       "videos": [
         {
@@ -1698,7 +1698,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 127,
+      "articles": 128,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2727,7 +2727,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 129,
+      "articles": 130,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -2924,7 +2924,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 145,
+      "articles": 148,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -2943,9 +2943,9 @@
         "Dealing With Burnout On A Game Dev Team",
         "Dependency Mapping In Game Development Schedules",
         "Do You Have What It Takes To Be A Game Producer",
+        "Do You Need To Know Coding To Make A Game",
         "Forced Back To Indie What Xbox Spin Offs Mean For Re Independence",
-        "Funding Options For Indie Game Studios Explained",
-        "Game Dev Salary Guide"
+        "Funding Options For Indie Game Studios Explained"
       ],
       "videos": [],
       "cloudflare": {
@@ -3187,7 +3187,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 120,
+      "articles": 122,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
