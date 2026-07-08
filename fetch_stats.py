@@ -235,14 +235,14 @@ def save_monthly_history(history):
     print("  [WARN] monthly_history commit failed after retries")
 
 
-def fetch_cf_monthly(zone_id, slug):
+def fetch_cf_monthly(zone_id, slug, history):
     """Return monthly page views for a site using accumulated history + current-month CF query.
 
     CF free plan retains ~72h of GraphQL data, so historical months cannot be queried.
     We accumulate month-by-month totals in monthly_history.json (keyed by slug -> month).
+    `history` is the shared dict loaded once by the caller and persisted once via
+    save_monthly_history() after all sites are processed.
     """
-    import json as _json
-    history = _load_monthly_history()
     site_history = dict(history.get(slug, {}))
     current_month = TODAY_STR[:7]  # "2026-07"
 
@@ -422,6 +422,7 @@ def main():
     total_articles = 0
     total_pv       = 0
     total_visits   = 0
+    monthly_history = _load_monthly_history()
 
     for site in SITES:
         slug   = site["slug"]
@@ -435,7 +436,12 @@ def main():
 
         # Cloudflare analytics
         cf = fetch_cf_analytics(site["zone"])
-        cf_monthly = fetch_gsc_monthly(site["domain"], gsc_token)
+        # GSC search clicks (16-month history) power the "Monthly Search Clicks" chart.
+        search_clicks_monthly = fetch_gsc_monthly(site["domain"], gsc_token)
+        # Real accumulated Cloudflare page views (since tracking began) power the
+        # "Page Views (All Time)" KPI — CF's free plan can't be queried for old months,
+        # so this month's total is folded into monthly_history.json each run.
+        cf_alltime_monthly = fetch_cf_monthly(site["zone"], slug, monthly_history)
         print(f"    Page views: {cf['page_views']}  |  Visitors: {cf['unique_visitors']}")
 
         # YouTube video stats
@@ -481,11 +487,14 @@ def main():
             "article_titles": art_titles[:20],
             "videos":       enriched_videos,
             "cloudflare":   cf,
-            "monthly_views": cf_monthly,
+            "monthly_views": search_clicks_monthly,
+            "cf_monthly_views": cf_alltime_monthly,
             "adsense":      ads,
             "yt_total_views": yt_total_views,
             "video_count":   video_count,
         })
+
+    save_monthly_history(monthly_history)
 
     # Portfolio totals
     total_revenue = sum(s["adsense"]["revenue"] for s in sites_data)
@@ -540,7 +549,7 @@ def main():
         "totals": {
             "revenue":      round(total_revenue, 2),
             "page_views":   total_pv,
-            "page_views_alltime": sum(sum(m["pageViews"] for m in s.get("monthly_views",[])) for s in sites_data),
+            "page_views_alltime": sum(sum(m["pageViews"] for m in s.get("cf_monthly_views",[])) for s in sites_data),
             "visits":       total_visits,
             "articles":     total_articles,
             "videos":       total_videos,
