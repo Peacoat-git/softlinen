@@ -54,6 +54,43 @@ SITES = [
 
 ORG = "peacoat-sites"
 
+# Per-site YouTube channel IDs (public). Used to read the channel's real videoCount so the
+# dashboard count doesn't undercount when youtube.json drops entries to push concurrency.
+# Solar-home + solar-planner share one channel (omitted to avoid double-counting); gamedev has no channel.
+YT_CHANNELS = {
+    "medicare-starter":        "UCGJpvEi7Z9J5nJhHYjiWEjQ",
+    "injury-victim-guide":     "UCKdob_ce3uUbrSwQjz7VHRA",
+    "home-insurance-guide":    "UCLRh0t2_23u2t7HuaUqatTg",
+    "mortgage-advisor-guide":  "UCNhJxb3kyipoKYjwehMRmfQ",
+    "therapy-finder-guide":    "UCcEFub-Jmq9qDo1rSyRzAnQ",
+    "pet-doctor-guide":        "UCIICdgx_JrbgZiO_nnCGRRw",
+    "small-biz-finance-guide": "UCnQ7VLRjkv-kyL1YgvlQh0w",
+    "keto-living-guide":       "UCR-KYNbbQOZB9HnpfaOiiXg",
+    "chicken-keeper-guide":    "UChlGoDsVWN5yHQB5CYMYM1w",
+    "rv-life-guide":           "UCV6138gV-c5kmoFfaxNNCgg",
+    "seniorstrength":          "UCkkpo2zsGXyjOPH7HUC2V7A",
+    "fixitrightway":           "UCHYRNGbavFtaIIPYPTQfauw",
+}
+
+
+def fetch_yt_channel_count(channel_id, access_token):
+    """Real public video count for a channel (channels.list statistics.videoCount)."""
+    if not channel_id or not access_token:
+        return None
+    try:
+        r = requests.get(
+            "https://www.googleapis.com/youtube/v3/channels",
+            headers={"Authorization": f"Bearer {access_token}"},
+            params={"part": "statistics", "id": channel_id}, timeout=15)
+        if r.status_code != 200:
+            return None
+        items = r.json().get("items", [])
+        if not items:
+            return None
+        return int(items[0].get("statistics", {}).get("videoCount", 0))
+    except Exception:
+        return None
+
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -429,6 +466,10 @@ def main():
         total_pv       += cf["page_views"]
         total_visits   += cf["page_views"]
 
+        id_count = sum((1 if v.get("shorts_id") or v.get("video_id") else 0) + (1 if v.get("standard_id") else 0) for v in videos)
+        chan_count = fetch_yt_channel_count(YT_CHANNELS.get(slug), yt_token)
+        video_count = chan_count if chan_count else id_count
+
         sites_data.append({
             "slug":         slug,
             "domain":       domain,
@@ -443,16 +484,13 @@ def main():
             "monthly_views": cf_monthly,
             "adsense":      ads,
             "yt_total_views": yt_total_views,
+            "video_count":   video_count,
         })
 
     # Portfolio totals
     total_revenue = sum(s["adsense"]["revenue"] for s in sites_data)
     total_yt_views = sum(s["yt_total_views"] for s in sites_data)
-    total_videos = sum(
-        (1 if v.get("shorts_id") or v.get("video_id") else 0) +
-        (1 if v.get("standard_id") else 0)
-        for s in sites_data for v in s["videos"]
-    )
+    total_videos = sum(s.get("video_count", 0) for s in sites_data)
     total_channels = sum(1 for s in sites_data if s["videos"])
 
     # ── Shotstack credit tracker ───────────────────────────────────────────────
