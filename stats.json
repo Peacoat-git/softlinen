@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-07T19:38:16.286683+00:00",
+  "generated_at": "2026-07-08T00:30:43.726039+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-07"
+    "end": "2026-07-08"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 23769,
+    "page_views": 28169,
     "page_views_alltime": 30,
-    "visits": 23769,
-    "articles": 1912,
+    "visits": 28169,
+    "articles": 1920,
     "videos": 182,
     "channels": 14,
-    "yt_views": 1620,
+    "yt_views": 1621,
     "sites": 15
   },
   "adsense_connected": true,
@@ -26,7 +26,7 @@
     "credits_used": 21.76,
     "est_remaining": 178.58,
     "pct_remaining": 89.1,
-    "days_until_renewal": 11
+    "days_until_renewal": 10
   },
   "sites": [
     {
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1094,
-        "visits": 1094,
-        "unique_visitors": 995,
+        "page_views": 1408,
+        "visits": 1408,
+        "unique_visitors": 1168,
         "daily": [
           {
             "date": "2026-07-01",
@@ -317,6 +317,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 283
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 314
           }
         ]
       },
@@ -659,9 +663,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1547,
-        "visits": 1547,
-        "unique_visitors": 1175,
+        "page_views": 1811,
+        "visits": 1811,
+        "unique_visitors": 1365,
         "daily": [
           {
             "date": "2026-07-01",
@@ -686,6 +690,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 249
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 264
           }
         ]
       },
@@ -718,7 +726,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 124,
+      "articles": 126,
       "article_titles": [
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
         "Best Batteries For Off Grid Solar",
@@ -918,9 +926,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1473,
-        "visits": 1473,
-        "unique_visitors": 959,
+        "page_views": 1737,
+        "visits": 1737,
+        "unique_visitors": 1156,
         "daily": [
           {
             "date": "2026-07-01",
@@ -945,6 +953,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 472
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 264
           }
         ]
       },
@@ -1121,9 +1133,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1161,
-        "visits": 1161,
-        "unique_visitors": 1012,
+        "page_views": 1351,
+        "visits": 1351,
+        "unique_visitors": 1165,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1148,6 +1160,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 298
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 190
           }
         ]
       },
@@ -1412,9 +1428,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1082,
-        "visits": 1082,
-        "unique_visitors": 865,
+        "page_views": 1506,
+        "visits": 1506,
+        "unique_visitors": 1032,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1439,6 +1455,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 223
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 424
           }
         ]
       },
@@ -1615,9 +1635,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1205,
-        "visits": 1205,
-        "unique_visitors": 917,
+        "page_views": 1512,
+        "visits": 1512,
+        "unique_visitors": 1074,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1642,6 +1662,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 276
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 307
           }
         ]
       },
@@ -1786,9 +1810,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1510,
-        "visits": 1510,
-        "unique_visitors": 1185,
+        "page_views": 1792,
+        "visits": 1792,
+        "unique_visitors": 1416,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1813,6 +1837,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 348
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 282
           }
         ]
       },
@@ -1979,9 +2007,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2197,
-        "visits": 2197,
-        "unique_visitors": 1857,
+        "page_views": 2548,
+        "visits": 2548,
+        "unique_visitors": 2069,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2006,6 +2034,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 396
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 351
           }
         ]
       },
@@ -2038,7 +2070,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 118,
+      "articles": 120,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2172,9 +2204,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1873,
-        "visits": 1873,
-        "unique_visitors": 1507,
+        "page_views": 2130,
+        "visits": 2130,
+        "unique_visitors": 1715,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2199,6 +2231,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 396
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 257
           }
         ]
       },
@@ -2453,9 +2489,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1571,
-        "visits": 1571,
-        "unique_visitors": 1052,
+        "page_views": 1835,
+        "visits": 1835,
+        "unique_visitors": 1179,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2480,6 +2516,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 378
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 264
           }
         ]
       },
@@ -2593,12 +2633,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 43,
+            "views": 44,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 107
+          "total_views": 108
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -2624,9 +2664,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 2645,
-        "visits": 2645,
-        "unique_visitors": 2199,
+        "page_views": 2915,
+        "visits": 2915,
+        "unique_visitors": 2472,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2651,6 +2691,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 680
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 270
           }
         ]
       },
@@ -2674,7 +2718,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 268
+      "yt_total_views": 269
     },
     {
       "slug": "rv-life-guide",
@@ -2683,7 +2727,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 127,
+      "articles": 129,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -2817,9 +2861,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1577,
-        "visits": 1577,
-        "unique_visitors": 1300,
+        "page_views": 1953,
+        "visits": 1953,
+        "unique_visitors": 1627,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2844,6 +2888,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 514
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 376
           }
         ]
       },
@@ -2901,9 +2949,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 2122,
-        "visits": 2122,
-        "unique_visitors": 1239,
+        "page_views": 2476,
+        "visits": 2476,
+        "unique_visitors": 1464,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2928,6 +2976,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 805
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 354
           }
         ]
       },
@@ -2960,7 +3012,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 143,
+      "articles": 145,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -3072,9 +3124,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1234,
-        "visits": 1234,
-        "unique_visitors": 866,
+        "page_views": 1413,
+        "visits": 1413,
+        "unique_visitors": 1005,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3099,6 +3151,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 498
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 179
           }
         ]
       },
@@ -3208,9 +3264,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 1478,
-        "visits": 1478,
-        "unique_visitors": 1291,
+        "page_views": 1782,
+        "visits": 1782,
+        "unique_visitors": 1458,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3235,6 +3291,10 @@
           {
             "date": "2026-07-06",
             "pageViews": 380
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 304
           }
         ]
       },
