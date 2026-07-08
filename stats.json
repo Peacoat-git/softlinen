@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T13:27:44.186812+00:00",
+  "generated_at": "2026-07-08T13:38:53.630645+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-08"
@@ -10,7 +10,7 @@
     "page_views_alltime": 36,
     "visits": 28169,
     "articles": 1936,
-    "videos": 182,
+    "videos": 172,
     "channels": 14,
     "yt_views": 1621,
     "sites": 15
@@ -344,7 +344,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 21
+      "yt_total_views": 21,
+      "video_count": 19
     },
     {
       "slug": "solar-planner-guide",
@@ -717,7 +718,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 548
+      "yt_total_views": 548,
+      "video_count": 26
     },
     {
       "slug": "solar-home-planner",
@@ -980,7 +982,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 367
+      "yt_total_views": 367,
+      "video_count": 16
     },
     {
       "slug": "injury-victim-guide",
@@ -1187,7 +1190,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 7
+      "yt_total_views": 7,
+      "video_count": 11
     },
     {
       "slug": "home-insurance-guide",
@@ -1482,7 +1486,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 74
+      "yt_total_views": 74,
+      "video_count": 17
     },
     {
       "slug": "mortgage-advisor-guide",
@@ -1689,7 +1694,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 3
+      "yt_total_views": 3,
+      "video_count": 11
     },
     {
       "slug": "therapy-finder-guide",
@@ -1864,7 +1870,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 9
+      "yt_total_views": 9,
+      "video_count": 8
     },
     {
       "slug": "pet-doctor-guide",
@@ -2061,7 +2068,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 93
+      "yt_total_views": 93,
+      "video_count": 10
     },
     {
       "slug": "small-biz-finance-guide",
@@ -2258,7 +2266,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 10
+      "yt_total_views": 10,
+      "video_count": 10
     },
     {
       "slug": "keto-living-guide",
@@ -2543,7 +2552,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 13
+      "yt_total_views": 13,
+      "video_count": 18
     },
     {
       "slug": "chicken-keeper-guide",
@@ -2718,7 +2728,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 269
+      "yt_total_views": 269,
+      "video_count": 6
     },
     {
       "slug": "rv-life-guide",
@@ -2915,7 +2926,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 59
+      "yt_total_views": 59,
+      "video_count": 10
     },
     {
       "slug": "gamedevproducer",
@@ -3003,7 +3015,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0
+      "yt_total_views": 0,
+      "video_count": 0
     },
     {
       "slug": "seniorstrength",
@@ -3178,7 +3191,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 33
+      "yt_total_views": 33,
+      "video_count": 6
     },
     {
       "slug": "fixitrightway",
@@ -3331,7 +3345,8 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 115
+      "yt_total_views": 115,
+      "video_count": 4
     }
   ]
 }
