@@ -76,9 +76,6 @@ canvas { width:100%!important; }
 .site-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
 .site-link { font-weight:500; color:var(--primary); }
 .site-link:hover { text-decoration:underline; }
-.ext-arrow { font-size:10px; margin-left:3px; opacity:0.55; }
-.site-stats-link { font-size:11px; color:var(--muted); margin-left:8px; }
-.site-stats-link:hover { color:var(--primary); text-decoration:underline; }
 .badge-live { font-size:9px; font-weight:600; background:#dcfce7; color:#16a34a; padding:2px 7px; border-radius:8px; }
 .badge-pending { font-size:9px; font-weight:600; background:#fef9c3; color:#ca8a04; padding:2px 7px; border-radius:8px; }
 .num { font-variant-numeric:tabular-nums; }
@@ -258,7 +255,7 @@ canvas { width:100%!important; }
           <div class="kpi-sub">AdSense + affiliate</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">Page Views (This Month)</div>
+          <div class="kpi-label">Page Views (All Time)</div>
           <div class="kpi-value" id="kpi-views">—</div>
           <div class="kpi-change pending">Cloudflare Analytics</div>
           <div class="kpi-sub" id="kpi-views-sub">Across all 15 sites</div>
@@ -280,8 +277,8 @@ canvas { width:100%!important; }
       <div class="charts-row">
         <div class="card">
           <div class="card-header">
-            <div class="card-title">Monthly Search Clicks — All Sites</div>
-            <span class="card-badge green" id="visits-badge">Google Search Console</span>
+            <div class="card-title">Monthly Page Views — All Sites</div>
+            <span class="card-badge green" id="visits-badge">All Time</span>
           </div>
           <div class="card-body"><canvas id="revenueChart" height="200"></canvas></div>
         </div>
@@ -457,7 +454,7 @@ function loadStats() {
       // KPI cards
       document.getElementById('kpi-revenue').textContent = '$' + (t.revenue||0).toFixed(2);
       document.getElementById('kpi-revenue-note').textContent = data.adsense_connected ? 'AdSense connected' : '⏳ AdSense pending';
-      document.getElementById('kpi-views').textContent = fmt(t.page_views);
+      document.getElementById('kpi-views').textContent = fmt(t.page_views_alltime || t.page_views);
       document.getElementById('kpi-views-sub').textContent = 'Across all ' + t.sites + ' sites';
       document.getElementById('kpi-yt').textContent = fmt(t.yt_views);
       document.getElementById('kpi-yt-note').textContent = t.videos + ' videos live · ' + (t.channels || t.sites) + ' channels';
@@ -527,14 +524,14 @@ function loadStats() {
         const hasRevenue = s.adsense.revenue > 0;
         return `<tr>
           <td><div class="site-name-cell"><div class="site-dot" style="background:${color}"></div>
-            <a class="site-link" href="https://${s.domain}" target="_blank" rel="noopener">${s.name}<span class="ext-arrow">\u2197</span></a><a class="site-stats-link" href="site.html?s=${s.slug}">stats</a></div></td>
+            <a class="site-link" href="site.html?s=${s.slug}">${s.name}</a></div></td>
           <td class="num">${s.articles}</td>
           <td class="num">${fmt(s.cloudflare.page_views)}</td>
           <td class="num">${fmt(s.cloudflare.unique_visitors)}</td>
           <td class="num">$${s.rpm_est}</td>
           <td class="num ${hasRevenue?'green':''}">$${(s.adsense.revenue||0).toFixed(2)}</td>
           <td class="num">${fmt(s.yt_total_views)}</td>
-          <td class="num">${s.videos.length}</td>
+          <td class="num">${s.video_count ?? s.videos.length}</td>
         </tr>`;
       }).join('');
 
@@ -800,41 +797,6 @@ fetch('health.json?v=' + Date.now())
     }
   })
   .catch(() => {}); // health.json not yet generated — silent fail
-</script>
-<script>
-/* Sortable Site Performance table (additive) */
-(function(){
-  function cellVal(td){
-    var t=(td.textContent||'').replace(/stats/gi,'').replace(/[\u2197,$]/g,'').trim();
-    var m=t.match(/-?\d+(?:\.\d+)?/);
-    if(!m) return t.toLowerCase();
-    var n=parseFloat(m[0]); if(/k/i.test(t))n*=1e3; if(/m/i.test(t))n*=1e6; return n;
-  }
-  function setup(){
-    var table=document.querySelector('.revenue-table'); if(!table||!table.tHead) return;
-    var tbody=table.tBodies[0], ths=Array.prototype.slice.call(table.tHead.rows[0].cells);
-    function doSort(idx,th){
-      var rows=Array.prototype.slice.call(tbody.querySelectorAll('tr')).filter(function(r){return r.cells.length>1;});
-      if(!rows.length) return;
-      var asc=th.__asc=!th.__asc;
-      rows.sort(function(a,b){var x=cellVal(a.cells[idx]),y=cellVal(b.cells[idx]); return x<y?(asc?-1:1):x>y?(asc?1:-1):0;});
-      rows.forEach(function(r){tbody.appendChild(r);});
-      ths.forEach(function(h){var s=h.querySelector('.sort-arrow'); if(s)s.textContent='';});
-      var s=th.querySelector('.sort-arrow'); if(s)s.textContent=asc?' \u25B2':' \u25BC';
-    }
-    ths.forEach(function(th,idx){
-      th.style.cursor='pointer'; th.style.userSelect='none'; th.style.whiteSpace='nowrap';
-      var ar=document.createElement('span'); ar.className='sort-arrow'; ar.style.opacity='.75'; ar.style.fontSize='.8em'; th.appendChild(ar);
-      th.addEventListener('click',function(){doSort(idx,th);});
-    });
-    var obs=new MutationObserver(function(){
-      var rows=tbody.querySelectorAll('tr');
-      if(rows.length && rows[0].cells.length>1){ obs.disconnect(); ths[2].__asc=true; doSort(2,ths[2]); }
-    });
-    obs.observe(tbody,{childList:true});
-  }
-  if(document.readyState!=='loading') setup(); else document.addEventListener('DOMContentLoaded',setup);
-})();
 </script>
 </body>
 </html>
