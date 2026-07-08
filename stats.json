@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T13:38:53.630645+00:00",
+  "generated_at": "2026-07-08T18:18:57.779236+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-08"
@@ -7,9 +7,9 @@
   "totals": {
     "revenue": 0,
     "page_views": 28169,
-    "page_views_alltime": 36,
+    "page_views_alltime": 28169,
     "visits": 28169,
-    "articles": 1936,
+    "articles": 1944,
     "videos": 172,
     "channels": 14,
     "yt_views": 1621,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 117,
+      "articles": 119,
       "article_titles": [
         "Average Medicare Costs Per Month",
         "Best Medicare Advantage Plans 2026",
@@ -51,13 +51,13 @@
         "Cms Proposes Making Medicare Drug Price Negotiations Permanent",
         "Comparing Medicare Part D Plans",
         "Difference Between Medicare And Medicaid Explained",
+        "Do I Need Medicare If Im Still Working",
         "Does Medicare Cover 100 Percent",
+        "Does Medicare Cover Eye Exams",
         "How Does Medicare Advantage Work",
         "How Does Medicare Work",
         "How Much Does Medicare Part B Cost In 2026",
-        "How Much Does Medigap Cost",
-        "How To Choose A Medicare Part D Prescription Drug Plan",
-        "How To Choose Medicare Part D Plan"
+        "How Much Does Medigap Cost"
       ],
       "videos": [
         {
@@ -336,6 +336,12 @@
         {
           "month": "2026-07",
           "pageViews": 0
+        }
+      ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1408
         }
       ],
       "adsense": {
@@ -712,6 +718,12 @@
           "pageViews": 1
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1811
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -976,6 +988,12 @@
           "pageViews": 0
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1737
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -1182,6 +1200,12 @@
         {
           "month": "2026-07",
           "pageViews": 0
+        }
+      ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1351
         }
       ],
       "adsense": {
@@ -1480,6 +1504,12 @@
           "pageViews": 0
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1506
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -1496,7 +1526,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 123,
+      "articles": 125,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1507,6 +1537,7 @@
         "Best Mortgage Lenders For First Time Home Buyers 2026",
         "Break Even Point Calculator For Refinancing A Home Loan",
         "Break Even Refinance Analysis",
+        "Can I Get A Mortgage With Bad Credit",
         "Cash Out Refinance Explained",
         "Cash Out Refinance Vs Home Equity Loan Comparison",
         "Closing Cost Estimator",
@@ -1516,8 +1547,7 @@
         "Current 30 Year Fixed Mortgage Rates Forecast 2026",
         "Current Mortgage Rates",
         "Debt To Income Ratio For Mortgage",
-        "Deed In Lieu Mortgage",
-        "Down Payment Assistance Programs"
+        "Deed In Lieu Mortgage"
       ],
       "videos": [
         {
@@ -1688,6 +1718,12 @@
           "pageViews": 0
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1512
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -1704,7 +1740,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 128,
+      "articles": 130,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -1862,6 +1898,12 @@
         {
           "month": "2026-07",
           "pageViews": 0
+        }
+      ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1792
         }
       ],
       "adsense": {
@@ -2062,6 +2104,12 @@
           "pageViews": 0
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 2548
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2260,6 +2308,12 @@
           "pageViews": 0
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 2130
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2276,7 +2330,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 137,
+      "articles": 139,
       "article_titles": [
         "20 Grams Carbs Keto",
         "50 Grams Carbs Keto",
@@ -2290,14 +2344,14 @@
         "Best Protein Sources Keto",
         "Blood Ketone Levels Chart",
         "Butter On Keto",
+        "Constipation On Keto Remedies",
         "Cyclical Keto Diet",
         "Dirty Keto Vs Clean Keto",
         "Easy Keto Meals",
         "Electrolytes On Keto",
         "Exogenous Ketones",
         "Foods Allowed On Keto",
-        "Foods To Avoid On Keto",
-        "High Fat Keto Foods"
+        "Foods To Avoid On Keto"
       ],
       "videos": [
         {
@@ -2546,6 +2600,12 @@
           "pageViews": 0
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1835
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -2720,6 +2780,12 @@
         {
           "month": "2026-07",
           "pageViews": 1
+        }
+      ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 2915
         }
       ],
       "adsense": {
@@ -2920,6 +2986,12 @@
           "pageViews": 2
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1953
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -3007,6 +3079,12 @@
         {
           "month": "2026-07",
           "pageViews": 2
+        }
+      ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 2476
         }
       ],
       "adsense": {
@@ -3185,6 +3263,12 @@
           "pageViews": 0
         }
       ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1413
+        }
+      ],
       "adsense": {
         "revenue": 0,
         "impressions": 0,
@@ -3337,6 +3421,12 @@
         {
           "month": "2026-07",
           "pageViews": 1
+        }
+      ],
+      "cf_monthly_views": [
+        {
+          "month": "2026-07",
+          "pageViews": 1782
         }
       ],
       "adsense": {
