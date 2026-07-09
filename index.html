@@ -442,7 +442,76 @@ function fmt(n) {
   return n.toLocaleString();
 }
 
+const SITE_DOMAINS = {
+  'keto-living-guide':'https://ketolivingguide.com',
+  'solar-home-planner':'https://solarhomeplanner.com',
+  'solar-planner-guide':'https://solarplannerguide.com',
+  'pet-doctor-guide':'https://petdoctorguide.com',
+  'rv-life-guide':'https://rv-life-guide.com',
+  'mortgage-advisor-guide':'https://mortgageadvisorguide.com',
+  'home-insurance-guide':'https://homeinsuranceclear.com',
+  'small-biz-finance-guide':'https://smallbizfinanceguide.com',
+  'seniorstrength':'https://seniorstrength.today',
+  'chicken-keeper-guide':'https://chickenkeeperguide.com',
+  'fixitrightway':'https://fixitrightway.com',
+  'injury-victim-guide':'https://injuryvictimguide.com',
+  'medicare-starter':'https://medicarestarter.com',
+  'therapy-finder-guide':'https://therapyfinderguide.com',
+  'gamedevproducer':'https://gamedevproducer.com'
+};
+
 let revenueChart = null;
+let tableData = [];
+let currentSort = { col: 1, asc: true };
+
+function sortTable(colIdx) {
+  if (currentSort.col === colIdx) {
+    currentSort.asc = !currentSort.asc;
+  } else {
+    currentSort.col = colIdx;
+    currentSort.asc = true;
+  }
+
+  const sortedData = [...tableData].sort((a, b) => {
+    let aVal, bVal;
+    switch(colIdx) {
+      case 1: aVal = a.name; bVal = b.name; break;
+      case 2: aVal = a.articles; bVal = b.articles; break;
+      case 3: aVal = a.page_views; bVal = b.page_views; break;
+      case 4: aVal = a.unique_visitors; bVal = b.unique_visitors; break;
+      case 5: aVal = a.rpm_est; bVal = b.rpm_est; break;
+      case 6: aVal = a.revenue; bVal = b.revenue; break;
+      case 7: aVal = a.yt_views; bVal = b.yt_views; break;
+      case 8: aVal = a.videos; bVal = b.videos; break;
+      default: return 0;
+    }
+
+    if (typeof aVal === 'string') {
+      return currentSort.asc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+    }
+    return currentSort.asc ? aVal - bVal : bVal - aVal;
+  });
+
+  renderTable(document.getElementById('sites-tbody'), sortedData);
+}
+
+function renderTable(tbody, data) {
+  tbody.innerHTML = data.map(s => {
+    const color = COLORS[s.slug] || '#94a3b8';
+    const hasRevenue = s.revenue > 0;
+    return `<tr>
+      <td><div class="site-name-cell"><div class="site-dot" style="background:${color}"></div>
+        <a class="site-link" href="${SITE_DOMAINS[s.slug] || '#'}" target="_blank">${s.name}</a></div></td>
+      <td class="num">${s.articles}</td>
+      <td class="num">${fmt(s.page_views)}</td>
+      <td class="num">${fmt(s.unique_visitors)}</td>
+      <td class="num">$${s.rpm_est}</td>
+      <td class="num ${hasRevenue?'green':''}">$${s.revenue.toFixed(2)}</td>
+      <td class="num">${fmt(s.yt_views)}</td>
+      <td class="num">${s.videos}</td>
+    </tr>`;
+  }).join('');
+}
 
 function loadStats() {
   fetch('stats.json?v=' + Date.now())
@@ -519,21 +588,24 @@ function loadStats() {
 
       // Sites table
       const tbody = document.getElementById('sites-tbody');
-      tbody.innerHTML = data.sites.map(s => {
-        const color = COLORS[s.slug] || '#94a3b8';
-        const hasRevenue = s.adsense.revenue > 0;
-        return `<tr>
-          <td><div class="site-name-cell"><div class="site-dot" style="background:${color}"></div>
-            <a class="site-link" href="site.html?s=${s.slug}">${s.name}</a></div></td>
-          <td class="num">${s.articles}</td>
-          <td class="num">${fmt(s.cloudflare.page_views)}</td>
-          <td class="num">${fmt(s.cloudflare.unique_visitors)}</td>
-          <td class="num">$${s.rpm_est}</td>
-          <td class="num ${hasRevenue?'green':''}">$${(s.adsense.revenue||0).toFixed(2)}</td>
-          <td class="num">${fmt(s.yt_total_views)}</td>
-          <td class="num">${s.video_count ?? s.videos.length}</td>
-        </tr>`;
-      }).join('');
+      tableData = data.sites.map(s => ({
+        slug: s.slug,
+        name: s.name,
+        articles: s.articles,
+        page_views: s.cloudflare.page_views,
+        unique_visitors: s.cloudflare.unique_visitors,
+        rpm_est: s.rpm_est,
+        revenue: s.adsense.revenue || 0,
+        yt_views: s.yt_total_views,
+        videos: s.video_count ?? s.videos.length
+      }));
+      renderTable(tbody, tableData);
+
+      // Add header click handlers for sorting
+      document.querySelectorAll('.revenue-table thead th').forEach((th, idx) => {
+        th.style.cursor = idx === 0 ? 'default' : 'pointer';
+        if (idx > 0) th.addEventListener('click', () => sortTable(idx));
+      });
 
       // Revenue chart update
       updateChart(data);
