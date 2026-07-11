@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:31:03.541574+00:00",
+  "generated_at": "2026-07-11T12:51:27.090752+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-11"
@@ -9,10 +9,10 @@
     "page_views": 41119,
     "page_views_alltime": 41119,
     "visits": 41119,
-    "articles": 2016,
+    "articles": 2026,
     "videos": 172,
-    "channels": 13,
-    "yt_views": 1621,
+    "channels": 14,
+    "yt_views": 1624,
     "sites": 15
   },
   "adsense_connected": true,
@@ -22,10 +22,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 29,
-    "credits_used": 19.72,
-    "est_remaining": 180.62,
-    "pct_remaining": 90.2,
+    "renders_since_baseline": 32,
+    "credits_used": 21.76,
+    "est_remaining": 178.58,
+    "pct_remaining": 89.1,
     "days_until_renewal": 7
   },
   "sites": [
@@ -372,7 +372,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 132,
+      "articles": 134,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1046,7 +1046,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 137,
+      "articles": 139,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1272,13 +1272,14 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 128,
+      "articles": 130,
       "article_titles": [
         "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
         "California Fair Plan Rates Jump 298 This Fall",
         "Cheap Homeowners Insurance",
+        "Colorados New Wildfire Insurance Law Takes Effect As Fires Burn",
         "Condo Insurance Explained",
         "Does Home Insurance Cover A Burst Pipe",
         "Does Home Insurance Cover Mold Removal",
@@ -1286,14 +1287,13 @@
         "Does Home Insurance Cover Roof Leaks",
         "Does Home Insurance Cover Water Damage",
         "Does Homeowners Insurance Cover Water Damage",
+        "Dwelling Fire Policy Explained",
         "Escrow And Home Insurance",
         "Fair Plan Insurance Explained",
         "Hail And Wind Are Now Pricier Than Hurricanes For Insurers",
         "Hail And Wind Are Now The Biggest Threat To Your Home Insurance",
         "Hail Season Is Here Why Your Deductibles Just Changed",
-        "Ho 3 Policy Explained",
-        "Ho 8 Older Home Insurance",
-        "Hoa Master Policy And Condo Coverage"
+        "Ho 3 Policy Explained"
       ],
       "videos": [
         {
@@ -1609,7 +1609,126 @@
         "Debt To Income Ratio For Mortgage",
         "Deed In Lieu Mortgage"
       ],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "_bkkHM-SC5Q",
+          "url": "https://www.youtube.com/shorts/_bkkHM-SC5Q",
+          "title": "Why Fed Rate Hikes Will Crush Your Mortgage Rate",
+          "article_slug": "why-the-fed-may-hike-rates-next-and-what-that-means-for-your-mortgage",
+          "published_at": "2026-07-06T14:52:54.472130+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "video_id": "X7inPoB6cS0",
+          "url": "https://www.youtube.com/shorts/X7inPoB6cS0",
+          "title": "Stop Timing Mortgage Rates: When to Actually Lock In",
+          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
+          "published_at": "2026-06-29T15:25:33.914887+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "video_id": "ixjNgplhTTc",
+          "url": "https://www.youtube.com/shorts/ixjNgplhTTc",
+          "title": "Stop Timing Your Mortgage Rate (Do This Instead)",
+          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
+          "published_at": "2026-06-23T02:04:14.078782+00:00",
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
+        },
+        {
+          "shorts_id": "ptAhipXG4wk",
+          "shorts_url": "https://www.youtube.com/shorts/ptAhipXG4wk",
+          "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This",
+          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
+          "published_at": "2026-06-15T16:51:59.429304+00:00",
+          "standard_id": "JEuYKbfW_dc",
+          "standard_url": "https://www.youtube.com/watch?v=JEuYKbfW_dc",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
+          },
+          "total_views": 1
+        },
+        {
+          "shorts_id": "iiUgA5cnX3k",
+          "shorts_url": "https://www.youtube.com/shorts/iiUgA5cnX3k",
+          "title": "Veterans: Stop Paying $38K You Don't Owe (VA Loan Truth)",
+          "article_slug": "va-loan-benefits-explained",
+          "published_at": "2026-05-29T01:18:00.261505+00:00",
+          "standard_id": "FOH8Q7x7mVI",
+          "standard_url": "https://www.youtube.com/watch?v=FOH8Q7x7mVI",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Paying $38K You Don't Owe (VA Loan Truth)"
+          },
+          "standard_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Paying $38K You Don't Owe (VA Loan Truth)"
+          },
+          "total_views": 1
+        },
+        {
+          "shorts_id": "tMa7b8eHQK8",
+          "shorts_url": "https://www.youtube.com/shorts/tMa7b8eHQK8",
+          "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase",
+          "article_slug": "va-loan-benefits-explained",
+          "published_at": "2026-05-19T15:45:28.279580+00:00",
+          "standard_id": "oA9wirOB6RA",
+          "standard_url": "https://www.youtube.com/watch?v=oA9wirOB6RA",
+          "shorts_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
+          },
+          "total_views": 0
+        },
+        {
+          "shorts_id": "QJ-afjnpoCc",
+          "shorts_url": "https://www.youtube.com/shorts/QJ-afjnpoCc",
+          "title": "Veterans: Stop Paying $38K You Don't Owe",
+          "article_slug": "va-loan-benefits-explained",
+          "published_at": "2026-05-19T04:44:38.702701+00:00",
+          "standard_id": "LPUYD-6fxG4",
+          "standard_url": "https://www.youtube.com/watch?v=LPUYD-6fxG4",
+          "shorts_stats": {
+            "views": 1,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Paying $38K You Don't Owe"
+          },
+          "standard_stats": {
+            "views": 0,
+            "likes": 0,
+            "comments": 0,
+            "title": "Veterans: Stop Paying $38K You Don't Owe"
+          },
+          "total_views": 1
+        }
+      ],
       "cloudflare": {
         "page_views": 2679,
         "visits": 2679,
@@ -1683,7 +1802,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 0,
+      "yt_total_views": 3,
       "video_count": 11
     },
     {
@@ -3033,7 +3152,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 152,
+      "articles": 154,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3043,6 +3162,7 @@
         "Avoiding Scope Creep In Game Production",
         "Best Game Engine 2026",
         "Best Project Management Tools For Game Studios",
+        "Bug Triage Process For Game Development Teams",
         "Burnout In Game Development The Year 5 Cliff",
         "Capacity Planning For Game Development Teams",
         "Console Game Certification Process For Producers",
@@ -3053,8 +3173,7 @@
         "Dependency Mapping In Game Development Schedules",
         "Do You Have What It Takes To Be A Game Producer",
         "Do You Need To Know Coding To Make A Game",
-        "Forced Back To Indie What Xbox Spin Offs Mean For Re Independence",
-        "Funding Options For Indie Game Studios Explained"
+        "Forced Back To Indie What Xbox Spin Offs Mean For Re Independence"
       ],
       "videos": [],
       "cloudflare": {
@@ -3334,7 +3453,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 126,
+      "articles": 128,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -3346,6 +3465,7 @@
         "Deck Staining In 2026 Is Diy Worth It With Tariff Hit Lumber Prices",
         "Diy Or Call A Pro Fix It Style",
         "Diy Project Tool Costs Timeline 2026",
+        "How 2026 Tariffs Are Changing The Cost Of Common Diy Projects",
         "How 2026 Tariffs Are Changing The Math On Summer Diy Projects",
         "How Tariff Driven Material Costs Are Changing What You Should Diy",
         "How Tariffs Are Changing The Cost Of Your Next Diy Project",
@@ -3354,8 +3474,7 @@
         "How To Caulk A Bathtub Like A Pro",
         "How To Clean And Restore Grout",
         "How To Cover A Stain That Bleeds Through Paint",
-        "How To Cut Crown Molding Inside Corners",
-        "How To Fill Nail Holes In Trim Before Painting"
+        "How To Cut Crown Molding Inside Corners"
       ],
       "videos": [
         {
