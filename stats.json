@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T01:26:04.586392+00:00",
+  "generated_at": "2026-07-11T07:31:03.541574+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-11"
@@ -9,10 +9,10 @@
     "page_views": 41119,
     "page_views_alltime": 41119,
     "visits": 41119,
-    "articles": 2014,
+    "articles": 2016,
     "videos": 172,
-    "channels": 14,
-    "yt_views": 1624,
+    "channels": 13,
+    "yt_views": 1621,
     "sites": 15
   },
   "adsense_connected": true,
@@ -22,10 +22,10 @@
     "baseline_date": "2026-06-20",
     "renewal_date": "2026-07-18",
     "cost_per_render": 0.68,
-    "renders_since_baseline": 32,
-    "credits_used": 21.76,
-    "est_remaining": 178.58,
-    "pct_remaining": 89.1,
+    "renders_since_baseline": 29,
+    "credits_used": 19.72,
+    "est_remaining": 180.62,
+    "pct_remaining": 90.2,
     "days_until_renewal": 7
   },
   "sites": [
@@ -1609,126 +1609,7 @@
         "Debt To Income Ratio For Mortgage",
         "Deed In Lieu Mortgage"
       ],
-      "videos": [
-        {
-          "video_id": "_bkkHM-SC5Q",
-          "url": "https://www.youtube.com/shorts/_bkkHM-SC5Q",
-          "title": "Why Fed Rate Hikes Will Crush Your Mortgage Rate",
-          "article_slug": "why-the-fed-may-hike-rates-next-and-what-that-means-for-your-mortgage",
-          "published_at": "2026-07-06T14:52:54.472130+00:00",
-          "shorts_stats": {},
-          "standard_stats": {},
-          "total_views": 0
-        },
-        {
-          "video_id": "X7inPoB6cS0",
-          "url": "https://www.youtube.com/shorts/X7inPoB6cS0",
-          "title": "Stop Timing Mortgage Rates: When to Actually Lock In",
-          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
-          "published_at": "2026-06-29T15:25:33.914887+00:00",
-          "shorts_stats": {},
-          "standard_stats": {},
-          "total_views": 0
-        },
-        {
-          "video_id": "ixjNgplhTTc",
-          "url": "https://www.youtube.com/shorts/ixjNgplhTTc",
-          "title": "Stop Timing Your Mortgage Rate (Do This Instead)",
-          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
-          "published_at": "2026-06-23T02:04:14.078782+00:00",
-          "shorts_stats": {},
-          "standard_stats": {},
-          "total_views": 0
-        },
-        {
-          "shorts_id": "ptAhipXG4wk",
-          "shorts_url": "https://www.youtube.com/shorts/ptAhipXG4wk",
-          "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This",
-          "article_slug": "when-should-i-lock-in-my-mortgage-rate",
-          "published_at": "2026-06-15T16:51:59.429304+00:00",
-          "standard_id": "JEuYKbfW_dc",
-          "standard_url": "https://www.youtube.com/watch?v=JEuYKbfW_dc",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "16-Year Mortgage Pro: Stop Timing Your Rate Lock Like This"
-          },
-          "total_views": 1
-        },
-        {
-          "shorts_id": "iiUgA5cnX3k",
-          "shorts_url": "https://www.youtube.com/shorts/iiUgA5cnX3k",
-          "title": "Veterans: Stop Paying $38K You Don't Owe (VA Loan Truth)",
-          "article_slug": "va-loan-benefits-explained",
-          "published_at": "2026-05-29T01:18:00.261505+00:00",
-          "standard_id": "FOH8Q7x7mVI",
-          "standard_url": "https://www.youtube.com/watch?v=FOH8Q7x7mVI",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Paying $38K You Don't Owe (VA Loan Truth)"
-          },
-          "standard_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Paying $38K You Don't Owe (VA Loan Truth)"
-          },
-          "total_views": 1
-        },
-        {
-          "shorts_id": "tMa7b8eHQK8",
-          "shorts_url": "https://www.youtube.com/shorts/tMa7b8eHQK8",
-          "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase",
-          "article_slug": "va-loan-benefits-explained",
-          "published_at": "2026-05-19T15:45:28.279580+00:00",
-          "standard_id": "oA9wirOB6RA",
-          "standard_url": "https://www.youtube.com/watch?v=oA9wirOB6RA",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Giving Away $38,000 on Your Home Purchase"
-          },
-          "total_views": 0
-        },
-        {
-          "shorts_id": "QJ-afjnpoCc",
-          "shorts_url": "https://www.youtube.com/shorts/QJ-afjnpoCc",
-          "title": "Veterans: Stop Paying $38K You Don't Owe",
-          "article_slug": "va-loan-benefits-explained",
-          "published_at": "2026-05-19T04:44:38.702701+00:00",
-          "standard_id": "LPUYD-6fxG4",
-          "standard_url": "https://www.youtube.com/watch?v=LPUYD-6fxG4",
-          "shorts_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Paying $38K You Don't Owe"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Veterans: Stop Paying $38K You Don't Owe"
-          },
-          "total_views": 1
-        }
-      ],
+      "videos": [],
       "cloudflare": {
         "page_views": 2679,
         "visits": 2679,
@@ -1802,7 +1683,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 3,
+      "yt_total_views": 0,
       "video_count": 11
     },
     {
@@ -2742,7 +2623,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 133,
+      "articles": 135,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
