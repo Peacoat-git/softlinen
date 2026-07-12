@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T12:52:06.551007+00:00",
+  "generated_at": "2026-07-12T18:46:55.845098+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-12"
@@ -9,7 +9,7 @@
     "page_views": 46081,
     "page_views_alltime": 46081,
     "visits": 46081,
-    "articles": 2056,
+    "articles": 2066,
     "videos": 172,
     "channels": 14,
     "yt_views": 1628,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 125,
+      "articles": 127,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -49,6 +49,7 @@
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
         "Can I Switch From Medicare Advantage Back To Original Medicare",
+        "Cms Proposed Rule Would Cut Hospital Outpatient Costs For Seniors",
         "Cms Proposes Making Medicare Drug Price Negotiations Permanent",
         "Comparing Medicare Part D Plans",
         "Difference Between Medicare And Medicaid Explained",
@@ -56,8 +57,7 @@
         "Does Medicare Cover 100 Percent",
         "Does Medicare Cover Dental",
         "Does Medicare Cover Eye Exams",
-        "Does Medicare Cover Hearing Aids",
-        "How Does Medicare Advantage Work"
+        "Does Medicare Cover Hearing Aids"
       ],
       "videos": [
         {
@@ -1606,7 +1606,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 131,
+      "articles": 133,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1623,11 +1623,11 @@
         "Cash Out Refinance Vs Home Equity Loan Comparison",
         "Closing Cost Estimator",
         "Closing Disclosure Explained",
+        "Construction Loan Explained",
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
         "Current 30 Year Fixed Mortgage Rates Forecast 2026",
-        "Current Mortgage Rates",
-        "Debt To Income Ratio For Mortgage"
+        "Current Mortgage Rates"
       ],
       "videos": [
         {
@@ -1836,7 +1836,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 136,
+      "articles": 138,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -1850,14 +1850,14 @@
         "Best Online Therapy Platforms 2026",
         "Best Therapy Apps For Daily Mental Health Support",
         "Betterhelp Vs Talkspace Comparison",
+        "Bipoc Therapist Directory",
         "Cbt Vs Dbt Therapy What Is The Difference",
         "Cbt Worksheets Explained",
         "Child Therapy Guide For Parents",
         "Co Parenting Therapy",
         "Cognitive Behavioral Therapy Explained",
         "Community Mental Health Center Access",
-        "Could Talking To Someone Help Right Now",
-        "Couples Therapy How It Works"
+        "Could Talking To Someone Help Right Now"
       ],
       "videos": [
         {
@@ -2034,7 +2034,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 134,
+      "articles": 136,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2093,12 +2093,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 23,
+            "views": 24,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 57
+          "total_views": 58
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2244,7 +2244,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 94,
+      "yt_total_views": 95,
       "video_count": 10
     },
     {
@@ -2474,7 +2474,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 145,
+      "articles": 147,
       "article_titles": [
         "20 Grams Carbs Keto",
         "50 Grams Carbs Keto",
@@ -3055,7 +3055,7 @@
           "standard_id": "MMIl2PNCLqk",
           "standard_url": "https://www.youtube.com/watch?v=MMIl2PNCLqk",
           "shorts_stats": {
-            "views": 7,
+            "views": 6,
             "likes": 0,
             "comments": 0,
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
@@ -3066,7 +3066,7 @@
             "comments": 0,
             "title": "The $0 Tax State Hack Full-Time RVers Use (100% Legal)"
           },
-          "total_views": 8
+          "total_views": 7
         },
         {
           "shorts_id": "DzS5HtoTul0",
@@ -3190,7 +3190,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 61,
+      "yt_total_views": 60,
       "video_count": 10
     },
     {
