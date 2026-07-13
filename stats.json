@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T08:45:15.407712+00:00",
+  "generated_at": "2026-07-13T14:00:45.149485+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-13"
@@ -9,7 +9,7 @@
     "page_views": 50380,
     "page_views_alltime": 50380,
     "visits": 50380,
-    "articles": 2076,
+    "articles": 2086,
     "videos": 172,
     "channels": 14,
     "yt_views": 1629,
@@ -380,7 +380,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 136,
+      "articles": 138,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -392,6 +392,7 @@
         "California Nem 30 Explained",
         "Can Solar Panels Power A Whole House Off Grid",
         "Canadian Solar Panels Review",
+        "Community Solar Subscription Explained",
         "Community Solar Vs Rooftop Solar",
         "Do Solar Panels Work In Winter",
         "Does Solar Increase Home Value",
@@ -400,8 +401,7 @@
         "Ev Charging And Solar Panels Home",
         "Federal Solar Tax Credit 2026",
         "Federal Solar Tax Credit Expiration",
-        "Grid Tied Vs Off Grid Solar System",
-        "Hoa Solar Panel Rules"
+        "Grid Tied Vs Off Grid Solar System"
       ],
       "videos": [
         {
@@ -1070,7 +1070,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 141,
+      "articles": 143,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1080,6 +1080,7 @@
         "Average Settlement For Whiplash Injury 2026",
         "Average Slip And Fall Settlement At Grocery Store",
         "Back Injury Settlement Amounts Car Accident",
+        "Back Pain Weeks After A Car Accident",
         "Bad Faith Insurance Claim Explained",
         "Broken Bone Injury Settlement Average",
         "Can I Be Fired For Filing A Workers Comp Claim",
@@ -1090,8 +1091,7 @@
         "Car Accident Injury No Insurance Options",
         "Car Accident Pain And Suffering Claim",
         "Car Accident Settlement Amounts By Injury Type",
-        "Catastrophic Injury Lawsuit Process",
-        "Construction Accident Injury Lawsuit"
+        "Catastrophic Injury Lawsuit Process"
       ],
       "videos": [
         {
@@ -1304,7 +1304,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 132,
+      "articles": 134,
       "article_titles": [
         "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
@@ -1323,9 +1323,9 @@
         "Dwelling Fire Policy Explained",
         "Escrow And Home Insurance",
         "Fair Plan Insurance Explained",
+        "Fortified Home Program Insurance",
         "Hail And Wind Are Now Pricier Than Hurricanes For Insurers",
-        "Hail And Wind Are Now The Biggest Threat To Your Home Insurance",
-        "Hail Season Is Here Why Your Deductibles Just Changed"
+        "Hail And Wind Are Now The Biggest Threat To Your Home Insurance"
       ],
       "videos": [
         {
@@ -1835,7 +1835,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 0
+          "pageViews": 1
         }
       ],
       "cf_monthly_views": [
@@ -3223,7 +3223,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 2
+          "pageViews": 3
         }
       ],
       "cf_monthly_views": [
@@ -3248,12 +3248,13 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 156,
+      "articles": 158,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
         "Alpha Vs Beta Milestone In Game Production",
         "Art Debt In Game Production What It Is And How To Manage It",
+        "Associate Producer Game Industry Responsibilities",
         "Associate Producer To Producer How To Level Up",
         "Avoiding Scope Creep In Game Production",
         "Best Game Engine 2026",
@@ -3268,8 +3269,7 @@
         "Dealing With Burnout On A Game Dev Team",
         "Dependency Mapping In Game Development Schedules",
         "Do You Have What It Takes To Be A Game Producer",
-        "Do You Need To Know Coding To Make A Game",
-        "Forced Back To Indie What Xbox Spin Offs Mean For Re Independence"
+        "Do You Need To Know Coding To Make A Game"
       ],
       "videos": [],
       "cloudflare": {
@@ -3565,7 +3565,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 130,
+      "articles": 132,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
