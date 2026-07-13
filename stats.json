@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T15:47:06.621095+00:00",
+  "generated_at": "2026-07-13T19:09:28.315158+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-13"
@@ -9,10 +9,10 @@
     "page_views": 50380,
     "page_views_alltime": 50380,
     "visits": 50380,
-    "articles": 2088,
+    "articles": 2096,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1629,
+    "yt_views": 1632,
     "sites": 15
   },
   "adsense_connected": true,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 127,
+      "articles": 129,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -49,6 +49,7 @@
         "Best Medicare Supplement Companies",
         "Best Medigap Plans 2026",
         "Can I Switch From Medicare Advantage Back To Original Medicare",
+        "Can You Be Denied Medigap Coverage",
         "Cms Proposed Rule Would Cut Hospital Outpatient Costs For Seniors",
         "Cms Proposes Making Medicare Drug Price Negotiations Permanent",
         "Comparing Medicare Part D Plans",
@@ -56,8 +57,7 @@
         "Do I Need Medicare If Im Still Working",
         "Does Medicare Cover 100 Percent",
         "Does Medicare Cover Dental",
-        "Does Medicare Cover Eye Exams",
-        "Does Medicare Cover Hearing Aids"
+        "Does Medicare Cover Eye Exams"
       ],
       "videos": [
         {
@@ -1626,7 +1626,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 133,
+      "articles": 135,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "30 Year Vs 15 Year Mortgage",
@@ -1860,7 +1860,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 138,
+      "articles": 140,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2062,7 +2062,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 136,
+      "articles": 138,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Are You Ready For A New Pet",
@@ -2897,18 +2897,18 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 65,
+            "views": 66,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 46,
+            "views": 48,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 111
+          "total_views": 114
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3014,7 +3014,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 272,
+      "yt_total_views": 275,
       "video_count": 6
     },
     {
