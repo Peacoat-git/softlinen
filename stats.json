@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T07:44:52.914048+00:00",
+  "generated_at": "2026-07-14T13:03:25.235448+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-14"
@@ -9,10 +9,10 @@
     "page_views": 54090,
     "page_views_alltime": 54090,
     "visits": 54090,
-    "articles": 2106,
+    "articles": 2116,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1632,
+    "yt_views": 1633,
     "sites": 15
   },
   "adsense_connected": true,
@@ -384,7 +384,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 138,
+      "articles": 140,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1082,7 +1082,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 143,
+      "articles": 145,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1320,7 +1320,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 134,
+      "articles": 136,
       "article_titles": [
         "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
@@ -2149,12 +2149,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 24,
+            "views": 25,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 58
+          "total_views": 59
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2308,7 +2308,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 95,
+      "yt_total_views": 96,
       "video_count": 10
     },
     {
@@ -3296,7 +3296,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 158,
+      "articles": 160,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3307,6 +3307,7 @@
         "Avoiding Scope Creep In Game Production",
         "Best Game Engine 2026",
         "Best Project Management Tools For Game Studios",
+        "Buffer Time In Game Schedules Why It Matters",
         "Bug Triage Process For Game Development Teams",
         "Burnout In Game Development The Year 5 Cliff",
         "Capacity Planning For Game Development Teams",
@@ -3316,8 +3317,7 @@
         "Crunch Is A Production Failure Not A Culture Problem",
         "Dealing With Burnout On A Game Dev Team",
         "Dependency Mapping In Game Development Schedules",
-        "Do You Have What It Takes To Be A Game Producer",
-        "Do You Need To Know Coding To Make A Game"
+        "Do You Have What It Takes To Be A Game Producer"
       ],
       "videos": [],
       "cloudflare": {
@@ -3621,7 +3621,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 132,
+      "articles": 134,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
