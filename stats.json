@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T07:48:10.505847+00:00",
+  "generated_at": "2026-07-15T13:06:45.504688+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-15"
@@ -9,7 +9,7 @@
     "page_views": 59687,
     "page_views_alltime": 59687,
     "visits": 59687,
-    "articles": 2136,
+    "articles": 2146,
     "videos": 172,
     "channels": 14,
     "yt_views": 1634,
@@ -388,7 +388,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 140,
+      "articles": 142,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -1094,7 +1094,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 145,
+      "articles": 147,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Amputation Injury Settlement Amount",
@@ -1106,6 +1106,7 @@
         "Back Injury Settlement Amounts Car Accident",
         "Back Pain Weeks After A Car Accident",
         "Bad Faith Insurance Claim Explained",
+        "Bicycle Accident Injury Settlement",
         "Broken Bone Injury Settlement Average",
         "Can I Be Fired For Filing A Workers Comp Claim",
         "Can I Sue Employer Instead Of Workers Comp",
@@ -1114,8 +1115,7 @@
         "Car Accident Injury Claim Tips",
         "Car Accident Injury No Insurance Options",
         "Car Accident Pain And Suffering Claim",
-        "Car Accident Settlement Amounts By Injury Type",
-        "Catastrophic Injury Lawsuit Process"
+        "Car Accident Settlement Amounts By Injury Type"
       ],
       "videos": [
         {
@@ -1336,7 +1336,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 136,
+      "articles": 138,
       "article_titles": [
         "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
@@ -1345,6 +1345,7 @@
         "Cheap Homeowners Insurance",
         "Colorado Now Requires Insurers To Show You Your Wildfire Risk Score",
         "Colorados New Wildfire Insurance Law Takes Effect As Fires Burn",
+        "Colorados New Wildfire Risk Score Law What It Means For You",
         "Condo Insurance Explained",
         "Does Home Insurance Cover A Burst Pipe",
         "Does Home Insurance Cover Mold Removal",
@@ -1356,8 +1357,7 @@
         "Escrow And Home Insurance",
         "Fair Plan Insurance Explained",
         "Fortified Home Program Insurance",
-        "Hail And Wind Are Now Pricier Than Hurricanes For Insurers",
-        "Hail And Wind Are Now The Biggest Threat To Your Home Insurance"
+        "Hail And Wind Are Now Pricier Than Hurricanes For Insurers"
       ],
       "videos": [
         {
@@ -3344,7 +3344,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 160,
+      "articles": 162,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3677,7 +3677,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 134,
+      "articles": 136,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
