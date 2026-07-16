@@ -200,34 +200,48 @@ def _load_repo_json(path):
     return {}
 
 
+def _gh_json(method, url, payload=None):
+    """GitHub API call that survives transient 5xx/HTML responses. None on failure."""
+    for attempt in range(5):
+        try:
+            r = requests.request(method, url, headers=GH_HEADERS, json=payload, timeout=20)
+            if r.status_code in (200, 201):
+                return r.json()
+            print(f"  [WARN] GH {method} {url.rsplit('/', 2)[-1]} HTTP {r.status_code}")
+        except Exception as e:
+            print(f"  [WARN] GH {method} exception: {e}")
+        time.sleep(8 * (attempt + 1))
+    return None
+
+
 def save_history(monthly, daily):
-    """Commit monthly_history.json + daily_history.json back to the repo in one commit."""
+    """Commit monthly_history.json + daily_history.json back to the repo in one commit.
+
+    Must never raise: a history-save hiccup must not kill the stats refresh
+    (the next 6h run max-merges and catches up anyway).
+    """
+    GH = "https://api.github.com/repos/Peacoat-git/softlinen"
     entries = []
     for path, payload in (("monthly_history.json", monthly), ("daily_history.json", daily)):
-        b = requests.post("https://api.github.com/repos/Peacoat-git/softlinen/git/blobs",
-                          headers=GH_HEADERS,
-                          json={"content": json.dumps(payload, indent=2, sort_keys=True), "encoding": "utf-8"},
-                          timeout=15)
-        if b.status_code != 201:
-            print(f"  [WARN] {path} blob error: {b.status_code}")
+        b = _gh_json("POST", f"{GH}/git/blobs",
+                     {"content": json.dumps(payload, indent=2, sort_keys=True), "encoding": "utf-8"})
+        if not b:
+            print(f"  [WARN] {path} blob failed; history not saved this run")
             return
-        entries.append({"path": path, "mode": "100644", "type": "blob", "sha": b.json()["sha"]})
+        entries.append({"path": path, "mode": "100644", "type": "blob", "sha": b["sha"]})
     for _ in range(3):
-        head = requests.get("https://api.github.com/repos/Peacoat-git/softlinen/git/ref/heads/main",
-                            headers=GH_HEADERS, timeout=10).json()["object"]["sha"]
-        base_tree = requests.get(f"https://api.github.com/repos/Peacoat-git/softlinen/git/commits/{head}",
-                                 headers=GH_HEADERS, timeout=10).json()["tree"]["sha"]
-        tr = requests.post("https://api.github.com/repos/Peacoat-git/softlinen/git/trees",
-                           headers=GH_HEADERS, json={"base_tree": base_tree, "tree": entries}, timeout=15)
-        cr = requests.post("https://api.github.com/repos/Peacoat-git/softlinen/git/commits",
-                           headers=GH_HEADERS, json={"message": f"chore: update page view history [{TODAY_STR}]",
-                           "tree": tr.json()["sha"], "parents": [head]}, timeout=15)
-        pr = requests.patch("https://api.github.com/repos/Peacoat-git/softlinen/git/refs/heads/main",
-                            headers=GH_HEADERS, json={"sha": cr.json()["sha"]}, timeout=10)
-        if pr.status_code == 200:
-            print(f"  [OK] history files committed: {cr.json()['sha'][:8]}")
+        ref = _gh_json("GET", f"{GH}/git/ref/heads/main")
+        base = _gh_json("GET", f"{GH}/git/commits/{ref['object']['sha']}") if ref else None
+        tr = _gh_json("POST", f"{GH}/git/trees",
+                      {"base_tree": base["tree"]["sha"], "tree": entries}) if base else None
+        cr = _gh_json("POST", f"{GH}/git/commits",
+                      {"message": f"chore: update page view history [{TODAY_STR}]",
+                       "tree": tr["sha"], "parents": [ref["object"]["sha"]]}) if tr else None
+        pr = _gh_json("PATCH", f"{GH}/git/refs/heads/main", {"sha": cr["sha"]}) if cr else None
+        if pr:
+            print(f"  [OK] history files committed: {cr['sha'][:8]}")
             return
-        time.sleep(2)
+        time.sleep(5)
     print("  [WARN] history commit failed after retries")
 
 
