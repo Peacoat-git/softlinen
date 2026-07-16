@@ -184,65 +184,29 @@ def fetch_cf_analytics(zone_id, start=MTD_START, end=TOMORROW_STR):
 
 
 
-def _load_repo_json(path):
-    """Load a JSON history file from this repo (empty dict if missing/unreadable)."""
+import pathlib
+_REPO_DIR = pathlib.Path(__file__).parent
+
+
+def _load_repo_json(name):
+    """Load a JSON history file from the local checkout (empty dict if missing)."""
     try:
-        r = requests.get(
-            f"https://api.github.com/repos/Peacoat-git/softlinen/contents/{path}",
-            headers=GH_HEADERS, timeout=10,
-        )
-        if r.status_code == 200:
-            return json.loads(base64.b64decode(r.json()["content"]).decode("utf-8"))
-        if r.status_code != 404:
-            print(f"  [WARN] {path} load HTTP {r.status_code}")
+        with open(_REPO_DIR / name, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
     except Exception as e:
-        print(f"  [WARN] {path} load: {e}")
-    return {}
-
-
-def _gh_json(method, url, payload=None):
-    """GitHub API call that survives transient 5xx/HTML responses. None on failure."""
-    for attempt in range(5):
-        try:
-            r = requests.request(method, url, headers=GH_HEADERS, json=payload, timeout=20)
-            if r.status_code in (200, 201):
-                return r.json()
-            print(f"  [WARN] GH {method} {url.rsplit('/', 2)[-1]} HTTP {r.status_code}")
-        except Exception as e:
-            print(f"  [WARN] GH {method} exception: {e}")
-        time.sleep(8 * (attempt + 1))
-    return None
+        print(f"  [WARN] {name} load: {e}")
+        return {}
 
 
 def save_history(monthly, daily):
-    """Commit monthly_history.json + daily_history.json back to the repo in one commit.
-
-    Must never raise: a history-save hiccup must not kill the stats refresh
-    (the next 6h run max-merges and catches up anyway).
-    """
-    GH = "https://api.github.com/repos/Peacoat-git/softlinen"
-    entries = []
-    for path, payload in (("monthly_history.json", monthly), ("daily_history.json", daily)):
-        b = _gh_json("POST", f"{GH}/git/blobs",
-                     {"content": json.dumps(payload, indent=2, sort_keys=True), "encoding": "utf-8"})
-        if not b:
-            print(f"  [WARN] {path} blob failed; history not saved this run")
-            return
-        entries.append({"path": path, "mode": "100644", "type": "blob", "sha": b["sha"]})
-    for _ in range(3):
-        ref = _gh_json("GET", f"{GH}/git/ref/heads/main")
-        base = _gh_json("GET", f"{GH}/git/commits/{ref['object']['sha']}") if ref else None
-        tr = _gh_json("POST", f"{GH}/git/trees",
-                      {"base_tree": base["tree"]["sha"], "tree": entries}) if base else None
-        cr = _gh_json("POST", f"{GH}/git/commits",
-                      {"message": f"chore: update page view history [{TODAY_STR}]",
-                       "tree": tr["sha"], "parents": [ref["object"]["sha"]]}) if tr else None
-        pr = _gh_json("PATCH", f"{GH}/git/refs/heads/main", {"sha": cr["sha"]}) if cr else None
-        if pr:
-            print(f"  [OK] history files committed: {cr['sha'][:8]}")
-            return
-        time.sleep(5)
-    print("  [WARN] history commit failed after retries")
+    """Write history files into the checkout; the workflow's commit step pushes them
+    alongside stats.json (no in-script GitHub API writes to fail)."""
+    for name, payload in (("monthly_history.json", monthly), ("daily_history.json", daily)):
+        with open(_REPO_DIR / name, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, sort_keys=True)
+    print("  [OK] history files written (committed by workflow git step)")
 
 
 _CF_WINDOW_DAYS = None  # widest query window CF's plan will serve; discovered once per run
