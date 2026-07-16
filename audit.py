@@ -194,11 +194,8 @@ def main():
         elif pub["age_hours"] and pub["age_hours"] > PUBLISH_STALE_H:
             site_issues.append(f"publish not run in {pub['age_hours']:.0f}h (threshold {PUBLISH_STALE_H}h)")
 
-        # Video workflow — only flag failure or very stale, not never_run (newly deployed)
-        if vid["conclusion"] == "failure":
-            site_issues.append(f"video workflow FAILED ({vid['run_url']})")
-        elif vid["age_hours"] and vid["age_hours"] > VIDEO_STALE_H:
-            site_issues.append(f"video not run in {vid['age_hours']:.0f}h (threshold {VIDEO_STALE_H}h)")
+        # Video generation intentionally paused 2026-07 (Shotstack/ElevenLabs cancelled);
+        # crons removed from all video.yml. No video alerts until it is re-enabled.
 
         pub_str = f"{pub['conclusion']} ({pub['age_hours']}h ago)" if pub['age_hours'] else pub['conclusion']
         vid_str = f"{vid['conclusion']} ({vid['age_hours']}h ago)" if vid['age_hours'] else vid['conclusion']
