@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T07:50:08.885682+00:00",
+  "generated_at": "2026-07-17T13:00:19.743046+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-17"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 85443,
-    "page_views_alltime": 247512,
-    "visits": 85443,
-    "articles": 2199,
+    "page_views": 87632,
+    "page_views_alltime": 249698,
+    "visits": 87632,
+    "articles": 2209,
     "videos": 172,
     "channels": 14,
     "yt_views": 1640,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4127,
-        "visits": 4127,
-        "unique_visitors": 3256,
+        "page_views": 4262,
+        "visits": 4262,
+        "unique_visitors": 3300,
         "daily": [
           {
             "date": "2026-07-01",
@@ -360,7 +360,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 192
+            "pageViews": 327
           }
         ]
       },
@@ -389,7 +389,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 4127
+          "pageViews": 4262
         }
       ],
       "adsense": {
@@ -408,7 +408,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 146,
+      "articles": 148,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Best Direction To Face Solar Panels",
@@ -426,10 +426,10 @@
         "Does Solar Increase Home Value",
         "Energy Independence With Solar And Battery",
         "Enphase Iq Battery Review",
+        "Enphase Vs Solaredge Inverter",
         "Ev Charging And Solar Panels Home",
         "Federal Solar Tax Credit 2026",
-        "Federal Solar Tax Credit Expiration",
-        "Grid Tied Vs Off Grid Solar System"
+        "Federal Solar Tax Credit Expiration"
       ],
       "videos": [
         {
@@ -718,9 +718,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7215,
-        "visits": 7215,
-        "unique_visitors": 9351,
+        "page_views": 7340,
+        "visits": 7340,
+        "unique_visitors": 9479,
         "daily": [
           {
             "date": "2026-07-01",
@@ -788,7 +788,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 387
+            "pageViews": 512
           }
         ]
       },
@@ -817,7 +817,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7215
+          "pageViews": 7340
         }
       ],
       "adsense": {
@@ -1036,9 +1036,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5885,
-        "visits": 5885,
-        "unique_visitors": 5954,
+        "page_views": 6215,
+        "visits": 6215,
+        "unique_visitors": 6077,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1106,7 +1106,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 402
+            "pageViews": 732
           }
         ]
       },
@@ -1135,7 +1135,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5885
+          "pageViews": 6214
         }
       ],
       "adsense": {
@@ -1154,9 +1154,10 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 149,
+      "articles": 151,
       "article_titles": [
         "Accident Scene Photos What To Take",
+        "Accident With An Uninsured Driver What To Do",
         "Amputation Injury Settlement Amount",
         "Average Payout For Soft Tissue Injury Car Accident",
         "Average Personal Injury Settlement Amounts",
@@ -1174,8 +1175,7 @@
         "Car Accident Injury Claim Time Limit",
         "Car Accident Injury Claim Tips",
         "Car Accident Injury No Insurance Options",
-        "Car Accident Pain And Suffering Claim",
-        "Car Accident Settlement Amounts By Injury Type"
+        "Car Accident Pain And Suffering Claim"
       ],
       "videos": [
         {
@@ -1298,9 +1298,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4027,
-        "visits": 4027,
-        "unique_visitors": 3462,
+        "page_views": 4288,
+        "visits": 4288,
+        "unique_visitors": 3542,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1368,7 +1368,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 226
+            "pageViews": 487
           }
         ]
       },
@@ -1397,7 +1397,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 4027
+          "pageViews": 4288
         }
       ],
       "adsense": {
@@ -1416,7 +1416,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 140,
+      "articles": 142,
       "article_titles": [
         "Actual Cash Value Explained",
         "Appraisal Clause Home Insurance",
@@ -1648,9 +1648,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5158,
-        "visits": 5158,
-        "unique_visitors": 3200,
+        "page_views": 5340,
+        "visits": 5340,
+        "unique_visitors": 3265,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1718,7 +1718,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 236
+            "pageViews": 418
           }
         ]
       },
@@ -1747,7 +1747,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5158
+          "pageViews": 5340
         }
       ],
       "adsense": {
@@ -1910,9 +1910,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5282,
-        "visits": 5282,
-        "unique_visitors": 4487,
+        "page_views": 5362,
+        "visits": 5362,
+        "unique_visitors": 4568,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1980,7 +1980,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 318
+            "pageViews": 398
           }
         ]
       },
@@ -2009,7 +2009,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5282
+          "pageViews": 5362
         }
       ],
       "adsense": {
@@ -2140,9 +2140,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5312,
-        "visits": 5312,
-        "unique_visitors": 4053,
+        "page_views": 5515,
+        "visits": 5515,
+        "unique_visitors": 4129,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2210,7 +2210,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 340
+            "pageViews": 543
           }
         ]
       },
@@ -2239,7 +2239,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5312
+          "pageViews": 5515
         }
       ],
       "adsense": {
@@ -2392,9 +2392,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5801,
-        "visits": 5801,
-        "unique_visitors": 4622,
+        "page_views": 5993,
+        "visits": 5993,
+        "unique_visitors": 4687,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2462,7 +2462,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 261
+            "pageViews": 453
           }
         ]
       },
@@ -2491,7 +2491,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5801
+          "pageViews": 5993
         }
       ],
       "adsense": {
@@ -2644,9 +2644,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6310,
-        "visits": 6310,
-        "unique_visitors": 5270,
+        "page_views": 6409,
+        "visits": 6409,
+        "unique_visitors": 5400,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2714,7 +2714,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 384
+            "pageViews": 483
           }
         ]
       },
@@ -2743,7 +2743,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6310
+          "pageViews": 6409
         }
       ],
       "adsense": {
@@ -2984,9 +2984,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4520,
-        "visits": 4520,
-        "unique_visitors": 3541,
+        "page_views": 4577,
+        "visits": 4577,
+        "unique_visitors": 3584,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3054,7 +3054,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 164
+            "pageViews": 221
           }
         ]
       },
@@ -3083,7 +3083,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 4520
+          "pageViews": 4577
         }
       ],
       "adsense": {
@@ -3214,9 +3214,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6131,
-        "visits": 6131,
-        "unique_visitors": 5823,
+        "page_views": 6264,
+        "visits": 6264,
+        "unique_visitors": 5965,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3284,7 +3284,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 292
+            "pageViews": 425
           }
         ]
       },
@@ -3313,7 +3313,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6131
+          "pageViews": 6264
         }
       ],
       "adsense": {
@@ -3466,9 +3466,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5654,
-        "visits": 5654,
-        "unique_visitors": 5774,
+        "page_views": 5727,
+        "visits": 5727,
+        "unique_visitors": 5885,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3536,7 +3536,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 183
+            "pageViews": 256
           }
         ]
       },
@@ -3565,7 +3565,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5654
+          "pageViews": 5727
         }
       ],
       "adsense": {
@@ -3584,7 +3584,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 164,
+      "articles": 166,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -3609,9 +3609,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 8251,
-        "visits": 8251,
-        "unique_visitors": 7413,
+        "page_views": 8385,
+        "visits": 8385,
+        "unique_visitors": 7553,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3679,7 +3679,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 281
+            "pageViews": 415
           }
         ]
       },
@@ -3708,7 +3708,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8251
+          "pageViews": 8383
         }
       ],
       "adsense": {
@@ -3839,9 +3839,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4472,
-        "visits": 4472,
-        "unique_visitors": 3168,
+        "page_views": 4542,
+        "visits": 4542,
+        "unique_visitors": 3218,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3909,7 +3909,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 109
+            "pageViews": 179
           }
         ]
       },
@@ -3938,7 +3938,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 4472
+          "pageViews": 4542
         }
       ],
       "adsense": {
@@ -3957,7 +3957,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 138,
+      "articles": 140,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -4047,9 +4047,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7298,
-        "visits": 7298,
-        "unique_visitors": 6538,
+        "page_views": 7413,
+        "visits": 7413,
+        "unique_visitors": 6659,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4117,7 +4117,7 @@
           },
           {
             "date": "2026-07-17",
-            "pageViews": 328
+            "pageViews": 443
           }
         ]
       },
@@ -4146,7 +4146,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7298
+          "pageViews": 7413
         }
       ],
       "adsense": {
