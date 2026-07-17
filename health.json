@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T03:27:45.961305+00:00",
+  "generated_at": "2026-07-17T13:55:40.652806+00:00",
   "healthy": true,
   "issue_count": 0,
   "issues": [],
@@ -16,14 +16,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 11.7,
+        "age_hours": 22.2,
         "created_at": "2026-07-16T15:43:25Z",
         "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/29512438810"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 229.1,
+        "age_hours": 239.5,
         "created_at": "2026-07-07T14:22:47Z",
         "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/28873638141"
       },
@@ -34,18 +34,18 @@
       "slug": "solar-planner-guide",
       "domain": "solarplannerguide.com",
       "http": 200,
-      "articles": 146,
+      "articles": 148,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 18.1,
-        "created_at": "2026-07-16T09:23:50Z",
-        "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/29486984751"
+        "age_hours": 4.6,
+        "created_at": "2026-07-17T09:18:32Z",
+        "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/29569493660"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 372.9,
+        "age_hours": 383.4,
         "created_at": "2026-07-01T14:32:22Z",
         "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/28525223348"
       },
@@ -60,14 +60,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 4.1,
+        "age_hours": 14.5,
         "created_at": "2026-07-16T23:22:46Z",
         "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/29542026701"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 373.1,
+        "age_hours": 383.6,
         "created_at": "2026-07-01T14:22:13Z",
         "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/28524566895"
       },
@@ -78,18 +78,18 @@
       "slug": "injury-victim-guide",
       "domain": "injuryvictimguide.com",
       "http": 200,
-      "articles": 149,
+      "articles": 151,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 14.6,
-        "created_at": "2026-07-16T12:50:10Z",
-        "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/29499703190"
+        "age_hours": 1.6,
+        "created_at": "2026-07-17T12:20:03Z",
+        "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/29579859632"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 253.9,
+        "age_hours": 264.3,
         "created_at": "2026-07-06T13:36:46Z",
         "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/28795670303"
       },
@@ -100,18 +100,18 @@
       "slug": "home-insurance-guide",
       "domain": "homeinsuranceclear.com",
       "http": 200,
-      "articles": 140,
+      "articles": 142,
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 16.1,
-        "created_at": "2026-07-16T11:22:29Z",
-        "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/29494188086"
+        "age_hours": 2.8,
+        "created_at": "2026-07-17T11:10:15Z",
+        "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/29575947601"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 253.1,
+        "age_hours": 263.6,
         "created_at": "2026-07-06T14:20:49Z",
         "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/28798542388"
       },
@@ -126,14 +126,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 10.5,
+        "age_hours": 21.0,
         "created_at": "2026-07-16T16:54:59Z",
         "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/29517581863"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 252.6,
+        "age_hours": 263.1,
         "created_at": "2026-07-06T14:50:34Z",
         "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/28800529666"
       },
@@ -148,14 +148,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 12.2,
+        "age_hours": 22.6,
         "created_at": "2026-07-16T15:17:27Z",
         "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/29510470313"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 375.0,
+        "age_hours": 385.5,
         "created_at": "2026-07-01T12:25:43Z",
         "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/28517349780"
       },
@@ -170,14 +170,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 8.9,
+        "age_hours": 19.4,
         "created_at": "2026-07-16T18:33:40Z",
         "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/29524442840"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 350.6,
+        "age_hours": 361.0,
         "created_at": "2026-07-02T12:53:42Z",
         "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/28591546924"
       },
@@ -192,14 +192,14 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 4.9,
+        "age_hours": 15.3,
         "created_at": "2026-07-16T22:36:04Z",
         "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/29540021769"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 349.4,
+        "age_hours": 359.8,
         "created_at": "2026-07-02T14:06:46Z",
         "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/28596358463"
       },
