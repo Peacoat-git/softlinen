@@ -620,9 +620,13 @@ function loadStats() {
 function updateChart(data) {
   const ctx = document.getElementById('revenueChart').getContext('2d');
 
+  // Real Cloudflare page views (accumulated in monthly_history.json) so the chart
+  // matches the Page Views (All Time) KPI; GSC clicks only as a fallback.
+  const seriesOf = s => (s.cf_monthly_views && s.cf_monthly_views.length) ? s.cf_monthly_views : (s.monthly_views || []);
+
   // Collect all months across all sites, sorted oldest→newest
   const monthSet = new Set();
-  data.sites.forEach(s => (s.monthly_views||[]).forEach(m => monthSet.add(m.month)));
+  data.sites.forEach(s => seriesOf(s).forEach(m => monthSet.add(m.month)));
   const months = [...monthSet].sort();
   const labels = months.map(m => {
     const [y, mo] = m.split('-');
@@ -632,7 +636,7 @@ function updateChart(data) {
   // One dataset per site, values aligned to months array
   const datasets = data.sites.map(s => {
     const byMonth = {};
-    (s.monthly_views||[]).forEach(m => byMonth[m.month] = m.pageViews);
+    seriesOf(s).forEach(m => byMonth[m.month] = m.pageViews);
     return {
       label: s.name.replace(' Guide','').replace(' Planner','').replace(' Starter',''),
       data: months.map(m => byMonth[m] || 0),
