@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-18T18:43:34.213129+00:00",
+  "generated_at": "2026-07-19T01:25:38.927232+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-18"
+    "end": "2026-07-19"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 104142,
-    "page_views_alltime": 266211,
-    "visits": 104142,
-    "articles": 2251,
+    "page_views": 105912,
+    "page_views_alltime": 267980,
+    "visits": 105912,
+    "articles": 2235,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1642,
+    "yt_views": 1643,
     "sites": 15
   },
   "adsense_connected": true,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 140,
+      "articles": 133,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5181,
-        "visits": 5181,
-        "unique_visitors": 3776,
+        "page_views": 5263,
+        "visits": 5263,
+        "unique_visitors": 3822,
         "daily": [
           {
             "date": "2026-07-01",
@@ -364,7 +364,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 615
+            "pageViews": 679
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 18
           }
         ]
       },
@@ -393,7 +397,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5181
+          "pageViews": 5263
         }
       ],
       "adsense": {
@@ -412,7 +416,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 150,
+      "articles": 149,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Battery Subscriptions For Solar Homes What The New Lease Plans Offer",
@@ -722,9 +726,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8690,
-        "visits": 8690,
-        "unique_visitors": 10181,
+        "page_views": 8839,
+        "visits": 8839,
+        "unique_visitors": 10327,
         "daily": [
           {
             "date": "2026-07-01",
@@ -796,7 +800,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 633
+            "pageViews": 754
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 28
           }
         ]
       },
@@ -825,7 +833,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8690
+          "pageViews": 8839
         }
       ],
       "adsense": {
@@ -844,7 +852,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 146,
+      "articles": 148,
       "article_titles": [
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
         "Best Batteries For Off Grid Solar",
@@ -1044,9 +1052,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7608,
-        "visits": 7608,
-        "unique_visitors": 6814,
+        "page_views": 7766,
+        "visits": 7766,
+        "unique_visitors": 6975,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1118,7 +1126,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 708
+            "pageViews": 831
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 35
           }
         ]
       },
@@ -1147,7 +1159,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7608
+          "pageViews": 7766
         }
       ],
       "adsense": {
@@ -1310,9 +1322,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5565,
-        "visits": 5565,
-        "unique_visitors": 4201,
+        "page_views": 5667,
+        "visits": 5667,
+        "unique_visitors": 4269,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1384,7 +1396,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 453
+            "pageViews": 536
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 19
           }
         ]
       },
@@ -1413,7 +1429,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5565
+          "pageViews": 5667
         }
       ],
       "adsense": {
@@ -1432,7 +1448,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 144,
+      "articles": 141,
       "article_titles": [
         "Actual Cash Value Explained",
         "Appraisal Clause Home Insurance",
@@ -1664,9 +1680,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6966,
-        "visits": 6966,
-        "unique_visitors": 3724,
+        "page_views": 7018,
+        "visits": 7018,
+        "unique_visitors": 3778,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1738,7 +1754,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 846
+            "pageViews": 888
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 10
           }
         ]
       },
@@ -1767,7 +1787,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6966
+          "pageViews": 7018
         }
       ],
       "adsense": {
@@ -1786,10 +1806,9 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 145,
+      "articles": 143,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
-        "30 Year Vs 15 Year Mortgage",
         "A Fed Rate Hike Is Now On The Table What Mortgage Borrowers Should Do",
         "Are Mortgage Interest Payments Tax Deductible In 2026",
         "Are You Ready To Buy A Home",
@@ -1807,7 +1826,8 @@
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
         "Current 30 Year Fixed Mortgage Rates Forecast 2026",
-        "Current Mortgage Rates"
+        "Current Mortgage Rates",
+        "Debt To Income Ratio For Mortgage"
       ],
       "videos": [
         {
@@ -1930,9 +1950,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6297,
-        "visits": 6297,
-        "unique_visitors": 5261,
+        "page_views": 6381,
+        "visits": 6381,
+        "unique_visitors": 5404,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2004,7 +2024,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 496
+            "pageViews": 561
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 19
           }
         ]
       },
@@ -2033,7 +2057,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6297
+          "pageViews": 6381
         }
       ],
       "adsense": {
@@ -2052,7 +2076,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 150,
+      "articles": 149,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2164,9 +2188,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6620,
-        "visits": 6620,
-        "unique_visitors": 4555,
+        "page_views": 6678,
+        "visits": 6678,
+        "unique_visitors": 4623,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2238,7 +2262,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 514
+            "pageViews": 556
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 16
           }
         ]
       },
@@ -2267,7 +2295,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6620
+          "pageViews": 6678
         }
       ],
       "adsense": {
@@ -2286,7 +2314,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 148,
+      "articles": 146,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Anaplasmosis Dogs Treatment",
@@ -2420,9 +2448,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7939,
-        "visits": 7939,
-        "unique_visitors": 5122,
+        "page_views": 7971,
+        "visits": 7971,
+        "unique_visitors": 5165,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2494,7 +2522,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 1212
+            "pageViews": 1240
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 4
           }
         ]
       },
@@ -2523,7 +2555,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7939
+          "pageViews": 7971
         }
       ],
       "adsense": {
@@ -2542,7 +2574,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 140,
+      "articles": 141,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2676,9 +2708,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7524,
-        "visits": 7524,
-        "unique_visitors": 6170,
+        "page_views": 7699,
+        "visits": 7699,
+        "unique_visitors": 6374,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2750,7 +2782,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 569
+            "pageViews": 728
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 16
           }
         ]
       },
@@ -2779,7 +2815,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7524
+          "pageViews": 7699
         }
       ],
       "adsense": {
@@ -2798,7 +2834,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 159,
+      "articles": 158,
       "article_titles": [
         "20 Grams Carbs Keto",
         "50 Grams Carbs Keto",
@@ -3020,9 +3056,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5074,
-        "visits": 5074,
-        "unique_visitors": 3929,
+        "page_views": 5126,
+        "visits": 5126,
+        "unique_visitors": 3983,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3094,7 +3130,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 381
+            "pageViews": 420
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 13
           }
         ]
       },
@@ -3123,7 +3163,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5074
+          "pageViews": 5126
         }
       ],
       "adsense": {
@@ -3142,7 +3182,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 151,
+      "articles": 150,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
@@ -3223,12 +3263,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 48,
+            "views": 49,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 116
+          "total_views": 117
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3254,9 +3294,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7183,
-        "visits": 7183,
-        "unique_visitors": 6723,
+        "page_views": 7352,
+        "visits": 7352,
+        "unique_visitors": 6914,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3328,7 +3368,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 689
+            "pageViews": 825
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 33
           }
         ]
       },
@@ -3357,7 +3401,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7183
+          "pageViews": 7352
         }
       ],
       "adsense": {
@@ -3366,7 +3410,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 277,
+      "yt_total_views": 278,
       "video_count": 6
     },
     {
@@ -3376,7 +3420,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 150,
+      "articles": 152,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -3510,9 +3554,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6391,
-        "visits": 6391,
-        "unique_visitors": 6726,
+        "page_views": 6487,
+        "visits": 6487,
+        "unique_visitors": 7032,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3584,7 +3628,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 573
+            "pageViews": 656
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 13
           }
         ]
       },
@@ -3613,7 +3661,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6391
+          "pageViews": 6487
         }
       ],
       "adsense": {
@@ -3657,9 +3705,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 9579,
-        "visits": 9579,
-        "unique_visitors": 8464,
+        "page_views": 9938,
+        "visits": 9938,
+        "unique_visitors": 8771,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3731,7 +3779,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 956
+            "pageViews": 1220
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 95
           }
         ]
       },
@@ -3760,7 +3812,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9579
+          "pageViews": 9937
         }
       ],
       "adsense": {
@@ -3779,7 +3831,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 165,
+      "articles": 164,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -3891,9 +3943,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5207,
-        "visits": 5207,
-        "unique_visitors": 3507,
+        "page_views": 5257,
+        "visits": 5257,
+        "unique_visitors": 3556,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3965,7 +4017,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 477
+            "pageViews": 518
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 9
           }
         ]
       },
@@ -3994,7 +4050,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 5207
+          "pageViews": 5257
         }
       ],
       "adsense": {
@@ -4013,7 +4069,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 142,
+      "articles": 140,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -4103,9 +4159,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8318,
-        "visits": 8318,
-        "unique_visitors": 7355,
+        "page_views": 8470,
+        "visits": 8470,
+        "unique_visitors": 7522,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4177,7 +4233,11 @@
           },
           {
             "date": "2026-07-18",
-            "pageViews": 661
+            "pageViews": 785
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 28
           }
         ]
       },
@@ -4206,7 +4266,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8318
+          "pageViews": 8470
         }
       ],
       "adsense": {
