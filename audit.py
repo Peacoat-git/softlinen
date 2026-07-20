@@ -28,7 +28,43 @@ SITES = [
     {"slug": "therapy-finder-guide",    "domain": "therapyfinderguide.com"},
     {"slug": "pet-doctor-guide",        "domain": "petdoctorguide.com"},
     {"slug": "small-biz-finance-guide", "domain": "smallbizfinanceguide.com"},
+    {"slug": "keto-living-guide",       "domain": "ketolivingguide.com"},
+    {"slug": "rv-life-guide",           "domain": "rv-life-guide.com"},
+    {"slug": "seniorstrength",          "domain": "seniorstrength.today"},
+    {"slug": "chicken-keeper-guide",    "domain": "chickenkeeperguide.com"},
+    {"slug": "fixitrightway",           "domain": "fixitrightway.com"},
+    {"slug": "gamedevproducer",         "domain": "gamedevproducer.com"},
 ]
+
+# Run status alone is blind to a feed that quietly stops updating: a swallowed
+# push or a no-op fetch both leave the run green. So check the OUTPUT age too.
+# (slug, workflow file, committed data path, cadence days)
+DATA_FEEDS = [
+    ("keto-living-guide",       "keto-data.yml",  "data/keto_foods.json",   30),
+    ("mortgage-advisor-guide",  "rates.yml",      "data/rates.json",        30),
+    ("small-biz-finance-guide", "rates.yml",      "data/rates.json",        30),
+    ("solar-home-planner",      "solar-data.yml", "data/solar_states.json", 30),
+    ("solar-planner-guide",     "solar-data.yml", "data/solar_states.json", 30),
+    ("chicken-keeper-guide",    "eggs.yml",       "data/eggs.json",         30),
+    ("gamedevproducer",         "steam.yml",      "data/steam.json",         7),
+    ("rv-life-guide",           "fuel.yml",       "data/fuel_prices.json",   7),
+]
+
+
+def check_data_feed(slug, path):
+    """Age in days of the newest commit touching `path`, or None if unknown."""
+    try:
+        r = requests.get(
+            f"https://api.github.com/repos/peacoat-sites/{slug}/commits",
+            params={"path": path, "per_page": 1}, headers=GH_HEADS, timeout=15,
+        )
+        if r.status_code != 200 or not r.json():
+            return None
+        ts = r.json()[0]["commit"]["committer"]["date"]
+        created = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+        return (datetime.now(timezone.utc) - created).total_seconds() / 86400
+    except Exception:
+        return None
 
 
 def check_workflow(slug, workflow_file):
@@ -216,6 +252,30 @@ def main():
             "healthy":      len(site_issues) == 0,
         })
 
+    # Data-feed output freshness (catches feeds that silently stop updating)
+    print("\n  data feeds...")
+    feed_health = []
+    for slug, wf, path, cadence in DATA_FEEDS:
+        age = check_data_feed(slug, path)
+        # generous: only alert at 2x cadence + a week, since a feed legitimately
+        # commits nothing when the upstream values have not moved
+        limit = cadence * 2 + 7
+        stale = age is not None and age > limit
+        if age is None:
+            print(f"    {slug}/{path}: no commit history")
+        else:
+            print(f"    {slug}/{path}: {age:.0f}d old (limit {limit}d)" + ("  STALE" if stale else ""))
+        if stale:
+            all_issues.append(
+                f"**{slug}**: {path} not updated in {age:.0f}d "
+                f"(cadence {cadence}d) — {wf} may be silently failing"
+            )
+        feed_health.append({
+            "slug": slug, "workflow": wf, "path": path,
+            "cadence_days": cadence, "age_days": None if age is None else round(age, 1),
+            "stale": bool(stale),
+        })
+
     # Token health (proactive: catches revocation/expiry before workflows fail)
     print("  token health...")
     token_issues = check_tokens()
@@ -236,6 +296,7 @@ def main():
             "video_stale_hours":   VIDEO_STALE_H,
         },
         "sites": site_health,
+        "data_feeds": feed_health,
         "token_issues": token_issues,
     }
     out = Path(__file__).parent / "health.json"
