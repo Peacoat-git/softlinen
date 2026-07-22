@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-22T01:23:44.983416+00:00",
+  "generated_at": "2026-07-22T08:05:51.123759+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-22"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 137674,
-    "page_views_alltime": 299743,
-    "visits": 137674,
-    "articles": 2324,
+    "page_views": 151824,
+    "page_views_alltime": 313893,
+    "visits": 151824,
+    "articles": 2315,
     "videos": 172,
     "channels": 14,
     "yt_views": 1645,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 139,
+      "articles": 134,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6507,
-        "visits": 6507,
-        "unique_visitors": 4729,
+        "page_views": 7551,
+        "visits": 7551,
+        "unique_visitors": 4840,
         "daily": [
           {
             "date": "2026-07-01",
@@ -380,7 +380,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 24
+            "pageViews": 1068
           }
         ]
       },
@@ -409,7 +409,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6507
+          "pageViews": 7551
         }
       ],
       "adsense": {
@@ -738,9 +738,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9859,
-        "visits": 9859,
-        "unique_visitors": 11480,
+        "page_views": 10674,
+        "visits": 10674,
+        "unique_visitors": 11664,
         "daily": [
           {
             "date": "2026-07-01",
@@ -828,7 +828,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 30
+            "pageViews": 845
           }
         ]
       },
@@ -857,7 +857,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9859
+          "pageViews": 10674
         }
       ],
       "adsense": {
@@ -1076,9 +1076,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9542,
-        "visits": 9542,
-        "unique_visitors": 8242,
+        "page_views": 10408,
+        "visits": 10408,
+        "unique_visitors": 8422,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1166,7 +1166,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 30
+            "pageViews": 896
           }
         ]
       },
@@ -1195,7 +1195,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9542
+          "pageViews": 10408
         }
       ],
       "adsense": {
@@ -1358,9 +1358,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6910,
-        "visits": 6910,
-        "unique_visitors": 5291,
+        "page_views": 7938,
+        "visits": 7938,
+        "unique_visitors": 5426,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1448,7 +1448,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 46
+            "pageViews": 1074
           }
         ]
       },
@@ -1477,7 +1477,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6910
+          "pageViews": 7938
         }
       ],
       "adsense": {
@@ -1496,7 +1496,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 147,
+      "articles": 145,
       "article_titles": [
         "Actual Cash Value Explained",
         "Appraisal Clause Home Insurance",
@@ -1728,9 +1728,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9009,
-        "visits": 9009,
-        "unique_visitors": 4374,
+        "page_views": 10307,
+        "visits": 10307,
+        "unique_visitors": 4480,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1818,7 +1818,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 29
+            "pageViews": 1327
           }
         ]
       },
@@ -1847,7 +1847,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9009
+          "pageViews": 10307
         }
       ],
       "adsense": {
@@ -1866,10 +1866,9 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 149,
+      "articles": 147,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
-        "30 Year Vs 15 Year Mortgage",
         "A Fed Rate Hike Is Now On The Table What Mortgage Borrowers Should Do",
         "Are Mortgage Interest Payments Tax Deductible In 2026",
         "Are You Ready To Buy A Home",
@@ -1887,7 +1886,8 @@
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
         "Current 30 Year Fixed Mortgage Rates Forecast 2026",
-        "Current Mortgage Rates"
+        "Current Mortgage Rates",
+        "Debt To Income Ratio For Mortgage"
       ],
       "videos": [
         {
@@ -2010,9 +2010,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7567,
-        "visits": 7567,
-        "unique_visitors": 7643,
+        "page_views": 8309,
+        "visits": 8309,
+        "unique_visitors": 7869,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2100,7 +2100,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 19
+            "pageViews": 761
           }
         ]
       },
@@ -2129,7 +2129,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7567
+          "pageViews": 8309
         }
       ],
       "adsense": {
@@ -2260,9 +2260,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7260,
-        "visits": 7260,
-        "unique_visitors": 5278,
+        "page_views": 7995,
+        "visits": 7995,
+        "unique_visitors": 5320,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2350,7 +2350,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 14
+            "pageViews": 749
           }
         ]
       },
@@ -2379,7 +2379,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7260
+          "pageViews": 7995
         }
       ],
       "adsense": {
@@ -2532,9 +2532,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8973,
-        "visits": 8973,
-        "unique_visitors": 5767,
+        "page_views": 9744,
+        "visits": 9744,
+        "unique_visitors": 5838,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2622,7 +2622,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 34
+            "pageViews": 805
           }
         ]
       },
@@ -2651,7 +2651,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8973
+          "pageViews": 9744
         }
       ],
       "adsense": {
@@ -2804,9 +2804,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9224,
-        "visits": 9224,
-        "unique_visitors": 7986,
+        "page_views": 10039,
+        "visits": 10039,
+        "unique_visitors": 8166,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2894,7 +2894,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 26
+            "pageViews": 841
           }
         ]
       },
@@ -2923,7 +2923,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9224
+          "pageViews": 10039
         }
       ],
       "adsense": {
@@ -3164,9 +3164,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7340,
-        "visits": 7340,
-        "unique_visitors": 4869,
+        "page_views": 8306,
+        "visits": 8306,
+        "unique_visitors": 4931,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3254,7 +3254,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 23
+            "pageViews": 989
           }
         ]
       },
@@ -3283,7 +3283,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7340
+          "pageViews": 8306
         }
       ],
       "adsense": {
@@ -3302,12 +3302,13 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 156,
+      "articles": 158,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
         "Adding Light For Winter Egg Production",
         "Aggressive Chickens",
+        "Ameraucana Chickens",
         "Apple Cider Vinegar For Chickens",
         "Are You Ready To Raise Backyard Chickens",
         "Avian Influenza Backyard Flock",
@@ -3322,8 +3323,7 @@
         "Brooder Setup For Chicks",
         "Broody Hen Behavior",
         "Bumblefoot In Chickens",
-        "Buying Chicks Online",
-        "Can Chickens Eat Banana Peels"
+        "Buying Chicks Online"
       ],
       "videos": [
         {
@@ -3414,9 +3414,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10664,
-        "visits": 10664,
-        "unique_visitors": 9079,
+        "page_views": 11508,
+        "visits": 11508,
+        "unique_visitors": 9240,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3504,7 +3504,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 43
+            "pageViews": 887
           }
         ]
       },
@@ -3533,7 +3533,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 10664
+          "pageViews": 11508
         }
       ],
       "adsense": {
@@ -3686,9 +3686,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7972,
-        "visits": 7972,
-        "unique_visitors": 8887,
+        "page_views": 8778,
+        "visits": 8778,
+        "unique_visitors": 9081,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3776,7 +3776,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 31
+            "pageViews": 837
           }
         ]
       },
@@ -3805,7 +3805,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7972
+          "pageViews": 8778
         }
       ],
       "adsense": {
@@ -3849,9 +3849,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 14471,
-        "visits": 14471,
-        "unique_visitors": 12463,
+        "page_views": 15494,
+        "visits": 15494,
+        "unique_visitors": 12721,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3939,7 +3939,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 74
+            "pageViews": 1097
           }
         ]
       },
@@ -3968,7 +3968,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 14471
+          "pageViews": 15494
         }
       ],
       "adsense": {
@@ -3987,7 +3987,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 170,
+      "articles": 169,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -4099,9 +4099,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6390,
-        "visits": 6390,
-        "unique_visitors": 4177,
+        "page_views": 7176,
+        "visits": 7176,
+        "unique_visitors": 4218,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4189,7 +4189,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 24
+            "pageViews": 810
           }
         ]
       },
@@ -4218,7 +4218,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6390
+          "pageViews": 7176
         }
       ],
       "adsense": {
@@ -4237,7 +4237,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 146,
+      "articles": 145,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -4327,9 +4327,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 15986,
-        "visits": 15986,
-        "unique_visitors": 13912,
+        "page_views": 17597,
+        "visits": 17597,
+        "unique_visitors": 14846,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4417,7 +4417,7 @@
           },
           {
             "date": "2026-07-22",
-            "pageViews": 131
+            "pageViews": 1742
           }
         ]
       },
@@ -4446,7 +4446,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 15986
+          "pageViews": 17597
         }
       ],
       "adsense": {
