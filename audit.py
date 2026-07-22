@@ -6,9 +6,10 @@ Writes health.json and opens a GitHub Issue if critical problems are found.
 Closes stale open issues when all clear.
 """
 
-import os, json, requests
+import os, re, json, requests
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 
 GH_TOKEN  = os.environ["GITHUB_TOKEN"]
 GH_HEADS  = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json"}
@@ -65,6 +66,49 @@ def check_data_feed(slug, path):
         return (datetime.now(timezone.utc) - created).total_seconds() / 86400
     except Exception:
         return None
+
+
+def check_sitemap_hygiene(domain):
+    """Check EVERY URL in the live sitemap. A healthy sitemap lists only canonical
+    200 URLs. requests follows redirects by default (masking a merged/renamed page
+    as 200), so we use allow_redirects=False and classify each entry:
+      DEAD  : 4xx/5xx — URL listed but gone
+      REDIR : 3xx — merged/renamed page still emitted (redirect is fine for users,
+              but a redirecting URL in a sitemap is a duplicate-content signal;
+              the source .md should be deleted)
+    Returns (checked, dead[(path,code)], redir[(path,target)])."""
+    try:
+        r = requests.get(f"https://{domain}/sitemap.xml",
+                         headers={"User-Agent": "Googlebot"}, timeout=15)
+        if r.status_code != 200:
+            return (0, [], [])
+        locs = re.findall(r"<loc>([^<]+)</loc>", r.text)
+    except Exception:
+        return (0, [], [])
+    if not locs:
+        return (0, [], [])
+
+    def chk(u):
+        for _ in range(2):  # retry once — a transient error is not a real status
+            try:
+                rr = requests.head(u, headers={"User-Agent": "Mozilla/5.0"},
+                                   allow_redirects=False, timeout=12)
+                return (u, rr.status_code, rr.headers.get("Location", "") or "")
+            except Exception:
+                pass
+        return (u, 0, "")
+
+    dead, redir = [], []
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        for u, code, loc in ex.map(chk, locs):
+            if code == 0:
+                continue
+            path = u.replace(f"https://{domain}", "")
+            if code in (301, 302, 303, 307, 308):
+                redir.append((path, loc.replace(f"https://{domain}", "") if loc else "?"))
+            elif code >= 400:
+                dead.append((path, code))
+    return (len(locs), dead, redir)
 
 
 def check_workflow(slug, workflow_file):
@@ -276,6 +320,33 @@ def main():
             "stale": bool(stale),
         })
 
+    # Sitemap hygiene — every sitemap URL must be a canonical 200. Catches merged/
+    # renamed pages still emitted as redirecting URLs (a duplicate-content signal
+    # that run-status and HTTP checks are both blind to) and dead URLs in the sitemap.
+    print("\n  sitemap hygiene...")
+    sitemap_health = []
+    for site in SITES:
+        slug, domain = site["slug"], site["domain"]
+        checked, dead, redir = check_sitemap_hygiene(domain)
+        note = f"{checked} urls"
+        if dead:  note += f"  {len(dead)} DEAD"
+        if redir: note += f"  {len(redir)} REDIR"
+        print(f"    {slug}: {note}")
+        if dead:
+            ds = ", ".join(f"{u}({c})" for u, c in dead[:3])
+            all_issues.append(f"**{slug}**: sitemap lists {len(dead)} dead URL(s) — {ds}")
+        if redir:
+            rs = ", ".join(f"{u}→{t}" for u, t in redir[:3])
+            all_issues.append(
+                f"**{slug}**: sitemap lists {len(redir)} redirecting URL(s) — "
+                f"merged/renamed page still emitted, delete its source .md ({rs})"
+            )
+        sitemap_health.append({
+            "slug": slug, "domain": domain, "checked": checked,
+            "dead":  [{"path": u, "code": c} for u, c in dead],
+            "redir": [{"path": u, "target": t} for u, t in redir],
+        })
+
     # Token health (proactive: catches revocation/expiry before workflows fail)
     print("  token health...")
     token_issues = check_tokens()
@@ -297,6 +368,7 @@ def main():
         },
         "sites": site_health,
         "data_feeds": feed_health,
+        "sitemap_health": sitemap_health,
         "token_issues": token_issues,
     }
     out = Path(__file__).parent / "health.json"
