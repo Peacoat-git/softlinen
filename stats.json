@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-21T19:01:37.308532+00:00",
+  "generated_at": "2026-07-22T01:23:44.983416+00:00",
   "period": {
     "start": "2026-07-01",
-    "end": "2026-07-21"
+    "end": "2026-07-22"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 125034,
-    "page_views_alltime": 297531,
-    "visits": 125034,
-    "articles": 2316,
+    "page_views": 137674,
+    "page_views_alltime": 299743,
+    "visits": 137674,
+    "articles": 2324,
     "videos": 172,
     "channels": 14,
     "yt_views": 1645,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6436,
-        "visits": 6436,
-        "unique_visitors": 4654,
+        "page_views": 6507,
+        "visits": 6507,
+        "unique_visitors": 4729,
         "daily": [
           {
             "date": "2026-07-01",
@@ -376,7 +376,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 339
+            "pageViews": 386
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 24
           }
         ]
       },
@@ -405,7 +409,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6436
+          "pageViews": 6507
         }
       ],
       "adsense": {
@@ -734,9 +738,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9781,
-        "visits": 9781,
-        "unique_visitors": 11357,
+        "page_views": 9859,
+        "visits": 9859,
+        "unique_visitors": 11480,
         "daily": [
           {
             "date": "2026-07-01",
@@ -820,7 +824,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 383
+            "pageViews": 431
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 30
           }
         ]
       },
@@ -849,7 +857,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9781
+          "pageViews": 9859
         }
       ],
       "adsense": {
@@ -868,7 +876,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 152,
+      "articles": 154,
       "article_titles": [
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
         "Best Batteries For Off Grid Solar",
@@ -1068,9 +1076,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9276,
-        "visits": 9276,
-        "unique_visitors": 8078,
+        "page_views": 9542,
+        "visits": 9542,
+        "unique_visitors": 8242,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1154,7 +1162,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 486
+            "pageViews": 722
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 30
           }
         ]
       },
@@ -1183,7 +1195,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9276
+          "pageViews": 9542
         }
       ],
       "adsense": {
@@ -1346,9 +1358,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6774,
-        "visits": 6774,
-        "unique_visitors": 5176,
+        "page_views": 6910,
+        "visits": 6910,
+        "unique_visitors": 5291,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1432,7 +1444,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 341
+            "pageViews": 431
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 46
           }
         ]
       },
@@ -1461,7 +1477,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6774
+          "pageViews": 6910
         }
       ],
       "adsense": {
@@ -1712,9 +1728,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8932,
-        "visits": 8932,
-        "unique_visitors": 4311,
+        "page_views": 9009,
+        "visits": 9009,
+        "unique_visitors": 4374,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1798,7 +1814,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 150
+            "pageViews": 198
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 29
           }
         ]
       },
@@ -1827,7 +1847,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8932
+          "pageViews": 9009
         }
       ],
       "adsense": {
@@ -1990,9 +2010,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7494,
-        "visits": 7494,
-        "unique_visitors": 7497,
+        "page_views": 7567,
+        "visits": 7567,
+        "unique_visitors": 7643,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2076,7 +2096,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 338
+            "pageViews": 392
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 19
           }
         ]
       },
@@ -2105,7 +2129,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7494
+          "pageViews": 7567
         }
       ],
       "adsense": {
@@ -2236,9 +2260,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7220,
-        "visits": 7220,
-        "unique_visitors": 5245,
+        "page_views": 7260,
+        "visits": 7260,
+        "unique_visitors": 5278,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2322,7 +2346,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 142
+            "pageViews": 168
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 14
           }
         ]
       },
@@ -2351,7 +2379,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7220
+          "pageViews": 7260
         }
       ],
       "adsense": {
@@ -2504,9 +2532,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8855,
-        "visits": 8855,
-        "unique_visitors": 5670,
+        "page_views": 8973,
+        "visits": 8973,
+        "unique_visitors": 5767,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2590,7 +2618,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 259
+            "pageViews": 343
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 34
           }
         ]
       },
@@ -2619,7 +2651,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8855
+          "pageViews": 8973
         }
       ],
       "adsense": {
@@ -2638,7 +2670,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 145,
+      "articles": 147,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounts Receivable Management",
@@ -2772,9 +2804,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9123,
-        "visits": 9123,
-        "unique_visitors": 7864,
+        "page_views": 9224,
+        "visits": 9224,
+        "unique_visitors": 7986,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2858,7 +2890,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 372
+            "pageViews": 447
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 26
           }
         ]
       },
@@ -2887,7 +2923,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9123
+          "pageViews": 9224
         }
       ],
       "adsense": {
@@ -3128,9 +3164,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7278,
-        "visits": 7278,
-        "unique_visitors": 4828,
+        "page_views": 7340,
+        "visits": 7340,
+        "unique_visitors": 4869,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3214,7 +3250,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 633
+            "pageViews": 672
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 23
           }
         ]
       },
@@ -3243,7 +3283,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7278
+          "pageViews": 7340
         }
       ],
       "adsense": {
@@ -3374,10 +3414,99 @@
         }
       ],
       "cloudflare": {
-        "page_views": 0,
-        "visits": 0,
-        "unique_visitors": 0,
-        "daily": []
+        "page_views": 10664,
+        "visits": 10664,
+        "unique_visitors": 9079,
+        "daily": [
+          {
+            "date": "2026-07-01",
+            "pageViews": 245
+          },
+          {
+            "date": "2026-07-02",
+            "pageViews": 406
+          },
+          {
+            "date": "2026-07-03",
+            "pageViews": 376
+          },
+          {
+            "date": "2026-07-04",
+            "pageViews": 455
+          },
+          {
+            "date": "2026-07-05",
+            "pageViews": 483
+          },
+          {
+            "date": "2026-07-06",
+            "pageViews": 680
+          },
+          {
+            "date": "2026-07-07",
+            "pageViews": 270
+          },
+          {
+            "date": "2026-07-08",
+            "pageViews": 289
+          },
+          {
+            "date": "2026-07-09",
+            "pageViews": 207
+          },
+          {
+            "date": "2026-07-10",
+            "pageViews": 324
+          },
+          {
+            "date": "2026-07-11",
+            "pageViews": 397
+          },
+          {
+            "date": "2026-07-12",
+            "pageViews": 375
+          },
+          {
+            "date": "2026-07-13",
+            "pageViews": 292
+          },
+          {
+            "date": "2026-07-14",
+            "pageViews": 287
+          },
+          {
+            "date": "2026-07-15",
+            "pageViews": 390
+          },
+          {
+            "date": "2026-07-16",
+            "pageViews": 363
+          },
+          {
+            "date": "2026-07-17",
+            "pageViews": 655
+          },
+          {
+            "date": "2026-07-18",
+            "pageViews": 825
+          },
+          {
+            "date": "2026-07-19",
+            "pageViews": 1593
+          },
+          {
+            "date": "2026-07-20",
+            "pageViews": 918
+          },
+          {
+            "date": "2026-07-21",
+            "pageViews": 791
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 43
+          }
+        ]
       },
       "monthly_views": [
         {
@@ -3404,7 +3533,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 10428
+          "pageViews": 10664
         }
       ],
       "adsense": {
@@ -3423,7 +3552,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 156,
+      "articles": 158,
       "article_titles": [
         "Average Monthly Cost Of Full Time Rv Living",
         "Backing Into Rv Campsite",
@@ -3434,6 +3563,7 @@
         "Best Fifth Wheels Full Time",
         "Best Free Camping Apps",
         "Best Generator For Boondocking In An Rv",
+        "Best Lithium Battery Setup For Van Life",
         "Best Mail Forwarding Service For Full Time Rvers",
         "Best Remote Jobs For Full Time Rvers",
         "Best Rv Brands Reliability",
@@ -3443,8 +3573,7 @@
         "Best Rv Parks For Monthly Long Term Stays",
         "Best Rv Trip Planning App For Full Time Travel",
         "Best States For Rv Domicile And Registration",
-        "Best Travel Trailers Full Time",
-        "Best Truck For Towing A Fifth Wheel Full Time"
+        "Best Travel Trailers Full Time"
       ],
       "videos": [
         {
@@ -3557,9 +3686,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7856,
-        "visits": 7856,
-        "unique_visitors": 8676,
+        "page_views": 7972,
+        "visits": 7972,
+        "unique_visitors": 8887,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3643,7 +3772,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 243
+            "pageViews": 328
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 31
           }
         ]
       },
@@ -3672,7 +3805,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 7856
+          "pageViews": 7972
         }
       ],
       "adsense": {
@@ -3716,9 +3849,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 14151,
-        "visits": 14151,
-        "unique_visitors": 12172,
+        "page_views": 14471,
+        "visits": 14471,
+        "unique_visitors": 12463,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3802,7 +3935,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 561
+            "pageViews": 807
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 74
           }
         ]
       },
@@ -3831,7 +3968,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 14151
+          "pageViews": 14471
         }
       ],
       "adsense": {
@@ -3850,7 +3987,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 168,
+      "articles": 170,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -3962,9 +4099,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6342,
-        "visits": 6342,
-        "unique_visitors": 4143,
+        "page_views": 6390,
+        "visits": 6390,
+        "unique_visitors": 4177,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4048,7 +4185,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 258
+            "pageViews": 282
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 24
           }
         ]
       },
@@ -4077,7 +4218,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 6342
+          "pageViews": 6390
         }
       ],
       "adsense": {
@@ -4186,9 +4327,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 15516,
-        "visits": 15516,
-        "unique_visitors": 13493,
+        "page_views": 15986,
+        "visits": 15986,
+        "unique_visitors": 13912,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4248,7 +4389,7 @@
           },
           {
             "date": "2026-07-15",
-            "pageViews": 1069
+            "pageViews": 1068
           },
           {
             "date": "2026-07-16",
@@ -4272,7 +4413,11 @@
           },
           {
             "date": "2026-07-21",
-            "pageViews": 947
+            "pageViews": 1287
+          },
+          {
+            "date": "2026-07-22",
+            "pageViews": 131
           }
         ]
       },
@@ -4301,7 +4446,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 15516
+          "pageViews": 15986
         }
       ],
       "adsense": {
