@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-24T01:28:03.522383+00:00",
+  "generated_at": "2026-07-24T08:04:55.418730+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-24"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 175631,
-    "page_views_alltime": 337700,
-    "visits": 175631,
-    "articles": 2373,
+    "page_views": 185894,
+    "page_views_alltime": 347963,
+    "visits": 185894,
+    "articles": 2370,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1652,
+    "yt_views": 1653,
     "sites": 15
   },
   "adsense_connected": true,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 138,
+      "articles": 136,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8937,
-        "visits": 8937,
-        "unique_visitors": 5504,
+        "page_views": 9573,
+        "visits": 9573,
+        "unique_visitors": 5577,
         "daily": [
           {
             "date": "2026-07-01",
@@ -388,7 +388,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 10
+            "pageViews": 646
           }
         ]
       },
@@ -417,7 +417,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8937
+          "pageViews": 9573
         }
       ],
       "adsense": {
@@ -746,9 +746,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 12035,
-        "visits": 12035,
-        "unique_visitors": 12225,
+        "page_views": 13453,
+        "visits": 13453,
+        "unique_visitors": 12286,
         "daily": [
           {
             "date": "2026-07-01",
@@ -844,7 +844,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 10
+            "pageViews": 1428
           }
         ]
       },
@@ -873,7 +873,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 12035
+          "pageViews": 13453
         }
       ],
       "adsense": {
@@ -1092,9 +1092,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 11708,
-        "visits": 11708,
-        "unique_visitors": 9619,
+        "page_views": 12294,
+        "visits": 12294,
+        "unique_visitors": 9685,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1190,7 +1190,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 17
+            "pageViews": 603
           }
         ]
       },
@@ -1219,7 +1219,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 11708
+          "pageViews": 12294
         }
       ],
       "adsense": {
@@ -1382,9 +1382,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10979,
-        "visits": 10979,
-        "unique_visitors": 6160,
+        "page_views": 11566,
+        "visits": 11566,
+        "unique_visitors": 6204,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1480,7 +1480,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 9
+            "pageViews": 596
           }
         ]
       },
@@ -1509,7 +1509,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 10979
+          "pageViews": 11566
         }
       ],
       "adsense": {
@@ -1597,12 +1597,12 @@
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
           "standard_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "Your Mortgage Lender's Insurance Trap (What They Won't Explain)"
           },
-          "total_views": 13
+          "total_views": 14
         },
         {
           "shorts_id": "zzagShQjqys",
@@ -1760,9 +1760,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 11660,
-        "visits": 11660,
-        "unique_visitors": 5005,
+        "page_views": 12294,
+        "visits": 12294,
+        "unique_visitors": 5065,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1858,7 +1858,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 24
+            "pageViews": 658
           }
         ]
       },
@@ -1887,7 +1887,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 11660
+          "pageViews": 12294
         }
       ],
       "adsense": {
@@ -1896,7 +1896,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 74,
+      "yt_total_views": 75,
       "video_count": 17
     },
     {
@@ -1906,10 +1906,9 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 151,
+      "articles": 149,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
-        "30 Year Vs 15 Year Mortgage",
         "A Fed Rate Hike Is Now On The Table What Mortgage Borrowers Should Do",
         "Are Mortgage Interest Payments Tax Deductible In 2026",
         "Are You Ready To Buy A Home",
@@ -1927,7 +1926,8 @@
         "Conventional Loan Requirements",
         "Credit Score For Mortgage Approval",
         "Current 30 Year Fixed Mortgage Rates Forecast 2026",
-        "Current Mortgage Rates"
+        "Current Mortgage Rates",
+        "Debt To Income Ratio For Mortgage"
       ],
       "videos": [
         {
@@ -2050,9 +2050,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9504,
-        "visits": 9504,
-        "unique_visitors": 9116,
+        "page_views": 10065,
+        "visits": 10065,
+        "unique_visitors": 9186,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2148,7 +2148,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 19
+            "pageViews": 580
           }
         ]
       },
@@ -2177,7 +2177,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9504
+          "pageViews": 10065
         }
       ],
       "adsense": {
@@ -2308,9 +2308,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9147,
-        "visits": 9147,
-        "unique_visitors": 5618,
+        "page_views": 9723,
+        "visits": 9723,
+        "unique_visitors": 5659,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2406,7 +2406,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 14
+            "pageViews": 590
           }
         ]
       },
@@ -2435,7 +2435,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9147
+          "pageViews": 9723
         }
       ],
       "adsense": {
@@ -2588,9 +2588,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10727,
-        "visits": 10727,
-        "unique_visitors": 6156,
+        "page_views": 11348,
+        "visits": 11348,
+        "unique_visitors": 6224,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2686,7 +2686,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 10
+            "pageViews": 631
           }
         ]
       },
@@ -2715,7 +2715,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 10727
+          "pageViews": 11348
         }
       ],
       "adsense": {
@@ -2868,9 +2868,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 11555,
-        "visits": 11555,
-        "unique_visitors": 8825,
+        "page_views": 12233,
+        "visits": 12233,
+        "unique_visitors": 8895,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2966,7 +2966,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 16
+            "pageViews": 694
           }
         ]
       },
@@ -2995,7 +2995,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 11555
+          "pageViews": 12233
         }
       ],
       "adsense": {
@@ -3236,9 +3236,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9622,
-        "visits": 9622,
-        "unique_visitors": 5296,
+        "page_views": 10237,
+        "visits": 10237,
+        "unique_visitors": 5365,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3334,7 +3334,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 10
+            "pageViews": 625
           }
         ]
       },
@@ -3363,7 +3363,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9622
+          "pageViews": 10237
         }
       ],
       "adsense": {
@@ -3382,7 +3382,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 160,
+      "articles": 162,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
@@ -3494,9 +3494,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 13308,
-        "visits": 13308,
-        "unique_visitors": 10170,
+        "page_views": 13921,
+        "visits": 13921,
+        "unique_visitors": 10237,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3592,7 +3592,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 45
+            "pageViews": 658
           }
         ]
       },
@@ -3621,7 +3621,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 13308
+          "pageViews": 13921
         }
       ],
       "adsense": {
@@ -3774,9 +3774,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10023,
-        "visits": 10023,
-        "unique_visitors": 10037,
+        "page_views": 10650,
+        "visits": 10650,
+        "unique_visitors": 10120,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3872,7 +3872,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 24
+            "pageViews": 651
           }
         ]
       },
@@ -3901,7 +3901,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 10023
+          "pageViews": 10650
         }
       ],
       "adsense": {
@@ -3945,9 +3945,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 17523,
-        "visits": 17523,
-        "unique_visitors": 13707,
+        "page_views": 18462,
+        "visits": 18462,
+        "unique_visitors": 13807,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4043,7 +4043,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 13
+            "pageViews": 952
           }
         ]
       },
@@ -4072,7 +4072,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 17523
+          "pageViews": 18462
         }
       ],
       "adsense": {
@@ -4091,7 +4091,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 173,
+      "articles": 172,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -4203,9 +4203,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8296,
-        "visits": 8296,
-        "unique_visitors": 4603,
+        "page_views": 8904,
+        "visits": 8904,
+        "unique_visitors": 4663,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4301,7 +4301,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 15
+            "pageViews": 623
           }
         ]
       },
@@ -4330,7 +4330,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 8296
+          "pageViews": 8904
         }
       ],
       "adsense": {
@@ -4439,9 +4439,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 20607,
-        "visits": 20607,
-        "unique_visitors": 16906,
+        "page_views": 21171,
+        "visits": 21171,
+        "unique_visitors": 16985,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4537,7 +4537,7 @@
           },
           {
             "date": "2026-07-24",
-            "pageViews": 12
+            "pageViews": 576
           }
         ]
       },
@@ -4566,7 +4566,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 20607
+          "pageViews": 21171
         }
       ],
       "adsense": {
