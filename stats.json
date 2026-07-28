@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-28T08:11:45.947883+00:00",
+  "generated_at": "2026-07-28T13:27:22.478982+00:00",
   "period": {
     "start": "2026-07-01",
     "end": "2026-07-28"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 246922,
-    "page_views_alltime": 408991,
-    "visits": 246922,
-    "articles": 2444,
+    "page_views": 248267,
+    "page_views_alltime": 410336,
+    "visits": 248267,
+    "articles": 2449,
     "videos": 172,
     "channels": 14,
     "yt_views": 1656,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 13018,
-        "visits": 13018,
-        "unique_visitors": 6595,
+        "page_views": 13065,
+        "visits": 13065,
+        "unique_visitors": 6640,
         "daily": [
           {
             "date": "2026-07-01",
@@ -404,7 +404,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 564
+            "pageViews": 611
           }
         ]
       },
@@ -433,7 +433,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 13018
+          "pageViews": 13065
         }
       ],
       "adsense": {
@@ -452,9 +452,10 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 164,
+      "articles": 165,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
+        "Battery As A Service Should Solar Owners Subscribe Instead Of Buy",
         "Battery As A Service What The New 0 Down Storage Leases Mean For Solar",
         "Battery Subscriptions For Solar Homes What The New Lease Plans Offer",
         "Best Direction To Face Solar Panels",
@@ -472,8 +473,7 @@
         "Does Solar Increase Home Value",
         "Duke Energy Nc Solar Customers Face A December 31 Deadline",
         "Energy Independence With Solar And Battery",
-        "Enphase Iq Battery Review",
-        "Enphase Vs Solaredge Inverter"
+        "Enphase Iq Battery Review"
       ],
       "videos": [
         {
@@ -762,9 +762,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 17128,
-        "visits": 17128,
-        "unique_visitors": 13270,
+        "page_views": 17209,
+        "visits": 17209,
+        "unique_visitors": 13348,
         "daily": [
           {
             "date": "2026-07-01",
@@ -876,7 +876,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 543
+            "pageViews": 624
           }
         ]
       },
@@ -905,7 +905,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 17128
+          "pageViews": 17209
         }
       ],
       "adsense": {
@@ -1124,9 +1124,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 16854,
-        "visits": 16854,
-        "unique_visitors": 11087,
+        "page_views": 16944,
+        "visits": 16944,
+        "unique_visitors": 11176,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1238,7 +1238,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 613
+            "pageViews": 703
           }
         ]
       },
@@ -1253,7 +1253,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 4
+          "pageViews": 5
         }
       ],
       "cf_monthly_views": [
@@ -1267,7 +1267,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 16854
+          "pageViews": 16944
         }
       ],
       "adsense": {
@@ -1286,7 +1286,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 168,
+      "articles": 169,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Accident With An Uninsured Driver What To Do",
@@ -1430,9 +1430,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 14650,
-        "visits": 14650,
-        "unique_visitors": 6891,
+        "page_views": 14690,
+        "visits": 14690,
+        "unique_visitors": 6932,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1544,7 +1544,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 504
+            "pageViews": 544
           }
         ]
       },
@@ -1573,7 +1573,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 14650
+          "pageViews": 14690
         }
       ],
       "adsense": {
@@ -1592,7 +1592,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 154,
+      "articles": 155,
       "article_titles": [
         "Actual Cash Value Explained",
         "Actual Cash Value Vs Replacement Cost Explained",
@@ -1824,9 +1824,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 15993,
-        "visits": 15993,
-        "unique_visitors": 5963,
+        "page_views": 16034,
+        "visits": 16034,
+        "unique_visitors": 6020,
         "daily": [
           {
             "date": "2026-07-01",
@@ -1938,7 +1938,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 508
+            "pageViews": 549
           }
         ]
       },
@@ -1967,7 +1967,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 15993
+          "pageViews": 16034
         }
       ],
       "adsense": {
@@ -2130,9 +2130,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 14973,
-        "visits": 14973,
-        "unique_visitors": 10412,
+        "page_views": 15039,
+        "visits": 15039,
+        "unique_visitors": 10466,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2244,7 +2244,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 541
+            "pageViews": 607
           }
         ]
       },
@@ -2273,7 +2273,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 14973
+          "pageViews": 15039
         }
       ],
       "adsense": {
@@ -2404,9 +2404,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 13086,
-        "visits": 13086,
-        "unique_visitors": 6485,
+        "page_views": 13118,
+        "visits": 13118,
+        "unique_visitors": 6520,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2518,7 +2518,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 516
+            "pageViews": 548
           }
         ]
       },
@@ -2547,7 +2547,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 13086
+          "pageViews": 13118
         }
       ],
       "adsense": {
@@ -2700,9 +2700,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 16091,
-        "visits": 16091,
-        "unique_visitors": 7432,
+        "page_views": 16253,
+        "visits": 16253,
+        "unique_visitors": 7503,
         "daily": [
           {
             "date": "2026-07-01",
@@ -2814,7 +2814,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 534
+            "pageViews": 696
           }
         ]
       },
@@ -2843,7 +2843,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 16091
+          "pageViews": 16253
         }
       ],
       "adsense": {
@@ -2996,9 +2996,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 17258,
-        "visits": 17258,
-        "unique_visitors": 10126,
+        "page_views": 17356,
+        "visits": 17356,
+        "unique_visitors": 10174,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3110,7 +3110,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 611
+            "pageViews": 709
           }
         ]
       },
@@ -3139,7 +3139,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 17258
+          "pageViews": 17356
         }
       ],
       "adsense": {
@@ -3380,9 +3380,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 13616,
-        "visits": 13616,
-        "unique_visitors": 6141,
+        "page_views": 13642,
+        "visits": 13642,
+        "unique_visitors": 6180,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3494,7 +3494,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 517
+            "pageViews": 543
           }
         ]
       },
@@ -3523,7 +3523,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 13616
+          "pageViews": 13642
         }
       ],
       "adsense": {
@@ -3654,9 +3654,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 17852,
-        "visits": 17852,
-        "unique_visitors": 11803,
+        "page_views": 17886,
+        "visits": 17886,
+        "unique_visitors": 11852,
         "daily": [
           {
             "date": "2026-07-01",
@@ -3768,7 +3768,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 553
+            "pageViews": 587
           }
         ]
       },
@@ -3797,7 +3797,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 17852
+          "pageViews": 17886
         }
       ],
       "adsense": {
@@ -3950,9 +3950,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 14721,
-        "visits": 14721,
-        "unique_visitors": 11673,
+        "page_views": 14791,
+        "visits": 14791,
+        "unique_visitors": 11734,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4064,7 +4064,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 591
+            "pageViews": 661
           }
         ]
       },
@@ -4093,7 +4093,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 14721
+          "pageViews": 14791
         }
       ],
       "adsense": {
@@ -4112,7 +4112,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 183,
+      "articles": 184,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Agile Vs Waterfall For Game Development",
@@ -4137,9 +4137,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 22059,
-        "visits": 22059,
-        "unique_visitors": 15414,
+        "page_views": 22157,
+        "visits": 22157,
+        "unique_visitors": 15499,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4251,7 +4251,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 304
+            "pageViews": 402
           }
         ]
       },
@@ -4266,7 +4266,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 9
+          "pageViews": 10
         }
       ],
       "cf_monthly_views": [
@@ -4280,7 +4280,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 22059
+          "pageViews": 22157
         }
       ],
       "adsense": {
@@ -4411,9 +4411,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 14267,
-        "visits": 14267,
-        "unique_visitors": 5627,
+        "page_views": 14307,
+        "visits": 14307,
+        "unique_visitors": 5676,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4525,7 +4525,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 553
+            "pageViews": 593
           }
         ]
       },
@@ -4554,7 +4554,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 14267
+          "pageViews": 14307
         }
       ],
       "adsense": {
@@ -4573,7 +4573,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 154,
+      "articles": 155,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -4663,9 +4663,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25356,
-        "visits": 25356,
-        "unique_visitors": 18281,
+        "page_views": 25776,
+        "visits": 25776,
+        "unique_visitors": 18384,
         "daily": [
           {
             "date": "2026-07-01",
@@ -4777,7 +4777,7 @@
           },
           {
             "date": "2026-07-28",
-            "pageViews": 575
+            "pageViews": 995
           }
         ]
       },
@@ -4806,7 +4806,7 @@
         },
         {
           "month": "2026-07",
-          "pageViews": 25356
+          "pageViews": 25776
         }
       ],
       "adsense": {
