@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-07T02:01:53.477982+00:00",
+  "generated_at": "2026-08-07T06:58:14.884282+00:00",
   "period": {
     "start": "2026-08-01",
     "end": "2026-08-07"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 76962,
-    "page_views_alltime": 530686,
-    "visits": 76962,
-    "articles": 2593,
+    "page_views": 82093,
+    "page_views_alltime": 535817,
+    "visits": 82093,
+    "articles": 2594,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1672,
+    "yt_views": 1673,
     "sites": 15
   },
   "adsense_connected": true,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6065,
-        "visits": 6065,
-        "unique_visitors": 3041,
+        "page_views": 6280,
+        "visits": 6280,
+        "unique_visitors": 3094,
         "daily": [
           {
             "date": "2026-08-01",
@@ -320,7 +320,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 27
+            "pageViews": 242
           }
         ]
       },
@@ -357,7 +357,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6065
+          "pageViews": 6280
         }
       ],
       "adsense": {
@@ -686,9 +686,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5449,
-        "visits": 5449,
-        "unique_visitors": 2660,
+        "page_views": 5688,
+        "visits": 5688,
+        "unique_visitors": 2722,
         "daily": [
           {
             "date": "2026-08-01",
@@ -716,7 +716,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 34
+            "pageViews": 273
           }
         ]
       },
@@ -753,7 +753,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5449
+          "pageViews": 5688
         }
       ],
       "adsense": {
@@ -972,9 +972,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5133,
-        "visits": 5133,
-        "unique_visitors": 2923,
+        "page_views": 5379,
+        "visits": 5379,
+        "unique_visitors": 2996,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1002,7 +1002,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 29
+            "pageViews": 275
           }
         ]
       },
@@ -1039,7 +1039,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5133
+          "pageViews": 5379
         }
       ],
       "adsense": {
@@ -1202,9 +1202,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3815,
-        "visits": 3815,
-        "unique_visitors": 1471,
+        "page_views": 4046,
+        "visits": 4046,
+        "unique_visitors": 1511,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1232,7 +1232,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 40
+            "pageViews": 271
           }
         ]
       },
@@ -1269,7 +1269,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 3815
+          "pageViews": 4046
         }
       ],
       "adsense": {
@@ -1520,9 +1520,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5272,
-        "visits": 5272,
-        "unique_visitors": 1893,
+        "page_views": 6244,
+        "visits": 6244,
+        "unique_visitors": 1951,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1550,7 +1550,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 188
+            "pageViews": 1160
           }
         ]
       },
@@ -1587,7 +1587,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5272
+          "pageViews": 6244
         }
       ],
       "adsense": {
@@ -1750,9 +1750,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4578,
-        "visits": 4578,
-        "unique_visitors": 2033,
+        "page_views": 4809,
+        "visits": 4809,
+        "unique_visitors": 2093,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1780,7 +1780,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 22
+            "pageViews": 253
           }
         ]
       },
@@ -1817,7 +1817,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4578
+          "pageViews": 4809
         }
       ],
       "adsense": {
@@ -1948,9 +1948,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4684,
-        "visits": 4684,
-        "unique_visitors": 2398,
+        "page_views": 4934,
+        "visits": 4934,
+        "unique_visitors": 2461,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1978,7 +1978,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 19
+            "pageViews": 269
           }
         ]
       },
@@ -2015,7 +2015,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4684
+          "pageViews": 4934
         }
       ],
       "adsense": {
@@ -2093,12 +2093,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 30,
+            "views": 31,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 69
+          "total_views": 70
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2168,9 +2168,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4466,
-        "visits": 4466,
-        "unique_visitors": 1718,
+        "page_views": 4690,
+        "visits": 4690,
+        "unique_visitors": 1755,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2198,7 +2198,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 13
+            "pageViews": 237
           }
         ]
       },
@@ -2235,7 +2235,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4466
+          "pageViews": 4690
         }
       ],
       "adsense": {
@@ -2244,7 +2244,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 106,
+      "yt_total_views": 107,
       "video_count": 10
     },
     {
@@ -2388,9 +2388,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6133,
-        "visits": 6133,
-        "unique_visitors": 3069,
+        "page_views": 6383,
+        "visits": 6383,
+        "unique_visitors": 3137,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2418,7 +2418,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 756
+            "pageViews": 1006
           }
         ]
       },
@@ -2455,7 +2455,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6133
+          "pageViews": 6383
         }
       ],
       "adsense": {
@@ -2696,9 +2696,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4722,
-        "visits": 4722,
-        "unique_visitors": 1268,
+        "page_views": 4941,
+        "visits": 4941,
+        "unique_visitors": 1291,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2726,7 +2726,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 9
+            "pageViews": 228
           }
         ]
       },
@@ -2763,7 +2763,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4722
+          "pageViews": 4941
         }
       ],
       "adsense": {
@@ -2782,7 +2782,7 @@
       "color": "#a16207",
       "niche": "Backyard chickens & poultry",
       "rpm_est": "3-6",
-      "articles": 175,
+      "articles": 176,
       "article_titles": [
         "513 Sick And Counting The Backyard Poultry Salmonella Summer Surge",
         "A Wave Of Cities Is Legalizing Backyard Chickens Right Now",
@@ -2894,9 +2894,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4148,
-        "visits": 4148,
-        "unique_visitors": 1907,
+        "page_views": 4387,
+        "visits": 4387,
+        "unique_visitors": 1952,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2924,7 +2924,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 13
+            "pageViews": 252
           }
         ]
       },
@@ -2961,7 +2961,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4148
+          "pageViews": 4387
         }
       ],
       "adsense": {
@@ -3114,9 +3114,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5642,
-        "visits": 5642,
-        "unique_visitors": 3042,
+        "page_views": 5900,
+        "visits": 5900,
+        "unique_visitors": 3112,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3144,7 +3144,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 17
+            "pageViews": 275
           }
         ]
       },
@@ -3181,7 +3181,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5642
+          "pageViews": 5900
         }
       ],
       "adsense": {
@@ -3225,9 +3225,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 6528,
-        "visits": 6528,
-        "unique_visitors": 4193,
+        "page_views": 6815,
+        "visits": 6815,
+        "unique_visitors": 4302,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3255,7 +3255,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 25
+            "pageViews": 312
           }
         ]
       },
@@ -3292,7 +3292,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6528
+          "pageViews": 6815
         }
       ],
       "adsense": {
@@ -3423,9 +3423,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5242,
-        "visits": 5242,
-        "unique_visitors": 1573,
+        "page_views": 5484,
+        "visits": 5484,
+        "unique_visitors": 1627,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3453,7 +3453,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 46
+            "pageViews": 288
           }
         ]
       },
@@ -3490,7 +3490,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5242
+          "pageViews": 5484
         }
       ],
       "adsense": {
@@ -3599,9 +3599,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5085,
-        "visits": 5085,
-        "unique_visitors": 2548,
+        "page_views": 6113,
+        "visits": 6113,
+        "unique_visitors": 2587,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3629,7 +3629,7 @@
           },
           {
             "date": "2026-08-07",
-            "pageViews": 17
+            "pageViews": 1045
           }
         ]
       },
@@ -3666,7 +3666,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5085
+          "pageViews": 6113
         }
       ],
       "adsense": {
