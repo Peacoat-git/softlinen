@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-06T23:47:59.954677+00:00",
+  "generated_at": "2026-08-07T02:01:53.477982+00:00",
   "period": {
     "start": "2026-08-01",
-    "end": "2026-08-06"
+    "end": "2026-08-07"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 75669,
-    "page_views_alltime": 529393,
-    "visits": 75669,
-    "articles": 2585,
+    "page_views": 76962,
+    "page_views_alltime": 530686,
+    "visits": 76962,
+    "articles": 2593,
     "videos": 172,
     "channels": 14,
     "yt_views": 1672,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 150,
+      "articles": 151,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6032,
-        "visits": 6032,
-        "unique_visitors": 2983,
+        "page_views": 6065,
+        "visits": 6065,
+        "unique_visitors": 3041,
         "daily": [
           {
             "date": "2026-08-01",
@@ -316,7 +316,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 939
+            "pageViews": 945
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 27
           }
         ]
       },
@@ -353,7 +357,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6032
+          "pageViews": 6065
         }
       ],
       "adsense": {
@@ -682,9 +686,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5409,
-        "visits": 5409,
-        "unique_visitors": 2634,
+        "page_views": 5449,
+        "visits": 5449,
+        "unique_visitors": 2660,
         "daily": [
           {
             "date": "2026-08-01",
@@ -708,7 +712,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 663
+            "pageViews": 669
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 34
           }
         ]
       },
@@ -745,7 +753,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5409
+          "pageViews": 5449
         }
       ],
       "adsense": {
@@ -764,7 +772,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 172,
+      "articles": 173,
       "article_titles": [
         "Apsystems Ez1 Lv Plug In Balcony Solar Arrives In The Us",
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
@@ -964,9 +972,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5104,
-        "visits": 5104,
-        "unique_visitors": 2893,
+        "page_views": 5133,
+        "visits": 5133,
+        "unique_visitors": 2923,
         "daily": [
           {
             "date": "2026-08-01",
@@ -991,6 +999,10 @@
           {
             "date": "2026-08-06",
             "pageViews": 634
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 29
           }
         ]
       },
@@ -1027,7 +1039,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5104
+          "pageViews": 5133
         }
       ],
       "adsense": {
@@ -1190,9 +1202,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 3773,
-        "visits": 3773,
-        "unique_visitors": 1420,
+        "page_views": 3815,
+        "visits": 3815,
+        "unique_visitors": 1471,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1216,7 +1228,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 614
+            "pageViews": 616
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 40
           }
         ]
       },
@@ -1253,7 +1269,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 3773
+          "pageViews": 3815
         }
       ],
       "adsense": {
@@ -1504,9 +1520,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5070,
-        "visits": 5070,
-        "unique_visitors": 1851,
+        "page_views": 5272,
+        "visits": 5272,
+        "unique_visitors": 1893,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1530,7 +1546,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 1118
+            "pageViews": 1132
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 188
           }
         ]
       },
@@ -1567,7 +1587,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5070
+          "pageViews": 5272
         }
       ],
       "adsense": {
@@ -1586,7 +1606,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 163,
+      "articles": 164,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "A Fed Rate Hike Is Now On The Table What Mortgage Borrowers Should Do",
@@ -1730,9 +1750,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4556,
-        "visits": 4556,
-        "unique_visitors": 2004,
+        "page_views": 4578,
+        "visits": 4578,
+        "unique_visitors": 2033,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1757,6 +1777,10 @@
           {
             "date": "2026-08-06",
             "pageViews": 714
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 22
           }
         ]
       },
@@ -1793,7 +1817,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4556
+          "pageViews": 4578
         }
       ],
       "adsense": {
@@ -1812,7 +1836,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 173,
+      "articles": 174,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -1924,9 +1948,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4665,
-        "visits": 4665,
-        "unique_visitors": 2375,
+        "page_views": 4684,
+        "visits": 4684,
+        "unique_visitors": 2398,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1951,6 +1975,10 @@
           {
             "date": "2026-08-06",
             "pageViews": 665
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 19
           }
         ]
       },
@@ -1987,7 +2015,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4665
+          "pageViews": 4684
         }
       ],
       "adsense": {
@@ -2006,7 +2034,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 170,
+      "articles": 171,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Anaplasmosis Dogs Treatment",
@@ -2140,9 +2168,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4452,
-        "visits": 4452,
-        "unique_visitors": 1703,
+        "page_views": 4466,
+        "visits": 4466,
+        "unique_visitors": 1718,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2166,7 +2194,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 662
+            "pageViews": 663
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 13
           }
         ]
       },
@@ -2203,7 +2235,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4452
+          "pageViews": 4466
         }
       ],
       "adsense": {
@@ -2222,7 +2254,7 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 165,
+      "articles": 166,
       "article_titles": [
         "1099 Vs W2 Explained",
         "Accounting Software Comparison",
@@ -2356,9 +2388,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5375,
-        "visits": 5375,
-        "unique_visitors": 3044,
+        "page_views": 6133,
+        "visits": 6133,
+        "unique_visitors": 3069,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2382,7 +2414,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 775
+            "pageViews": 777
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 756
           }
         ]
       },
@@ -2419,7 +2455,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5375
+          "pageViews": 6133
         }
       ],
       "adsense": {
@@ -2660,9 +2696,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4713,
-        "visits": 4713,
-        "unique_visitors": 1255,
+        "page_views": 4722,
+        "visits": 4722,
+        "unique_visitors": 1268,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2687,6 +2723,10 @@
           {
             "date": "2026-08-06",
             "pageViews": 571
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 9
           }
         ]
       },
@@ -2723,7 +2763,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4713
+          "pageViews": 4722
         }
       ],
       "adsense": {
@@ -2854,9 +2894,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 4134,
-        "visits": 4134,
-        "unique_visitors": 1885,
+        "page_views": 4148,
+        "visits": 4148,
+        "unique_visitors": 1907,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2880,7 +2920,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 598
+            "pageViews": 599
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 13
           }
         ]
       },
@@ -2917,7 +2961,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 4134
+          "pageViews": 4148
         }
       ],
       "adsense": {
@@ -2936,7 +2980,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 176,
+      "articles": 177,
       "article_titles": [
         "Auto Level Systems Rv",
         "Average Monthly Cost Of Full Time Rv Living",
@@ -3070,9 +3114,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5625,
-        "visits": 5625,
-        "unique_visitors": 3018,
+        "page_views": 5642,
+        "visits": 5642,
+        "unique_visitors": 3042,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3097,6 +3141,10 @@
           {
             "date": "2026-08-06",
             "pageViews": 732
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 17
           }
         ]
       },
@@ -3133,7 +3181,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5625
+          "pageViews": 5642
         }
       ],
       "adsense": {
@@ -3177,9 +3225,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 6502,
-        "visits": 6502,
-        "unique_visitors": 4154,
+        "page_views": 6528,
+        "visits": 6528,
+        "unique_visitors": 4193,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3203,7 +3251,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 848
+            "pageViews": 849
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 25
           }
         ]
       },
@@ -3240,7 +3292,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6502
+          "pageViews": 6528
         }
       ],
       "adsense": {
@@ -3259,7 +3311,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 186,
+      "articles": 187,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -3371,9 +3423,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5196,
-        "visits": 5196,
-        "unique_visitors": 1523,
+        "page_views": 5242,
+        "visits": 5242,
+        "unique_visitors": 1573,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3398,6 +3450,10 @@
           {
             "date": "2026-08-06",
             "pageViews": 756
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 46
           }
         ]
       },
@@ -3434,7 +3490,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5196
+          "pageViews": 5242
         }
       ],
       "adsense": {
@@ -3543,9 +3599,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 5063,
-        "visits": 5063,
-        "unique_visitors": 2523,
+        "page_views": 5085,
+        "visits": 5085,
+        "unique_visitors": 2548,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3569,7 +3625,11 @@
           },
           {
             "date": "2026-08-06",
-            "pageViews": 799
+            "pageViews": 804
+          },
+          {
+            "date": "2026-08-07",
+            "pageViews": 17
           }
         ]
       },
@@ -3606,7 +3666,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 5063
+          "pageViews": 5085
         }
       ],
       "adsense": {
