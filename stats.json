@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-10T12:40:51.567112+00:00",
+  "generated_at": "2026-08-10T18:40:29.333441+00:00",
   "period": {
     "start": "2026-08-01",
     "end": "2026-08-10"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 124789,
-    "page_views_alltime": 578513,
-    "visits": 124789,
-    "articles": 2540,
+    "page_views": 128616,
+    "page_views_alltime": 582340,
+    "visits": 128616,
+    "articles": 2545,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1678,
+    "yt_views": 1680,
     "sites": 15
   },
   "adsense_connected": true,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 154,
+      "articles": 155,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9183,
-        "visits": 9183,
-        "unique_visitors": 3985,
+        "page_views": 9420,
+        "visits": 9420,
+        "unique_visitors": 4036,
         "daily": [
           {
             "date": "2026-08-01",
@@ -332,7 +332,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 396
+            "pageViews": 633
           }
         ]
       },
@@ -369,7 +369,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9183
+          "pageViews": 9420
         }
       ],
       "adsense": {
@@ -698,9 +698,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9020,
-        "visits": 9020,
-        "unique_visitors": 4077,
+        "page_views": 9288,
+        "visits": 9288,
+        "unique_visitors": 4164,
         "daily": [
           {
             "date": "2026-08-01",
@@ -740,7 +740,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 417
+            "pageViews": 685
           }
         ]
       },
@@ -777,7 +777,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9020
+          "pageViews": 9288
         }
       ],
       "adsense": {
@@ -996,9 +996,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8577,
-        "visits": 8577,
-        "unique_visitors": 4420,
+        "page_views": 8857,
+        "visits": 8857,
+        "unique_visitors": 4513,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1038,7 +1038,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 603
+            "pageViews": 883
           }
         ]
       },
@@ -1075,7 +1075,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8577
+          "pageViews": 8857
         }
       ],
       "adsense": {
@@ -1238,9 +1238,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6200,
-        "visits": 6200,
-        "unique_visitors": 2484,
+        "page_views": 6466,
+        "visits": 6466,
+        "unique_visitors": 2563,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1280,7 +1280,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 320
+            "pageViews": 586
           }
         ]
       },
@@ -1317,7 +1317,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6200
+          "pageViews": 6466
         }
       ],
       "adsense": {
@@ -1568,9 +1568,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8943,
-        "visits": 8943,
-        "unique_visitors": 2940,
+        "page_views": 9187,
+        "visits": 9187,
+        "unique_visitors": 3031,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1610,7 +1610,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 429
+            "pageViews": 673
           }
         ]
       },
@@ -1647,7 +1647,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8943
+          "pageViews": 9187
         }
       ],
       "adsense": {
@@ -1666,7 +1666,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 167,
+      "articles": 168,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "A Fed Rate Hike Is Now On The Table What Mortgage Borrowers Should Do",
@@ -1810,9 +1810,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7111,
-        "visits": 7111,
-        "unique_visitors": 3046,
+        "page_views": 7336,
+        "visits": 7336,
+        "unique_visitors": 3093,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1852,7 +1852,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 419
+            "pageViews": 644
           }
         ]
       },
@@ -1889,7 +1889,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7111
+          "pageViews": 7336
         }
       ],
       "adsense": {
@@ -1908,7 +1908,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 177,
+      "articles": 178,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2020,9 +2020,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7191,
-        "visits": 7191,
-        "unique_visitors": 3387,
+        "page_views": 7438,
+        "visits": 7438,
+        "unique_visitors": 3451,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2062,7 +2062,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 393
+            "pageViews": 640
           }
         ]
       },
@@ -2099,7 +2099,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7191
+          "pageViews": 7438
         }
       ],
       "adsense": {
@@ -2118,7 +2118,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 174,
+      "articles": 175,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Anaplasmosis Dogs Treatment",
@@ -2133,13 +2133,13 @@
         "Cat Annual Vet Visit What To Expect",
         "Cat Annual Wellness Exam Guide",
         "Cat Cancer Treatment Options",
+        "Cat Conjunctivitis Home Care",
         "Cat Dental Disease Signs",
         "Cat Enrichment Indoor Cats",
         "Cat Grooming Matting Prevention",
         "Cat Hiding Behavior Explained",
         "Cat Hyperthyroidism Treatment",
-        "Cat Kidney Disease Diet",
-        "Cat Not Eating For 2 Days But Acting Normal Causes"
+        "Cat Kidney Disease Diet"
       ],
       "videos": [
         {
@@ -2171,7 +2171,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 41,
+            "views": 43,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -2182,7 +2182,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 74
+          "total_views": 76
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2252,9 +2252,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7176,
-        "visits": 7176,
-        "unique_visitors": 2488,
+        "page_views": 7392,
+        "visits": 7392,
+        "unique_visitors": 2518,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2294,7 +2294,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 244
+            "pageViews": 460
           }
         ]
       },
@@ -2331,7 +2331,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7176
+          "pageViews": 7392
         }
       ],
       "adsense": {
@@ -2340,7 +2340,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 111,
+      "yt_total_views": 113,
       "video_count": 10
     },
     {
@@ -2484,9 +2484,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9211,
-        "visits": 9211,
-        "unique_visitors": 4324,
+        "page_views": 9461,
+        "visits": 9461,
+        "unique_visitors": 4389,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2526,7 +2526,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 300
+            "pageViews": 550
           }
         ]
       },
@@ -2563,7 +2563,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9211
+          "pageViews": 9461
         }
       ],
       "adsense": {
@@ -2582,7 +2582,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 185,
+      "articles": 186,
       "article_titles": [
         "20 Grams Carbs Keto",
         "50 Grams Carbs Keto",
@@ -2598,12 +2598,12 @@
         "Best Protein Sources Keto",
         "Blood Ketone Levels Chart",
         "Butter On Keto",
+        "Can Keto Help When Antidepressants Stop Working",
         "Constipation On Keto Remedies",
         "Cruciferous Vegetables Keto",
         "Cyclical Keto Diet",
         "Dirty Keto Vs Clean Keto",
-        "Easy Keto Meals",
-        "Electrolytes On Keto"
+        "Easy Keto Meals"
       ],
       "videos": [
         {
@@ -2804,9 +2804,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7497,
-        "visits": 7497,
-        "unique_visitors": 2045,
+        "page_views": 7734,
+        "visits": 7734,
+        "unique_visitors": 2084,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2846,7 +2846,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 306
+            "pageViews": 543
           }
         ]
       },
@@ -2883,7 +2883,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7497
+          "pageViews": 7734
         }
       ],
       "adsense": {
@@ -3014,9 +3014,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6826,
-        "visits": 6826,
-        "unique_visitors": 3042,
+        "page_views": 7079,
+        "visits": 7079,
+        "unique_visitors": 3117,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3056,7 +3056,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 543
+            "pageViews": 796
           }
         ]
       },
@@ -3093,7 +3093,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6826
+          "pageViews": 7079
         }
       ],
       "adsense": {
@@ -3246,9 +3246,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8500,
-        "visits": 8500,
-        "unique_visitors": 4069,
+        "page_views": 8793,
+        "visits": 8793,
+        "unique_visitors": 4168,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3288,7 +3288,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 481
+            "pageViews": 774
           }
         ]
       },
@@ -3325,7 +3325,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8500
+          "pageViews": 8793
         }
       ],
       "adsense": {
@@ -3369,9 +3369,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 9923,
-        "visits": 9923,
-        "unique_visitors": 6193,
+        "page_views": 10160,
+        "visits": 10160,
+        "unique_visitors": 6398,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3411,7 +3411,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 426
+            "pageViews": 663
           }
         ]
       },
@@ -3448,7 +3448,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9923
+          "pageViews": 10160
         }
       ],
       "adsense": {
@@ -3579,9 +3579,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9989,
-        "visits": 9989,
-        "unique_visitors": 2732,
+        "page_views": 10328,
+        "visits": 10328,
+        "unique_visitors": 2778,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3621,7 +3621,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 772
+            "pageViews": 1111
           }
         ]
       },
@@ -3658,7 +3658,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9989
+          "pageViews": 10328
         }
       ],
       "adsense": {
@@ -3767,9 +3767,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9442,
-        "visits": 9442,
-        "unique_visitors": 3549,
+        "page_views": 9677,
+        "visits": 9677,
+        "unique_visitors": 3604,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3809,7 +3809,7 @@
           },
           {
             "date": "2026-08-10",
-            "pageViews": 616
+            "pageViews": 851
           }
         ]
       },
@@ -3846,7 +3846,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9442
+          "pageViews": 9677
         }
       ],
       "adsense": {
