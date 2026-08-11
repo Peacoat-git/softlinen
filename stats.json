@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-11T06:44:34.020588+00:00",
+  "generated_at": "2026-08-11T12:38:05.031196+00:00",
   "period": {
     "start": "2026-08-01",
     "end": "2026-08-11"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 134037,
-    "page_views_alltime": 587761,
-    "visits": 134037,
-    "articles": 2550,
+    "page_views": 134979,
+    "page_views_alltime": 588703,
+    "visits": 134979,
+    "articles": 2554,
     "videos": 172,
     "channels": 14,
     "yt_views": 1682,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9796,
-        "visits": 9796,
-        "unique_visitors": 4206,
+        "page_views": 9859,
+        "visits": 9859,
+        "unique_visitors": 4274,
         "daily": [
           {
             "date": "2026-08-01",
@@ -336,7 +336,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 260
+            "pageViews": 323
           }
         ]
       },
@@ -373,7 +373,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9796
+          "pageViews": 9859
         }
       ],
       "adsense": {
@@ -392,7 +392,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 178,
+      "articles": 179,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Battery As A Service Should Solar Owners Subscribe Instead Of Buy",
@@ -702,9 +702,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9737,
-        "visits": 9737,
-        "unique_visitors": 4410,
+        "page_views": 9856,
+        "visits": 9856,
+        "unique_visitors": 4499,
         "daily": [
           {
             "date": "2026-08-01",
@@ -748,7 +748,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 361
+            "pageViews": 480
           }
         ]
       },
@@ -785,7 +785,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9737
+          "pageViews": 9856
         }
       ],
       "adsense": {
@@ -1004,9 +1004,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9256,
-        "visits": 9256,
-        "unique_visitors": 4814,
+        "page_views": 9347,
+        "visits": 9347,
+        "unique_visitors": 4913,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1050,7 +1050,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 298
+            "pageViews": 389
           }
         ]
       },
@@ -1087,7 +1087,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9256
+          "pageViews": 9347
         }
       ],
       "adsense": {
@@ -1106,7 +1106,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 182,
+      "articles": 183,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Accident With An Uninsured Driver What To Do",
@@ -1250,9 +1250,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6778,
-        "visits": 6778,
-        "unique_visitors": 2726,
+        "page_views": 6804,
+        "visits": 6804,
+        "unique_visitors": 2765,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1296,7 +1296,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 267
+            "pageViews": 293
           }
         ]
       },
@@ -1333,7 +1333,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 6778
+          "pageViews": 6804
         }
       ],
       "adsense": {
@@ -1352,10 +1352,11 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 168,
+      "articles": 169,
       "article_titles": [
         "Actual Cash Value Explained",
         "Actual Cash Value Vs Replacement Cost Explained",
+        "Additional Living Expenses Coverage",
         "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
@@ -1372,8 +1373,7 @@
         "Does Home Insurance Cover Mold Removal",
         "Does Home Insurance Cover Roof Damage",
         "Does Home Insurance Cover Roof Leaks",
-        "Does Home Insurance Cover Theft",
-        "Does Home Insurance Cover Water Damage"
+        "Does Home Insurance Cover Theft"
       ],
       "videos": [
         {
@@ -1584,9 +1584,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9507,
-        "visits": 9507,
-        "unique_visitors": 3230,
+        "page_views": 9575,
+        "visits": 9575,
+        "unique_visitors": 3312,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1630,7 +1630,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 259
+            "pageViews": 327
           }
         ]
       },
@@ -1667,7 +1667,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9507
+          "pageViews": 9575
         }
       ],
       "adsense": {
@@ -1830,9 +1830,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8144,
-        "visits": 8144,
-        "unique_visitors": 3230,
+        "page_views": 8210,
+        "visits": 8210,
+        "unique_visitors": 3295,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1876,7 +1876,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 606
+            "pageViews": 672
           }
         ]
       },
@@ -1913,7 +1913,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8144
+          "pageViews": 8210
         }
       ],
       "adsense": {
@@ -2044,9 +2044,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7713,
-        "visits": 7713,
-        "unique_visitors": 3570,
+        "page_views": 7743,
+        "visits": 7743,
+        "unique_visitors": 3609,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2090,7 +2090,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 240
+            "pageViews": 270
           }
         ]
       },
@@ -2127,7 +2127,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7713
+          "pageViews": 7743
         }
       ],
       "adsense": {
@@ -2280,9 +2280,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7718,
-        "visits": 7718,
-        "unique_visitors": 2652,
+        "page_views": 7785,
+        "visits": 7785,
+        "unique_visitors": 2730,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2326,7 +2326,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 279
+            "pageViews": 346
           }
         ]
       },
@@ -2363,7 +2363,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7718
+          "pageViews": 7785
         }
       ],
       "adsense": {
@@ -2516,9 +2516,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9780,
-        "visits": 9780,
-        "unique_visitors": 4546,
+        "page_views": 9843,
+        "visits": 9843,
+        "unique_visitors": 4609,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2562,7 +2562,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 260
+            "pageViews": 323
           }
         ]
       },
@@ -2599,7 +2599,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9780
+          "pageViews": 9843
         }
       ],
       "adsense": {
@@ -2840,9 +2840,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8055,
-        "visits": 8055,
-        "unique_visitors": 2219,
+        "page_views": 8080,
+        "visits": 8080,
+        "unique_visitors": 2272,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2886,7 +2886,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 280
+            "pageViews": 305
           }
         ]
       },
@@ -2923,7 +2923,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8055
+          "pageViews": 8080
         }
       ],
       "adsense": {
@@ -3054,9 +3054,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7365,
-        "visits": 7365,
-        "unique_visitors": 3273,
+        "page_views": 7395,
+        "visits": 7395,
+        "unique_visitors": 3340,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3100,7 +3100,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 247
+            "pageViews": 277
           }
         ]
       },
@@ -3137,7 +3137,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7365
+          "pageViews": 7395
         }
       ],
       "adsense": {
@@ -3290,9 +3290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9110,
-        "visits": 9110,
-        "unique_visitors": 4305,
+        "page_views": 9159,
+        "visits": 9159,
+        "unique_visitors": 4348,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3336,7 +3336,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 271
+            "pageViews": 320
           }
         ]
       },
@@ -3373,7 +3373,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9110
+          "pageViews": 9159
         }
       ],
       "adsense": {
@@ -3417,9 +3417,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 10461,
-        "visits": 10461,
-        "unique_visitors": 6686,
+        "page_views": 10530,
+        "visits": 10530,
+        "unique_visitors": 6797,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3463,7 +3463,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 236
+            "pageViews": 305
           }
         ]
       },
@@ -3500,7 +3500,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10461
+          "pageViews": 10530
         }
       ],
       "adsense": {
@@ -3631,9 +3631,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10648,
-        "visits": 10648,
-        "unique_visitors": 2919,
+        "page_views": 10700,
+        "visits": 10700,
+        "unique_visitors": 2974,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3677,7 +3677,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 277
+            "pageViews": 329
           }
         ]
       },
@@ -3714,7 +3714,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10648
+          "pageViews": 10700
         }
       ],
       "adsense": {
@@ -3733,7 +3733,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 168,
+      "articles": 169,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -3823,9 +3823,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9969,
-        "visits": 9969,
-        "unique_visitors": 3744,
+        "page_views": 10093,
+        "visits": 10093,
+        "unique_visitors": 3838,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3869,7 +3869,7 @@
           },
           {
             "date": "2026-08-11",
-            "pageViews": 244
+            "pageViews": 368
           }
         ]
       },
@@ -3906,7 +3906,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9969
+          "pageViews": 10093
         }
       ],
       "adsense": {
