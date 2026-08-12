@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-12T07:04:52.218982+00:00",
+  "generated_at": "2026-08-12T12:40:57.449682+00:00",
   "period": {
     "start": "2026-08-01",
     "end": "2026-08-12"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 144336,
-    "page_views_alltime": 598060,
-    "visits": 144336,
-    "articles": 2564,
+    "page_views": 146098,
+    "page_views_alltime": 599822,
+    "visits": 146098,
+    "articles": 2568,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1683,
+    "yt_views": 1684,
     "sites": 15
   },
   "adsense_connected": true,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10377,
-        "visits": 10377,
-        "unique_visitors": 4444,
+        "page_views": 10426,
+        "visits": 10426,
+        "unique_visitors": 4503,
         "daily": [
           {
             "date": "2026-08-01",
@@ -340,7 +340,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 225
+            "pageViews": 274
           }
         ]
       },
@@ -377,7 +377,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10377
+          "pageViews": 10426
         }
       ],
       "adsense": {
@@ -396,7 +396,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 179,
+      "articles": 180,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Battery As A Service Should Solar Owners Subscribe Instead Of Buy",
@@ -706,9 +706,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10601,
-        "visits": 10601,
-        "unique_visitors": 4731,
+        "page_views": 10679,
+        "visits": 10679,
+        "unique_visitors": 4809,
         "daily": [
           {
             "date": "2026-08-01",
@@ -756,7 +756,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 386
+            "pageViews": 464
           }
         ]
       },
@@ -793,7 +793,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10601
+          "pageViews": 10679
         }
       ],
       "adsense": {
@@ -1012,9 +1012,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10282,
-        "visits": 10282,
-        "unique_visitors": 5170,
+        "page_views": 10357,
+        "visits": 10357,
+        "unique_visitors": 5248,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1062,7 +1062,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 598
+            "pageViews": 673
           }
         ]
       },
@@ -1099,7 +1099,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10282
+          "pageViews": 10357
         }
       ],
       "adsense": {
@@ -1118,7 +1118,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 183,
+      "articles": 184,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Accident With An Uninsured Driver What To Do",
@@ -1262,9 +1262,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7346,
-        "visits": 7346,
-        "unique_visitors": 2903,
+        "page_views": 7371,
+        "visits": 7371,
+        "unique_visitors": 2943,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1312,7 +1312,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 269
+            "pageViews": 294
           }
         ]
       },
@@ -1349,7 +1349,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 7346
+          "pageViews": 7371
         }
       ],
       "adsense": {
@@ -1368,7 +1368,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 169,
+      "articles": 170,
       "article_titles": [
         "Actual Cash Value Explained",
         "Actual Cash Value Vs Replacement Cost Explained",
@@ -1600,9 +1600,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10236,
-        "visits": 10236,
-        "unique_visitors": 3530,
+        "page_views": 10277,
+        "visits": 10277,
+        "unique_visitors": 3571,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1650,7 +1650,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 315
+            "pageViews": 356
           }
         ]
       },
@@ -1687,7 +1687,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10236
+          "pageViews": 10277
         }
       ],
       "adsense": {
@@ -1850,9 +1850,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8794,
-        "visits": 8794,
-        "unique_visitors": 3530,
+        "page_views": 8839,
+        "visits": 8839,
+        "unique_visitors": 3596,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1900,7 +1900,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 266
+            "pageViews": 311
           }
         ]
       },
@@ -1937,7 +1937,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8794
+          "pageViews": 8839
         }
       ],
       "adsense": {
@@ -2068,9 +2068,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8294,
-        "visits": 8294,
-        "unique_visitors": 3804,
+        "page_views": 8343,
+        "visits": 8343,
+        "unique_visitors": 3861,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2118,7 +2118,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 263
+            "pageViews": 312
           }
         ]
       },
@@ -2155,7 +2155,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8294
+          "pageViews": 8343
         }
       ],
       "adsense": {
@@ -2227,7 +2227,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 45,
+            "views": 46,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -2238,7 +2238,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 78
+          "total_views": 79
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2308,9 +2308,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8457,
-        "visits": 8457,
-        "unique_visitors": 2992,
+        "page_views": 8495,
+        "visits": 8495,
+        "unique_visitors": 3027,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2358,7 +2358,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 304
+            "pageViews": 342
           }
         ]
       },
@@ -2395,7 +2395,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8457
+          "pageViews": 8495
         }
       ],
       "adsense": {
@@ -2404,7 +2404,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 115,
+      "yt_total_views": 116,
       "video_count": 10
     },
     {
@@ -2548,9 +2548,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10372,
-        "visits": 10372,
-        "unique_visitors": 4765,
+        "page_views": 10596,
+        "visits": 10596,
+        "unique_visitors": 4803,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2598,7 +2598,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 243
+            "pageViews": 467
           }
         ]
       },
@@ -2635,7 +2635,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10372
+          "pageViews": 10596
         }
       ],
       "adsense": {
@@ -2876,9 +2876,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8721,
-        "visits": 8721,
-        "unique_visitors": 2555,
+        "page_views": 8822,
+        "visits": 8822,
+        "unique_visitors": 2648,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2926,7 +2926,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 316
+            "pageViews": 417
           }
         ]
       },
@@ -2963,7 +2963,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8721
+          "pageViews": 8822
         }
       ],
       "adsense": {
@@ -3094,9 +3094,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8031,
-        "visits": 8031,
-        "unique_visitors": 3497,
+        "page_views": 8073,
+        "visits": 8073,
+        "unique_visitors": 3540,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3144,7 +3144,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 357
+            "pageViews": 399
           }
         ]
       },
@@ -3181,7 +3181,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 8031
+          "pageViews": 8073
         }
       ],
       "adsense": {
@@ -3334,9 +3334,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9865,
-        "visits": 9865,
-        "unique_visitors": 4539,
+        "page_views": 9938,
+        "visits": 9938,
+        "unique_visitors": 4585,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3384,7 +3384,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 386
+            "pageViews": 459
           }
         ]
       },
@@ -3421,7 +3421,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 9865
+          "pageViews": 9938
         }
       ],
       "adsense": {
@@ -3465,9 +3465,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 10977,
-        "visits": 10977,
-        "unique_visitors": 7167,
+        "page_views": 11064,
+        "visits": 11064,
+        "unique_visitors": 7321,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3515,7 +3515,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 185
+            "pageViews": 272
           }
         ]
       },
@@ -3552,7 +3552,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10977
+          "pageViews": 11064
         }
       ],
       "adsense": {
@@ -3683,9 +3683,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 11271,
-        "visits": 11271,
-        "unique_visitors": 3176,
+        "page_views": 11980,
+        "visits": 11980,
+        "unique_visitors": 3223,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3733,7 +3733,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 262
+            "pageViews": 971
           }
         ]
       },
@@ -3770,7 +3770,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 11271
+          "pageViews": 11980
         }
       ],
       "adsense": {
@@ -3789,7 +3789,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 169,
+      "articles": 170,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -3879,9 +3879,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10712,
-        "visits": 10712,
-        "unique_visitors": 4056,
+        "page_views": 10838,
+        "visits": 10838,
+        "unique_visitors": 4105,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3929,7 +3929,7 @@
           },
           {
             "date": "2026-08-12",
-            "pageViews": 260
+            "pageViews": 386
           }
         ]
       },
@@ -3966,7 +3966,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 10712
+          "pageViews": 10838
         }
       ],
       "adsense": {
