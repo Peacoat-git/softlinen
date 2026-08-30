@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-29T20:06:15.092372+00:00",
+  "generated_at": "2026-08-30T02:08:49.845204+00:00",
   "period": {
     "start": "2026-08-01",
-    "end": "2026-08-29"
+    "end": "2026-08-30"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 366635,
-    "page_views_alltime": 820359,
-    "visits": 366635,
+    "page_views": 368253,
+    "page_views_alltime": 821977,
+    "visits": 368253,
     "articles": 2632,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1721,
+    "yt_views": 1723,
     "sites": 15
   },
   "adsense_connected": true,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 23737,
-        "visits": 23737,
-        "unique_visitors": 10277,
+        "page_views": 23781,
+        "visits": 23781,
+        "unique_visitors": 10322,
         "daily": [
           {
             "date": "2026-08-01",
@@ -408,7 +408,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 587
+            "pageViews": 621
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 10
           }
         ]
       },
@@ -445,7 +449,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 23737
+          "pageViews": 23781
         }
       ],
       "adsense": {
@@ -774,9 +778,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25717,
-        "visits": 25717,
-        "unique_visitors": 9985,
+        "page_views": 25798,
+        "visits": 25798,
+        "unique_visitors": 10051,
         "daily": [
           {
             "date": "2026-08-01",
@@ -892,7 +896,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 651
+            "pageViews": 703
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 29
           }
         ]
       },
@@ -929,7 +937,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 25717
+          "pageViews": 25798
         }
       ],
       "adsense": {
@@ -1148,9 +1156,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 27299,
-        "visits": 27299,
-        "unique_visitors": 13101,
+        "page_views": 27426,
+        "visits": 27426,
+        "unique_visitors": 13216,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1266,7 +1274,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 896
+            "pageViews": 982
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 41
           }
         ]
       },
@@ -1303,7 +1315,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 27299
+          "pageViews": 27426
         }
       ],
       "adsense": {
@@ -1451,7 +1463,7 @@
           "standard_id": "1k93GFSbhrs",
           "standard_url": "https://www.youtube.com/watch?v=1k93GFSbhrs",
           "shorts_stats": {
-            "views": 3,
+            "views": 4,
             "likes": 0,
             "comments": 0,
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
@@ -1462,13 +1474,13 @@
             "comments": 0,
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
           },
-          "total_views": 5
+          "total_views": 6
         }
       ],
       "cloudflare": {
-        "page_views": 20989,
-        "visits": 20989,
-        "unique_visitors": 8236,
+        "page_views": 21026,
+        "visits": 21026,
+        "unique_visitors": 8279,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1584,7 +1596,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 621
+            "pageViews": 649
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 9
           }
         ]
       },
@@ -1621,7 +1637,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 20989
+          "pageViews": 21026
         }
       ],
       "adsense": {
@@ -1630,7 +1646,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 11,
+      "yt_total_views": 12,
       "video_count": 11
     },
     {
@@ -1872,9 +1888,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 22852,
-        "visits": 22852,
-        "unique_visitors": 8708,
+        "page_views": 22879,
+        "visits": 22879,
+        "unique_visitors": 8744,
         "daily": [
           {
             "date": "2026-08-01",
@@ -1990,7 +2006,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 559
+            "pageViews": 574
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 12
           }
         ]
       },
@@ -2027,7 +2047,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 22852
+          "pageViews": 22879
         }
       ],
       "adsense": {
@@ -2190,9 +2210,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24446,
-        "visits": 24446,
-        "unique_visitors": 9623,
+        "page_views": 24555,
+        "visits": 24555,
+        "unique_visitors": 9685,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2308,7 +2328,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 1158
+            "pageViews": 1207
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 60
           }
         ]
       },
@@ -2345,7 +2369,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 24446
+          "pageViews": 24555
         }
       ],
       "adsense": {
@@ -2476,9 +2500,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 23814,
-        "visits": 23814,
-        "unique_visitors": 9339,
+        "page_views": 23880,
+        "visits": 23880,
+        "unique_visitors": 9415,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2594,7 +2618,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 621
+            "pageViews": 669
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 18
           }
         ]
       },
@@ -2631,7 +2659,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 23814
+          "pageViews": 23880
         }
       ],
       "adsense": {
@@ -2784,9 +2812,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 22718,
-        "visits": 22718,
-        "unique_visitors": 8613,
+        "page_views": 22918,
+        "visits": 22918,
+        "unique_visitors": 8726,
         "daily": [
           {
             "date": "2026-08-01",
@@ -2902,7 +2930,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 763
+            "pageViews": 947
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 16
           }
         ]
       },
@@ -2939,7 +2971,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 22718
+          "pageViews": 22918
         }
       ],
       "adsense": {
@@ -3092,9 +3124,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 27105,
-        "visits": 27105,
-        "unique_visitors": 12056,
+        "page_views": 27185,
+        "visits": 27185,
+        "unique_visitors": 12141,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3210,7 +3242,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 674
+            "pageViews": 718
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 36
           }
         ]
       },
@@ -3247,7 +3283,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 27105
+          "pageViews": 27185
         }
       ],
       "adsense": {
@@ -3488,9 +3524,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 23264,
-        "visits": 23264,
-        "unique_visitors": 8668,
+        "page_views": 23484,
+        "visits": 23484,
+        "unique_visitors": 8718,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3606,7 +3642,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 625
+            "pageViews": 747
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 98
           }
         ]
       },
@@ -3643,7 +3683,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 23264
+          "pageViews": 23484
         }
       ],
       "adsense": {
@@ -3774,9 +3814,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 22771,
-        "visits": 22771,
-        "unique_visitors": 9176,
+        "page_views": 23061,
+        "visits": 23061,
+        "unique_visitors": 9307,
         "daily": [
           {
             "date": "2026-08-01",
@@ -3892,7 +3932,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 704
+            "pageViews": 866
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 128
           }
         ]
       },
@@ -3929,7 +3973,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 22771
+          "pageViews": 23061
         }
       ],
       "adsense": {
@@ -4082,9 +4126,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24032,
-        "visits": 24032,
-        "unique_visitors": 10609,
+        "page_views": 24093,
+        "visits": 24093,
+        "unique_visitors": 10687,
         "daily": [
           {
             "date": "2026-08-01",
@@ -4200,7 +4244,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 658
+            "pageViews": 702
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 17
           }
         ]
       },
@@ -4237,7 +4285,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 24032
+          "pageViews": 24093
         }
       ],
       "adsense": {
@@ -4281,9 +4329,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 24191,
-        "visits": 24191,
-        "unique_visitors": 20236,
+        "page_views": 24310,
+        "visits": 24310,
+        "unique_visitors": 20391,
         "daily": [
           {
             "date": "2026-08-01",
@@ -4399,7 +4447,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 594
+            "pageViews": 673
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 40
           }
         ]
       },
@@ -4436,7 +4488,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 24191
+          "pageViews": 24310
         }
       ],
       "adsense": {
@@ -4567,9 +4619,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 29406,
-        "visits": 29406,
-        "unique_visitors": 9988,
+        "page_views": 29492,
+        "visits": 29492,
+        "unique_visitors": 10077,
         "daily": [
           {
             "date": "2026-08-01",
@@ -4685,7 +4737,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 756
+            "pageViews": 815
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 27
           }
         ]
       },
@@ -4722,7 +4778,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 29406
+          "pageViews": 29492
         }
       ],
       "adsense": {
@@ -4794,7 +4850,7 @@
           "standard_id": "Fvnj3gAgAM0",
           "standard_url": "https://www.youtube.com/watch?v=Fvnj3gAgAM0",
           "shorts_stats": {
-            "views": 20,
+            "views": 21,
             "likes": 0,
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
@@ -4805,7 +4861,7 @@
             "comments": 0,
             "title": "No Plunger? 3 Kitchen Items That Unclog Any Toilet Fast"
           },
-          "total_views": 20
+          "total_views": 21
         },
         {
           "shorts_id": "V4Y6Y9bF_-o",
@@ -4831,9 +4887,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24294,
-        "visits": 24294,
-        "unique_visitors": 9564,
+        "page_views": 24365,
+        "visits": 24365,
+        "unique_visitors": 9639,
         "daily": [
           {
             "date": "2026-08-01",
@@ -4949,7 +5005,11 @@
           },
           {
             "date": "2026-08-29",
-            "pageViews": 730
+            "pageViews": 777
+          },
+          {
+            "date": "2026-08-30",
+            "pageViews": 24
           }
         ]
       },
@@ -4986,7 +5046,7 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 24294
+          "pageViews": 24365
         }
       ],
       "adsense": {
@@ -4995,7 +5055,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 115,
+      "yt_total_views": 116,
       "video_count": 4
     }
   ]
