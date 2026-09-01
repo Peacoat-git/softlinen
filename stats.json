@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-31T22:08:30.899906+00:00",
+  "generated_at": "2026-09-01T02:25:20.195233+00:00",
   "period": {
-    "start": "2026-08-01",
-    "end": "2026-08-31"
+    "start": "2026-09-01",
+    "end": "2026-09-01"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 391615,
-    "page_views_alltime": 845339,
-    "visits": 391615,
+    "page_views": 540,
+    "page_views_alltime": 846413,
+    "visits": 540,
     "articles": 2632,
     "videos": 172,
     "channels": 14,
@@ -290,133 +290,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25696,
-        "visits": 25696,
-        "unique_visitors": 11077,
+        "page_views": 40,
+        "visits": 40,
+        "unique_visitors": 47,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 1220
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 804
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 940
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 1217
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 912
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 945
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 688
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 1073
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 988
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 749
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 616
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 790
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 693
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 662
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 796
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 612
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 650
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 615
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 815
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 716
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 800
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1066
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 664
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 710
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 730
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 895
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 840
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 944
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 621
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 889
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 1036
+            "date": "2026-09-01",
+            "pageViews": 40
           }
         ]
       },
@@ -453,7 +333,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 25696
+          "pageViews": 25712
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 40
         }
       ],
       "adsense": {
@@ -782,133 +666,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 27140,
-        "visits": 27140,
-        "unique_visitors": 10503,
+        "page_views": 31,
+        "visits": 31,
+        "unique_visitors": 38,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 1147
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 781
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 1221
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 948
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 649
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 669
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 675
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 1475
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 1038
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 773
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 839
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 998
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 563
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 705
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 853
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 792
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 705
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 1847
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 737
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 1231
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 639
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1187
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 716
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 875
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 730
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 788
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 827
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 658
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 703
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 653
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 718
+            "date": "2026-09-01",
+            "pageViews": 31
           }
         ]
       },
@@ -945,7 +709,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 27140
+          "pageViews": 27166
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 31
         }
       ],
       "adsense": {
@@ -1164,133 +932,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 29328,
-        "visits": 29328,
-        "unique_visitors": 14077,
+        "page_views": 46,
+        "visits": 46,
+        "unique_visitors": 63,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 711
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 760
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 1184
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 971
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 844
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 634
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 750
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 844
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 1276
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 984
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 726
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 1232
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 681
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 1501
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 811
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 734
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 811
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 824
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 867
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 796
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 889
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1192
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 784
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 831
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 1711
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 1183
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 1049
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 823
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 982
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 1069
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 874
+            "date": "2026-09-01",
+            "pageViews": 46
           }
         ]
       },
@@ -1327,7 +975,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 29328
+          "pageViews": 29369
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 46
         }
       ],
       "adsense": {
@@ -1490,133 +1142,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 22497,
-        "visits": 22497,
-        "unique_visitors": 8669,
+        "page_views": 9,
+        "visits": 9,
+        "unique_visitors": 15,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 535
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 610
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 827
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 649
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 538
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 616
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 681
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 686
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 738
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 631
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 566
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 774
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 512
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 721
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 803
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 597
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 728
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 998
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 1088
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 755
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 745
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1054
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 550
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 762
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 926
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 722
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 779
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 777
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 649
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 912
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 568
+            "date": "2026-09-01",
+            "pageViews": 9
           }
         ]
       },
@@ -1653,7 +1185,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 22497
+          "pageViews": 22508
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 9
         }
       ],
       "adsense": {
@@ -1904,133 +1440,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24169,
-        "visits": 24169,
-        "unique_visitors": 9146,
+        "page_views": 19,
+        "visits": 19,
+        "unique_visitors": 38,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 663
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 798
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 909
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 705
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 877
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 1132
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 1635
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 637
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 1158
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 734
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 673
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 959
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 694
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 631
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 731
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 625
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 986
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 688
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 647
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 614
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 668
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 969
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 679
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 607
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 745
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 583
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 950
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 596
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 574
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 713
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 589
+            "date": "2026-09-01",
+            "pageViews": 19
           }
         ]
       },
@@ -2067,7 +1483,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 24169
+          "pageViews": 24213
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 19
         }
       ],
       "adsense": {
@@ -2230,133 +1650,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 26117,
-        "visits": 26117,
-        "unique_visitors": 10449,
+        "page_views": 31,
+        "visits": 31,
+        "unique_visitors": 50,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 695
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 534
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 924
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 713
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 976
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 714
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 650
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 677
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 809
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 846
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 990
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 1696
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 716
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 630
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 680
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 1308
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 1146
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 863
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 803
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 658
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 705
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1084
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 709
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 595
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 695
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 772
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 996
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 704
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 1207
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 803
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 819
+            "date": "2026-09-01",
+            "pageViews": 31
           }
         ]
       },
@@ -2393,7 +1693,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 26117
+          "pageViews": 26146
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 31
         }
       ],
       "adsense": {
@@ -2524,133 +1828,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25152,
-        "visits": 25152,
-        "unique_visitors": 9845,
+        "page_views": 26,
+        "visits": 26,
+        "unique_visitors": 29,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 550
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 631
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 916
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 896
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 1007
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 665
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 686
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 640
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 807
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 675
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 558
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 815
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 720
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 778
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 550
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 840
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 1046
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 863
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 1064
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 861
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 736
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1121
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 642
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 631
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 685
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 2283
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 879
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 648
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 669
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 581
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 709
+            "date": "2026-09-01",
+            "pageViews": 26
           }
         ]
       },
@@ -2687,7 +1871,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 25152
+          "pageViews": 25169
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 26
         }
       ],
       "adsense": {
@@ -2840,133 +2028,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25206,
-        "visits": 25206,
-        "unique_visitors": 9353,
+        "page_views": 115,
+        "visits": 115,
+        "unique_visitors": 55,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 895
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 771
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 960
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 606
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 558
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 663
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 979
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 719
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 781
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 507
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 714
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 834
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 669
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 668
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 645
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 623
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 659
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 1220
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 783
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 742
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 792
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1079
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 651
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 686
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 846
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 924
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 1119
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 862
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 947
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 1028
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 1276
+            "date": "2026-09-01",
+            "pageViews": 115
           }
         ]
       },
@@ -3003,7 +2071,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 25206
+          "pageViews": 25285
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 115
         }
       ],
       "adsense": {
@@ -3156,133 +2228,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 28640,
-        "visits": 28640,
-        "unique_visitors": 12773,
+        "page_views": 27,
+        "visits": 27,
+        "unique_visitors": 40,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 707
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 754
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 1123
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 948
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 1068
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 777
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 1587
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 935
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 1012
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 609
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 609
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 1261
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 765
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 655
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 879
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 807
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 898
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 783
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 893
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 912
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 848
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1185
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 758
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 904
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 1353
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 1496
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 1155
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 750
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 718
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 792
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 699
+            "date": "2026-09-01",
+            "pageViews": 27
           }
         ]
       },
@@ -3319,7 +2271,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 28640
+          "pageViews": 28672
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 27
         }
       ],
       "adsense": {
@@ -3560,133 +2516,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24900,
-        "visits": 24900,
-        "unique_visitors": 9139,
+        "page_views": 30,
+        "visits": 30,
+        "unique_visitors": 113,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 531
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 602
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 758
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 583
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 1668
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 571
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 555
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 1148
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 775
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 584
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 630
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 977
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 763
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 1005
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 773
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 887
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 659
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 667
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 734
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 824
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 726
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1150
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 644
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 626
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 611
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 1343
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 1173
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 672
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 747
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 777
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 737
+            "date": "2026-09-01",
+            "pageViews": 30
           }
         ]
       },
@@ -3723,7 +2559,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 24900
+          "pageViews": 24919
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 30
         }
       ],
       "adsense": {
@@ -3854,133 +2694,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24438,
-        "visits": 24438,
-        "unique_visitors": 9886,
+        "page_views": 25,
+        "visits": 25,
+        "unique_visitors": 41,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 724
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 775
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 891
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 573
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 573
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 599
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 672
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 643
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 833
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 835
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 556
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 1216
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 661
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 702
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 591
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 604
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 748
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 1550
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 695
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 733
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 780
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1144
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 707
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 631
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 755
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 592
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 1054
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 1230
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 866
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 792
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 713
+            "date": "2026-09-01",
+            "pageViews": 25
           }
         ]
       },
@@ -4017,7 +2737,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 24438
+          "pageViews": 24457
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 25
         }
       ],
       "adsense": {
@@ -4170,133 +2894,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25950,
-        "visits": 25950,
-        "unique_visitors": 11385,
+        "page_views": 52,
+        "visits": 52,
+        "unique_visitors": 72,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 708
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 969
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 1049
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 1221
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 946
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 732
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 658
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 672
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 1064
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 820
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 640
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 1033
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 681
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 778
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 750
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 690
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 700
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 734
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 664
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 725
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 757
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1137
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 707
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 807
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 795
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 670
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 1434
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 833
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 702
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 1110
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 764
+            "date": "2026-09-01",
+            "pageViews": 52
           }
         ]
       },
@@ -4333,7 +2937,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 25950
+          "pageViews": 26016
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 52
         }
       ],
       "adsense": {
@@ -4377,133 +2985,13 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 25522,
-        "visits": 25522,
-        "unique_visitors": 21496,
+        "page_views": 27,
+        "visits": 27,
+        "unique_visitors": 57,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 724
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 817
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 1281
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 1578
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 1254
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 849
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 926
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 956
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 1112
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 728
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 567
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 639
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 743
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 649
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 901
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 559
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 697
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 617
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 793
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 701
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 712
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 844
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 687
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 681
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 752
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 1219
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 837
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 774
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 673
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 577
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 675
+            "date": "2026-09-01",
+            "pageViews": 27
           }
         ]
       },
@@ -4540,7 +3028,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 25522
+          "pageViews": 25583
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 27
         }
       ],
       "adsense": {
@@ -4671,133 +3163,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 30989,
-        "visits": 30989,
-        "unique_visitors": 11011,
+        "page_views": 46,
+        "visits": 46,
+        "unique_visitors": 65,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 814
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 601
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 1537
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 739
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 749
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 756
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 775
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 2109
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 1137
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 1154
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 638
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 1499
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 1477
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 739
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 604
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 1222
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 788
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 975
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 1059
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 967
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 1954
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1070
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 822
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 772
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 682
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 663
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 1543
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 805
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 815
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 786
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 738
+            "date": "2026-09-01",
+            "pageViews": 46
           }
         ]
       },
@@ -4834,7 +3206,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 30989
+          "pageViews": 31035
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 46
         }
       ],
       "adsense": {
@@ -4943,133 +3319,13 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25871,
-        "visits": 25871,
-        "unique_visitors": 10173,
+        "page_views": 16,
+        "visits": 16,
+        "unique_visitors": 25,
         "daily": [
           {
-            "date": "2026-08-01",
-            "pageViews": 677
-          },
-          {
-            "date": "2026-08-02",
-            "pageViews": 581
-          },
-          {
-            "date": "2026-08-03",
-            "pageViews": 1418
-          },
-          {
-            "date": "2026-08-04",
-            "pageViews": 882
-          },
-          {
-            "date": "2026-08-05",
-            "pageViews": 706
-          },
-          {
-            "date": "2026-08-06",
-            "pageViews": 804
-          },
-          {
-            "date": "2026-08-07",
-            "pageViews": 1488
-          },
-          {
-            "date": "2026-08-08",
-            "pageViews": 1411
-          },
-          {
-            "date": "2026-08-09",
-            "pageViews": 859
-          },
-          {
-            "date": "2026-08-10",
-            "pageViews": 899
-          },
-          {
-            "date": "2026-08-11",
-            "pageViews": 727
-          },
-          {
-            "date": "2026-08-12",
-            "pageViews": 868
-          },
-          {
-            "date": "2026-08-13",
-            "pageViews": 607
-          },
-          {
-            "date": "2026-08-14",
-            "pageViews": 548
-          },
-          {
-            "date": "2026-08-15",
-            "pageViews": 591
-          },
-          {
-            "date": "2026-08-16",
-            "pageViews": 597
-          },
-          {
-            "date": "2026-08-17",
-            "pageViews": 573
-          },
-          {
-            "date": "2026-08-18",
-            "pageViews": 582
-          },
-          {
-            "date": "2026-08-19",
-            "pageViews": 667
-          },
-          {
-            "date": "2026-08-20",
-            "pageViews": 866
-          },
-          {
-            "date": "2026-08-21",
-            "pageViews": 965
-          },
-          {
-            "date": "2026-08-22",
-            "pageViews": 1159
-          },
-          {
-            "date": "2026-08-23",
-            "pageViews": 829
-          },
-          {
-            "date": "2026-08-24",
-            "pageViews": 742
-          },
-          {
-            "date": "2026-08-25",
-            "pageViews": 1172
-          },
-          {
-            "date": "2026-08-26",
-            "pageViews": 638
-          },
-          {
-            "date": "2026-08-27",
-            "pageViews": 941
-          },
-          {
-            "date": "2026-08-28",
-            "pageViews": 767
-          },
-          {
-            "date": "2026-08-29",
-            "pageViews": 777
-          },
-          {
-            "date": "2026-08-30",
-            "pageViews": 821
-          },
-          {
-            "date": "2026-08-31",
-            "pageViews": 709
+            "date": "2026-09-01",
+            "pageViews": 16
           }
         ]
       },
@@ -5106,7 +3362,11 @@
         },
         {
           "month": "2026-08",
-          "pageViews": 25871
+          "pageViews": 25899
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 16
         }
       ],
       "adsense": {
