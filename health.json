@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-20T04:40:53.019044+00:00",
+  "generated_at": "2026-09-20T15:55:39.586654+00:00",
   "healthy": false,
   "issue_count": 16,
   "issues": [
-    "**medicare-starter**: publish not run in 830h (threshold 30h)",
-    "**solar-planner-guide**: publish not run in 837h (threshold 30h)",
-    "**solar-home-planner**: publish not run in 846h (threshold 30h)",
-    "**injury-victim-guide**: publish not run in 833h (threshold 30h)",
-    "**home-insurance-guide**: publish not run in 834h (threshold 30h)",
-    "**mortgage-advisor-guide**: publish not run in 829h (threshold 30h)",
-    "**therapy-finder-guide**: publish not run in 831h (threshold 30h)",
-    "**pet-doctor-guide**: publish not run in 827h (threshold 30h)",
-    "**small-biz-finance-guide**: publish not run in 847h (threshold 30h)",
-    "**keto-living-guide**: publish not run in 832h (threshold 30h)",
-    "**rv-life-guide**: publish not run in 826h (threshold 30h)",
-    "**seniorstrength**: publish not run in 824h (threshold 30h)",
-    "**chicken-keeper-guide**: publish not run in 839h (threshold 30h)",
-    "**fixitrightway**: publish not run in 837h (threshold 30h)",
-    "**gamedevproducer**: publish not run in 1004h (threshold 30h)",
-    "**keto-living-guide**: data/keto_foods.json not updated in 75d (cadence 30d) \u2014 keto-data.yml may be silently failing"
+    "**medicare-starter**: publish not run in 841h (threshold 30h)",
+    "**solar-planner-guide**: publish not run in 848h (threshold 30h)",
+    "**solar-home-planner**: publish not run in 857h (threshold 30h)",
+    "**injury-victim-guide**: publish not run in 844h (threshold 30h)",
+    "**home-insurance-guide**: publish not run in 846h (threshold 30h)",
+    "**mortgage-advisor-guide**: publish not run in 840h (threshold 30h)",
+    "**therapy-finder-guide**: publish not run in 842h (threshold 30h)",
+    "**pet-doctor-guide**: publish not run in 838h (threshold 30h)",
+    "**small-biz-finance-guide**: publish not run in 858h (threshold 30h)",
+    "**keto-living-guide**: publish not run in 843h (threshold 30h)",
+    "**rv-life-guide**: publish not run in 837h (threshold 30h)",
+    "**seniorstrength**: publish not run in 836h (threshold 30h)",
+    "**chicken-keeper-guide**: publish not run in 850h (threshold 30h)",
+    "**fixitrightway**: publish not run in 849h (threshold 30h)",
+    "**gamedevproducer**: publish not run in 1015h (threshold 30h)",
+    "**keto-living-guide**: data/keto_foods.json not updated in 76d (cadence 30d) \u2014 keto-data.yml may be silently failing"
   ],
   "thresholds": {
     "publish_stale_hours": 30,
@@ -33,19 +33,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 830.1,
+        "age_hours": 841.4,
         "created_at": "2026-08-16T14:32:34Z",
         "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/31953008160"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1790.3,
+        "age_hours": 1801.5,
         "created_at": "2026-07-07T14:22:47Z",
         "run_url": "https://github.com/peacoat-sites/medicare-starter/actions/runs/28873638141"
       },
       "issues": [
-        "publish not run in 830h (threshold 30h)"
+        "publish not run in 841h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -57,19 +57,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 837.0,
+        "age_hours": 848.2,
         "created_at": "2026-08-16T07:40:46Z",
         "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/31934495351"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1934.1,
+        "age_hours": 1945.4,
         "created_at": "2026-07-01T14:32:22Z",
         "run_url": "https://github.com/peacoat-sites/solar-planner-guide/actions/runs/28525223348"
       },
       "issues": [
-        "publish not run in 837h (threshold 30h)"
+        "publish not run in 848h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -81,19 +81,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 845.9,
+        "age_hours": 857.2,
         "created_at": "2026-08-15T22:44:29Z",
         "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/31912922812"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1934.3,
+        "age_hours": 1945.6,
         "created_at": "2026-07-01T14:22:13Z",
         "run_url": "https://github.com/peacoat-sites/solar-home-planner/actions/runs/28524566895"
       },
       "issues": [
-        "publish not run in 846h (threshold 30h)"
+        "publish not run in 857h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -105,19 +105,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 833.1,
+        "age_hours": 844.4,
         "created_at": "2026-08-16T11:32:51Z",
         "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/31944619816"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1815.1,
+        "age_hours": 1826.3,
         "created_at": "2026-07-06T13:36:46Z",
         "run_url": "https://github.com/peacoat-sites/injury-victim-guide/actions/runs/28795670303"
       },
       "issues": [
-        "publish not run in 833h (threshold 30h)"
+        "publish not run in 844h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -129,19 +129,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 834.5,
+        "age_hours": 845.8,
         "created_at": "2026-08-16T10:08:05Z",
         "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/31940872996"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1814.3,
+        "age_hours": 1825.6,
         "created_at": "2026-07-06T14:20:49Z",
         "run_url": "https://github.com/peacoat-sites/home-insurance-guide/actions/runs/28798542388"
       },
       "issues": [
-        "publish not run in 834h (threshold 30h)"
+        "publish not run in 846h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -153,19 +153,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 828.7,
+        "age_hours": 839.9,
         "created_at": "2026-08-16T15:59:37Z",
         "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/31957291049"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1813.8,
+        "age_hours": 1825.1,
         "created_at": "2026-07-06T14:50:34Z",
         "run_url": "https://github.com/peacoat-sites/mortgage-advisor-guide/actions/runs/28800529666"
       },
       "issues": [
-        "publish not run in 829h (threshold 30h)"
+        "publish not run in 840h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -177,19 +177,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 830.8,
+        "age_hours": 842.0,
         "created_at": "2026-08-16T13:53:39Z",
         "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/31951118488"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1936.3,
+        "age_hours": 1947.5,
         "created_at": "2026-07-01T12:25:43Z",
         "run_url": "https://github.com/peacoat-sites/therapy-finder-guide/actions/runs/28517349780"
       },
       "issues": [
-        "publish not run in 831h (threshold 30h)"
+        "publish not run in 842h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -201,19 +201,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 827.1,
+        "age_hours": 838.3,
         "created_at": "2026-08-16T17:35:51Z",
         "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/31962078083"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1911.8,
+        "age_hours": 1923.0,
         "created_at": "2026-07-02T12:53:42Z",
         "run_url": "https://github.com/peacoat-sites/pet-doctor-guide/actions/runs/28591546924"
       },
       "issues": [
-        "publish not run in 827h (threshold 30h)"
+        "publish not run in 838h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -225,19 +225,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 846.8,
+        "age_hours": 858.0,
         "created_at": "2026-08-15T21:54:37Z",
         "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/31910719435"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1910.6,
+        "age_hours": 1921.8,
         "created_at": "2026-07-02T14:06:46Z",
         "run_url": "https://github.com/peacoat-sites/small-biz-finance-guide/actions/runs/28596358463"
       },
       "issues": [
-        "publish not run in 847h (threshold 30h)"
+        "publish not run in 858h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -249,19 +249,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 831.5,
+        "age_hours": 842.8,
         "created_at": "2026-08-16T13:10:34Z",
         "run_url": "https://github.com/peacoat-sites/keto-living-guide/actions/runs/31949073922"
       },
       "video": {
         "status": "completed",
         "conclusion": "failure",
-        "age_hours": 1791.4,
+        "age_hours": 1802.7,
         "created_at": "2026-07-07T13:14:28Z",
         "run_url": "https://github.com/peacoat-sites/keto-living-guide/actions/runs/28868995722"
       },
       "issues": [
-        "publish not run in 832h (threshold 30h)"
+        "publish not run in 843h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -273,19 +273,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 825.5,
+        "age_hours": 836.8,
         "created_at": "2026-08-16T19:10:08Z",
         "run_url": "https://github.com/peacoat-sites/rv-life-guide/actions/runs/31966770239"
       },
       "video": {
         "status": "completed",
         "conclusion": "failure",
-        "age_hours": 1792.2,
+        "age_hours": 1803.4,
         "created_at": "2026-07-07T12:29:59Z",
         "run_url": "https://github.com/peacoat-sites/rv-life-guide/actions/runs/28866206557"
       },
       "issues": [
-        "publish not run in 826h (threshold 30h)"
+        "publish not run in 837h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -297,19 +297,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 824.4,
+        "age_hours": 835.6,
         "created_at": "2026-08-16T20:18:16Z",
         "run_url": "https://github.com/peacoat-sites/seniorstrength/actions/runs/31970155663"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1888.5,
+        "age_hours": 1899.8,
         "created_at": "2026-07-03T12:09:44Z",
         "run_url": "https://github.com/peacoat-sites/seniorstrength/actions/runs/28659622976"
       },
       "issues": [
-        "publish not run in 824h (threshold 30h)"
+        "publish not run in 836h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -321,19 +321,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 839.1,
+        "age_hours": 850.3,
         "created_at": "2026-08-16T05:37:47Z",
         "run_url": "https://github.com/peacoat-sites/chicken-keeper-guide/actions/runs/31929452101"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1935.1,
+        "age_hours": 1946.3,
         "created_at": "2026-07-01T13:35:00Z",
         "run_url": "https://github.com/peacoat-sites/chicken-keeper-guide/actions/runs/28521541217"
       },
       "issues": [
-        "publish not run in 839h (threshold 30h)"
+        "publish not run in 850h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -345,19 +345,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 837.4,
+        "age_hours": 848.6,
         "created_at": "2026-08-16T07:17:09Z",
         "run_url": "https://github.com/peacoat-sites/fixitrightway/actions/runs/31933488426"
       },
       "video": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1887.7,
+        "age_hours": 1899.0,
         "created_at": "2026-07-03T12:57:40Z",
         "run_url": "https://github.com/peacoat-sites/fixitrightway/actions/runs/28662060468"
       },
       "issues": [
-        "publish not run in 837h (threshold 30h)"
+        "publish not run in 849h (threshold 30h)"
       ],
       "healthy": false
     },
@@ -369,19 +369,19 @@
       "publish": {
         "status": "completed",
         "conclusion": "success",
-        "age_hours": 1003.6,
+        "age_hours": 1014.8,
         "created_at": "2026-08-09T09:05:52Z",
         "run_url": "https://github.com/peacoat-sites/gamedevproducer/actions/runs/31305092603"
       },
       "video": {
         "status": "completed",
         "conclusion": "failure",
-        "age_hours": 2822.4,
+        "age_hours": 2833.7,
         "created_at": "2026-05-25T14:14:41Z",
         "run_url": "https://github.com/peacoat-sites/gamedevproducer/actions/runs/26404928876"
       },
       "issues": [
-        "publish not run in 1004h (threshold 30h)"
+        "publish not run in 1015h (threshold 30h)"
       ],
       "healthy": false
     }
@@ -392,7 +392,7 @@
       "workflow": "keto-data.yml",
       "path": "data/keto_foods.json",
       "cadence_days": 30,
-      "age_days": 75.1,
+      "age_days": 75.6,
       "stale": true
     },
     {
@@ -400,7 +400,7 @@
       "workflow": "rates.yml",
       "path": "data/rates.json",
       "cadence_days": 30,
-      "age_days": 1.5,
+      "age_days": 2.0,
       "stale": false
     },
     {
@@ -408,7 +408,7 @@
       "workflow": "rates.yml",
       "path": "data/rates.json",
       "cadence_days": 30,
-      "age_days": 1.5,
+      "age_days": 2.0,
       "stale": false
     },
     {
@@ -416,7 +416,7 @@
       "workflow": "solar-data.yml",
       "path": "data/solar_states.json",
       "cadence_days": 90,
-      "age_days": 112.0,
+      "age_days": 112.5,
       "stale": false
     },
     {
@@ -424,7 +424,7 @@
       "workflow": "solar-data.yml",
       "path": "data/solar_states.json",
       "cadence_days": 90,
-      "age_days": 112.0,
+      "age_days": 112.5,
       "stale": false
     },
     {
@@ -432,7 +432,7 @@
       "workflow": "eggs.yml",
       "path": "data/eggs.json",
       "cadence_days": 30,
-      "age_days": 14.7,
+      "age_days": 15.2,
       "stale": false
     },
     {
@@ -440,7 +440,7 @@
       "workflow": "steam.yml",
       "path": "data/steam.json",
       "cadence_days": 7,
-      "age_days": 0.7,
+      "age_days": 0.2,
       "stale": false
     },
     {
@@ -448,7 +448,7 @@
       "workflow": "fuel.yml",
       "path": "data/fuel_prices.json",
       "cadence_days": 7,
-      "age_days": 5.5,
+      "age_days": 6.0,
       "stale": false
     }
   ],
