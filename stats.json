@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-07T12:13:33.929720+00:00",
+  "generated_at": "2026-10-07T22:23:30.888820+00:00",
   "period": {
     "start": "2026-10-01",
     "end": "2026-10-07"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 114285,
-    "page_views_alltime": 1431218,
-    "visits": 114285,
+    "page_views": 122619,
+    "page_views_alltime": 1439552,
+    "visits": 122619,
     "articles": 2623,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1809,
+    "yt_views": 1410,
     "sites": 15
   },
   "adsense_connected": true,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8948,
-        "visits": 8948,
-        "unique_visitors": 5123,
+        "page_views": 9460,
+        "visits": 9460,
+        "unique_visitors": 5470,
         "daily": [
           {
             "date": "2026-10-01",
@@ -320,7 +320,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 596
+            "pageViews": 1108
           }
         ]
       },
@@ -373,7 +373,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8948
+          "pageViews": 9460
         }
       ],
       "adsense": {
@@ -702,9 +702,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8192,
-        "visits": 8192,
-        "unique_visitors": 4236,
+        "page_views": 8690,
+        "visits": 8690,
+        "unique_visitors": 4516,
         "daily": [
           {
             "date": "2026-10-01",
@@ -732,7 +732,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 418
+            "pageViews": 916
           }
         ]
       },
@@ -785,7 +785,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8192
+          "pageViews": 8690
         }
       ],
       "adsense": {
@@ -856,19 +856,9 @@
           "published_at": "2026-06-10T15:28:04.338108+00:00",
           "standard_id": "EbFy1lIwBtg",
           "standard_url": "https://www.youtube.com/watch?v=EbFy1lIwBtg",
-          "shorts_stats": {
-            "views": 8,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
-          },
-          "standard_stats": {
-            "views": 1,
-            "likes": 0,
-            "comments": 0,
-            "title": "Why Your Solar Panels Won't Work During a Blackout (The Fix)"
-          },
-          "total_views": 9
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "Zh28KoFedbc",
@@ -878,19 +868,9 @@
           "published_at": "2026-06-03T16:30:45.782616+00:00",
           "standard_id": "EHLdbDrtELs",
           "standard_url": "https://www.youtube.com/watch?v=EHLdbDrtELs",
-          "shorts_stats": {
-            "views": 17,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
-          },
-          "standard_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes That Cost Homeowners $6,000 (Installers Won't Say This)"
-          },
-          "total_views": 19
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "E1LkJP2I3LI",
@@ -900,19 +880,9 @@
           "published_at": "2026-05-29T01:06:48.228802+00:00",
           "standard_id": "v1iO08fcPwY",
           "standard_url": "https://www.youtube.com/watch?v=v1iO08fcPwY",
-          "shorts_stats": {
-            "views": 126,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
-          },
-          "standard_stats": {
-            "views": 11,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Installer Secrets That Save You $15,000 (Most Skip #2)"
-          },
-          "total_views": 137
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "9d15hwE4rnc",
@@ -922,19 +892,9 @@
           "published_at": "2026-05-29T00:12:00.827947+00:00",
           "standard_id": "d36C0zXzx4I",
           "standard_url": "https://www.youtube.com/watch?v=d36C0zXzx4I",
-          "shorts_stats": {
-            "views": 198,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
-          },
-          "standard_stats": {
-            "views": 3,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Installer Secrets That Save Homeowners Thousands"
-          },
-          "total_views": 201
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "zS9JVW74hHQ",
@@ -944,19 +904,9 @@
           "published_at": "2026-05-19T15:34:15+00:00",
           "standard_id": "40KVpcXq1lI",
           "standard_url": "https://www.youtube.com/watch?v=40KVpcXq1lI",
-          "shorts_stats": {
-            "views": 4,
-            "likes": 0,
-            "comments": 0,
-            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
-          },
-          "standard_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "30% of Solar Owners Have This Regret (Don't Make Their Mistake)"
-          },
-          "total_views": 6
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "HMQkCFdnGsY",
@@ -966,18 +916,8 @@
           "published_at": "2026-05-19T14:49:35+00:00",
           "standard_id": "Xn5eKZPFaxQ",
           "standard_url": "https://www.youtube.com/watch?v=Xn5eKZPFaxQ",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Solar Mistakes Costing Homeowners Thousands (Avoid These)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -988,25 +928,15 @@
           "published_at": "2026-05-19T04:37:43+00:00",
           "standard_id": "d4eAv_KtX38",
           "standard_url": "https://www.youtube.com/watch?v=d4eAv_KtX38",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "5 Solar Secrets Installers Won't Tell You"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "5 Solar Secrets Installers Won't Tell You"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 8646,
-        "visits": 8646,
-        "unique_visitors": 5005,
+        "page_views": 9492,
+        "visits": 9492,
+        "unique_visitors": 5244,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1034,7 +964,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 412
+            "pageViews": 1258
           }
         ]
       },
@@ -1087,7 +1017,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8646
+          "pageViews": 9492
         }
       ],
       "adsense": {
@@ -1096,7 +1026,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 372,
+      "yt_total_views": 0,
       "video_count": 16
     },
     {
@@ -1168,19 +1098,9 @@
           "published_at": "2026-05-29T01:11:34.176215+00:00",
           "standard_id": "aLVKb9w5Yv8",
           "standard_url": "https://www.youtube.com/watch?v=aLVKb9w5Yv8",
-          "shorts_stats": {
-            "views": 5,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026"
-          },
-          "standard_stats": {
-            "views": 4,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026"
-          },
-          "total_views": 9
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "FKqK8rFQZqc",
@@ -1190,18 +1110,8 @@
           "published_at": "2026-05-19T15:38:11.466034+00:00",
           "standard_id": "xr70gtVSmn0",
           "standard_url": "https://www.youtube.com/watch?v=xr70gtVSmn0",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Denying Your Whiplash Claim in 2026 (Before Humans See It)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -1212,18 +1122,8 @@
           "published_at": "2026-05-19T14:54:11.526659+00:00",
           "standard_id": "9wb5OVP2KiU",
           "standard_url": "https://www.youtube.com/watch?v=9wb5OVP2KiU",
-          "shorts_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Auto-Denying Whiplash Claims in 2026 (Former Adjuster Explains)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "Insurance AI Is Auto-Denying Whiplash Claims in 2026 (Former Adjuster Explains)"
-          },
+          "shorts_stats": {},
+          "standard_stats": {},
           "total_views": 0
         },
         {
@@ -1234,25 +1134,15 @@
           "published_at": "2026-05-19T04:40:40.620573+00:00",
           "standard_id": "1k93GFSbhrs",
           "standard_url": "https://www.youtube.com/watch?v=1k93GFSbhrs",
-          "shorts_stats": {
-            "views": 5,
-            "likes": 0,
-            "comments": 0,
-            "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
-          },
-          "standard_stats": {
-            "views": 2,
-            "likes": 0,
-            "comments": 0,
-            "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
-          },
-          "total_views": 7
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 5662,
-        "visits": 5662,
-        "unique_visitors": 1911,
+        "page_views": 5958,
+        "visits": 5958,
+        "unique_visitors": 2012,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1280,7 +1170,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 325
+            "pageViews": 621
           }
         ]
       },
@@ -1333,7 +1223,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 5662
+          "pageViews": 5958
         }
       ],
       "adsense": {
@@ -1342,7 +1232,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 16,
+      "yt_total_views": 0,
       "video_count": 11
     },
     {
@@ -1584,9 +1474,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6364,
-        "visits": 6364,
-        "unique_visitors": 3096,
+        "page_views": 6672,
+        "visits": 6672,
+        "unique_visitors": 3271,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1614,7 +1504,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 363
+            "pageViews": 671
           }
         ]
       },
@@ -1667,7 +1557,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 6364
+          "pageViews": 6672
         }
       ],
       "adsense": {
@@ -1830,9 +1720,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6508,
-        "visits": 6508,
-        "unique_visitors": 3272,
+        "page_views": 6878,
+        "visits": 6878,
+        "unique_visitors": 3459,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1860,7 +1750,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 776
+            "pageViews": 1146
           }
         ]
       },
@@ -1913,7 +1803,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 6508
+          "pageViews": 6878
         }
       ],
       "adsense": {
@@ -1984,19 +1874,9 @@
           "published_at": "2026-05-29T01:22:28.641655+00:00",
           "standard_id": "EfjsyWyNIP8",
           "standard_url": "https://www.youtube.com/watch?v=EfjsyWyNIP8",
-          "shorts_stats": {
-            "views": 3,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Signs Your Therapist Isn't Working (And When to Stay)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Signs Your Therapist Isn't Working (And When to Stay)"
-          },
-          "total_views": 3
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "jJh9fA3MF88",
@@ -2006,19 +1886,9 @@
           "published_at": "2026-05-19T15:49:12.008725+00:00",
           "standard_id": "L_2TqIVb_Aw",
           "standard_url": "https://www.youtube.com/watch?v=L_2TqIVb_Aw",
-          "shorts_stats": {
-            "views": 4,
-            "likes": 0,
-            "comments": 0,
-            "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "First Therapy Session? Here's What Actually Happens (Nobody Tells You)"
-          },
-          "total_views": 4
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         },
         {
           "shorts_id": "0rMyaqyipR0",
@@ -2028,25 +1898,15 @@
           "published_at": "2026-05-19T04:51:38.415845+00:00",
           "standard_id": "0oNFibmafc0",
           "standard_url": "https://www.youtube.com/watch?v=0oNFibmafc0",
-          "shorts_stats": {
-            "views": 4,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things Nobody Tells You Before Your First Therapy Session"
-          },
-          "standard_stats": {
-            "views": 0,
-            "likes": 0,
-            "comments": 0,
-            "title": "3 Things Nobody Tells You Before Your First Therapy Session"
-          },
-          "total_views": 4
+          "shorts_stats": {},
+          "standard_stats": {},
+          "total_views": 0
         }
       ],
       "cloudflare": {
-        "page_views": 6273,
-        "visits": 6273,
-        "unique_visitors": 3039,
+        "page_views": 6620,
+        "visits": 6620,
+        "unique_visitors": 3174,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2074,7 +1934,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 424
+            "pageViews": 771
           }
         ]
       },
@@ -2127,7 +1987,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 6273
+          "pageViews": 6620
         }
       ],
       "adsense": {
@@ -2136,7 +1996,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 11,
+      "yt_total_views": 0,
       "video_count": 8
     },
     {
@@ -2280,9 +2140,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8320,
-        "visits": 8320,
-        "unique_visitors": 4802,
+        "page_views": 8828,
+        "visits": 8828,
+        "unique_visitors": 5115,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2310,7 +2170,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 610
+            "pageViews": 1118
           }
         ]
       },
@@ -2363,7 +2223,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8320
+          "pageViews": 8828
         }
       ],
       "adsense": {
@@ -2516,9 +2376,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8472,
-        "visits": 8472,
-        "unique_visitors": 4531,
+        "page_views": 9845,
+        "visits": 9845,
+        "unique_visitors": 4791,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2546,7 +2406,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 454
+            "pageViews": 1827
           }
         ]
       },
@@ -2599,7 +2459,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8472
+          "pageViews": 9845
         }
       ],
       "adsense": {
@@ -2840,9 +2700,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8910,
-        "visits": 8910,
-        "unique_visitors": 4622,
+        "page_views": 9465,
+        "visits": 9465,
+        "unique_visitors": 4978,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2870,7 +2730,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 1077
+            "pageViews": 1632
           }
         ]
       },
@@ -2923,7 +2783,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8910
+          "pageViews": 9465
         }
       ],
       "adsense": {
@@ -3054,9 +2914,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7576,
-        "visits": 7576,
-        "unique_visitors": 3113,
+        "page_views": 7927,
+        "visits": 7927,
+        "unique_visitors": 3242,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3084,7 +2944,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 438
+            "pageViews": 789
           }
         ]
       },
@@ -3137,7 +2997,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 7576
+          "pageViews": 7927
         }
       ],
       "adsense": {
@@ -3290,9 +3150,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 7570,
-        "visits": 7570,
-        "unique_visitors": 12945,
+        "page_views": 8659,
+        "visits": 8659,
+        "unique_visitors": 13424,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3320,7 +3180,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 547
+            "pageViews": 1636
           }
         ]
       },
@@ -3373,7 +3233,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 7570
+          "pageViews": 8659
         }
       ],
       "adsense": {
@@ -3417,9 +3277,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 7507,
-        "visits": 7507,
-        "unique_visitors": 5923,
+        "page_views": 8033,
+        "visits": 8033,
+        "unique_visitors": 6388,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3447,7 +3307,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 635
+            "pageViews": 1161
           }
         ]
       },
@@ -3500,7 +3360,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 7507
+          "pageViews": 8033
         }
       ],
       "adsense": {
@@ -3631,9 +3491,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8584,
-        "visits": 8584,
-        "unique_visitors": 13248,
+        "page_views": 9007,
+        "visits": 9007,
+        "unique_visitors": 13518,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3661,7 +3521,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 464
+            "pageViews": 887
           }
         ]
       },
@@ -3714,7 +3574,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8584
+          "pageViews": 9007
         }
       ],
       "adsense": {
@@ -3823,9 +3683,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 6753,
-        "visits": 6753,
-        "unique_visitors": 3272,
+        "page_views": 7085,
+        "visits": 7085,
+        "unique_visitors": 3483,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3853,7 +3713,7 @@
           },
           {
             "date": "2026-10-07",
-            "pageViews": 370
+            "pageViews": 702
           }
         ]
       },
@@ -3906,7 +3766,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 6753
+          "pageViews": 7085
         }
       ],
       "adsense": {
