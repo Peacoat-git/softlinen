@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T20:49:09.422541+00:00",
+  "generated_at": "2026-10-11T02:39:09.810645+00:00",
   "period": {
     "start": "2026-10-01",
-    "end": "2026-10-10"
+    "end": "2026-10-11"
   },
   "totals": {
     "revenue": 0,
-    "page_views": 173277,
-    "page_views_alltime": 1490210,
-    "visits": 173277,
+    "page_views": 174976,
+    "page_views_alltime": 1491909,
+    "visits": 174976,
     "articles": 2623,
     "videos": 172,
     "channels": 14,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 14203,
-        "visits": 14203,
-        "unique_visitors": 8339,
+        "page_views": 14341,
+        "visits": 14341,
+        "unique_visitors": 8513,
         "daily": [
           {
             "date": "2026-10-01",
@@ -332,7 +332,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 1208
+            "pageViews": 1295
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 51
           }
         ]
       },
@@ -385,7 +389,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 14203
+          "pageViews": 14341
         }
       ],
       "adsense": {
@@ -714,9 +718,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 11913,
-        "visits": 11913,
-        "unique_visitors": 6100,
+        "page_views": 11971,
+        "visits": 11971,
+        "unique_visitors": 6167,
         "daily": [
           {
             "date": "2026-10-01",
@@ -756,7 +760,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 916
+            "pageViews": 943
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 31
           }
         ]
       },
@@ -809,7 +817,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 11913
+          "pageViews": 11971
         }
       ],
       "adsense": {
@@ -1028,9 +1036,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 12570,
-        "visits": 12570,
-        "unique_visitors": 7418,
+        "page_views": 12631,
+        "visits": 12631,
+        "unique_visitors": 7496,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1070,7 +1078,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 948
+            "pageViews": 984
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 25
           }
         ]
       },
@@ -1123,7 +1135,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 12570
+          "pageViews": 12631
         }
       ],
       "adsense": {
@@ -1286,9 +1298,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 8126,
-        "visits": 8126,
-        "unique_visitors": 3058,
+        "page_views": 8147,
+        "visits": 8147,
+        "unique_visitors": 3101,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1328,7 +1340,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 748
+            "pageViews": 759
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 10
           }
         ]
       },
@@ -1355,7 +1371,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 0
+          "pageViews": 1
         }
       ],
       "cf_monthly_views": [
@@ -1381,7 +1397,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 8126
+          "pageViews": 8147
         }
       ],
       "adsense": {
@@ -1632,9 +1648,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9795,
-        "visits": 9795,
-        "unique_visitors": 5203,
+        "page_views": 9950,
+        "visits": 9950,
+        "unique_visitors": 5268,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1674,7 +1690,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 1128
+            "pageViews": 1268
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 15
           }
         ]
       },
@@ -1727,7 +1747,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 9795
+          "pageViews": 9950
         }
       ],
       "adsense": {
@@ -1890,9 +1910,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 9389,
-        "visits": 9389,
-        "unique_visitors": 5299,
+        "page_views": 9461,
+        "visits": 9461,
+        "unique_visitors": 5389,
         "daily": [
           {
             "date": "2026-10-01",
@@ -1932,7 +1952,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 787
+            "pageViews": 833
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 26
           }
         ]
       },
@@ -1985,7 +2009,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 9389
+          "pageViews": 9461
         }
       ],
       "adsense": {
@@ -2116,9 +2140,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10214,
-        "visits": 10214,
-        "unique_visitors": 5136,
+        "page_views": 10303,
+        "visits": 10303,
+        "unique_visitors": 5276,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2158,7 +2182,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 836
+            "pageViews": 898
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 27
           }
         ]
       },
@@ -2185,7 +2213,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 1
+          "pageViews": 2
         }
       ],
       "cf_monthly_views": [
@@ -2211,7 +2239,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 10214
+          "pageViews": 10303
         }
       ],
       "adsense": {
@@ -2364,9 +2392,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 13129,
-        "visits": 13129,
-        "unique_visitors": 7939,
+        "page_views": 13252,
+        "visits": 13252,
+        "unique_visitors": 8154,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2406,7 +2434,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 1084
+            "pageViews": 1169
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 38
           }
         ]
       },
@@ -2459,7 +2491,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 13129
+          "pageViews": 13252
         }
       ],
       "adsense": {
@@ -2612,9 +2644,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 13081,
-        "visits": 13081,
-        "unique_visitors": 7007,
+        "page_views": 13150,
+        "visits": 13150,
+        "unique_visitors": 7112,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2654,7 +2686,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 925
+            "pageViews": 967
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 27
           }
         ]
       },
@@ -2707,7 +2743,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 13081
+          "pageViews": 13150
         }
       ],
       "adsense": {
@@ -2948,9 +2984,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 13374,
-        "visits": 13374,
-        "unique_visitors": 7460,
+        "page_views": 13538,
+        "visits": 13538,
+        "unique_visitors": 7650,
         "daily": [
           {
             "date": "2026-10-01",
@@ -2990,7 +3026,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 1158
+            "pageViews": 1264
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 58
           }
         ]
       },
@@ -3043,7 +3083,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 13374
+          "pageViews": 13538
         }
       ],
       "adsense": {
@@ -3174,9 +3214,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 11303,
-        "visits": 11303,
-        "unique_visitors": 4782,
+        "page_views": 11569,
+        "visits": 11569,
+        "unique_visitors": 4863,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3216,7 +3256,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 1208
+            "pageViews": 1344
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 130
           }
         ]
       },
@@ -3269,7 +3313,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 11303
+          "pageViews": 11569
         }
       ],
       "adsense": {
@@ -3422,9 +3466,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 12349,
-        "visits": 12349,
-        "unique_visitors": 18098,
+        "page_views": 12509,
+        "visits": 12509,
+        "unique_visitors": 18811,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3464,7 +3508,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 1280
+            "pageViews": 1391
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 49
           }
         ]
       },
@@ -3517,7 +3565,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 12349
+          "pageViews": 12509
         }
       ],
       "adsense": {
@@ -3561,9 +3609,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 11302,
-        "visits": 11302,
-        "unique_visitors": 9359,
+        "page_views": 11463,
+        "visits": 11463,
+        "unique_visitors": 9531,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3603,7 +3651,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 990
+            "pageViews": 1109
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 42
           }
         ]
       },
@@ -3630,7 +3682,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 45
+          "pageViews": 66
         }
       ],
       "cf_monthly_views": [
@@ -3656,7 +3708,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 11302
+          "pageViews": 11463
         }
       ],
       "adsense": {
@@ -3787,9 +3839,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 12515,
-        "visits": 12515,
-        "unique_visitors": 15886,
+        "page_views": 12626,
+        "visits": 12626,
+        "unique_visitors": 16033,
         "daily": [
           {
             "date": "2026-10-01",
@@ -3829,7 +3881,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 1110
+            "pageViews": 1170
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 51
           }
         ]
       },
@@ -3882,7 +3938,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 12515
+          "pageViews": 12626
         }
       ],
       "adsense": {
@@ -3991,9 +4047,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 10014,
-        "visits": 10014,
-        "unique_visitors": 5091,
+        "page_views": 10065,
+        "visits": 10065,
+        "unique_visitors": 5162,
         "daily": [
           {
             "date": "2026-10-01",
@@ -4033,7 +4089,11 @@
           },
           {
             "date": "2026-10-10",
-            "pageViews": 807
+            "pageViews": 839
+          },
+          {
+            "date": "2026-10-11",
+            "pageViews": 19
           }
         ]
       },
@@ -4086,7 +4146,7 @@
         },
         {
           "month": "2026-10",
-          "pageViews": 10014
+          "pageViews": 10065
         }
       ],
       "adsense": {
