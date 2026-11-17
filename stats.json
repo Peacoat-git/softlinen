@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-17T15:04:20.547549+00:00",
+  "generated_at": "2026-11-17T19:57:26.878858+00:00",
   "period": {
     "start": "2026-11-01",
     "end": "2026-11-17"
   },
   "totals": {
-    "revenue": 0.0,
-    "page_views": 385332,
-    "page_views_alltime": 2196128,
-    "visits": 385332,
-    "articles": 2666,
+    "revenue": 0.03,
+    "page_views": 397989,
+    "page_views_alltime": 2208785,
+    "visits": 397989,
+    "articles": 2671,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1983,
+    "yt_views": 1986,
     "sites": 15
   },
   "adsense_connected": true,
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 29694,
-        "visits": 29694,
-        "unique_visitors": 15482,
+        "page_views": 30501,
+        "visits": 30501,
+        "unique_visitors": 15840,
         "daily": [
           {
             "date": "2026-11-01",
@@ -360,7 +360,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 689
+            "pageViews": 1496
           }
         ]
       },
@@ -421,14 +421,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 29694
+          "pageViews": 30501
         }
       ],
       "adsense": {
-        "revenue": 0.0,
-        "impressions": 5,
+        "revenue": 0.03,
+        "impressions": 12,
         "clicks": 0,
-        "rpm": 0.7
+        "rpm": 2.93
       },
       "yt_total_views": 23,
       "video_count": 19
@@ -440,7 +440,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 187,
+      "articles": 188,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Battery As A Service Should Solar Owners Subscribe Instead Of Buy",
@@ -750,9 +750,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 23700,
-        "visits": 23700,
-        "unique_visitors": 11236,
+        "page_views": 24506,
+        "visits": 24506,
+        "unique_visitors": 11552,
         "daily": [
           {
             "date": "2026-11-01",
@@ -820,7 +820,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 705
+            "pageViews": 1511
           }
         ]
       },
@@ -881,7 +881,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 23700
+          "pageViews": 24506
         }
       ],
       "adsense": {
@@ -1100,9 +1100,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24975,
-        "visits": 24975,
-        "unique_visitors": 12425,
+        "page_views": 25739,
+        "visits": 25739,
+        "unique_visitors": 12677,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1170,7 +1170,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 1091
+            "pageViews": 1855
           }
         ]
       },
@@ -1231,7 +1231,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 24975
+          "pageViews": 25739
         }
       ],
       "adsense": {
@@ -1250,7 +1250,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 191,
+      "articles": 192,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Accident With An Uninsured Driver What To Do",
@@ -1394,9 +1394,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 26605,
-        "visits": 26605,
-        "unique_visitors": 15470,
+        "page_views": 27838,
+        "visits": 27838,
+        "unique_visitors": 15923,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1464,7 +1464,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 584
+            "pageViews": 1817
           }
         ]
       },
@@ -1525,7 +1525,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 26605
+          "pageViews": 27838
         }
       ],
       "adsense": {
@@ -1544,7 +1544,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 177,
+      "articles": 178,
       "article_titles": [
         "Actual Cash Value Explained",
         "Actual Cash Value Vs Replacement Cost Explained",
@@ -1776,9 +1776,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 23328,
-        "visits": 23328,
-        "unique_visitors": 11618,
+        "page_views": 24137,
+        "visits": 24137,
+        "unique_visitors": 11977,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1846,7 +1846,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 663
+            "pageViews": 1472
           }
         ]
       },
@@ -1907,7 +1907,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 23328
+          "pageViews": 24137
         }
       ],
       "adsense": {
@@ -2070,9 +2070,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 27610,
-        "visits": 27610,
-        "unique_visitors": 11425,
+        "page_views": 28371,
+        "visits": 28371,
+        "unique_visitors": 11715,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2140,7 +2140,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 495
+            "pageViews": 1256
           }
         ]
       },
@@ -2201,7 +2201,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 27610
+          "pageViews": 28371
         }
       ],
       "adsense": {
@@ -2332,9 +2332,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 26179,
-        "visits": 26179,
-        "unique_visitors": 15574,
+        "page_views": 26916,
+        "visits": 26916,
+        "unique_visitors": 15762,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2402,7 +2402,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 855
+            "pageViews": 1592
           }
         ]
       },
@@ -2463,7 +2463,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 26179
+          "pageViews": 26916
         }
       ],
       "adsense": {
@@ -2535,7 +2535,7 @@
           "standard_id": "OiB3Keqih2c",
           "standard_url": "https://www.youtube.com/watch?v=OiB3Keqih2c",
           "shorts_stats": {
-            "views": 93,
+            "views": 95,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
@@ -2546,7 +2546,7 @@
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 146
+          "total_views": 148
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2616,9 +2616,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 30824,
-        "visits": 30824,
-        "unique_visitors": 21212,
+        "page_views": 31665,
+        "visits": 31665,
+        "unique_visitors": 21450,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2686,7 +2686,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 1031
+            "pageViews": 1872
           }
         ]
       },
@@ -2747,7 +2747,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 30824
+          "pageViews": 31665
         }
       ],
       "adsense": {
@@ -2756,7 +2756,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 183,
+      "yt_total_views": 185,
       "video_count": 10
     },
     {
@@ -2900,9 +2900,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 29279,
-        "visits": 29279,
-        "unique_visitors": 15330,
+        "page_views": 30573,
+        "visits": 30573,
+        "unique_visitors": 15669,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2970,7 +2970,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 647
+            "pageViews": 1941
           }
         ]
       },
@@ -3031,7 +3031,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 29279
+          "pageViews": 30573
         }
       ],
       "adsense": {
@@ -3272,9 +3272,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 23215,
-        "visits": 23215,
-        "unique_visitors": 13177,
+        "page_views": 24047,
+        "visits": 24047,
+        "unique_visitors": 13500,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3342,7 +3342,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 538
+            "pageViews": 1370
           }
         ]
       },
@@ -3403,7 +3403,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 23215
+          "pageViews": 24047
         }
       ],
       "adsense": {
@@ -3497,7 +3497,7 @@
           "standard_id": "0ZXQavMDTuk",
           "standard_url": "https://www.youtube.com/watch?v=0ZXQavMDTuk",
           "shorts_stats": {
-            "views": 134,
+            "views": 135,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
@@ -3508,7 +3508,7 @@
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 302
+          "total_views": 303
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3534,9 +3534,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 18033,
-        "visits": 18033,
-        "unique_visitors": 6538,
+        "page_views": 18749,
+        "visits": 18749,
+        "unique_visitors": 6636,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3604,7 +3604,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 334
+            "pageViews": 1050
           }
         ]
       },
@@ -3665,7 +3665,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 18033
+          "pageViews": 18749
         }
       ],
       "adsense": {
@@ -3674,7 +3674,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 463,
+      "yt_total_views": 464,
       "video_count": 6
     },
     {
@@ -3818,9 +3818,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 28594,
-        "visits": 28594,
-        "unique_visitors": 52161,
+        "page_views": 29345,
+        "visits": 29345,
+        "unique_visitors": 53422,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3888,7 +3888,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 667
+            "pageViews": 1418
           }
         ]
       },
@@ -3949,7 +3949,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 28594
+          "pageViews": 29345
         }
       ],
       "adsense": {
@@ -3968,7 +3968,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 86,
+      "articles": 87,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Asset Management Workflow For Game Studios",
@@ -3993,9 +3993,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 22009,
-        "visits": 22009,
-        "unique_visitors": 19456,
+        "page_views": 22521,
+        "visits": 22521,
+        "unique_visitors": 19779,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4063,7 +4063,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 669
+            "pageViews": 1181
           }
         ]
       },
@@ -4124,7 +4124,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 22009
+          "pageViews": 22521
         }
       ],
       "adsense": {
@@ -4255,9 +4255,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 30524,
-        "visits": 30524,
-        "unique_visitors": 37353,
+        "page_views": 31558,
+        "visits": 31558,
+        "unique_visitors": 39591,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4325,7 +4325,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 1117
+            "pageViews": 2151
           }
         ]
       },
@@ -4386,7 +4386,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 30524
+          "pageViews": 31558
         }
       ],
       "adsense": {
@@ -4405,7 +4405,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 177,
+      "articles": 178,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -4495,9 +4495,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 20763,
-        "visits": 20763,
-        "unique_visitors": 11915,
+        "page_views": 21523,
+        "visits": 21523,
+        "unique_visitors": 12187,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4565,7 +4565,7 @@
           },
           {
             "date": "2026-11-17",
-            "pageViews": 1827
+            "pageViews": 2587
           }
         ]
       },
@@ -4626,7 +4626,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 20763
+          "pageViews": 21523
         }
       ],
       "adsense": {
