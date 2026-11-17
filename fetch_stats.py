@@ -30,6 +30,7 @@ CF_HEADERS  = {"Authorization": f"Bearer {CF_TOKEN}", "Content-Type": "applicati
 TODAY     = datetime.now(timezone.utc).date()
 MTD_START = TODAY.replace(day=1).isoformat()
 TODAY_STR = TODAY.isoformat()
+ADSENSE_START = "2025-01-01"  # all-time: before the AdSense account existed
 TOMORROW_STR = (TODAY + timedelta(days=1)).isoformat()  # date_lt is exclusive; use this as end so today counts
 LAST_30   = (TODAY - timedelta(days=30)).isoformat()
 ALL_TIME_START = "2025-01-01"  # sites launched ~Jan 2025
@@ -350,7 +351,7 @@ def fetch_yt_video_stats(video_ids, access_token):
     return stats
 
 
-def fetch_adsense_revenue(access_token, start=MTD_START, end=TODAY_STR):
+def fetch_adsense_revenue(access_token, start=ADSENSE_START, end=TODAY_STR):
     """Fetch AdSense earnings via Management API v2."""
     if not access_token:
         return None
@@ -375,7 +376,7 @@ def fetch_adsense_revenue(access_token, start=MTD_START, end=TODAY_STR):
             "dateRange":  "CUSTOM",
             "startDate.year":  start[:4], "startDate.month": start[5:7], "startDate.day": start[8:],
             "endDate.year":    end[:4],   "endDate.month":   end[5:7],   "endDate.day":   end[8:],
-            "metrics":    ["ESTIMATED_EARNINGS", "IMPRESSIONS", "CLICKS", "PAGE_VIEWS_RPM"],
+            "metrics":    ["ESTIMATED_EARNINGS", "IMPRESSIONS", "CLICKS", "PAGE_VIEWS"],
             "dimensions": ["DOMAIN_NAME"],
         },
     )
@@ -402,17 +403,31 @@ def main():
     adsense_data = fetch_adsense_revenue(adsense_token) if adsense_token else None
 
     # Parse AdSense by domain
+    # AdSense reports each host separately (apex, www., <project>.pages.dev); fold them into the site.
+    slug_domain = {s["slug"]: s["domain"] for s in SITES}
+    def _site_domain(host):
+        host = host.lower().removeprefix("www.")
+        if host.endswith(".pages.dev"):
+            return slug_domain.get(host[:-len(".pages.dev")].split(".")[-1], host)
+        return host
     adsense_by_domain = {}
+    adsense_account_total = None
     if adsense_data:
         for row in adsense_data.get("rows", []):
             cells = row.get("cells", [])
             if len(cells) >= 5:
-                domain  = cells[0].get("value", "")
-                revenue = float(cells[1].get("value", 0))
-                impr    = int(cells[2].get("value", 0))
-                clicks  = int(cells[3].get("value", 0))
-                rpm     = float(cells[4].get("value", 0))
-                adsense_by_domain[domain] = {"revenue": revenue, "impressions": impr, "clicks": clicks, "rpm": rpm}
+                a = adsense_by_domain.setdefault(_site_domain(cells[0].get("value", "")),
+                                                 {"revenue": 0.0, "impressions": 0, "clicks": 0, "page_views": 0, "rpm": 0.0})
+                a["revenue"]     += float(cells[1].get("value", 0))
+                a["impressions"] += int(cells[2].get("value", 0))
+                a["clicks"]      += int(cells[3].get("value", 0))
+                a["page_views"]  += int(cells[4].get("value", 0))
+        for a in adsense_by_domain.values():
+            a["revenue"] = round(a["revenue"], 2)
+            a["rpm"] = round(a["revenue"] / a["page_views"] * 1000, 2) if a["page_views"] else 0.0
+        tcells = adsense_data.get("totals", {}).get("cells", [])
+        if len(tcells) >= 2 and tcells[1].get("value"):
+            adsense_account_total = float(tcells[1]["value"])
 
     sites_data = []
     total_articles = 0
@@ -494,7 +509,7 @@ def main():
     save_history(monthly_history, daily_history)
 
     # Portfolio totals
-    total_revenue = sum(s["adsense"]["revenue"] for s in sites_data)
+    total_revenue = adsense_account_total if adsense_account_total is not None else sum(s["adsense"]["revenue"] for s in sites_data)
     total_yt_views = sum(s["yt_total_views"] for s in sites_data)
     total_videos = sum(s.get("video_count", 0) for s in sites_data)
     total_channels = sum(1 for s in sites_data if s["videos"])
