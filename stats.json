@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-16T14:11:27.279359+00:00",
+  "generated_at": "2026-11-17T01:14:32.252875+00:00",
   "period": {
     "start": "2026-11-01",
-    "end": "2026-11-16"
+    "end": "2026-11-17"
   },
   "totals": {
     "revenue": 0.0,
-    "page_views": 358387,
-    "page_views_alltime": 2169183,
-    "visits": 358387,
-    "articles": 2627,
+    "page_views": 374110,
+    "page_views_alltime": 2184906,
+    "visits": 374110,
+    "articles": 2661,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1974,
+    "yt_views": 1978,
     "sites": 15
   },
   "adsense_connected": true,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 162,
+      "articles": 163,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 28119,
-        "visits": 28119,
-        "unique_visitors": 14671,
+        "page_views": 29027,
+        "visits": 29027,
+        "unique_visitors": 14874,
         "daily": [
           {
             "date": "2026-11-01",
@@ -356,7 +356,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 1234
+            "pageViews": 2120
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 22
           }
         ]
       },
@@ -417,14 +421,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 28119
+          "pageViews": 29027
         }
       ],
       "adsense": {
         "revenue": 0.0,
-        "impressions": 4,
+        "impressions": 5,
         "clicks": 0,
-        "rpm": 0.53
+        "rpm": 0.7
       },
       "yt_total_views": 23,
       "video_count": 19
@@ -436,7 +440,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 184,
+      "articles": 187,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Battery As A Service Should Solar Owners Subscribe Instead Of Buy",
@@ -746,9 +750,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 21664,
-        "visits": 21664,
-        "unique_visitors": 10390,
+        "page_views": 23030,
+        "visits": 23030,
+        "unique_visitors": 10816,
         "daily": [
           {
             "date": "2026-11-01",
@@ -812,7 +816,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 1272
+            "pageViews": 2603
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 35
           }
         ]
       },
@@ -873,7 +881,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 21664
+          "pageViews": 23030
         }
       ],
       "adsense": {
@@ -892,7 +900,7 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 182,
+      "articles": 184,
       "article_titles": [
         "Apsystems Ez1 Lv Plug In Balcony Solar Arrives In The Us",
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
@@ -1092,9 +1100,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 22726,
-        "visits": 22726,
-        "unique_visitors": 11596,
+        "page_views": 23915,
+        "visits": 23915,
+        "unique_visitors": 11934,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1158,7 +1166,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 678
+            "pageViews": 1836
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 31
           }
         ]
       },
@@ -1219,7 +1231,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 22726
+          "pageViews": 23915
         }
       ],
       "adsense": {
@@ -1238,7 +1250,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 188,
+      "articles": 191,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Accident With An Uninsured Driver What To Do",
@@ -1301,7 +1313,7 @@
           "standard_id": "aLVKb9w5Yv8",
           "standard_url": "https://www.youtube.com/watch?v=aLVKb9w5Yv8",
           "shorts_stats": {
-            "views": 7,
+            "views": 8,
             "likes": 0,
             "comments": 0,
             "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026"
@@ -1312,7 +1324,7 @@
             "comments": 0,
             "title": "Insurance AI Is Auto-Denying Your Whiplash Claim in 2026"
           },
-          "total_views": 12
+          "total_views": 13
         },
         {
           "shorts_id": "FKqK8rFQZqc",
@@ -1382,9 +1394,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24370,
-        "visits": 24370,
-        "unique_visitors": 14654,
+        "page_views": 26036,
+        "visits": 26036,
+        "unique_visitors": 14907,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1448,7 +1460,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 777
+            "pageViews": 2428
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 15
           }
         ]
       },
@@ -1509,7 +1525,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 24370
+          "pageViews": 26036
         }
       ],
       "adsense": {
@@ -1518,7 +1534,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 27,
+      "yt_total_views": 28,
       "video_count": 11
     },
     {
@@ -1528,15 +1544,17 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 174,
+      "articles": 177,
       "article_titles": [
         "Actual Cash Value Explained",
         "Actual Cash Value Vs Replacement Cost Explained",
         "Additional Living Expenses Coverage",
+        "Am Best Ratings For Insurance",
         "Appraisal Clause Home Insurance",
         "Best Home Insurance For New Homeowners",
         "Best Homeowners Insurance Companies",
         "California Fair Plan Rates Jump 298 This Fall",
+        "California Just Elected A Single Payer Home Insurance Commissioner",
         "Cheap Homeowners Insurance",
         "Colorado Now Requires Insurers To Show You Your Wildfire Risk Score",
         "Colorados New Wildfire Insurance Law Takes Effect As Fires Burn",
@@ -1547,9 +1565,7 @@
         "Does Home Insurance Cover A Tree Falling",
         "Does Home Insurance Cover Foundation Repair",
         "Does Home Insurance Cover Mold Removal",
-        "Does Home Insurance Cover Roof Damage",
-        "Does Home Insurance Cover Roof Leaks",
-        "Does Home Insurance Cover Theft"
+        "Does Home Insurance Cover Roof Damage"
       ],
       "videos": [
         {
@@ -1760,9 +1776,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 21695,
-        "visits": 21695,
-        "unique_visitors": 10667,
+        "page_views": 22775,
+        "visits": 22775,
+        "unique_visitors": 11069,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1826,7 +1842,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 800
+            "pageViews": 1770
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 110
           }
         ]
       },
@@ -1887,7 +1907,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 21695
+          "pageViews": 22775
         }
       ],
       "adsense": {
@@ -1906,13 +1926,14 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 174,
+      "articles": 177,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "A Fed Rate Hike Is Now On The Table What Mortgage Borrowers Should Do",
         "Are Mortgage Interest Payments Tax Deductible In 2026",
         "Are You Ready To Buy A Home",
         "Average Cost Of Private Mortgage Insurance Per Month",
+        "Bank Statement Mortgage Loans",
         "Best Mortgage Lenders For First Time Home Buyers 2026",
         "Break Even Point Calculator For Refinancing A Home Loan",
         "Break Even Refinance Analysis",
@@ -1926,8 +1947,7 @@
         "Closing Disclosure Explained",
         "Condo Mortgage Requirements",
         "Construction Loan Explained",
-        "Conventional Loan Requirements",
-        "Credit Score For Mortgage Approval"
+        "Conventional Loan Requirements"
       ],
       "videos": [
         {
@@ -2050,9 +2070,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 26279,
-        "visits": 26279,
-        "unique_visitors": 10773,
+        "page_views": 27124,
+        "visits": 27124,
+        "unique_visitors": 10996,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2116,7 +2136,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 822
+            "pageViews": 1658
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 9
           }
         ]
       },
@@ -2177,7 +2201,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 26279
+          "pageViews": 27124
         }
       ],
       "adsense": {
@@ -2196,7 +2220,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 185,
+      "articles": 188,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2212,12 +2236,12 @@
         "Best Therapy Apps For Daily Mental Health Support",
         "Betterhelp Vs Talkspace Comparison",
         "Bipoc Therapist Directory",
+        "Bright Light Therapy Works For Depression Year Round Study Finds",
         "Cbt Vs Dbt Therapy What Is The Difference",
         "Cbt Vs Dbt Whats The Difference",
         "Cbt Worksheets Explained",
         "Child Therapy Guide For Parents",
-        "Co Parenting Therapy",
-        "Cognitive Behavioral Therapy Explained"
+        "Co Parenting Therapy"
       ],
       "videos": [
         {
@@ -2308,9 +2332,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 24551,
-        "visits": 24551,
-        "unique_visitors": 14447,
+        "page_views": 25399,
+        "visits": 25399,
+        "unique_visitors": 14738,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2374,7 +2398,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 774
+            "pageViews": 1547
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 75
           }
         ]
       },
@@ -2435,7 +2463,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 24551
+          "pageViews": 25399
         }
       ],
       "adsense": {
@@ -2454,7 +2482,7 @@
       "color": "#f97316",
       "niche": "Pet health & vet care",
       "rpm_est": "6-12",
-      "articles": 181,
+      "articles": 184,
       "article_titles": [
         "A Cheaper Generic For Dogs With Heart Disease Is Now Available",
         "Adequan Canine Recalled Glass Fibers Found In Injection Vials",
@@ -2513,12 +2541,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 52,
+            "views": 53,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 145
+          "total_views": 146
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2588,9 +2616,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 28531,
-        "visits": 28531,
-        "unique_visitors": 19856,
+        "page_views": 29937,
+        "visits": 29937,
+        "unique_visitors": 20528,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2654,7 +2682,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 840
+            "pageViews": 2102
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 144
           }
         ]
       },
@@ -2715,7 +2747,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 28531
+          "pageViews": 29937
         }
       ],
       "adsense": {
@@ -2724,7 +2756,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 182,
+      "yt_total_views": 183,
       "video_count": 10
     },
     {
@@ -2734,8 +2766,9 @@
       "color": "#14b8a6",
       "niche": "Small business finance",
       "rpm_est": "8-15",
-      "articles": 175,
+      "articles": 177,
       "article_titles": [
+        "1099 Nec Form Guide",
         "1099 Vs W2 Explained",
         "Accounting Software Comparison",
         "Accounts Receivable Management",
@@ -2754,8 +2787,7 @@
         "Business Checking Account Comparison",
         "Business Credit Building Tips",
         "Business Credit Card Vs Personal Credit Card For Llc",
-        "Business Credit Monitoring",
-        "Business Credit Score How To Build"
+        "Business Credit Monitoring"
       ],
       "videos": [
         {
@@ -2868,9 +2900,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 27691,
-        "visits": 27691,
-        "unique_visitors": 14267,
+        "page_views": 28674,
+        "visits": 28674,
+        "unique_visitors": 14876,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2934,7 +2966,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 944
+            "pageViews": 1885
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 42
           }
         ]
       },
@@ -2995,7 +3031,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 27691
+          "pageViews": 28674
         }
       ],
       "adsense": {
@@ -3014,7 +3050,7 @@
       "color": "#84cc16",
       "niche": "Keto & low-carb diet",
       "rpm_est": "4-8",
-      "articles": 192,
+      "articles": 195,
       "article_titles": [
         "20 Grams Carbs Keto",
         "50 Grams Carbs Keto",
@@ -3236,9 +3272,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 21800,
-        "visits": 21800,
-        "unique_visitors": 12523,
+        "page_views": 22693,
+        "visits": 22693,
+        "unique_visitors": 12886,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3302,7 +3338,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 668
+            "pageViews": 1545
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 16
           }
         ]
       },
@@ -3363,7 +3403,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 21800
+          "pageViews": 22693
         }
       ],
       "adsense": {
@@ -3463,12 +3503,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 164,
+            "views": 166,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 295
+          "total_views": 297
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3494,9 +3534,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 16997,
-        "visits": 16997,
-        "unique_visitors": 6264,
+        "page_views": 17705,
+        "visits": 17705,
+        "unique_visitors": 6377,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3560,11 +3600,44 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 588
+            "pageViews": 1290
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 6
           }
         ]
       },
-      "monthly_views": [],
+      "monthly_views": [
+        {
+          "month": "2026-05",
+          "pageViews": 0
+        },
+        {
+          "month": "2026-06",
+          "pageViews": 8
+        },
+        {
+          "month": "2026-07",
+          "pageViews": 3
+        },
+        {
+          "month": "2026-08",
+          "pageViews": 0
+        },
+        {
+          "month": "2026-09",
+          "pageViews": 0
+        },
+        {
+          "month": "2026-10",
+          "pageViews": 0
+        },
+        {
+          "month": "2026-11",
+          "pageViews": 0
+        }
+      ],
       "cf_monthly_views": [
         {
           "month": "2026-05",
@@ -3592,7 +3665,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 16997
+          "pageViews": 17705
         }
       ],
       "adsense": {
@@ -3601,7 +3674,7 @@
         "clicks": 0,
         "rpm": 0
       },
-      "yt_total_views": 456,
+      "yt_total_views": 458,
       "video_count": 6
     },
     {
@@ -3611,7 +3684,7 @@
       "color": "#0ea5e9",
       "niche": "RV living & travel",
       "rpm_est": "5-10",
-      "articles": 187,
+      "articles": 189,
       "article_titles": [
         "Auto Level Systems Rv",
         "Average Monthly Cost Of Full Time Rv Living",
@@ -3745,9 +3818,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 26881,
-        "visits": 26881,
-        "unique_visitors": 49071,
+        "page_views": 27961,
+        "visits": 27961,
+        "unique_visitors": 50344,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3811,7 +3884,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 1264
+            "pageViews": 2310
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 34
           }
         ]
       },
@@ -3872,7 +3949,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 26881
+          "pageViews": 27961
         }
       ],
       "adsense": {
@@ -3891,9 +3968,10 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 85,
+      "articles": 86,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
+        "Asset Management Workflow For Game Studios",
         "Associate Producer Game Industry Responsibilities",
         "Best Documentation Tools For Game Studios",
         "Best Game Engine For A Solo Developer",
@@ -3911,14 +3989,13 @@
         "Game Producer Vs Film Producer Key Differences",
         "Game Production Degree Vs Self Taught Path",
         "Game Studio Post Mortem Process That Actually Works",
-        "Gamedev Salary By Role 2026",
-        "Hiring Your First Game Developer Guide"
+        "Gamedev Salary By Role 2026"
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 20522,
-        "visits": 20522,
-        "unique_visitors": 18427,
+        "page_views": 21370,
+        "visits": 21370,
+        "unique_visitors": 18831,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3982,7 +4059,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 721
+            "pageViews": 1539
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 30
           }
         ]
       },
@@ -4043,7 +4124,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 20522
+          "pageViews": 21370
         }
       ],
       "adsense": {
@@ -4062,7 +4143,7 @@
       "color": "#059669",
       "niche": "Senior fitness & health",
       "rpm_est": "5-10",
-      "articles": 197,
+      "articles": 199,
       "article_titles": [
         "10 Minute Exercise Routine For Seniors",
         "10 Minute Morning Stretches For Seniors Over 70",
@@ -4174,9 +4255,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 28343,
-        "visits": 28343,
-        "unique_visitors": 34995,
+        "page_views": 29467,
+        "visits": 29467,
+        "unique_visitors": 35539,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4240,7 +4321,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 1284
+            "pageViews": 2348
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 60
           }
         ]
       },
@@ -4301,7 +4386,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 28343
+          "pageViews": 29467
         }
       ],
       "adsense": {
@@ -4320,7 +4405,7 @@
       "color": "#dc2626",
       "niche": "DIY home repair",
       "rpm_est": "4-8",
-      "articles": 174,
+      "articles": 177,
       "article_titles": [
         "Ai Repair Apps Are Changing How Homeowners Diagnose Problems",
         "Ai Repair Apps That Diagnose Your Home From A Photo",
@@ -4410,9 +4495,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 18218,
-        "visits": 18218,
-        "unique_visitors": 10866,
+        "page_views": 18997,
+        "visits": 18997,
+        "unique_visitors": 11153,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4476,7 +4561,11 @@
           },
           {
             "date": "2026-11-16",
-            "pageViews": 1296
+            "pageViews": 2014
+          },
+          {
+            "date": "2026-11-17",
+            "pageViews": 61
           }
         ]
       },
@@ -4537,7 +4626,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 18218
+          "pageViews": 18997
         }
       ],
       "adsense": {
