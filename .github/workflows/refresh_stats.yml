@@ -31,6 +31,12 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Run fetch_games.py
+        continue-on-error: true
+        env:
+          GAME_REPO_TOKEN: ${{ secrets.GAME_REPO_TOKEN }}
+        run: python fetch_games.py
+
       - name: Run fetch_stats.py
         env:
           GITHUB_TOKEN:            ${{ secrets.STATS_GH_TOKEN }}
@@ -47,7 +53,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.json monthly_history.json daily_history.json
+          git add stats.json monthly_history.json daily_history.json games.json
           git diff --staged --quiet || git commit -m "chore: refresh dashboard stats [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git pull --rebase origin main
           git push

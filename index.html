@@ -103,6 +103,10 @@ canvas { width:100%!important; }
 .h-warn { color:#d97706;       font-weight:600; }
 .h-fail { color:var(--red);   font-weight:600; }
 .issue-tag { font-size:10px; background:#fee2e2; color:#dc2626; padding:2px 7px; border-radius:4px; display:inline-block; margin:1px 2px; white-space:nowrap; }
+/* Games panel */
+.ch-chip { font-size:11px; background:var(--bg); border:1px solid var(--border); padding:3px 8px; border-radius:6px; display:inline-flex; align-items:center; gap:6px; margin:2px 4px 2px 0; white-space:nowrap; }
+.ch-chip b { font-weight:600; }
+.badge-off { font-size:9px; font-weight:600; background:#f1f5f9; color:#64748b; padding:2px 7px; border-radius:8px; }
 
 /* ── Mobile responsive (stack layout, scrollable sidebar + tables) ── */
 @media (max-width: 820px){
@@ -397,6 +401,28 @@ canvas { width:100%!important; }
           </div>
         </div>
       </div>
+
+      <!-- ── Games Panel ───────────────────────────────────────── -->
+      <div class="card" style="margin-top:24px" id="games-panel">
+        <div class="card-header">
+          <div class="card-title">Games — Live Ops</div>
+          <span class="card-badge" id="games-badge">Loading…</span>
+        </div>
+        <table class="health-table">
+          <thead>
+            <tr>
+              <th>Game</th>
+              <th>Today's Daily</th>
+              <th>Health</th>
+              <th>Channels · status · runway</th>
+            </tr>
+          </thead>
+          <tbody id="games-tbody">
+            <tr><td colspan="4" style="text-align:center;color:var(--muted);padding:20px">games.json not yet available</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- ── End Games Panel ──────────────────────────────────── -->
 
       <!-- ── System Health Audit Panel ─────────────────────────── -->
       <div class="card" style="margin-top:24px" id="audit-panel">
@@ -873,6 +899,56 @@ fetch('health.json?v=' + Date.now())
     }
   })
   .catch(() => {}); // health.json not yet generated — silent fail
+
+// Games panel (games.json mirrored from the game repo's ops-state branch)
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function agoText(iso) {
+  if (!iso) return '—';
+  const h = Math.round((Date.now() - new Date(iso)) / 36e5);
+  return h < 1 ? 'just now' : h < 48 ? h + 'h ago' : Math.round(h/24) + 'd ago';
+}
+function renderChannel(c) {
+  const st = c.status || 'unknown';
+  const stBadge = st === 'live' ? 'badge-live' : st === 'in-review' ? 'badge-pending' : 'badge-off';
+  // Runway thresholds match the game repo's ops (critical < 30d, warn < 365d); only matters once submitted.
+  const active = st === 'live' || st === 'in-review';
+  const d = c.runwayDays;
+  const rwCls = !active || d == null ? '' : d < 30 ? 'h-fail' : d < 365 ? 'h-warn' : 'h-ok';
+  return '<span class="ch-chip"><b>' + esc(c.id) + '</b>' +
+    '<span class="' + stBadge + '">' + esc(st.replace('-', ' ')) + '</span>' +
+    '<span class="num ' + rwCls + '"' + (rwCls ? '' : ' style="color:var(--stone)"') + '>' + (d ?? '—') + 'd</span></span>';
+}
+fetch('games.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(g => {
+    const badge = document.getElementById('games-badge');
+    const stale = g.updatedAt && (Date.now() - new Date(g.updatedAt)) > 36 * 36e5;
+    if (g.sample) {
+      badge.textContent = 'Sample data';
+      badge.className = 'card-badge';
+    } else if (stale) {
+      badge.textContent = 'Stale · updated ' + agoText(g.updatedAt);
+      badge.className = 'card-badge red';
+    } else {
+      badge.textContent = 'Updated ' + agoText(g.updatedAt);
+      badge.className = 'card-badge green';
+    }
+    if (!g.games || !g.games.length) return;
+    document.getElementById('games-tbody').innerHTML = g.games.map(x => {
+      const hCls = x.health === 'ok' ? 'h-ok' : x.health === 'failing' ? 'h-fail' : '';
+      const hStyle = hCls ? '' : ' style="color:var(--stone);font-weight:600"';
+      return '<tr>' +
+        '<td><span style="font-weight:600">' + esc(x.name) + '</span></td>' +
+        '<td class="num">#' + esc(x.dailyNumber) + ' <span style="color:var(--stone)">of ' + esc(x.dailiesBundled) + '</span></td>' +
+        '<td><span class="' + hCls + '"' + hStyle + '>● ' + esc(x.health || 'unknown') + '</span>' +
+          '<div style="font-size:10px;color:var(--stone);margin-top:2px">checked ' + agoText(x.healthCheckedAt) + '</div></td>' +
+        '<td>' + (x.channels || []).map(renderChannel).join('') + '</td>' +
+      '</tr>';
+    }).join('');
+  })
+  .catch(() => {}); // games.json not yet generated — silent fail
 </script>
 </body>
 </html>
