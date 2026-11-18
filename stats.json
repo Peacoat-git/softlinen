@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-18T14:44:15.002886+00:00",
+  "generated_at": "2026-11-18T23:40:35.474308+00:00",
   "period": {
     "start": "2026-11-01",
     "end": "2026-11-18"
   },
   "totals": {
-    "revenue": 0.22,
-    "page_views": 419248,
-    "page_views_alltime": 2230044,
-    "visits": 419248,
-    "articles": 2677,
+    "revenue": 0.48,
+    "page_views": 428291,
+    "page_views_alltime": 2239087,
+    "visits": 428291,
+    "articles": 2684,
     "videos": 172,
     "channels": 14,
-    "yt_views": 1987,
+    "yt_views": 1989,
     "sites": 15
   },
   "adsense_connected": true,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 164,
+      "articles": 165,
       "article_titles": [
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
         "Average Medicare Costs Per Month",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 31657,
-        "visits": 31657,
-        "unique_visitors": 16793,
+        "page_views": 32568,
+        "visits": 32568,
+        "unique_visitors": 17233,
         "daily": [
           {
             "date": "2026-11-01",
@@ -364,7 +364,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 754
+            "pageViews": 1665
           }
         ]
       },
@@ -425,15 +425,15 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 31657
+          "pageViews": 32568
         }
       ],
       "adsense": {
-        "revenue": 0.22,
-        "impressions": 45,
+        "revenue": 0.48,
+        "impressions": 110,
         "clicks": 0,
-        "page_views": 52,
-        "rpm": 4.23
+        "page_views": 63,
+        "rpm": 7.62
       },
       "yt_total_views": 23,
       "video_count": 19
@@ -445,7 +445,7 @@
       "color": "#22c55e",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 188,
+      "articles": 189,
       "article_titles": [
         "Average Cost Of Solar Installation By State",
         "Battery As A Service Should Solar Owners Subscribe Instead Of Buy",
@@ -466,7 +466,7 @@
         "Do You Need Permits To Install Solar Panels",
         "Does Solar Increase Home Value",
         "Duke Energy Nc Solar Customers Face A December 31 Deadline",
-        "Energy Independence With Solar And Battery"
+        "Eg4 Homestead 60 Just Broke The 2Watt Barrier For Home Solar"
       ],
       "videos": [
         {
@@ -755,9 +755,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25864,
-        "visits": 25864,
-        "unique_visitors": 12048,
+        "page_views": 26373,
+        "visits": 26373,
+        "unique_visitors": 12504,
         "daily": [
           {
             "date": "2026-11-01",
@@ -829,7 +829,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 823
+            "pageViews": 1332
           }
         ]
       },
@@ -890,7 +890,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 25864
+          "pageViews": 26373
         }
       ],
       "adsense": {
@@ -1110,9 +1110,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 26737,
-        "visits": 26737,
-        "unique_visitors": 13552,
+        "page_views": 27185,
+        "visits": 27185,
+        "unique_visitors": 13771,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1184,7 +1184,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 631
+            "pageViews": 1079
           }
         ]
       },
@@ -1245,14 +1245,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 26737
+          "pageViews": 27185
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 9,
+        "page_views": 11,
         "rpm": 0.0
       },
       "yt_total_views": 374,
@@ -1265,7 +1265,7 @@
       "color": "#ef4444",
       "niche": "Personal injury law",
       "rpm_est": "15-25",
-      "articles": 192,
+      "articles": 193,
       "article_titles": [
         "Accident Scene Photos What To Take",
         "Accident With An Uninsured Driver What To Do",
@@ -1409,9 +1409,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 28950,
-        "visits": 28950,
-        "unique_visitors": 16951,
+        "page_views": 29325,
+        "visits": 29325,
+        "unique_visitors": 17198,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1483,7 +1483,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 702
+            "pageViews": 1077
           }
         ]
       },
@@ -1544,7 +1544,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 28950
+          "pageViews": 29325
         }
       ],
       "adsense": {
@@ -1564,7 +1564,7 @@
       "color": "#3b82f6",
       "niche": "Home insurance",
       "rpm_est": "12-20",
-      "articles": 178,
+      "articles": 179,
       "article_titles": [
         "Actual Cash Value Explained",
         "Actual Cash Value Vs Replacement Cost Explained",
@@ -1796,9 +1796,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25232,
-        "visits": 25232,
-        "unique_visitors": 12698,
+        "page_views": 25896,
+        "visits": 25896,
+        "unique_visitors": 13230,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1870,7 +1870,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 640
+            "pageViews": 1304
           }
         ]
       },
@@ -1931,14 +1931,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 25232
+          "pageViews": 25896
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 41,
+        "page_views": 42,
         "rpm": 0.0
       },
       "yt_total_views": 75,
@@ -1951,7 +1951,7 @@
       "color": "#8b5cf6",
       "niche": "Mortgage & home finance",
       "rpm_est": "10-18",
-      "articles": 178,
+      "articles": 179,
       "article_titles": [
         "15 Year Vs 30 Year Mortgage Pros And Cons",
         "A Fed Rate Hike Is Now On The Table What Mortgage Borrowers Should Do",
@@ -2095,9 +2095,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 29449,
-        "visits": 29449,
-        "unique_visitors": 12716,
+        "page_views": 29861,
+        "visits": 29861,
+        "unique_visitors": 13053,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2169,7 +2169,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 717
+            "pageViews": 1129
           }
         ]
       },
@@ -2230,7 +2230,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 29449
+          "pageViews": 29861
         }
       ],
       "adsense": {
@@ -2250,7 +2250,7 @@
       "color": "#ec4899",
       "niche": "Mental health & therapy",
       "rpm_est": "8-14",
-      "articles": 189,
+      "articles": 190,
       "article_titles": [
         "988 Mental Health Hotline Guide",
         "988 Suicide And Crisis Lifeline How It Works",
@@ -2362,9 +2362,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 28156,
-        "visits": 28156,
-        "unique_visitors": 16972,
+        "page_views": 28711,
+        "visits": 28711,
+        "unique_visitors": 17430,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2436,7 +2436,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 909
+            "pageViews": 1464
           }
         ]
       },
@@ -2497,14 +2497,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 28156
+          "pageViews": 28711
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 16,
+        "page_views": 17,
         "rpm": 0.0
       },
       "yt_total_views": 15,
@@ -2651,9 +2651,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 33614,
-        "visits": 33614,
-        "unique_visitors": 22676,
+        "page_views": 34666,
+        "visits": 34666,
+        "unique_visitors": 23655,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2725,7 +2725,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 1359
+            "pageViews": 2411
           }
         ]
       },
@@ -2786,14 +2786,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 33614
+          "pageViews": 34666
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 43,
+        "page_views": 52,
         "rpm": 0.0
       },
       "yt_total_views": 185,
@@ -2940,9 +2940,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 31476,
-        "visits": 31476,
-        "unique_visitors": 16321,
+        "page_views": 32081,
+        "visits": 32081,
+        "unique_visitors": 16929,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3014,7 +3014,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 529
+            "pageViews": 1134
           }
         ]
       },
@@ -3075,14 +3075,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 31476
+          "pageViews": 32081
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 46,
+        "page_views": 48,
         "rpm": 0.0
       },
       "yt_total_views": 12,
@@ -3317,9 +3317,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25095,
-        "visits": 25095,
-        "unique_visitors": 14133,
+        "page_views": 25691,
+        "visits": 25691,
+        "unique_visitors": 14743,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3391,7 +3391,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 612
+            "pageViews": 1208
           }
         ]
       },
@@ -3452,14 +3452,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 25095
+          "pageViews": 25691
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 53,
+        "page_views": 54,
         "rpm": 0.0
       },
       "yt_total_views": 13,
@@ -3553,12 +3553,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 168,
+            "views": 170,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 303
+          "total_views": 305
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3584,9 +3584,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 20428,
-        "visits": 20428,
-        "unique_visitors": 7403,
+        "page_views": 20965,
+        "visits": 20965,
+        "unique_visitors": 7838,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3658,7 +3658,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 792
+            "pageViews": 1329
           }
         ]
       },
@@ -3719,7 +3719,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 20428
+          "pageViews": 20965
         }
       ],
       "adsense": {
@@ -3729,7 +3729,7 @@
         "page_views": 7,
         "rpm": 0.0
       },
-      "yt_total_views": 464,
+      "yt_total_views": 466,
       "video_count": 6
     },
     {
@@ -3873,9 +3873,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 30366,
-        "visits": 30366,
-        "unique_visitors": 57244,
+        "page_views": 30820,
+        "visits": 30820,
+        "unique_visitors": 66865,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3947,7 +3947,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 641
+            "pageViews": 1095
           }
         ]
       },
@@ -4008,14 +4008,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 30366
+          "pageViews": 30820
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 45,
+        "page_views": 50,
         "rpm": 0.0
       },
       "yt_total_views": 71,
@@ -4028,7 +4028,7 @@
       "color": "#7c3aed",
       "niche": "Game development & production",
       "rpm_est": "6-12",
-      "articles": 87,
+      "articles": 88,
       "article_titles": [
         "Agile Game Development What Actually Works In Practice",
         "Asset Management Workflow For Game Studios",
@@ -4053,9 +4053,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 23515,
-        "visits": 23515,
-        "unique_visitors": 20860,
+        "page_views": 24028,
+        "visits": 24028,
+        "unique_visitors": 21343,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4127,7 +4127,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 720
+            "pageViews": 1233
           }
         ]
       },
@@ -4188,14 +4188,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 23515
+          "pageViews": 24028
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 80,
+        "page_views": 86,
         "rpm": 0.0
       },
       "yt_total_views": 0,
@@ -4320,9 +4320,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 33292,
-        "visits": 33292,
-        "unique_visitors": 42264,
+        "page_views": 33985,
+        "visits": 33985,
+        "unique_visitors": 45019,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4394,7 +4394,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 1223
+            "pageViews": 1916
           }
         ]
       },
@@ -4455,14 +4455,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 33292
+          "pageViews": 33985
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 108,
+        "page_views": 121,
         "rpm": 0.0
       },
       "yt_total_views": 40,
@@ -4565,9 +4565,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 25417,
-        "visits": 25417,
-        "unique_visitors": 13425,
+        "page_views": 26136,
+        "visits": 26136,
+        "unique_visitors": 13873,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4639,7 +4639,7 @@
           },
           {
             "date": "2026-11-18",
-            "pageViews": 3221
+            "pageViews": 3940
           }
         ]
       },
@@ -4700,14 +4700,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 25417
+          "pageViews": 26136
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 14,
+        "page_views": 16,
         "rpm": 0.0
       },
       "yt_total_views": 118,
