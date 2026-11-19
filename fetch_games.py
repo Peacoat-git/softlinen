@@ -13,6 +13,44 @@ REF  = "ops-state"
 OUT  = pathlib.Path(__file__).parent / "games.json"
 
 
+LAST7_KEYS = ("sessions", "medianSessionMin", "completion", "d1", "d7", "shareRate", "tutorial", "revenueUsd", "rpm")
+
+
+def pick(d, keys):
+    d = d if isinstance(d, dict) else {}
+    return {k: d[k] for k in keys if k in d}
+
+
+def sanitize_metrics(m):
+    m = m if isinstance(m, dict) else {}
+    return {
+        "asOf": m.get("asOf"),
+        "platforms": [
+            {
+                "id":        p.get("id"),
+                "firstDate": p.get("firstDate"),
+                "lastDate":  p.get("lastDate"),
+                "last7":     pick(p.get("last7"), LAST7_KEYS),
+                "allTime":   pick(p.get("allTime"), ("sessions", "revenueUsd")),
+                "daily":     [pick(d, ("date", "sessions", "revenueUsd")) for d in (p.get("daily") or [])[-30:]],
+                "verdict":   p.get("verdict"),
+                "reasons":   [str(r) for r in (p.get("reasons") or [])],
+            }
+            for p in m.get("platforms", [])
+        ],
+    }
+
+
+def sanitize_revenue(r):
+    r = r if isinstance(r, dict) else {}
+    return {
+        "currency":   r.get("currency", "USD"),
+        "hasData":    bool(r.get("hasData")),
+        **pick(r, ("last7", "last30", "allTime")),
+        "byPlatform": [pick(p, ("id", "last30", "allTime")) for p in r.get("byPlatform", [])],
+    }
+
+
 # This repo is public: copy only the known non-sensitive fields, so anything added upstream
 # later never lands here by accident.
 def sanitize(src):
@@ -29,6 +67,8 @@ def sanitize(src):
                 ],
                 "health":          g.get("health", "unknown"),
                 "healthCheckedAt": g.get("healthCheckedAt"),
+                "metrics":         sanitize_metrics(g.get("metrics")),
+                "revenue":         sanitize_revenue(g.get("revenue")),
             }
             for g in src.get("games", [])
         ],
