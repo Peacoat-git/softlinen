@@ -1,0 +1,19 @@
+{
+  "sample": true,
+  "updatedAt": "2026-11-18T14:41:39.102Z",
+  "games": [
+    {
+      "name": "Beams",
+      "dailyNumber": 1,
+      "dailiesBundled": 730,
+      "channels": [
+        {"id": "playgama", "status": "not-submitted", "runwayDays": 729},
+        {"id": "youtube", "status": "not-submitted", "runwayDays": 729},
+        {"id": "crazygames", "status": "not-submitted", "runwayDays": 729},
+        {"id": "reddit", "status": "not-submitted", "runwayDays": 729}
+      ],
+      "health": "ok",
+      "healthCheckedAt": "2026-11-18T14:41:39.101Z"
+    }
+  ]
+}
