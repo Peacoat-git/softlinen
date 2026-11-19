@@ -227,7 +227,7 @@ canvas { width:100%!important; }
       <div class="topbar-title">Portfolio Overview</div>
       <div class="topbar-right">
         <span class="date-badge" id="period-badge">Loading…</span>
-        <button class="refresh-btn" id="refresh-btn" onclick="triggerRefresh()">↻ Refresh</button>
+        <button class="refresh-btn" id="refresh-btn" onclick="triggerRefresh()" title="Reloads the data and opens the stats workflow on GitHub so you can run it">↻ Refresh</button>
       </div>
     </div>
 
@@ -689,117 +689,97 @@ revenueChart = new Chart(ctx0, {
   },
 });
 
+// No credentials in the browser: the run is started on GitHub's own workflow page (only a signed-in
+// collaborator can press "Run workflow"), then watched via the public unauthenticated runs API,
+// which allows 60 requests/hour per visitor IP.
+const WF_PAGE = 'https://github.com/Peacoat-git/softlinen/actions/workflows/refresh_stats.yml';
+const WF_RUNS_API = 'https://api.github.com/repos/Peacoat-git/softlinen/actions/workflows/refresh_stats.yml/runs?per_page=1';
+
 async function triggerRefresh() {
   const btn = document.getElementById('refresh-btn');
   const bar = document.getElementById('refresh-bar');
   const fill = document.getElementById('refresh-bar-fill');
   const label = document.getElementById('refresh-bar-label');
   const elapsed = document.getElementById('refresh-bar-elapsed');
-  const GH_HEADERS = {
-    'Authorization': 'token ' + ['gho_4bpSzFnqDuv8c81r','Fh1aKw4qSmZlmO1MuEs2'].join(''),
-    'Accept': 'application/vnd.github+json'
-  };
-  const ESTIMATED_S = 75; // typical workflow duration
+  const POLL_MS = 15000;
+  const MAX_POLLS = 32;
+  const ESTIMATED_S = 90;
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+  window.open(WF_PAGE, '_blank', 'noopener');
+  loadStats();
 
   function setBar(pct, msg) {
     fill.style.width = Math.min(pct, 98) + '%';
     label.textContent = msg;
   }
 
-  // Start: show bar, disable button
   btn.disabled = true;
-  btn.textContent = '↻ Refreshing';
+  btn.textContent = '↻ Watching';
   bar.classList.add('visible');
-  setBar(4, 'Triggering workflow…');
+  setBar(4, 'Press “Run workflow” on the GitHub tab — watching for the run…');
   elapsed.textContent = '';
 
   const startTs = Date.now();
+  const since = startTs - 60000;
+  let runStartTs = null;
 
-  // Elapsed timer — ticks every second independent of poll loop
   const elapsedInterval = setInterval(() => {
-    const s = Math.floor((Date.now() - startTs) / 1000);
-    elapsed.textContent = s + 's';
-    // Time-based progress fill (caps at 92% until job actually completes)
+    elapsed.textContent = Math.floor((Date.now() - startTs) / 1000) + 's';
+    if (runStartTs === null) return;
+    const s = (Date.now() - runStartTs) / 1000;
     const timePct = Math.min((s / ESTIMATED_S) * 90, 92);
-    // Only advance the fill if it's behind the time estimate
     const curPct = parseFloat(fill.style.width) || 0;
     if (timePct > curPct) fill.style.width = timePct + '%';
   }, 1000);
 
+  let outcome = 'timeout';
+  let conclusion = '';
   try {
-    // Dispatch
-    const dispatch = await fetch(
-      'https://api.github.com/repos/Peacoat-git/softlinen/actions/workflows/refresh_stats.yml/dispatches',
-      { method: 'POST', headers: { ...GH_HEADERS, 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ref: 'main', inputs: { reason: 'Manual refresh from dashboard' } }) }
-    );
-    if (dispatch.status !== 204) throw new Error('Dispatch HTTP ' + dispatch.status);
-
-    setBar(8, 'Workflow queued — waiting for runner…');
-
-    // Wait briefly for the run to appear, then poll
-    await new Promise(r => setTimeout(r, 4000));
-
-    let done = false;
-    let runId = null;
-
-    for (let i = 0; i < 25; i++) {
-      await new Promise(r => setTimeout(r, 6000));
-
-      // Get the latest run
-      const runsRes = await fetch(
-        'https://api.github.com/repos/Peacoat-git/softlinen/actions/workflows/refresh_stats.yml/runs?per_page=1',
-        { headers: GH_HEADERS }
-      );
-      const runs = await runsRes.json();
-      const run = runs.workflow_runs?.[0];
-      if (!run) continue;
-      runId = run.id;
-
-      if (run.status === 'completed') { done = true; break; }
-
-      // Get active job steps for a real step name
-      try {
-        const jobsRes = await fetch(
-          'https://api.github.com/repos/Peacoat-git/softlinen/actions/runs/' + runId + '/jobs',
-          { headers: GH_HEADERS }
-        );
-        const jobs = await jobsRes.json();
-        const job = jobs.jobs?.[0];
-        if (job) {
-          const activeStep = job.steps?.find(s => s.status === 'in_progress');
-          const stepName = activeStep ? activeStep.name
-                        : job.status === 'queued' ? 'Waiting for runner'
-                        : job.name || 'Running';
-          setBar(parseFloat(fill.style.width) || 20, stepName + '…');
-        }
-      } catch(_) { /* jobs API optional — just leave current label */ }
-    }
-
-    clearInterval(elapsedInterval);
-
-    if (done) {
-      fill.style.width = '100%';
-      label.textContent = '✓ Stats updated — reloading data';
-      elapsed.textContent = Math.floor((Date.now() - startTs) / 1000) + 's';
-      await new Promise(r => setTimeout(r, 800));
-      loadStats();
-      await new Promise(r => setTimeout(r, 1200));
-    } else {
-      fill.style.width = '100%';
-      label.textContent = 'Timed out — data may still be updating';
-      await new Promise(r => setTimeout(r, 2500));
+    for (let i = 0; i < MAX_POLLS; i++) {
+      await sleep(POLL_MS);
+      const res = await fetch(WF_RUNS_API, { headers: { 'Accept': 'application/vnd.github+json' } });
+      if (res.status === 403 || res.status === 429) { outcome = 'ratelimited'; break; }
+      if (!res.ok) throw new Error('GitHub API HTTP ' + res.status);
+      const run = (await res.json()).workflow_runs?.[0];
+      if (!run || new Date(run.created_at).getTime() < since) continue;
+      if (runStartTs === null) runStartTs = new Date(run.created_at).getTime();
+      if (run.status === 'completed') {
+        conclusion = run.conclusion || 'unknown';
+        outcome = conclusion === 'success' ? 'done' : 'failed';
+        break;
+      }
+      setBar(parseFloat(fill.style.width) || 10, run.status === 'queued' ? 'Waiting for runner…' : 'Workflow running…');
     }
   } catch(e) {
-    clearInterval(elapsedInterval);
-    fill.style.width = '100%';
-    fill.style.background = '#ef4444';
-    label.textContent = '✗ Refresh failed — ' + e.message;
-    await new Promise(r => setTimeout(r, 3000));
+    outcome = 'error';
+    conclusion = e.message;
+  }
+
+  clearInterval(elapsedInterval);
+  fill.style.width = '100%';
+
+  if (outcome === 'done') {
+    label.textContent = '✓ Stats updated — reloading data';
+    await sleep(800);
+    loadStats();
+    setTimeout(loadStats, 60000); // pick up the Pages redeploy that follows the stats commit
+    await sleep(1200);
+  } else {
+    const msg = {
+      failed: '✗ Workflow finished: ' + conclusion,
+      error: '✗ Run status unavailable — ' + conclusion,
+      ratelimited: 'Run status unavailable (GitHub API limit) — stats still refresh every 6 hours',
+      timeout: runStartTs === null
+        ? 'No run seen — stats refresh automatically every 6 hours'
+        : 'Timed out — data may still be updating',
+    }[outcome];
+    if (outcome !== 'timeout') fill.style.background = outcome === 'ratelimited' ? '#f59e0b' : '#ef4444';
+    label.textContent = msg;
+    await sleep(4000);
     fill.style.background = '';
   }
 
-  // Hide bar, re-enable button
   bar.classList.remove('visible');
   fill.style.width = '0%';
   btn.textContent = '↻ Refresh';
