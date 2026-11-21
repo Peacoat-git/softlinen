@@ -104,9 +104,12 @@ canvas { width:100%!important; }
 .h-fail { color:var(--red);   font-weight:600; }
 .issue-tag { font-size:10px; background:#fee2e2; color:#dc2626; padding:2px 7px; border-radius:4px; display:inline-block; margin:1px 2px; white-space:nowrap; }
 /* Games panel */
-.ch-chip { font-size:11px; background:var(--bg); border:1px solid var(--border); padding:3px 8px; border-radius:6px; display:inline-flex; align-items:center; gap:6px; margin:2px 4px 2px 0; white-space:nowrap; }
-.ch-chip b { font-weight:600; }
-.badge-off { font-size:9px; font-weight:600; background:#f1f5f9; color:#64748b; padding:2px 7px; border-radius:8px; }
+.games-link { font-size:12px; font-weight:500; color:var(--primary); white-space:nowrap; }
+.games-link:hover { text-decoration:underline; }
+.grev-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+.grev-value { font-size:1.4rem; font-weight:700; line-height:1.1; font-variant-numeric:tabular-nums; }
+.grev-value.green { color:var(--green); }
+.grev-split { margin-top:14px; border-top:1px solid var(--border); padding-top:4px; }
 
 /* ── Mobile responsive (stack layout, scrollable sidebar + tables) ── */
 @media (max-width: 820px){
@@ -193,6 +196,10 @@ canvas { width:100%!important; }
     <a class="sidebar-link active" href="index.html">
       <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
       Main Dashboard
+    </a>
+    <a class="sidebar-link" href="games.html">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M6 12h4M8 10v4"/><circle cx="16" cy="11" r="1"/><circle cx="18" cy="13" r="1"/></svg>
+      Games
     </a>
     <div class="sidebar-section">Sites</div>
     <a class="sidebar-link" href="site.html?s=medicare-starter"><span class="dot" style="background:#f59e0b"></span>Medicare Starter</a>
@@ -405,22 +412,15 @@ canvas { width:100%!important; }
       <!-- ── Games Panel ───────────────────────────────────────── -->
       <div class="card" style="margin-top:24px" id="games-panel">
         <div class="card-header">
-          <div class="card-title">Games — Live Ops</div>
-          <span class="card-badge" id="games-badge">Loading…</span>
+          <div class="card-title">Games — Revenue</div>
+          <div style="display:flex;align-items:center;gap:12px">
+            <a class="games-link" href="games.html">Games page →</a>
+            <span class="card-badge" id="games-badge">Loading…</span>
+          </div>
         </div>
-        <table class="health-table">
-          <thead>
-            <tr>
-              <th>Game</th>
-              <th>Today's Daily</th>
-              <th>Health</th>
-              <th>Channels · status · runway</th>
-            </tr>
-          </thead>
-          <tbody id="games-tbody">
-            <tr><td colspan="4" style="text-align:center;color:var(--muted);padding:20px">games.json not yet available</td></tr>
-          </tbody>
-        </table>
+        <div class="card-body" id="games-rev">
+          <div style="color:var(--muted);font-size:13px">games.json not yet available</div>
+        </div>
       </div>
       <!-- ── End Games Panel ──────────────────────────────────── -->
 
@@ -880,7 +880,9 @@ fetch('health.json?v=' + Date.now())
   })
   .catch(() => {}); // health.json not yet generated — silent fail
 
-// Games panel (games.json mirrored from the game repo's ops-state branch)
+// Games revenue panel (games.json mirrored from the game repo's ops-state branch).
+// Status, runway and player metrics live on games.html.
+const GAME_PLATFORMS = { playgama:'Playgama', youtube:'YouTube Playables', crazygames:'CrazyGames', reddit:'Reddit' };
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
@@ -889,16 +891,31 @@ function agoText(iso) {
   const h = Math.round((Date.now() - new Date(iso)) / 36e5);
   return h < 1 ? 'just now' : h < 48 ? h + 'h ago' : Math.round(h/24) + 'd ago';
 }
-function renderChannel(c) {
-  const st = c.status || 'unknown';
-  const stBadge = st === 'live' ? 'badge-live' : st === 'in-review' ? 'badge-pending' : 'badge-off';
-  // Runway thresholds match the game repo's ops (critical < 30d, warn < 365d); only matters once submitted.
-  const active = st === 'live' || st === 'in-review';
-  const d = c.runwayDays;
-  const rwCls = !active || d == null ? '' : d < 30 ? 'h-fail' : d < 365 ? 'h-warn' : 'h-ok';
-  return '<span class="ch-chip"><b>' + esc(c.id) + '</b>' +
-    '<span class="' + stBadge + '">' + esc(st.replace('-', ' ')) + '</span>' +
-    '<span class="num ' + rwCls + '"' + (rwCls ? '' : ' style="color:var(--stone)"') + '>' + (d ?? '—') + 'd</span></span>';
+function usd(n) {
+  return typeof n === 'number' && isFinite(n) ? '$' + n.toLocaleString('en-US', { minimumFractionDigits:2, maximumFractionDigits:2 }) : '–';
+}
+function renderGamesRevenue(games) {
+  const earning = games.filter(x => x.revenue && x.revenue.hasData).map(x => x.revenue);
+  if (!earning.length) {
+    return '<div style="font-size:13px;color:var(--muted)">No game revenue yet · ' +
+      '<a class="games-link" href="games.html">see the Games page</a> for launch status and player numbers.</div>';
+  }
+  const sum = k => earning.some(r => typeof r[k] === 'number') ? earning.reduce((a, r) => a + (r[k] || 0), 0) : null;
+  const byPlatform = {};
+  earning.forEach(r => (r.byPlatform || []).forEach(p => {
+    const b = byPlatform[p.id] || (byPlatform[p.id] = { last30: 0, allTime: 0 });
+    b.last30 += p.last30 || 0;
+    b.allTime += p.allTime || 0;
+  }));
+  const earners = Object.entries(byPlatform).filter(([, b]) => b.allTime > 0).sort((a, b) => b[1].last30 - a[1].last30);
+  const tile = (label, v) => '<div><div class="kpi-label">' + label + '</div>' +
+    '<div class="grev-value' + (v > 0 ? ' green' : '') + '">' + usd(v) + '</div></div>';
+  return '<div class="grev-grid">' + tile('Last 7 days', sum('last7')) + tile('Last 30 days', sum('last30')) + tile('All time', sum('allTime')) + '</div>' +
+    (earners.length > 1
+      ? '<div class="grev-split">' + earners.map(([id, b]) =>
+          '<div class="stat-row"><span>' + (GAME_PLATFORMS[id] || esc(id)) + ' · last 30 days</span><span class="stat-val' + (b.last30 > 0 ? ' green' : '') + '">' + usd(b.last30) + '</span></div>'
+        ).join('') + '</div>'
+      : '');
 }
 fetch('games.json?v=' + Date.now())
   .then(r => r.json())
@@ -915,18 +932,7 @@ fetch('games.json?v=' + Date.now())
       badge.textContent = 'Updated ' + agoText(g.updatedAt);
       badge.className = 'card-badge green';
     }
-    if (!g.games || !g.games.length) return;
-    document.getElementById('games-tbody').innerHTML = g.games.map(x => {
-      const hCls = x.health === 'ok' ? 'h-ok' : x.health === 'failing' ? 'h-fail' : '';
-      const hStyle = hCls ? '' : ' style="color:var(--stone);font-weight:600"';
-      return '<tr>' +
-        '<td><span style="font-weight:600">' + esc(x.name) + '</span></td>' +
-        '<td class="num">#' + esc(x.dailyNumber) + ' <span style="color:var(--stone)">of ' + esc(x.dailiesBundled) + '</span></td>' +
-        '<td><span class="' + hCls + '"' + hStyle + '>● ' + esc(x.health || 'unknown') + '</span>' +
-          '<div style="font-size:10px;color:var(--stone);margin-top:2px">checked ' + agoText(x.healthCheckedAt) + '</div></td>' +
-        '<td>' + (x.channels || []).map(renderChannel).join('') + '</td>' +
-      '</tr>';
-    }).join('');
+    document.getElementById('games-rev').innerHTML = renderGamesRevenue(g.games || []);
   })
   .catch(() => {}); // games.json not yet generated — silent fail
 </script>
