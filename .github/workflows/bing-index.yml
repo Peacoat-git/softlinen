@@ -1,0 +1,40 @@
+name: Bing Indexing (IndexNow + Webmaster API)
+
+# Daily, all 15 sites: IndexNow ping for URLs changed in the last 2 days (Bing, Yahoo, Yandex),
+# then the Bing Webmaster API keeps sitemaps registered and submits URLs up to each site's
+# daily quota (changed first, then the never-submitted backlog). State: bing_submit_state.json.
+
+on:
+  schedule:
+    - cron: '0 16 * * *'   # 16:00 UTC, after the publish window
+  workflow_dispatch:
+
+jobs:
+  bing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: IndexNow for new and updated URLs
+        continue-on-error: true
+        run: python indexnow_ping.py --days 2
+      - name: Bing Webmaster API (sitemaps + URL submission)
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+        run: python bing_submit.py
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bing_submit_state.json
+          git diff --staged --quiet || git commit -m "chore: bing submission state [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git pull --rebase origin main
+          git push
