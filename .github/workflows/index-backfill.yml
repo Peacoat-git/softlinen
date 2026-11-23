@@ -34,11 +34,16 @@ jobs:
       - name: IndexNow (Bing + Yahoo) for new and updated URLs
         continue-on-error: true
         run: python indexnow_ping.py --days 2
+      - name: Bing Webmaster API (sitemaps + URL submission up to daily quota)
+        continue-on-error: true
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+        run: python bing_submit.py
       - name: Commit progress
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index_backfill_state.json
+          git add index_backfill_state.json bing_submit_state.json
           git diff --staged --quiet || git commit -m "chore: indexing backfill progress [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git pull --rebase origin main
           git push
