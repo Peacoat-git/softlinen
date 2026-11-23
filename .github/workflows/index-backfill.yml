@@ -31,6 +31,9 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           INDEX_DAILY_BUDGET:   '150'
         run: python index_backfill.py
+      - name: IndexNow (Bing + Yahoo) for new and updated URLs
+        continue-on-error: true
+        run: python indexnow_ping.py --days 2
       - name: Commit progress
         run: |
           git config user.name  "github-actions[bot]"
