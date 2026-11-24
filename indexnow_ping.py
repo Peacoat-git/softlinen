@@ -9,6 +9,8 @@ from urllib.parse import urlparse
 import requests
 
 KEY = "f155e5946b534b6697b4a5185e39fa21"   # public by design; hosted at https://<domain>/<KEY>.txt
+# Per-host override: Bing returned 403 UserForbiddedToAccessSite for gamedev on the shared key (2026-11-23)
+HOST_KEYS = {"gamedevproducer.com": "5772170f5fa3ce9106100523c7b801e3"}
 DOMAINS = [
     "medicarestarter.com", "solarplannerguide.com", "solarhomeplanner.com",
     "injuryvictimguide.com", "homeinsuranceclear.com", "mortgageadvisorguide.com",
@@ -36,7 +38,7 @@ def submit(domain, urls):
     for i in range(0, len(urls), 9000):
         r = requests.post("https://api.indexnow.org/indexnow", timeout=60,
                           headers={"Content-Type": "application/json; charset=utf-8"},
-                          json={"host": domain, "key": KEY, "keyLocation": f"https://{domain}/{KEY}.txt",
+                          json={"host": domain, "key": HOST_KEYS.get(domain, KEY), "keyLocation": f"https://{domain}/{HOST_KEYS.get(domain, KEY)}.txt",
                                 "urlList": urls[i:i + 9000]})
         print(f"  {domain:<26} {len(urls[i:i + 9000]):>5} URLs -> HTTP {r.status_code} {r.text[:120].strip()}")
 
