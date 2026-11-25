@@ -39,7 +39,7 @@ jobs:
 
       - name: Run fetch_stats.py
         env:
-          GITHUB_TOKEN:            ${{ secrets.STATS_GH_TOKEN }}
+          GITHUB_TOKEN:            ${{ secrets.PIPELINE_TOKEN }}
           CF_TOKEN:                ${{ secrets.CF_TOKEN }}
           CF_ACCOUNT_ID:           ${{ secrets.CF_ACCOUNT_ID }}
           GOOGLE_CLIENT_ID:        ${{ secrets.GOOGLE_CLIENT_ID }}
