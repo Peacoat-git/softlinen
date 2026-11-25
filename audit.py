@@ -122,6 +122,11 @@ def check_workflow(slug, workflow_file):
     if not runs:
         return {"status": "never_run", "conclusion": "never_run", "age_hours": None, "created_at": None}
     run = runs[0]
+    wf = requests.get(
+        f"https://api.github.com/repos/peacoat-sites/{slug}/actions/workflows/{workflow_file}",
+        headers=GH_HEADS, timeout=15,
+    )
+    paused = wf.status_code == 200 and wf.json().get("state") == "disabled_manually"
     created = datetime.fromisoformat(run["created_at"].replace("Z", "+00:00"))
     age_h = (datetime.now(timezone.utc) - created).total_seconds() / 3600
     return {
@@ -130,6 +135,7 @@ def check_workflow(slug, workflow_file):
         "age_hours":  round(age_h, 1),
         "created_at": run["created_at"],
         "run_url":    run["html_url"],
+        "paused":     paused,
     }
 
 
@@ -271,6 +277,8 @@ def main():
             site_issues.append(f"publish workflow FAILED ({pub['run_url']})")
         elif pub["conclusion"] == "never_run":
             site_issues.append("publish workflow has NEVER RUN")
+        elif pub.get("paused"):
+            pass
         elif pub["age_hours"] and pub["age_hours"] > PUBLISH_STALE_H:
             site_issues.append(f"publish not run in {pub['age_hours']:.0f}h (threshold {PUBLISH_STALE_H}h)")
 
