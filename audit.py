@@ -13,6 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 GH_TOKEN  = os.environ["GITHUB_TOKEN"]
 GH_HEADS  = {"Authorization": f"token {GH_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+ISSUE_HEADS = {"Authorization": f"token {os.environ.get('AUDIT_ISSUES_TOKEN') or GH_TOKEN}", "Accept": "application/vnd.github.v3+json"}
 AUDIT_REPO = "peacoat-git/softlinen"   # where to open issues
 
 # Max acceptable age (hours) before flagging as stale
@@ -162,7 +163,7 @@ def open_issue(title, body):
     # First check if there's already an open issue with the same title to avoid spam
     search_r = requests.get(
         f"https://api.github.com/repos/{AUDIT_REPO}/issues?state=open&labels=health-alert&per_page=20",
-        headers=GH_HEADS, timeout=15,
+        headers=ISSUE_HEADS, timeout=15,
     )
     open_issues = search_r.json() if search_r.status_code == 200 else []
     for issue in open_issues:
@@ -170,13 +171,13 @@ def open_issue(title, body):
             # Already open — update body instead
             requests.patch(
                 f"https://api.github.com/repos/{AUDIT_REPO}/issues/{issue['number']}",
-                headers=GH_HEADS, json={"body": body}, timeout=15,
+                headers=ISSUE_HEADS, json={"body": body}, timeout=15,
             )
             return issue["html_url"], "updated"
 
     r = requests.post(
         f"https://api.github.com/repos/{AUDIT_REPO}/issues",
-        headers=GH_HEADS,
+        headers=ISSUE_HEADS,
         json={"title": title, "body": body, "labels": ["health-alert"]},
         timeout=15,
     )
@@ -189,7 +190,7 @@ def close_health_issues():
     """Close any open health-alert issues if everything is now clean."""
     r = requests.get(
         f"https://api.github.com/repos/{AUDIT_REPO}/issues?state=open&labels=health-alert&per_page=20",
-        headers=GH_HEADS, timeout=15,
+        headers=ISSUE_HEADS, timeout=15,
     )
     if r.status_code != 200:
         return
@@ -197,7 +198,7 @@ def close_health_issues():
         if isinstance(issue, dict):
             requests.patch(
                 f"https://api.github.com/repos/{AUDIT_REPO}/issues/{issue['number']}",
-                headers=GH_HEADS,
+                headers=ISSUE_HEADS,
                 json={"state": "closed", "body": issue.get("body", "") + "\n\n_Auto-closed: all systems healthy._"},
                 timeout=15,
             )
