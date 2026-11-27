@@ -22,7 +22,6 @@ VIDEO_STALE_H   = 216  # some sites run weekly (Mon); max gap ~168h, flag at 216
 
 SITES = [
     {"slug": "medicare-starter",        "domain": "medicarestarter.com"},
-    {"slug": "solar-planner-guide",     "domain": "solarplannerguide.com"},
     {"slug": "solar-home-planner",      "domain": "solarhomeplanner.com"},
     {"slug": "injury-victim-guide",     "domain": "injuryvictimguide.com"},
     {"slug": "home-insurance-guide",    "domain": "homeinsuranceclear.com"},
@@ -46,7 +45,6 @@ DATA_FEEDS = [
     ("mortgage-advisor-guide",  "rates.yml",      "data/rates.json",        30),
     ("small-biz-finance-guide", "rates.yml",      "data/rates.json",        30),
     ("solar-home-planner",      "solar-data.yml", "data/solar_states.json", 90),
-    ("solar-planner-guide",     "solar-data.yml", "data/solar_states.json", 90),
     ("chicken-keeper-guide",    "eggs.yml",       "data/eggs.json",         30),
     ("gamedevproducer",         "steam.yml",      "data/steam.json",         7),
     ("rv-life-guide",           "fuel.yml",       "data/fuel_prices.json",   7),
