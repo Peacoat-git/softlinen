@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T17:45:50.801Z",
+  "updatedAt": "2026-11-26T17:29:46.142Z",
   "games": [
     {
       "name": "Beams",
@@ -8,27 +8,27 @@
       "channels": [
         {
           "id": "playgama",
-          "status": "not-submitted",
+          "status": "in-review",
           "runwayDays": 729
         },
         {
           "id": "youtube",
-          "status": "not-submitted",
+          "status": "in-review",
           "runwayDays": 729
         },
         {
           "id": "crazygames",
-          "status": "not-submitted",
+          "status": "in-review",
           "runwayDays": 729
         },
         {
           "id": "reddit",
-          "status": "in-review",
+          "status": "live",
           "runwayDays": 729
         }
       ],
-      "health": "ok",
-      "healthCheckedAt": "2026-11-25T17:45:50.800Z"
+      "health": "failing",
+      "healthCheckedAt": "2026-11-26T17:29:46.140Z"
     }
   ]
 }
