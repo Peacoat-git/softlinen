@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Games — Portfolio HQ</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --primary: #1a2744;
+  --accent:  #c9a84c;
+  --green:   #16a34a;
+  --red:     #dc2626;
+  --bg:      #f4f6fb;
+  --surface: #ffffff;
+  --border:  rgba(0,0,0,0.07);
+  --text:    #0f172a;
+  --muted:   #64748b;
+  --stone:   #94a3b8;
+  --radius:  10px;
+  --shadow:  0 1px 8px rgba(0,0,0,0.06);
+}
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--text); font-size:14px; }
+a { color:inherit; text-decoration:none; }
+.app { display:grid; grid-template-columns:220px 1fr; min-height:100vh; }
+.sidebar { background:var(--primary); display:flex; flex-direction:column; position:sticky; top:0; height:100vh; overflow-y:auto; }
+.sidebar-logo { padding:24px 20px 20px; border-bottom:1px solid rgba(255,255,255,0.08); }
+.sidebar-logo span { font-family:'Playfair Display',serif; font-size:1.15rem; color:#fff; font-weight:700; }
+.sidebar-logo small { display:block; font-size:10px; color:rgba(255,255,255,0.4); letter-spacing:.1em; text-transform:uppercase; margin-top:2px; }
+.sidebar-section { padding:16px 12px 8px; font-size:9px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,0.3); }
+.sidebar-link { display:flex; align-items:center; gap:10px; padding:9px 20px; color:rgba(255,255,255,0.6); font-size:13px; font-weight:500; border-radius:6px; margin:0 8px; transition:all .15s; }
+.sidebar-link:hover,.sidebar-link.active { background:rgba(255,255,255,0.1); color:#fff; }
+.sidebar-link .dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+.sidebar-footer { margin-top:auto; padding:16px 20px; border-top:1px solid rgba(255,255,255,0.08); font-size:11px; color:rgba(255,255,255,0.3); }
+.main { background:var(--bg); overflow-y:auto; min-width:0; }
+.topbar { background:var(--surface); border-bottom:1px solid var(--border); padding:0 28px; height:60px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:10; }
+.topbar-left { display:flex; align-items:center; gap:12px; }
+.topbar-title { font-weight:600; font-size:15px; }
+.back-btn { font-size:12px; color:var(--muted); font-weight:500; }
+.back-btn:hover { color:var(--primary); }
+.date-badge { font-size:12px; color:var(--muted); background:var(--bg); padding:5px 12px; border-radius:20px; border:1px solid var(--border); }
+.content { padding:28px; }
+.game-head { display:flex; align-items:baseline; gap:12px; margin-bottom:14px; flex-wrap:wrap; }
+.game-head h2 { font-family:'Playfair Display',serif; font-size:1.4rem; color:var(--primary); }
+.game-head .asof { font-size:12px; color:var(--muted); }
+.section-label { font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:8px 0 12px; }
+.kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px; }
+.kpi-card { background:var(--surface); border-radius:var(--radius); padding:20px; border:1px solid var(--border); box-shadow:var(--shadow); min-width:0; }
+.kpi-label { font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+.kpi-value { font-size:1.9rem; font-weight:700; color:var(--text); line-height:1; margin-bottom:8px; }
+.kpi-value.green { color:var(--green); }
+.kpi-sub { font-size:11px; color:var(--stone); margin-top:2px; }
+.two-col { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:24px; }
+.platform-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-bottom:32px; }
+.card { background:var(--surface); border-radius:var(--radius); border:1px solid var(--border); box-shadow:var(--shadow); overflow:hidden; min-width:0; }
+.card-header { padding:16px 20px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; gap:10px; }
+.card-title { font-size:13px; font-weight:600; }
+.card-badge { font-size:10px; font-weight:600; background:#f0f4ff; color:#3b5bdb; padding:3px 8px; border-radius:10px; white-space:nowrap; }
+.card-badge.green { background:#dcfce7; color:#16a34a; }
+.card-badge.red   { background:#fee2e2; color:#dc2626; }
+.card-badge.amber { background:#fef9c3; color:#ca8a04; }
+.card-badge.grey  { background:#f1f5f9; color:#64748b; }
+.card-body { padding:20px; }
+.stat-row { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:10px 0; border-bottom:1px solid var(--border); font-size:13px; }
+.stat-row:last-child { border-bottom:none; }
+.stat-val { font-weight:600; font-variant-numeric:tabular-nums; }
+.stat-val.green { color:var(--green); }
+.health-table { width:100%; border-collapse:collapse; font-size:12px; }
+.health-table th { text-align:left; font-size:10px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding:8px 12px; border-bottom:1px solid var(--border); }
+.health-table td { padding:9px 12px; border-bottom:1px solid var(--border); vertical-align:middle; }
+.health-table tr:last-child td { border-bottom:none; }
+.num { font-variant-numeric:tabular-nums; }
+.h-ok   { color:var(--green); font-weight:600; }
+.h-warn { color:#d97706;       font-weight:600; }
+.h-fail { color:var(--red);   font-weight:600; }
+.badge-live { font-size:9px; font-weight:600; background:#dcfce7; color:#16a34a; padding:2px 7px; border-radius:8px; }
+.badge-pending { font-size:9px; font-weight:600; background:#fef9c3; color:#ca8a04; padding:2px 7px; border-radius:8px; }
+.badge-off { font-size:9px; font-weight:600; background:#f1f5f9; color:#64748b; padding:2px 7px; border-radius:8px; }
+.chart-label { display:flex; justify-content:space-between; font-size:10px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+.chart-wrap { position:relative; height:120px; margin-bottom:16px; }
+.chart-empty { height:120px; margin-bottom:16px; display:flex; align-items:center; justify-content:center; color:var(--stone); font-size:12px; background:var(--bg); border-radius:8px; }
+.metric-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1px; background:var(--border); border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+.metric { background:var(--surface); padding:10px 12px; min-width:0; }
+.metric-grid.rev { grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:8px; }
+.metric-label { font-size:10px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; line-height:1.3; }
+.metric-value { font-size:15px; font-weight:700; font-variant-numeric:tabular-nums; }
+.metric-value.missing { color:var(--stone); font-weight:500; }
+.reasons { margin-top:14px; font-size:12px; color:var(--muted); }
+.reasons ul { list-style:none; display:flex; flex-direction:column; gap:4px; margin-top:6px; }
+.reasons li { padding-left:12px; position:relative; }
+.reasons li::before { content:''; position:absolute; left:0; top:7px; width:5px; height:5px; border-radius:50%; background:var(--stone); }
+.date-range { margin-top:12px; font-size:11px; color:var(--stone); }
+.empty-state { background:var(--surface); border:1px dashed rgba(0,0,0,0.15); border-radius:var(--radius); padding:28px 20px; text-align:center; color:var(--muted); font-size:13px; margin-bottom:32px; }
+.load-msg { text-align:center; color:var(--muted); padding:40px 0; }
+
+@media (max-width: 1100px){
+  .platform-grid { grid-template-columns:1fr; }
+}
+@media (max-width: 820px){
+  .app { grid-template-columns: 1fr; }
+  .sidebar { position: static; height: auto; flex-direction: row; align-items: center;
+             overflow-x: auto; gap: 2px; padding: 6px 8px; -webkit-overflow-scrolling: touch; }
+  .sidebar-logo { padding: 6px 14px 6px 6px; border-bottom: none; flex-shrink: 0; }
+  .sidebar-section { display: none; }
+  .sidebar-link { white-space: nowrap; flex-shrink: 0; padding: 8px 12px; }
+  .sidebar-footer { display: none; }
+  .content { padding: 14px; }
+  .topbar { padding: 0 14px; min-height: 56px; height: auto; flex-wrap: wrap; gap: 8px 12px; }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .kpi-card { padding: 14px; }
+  .kpi-value { font-size: 1.5rem; }
+  .two-col { grid-template-columns: 1fr; }
+  .metric-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .metric-grid.rev { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .card-body { padding: 16px; }
+}
+@media (max-width: 440px){
+  .content { padding: 12px; }
+  .topbar { padding: 0 12px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Password Gate ──────────────────────────────────────── -->
+<div id="gate" style="position:fixed;inset:0;z-index:9999;background:#1a2744;display:flex;align-items:center;justify-content:center;font-family:'Inter',system-ui,sans-serif;">
+  <div style="background:#fff;border-radius:14px;padding:48px 40px;width:340px;text-align:center;box-shadow:0 24px 80px rgba(0,0,0,0.35);">
+    <div style="font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:700;color:#1a2744;margin-bottom:4px;">Portfolio HQ</div>
+    <div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:32px;">Analytics Dashboard</div>
+    <div style="font-size:13px;color:#64748b;margin-bottom:16px;">Enter your access password to continue</div>
+    <input id="gate-input" type="password" placeholder="Password"
+      style="width:100%;padding:12px 16px;border:1.5px solid #e2e8f0;border-radius:8px;font-size:15px;outline:none;margin-bottom:12px;letter-spacing:.08em;transition:border .15s;"
+      onkeydown="if(event.key==='Enter')gateUnlock()"
+      onfocus="this.style.borderColor='#1a2744'"
+      onblur="this.style.borderColor='#e2e8f0'"
+    />
+    <div id="gate-err" style="font-size:12px;color:#dc2626;min-height:18px;margin-bottom:8px;"></div>
+    <button onclick="gateUnlock()"
+      style="width:100%;padding:12px;background:#1a2744;color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;letter-spacing:.02em;transition:background .15s;"
+      onmouseover="this.style.background='#c9a84c'" onmouseout="this.style.background='#1a2744'">
+      Access Dashboard
+    </button>
+  </div>
+</div>
+
+<script>
+(function() {
+  const KEY = 'sl_auth';
+  const PASS_HASH = '444068b52d14eefad0405c60cf0623bb78069c1aa2e2d86b4105383e5e791d58';
+  async function gateUnlock() {
+    const val = document.getElementById('gate-input').value;
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(val));
+    const hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+    if (hex === PASS_HASH) {
+      localStorage.setItem(KEY, '1');
+      document.getElementById('gate').style.display = 'none';
+    } else {
+      const err = document.getElementById('gate-err');
+      err.textContent = 'Incorrect password — try again';
+      document.getElementById('gate-input').value = '';
+      document.getElementById('gate-input').focus();
+      setTimeout(() => err.textContent = '', 3000);
+    }
+  }
+  window.gateUnlock = gateUnlock;
+  if (localStorage.getItem(KEY) === '1') {
+    document.getElementById('gate').style.display = 'none';
+  }
+})();
+</script>
+<!-- ── End Password Gate ───────────────────────────────────── -->
+
+<div class="app">
+
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <span>Portfolio HQ</span>
+      <small>Analytics Dashboard</small>
+    </div>
+    <div class="sidebar-section">Overview</div>
+    <a class="sidebar-link" href="index.html">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      Main Dashboard
+    </a>
+    <a class="sidebar-link active" href="games.html">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M6 12h4M8 10v4"/><circle cx="16" cy="11" r="1"/><circle cx="18" cy="13" r="1"/></svg>
+      Games
+    </a>
+    <div class="sidebar-section">Sites</div>
+    <a class="sidebar-link" href="site.html?s=medicare-starter"><span class="dot" style="background:#f59e0b"></span>Medicare Starter</a>
+    <a class="sidebar-link" href="site.html?s=solar-planner-guide"><span class="dot" style="background:#22c55e"></span>Solar Planner</a>
+    <a class="sidebar-link" href="site.html?s=solar-home-planner"><span class="dot" style="background:#10b981"></span>Solar Home Planner</a>
+    <a class="sidebar-link" href="site.html?s=injury-victim-guide"><span class="dot" style="background:#ef4444"></span>Injury Victim Guide</a>
+    <a class="sidebar-link" href="site.html?s=home-insurance-guide"><span class="dot" style="background:#3b82f6"></span>Home Insurance Clear</a>
+    <a class="sidebar-link" href="site.html?s=mortgage-advisor-guide"><span class="dot" style="background:#8b5cf6"></span>Mortgage Advisor</a>
+    <a class="sidebar-link" href="site.html?s=therapy-finder-guide"><span class="dot" style="background:#ec4899"></span>Therapy Finder</a>
+    <a class="sidebar-link" href="site.html?s=pet-doctor-guide"><span class="dot" style="background:#f97316"></span>Pet Doctor Guide</a>
+    <a class="sidebar-link" href="site.html?s=small-biz-finance-guide"><span class="dot" style="background:#14b8a6"></span>Small Biz Finance</a>
+    <a class="sidebar-link" href="site.html?s=keto-living-guide"><span class="dot" style="background:#84cc16"></span>Keto Living Guide</a>
+    <a class="sidebar-link" href="site.html?s=chicken-keeper-guide"><span class="dot" style="background:#f59e0b"></span>Chicken Keeper Guide</a>
+    <a class="sidebar-link" href="site.html?s=rv-life-guide"><span class="dot" style="background:#0ea5e9"></span>RV Life Guide</a>
+    <a class="sidebar-link" href="site.html?s=gamedevproducer"><span class="dot" style="background:#7c3aed"></span>Game Dev Producer</a>
+    <a class="sidebar-link" href="site.html?s=seniorstrength"><span class="dot" style="background:#16a34a"></span>Senior Strength</a>
+    <a class="sidebar-link" href="site.html?s=fixitrightway"><span class="dot" style="background:#b45309"></span>Fix It Right Way</a>
+    <div class="sidebar-footer" id="sidebar-footer">Fetching data…</div>
+  </nav>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-left">
+        <a class="back-btn" href="index.html">← Main Dashboard</a>
+        <span style="color:var(--border)">|</span>
+        <div class="topbar-title">Games</div>
+      </div>
+      <span class="date-badge" id="games-badge">Loading…</span>
+    </div>
+
+    <div class="content" id="games-root">
+      <div class="load-msg">Loading games.json…</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PLATFORM_NAMES = { playgama:'Playgama', youtube:'YouTube Playables', crazygames:'CrazyGames', reddit:'Reddit' };
+const VERDICTS = {
+  'collecting':     ['Collecting data', 'grey'],
+  'hold':           ['Hold', 'amber'],
+  'rework-or-kill': ['Rework or kill', 'red'],
+  'double-down':    ['Double down', 'green'],
+};
+const MISSING = '–';
+
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+const has = v => typeof v === 'number' && isFinite(v);
+const platformName = id => PLATFORM_NAMES[id] || esc(id || 'unknown');
+const fmtNum = n => has(n) ? Math.round(n).toLocaleString('en-US') : MISSING;
+const fmtPct = f => has(f) ? (Math.round(f * 1000) / 10) + '%' : MISSING;
+const fmtUsd = n => has(n) ? '$' + n.toLocaleString('en-US', { minimumFractionDigits:2, maximumFractionDigits:2 }) : MISSING;
+const fmtMin = n => has(n) ? n.toFixed(1) + ' min' : MISSING;
+
+function agoText(iso) {
+  if (!iso) return MISSING;
+  const h = Math.round((Date.now() - new Date(iso)) / 36e5);
+  return h < 1 ? 'just now' : h < 48 ? h + 'h ago' : Math.round(h/24) + 'd ago';
+}
+function dayLabel(ymd) {
+  return new Date(ymd + 'T00:00:00Z').toLocaleDateString('en-US', { month:'short', day:'numeric', timeZone:'UTC' });
+}
+function addDays(ymd, n) {
+  const d = new Date(ymd + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+function renderChannelRow(c) {
+  const st = c.status || 'unknown';
+  const stBadge = st === 'live' ? 'badge-live' : st === 'in-review' ? 'badge-pending' : 'badge-off';
+  // Runway thresholds match the game repo's ops (critical < 30d, warn < 365d); only matters once submitted.
+  const active = st === 'live' || st === 'in-review';
+  const d = c.runwayDays;
+  const rwCls = !active || d == null ? '' : d < 30 ? 'h-fail' : d < 365 ? 'h-warn' : 'h-ok';
+  return '<tr>' +
+    '<td style="font-weight:500">' + platformName(c.id) + '</td>' +
+    '<td><span class="' + stBadge + '">' + esc(st.replace('-', ' ')) + '</span></td>' +
+    '<td class="num ' + rwCls + '"' + (rwCls ? '' : ' style="color:var(--stone)"') + '>' + (d ?? MISSING) + (d != null ? ' days' : '') + '</td>' +
+  '</tr>';
+}
+
+function metric(label, value) {
+  return '<div class="metric"><div class="metric-label">' + label + '</div>' +
+    '<div class="metric-value' + (value === MISSING ? ' missing' : '') + '">' + value + '</div></div>';
+}
+
+function renderRevenueCard(rev) {
+  const body = rev && rev.hasData
+    ? '<div class="stat-row"><span>Last 7 days</span><span class="stat-val green">' + fmtUsd(rev.last7) + '</span></div>' +
+      '<div class="stat-row"><span>Last 30 days</span><span class="stat-val green">' + fmtUsd(rev.last30) + '</span></div>' +
+      '<div class="stat-row"><span>All time</span><span class="stat-val green">' + fmtUsd(rev.allTime) + '</span></div>' +
+      (rev.byPlatform || []).map(p =>
+        '<div class="stat-row"><span style="color:var(--muted)">' + platformName(p.id) + ' · 30d / all time</span>' +
+        '<span class="stat-val">' + fmtUsd(p.last30) + ' / ' + fmtUsd(p.allTime) + '</span></div>').join('')
+    : '<div style="color:var(--muted);font-size:13px;padding:6px 0">No game revenue yet.</div>';
+  return '<div class="card"><div class="card-header"><div class="card-title">Revenue (USD)</div></div>' +
+    '<div class="card-body">' + body + '</div></div>';
+}
+
+function renderPlatform(p, chartQueue) {
+  const l7 = p.last7 || {};
+  const all = p.allTime || {};
+  const [vLabel, vCls] = VERDICTS[p.verdict] || [p.verdict ? esc(p.verdict) : 'No verdict', 'grey'];
+  const hasRevenue = has(l7.revenueUsd) || has(l7.rpm) || has(all.revenueUsd);
+  const daily = (p.daily || []).filter(d => d && d.date);
+  const canvasId = 'chart-' + chartQueue.length + '-' + String(p.id).replace(/[^a-z0-9]/gi, '');
+  if (daily.length) chartQueue.push({ id: canvasId, p, daily });
+
+  const metrics = [
+    metric('Sessions · 7d', fmtNum(l7.sessions)),
+    metric('All-time sessions', fmtNum(all.sessions)),
+    metric('Median session', fmtMin(l7.medianSessionMin)),
+    metric('Completion', fmtPct(l7.completion)),
+    metric('D1 retention', fmtPct(l7.d1)),
+    metric('D7 retention', fmtPct(l7.d7)),
+    metric('Tutorial done', fmtPct(l7.tutorial)),
+    metric('Share rate', fmtPct(l7.shareRate)),
+  ];
+  const revMetrics = hasRevenue ? [
+    metric('Revenue · 7d', fmtUsd(l7.revenueUsd)),
+    metric('RPM · 7d', fmtUsd(l7.rpm)),
+    metric('All-time revenue', fmtUsd(all.revenueUsd)),
+  ] : [];
+  const reasons = (p.reasons || []).filter(Boolean);
+
+  return '<div class="card">' +
+    '<div class="card-header"><div class="card-title">' + platformName(p.id) + '</div>' +
+      '<span class="card-badge ' + vCls + '" title="Decision verdict">' + vLabel + '</span></div>' +
+    '<div class="card-body">' +
+      '<div class="chart-label"><span>Sessions · last 30 days</span></div>' +
+      (daily.length
+        ? '<div class="chart-wrap"><canvas id="' + canvasId + '"></canvas></div>'
+        : '<div class="chart-empty">No daily data yet</div>') +
+      '<div class="metric-grid">' + metrics.join('') + '</div>' +
+      (revMetrics.length ? '<div class="metric-grid rev">' + revMetrics.join('') + '</div>' : '') +
+      (reasons.length
+        ? '<div class="reasons">Why ' + vLabel.toLowerCase() + ':<ul>' + reasons.map(r => '<li>' + esc(r) + '</li>').join('') + '</ul></div>'
+        : '') +
+      '<div class="date-range">Data ' + (p.firstDate ? esc(dayLabel(p.firstDate)) : MISSING) + ' → ' + (p.lastDate ? esc(dayLabel(p.lastDate)) : MISSING) + '</div>' +
+    '</div></div>';
+}
+
+function drawChart({ id, p, daily }) {
+  const byDate = {};
+  daily.forEach(d => byDate[d.date] = d);
+  const dates = daily.map(d => d.date).sort();
+  const end = p.lastDate && p.lastDate > dates[dates.length - 1] ? p.lastDate : dates[dates.length - 1];
+  let start = addDays(end, -29);
+  const first = [p.firstDate, dates[0]].filter(Boolean).sort()[0];
+  if (first > start) start = first;
+  const labels = [], values = [];
+  for (let d = start; d <= end; d = addDays(d, 1)) {
+    labels.push(dayLabel(d));
+    const v = byDate[d] && byDate[d].sessions;
+    values.push(has(v) ? v : null);
+  }
+  new Chart(document.getElementById(id), {
+    type: 'bar',
+    data: { labels, datasets: [{ label: 'Sessions', data: values, backgroundColor: '#1a2744', borderRadius: 2, maxBarThickness: 18 }] },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: c => ' ' + (c.raw == null ? 'no data' : c.raw.toLocaleString('en-US') + ' sessions') } },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 10 }, maxRotation: 0, autoSkip: true, maxTicksLimit: 8 } },
+        y: { beginAtZero: true, ticks: { font: { size: 10 }, maxTicksLimit: 4, precision: 0 }, grid: { color: '#f1f5f9' } },
+      },
+    },
+  });
+}
+
+function renderGame(x, chartQueue) {
+  const metrics = x.metrics || {};
+  const platforms = metrics.platforms || [];
+  const rev = x.revenue || {};
+  const sessions7 = platforms.reduce((a, p) => a + ((p.last7 && has(p.last7.sessions)) ? p.last7.sessions : 0), 0);
+  const sessionsAll = platforms.reduce((a, p) => a + ((p.allTime && has(p.allTime.sessions)) ? p.allTime.sessions : 0), 0);
+  const hCls = x.health === 'ok' ? 'h-ok' : x.health === 'failing' ? 'h-fail' : '';
+  const hStyle = hCls ? '' : ' style="color:var(--stone)"';
+
+  return '<section class="game">' +
+    '<div class="game-head"><h2>' + esc(x.name) + '</h2>' +
+      (metrics.asOf ? '<span class="asof">Player metrics as of ' + esc(dayLabel(metrics.asOf)) + '</span>' : '') + '</div>' +
+    '<div class="kpi-grid">' +
+      '<div class="kpi-card"><div class="kpi-label">Today\'s Daily</div>' +
+        '<div class="kpi-value">#' + esc(x.dailyNumber ?? MISSING) + '</div>' +
+        '<div class="kpi-sub">of ' + esc(x.dailiesBundled ?? MISSING) + ' bundled</div></div>' +
+      '<div class="kpi-card"><div class="kpi-label">Health</div>' +
+        '<div class="kpi-value ' + hCls + '"' + hStyle + '>● ' + esc(x.health || 'unknown') + '</div>' +
+        '<div class="kpi-sub">checked ' + agoText(x.healthCheckedAt) + '</div></div>' +
+      '<div class="kpi-card"><div class="kpi-label">Sessions · Last 7 Days</div>' +
+        '<div class="kpi-value">' + (platforms.length ? fmtNum(sessions7) : MISSING) + '</div>' +
+        '<div class="kpi-sub">' + (platforms.length ? fmtNum(sessionsAll) + ' all time · ' + platforms.length + ' platform' + (platforms.length === 1 ? '' : 's') : 'All platforms') + '</div></div>' +
+      '<div class="kpi-card"><div class="kpi-label">Revenue · Last 7 Days</div>' +
+        '<div class="kpi-value' + (rev.hasData ? ' green' : '') + '">' + (rev.hasData ? fmtUsd(rev.last7) : MISSING) + '</div>' +
+        '<div class="kpi-sub">' + (rev.hasData ? fmtUsd(rev.allTime) + ' all time' : 'No game revenue yet') + '</div></div>' +
+    '</div>' +
+    '<div class="two-col">' +
+      '<div class="card"><div class="card-header"><div class="card-title">Channels — status · runway</div></div>' +
+        '<table class="health-table"><thead><tr><th>Channel</th><th>Status</th><th>Runway</th></tr></thead><tbody>' +
+        ((x.channels || []).length
+          ? x.channels.map(renderChannelRow).join('')
+          : '<tr><td colspan="3" style="text-align:center;color:var(--muted);padding:16px">No channels listed</td></tr>') +
+        '</tbody></table></div>' +
+      renderRevenueCard(rev) +
+    '</div>' +
+    '<div class="section-label">Player metrics by platform</div>' +
+    (platforms.length
+      ? '<div class="platform-grid">' + platforms.map(p => renderPlatform(p, chartQueue)).join('') + '</div>'
+      : '<div class="empty-state">No player data yet. Numbers appear after launch (Dec 1) once weekly metrics are added.</div>') +
+  '</section>';
+}
+
+fetch('games.json?v=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(g => {
+    const badge = document.getElementById('games-badge');
+    const stale = g.updatedAt && (Date.now() - new Date(g.updatedAt)) > 36 * 36e5;
+    badge.textContent = g.sample ? 'Sample data' : (stale ? 'Stale · updated ' : 'Updated ') + agoText(g.updatedAt);
+    if (stale && !g.sample) badge.style.color = 'var(--red)';
+    document.getElementById('sidebar-footer').textContent = 'Games data: ' + agoText(g.updatedAt) + ' · refreshes every 6h';
+
+    const root = document.getElementById('games-root');
+    if (!g.games || !g.games.length) {
+      root.innerHTML = '<div class="empty-state">No games listed in games.json yet.</div>';
+      return;
+    }
+    const chartQueue = [];
+    root.innerHTML = g.games.map(x => renderGame(x, chartQueue)).join('');
+    chartQueue.forEach(drawChart);
+  })
+  .catch(() => {
+    document.getElementById('games-badge').textContent = 'Unavailable';
+    document.getElementById('sidebar-footer').textContent = 'games.json not available';
+    document.getElementById('games-root').innerHTML = '<div class="empty-state">games.json not yet available — it is refreshed every 6 hours.</div>';
+  });
+</script>
+</body>
+</html>
