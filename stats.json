@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-27T15:45:32.020993+00:00",
+  "generated_at": "2026-11-28T00:47:55.741617+00:00",
   "period": {
     "start": "2026-11-01",
-    "end": "2026-11-27"
+    "end": "2026-11-28"
   },
   "totals": {
-    "revenue": 3.37,
-    "page_views": 727255,
-    "page_views_alltime": 2538051,
-    "visits": 727255,
-    "articles": 2281,
+    "revenue": 3.58,
+    "page_views": 738519,
+    "page_views_alltime": 2549316,
+    "visits": 738519,
+    "articles": 2306,
     "videos": 172,
     "channels": 14,
-    "yt_views": 2028,
+    "yt_views": 2031,
     "sites": 15
   },
   "adsense_connected": true,
@@ -36,7 +36,7 @@
       "color": "#f59e0b",
       "niche": "Medicare & senior health",
       "rpm_est": "12-18",
-      "articles": 165,
+      "articles": 166,
       "article_titles": [
         "Aco Copay Waivers Original Medicare May Soon Cost Less At The Doctor",
         "Ai Prior Auth In Original Medicare What Wiser Has Done So Far",
@@ -290,9 +290,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 53825,
-        "visits": 53825,
-        "unique_visitors": 28969,
+        "page_views": 54989,
+        "visits": 54989,
+        "unique_visitors": 29483,
         "daily": [
           {
             "date": "2026-11-01",
@@ -400,7 +400,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 1475
+            "pageViews": 2601
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 38
           }
         ]
       },
@@ -461,15 +465,15 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 53825
+          "pageViews": 54989
         }
       ],
       "adsense": {
-        "revenue": 3.37,
-        "impressions": 772,
-        "clicks": 8,
-        "page_views": 211,
-        "rpm": 15.97
+        "revenue": 3.58,
+        "impressions": 830,
+        "clicks": 10,
+        "page_views": 224,
+        "rpm": 15.98
       },
       "yt_total_views": 23,
       "video_count": 19
@@ -791,9 +795,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 42380,
-        "visits": 42380,
-        "unique_visitors": 20642,
+        "page_views": 42689,
+        "visits": 42689,
+        "unique_visitors": 20865,
         "daily": [
           {
             "date": "2026-11-01",
@@ -901,7 +905,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 609
+            "pageViews": 918
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 0
           }
         ]
       },
@@ -962,14 +970,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 42380
+          "pageViews": 42689
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 136,
+        "page_views": 137,
         "rpm": 0.0
       },
       "yt_total_views": 563,
@@ -982,16 +990,20 @@
       "color": "#10b981",
       "niche": "Solar energy",
       "rpm_est": "8-14",
-      "articles": 155,
+      "articles": 179,
       "article_titles": [
         "Apsystems Ez1 Lv Plug In Balcony Solar Arrives In The Us",
         "Balcony Solar Laws Are Going Live What Your State Allows Now",
         "Best Batteries For Off Grid Solar",
         "Best Ev Charger For Solar Home",
+        "Best Home Battery 2026",
         "Best Roof Type For Solar Panels",
+        "Best Solar Companies 2026",
         "Best Solar Inverter Brands Reviewed",
         "Best Solar Monitoring For Off Grid",
         "Best Solar Panels For Diy Installation",
+        "Best Solar Panels For Home 2026",
+        "Best States For Solar Energy Savings",
         "Bidirectional Ev Charging With Solar",
         "Bifacial Solar Panels Explained",
         "Can Condos Get Solar Panels",
@@ -999,11 +1011,7 @@
         "Can Solar Panels Power A Whole House",
         "Cheapest Way To Go Solar Diy",
         "Community Solar How It Works",
-        "Community Solar Vs Rooftop Solar",
-        "Critical Loads Panel Solar Backup",
-        "Diy Solar For Rv Or Camper",
-        "Diy Solar For Shed Or Outbuilding",
-        "Diy Solar For Tiny Home"
+        "Community Solar Vs Rooftop Solar"
       ],
       "videos": [
         {
@@ -1182,9 +1190,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 43900,
-        "visits": 43900,
-        "unique_visitors": 22648,
+        "page_views": 44814,
+        "visits": 44814,
+        "unique_visitors": 23143,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1292,7 +1300,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 676
+            "pageViews": 1563
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 27
           }
         ]
       },
@@ -1353,14 +1365,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 43900
+          "pageViews": 44814
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 32,
+        "page_views": 33,
         "rpm": 0.0
       },
       "yt_total_views": 374,
@@ -1502,7 +1514,7 @@
           "standard_id": "1k93GFSbhrs",
           "standard_url": "https://www.youtube.com/watch?v=1k93GFSbhrs",
           "shorts_stats": {
-            "views": 5,
+            "views": 6,
             "likes": 0,
             "comments": 0,
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
@@ -1513,13 +1525,13 @@
             "comments": 0,
             "title": "Ex-Insurance Adjuster Exposes 2026 Whiplash Claim Secrets"
           },
-          "total_views": 8
+          "total_views": 9
         }
       ],
       "cloudflare": {
-        "page_views": 45628,
-        "visits": 45628,
-        "unique_visitors": 24973,
+        "page_views": 46287,
+        "visits": 46287,
+        "unique_visitors": 25187,
         "daily": [
           {
             "date": "2026-11-01",
@@ -1627,7 +1639,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 349
+            "pageViews": 995
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 13
           }
         ]
       },
@@ -1688,17 +1704,17 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 45628
+          "pageViews": 46287
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 25,
+        "page_views": 27,
         "rpm": 0.0
       },
-      "yt_total_views": 29,
+      "yt_total_views": 30,
       "video_count": 11
     },
     {
@@ -1940,9 +1956,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 43040,
-        "visits": 43040,
-        "unique_visitors": 20893,
+        "page_views": 43889,
+        "visits": 43889,
+        "unique_visitors": 21130,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2050,7 +2066,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 638
+            "pageViews": 1470
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 17
           }
         ]
       },
@@ -2111,7 +2131,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 43040
+          "pageViews": 43889
         }
       ],
       "adsense": {
@@ -2275,9 +2295,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 46299,
-        "visits": 46299,
-        "unique_visitors": 21509,
+        "page_views": 46877,
+        "visits": 46877,
+        "unique_visitors": 21746,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2385,7 +2405,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 483
+            "pageViews": 1051
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 10
           }
         ]
       },
@@ -2446,7 +2470,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 46299
+          "pageViews": 46877
         }
       ],
       "adsense": {
@@ -2578,9 +2602,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 49451,
-        "visits": 49451,
-        "unique_visitors": 27980,
+        "page_views": 50304,
+        "visits": 50304,
+        "unique_visitors": 28380,
         "daily": [
           {
             "date": "2026-11-01",
@@ -2688,7 +2712,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 631
+            "pageViews": 1458
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 26
           }
         ]
       },
@@ -2749,14 +2777,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 49451
+          "pageViews": 50304
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 34,
+        "page_views": 37,
         "rpm": 0.0
       },
       "yt_total_views": 15,
@@ -2828,12 +2856,12 @@
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
           "standard_stats": {
-            "views": 56,
+            "views": 57,
             "likes": 0,
             "comments": 0,
             "title": "Why Your Dog's Cough Sounds Like Choking (But Isn't)"
           },
-          "total_views": 154
+          "total_views": 155
         },
         {
           "shorts_id": "NCQJLVjEERc",
@@ -2903,9 +2931,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 57872,
-        "visits": 57872,
-        "unique_visitors": 41252,
+        "page_views": 58637,
+        "visits": 58637,
+        "unique_visitors": 41624,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3013,7 +3041,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 1312
+            "pageViews": 2016
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 61
           }
         ]
       },
@@ -3074,17 +3106,17 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 57872
+          "pageViews": 58637
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 254,
+        "page_views": 276,
         "rpm": 0.0
       },
-      "yt_total_views": 191,
+      "yt_total_views": 192,
       "video_count": 10
     },
     {
@@ -3228,9 +3260,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 49336,
-        "visits": 49336,
-        "unique_visitors": 24483,
+        "page_views": 49859,
+        "visits": 49859,
+        "unique_visitors": 24667,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3338,7 +3370,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 466
+            "pageViews": 980
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 9
           }
         ]
       },
@@ -3399,14 +3435,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 49336
+          "pageViews": 49859
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 248,
+        "page_views": 249,
         "rpm": 0.0
       },
       "yt_total_views": 12,
@@ -3641,9 +3677,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 45036,
-        "visits": 45036,
-        "unique_visitors": 23833,
+        "page_views": 45564,
+        "visits": 45564,
+        "unique_visitors": 24168,
         "daily": [
           {
             "date": "2026-11-01",
@@ -3751,7 +3787,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 620
+            "pageViews": 1136
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 12
           }
         ]
       },
@@ -3812,14 +3852,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 45036
+          "pageViews": 45564
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 228,
+        "page_views": 233,
         "rpm": 0.0
       },
       "yt_total_views": 13,
@@ -3913,12 +3953,12 @@
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
           "standard_stats": {
-            "views": 193,
+            "views": 194,
             "likes": 0,
             "comments": 0,
             "title": "Your Chickens Probably Have Worms (Here's How I Found Out)"
           },
-          "total_views": 337
+          "total_views": 338
         },
         {
           "shorts_id": "I10o8EFJnnw",
@@ -3944,9 +3984,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 39806,
-        "visits": 39806,
-        "unique_visitors": 15497,
+        "page_views": 40532,
+        "visits": 40532,
+        "unique_visitors": 15770,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4054,7 +4094,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 740
+            "pageViews": 1452
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 14
           }
         ]
       },
@@ -4115,7 +4159,7 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 39806
+          "pageViews": 40532
         }
       ],
       "adsense": {
@@ -4125,7 +4169,7 @@
         "page_views": 25,
         "rpm": 0.0
       },
-      "yt_total_views": 498,
+      "yt_total_views": 499,
       "video_count": 6
     },
     {
@@ -4269,9 +4313,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 51672,
-        "visits": 51672,
-        "unique_visitors": 111229,
+        "page_views": 52365,
+        "visits": 52365,
+        "unique_visitors": 112630,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4379,7 +4423,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 920
+            "pageViews": 1589
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 24
           }
         ]
       },
@@ -4440,14 +4488,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 51672
+          "pageViews": 52366
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 160,
+        "page_views": 171,
         "rpm": 0.0
       },
       "yt_total_views": 72,
@@ -4485,9 +4533,9 @@
       ],
       "videos": [],
       "cloudflare": {
-        "page_views": 46984,
-        "visits": 46984,
-        "unique_visitors": 36692,
+        "page_views": 48133,
+        "visits": 48133,
+        "unique_visitors": 37487,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4595,7 +4643,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 1644
+            "pageViews": 2747
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 46
           }
         ]
       },
@@ -4656,14 +4708,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 46984
+          "pageViews": 48133
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 381,
+        "page_views": 397,
         "rpm": 0.0
       },
       "yt_total_views": 0,
@@ -4788,9 +4840,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 60145,
-        "visits": 60145,
-        "unique_visitors": 87576,
+        "page_views": 60805,
+        "visits": 60805,
+        "unique_visitors": 87976,
         "daily": [
           {
             "date": "2026-11-01",
@@ -4898,7 +4950,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 1265
+            "pageViews": 1901
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 24
           }
         ]
       },
@@ -4959,14 +5015,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 60145
+          "pageViews": 60805
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 419,
+        "page_views": 441,
         "rpm": 0.0
       },
       "yt_total_views": 40,
@@ -5069,9 +5125,9 @@
         }
       ],
       "cloudflare": {
-        "page_views": 51881,
-        "visits": 51881,
-        "unique_visitors": 24656,
+        "page_views": 52775,
+        "visits": 52775,
+        "unique_visitors": 25201,
         "daily": [
           {
             "date": "2026-11-01",
@@ -5179,7 +5235,11 @@
           },
           {
             "date": "2026-11-27",
-            "pageViews": 984
+            "pageViews": 1761
+          },
+          {
+            "date": "2026-11-28",
+            "pageViews": 117
           }
         ]
       },
@@ -5240,14 +5300,14 @@
         },
         {
           "month": "2026-11",
-          "pageViews": 51881
+          "pageViews": 52775
         }
       ],
       "adsense": {
         "revenue": 0.0,
         "impressions": 0,
         "clicks": 0,
-        "page_views": 163,
+        "page_views": 164,
         "rpm": 0.0
       },
       "yt_total_views": 118,
